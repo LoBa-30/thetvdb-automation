@@ -17,6 +17,7 @@ const result = {
   finalTitle: null,
   logoutControlFound: false,
   loginFormStillVisible: false,
+  credentialsFilled: { email: false, password: false },
   form: {
     action: null,
     method: null,
@@ -79,30 +80,40 @@ try {
     })));
   }
 
-  const userField = page.locator('input[type="email"], input[name*="email" i], input[name*="user" i], input[type="text"]').first();
-  const passwordField = page.locator('input[type="password"]').first();
+  // TheTVDB's login form uses exact field names `email` and `password`.
+  // Avoid broad selectors: a union locator can pick another text input earlier in DOM order.
+  const userField = page.locator('form input[name="email"]').first();
+  const passwordField = page.locator('form input[name="password"]').first();
 
   const userVisible = await userField.isVisible().catch(() => false);
   const passVisible = await passwordField.isVisible().catch(() => false);
 
   if (!userVisible || !passVisible) {
-    result.notes.push('Login form fields could not be identified safely.');
+    result.notes.push('Exact TheTVDB email/password fields could not be identified safely.');
   } else {
     await userField.fill(username);
     await passwordField.fill(password);
 
-    const submit = page.locator('button[type="submit"], input[type="submit"], button:has-text("Login"), button:has-text("Sign In")').first();
-    if (await submit.isVisible().catch(() => false)) {
-      result.form.submitText = ((await submit.textContent().catch(() => '')) || '').replace(/\s+/g, ' ').trim() || await submit.getAttribute('value').catch(() => null);
+    // Verify only that values are non-empty; never log secret values.
+    result.credentialsFilled.email = (await userField.inputValue().catch(() => '')).length > 0;
+    result.credentialsFilled.password = (await passwordField.inputValue().catch(() => '')).length > 0;
 
-      await Promise.all([
-        page.waitForLoadState('domcontentloaded').catch(() => {}),
-        submit.click()
-      ]);
-      result.loginSubmitted = true;
-      await page.waitForTimeout(3000);
+    if (!result.credentialsFilled.email || !result.credentialsFilled.password) {
+      result.notes.push('One or both credential fields remained empty after fill; submission blocked.');
     } else {
-      result.notes.push('Submit button could not be identified safely.');
+      const submit = form.locator('button[type="submit"], input[type="submit"], button:has-text("Login"), button:has-text("Sign In")').first();
+      if (await submit.isVisible().catch(() => false)) {
+        result.form.submitText = ((await submit.textContent().catch(() => '')) || '').replace(/\s+/g, ' ').trim() || await submit.getAttribute('value').catch(() => null);
+
+        await Promise.all([
+          page.waitForLoadState('domcontentloaded').catch(() => {}),
+          submit.click()
+        ]);
+        result.loginSubmitted = true;
+        await page.waitForTimeout(3000);
+      } else {
+        result.notes.push('Submit button could not be identified safely inside the login form.');
+      }
     }
   }
 
@@ -212,6 +223,7 @@ console.log(`Initial URL: ${result.initialUrl || 'n/a'}`);
 console.log(`Final URL: ${result.finalUrl || 'n/a'}`);
 console.log(`Form: ${(result.form.method || 'n/a').toUpperCase()} ${result.form.action || 'n/a'}`);
 console.log(`Fields: ${result.form.fields.map(f => `${f.type}:${f.name || f.id || '(unnamed)'}`).join(', ') || 'none'}`);
+console.log(`Credential fields filled: email=${result.credentialsFilled.email}, password=${result.credentialsFilled.password}`);
 console.log(`Responses: ${result.submissionResponses.map(r => `${r.method} ${r.status} ${r.url}`).join(' | ') || 'none'}`);
 console.log(`Visible messages: ${result.visibleMessages.join(' | ') || 'none'}`);
 console.log(`Protection signals: ${result.protectionSignals.join(', ') || 'none'}`);
