@@ -15,6 +15,7 @@
     "post:apply-check": "node src/post-apply-check.js",
     "batch:preflight": "node src/batch-preflight.js",
     "batch:resolve": "node src/batch-resolve.js && node src/elian-rss-check.js",
+    "batch:apply-all": "node --import ./src/css-shim.js src/batch-apply-all.js",
     "audit:plan": "npm run audit && npm run plan",
     "audit:plan:edit": "npm run audit && npm run plan && npm run edit",
     "batch:prepare": "npm run audit:all && npm run batch:preflight"
