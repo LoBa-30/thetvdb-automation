@@ -10,6 +10,7 @@
     "auth:preflight": "node src/auth-preflight.js",
     "form:preflight": "node src/form-preflight.js",
     "final:dry-run": "node src/final-dry-run.js",
+    "final:apply": "node src/final-apply.js",
     "audit:plan": "npm run audit && npm run plan",
     "audit:plan:edit": "npm run audit && npm run plan && npm run edit"
   },
