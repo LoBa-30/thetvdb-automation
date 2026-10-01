@@ -6,7 +6,9 @@
   "scripts": {
     "audit": "node src/audit.js",
     "plan": "node src/plan.js",
-    "audit:plan": "npm run audit && npm run plan"
+    "edit": "node src/edit.js",
+    "audit:plan": "npm run audit && npm run plan",
+    "audit:plan:edit": "npm run audit && npm run plan && npm run edit"
   },
   "dependencies": {
     "@playwright/test": "^1.55.0"
