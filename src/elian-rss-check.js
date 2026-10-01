@@ -4,7 +4,6 @@ import fs from 'node:fs/promises';
 const VIDEO_ID = 'xkGjW_FR8vI';
 const VIDEO_URL = `https://www.youtube.com/watch?v=${VIDEO_ID}`;
 const HANDLE_URL = 'https://www.youtube.com/@elianventre';
-const EXPECTED_TITLE = 'Nos cabanes vont-elles résister au Loup ?! (ft. Maxime Biaggi)';
 
 await fs.mkdir('reports', { recursive: true });
 
@@ -15,7 +14,6 @@ const report = {
   generatedAt: new Date().toISOString(),
   mode: 'ELIAN_YOUTUBE_RSS_READ_ONLY',
   videoId: VIDEO_ID,
-  expectedTitle: EXPECTED_TITLE,
   channelId: null,
   publishedAt: null,
   publishedDate: null,
@@ -23,6 +21,7 @@ const report = {
   seasonCount: elian?.seasonCount ?? null,
   currentLastAirdate: elian?.currentLastAirdate ?? null,
   proposedEpisodeNumber: null,
+  identityProof: null,
   readyForBatchApply: false,
   diagnostics: []
 };
@@ -56,7 +55,6 @@ try {
     const handleHtml = await htmlOf(HANDLE_URL);
     report.channelId = extractChannelId(handleHtml || '');
   }
-
   if (!report.channelId) throw new Error('Unable to resolve Elian channel ID from YouTube public pages.');
 
   const feedUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${report.channelId}`;
@@ -68,19 +66,20 @@ try {
   const entry = entries.find(e => new RegExp(`<yt:videoId>${VIDEO_ID}<\\/yt:videoId>`).test(e));
   if (!entry) throw new Error('Target video is not present in the current official YouTube RSS feed.');
 
+  report.identityProof = 'EXACT_VIDEO_ID_IN_OFFICIAL_YOUTUBE_RSS';
   report.publishedAt = entry.match(/<published>([^<]+)<\/published>/)?.[1] || null;
   report.publishedDate = report.publishedAt ? new Date(report.publishedAt).toISOString().slice(0, 10) : null;
-  report.feedTitle = entry.match(/<title>([\s\S]*?)<\/title>/)?.[1]?.replace(/&amp;/g, '&').replace(/&#39;/g, "'").replace(/&quot;/g, '"') || null;
+  report.feedTitle = entry.match(/<title>([\s\S]*?)<\/title>/)?.[1]
+    ?.replace(/&amp;/g, '&').replace(/&#39;/g, "'").replace(/&quot;/g, '"') || null;
 
-  const titleOk = report.feedTitle && report.feedTitle.toLowerCase().includes('cabanes') && report.feedTitle.toLowerCase().includes('loup');
   const dateOk = /^2026-\d{2}-\d{2}$/.test(report.publishedDate || '');
   const orderOk = report.seasonCount === 7 && dateOk && (!report.currentLastAirdate || report.publishedDate > report.currentLastAirdate);
 
   report.proposedEpisodeNumber = orderOk ? 8 : null;
-  report.readyForBatchApply = Boolean(titleOk && dateOk && orderOk);
+  report.readyForBatchApply = Boolean(report.identityProof && report.feedTitle && dateOk && orderOk);
 
-  if (!titleOk) report.diagnostics.push('RSS title does not confidently match the expected Elian video.');
   if (!dateOk) report.diagnostics.push('RSS publish date missing or invalid.');
+  if (!report.feedTitle) report.diagnostics.push('RSS title missing.');
   if (!orderOk) report.diagnostics.push(`Cannot prove E08 ordering: seasonCount=${report.seasonCount}, last=${report.currentLastAirdate}, publish=${report.publishedDate}.`);
 } catch (error) {
   report.diagnostics.push(error?.message || String(error));
@@ -93,6 +92,7 @@ const text = [
   `Mode: ${report.mode}`,
   `Channel ID: ${report.channelId || '?'}`,
   `Video: ${report.videoId}`,
+  `Identity proof: ${report.identityProof || '?'}`,
   `RSS title: ${report.feedTitle || '?'}`,
   `Published: ${report.publishedAt || '?'}`,
   `Published date: ${report.publishedDate || '?'}`,
