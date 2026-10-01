@@ -14,6 +14,7 @@ on:
           - form-preflight
           - final-dry-run
           - post-apply-check
+          - batch-preflight
           - apply
 
 permissions:
@@ -22,7 +23,7 @@ permissions:
 jobs:
   controlled-edit:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - name: Checkout
@@ -75,6 +76,10 @@ jobs:
           TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
           TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
         run: npm run post:apply-check
+
+      - name: Full 9-channel batch preflight
+        if: ${{ inputs.mode == 'batch-preflight' }}
+        run: npm run batch:prepare
 
       - name: Exact final apply
         if: ${{ inputs.mode == 'apply' }}
