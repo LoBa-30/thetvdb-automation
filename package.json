@@ -14,6 +14,7 @@
     "final:apply": "node src/final-apply.js",
     "post:apply-check": "node src/post-apply-check.js",
     "batch:preflight": "node src/batch-preflight.js",
+    "batch:resolve": "node src/batch-resolve.js",
     "audit:plan": "npm run audit && npm run plan",
     "audit:plan:edit": "npm run audit && npm run plan && npm run edit",
     "batch:prepare": "npm run audit:all && npm run batch:preflight"
