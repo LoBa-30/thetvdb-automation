@@ -12,6 +12,7 @@ on:
           - dry-run
           - auth-preflight
           - form-preflight
+          - final-dry-run
           - apply
 
 permissions:
@@ -61,6 +62,13 @@ jobs:
           TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
           TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
         run: npm run form:preflight
+
+      - name: Exact final dry-run
+        if: ${{ inputs.mode == 'final-dry-run' }}
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: npm run final:dry-run
 
       - name: Upload execution report
         if: always()
