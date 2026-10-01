@@ -1,0 +1,171 @@
+{
+  "version": "2026-10-01",
+  "policy": {
+    "noDeletes": true,
+    "noUnassignedWrites": true,
+    "noSqueezieJapanExpoWrite": true,
+    "skipAlreadyCorrect": true,
+    "preflightBeforeFirstWrite": true,
+    "verifyAfterEveryWrite": true,
+    "stopOnUnexpectedState": true
+  },
+  "episodeEdits": [
+    {
+      "target": "Djilsi",
+      "slug": "djilsi",
+      "season": 2026,
+      "episode": 11,
+      "publicId": "12014131",
+      "desiredTitle": "RDV LE SAMEDI 5 SEPTEMBRE À 11H... 🫶🏻",
+      "desiredFirstAired": "2026-08-24"
+    },
+    {
+      "target": "Djilsi",
+      "slug": "djilsi",
+      "season": 2026,
+      "episode": 17,
+      "publicId": "12014132",
+      "desiredTitle": "Une fin d’aventure pleine de rebondissements… - ON VA OÙ 7 ep6 FINAL",
+      "desiredFirstAired": "2026-09-23",
+      "desiredRuntimeMinutes": 62
+    },
+    {
+      "target": "Raska",
+      "slug": "raska",
+      "season": 2017,
+      "episode": 3,
+      "publicId": "11960839",
+      "desiredTitle": "KRISY RAPPEUR ET PRODUCTEUR DE DAMSO ! 🖖"
+    },
+    {
+      "target": "Joyca",
+      "slug": "335805-show",
+      "season": 2026,
+      "episode": 7,
+      "publicId": "11719791",
+      "desiredTitle": "ON TESTE 31 FROMAGES BIZARRES ! (ft. McFly et Carlito)"
+    },
+    {
+      "target": "Joyca",
+      "slug": "335805-show",
+      "season": 2026,
+      "episode": 8,
+      "publicId": "11749116",
+      "desiredTitle": "BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan)",
+      "desiredRuntimeMinutes": 59
+    },
+    {
+      "target": "Joyca",
+      "slug": "335805-show",
+      "season": 2026,
+      "episode": 14,
+      "publicId": "11908448",
+      "desiredTitle": "ON CLASSE TOUS LES BILLETS DU MONDE (Avec Mcfly & Carlito et Mathieu)",
+      "desiredRuntimeMinutes": 112
+    },
+    {
+      "target": "Mcfly & Carlito",
+      "slug": "338282-show",
+      "season": 2022,
+      "episode": 9,
+      "publicId": "9381309",
+      "desiredTitle": "Qui est le papa de qui ? Préparez les 🍿 ainsi que les 🤧"
+    },
+    {
+      "target": "Mcfly & Carlito",
+      "slug": "338282-show",
+      "season": 2024,
+      "episode": 54,
+      "publicId": "10677628",
+      "desiredTitle": "Podcartes Feat. Océane 🌷#2"
+    },
+    {
+      "target": "Mcfly & Carlito",
+      "slug": "338282-show",
+      "season": 2024,
+      "episode": 63,
+      "publicId": "10714431",
+      "desiredFirstAired": "2024-09-05"
+    },
+    {
+      "target": "Mcfly & Carlito",
+      "slug": "338282-show",
+      "season": 2026,
+      "episode": 8,
+      "publicId": "11595720",
+      "desiredTitle": "La moins bonne vidéo de la chaîne ? (Mcfly et les autres ont détesté mais Carl a aimé)"
+    },
+    {
+      "target": "Mcfly & Carlito",
+      "slug": "338282-show",
+      "season": 2026,
+      "episode": 11,
+      "publicId": "11614913",
+      "desiredTitle": "Quel couple se connaît le mieux ? Avec Erika et Tif 💜 (y’a TOUT dans cette vidéo)"
+    },
+    {
+      "target": "Mcfly & Carlito",
+      "slug": "338282-show",
+      "season": 2026,
+      "episode": 30,
+      "publicId": "11792871",
+      "desiredRuntimeMinutes": 88
+    },
+    {
+      "target": "Mcfly & Carlito",
+      "slug": "338282-show",
+      "season": 2026,
+      "episode": 43,
+      "publicId": "11879094",
+      "desiredTitle": "On classe 32 friandises de cinéma avec Florent Bernard & Seb Vaniček (Mcfly n’aime pas le popcorn 🍿)"
+    }
+  ],
+  "episodeAdds": [
+    {
+      "target": "Elian Ventre",
+      "slug": "elian-ventre-462729",
+      "season": 2026,
+      "episode": 8,
+      "youtubeVideoId": "xkGjW_FR8vI",
+      "name": "On s'affronte pour construire la meilleure cabane ! ft. Maxime Biaggi",
+      "date": "2026-09-30",
+      "expectedSeasonCountBefore": 7,
+      "expectedPreviousLastAirdate": "2026-07-18",
+      "mode": "APPEND"
+    },
+    {
+      "target": "Mastu",
+      "slug": "346011-show",
+      "season": 2021,
+      "episode": 17,
+      "youtubeVideoId": "qbR6r1voD5Q",
+      "name": "JE REGARDE UN EPISODE DE NEXT (10 ans après) #8",
+      "date": "2021-06-26",
+      "expectedPreviousEpisode": 16,
+      "expectedPreviousAirdate": "2021-06-19",
+      "expectedNextEpisode": 17,
+      "expectedNextAirdate": "2021-07-03",
+      "mode": "INSERT_SHIFT_FROM_17"
+    },
+    {
+      "target": "Mastu",
+      "slug": "346011-show",
+      "season": 2026,
+      "episode": 15,
+      "youtubeVideoId": "RyR2zY51hnI",
+      "name": "LA TABLE INFERNALE 2 (Avec Byilhan, Flamby et Elian)",
+      "date": "2026-09-19",
+      "runtimeMinutes": 49,
+      "expectedSeasonCountBefore": 14,
+      "mode": "APPEND"
+    }
+  ],
+  "verifyOnly": [
+    "Raska 2017 E04: title/date/runtime already read as LE RAP FÉMININ EN FORCE ! ✊ / 2017-11-19 / 8 min; do not write unless a future dedicated audit proves a real field mismatch.",
+    "Raska 2018 and 2023 numbering: already applied; verify only.",
+    "Maxime Biaggi: 64 YouTube videos ↔ 64 TheTVDB episodes; no write.",
+    "Squeezie Japan Expo 2012: review only; no automatic create.",
+    "Amixem/Joyca/Mcfly & Carlito Unassigned groups: no mass write or deletion.",
+    "All historical-control rows from the source audit remain verify-only unless an exact desired value and exact episode target are available."
+  ]
+}
