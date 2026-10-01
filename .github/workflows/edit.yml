@@ -1,0 +1,55 @@
+name: TheTVDB controlled edit
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Mode d’exécution'
+        required: true
+        default: 'dry-run'
+        type: choice
+        options:
+          - dry-run
+          - apply
+
+permissions:
+  contents: read
+
+jobs:
+  controlled-edit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Rebuild fresh audit and correction plan
+        run: npm run audit:plan
+
+      - name: Controlled edit preflight
+        env:
+          TVDB_EDIT_MODE: ${{ inputs.mode }}
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: npm run edit
+
+      - name: Upload execution report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: thetvdb-edit-preflight
+          path: reports/
+          if-no-files-found: warn
+          retention-days: 30
