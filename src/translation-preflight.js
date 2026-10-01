@@ -16,9 +16,10 @@ await fs.mkdir('reports', { recursive: true });
 
 const report = {
   generatedAt: new Date().toISOString(),
-  mode: 'TRANSLATION_PREFLIGHT_READ_ONLY',
+  mode: 'TRANSLATION_PREFLIGHT_DEEP_READ_ONLY',
   authenticated: false,
   writeRequestsDetected: 0,
+  blockedPostRequests: [],
   targets: [],
   unresolved: [],
   ok: false
@@ -40,7 +41,7 @@ let loginComplete = false;
 
 context.on('request', request => {
   if (!loginComplete) return;
-  if (request.method() === 'POST' && /thetvdb\.com\/(series|movies|people)\//i.test(request.url())) {
+  if (request.method() === 'POST' && /thetvdb\.com\//i.test(request.url())) {
     report.writeRequestsDetected += 1;
   }
 });
@@ -50,7 +51,7 @@ async function goto(url) {
   for (let attempt = 1; attempt <= 3; attempt += 1) {
     last = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => null);
     if (last && last.status() < 400) {
-      await page.waitForTimeout(600);
+      await page.waitForTimeout(900);
       return last;
     }
     await page.waitForTimeout(800 * attempt);
@@ -100,15 +101,59 @@ async function collectForms() {
         visible: Boolean(node.offsetWidth || node.offsetHeight || node.getClientRects().length)
       };
     }).filter(x => x.name),
-    submitControls: [...form.querySelectorAll('button, input[type="submit"], a')].map(node => ({
+    controls: [...form.querySelectorAll('button, input[type="submit"], a, [role="button"]')].map(node => ({
       tag: node.tagName.toLowerCase(),
       type: node.getAttribute('type'),
       text: (node.textContent || node.value || '').replace(/\s+/g, ' ').trim(),
       href: node.href || null,
       name: node.getAttribute('name'),
       value: node.getAttribute('value')
-    })).filter(x => /save|submit|translation|update|change/i.test(`${x.text} ${x.name || ''} ${x.value || ''} ${x.href || ''}`))
+    }))
   })));
+}
+
+async function collectPageDiagnostics() {
+  return page.evaluate(() => {
+    const visible = node => Boolean(node.offsetWidth || node.offsetHeight || node.getClientRects().length);
+    const attrs = node => {
+      const out = {};
+      for (const a of node.attributes || []) {
+        if (/^(href|value|name|id|role|type|onclick|data-|aria-)/i.test(a.name)) out[a.name] = a.value;
+      }
+      return out;
+    };
+    const controls = [...document.querySelectorAll('a, button, select, option, input, [role="button"], [onclick], [data-href], [data-url], [data-target], [data-value]')]
+      .map((node, index) => ({
+        index,
+        tag: node.tagName.toLowerCase(),
+        text: (node.textContent || node.value || '').replace(/\s+/g, ' ').trim().slice(0, 500),
+        visible: visible(node),
+        attrs: attrs(node)
+      }))
+      .filter(x => x.visible || /language|lang|fran|english|translation|translate|edit/i.test(`${x.text} ${JSON.stringify(x.attrs)}`));
+
+    const selects = [...document.querySelectorAll('select')].map((s, index) => ({
+      index,
+      name: s.getAttribute('name'),
+      id: s.id || null,
+      value: s.value,
+      visible: visible(s),
+      options: [...s.options].map(o => ({ text: (o.textContent || '').trim(), value: o.value, selected: o.selected }))
+    }));
+
+    const scripts = [...document.scripts].map((s, index) => ({
+      index,
+      src: s.src || null,
+      interestingInline: !s.src && /language|translation|translate|episode/i.test(s.textContent || '') ? (s.textContent || '').slice(0, 5000) : null
+    })).filter(x => x.src || x.interestingInline);
+
+    return {
+      bodyText: (document.body?.innerText || '').replace(/\n{3,}/g, '\n\n').slice(0, 20000),
+      controls,
+      selects,
+      scripts
+    };
+  });
 }
 
 async function collectTranslationLinks() {
@@ -120,10 +165,43 @@ async function collectTranslationLinks() {
   })).filter(x => /translation/i.test(`${x.text} ${x.href} ${x.title || ''} ${x.ariaLabel || ''}`)));
 }
 
+function candidateUrlsFromDiagnostics(diag, baseUrl) {
+  const out = new Set();
+  const add = value => {
+    if (!value || typeof value !== 'string') return;
+    try {
+      const url = new URL(value, baseUrl).href;
+      if (/thetvdb\.com\/series\/.*\/episodes\/\d+\/translate\//i.test(url)) out.add(url);
+    } catch {}
+  };
+  for (const c of diag.controls || []) {
+    for (const [k, v] of Object.entries(c.attrs || {})) {
+      if (/href|url|target|value/i.test(k)) add(v);
+    }
+  }
+  for (const s of diag.selects || []) for (const o of s.options || []) add(o.value);
+  for (const s of diag.scripts || []) {
+    const text = s.interestingInline || '';
+    for (const m of text.matchAll(/['"]([^'"]*\/translate\/[^'"]+)['"]/g)) add(m[1]);
+  }
+  return [...out];
+}
+
 try {
   report.authenticated = await login();
   if (!report.authenticated) throw new Error('Authenticated session could not be proven.');
   loginComplete = true;
+
+  // From here on, abort every POST at the browser routing layer. This preflight can only navigate/read.
+  await context.route('**/*', async route => {
+    const req = route.request();
+    if (req.method() === 'POST') {
+      report.blockedPostRequests.push({ url: req.url(), resourceType: req.resourceType() });
+      await route.abort();
+      return;
+    }
+    await route.continue();
+  });
 
   for (const def of TARGETS) {
     const episodeUrl = `${BASE}/series/${def.slug}/episodes/${def.publicId}`;
@@ -138,20 +216,28 @@ try {
       translationPages: []
     };
 
-    const unique = [...new Set(links.map(x => x.href).filter(href => href.startsWith(BASE)))];
-    for (const url of unique) {
+    const queue = [...new Set(links.map(x => x.href).filter(href => href.startsWith(BASE)))];
+    const visited = new Set();
+    while (queue.length && visited.size < 8) {
+      const url = queue.shift();
+      if (!url || visited.has(url)) continue;
+      visited.add(url);
       await goto(url);
+      const diagnostics = await collectPageDiagnostics();
+      const discovered = candidateUrlsFromDiagnostics(diagnostics, page.url());
+      for (const u of discovered) if (!visited.has(u)) queue.push(u);
       item.translationPages.push({
         requestedUrl: url,
         finalUrl: page.url(),
         pageTitle: await page.title().catch(() => null),
         h1: await page.locator('h1').first().innerText().catch(() => null),
         forms: await collectForms(),
-        links: await collectTranslationLinks()
+        diagnostics,
+        discoveredTranslationUrls: discovered
       });
     }
 
-    if (!unique.length) {
+    if (!links.length) {
       report.unresolved.push({ target: def.target, reason: 'No Edit Translations link discovered on authenticated episode page.' });
     }
     report.targets.push(item);
@@ -169,6 +255,7 @@ const lines = [
   `Mode: ${report.mode}`,
   `Authenticated: ${report.authenticated}`,
   `Write requests detected: ${report.writeRequestsDetected}`,
+  `Blocked POST requests: ${report.blockedPostRequests.length}`,
   `Targets: ${report.targets.length}`,
   `Unresolved: ${report.unresolved.length}`,
   `OK: ${report.ok}`,
@@ -179,6 +266,13 @@ for (const t of report.targets) {
   for (const l of t.translationLinks) lines.push(`  LINK | ${l.text || '(no text)'} | ${l.href}`);
   for (const p of t.translationPages) {
     lines.push(`  PAGE | ${p.finalUrl}`);
+    for (const s of p.diagnostics?.selects || []) {
+      lines.push(`    SELECT | ${s.name || s.id || '(unnamed)'} | ${s.options.map(o => `${o.text}=>${o.value}`).join(' || ')}`);
+    }
+    for (const c of (p.diagnostics?.controls || []).filter(x => /language|lang|fran|english|translation|translate|edit/i.test(`${x.text} ${JSON.stringify(x.attrs)}`))) {
+      lines.push(`    CONTROL | ${c.tag} | ${c.text || '(no text)'} | ${JSON.stringify(c.attrs)}`);
+    }
+    for (const u of p.discoveredTranslationUrls || []) lines.push(`    DISCOVERED | ${u}`);
     for (const f of p.forms) {
       lines.push(`    FORM | ${f.method} | ${f.action}`);
       for (const field of f.fields.filter(x => /name|title|overview|language|lang|translation/i.test(x.name || ''))) {
