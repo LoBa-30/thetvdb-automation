@@ -13,6 +13,7 @@ on:
           - auth-preflight
           - form-preflight
           - final-dry-run
+          - post-apply-check
           - apply
 
 permissions:
@@ -67,6 +68,13 @@ jobs:
           TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
           TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
         run: npm run final:dry-run
+
+      - name: Read-only post-apply verification
+        if: ${{ inputs.mode == 'post-apply-check' }}
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: npm run post:apply-check
 
       - name: Exact final apply
         if: ${{ inputs.mode == 'apply' }}
