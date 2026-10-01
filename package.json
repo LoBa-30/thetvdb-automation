@@ -4,7 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "audit": "node src/audit.js"
+    "audit": "node src/audit.js",
+    "plan": "node src/plan.js",
+    "audit:plan": "npm run audit && npm run plan"
   },
   "dependencies": {
     "@playwright/test": "^1.55.0"
