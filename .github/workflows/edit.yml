@@ -41,12 +41,10 @@ jobs:
       - name: Rebuild fresh audit and correction plan
         run: npm run audit:plan
 
-      - name: Controlled dry-run or apply preflight
-        if: ${{ inputs.mode == 'dry-run' || inputs.mode == 'apply' }}
+      - name: Controlled dry-run
+        if: ${{ inputs.mode == 'dry-run' }}
         env:
-          TVDB_EDIT_MODE: ${{ inputs.mode }}
-          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
-          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+          TVDB_EDIT_MODE: dry-run
         run: npm run edit
 
       - name: Authentication preflight only
@@ -69,6 +67,14 @@ jobs:
           TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
           TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
         run: npm run final:dry-run
+
+      - name: Exact final apply
+        if: ${{ inputs.mode == 'apply' }}
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+          TVDB_FINAL_APPLY: 'yes'
+        run: npm run final:apply
 
       - name: Upload execution report
         if: always()
