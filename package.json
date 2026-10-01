@@ -11,6 +11,7 @@
     "form:preflight": "node src/form-preflight.js",
     "final:dry-run": "node src/final-dry-run.js",
     "final:apply": "node src/final-apply.js",
+    "post:apply-check": "node src/post-apply-check.js",
     "audit:plan": "npm run audit && npm run plan",
     "audit:plan:edit": "npm run audit && npm run plan && npm run edit"
   },
