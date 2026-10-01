@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-10-01",
+  "sourceRun": 36916207305,
+  "locks": [
+    {
+      "target": "Elian Ventre",
+      "youtubeVideoId": "xkGjW_FR8vI",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xkGjW_FR8vI",
+      "identityProof": "EXACT_VIDEO_ID_IN_OFFICIAL_YOUTUBE_RSS",
+      "officialCurrentTitle": "On s'affronte pour construire la meilleure cabane ! ft. Maxime Biaggi",
+      "publishedAt": "2026-09-30T16:38:11+00:00",
+      "publishedDate": "2026-09-30",
+      "tvdbSeason": 2026,
+      "tvdbEpisodeNumber": 8,
+      "preflightSeasonCount": 7,
+      "preflightPreviousLastAirdate": "2026-07-18",
+      "status": "READY_FOR_BATCH_APPLY",
+      "note": "The audit title was stale. The official YouTube RSS entry for the exact video ID is authoritative for current title/date."
+    }
+  ]
+}
