@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "audit": "node src/audit.js",
+    "audit:all": "node src/audit-all.js",
     "plan": "node src/plan.js",
     "edit": "node src/edit.js",
     "auth:preflight": "node src/auth-preflight.js",
@@ -12,8 +13,10 @@
     "final:dry-run": "node src/final-dry-run.js",
     "final:apply": "node src/final-apply.js",
     "post:apply-check": "node src/post-apply-check.js",
+    "batch:preflight": "node src/batch-preflight.js",
     "audit:plan": "npm run audit && npm run plan",
-    "audit:plan:edit": "npm run audit && npm run plan && npm run edit"
+    "audit:plan:edit": "npm run audit && npm run plan && npm run edit",
+    "batch:prepare": "npm run audit:all && npm run batch:preflight"
   },
   "dependencies": {
     "@playwright/test": "^1.55.0"
