@@ -1,0 +1,48 @@
+name: TheTVDB parallel 9-channel audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'src/audit-one.js'
+      - '.github/workflows/audit-parallel.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [djilsi, elian, raska, maxime, squeezie, mastu, amixem, joyca, mcfly]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Audit ${{ matrix.target }}
+        run: node src/audit-one.js ${{ matrix.target }}
+
+      - name: Upload result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: thetvdb-audit-${{ matrix.target }}
+          path: reports/${{ matrix.target }}/
+          if-no-files-found: warn
+          retention-days: 30
