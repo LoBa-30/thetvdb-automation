@@ -97,7 +97,7 @@ async function languageCandidates() {
     dataset: { ...node.dataset },
     visible: Boolean(node.offsetWidth || node.offsetHeight || node.getClientRects().length),
     outerHTML: node.outerHTML.slice(0, 2500)
-  })).filter(x => /english|french|fran[cç]ais|anglais|translation|translate/i.test(`${x.text} ${x.href || ''} ${x.onclick || ''} ${JSON.stringify(x.dataset)}`))));
+  })).filter(x => /english|french|fran[cç]ais|anglais|translation|translate/i.test(`${x.text} ${x.href || ''} ${x.onclick || ''} ${JSON.stringify(x.dataset)}`)));
 }
 
 try {
