@@ -26,7 +26,7 @@ jobs:
       - name: Retrieve Mastu Videos tab
         run: |
           mkdir -p reports/mastu-ytdlp
-          yt-dlp --flat-playlist --dump-single-json --no-warnings 'https://www.youtube.com/channel/UCAhaFPP6v3WCfK5Tjao0B7A/videos' > reports/mastu-ytdlp/catalogue.json
+          yt-dlp --flat-playlist --dump-single-json --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/channel/UCAhaFPP6v3WCfK5Tjao0B7A/videos' > reports/mastu-ytdlp/catalogue.json
           python - <<'PY'
           import json
           p='reports/mastu-ytdlp/catalogue.json'
@@ -42,7 +42,6 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: mastu-ytdlp-catalogue
+          name: mastu-ytdlp-catalogue-fr
           path: reports/mastu-ytdlp/
           retention-days: 30
-# trigger 2026-10-01
