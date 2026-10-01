@@ -64,6 +64,10 @@ jobs:
           TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
         run: npm run form:preflight
 
+      - name: Static check for translation preflight
+        if: ${{ inputs.mode == 'translation-preflight' }}
+        run: node --check src/translation-preflight-v2.js
+
       - name: Read-only translation form preflight
         if: ${{ inputs.mode == 'translation-preflight' }}
         env:
