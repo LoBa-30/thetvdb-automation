@@ -18,6 +18,14 @@ const result = {
   logoutControlFound: false,
   loginFormStillVisible: false,
   credentialsFilled: { email: false, password: false },
+  sessionProbe: {
+    url: 'https://thetvdb.com/auth/getuser',
+    status: null,
+    ok: false,
+    contentType: null,
+    bodyLooksAuthenticated: false,
+    bodyPreview: null
+  },
   form: {
     action: null,
     method: null,
@@ -44,11 +52,7 @@ const context = await browser.newContext({
 });
 const page = await context.newPage();
 
-const interestingResponse = response => {
-  const url = response.url();
-  return /thetvdb\.com\/(auth|login|account|user|profile)/i.test(url);
-};
-
+const interestingResponse = response => /thetvdb\.com\/(auth|login|account|user|profile)/i.test(response.url());
 page.on('response', response => {
   if (!interestingResponse(response)) return;
   const entry = {
@@ -80,8 +84,6 @@ try {
     })));
   }
 
-  // TheTVDB's login form uses exact field names `email` and `password`.
-  // Avoid broad selectors: a union locator can pick another text input earlier in DOM order.
   const userField = page.locator('form input[name="email"]').first();
   const passwordField = page.locator('form input[name="password"]').first();
 
@@ -94,7 +96,6 @@ try {
     await userField.fill(username);
     await passwordField.fill(password);
 
-    // Verify only that values are non-empty; never log secret values.
     result.credentialsFilled.email = (await userField.inputValue().catch(() => '')).length > 0;
     result.credentialsFilled.password = (await passwordField.inputValue().catch(() => '')).length > 0;
 
@@ -104,13 +105,12 @@ try {
       const submit = form.locator('button[type="submit"], input[type="submit"], button:has-text("Login"), button:has-text("Sign In")').first();
       if (await submit.isVisible().catch(() => false)) {
         result.form.submitText = ((await submit.textContent().catch(() => '')) || '').replace(/\s+/g, ' ').trim() || await submit.getAttribute('value').catch(() => null);
-
         await Promise.all([
           page.waitForLoadState('domcontentloaded').catch(() => {}),
           submit.click()
         ]);
         result.loginSubmitted = true;
-        await page.waitForTimeout(3000);
+        await page.waitForTimeout(2500);
       } else {
         result.notes.push('Submit button could not be identified safely inside the login form.');
       }
@@ -121,16 +121,8 @@ try {
   result.finalTitle = await page.title();
 
   const messageSelectors = [
-    '[role="alert"]',
-    '.alert',
-    '.alert-danger',
-    '.alert-error',
-    '.error',
-    '.errors',
-    '.invalid-feedback',
-    '.help-block',
-    'form .text-danger',
-    'form .text-red-500'
+    '[role="alert"]', '.alert', '.alert-danger', '.alert-error', '.error', '.errors',
+    '.invalid-feedback', '.help-block', 'form .text-danger', 'form .text-red-500'
   ];
   for (const selector of messageSelectors) {
     const texts = await page.locator(selector).evaluateAll(nodes => nodes
@@ -158,12 +150,8 @@ try {
   }
 
   const captchaSelectors = [
-    'iframe[src*="recaptcha"]',
-    'iframe[src*="hcaptcha"]',
-    '[class*="captcha" i]',
-    '[id*="captcha" i]',
-    'input[name*="captcha" i]',
-    '[data-sitekey]'
+    'iframe[src*="recaptcha"]', 'iframe[src*="hcaptcha"]', '[class*="captcha" i]',
+    '[id*="captcha" i]', 'input[name*="captcha" i]', '[data-sitekey]'
   ];
   for (const selector of captchaSelectors) {
     if (await page.locator(selector).count().catch(() => 0)) {
@@ -172,15 +160,10 @@ try {
   }
 
   const logoutSelectors = [
-    'a:has-text("Logout")',
-    'button:has-text("Logout")',
-    'a:has-text("Log out")',
-    'button:has-text("Log out")',
-    'a:has-text("Sign out")',
-    'button:has-text("Sign out")',
+    'a:has-text("Logout")', 'button:has-text("Logout")', 'a:has-text("Log out")',
+    'button:has-text("Log out")', 'a:has-text("Sign out")', 'button:has-text("Sign out")',
     'a[href*="logout"]'
   ];
-
   for (const selector of logoutSelectors) {
     if (await page.locator(selector).first().isVisible().catch(() => false)) {
       result.logoutControlFound = true;
@@ -192,24 +175,41 @@ try {
     (await page.locator('input[type="password"]').first().isVisible().catch(() => false)) ||
     (await page.locator('form').filter({ has: page.locator('input[type="password"]') }).first().isVisible().catch(() => false));
 
+  // Session proof: query TheTVDB's own user endpoint with the same browser context/cookies.
+  const sessionResponse = await context.request.get(result.sessionProbe.url, { timeout: 30000 }).catch(() => null);
+  if (sessionResponse) {
+    result.sessionProbe.status = sessionResponse.status();
+    result.sessionProbe.ok = sessionResponse.ok();
+    result.sessionProbe.contentType = sessionResponse.headers()['content-type'] || null;
+    const raw = await sessionResponse.text().catch(() => '');
+    const compact = raw.replace(/\s+/g, ' ').trim();
+    result.sessionProbe.bodyPreview = compact.slice(0, 180);
+
+    // Treat as authenticated only if endpoint is successful and returns a non-empty user-like payload.
+    // Do not require a specific username or expose account details.
+    const looksJson = /application\/json/i.test(result.sessionProbe.contentType || '') || /^[\[{]/.test(compact);
+    const notGuestLike = !/\b(null|false|guest|unauthenticated|not authenticated|login required)\b/i.test(compact);
+    result.sessionProbe.bodyLooksAuthenticated = Boolean(result.sessionProbe.ok && looksJson && compact && notGuestLike);
+  }
+
   const urlStillLogin = /\/auth\/login(?:[/?#]|$)|\/login(?:[/?#]|$)/i.test(result.finalUrl || '');
 
   result.authenticated = Boolean(
     result.loginSubmitted &&
     !urlStillLogin &&
     !result.loginFormStillVisible &&
-    result.logoutControlFound
+    (result.sessionProbe.bodyLooksAuthenticated || result.logoutControlFound)
   );
 
   if (!result.authenticated) {
     result.notes.push('Strict authentication proof not established. No edit action was attempted.');
     if (urlStillLogin) result.notes.push('Browser remained on a login URL after submission.');
     if (result.loginFormStillVisible) result.notes.push('Login form is still visible after submission.');
-    if (!result.logoutControlFound) result.notes.push('No visible logout/sign-out control was found.');
+    if (!result.sessionProbe.bodyLooksAuthenticated) result.notes.push('The authenticated-user session probe did not return a reliable user payload.');
     if (result.visibleMessages.length) result.notes.push('Visible login feedback was captured in visibleMessages.');
     if (result.protectionSignals.length) result.notes.push('Possible protection/challenge signals were detected.');
   } else {
-    result.notes.push('Strict authentication proof established. This preflight intentionally performs no edit action.');
+    result.notes.push('Strict authentication proof established through TheTVDB session state. This preflight intentionally performs no edit action.');
   }
 } catch (error) {
   result.notes.push(error?.message || String(error));
@@ -224,6 +224,7 @@ console.log(`Final URL: ${result.finalUrl || 'n/a'}`);
 console.log(`Form: ${(result.form.method || 'n/a').toUpperCase()} ${result.form.action || 'n/a'}`);
 console.log(`Fields: ${result.form.fields.map(f => `${f.type}:${f.name || f.id || '(unnamed)'}`).join(', ') || 'none'}`);
 console.log(`Credential fields filled: email=${result.credentialsFilled.email}, password=${result.credentialsFilled.password}`);
+console.log(`Session probe: status=${result.sessionProbe.status ?? 'n/a'}, ok=${result.sessionProbe.ok}, userPayload=${result.sessionProbe.bodyLooksAuthenticated}`);
 console.log(`Responses: ${result.submissionResponses.map(r => `${r.method} ${r.status} ${r.url}`).join(' | ') || 'none'}`);
 console.log(`Visible messages: ${result.visibleMessages.join(' | ') || 'none'}`);
 console.log(`Protection signals: ${result.protectionSignals.join(', ') || 'none'}`);
