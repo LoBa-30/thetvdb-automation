@@ -14,6 +14,8 @@ const result = {
   loginSubmitted: false,
   finalUrl: null,
   finalTitle: null,
+  logoutControlFound: false,
+  loginFormStillVisible: false,
   notes: []
 };
 
@@ -79,7 +81,7 @@ try {
         submit.click()
       ]);
       result.loginSubmitted = true;
-      await page.waitForTimeout(1800);
+      await page.waitForTimeout(2500);
     } else {
       result.notes.push('Submit button could not be identified safely.');
     }
@@ -87,15 +89,44 @@ try {
 
   result.finalUrl = page.url();
   result.finalTitle = await page.title();
-  const body = (await page.locator('body').innerText().catch(() => '')).toLowerCase();
-  const authSignals = ['logout', 'log out', 'dashboard', 'profile', 'account'];
-  const failureSignals = ['invalid password', 'incorrect password', 'invalid credentials'];
-  result.authenticated = authSignals.some(v => body.includes(v)) && !failureSignals.some(v => body.includes(v));
+
+  const logoutSelectors = [
+    'a:has-text("Logout")',
+    'button:has-text("Logout")',
+    'a:has-text("Log out")',
+    'button:has-text("Log out")',
+    'a:has-text("Sign out")',
+    'button:has-text("Sign out")',
+    'a[href*="logout"]'
+  ];
+
+  for (const selector of logoutSelectors) {
+    if (await page.locator(selector).first().isVisible().catch(() => false)) {
+      result.logoutControlFound = true;
+      break;
+    }
+  }
+
+  result.loginFormStillVisible =
+    (await page.locator('input[type="password"]').first().isVisible().catch(() => false)) ||
+    (await page.locator('form').filter({ has: page.locator('input[type="password"]') }).first().isVisible().catch(() => false));
+
+  const urlStillLogin = /\/auth\/login(?:[/?#]|$)|\/login(?:[/?#]|$)/i.test(result.finalUrl || '');
+
+  result.authenticated = Boolean(
+    result.loginSubmitted &&
+    !urlStillLogin &&
+    !result.loginFormStillVisible &&
+    result.logoutControlFound
+  );
 
   if (!result.authenticated) {
-    result.notes.push('No reliable authenticated-session signal was detected. No edit action was attempted.');
+    result.notes.push('Strict authentication proof not established. No edit action was attempted.');
+    if (urlStillLogin) result.notes.push('Browser remained on a login URL after submission.');
+    if (result.loginFormStillVisible) result.notes.push('Login form is still visible after submission.');
+    if (!result.logoutControlFound) result.notes.push('No visible logout/sign-out control was found.');
   } else {
-    result.notes.push('Authentication appears successful. This preflight intentionally performs no edit action.');
+    result.notes.push('Strict authentication proof established. This preflight intentionally performs no edit action.');
   }
 } catch (error) {
   result.notes.push(error?.message || String(error));
@@ -106,6 +137,8 @@ try {
 await fs.writeFile('reports/auth-preflight.json', JSON.stringify(result, null, 2));
 console.log(`Authenticated: ${result.authenticated}`);
 console.log(`Final URL: ${result.finalUrl || 'n/a'}`);
+console.log(`Logout control found: ${result.logoutControlFound}`);
+console.log(`Login form still visible: ${result.loginFormStillVisible}`);
 console.log(result.notes.join('\n'));
 
 if (!result.authenticated) process.exitCode = 2;
