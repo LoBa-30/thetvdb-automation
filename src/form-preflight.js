@@ -7,9 +7,24 @@ const password = process.env.TVDB_PASSWORD;
 await fs.mkdir('reports', { recursive: true });
 
 const TARGETS = [
-  { name: 'Djilsi', url: 'https://thetvdb.com/series/djilsi/allseasons/official' },
-  { name: 'Raska', url: 'https://thetvdb.com/series/raska/allseasons/official' },
-  { name: 'Squeezie', url: 'https://thetvdb.com/series/279758-show/allseasons/official' }
+  {
+    name: 'Djilsi',
+    url: 'https://thetvdb.com/series/djilsi/allseasons/official',
+    seasonUrls: ['https://thetvdb.com/series/djilsi/seasons/official/2026']
+  },
+  {
+    name: 'Raska',
+    url: 'https://thetvdb.com/series/raska/allseasons/official',
+    seasonUrls: [
+      'https://thetvdb.com/series/raska/seasons/official/2018',
+      'https://thetvdb.com/series/raska/seasons/official/2023'
+    ]
+  },
+  {
+    name: 'Squeezie',
+    url: 'https://thetvdb.com/series/279758-show/allseasons/official',
+    seasonUrls: []
+  }
 ];
 
 const report = {
@@ -43,16 +58,13 @@ const page = await context.newPage();
 async function login() {
   await page.goto('https://thetvdb.com/auth/login', { waitUntil: 'domcontentloaded', timeout: 60000 });
   await page.waitForTimeout(1000);
-
   const form = page.locator('form').filter({ has: page.locator('input[name="password"]') }).first();
   const email = form.locator('input[name="email"]').first();
   const pass = form.locator('input[name="password"]').first();
   const submit = form.locator('button[type="submit"], input[type="submit"]').first();
-
   if (!(await email.isVisible().catch(() => false)) || !(await pass.isVisible().catch(() => false)) || !(await submit.isVisible().catch(() => false))) {
     throw new Error('Could not identify exact TheTVDB login controls.');
   }
-
   await email.fill(username);
   await pass.fill(password);
   await Promise.all([
@@ -60,7 +72,6 @@ async function login() {
     submit.click()
   ]);
   await page.waitForTimeout(1800);
-
   const probe = await context.request.get('https://thetvdb.com/auth/getuser').catch(() => null);
   if (!probe) return false;
   const status = probe.status();
@@ -70,6 +81,28 @@ async function login() {
   const hasUserPayload = Boolean(payload && typeof payload === 'object' && Object.keys(payload).length);
   report.sessionProbe = { status, ok: probe.ok(), hasUserPayload };
   return probe.ok() && hasUserPayload;
+}
+
+async function collectControls(limit = 160) {
+  return page.locator('a[href], button, [role="button"]').evaluateAll((nodes, lim) => {
+    const out = [];
+    const seen = new Set();
+    for (const el of nodes) {
+      const tag = el.tagName.toLowerCase();
+      const href = tag === 'a' ? (el.href || '') : '';
+      const text = (el.textContent || '').replace(/\s+/g, ' ').trim();
+      const title = el.getAttribute('title') || '';
+      const aria = el.getAttribute('aria-label') || '';
+      const signal = `${text} ${href} ${title} ${aria}`.toLowerCase();
+      if (!/(add|create|edit|episode|season|order|number|record)/i.test(signal)) continue;
+      if (href && !href.includes('thetvdb.com')) continue;
+      const key = `${tag}|${href}|${text}|${title}|${aria}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push({ tag, href: href || null, text, title: title || null, ariaLabel: aria || null });
+    }
+    return out.slice(0, lim);
+  }, limit);
 }
 
 async function inspectCurrentPage(source, candidateKind) {
@@ -96,44 +129,26 @@ async function inspectCurrentPage(source, candidateKind) {
     }))
   })));
 
-  const controls = await page.locator('a[href], button').evaluateAll(nodes => nodes.map(el => ({
-    tag: el.tagName.toLowerCase(),
-    href: el.tagName.toLowerCase() === 'a' ? el.href : null,
-    text: (el.textContent || '').replace(/\s+/g, ' ').trim(),
-    title: el.getAttribute('title'),
-    ariaLabel: el.getAttribute('aria-label')
-  })).filter(item => /add|create|edit|episode/i.test(`${item.text} ${item.href || ''} ${item.title || ''} ${item.ariaLabel || ''}`)).slice(0, 80));
-
   return {
     source,
     candidateKind,
     finalUrl: page.url(),
     title: await page.title(),
     forms,
-    controls
+    controls: await collectControls(120)
   };
 }
 
-async function collectEditorSignals() {
-  return page.locator('a[href], button').evaluateAll(nodes => {
-    const out = [];
-    const seen = new Set();
-    for (const el of nodes) {
-      const tag = el.tagName.toLowerCase();
-      const href = tag === 'a' ? (el.href || '') : '';
-      const text = (el.textContent || '').replace(/\s+/g, ' ').trim();
-      const title = el.getAttribute('title') || '';
-      const aria = el.getAttribute('aria-label') || '';
-      const signal = `${text} ${href} ${title} ${aria}`.toLowerCase();
-      if (!/(add|create|edit|episode)/i.test(signal)) continue;
-      if (href && !href.includes('thetvdb.com')) continue;
-      const key = `${tag}|${href}|${text}|${title}|${aria}`;
-      if (seen.has(key)) continue;
-      seen.add(key);
-      out.push({ tag, href: href || null, text, title: title || null, ariaLabel: aria || null });
-    }
-    return out.slice(0, 120);
-  });
+async function inspectGet(url, kind, targetResult) {
+  const nav = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => null);
+  await page.waitForTimeout(900);
+  if (!nav || nav.status() >= 400) {
+    targetResult.notes.push(`${kind} returned HTTP ${nav?.status() ?? 'n/a'}: ${url}`);
+    return null;
+  }
+  const inspected = await inspectCurrentPage(url, kind);
+  targetResult.inspectedPages.push(inspected);
+  return inspected;
 }
 
 try {
@@ -149,65 +164,37 @@ try {
       notes: []
     };
 
-    const response = await page.goto(target.url, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => null);
-    await page.waitForTimeout(1200);
-    if (!response || response.status() >= 400) {
-      targetResult.notes.push(`Series page unavailable or HTTP ${response?.status() ?? 'n/a'}.`);
-      report.targets.push(targetResult);
-      continue;
+    const seriesPage = await inspectGet(target.url, 'series-allseasons', targetResult);
+    if (seriesPage) {
+      targetResult.candidateLinks.push(...seriesPage.controls);
+      const episodeDetail = seriesPage.controls.find(link => link.href && /\/episodes?\//i.test(link.href) && !/\/edit(?:[/?#]|$)/i.test(link.href));
+      if (episodeDetail?.href) {
+        const detail = await inspectGet(episodeDetail.href, 'episode-detail', targetResult);
+        const editLink = detail?.controls.find(link => link.href && /\/episodes?\/\d+\/\d+\/edit(?:[/?#]|$)/i.test(link.href));
+        if (editLink?.href) await inspectGet(editLink.href, 'edit-episode-from-detail', targetResult);
+      }
     }
 
-    const links = await collectEditorSignals();
-    targetResult.candidateLinks = links;
-
-    const episodeDetail = links.find(link => link.href && /\/episodes?\//i.test(link.href));
-    const directAdd = links.find(link => link.href && /add|create/i.test(`${link.text} ${link.href} ${link.title || ''} ${link.ariaLabel || ''}`) && /episode/i.test(`${link.text} ${link.href} ${link.title || ''} ${link.ariaLabel || ''}`));
-    const directEdit = links.find(link => link.href && /edit/i.test(`${link.text} ${link.href} ${link.title || ''} ${link.ariaLabel || ''}`) && /episode/i.test(`${link.text} ${link.href} ${link.title || ''} ${link.ariaLabel || ''}`));
-
-    const candidates = [];
-    if (directAdd) candidates.push(['add-episode', directAdd]);
-    if (directEdit) candidates.push(['edit-episode', directEdit]);
-
-    // If the series page does not expose editor links directly, inspect one episode detail page read-only
-    // and discover edit controls there. This still performs GET navigation only and never submits a form.
-    if (!directAdd && !directEdit && episodeDetail) {
-      const detailNav = await page.goto(episodeDetail.href, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => null);
-      await page.waitForTimeout(900);
-      if (detailNav && detailNav.status() < 400) {
-        targetResult.inspectedPages.push(await inspectCurrentPage(episodeDetail.href, 'episode-detail'));
-        const detailSignals = await collectEditorSignals();
-        for (const signal of detailSignals) {
-          if (!targetResult.candidateLinks.some(x => x.href === signal.href && x.text === signal.text)) targetResult.candidateLinks.push(signal);
-        }
-        const detailEdit = detailSignals.find(link => link.href && /edit/i.test(`${link.text} ${link.href} ${link.title || ''} ${link.ariaLabel || ''}`));
-        if (detailEdit) candidates.push(['edit-episode-from-detail', detailEdit]);
-      } else {
-        targetResult.notes.push(`Episode detail candidate returned HTTP ${detailNav?.status() ?? 'n/a'}.`);
+    for (const seasonUrl of target.seasonUrls || []) {
+      const season = await inspectGet(seasonUrl, 'season-detail', targetResult);
+      if (!season) continue;
+      for (const control of season.controls) {
+        if (!targetResult.candidateLinks.some(x => x.href === control.href && x.text === control.text)) targetResult.candidateLinks.push(control);
       }
-      await page.goto(target.url, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => null);
-      await page.waitForTimeout(500);
-    }
+      const addLink = season.controls.find(link => link.href && /add|create/i.test(`${link.text} ${link.href} ${link.title || ''}`) && /episode/i.test(`${link.text} ${link.href} ${link.title || ''}`));
+      if (addLink?.href) await inspectGet(addLink.href, 'add-episodes-from-season', targetResult);
+      else targetResult.notes.push(`No GET add-episode URL found on season page: ${seasonUrl}`);
 
-    if (!directAdd) targetResult.notes.push('No direct add-episode URL discovered on the series page.');
-    if (!directEdit) targetResult.notes.push('No direct edit-episode URL discovered on the series page.');
-
-    for (const [kind, candidate] of candidates) {
-      if (!candidate?.href) continue;
-      const nav = await page.goto(candidate.href, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => null);
-      await page.waitForTimeout(900);
-      if (!nav || nav.status() >= 400) {
-        targetResult.notes.push(`${kind} candidate returned HTTP ${nav?.status() ?? 'n/a'}.`);
-      } else {
-        targetResult.inspectedPages.push(await inspectCurrentPage(candidate.href, kind));
+      const orderLink = season.controls.find(link => link.href && /(order|number|edit)/i.test(`${link.text} ${link.href} ${link.title || ''}`) && /(season|episode)/i.test(`${link.text} ${link.href} ${link.title || ''}`));
+      if (orderLink?.href && orderLink.href !== addLink?.href) {
+        await inspectGet(orderLink.href, 'season-order-or-numbering', targetResult);
       }
-      await page.goto(target.url, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => null);
-      await page.waitForTimeout(500);
     }
 
     report.targets.push(targetResult);
   }
 
-  report.notes.push('Read-only form discovery complete. No edit form was submitted.');
+  report.notes.push('Read-only season/form discovery complete. Only GET navigation was performed; no edit form was submitted.');
 } catch (error) {
   report.notes.push(error?.message || String(error));
 } finally {
@@ -225,9 +212,6 @@ const lines = [
 for (const target of report.targets) {
   lines.push(`## ${target.name}`);
   lines.push(`Candidate controls: ${target.candidateLinks.length}`);
-  for (const candidate of target.candidateLinks.slice(0, 25)) {
-    lines.push(`- CONTROL ${candidate.tag}: ${candidate.text || '(no text)'} | ${candidate.href || '(no href)'} | title=${candidate.title || ''} | aria=${candidate.ariaLabel || ''}`);
-  }
   lines.push(`Inspected pages: ${target.inspectedPages.length}`);
   for (const inspected of target.inspectedPages) {
     lines.push(`- ${inspected.candidateKind}: ${inspected.finalUrl}`);
@@ -235,7 +219,7 @@ for (const target of report.targets) {
     for (const form of inspected.forms) {
       lines.push(`  - ${(form.method || 'GET').toUpperCase()} ${form.action || '(no action)'} | fields=${form.fields.map(f => `${f.tag}:${f.type || ''}:${f.name || f.id || '(unnamed)'}`).join(', ')}`);
     }
-    for (const control of inspected.controls.slice(0, 20)) {
+    for (const control of inspected.controls.slice(0, 30)) {
       lines.push(`  - PAGE CONTROL ${control.tag}: ${control.text || '(no text)'} | ${control.href || '(no href)'} | title=${control.title || ''} | aria=${control.ariaLabel || ''}`);
     }
   }
