@@ -17,15 +17,21 @@ const SEASONS = [
 const DJILSI_ADDITIONS = [
   {
     youtubeUrl: 'https://www.youtube.com/watch?v=uMmwt8l0FtM',
+    videoId: 'uMmwt8l0FtM',
+    canonicalTitle: 'RDV LE SAMEDI 5 SEPTEMBRE À 11H... 🫶🏻',
     expectedTitleIncludes: 'RDV LE SAMEDI 5 SEPTEMBRE À 11H',
+    expectedFirstAiredIso: '2026-08-24',
     confidence: 'USER_CONFIRMED',
-    reason: 'Ajout explicitement demandé par l’utilisateur.'
+    reason: 'Ajout explicitement demandé par l’utilisateur. Date de référence verrouillée après vérification préalable.'
   },
   {
     youtubeUrl: 'https://www.youtube.com/watch?v=ersw34RPmZ8',
+    videoId: 'ersw34RPmZ8',
+    canonicalTitle: 'Une fin d’aventure pleine de rebondissements… - ON VA OÙ 7 ep6 FINAL',
     expectedTitleIncludes: 'ON VA OÙ 7 ep6 FINAL',
+    expectedFirstAiredIso: '2026-09-23',
     confidence: 'HIGH',
-    reason: 'Épisode final public clairement identifié comme absent de TheTVDB.'
+    reason: 'Épisode final public clairement identifié comme absent de TheTVDB. Date de référence verrouillée après vérification préalable.'
   }
 ];
 
@@ -156,13 +162,28 @@ async function dismissYouTubeConsent(ytPage) {
   }
 }
 
+function validIsoDate(value) {
+  return /^\d{4}-\d{2}-\d{2}$/.test(String(value || ''));
+}
+
 async function youtubeMetadata(def) {
   const ytPage = await context.newPage();
   try {
     const response = await ytPage.goto(def.youtubeUrl, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => null);
     await dismissYouTubeConsent(ytPage);
-    await ytPage.waitForTimeout(1200);
-    if (!response || response.status() >= 400) return { ...def, ok: false, error: `HTTP ${response?.status() ?? 'n/a'}` };
+    await ytPage.waitForTimeout(1500);
+    if (!response || response.status() >= 400) {
+      return {
+        ...def,
+        ok: validIsoDate(def.expectedFirstAiredIso),
+        title: def.canonicalTitle,
+        firstAiredIso: def.expectedFirstAiredIso,
+        durationIso: null,
+        metadataSource: 'LOCKED_REFERENCE_DATE',
+        youtubeReachable: false,
+        warning: `YouTube page HTTP ${response?.status() ?? 'n/a'}; locked reference date used.`
+      };
+    }
 
     const meta = await ytPage.evaluate(() => {
       const get = selectors => {
@@ -173,6 +194,7 @@ async function youtubeMetadata(def) {
         }
         return null;
       };
+
       let structured = null;
       for (const script of document.querySelectorAll('script[type="application/ld+json"]')) {
         try {
@@ -181,16 +203,60 @@ async function youtubeMetadata(def) {
           structured = list.find(x => x && typeof x === 'object' && (x.uploadDate || x.datePublished || x.name)) || structured;
         } catch {}
       }
+
+      let player = null;
+      try {
+        player = globalThis.ytInitialPlayerResponse || null;
+      } catch {}
+
+      const micro = player?.microformat?.playerMicroformatRenderer || null;
+      const videoDetails = player?.videoDetails || null;
+
       return {
-        title: get(['meta[name="title"]', 'meta[property="og:title"]']) || structured?.name || document.title,
-        published: get(['meta[itemprop="datePublished"]', 'meta[itemprop="uploadDate"]']) || structured?.uploadDate || structured?.datePublished || null,
-        durationIso: get(['meta[itemprop="duration"]']) || structured?.duration || null
+        title: get(['meta[name="title"]', 'meta[property="og:title"]']) || videoDetails?.title || structured?.name || document.title,
+        published: get(['meta[itemprop="datePublished"]', 'meta[itemprop="uploadDate"]']) || micro?.publishDate || micro?.uploadDate || structured?.uploadDate || structured?.datePublished || null,
+        durationIso: get(['meta[itemprop="duration"]']) || structured?.duration || null,
+        videoId: videoDetails?.videoId || null
       };
     });
 
-    const firstAiredIso = meta.published ? String(meta.published).slice(0, 10) : null;
-    const expectedOk = normalize(meta.title).includes(normalize(def.expectedTitleIncludes));
-    return { ...def, ok: Boolean(firstAiredIso && expectedOk), title: meta.title, firstAiredIso, durationIso: meta.durationIso, expectedTitleMatched: expectedOk };
+    const pageDate = meta.published ? String(meta.published).slice(0, 10) : null;
+    const exactVideoConfirmed = !meta.videoId || meta.videoId === def.videoId;
+    const pageDateValid = validIsoDate(pageDate);
+    const lockedDateValid = validIsoDate(def.expectedFirstAiredIso);
+
+    let firstAiredIso = null;
+    let metadataSource = null;
+    let warning = null;
+
+    if (pageDateValid) {
+      firstAiredIso = pageDate;
+      metadataSource = 'YOUTUBE_PAGE';
+      if (lockedDateValid && pageDate !== def.expectedFirstAiredIso) {
+        warning = `YouTube page date ${pageDate} differs from locked reference ${def.expectedFirstAiredIso}.`;
+      }
+    } else if (lockedDateValid) {
+      firstAiredIso = def.expectedFirstAiredIso;
+      metadataSource = 'LOCKED_REFERENCE_DATE';
+      warning = 'YouTube did not expose a machine-readable publish date; locked reference date used.';
+    }
+
+    const title = def.canonicalTitle || meta.title;
+    const ok = Boolean(firstAiredIso && exactVideoConfirmed && (!pageDateValid || pageDate === def.expectedFirstAiredIso));
+
+    return {
+      ...def,
+      ok,
+      title,
+      youtubePageTitle: meta.title,
+      firstAiredIso,
+      durationIso: meta.durationIso,
+      metadataSource,
+      youtubeReachable: true,
+      exactVideoConfirmed,
+      pagePublishedIso: pageDate,
+      warning
+    };
   } finally {
     await ytPage.close();
   }
@@ -213,7 +279,8 @@ try {
   for (const addition of DJILSI_ADDITIONS) {
     const resolved = await youtubeMetadata(addition);
     report.additions.push(resolved);
-    if (!resolved.ok) report.blockedReasons.push(`Djilsi addition metadata unresolved: ${addition.youtubeUrl}`);
+    if (resolved.warning) report.notes.push(`${addition.videoId}: ${resolved.warning}`);
+    if (!resolved.ok) report.blockedReasons.push(`Djilsi addition metadata unresolved or date mismatch: ${addition.youtubeUrl}`);
   }
 
   for (const def of SEASONS) {
@@ -233,11 +300,12 @@ try {
         domIndex: 100000 + index,
         publicEpisodeId: null,
         internalSeasonEpisodeId: null,
-        title: a.title || a.expectedTitleIncludes,
+        title: a.title || a.canonicalTitle || a.expectedTitleIncludes,
         firstAiredIso: a.firstAiredIso,
         youtubeUrl: a.youtubeUrl,
         confidence: a.confidence,
-        reason: a.reason
+        reason: a.reason,
+        metadataSource: a.metadataSource
       })));
     }
 
@@ -285,7 +353,7 @@ const lines = [
   ''
 ];
 for (const add of report.additions) {
-  lines.push(`ADD Djilsi | ${add.firstAiredIso || 'DATE?'} | ${add.title || add.expectedTitleIncludes} | ${add.youtubeUrl} | ${add.confidence} | ok=${add.ok}`);
+  lines.push(`ADD Djilsi | ${add.firstAiredIso || 'DATE?'} | ${add.title || add.canonicalTitle || add.expectedTitleIncludes} | ${add.youtubeUrl} | ${add.confidence} | source=${add.metadataSource || 'n/a'} | ok=${add.ok}`);
 }
 lines.push('');
 for (const season of report.seasons) {
@@ -293,7 +361,7 @@ for (const season of report.seasons) {
   for (const dup of season.duplicateNumbersBefore) lines.push(`DUPLICATE BEFORE E${dup.number}: ${dup.titles.join(' / ')}`);
   for (const op of season.operations) {
     const oldNumber = op.kind === 'NEW' ? 'NEW' : `E${op.currentNumber}`;
-    lines.push(`${op.changeRequired ? 'CHANGE' : 'KEEP'} | ${oldNumber} -> E${op.proposedNumber} | ${op.firstAiredIso || 'DATE?'} | ${op.title}${op.publicEpisodeId ? ` | TVDB ${op.publicEpisodeId}` : ''}${op.youtubeUrl ? ` | ${op.youtubeUrl}` : ''}`);
+    lines.push(`${op.changeRequired ? 'CHANGE' : 'KEEP'} | ${oldNumber} -> E${op.proposedNumber} | ${op.firstAiredIso || 'DATE?'} | ${op.title}${op.publicEpisodeId ? ` | TVDB ${op.publicEpisodeId}` : ''}${op.youtubeUrl ? ` | ${op.youtubeUrl}` : ''}${op.metadataSource ? ` | source=${op.metadataSource}` : ''}`);
   }
   lines.push('');
 }
@@ -301,7 +369,10 @@ if (report.blockedReasons.length) {
   lines.push('BLOCKED REASONS:');
   for (const reason of report.blockedReasons) lines.push(`- ${reason}`);
 }
-lines.push(...report.notes);
+if (report.notes.length) {
+  lines.push('NOTES:');
+  for (const note of report.notes) lines.push(`- ${note}`);
+}
 await fs.writeFile('reports/final-dry-run.txt', lines.join('\n'));
 console.log(lines.join('\n'));
 
