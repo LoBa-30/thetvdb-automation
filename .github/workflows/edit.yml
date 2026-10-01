@@ -17,7 +17,6 @@ on:
           - batch-preflight
           - batch-resolve
           - apply-all
-          - apply
 
 permissions:
   contents: read
@@ -90,6 +89,12 @@ jobs:
           TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
         run: npm run batch:resolve
 
+      - name: Static safety check for apply-all engine
+        if: ${{ inputs.mode == 'apply-all' }}
+        run: |
+          node --check src/css-shim.js
+          node --check src/batch-apply-all.js
+
       - name: Guarded one-shot apply-all
         if: ${{ inputs.mode == 'apply-all' }}
         env:
@@ -97,14 +102,6 @@ jobs:
           TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
           TVDB_BATCH_APPLY: 'yes'
         run: npm run batch:apply-all
-
-      - name: Legacy exact final apply
-        if: ${{ inputs.mode == 'apply' }}
-        env:
-          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
-          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
-          TVDB_FINAL_APPLY: 'yes'
-        run: npm run final:apply
 
       - name: Upload execution report
         if: always()
