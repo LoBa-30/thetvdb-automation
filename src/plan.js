@@ -2,12 +2,28 @@ import fs from 'node:fs/promises';
 
 const audit = JSON.parse(await fs.readFile('reports/audit.json', 'utf8'));
 
+const USER_APPROVED_ADDITIONS = [
+  {
+    target: 'Djilsi',
+    titleIncludes: 'RDV LE SAMEDI 5 SEPTEMBRE À 11H',
+    reason: 'Explicitement demandé par l’utilisateur : cette vidéo doit être ajoutée à TheTVDB même si elle ressemble à une annonce.'
+  }
+];
+
+function getUserApproval(targetName, video) {
+  return USER_APPROVED_ADDITIONS.find(rule =>
+    rule.target === targetName &&
+    String(video?.title || '').toLowerCase().includes(rule.titleIncludes.toLowerCase())
+  );
+}
+
 const plan = {
   generatedAt: new Date().toISOString(),
   mode: 'PLAN_ONLY_NO_TVDB_WRITES',
   rules: {
     autoEligible: [
-      'TVDB_DUPLICATE_CODE'
+      'TVDB_DUPLICATE_CODE',
+      'USER_APPROVED_ADD_TO_TVDB'
     ],
     reviewRequired: [
       'LIKELY_MISSING_FROM_TVDB_OR_NON_EPISODE',
@@ -44,6 +60,20 @@ for (const target of audit.targets || []) {
   }
 
   for (const video of target.youtubeWithoutConfidentTvdbMatch || []) {
+    const approval = getUserApproval(target.name, video);
+    if (approval) {
+      targetPlan.autoEligible.push({
+        type: 'USER_APPROVED_ADD_TO_TVDB',
+        confidence: 'USER_CONFIRMED',
+        youtube: video,
+        proposedAction: 'ADD_EPISODE_AFTER_NUMBERING_AND_DATE_RESOLUTION',
+        destructive: false,
+        requires: ['season', 'episodeNumber', 'firstAired'],
+        note: approval.reason
+      });
+      continue;
+    }
+
     targetPlan.reviewRequired.push({
       type: video.classification || 'YOUTUBE_WITHOUT_MATCH',
       confidence: 'MEDIUM',
@@ -84,7 +114,7 @@ await fs.writeFile('reports/correction-plan.json', JSON.stringify(plan, null, 2)
 
 const lines = [
   `Mode: ${plan.mode}`,
-  `Auto-éligibles (forte confiance): ${plan.summary.autoEligible}`,
+  `Auto-éligibles (forte confiance ou validation utilisateur): ${plan.summary.autoEligible}`,
   `À vérifier: ${plan.summary.reviewRequired}`,
   `Informatifs / ne pas modifier automatiquement: ${plan.summary.informational}`,
   ''
@@ -94,7 +124,11 @@ for (const target of plan.targets) {
   lines.push(`## ${target.name}`);
   lines.push(`Auto-éligibles: ${target.autoEligible.length}`);
   for (const item of target.autoEligible) {
-    lines.push(`- ${item.type}: ${item.code} (${item.episodes.map(e => `${e.code} — ${e.title}`).join(' / ')})`);
+    if (item.youtube) {
+      lines.push(`- ${item.type}: ${item.youtube.title} — ${item.youtube.url}`);
+    } else {
+      lines.push(`- ${item.type}: ${item.code} (${item.episodes.map(e => `${e.code} — ${e.title}`).join(' / ')})`);
+    }
   }
   lines.push(`À vérifier: ${target.reviewRequired.length}`);
   for (const item of target.reviewRequired.slice(0, 20)) {
