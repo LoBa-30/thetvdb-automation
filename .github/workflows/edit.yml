@@ -15,6 +15,7 @@ on:
           - final-dry-run
           - post-apply-check
           - batch-preflight
+          - batch-resolve
           - apply
 
 permissions:
@@ -80,6 +81,13 @@ jobs:
       - name: Full 9-channel batch preflight
         if: ${{ inputs.mode == 'batch-preflight' }}
         run: npm run batch:prepare
+
+      - name: Authenticated read-only batch resolution
+        if: ${{ inputs.mode == 'batch-resolve' }}
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: npm run batch:resolve
 
       - name: Exact final apply
         if: ${{ inputs.mode == 'apply' }}
