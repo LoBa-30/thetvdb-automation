@@ -8,6 +8,7 @@
     "plan": "node src/plan.js",
     "edit": "node src/edit.js",
     "auth:preflight": "node src/auth-preflight.js",
+    "form:preflight": "node src/form-preflight.js",
     "audit:plan": "npm run audit && npm run plan",
     "audit:plan:edit": "npm run audit && npm run plan && npm run edit"
   },
