@@ -1,1 +1,592 @@
-PLACEHOLDER
+{
+  "version": "2026-10-01",
+  "source": "Audit_TheTVDB_9_Youtubeurs_COMPLET_2026-10-01(1).xlsx",
+  "policy": {
+    "singleBatchGoal": true,
+    "preflightBeforeAnyWrite": true,
+    "noDeletes": true,
+    "noMassUnassignedChanges": true,
+    "skipAlreadyCorrect": true,
+    "stopOnUnexpectedState": true,
+    "verifyAfterEachWrite": true
+  },
+  "targets": {
+    "Djilsi": {
+      "youtube": "https://www.youtube.com/c/djilsi/videos",
+      "tvdb": "https://thetvdb.com/series/djilsi/allseasons/official"
+    },
+    "Elian Ventre": {
+      "youtube": "https://www.youtube.com/@elianventre/videos",
+      "tvdb": "https://thetvdb.com/series/elian-ventre-462729/allseasons/official"
+    },
+    "Raska": {
+      "youtube": "https://www.youtube.com/@R4SK4/videos",
+      "tvdb": "https://thetvdb.com/series/raska/allseasons/official"
+    },
+    "Maxime Biaggi": {
+      "youtube": "https://www.youtube.com/c/MaximeBiaggi/videos",
+      "tvdb": "https://thetvdb.com/series/maxime-biaggi/allseasons/official"
+    },
+    "Squeezie": {
+      "youtube": "https://www.youtube.com/@Squeezie/videos",
+      "tvdb": "https://thetvdb.com/series/279758-show/allseasons/official"
+    },
+    "Mastu": {
+      "youtube": "https://www.youtube.com/channel/UCAhaFPP6v3WCfK5Tjao0B7A/videos",
+      "tvdb": "https://thetvdb.com/series/346011-show/allseasons/official"
+    },
+    "Amixem": {
+      "youtube": "https://www.youtube.com/c/Amixem/videos",
+      "tvdb": "https://thetvdb.com/series/328213-show/allseasons/official"
+    },
+    "Joyca": {
+      "youtube": "https://www.youtube.com/c/JOYCA-JORDAN/videos",
+      "tvdb": "https://thetvdb.com/series/335805-show/allseasons/official"
+    },
+    "Mcfly & Carlito": {
+      "youtube": "https://www.youtube.com/c/LeFatShow/videos",
+      "tvdb": "https://thetvdb.com/series/338282-show/allseasons/official"
+    }
+  },
+  "items": [
+    {
+      "YouTubeur": "Djilsi",
+      "Type": "À créer",
+      "Code / zone": "S2026E16",
+      "Titre / élément": "Une fin d’aventure pleine de rebondissements… - ON VA OÙ 7 ep6 FINAL",
+      "Date": "23/09/2026",
+      "Durée": "≈62 min (1:01:48)",
+      "Constat / action": "Vidéo YouTube publique absente de TheTVDB lors du dernier contrôle.",
+      "Niveau de certitude": "Correction certaine",
+      "batchStatus": "À vérifier après écriture précédente",
+      "batchAction": "Vérifier les 17 épisodes actuels; identifier les 2 nouveaux; corriger titre/date/numéro uniquement si nécessaire; ne jamais recréer",
+      "writePolicy": "Conditionnel",
+      "dependency": "État actuel Djilsi 2026"
+    },
+    {
+      "YouTubeur": "Djilsi",
+      "Type": "Ajout approuvé par utilisateur",
+      "Code / zone": "À positionner",
+      "Titre / élément": "RDV LE SAMEDI 5 SEPTEMBRE À 11H... 🫶🏻",
+      "Date": "05/09/2026",
+      "Durée": null,
+      "Constat / action": "L’utilisateur a explicitement demandé de l’ajouter malgré son format annonce. Saison/numéro exact à positionner sans casser l’ordre.",
+      "Niveau de certitude": "Validation utilisateur",
+      "batchStatus": "À vérifier après écriture précédente",
+      "batchAction": "Vérifier les 17 épisodes actuels; identifier les 2 nouveaux; corriger titre/date/numéro uniquement si nécessaire; ne jamais recréer",
+      "writePolicy": "Conditionnel",
+      "dependency": "État actuel Djilsi 2026"
+    },
+    {
+      "YouTubeur": "Djilsi",
+      "Type": "Historique corrigé",
+      "Code / zone": "S2019E38–E40",
+      "Titre / élément": null,
+      "Date": "23–25/12/2019",
+      "Durée": null,
+      "Constat / action": "Ordre/dates historiquement inversés dans TheTVDB (25/12, 24/12, 23/12) ; à conserver comme point de contrôle.",
+      "Niveau de certitude": "Vérifié précédemment",
+      "batchStatus": "Contrôle seulement",
+      "batchAction": "Vérifier que la correction historique est toujours présente; ne rien écrire si conforme",
+      "writePolicy": "Non",
+      "dependency": "Aucune"
+    },
+    {
+      "YouTubeur": "Djilsi",
+      "Type": "Historique corrigé",
+      "Code / zone": "S2025E11/E13/E14 + S2026E04/E07",
+      "Titre / élément": null,
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "Durées précédemment corrigées après comparaison YouTube.",
+      "Niveau de certitude": "Vérifié précédemment",
+      "batchStatus": "Contrôle seulement",
+      "batchAction": "Vérifier que la correction historique est toujours présente; ne rien écrire si conforme",
+      "writePolicy": "Non",
+      "dependency": "Aucune"
+    },
+    {
+      "YouTubeur": "Elian Ventre",
+      "Type": "À créer / positionner",
+      "Code / zone": "S2026E08 probable",
+      "Titre / élément": "Nos cabanes vont-elles résister au Loup ?! (ft. Maxime Biaggi)",
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "29e vidéo publique détectée pour 28 épisodes TheTVDB : vidéo absente au contrôle du 01/10/2026. Numéro exact à confirmer selon sa date de publication.",
+      "Niveau de certitude": "Absence certaine / numéro à confirmer",
+      "batchStatus": "À résoudre au préflight",
+      "batchAction": "Récupérer date YouTube, déterminer saison/numéro exact, puis créer si toujours absent",
+      "writePolicy": "Oui après résolution",
+      "dependency": "Date + position exacte + formulaire add"
+    },
+    {
+      "YouTubeur": "Elian Ventre",
+      "Type": "Historique corrigé",
+      "Code / zone": "S2024E01",
+      "Titre / élément": null,
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "Ancien titre corrompu nettoyé.",
+      "Niveau de certitude": "Vérifié précédemment",
+      "batchStatus": "Contrôle seulement",
+      "batchAction": "Vérifier que la correction historique est toujours présente; ne rien écrire si conforme",
+      "writePolicy": "Non",
+      "dependency": "Aucune"
+    },
+    {
+      "YouTubeur": "Elian Ventre",
+      "Type": "Historique corrigé",
+      "Code / zone": "S2025E02",
+      "Titre / élément": null,
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "Certaines vues ont longtemps conservé un ancien titre ; ne pas confondre avec un doublon.",
+      "Niveau de certitude": "Vérifié précédemment",
+      "batchStatus": "Contrôle seulement",
+      "batchAction": "Vérifier que la correction historique est toujours présente; ne rien écrire si conforme",
+      "writePolicy": "Non",
+      "dependency": "Aucune"
+    },
+    {
+      "YouTubeur": "Raska",
+      "Type": "À corriger",
+      "Code / zone": "S2018E02",
+      "Titre / élément": "3 RAPPEURS À SURVEILLER ! (Téma - Épisode #1)",
+      "Date": "10/06/2018",
+      "Durée": null,
+      "Constat / action": "Deux épisodes portent S2018E02. Celui du 10/06 doit devenir E03 et les suivants être décalés jusqu’à E13.",
+      "Niveau de certitude": "Correction certaine",
+      "batchStatus": "Déjà appliqué — vérification",
+      "batchAction": "Confirmer numérotation finale et absence de doublon; aucune seconde renumérotation si déjà correcte",
+      "writePolicy": "Non (sauf dérive)",
+      "dependency": "État actuel Raska"
+    },
+    {
+      "YouTubeur": "Raska",
+      "Type": "À corriger",
+      "Code / zone": "S2023E19",
+      "Titre / élément": "On juge les albums rap français (TierList avec Mehdi Maïzi & Grimkujow)",
+      "Date": "07/10/2023",
+      "Durée": null,
+      "Constat / action": "Deux épisodes portent S2023E19. Le second doit devenir E20 et les suivants être décalés jusqu’à la fin de saison (E28).",
+      "Niveau de certitude": "Correction certaine",
+      "batchStatus": "Déjà appliqué — vérification",
+      "batchAction": "Confirmer numérotation finale et absence de doublon; aucune seconde renumérotation si déjà correcte",
+      "writePolicy": "Non (sauf dérive)",
+      "dependency": "État actuel Raska"
+    },
+    {
+      "YouTubeur": "Raska",
+      "Type": "Titre à contrôler",
+      "Code / zone": "S2017E03",
+      "Titre / élément": "KRISY RAPPEUR ET PRODUCTEUR DE DAMSO ! 🖖",
+      "Date": "18/04/2017",
+      "Durée": null,
+      "Constat / action": "Le titre officiel doit inclure l’emoji final 🖖.",
+      "Niveau de certitude": "Vérifié précédemment",
+      "batchStatus": "Prête",
+      "batchAction": "Mettre le titre exactement à « KRISY RAPPEUR ET PRODUCTEUR DE DAMSO ! 🖖 » si différent",
+      "writePolicy": "Oui si différent",
+      "dependency": "ID épisode + état courant",
+      "desired": {
+        "desiredTitle": "KRISY RAPPEUR ET PRODUCTEUR DE DAMSO ! 🖖"
+      }
+    },
+    {
+      "YouTubeur": "Raska",
+      "Type": "Contrôle affichage",
+      "Code / zone": "S2017E04",
+      "Titre / élément": "LE RAP FÉMININ EN FORCE ! ✊",
+      "Date": "19/11/2017",
+      "Durée": null,
+      "Constat / action": "Incohérence d’affichage date/runtime entre vues TheTVDB signalée.",
+      "Niveau de certitude": "À vérifier",
+      "batchStatus": "À résoudre au préflight",
+      "batchAction": "Comparer date/runtime entre page épisode et saison; corriger uniquement l’écart vérifié",
+      "writePolicy": "Conditionnel",
+      "dependency": "Valeur exacte actuelle"
+    },
+    {
+      "YouTubeur": "Raska",
+      "Type": "Déjà corrigé",
+      "Code / zone": "S2026E06",
+      "Titre / élément": "TROUVE L’ERREUR (temporelle) ft. Nico & Tom Baldetti",
+      "Date": "13/09/2026",
+      "Durée": "≈49 min",
+      "Constat / action": "Épisode désormais présent ; ne pas recréer.",
+      "Niveau de certitude": "Vérifié",
+      "batchStatus": "Contrôle seulement",
+      "batchAction": "Vérifier que la correction historique est toujours présente; ne rien écrire si conforme",
+      "writePolicy": "Non",
+      "dependency": "Aucune"
+    },
+    {
+      "YouTubeur": "Maxime Biaggi",
+      "Type": "Conforme",
+      "Code / zone": "Catalogue complet",
+      "Titre / élément": "64 vidéos ↔ 64 épisodes",
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "Aucune anomalie au dernier audit automatique complet. Chaîne principale uniquement, pas Maxime Biaggi 2.0.",
+      "Niveau de certitude": "Vérifié",
+      "batchStatus": "Contrôle seulement",
+      "batchAction": "Vérifier que la correction historique est toujours présente; ne rien écrire si conforme",
+      "writePolicy": "Non",
+      "dependency": "Aucune"
+    },
+    {
+      "YouTubeur": "Squeezie",
+      "Type": "À examiner",
+      "Code / zone": "2012 / vidéo YouTube",
+      "Titre / élément": "Japan Expo 2012",
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "Vidéo publique sans correspondance TheTVDB suffisamment sûre dans l’audit automatique.",
+      "Niveau de certitude": "À vérifier",
+      "batchStatus": "À résoudre au préflight",
+      "batchAction": "Vérifier si « Japan Expo 2012 » est un épisode à créer ou un réupload/non-épisode; ne créer que si confirmé",
+      "writePolicy": "Conditionnel",
+      "dependency": "Date + statut réupload/original"
+    },
+    {
+      "YouTubeur": "Squeezie",
+      "Type": "Informatif",
+      "Code / zone": "75 entrées TVDB",
+      "Titre / élément": null,
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "Entrées TheTVDB sans vidéo YouTube publique actuelle ; peuvent correspondre à des vidéos supprimées/privées, donc ne pas supprimer automatiquement.",
+      "Niveau de certitude": "Informatif",
+      "batchStatus": "Contrôle seulement",
+      "batchAction": "Vérifier que la correction historique est toujours présente; ne rien écrire si conforme",
+      "writePolicy": "Non",
+      "dependency": "Aucune"
+    },
+    {
+      "YouTubeur": "Squeezie",
+      "Type": "Historique corrigé",
+      "Code / zone": "S2011E01",
+      "Titre / élément": "Video commentée : Crysis 2",
+      "Date": "03/03/2011",
+      "Durée": "9 min",
+      "Constat / action": "Titre et runtime corrigés (8:33 ≈ 9 min).",
+      "Niveau de certitude": "Vérifié précédemment",
+      "batchStatus": "Contrôle seulement",
+      "batchAction": "Vérifier que la correction historique est toujours présente; ne rien écrire si conforme",
+      "writePolicy": "Non",
+      "dependency": "Aucune"
+    },
+    {
+      "YouTubeur": "Squeezie",
+      "Type": "Historique corrigé",
+      "Code / zone": "S2011E03/E05/E06/E07",
+      "Titre / élément": null,
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "Dates/titre/runtime corrigés lors de la passe 2011.",
+      "Niveau de certitude": "Vérifié précédemment",
+      "batchStatus": "Contrôle seulement",
+      "batchAction": "Vérifier que la correction historique est toujours présente; ne rien écrire si conforme",
+      "writePolicy": "Non",
+      "dependency": "Aucune"
+    },
+    {
+      "YouTubeur": "Mastu",
+      "Type": "À créer",
+      "Code / zone": "S2026E15 probable",
+      "Titre / élément": "LA TABLE INFERNALE 2 (Avec Byilhan, Flamby et Elian)",
+      "Date": "19/09/2026",
+      "Durée": "48:37",
+      "Constat / action": "Vidéo publique détectée parmi 360 vidéos ; aucune correspondance TheTVDB. Elle suit les 14 épisodes 2026 déjà présents.",
+      "Niveau de certitude": "Correction très probable",
+      "batchStatus": "À résoudre au préflight",
+      "batchAction": "Confirmer date/position, absence réelle, puis créer; renuméroter la saison si insertion nécessaire",
+      "writePolicy": "Oui après résolution",
+      "dependency": "État saison + date + ID des suivants"
+    },
+    {
+      "YouTubeur": "Mastu",
+      "Type": "À insérer / renuméroter",
+      "Code / zone": "S2021E17 probable",
+      "Titre / élément": "JE REGARDE UN EPISODE DE NEXT (10 ans après) #8",
+      "Date": "26/06/2021",
+      "Durée": null,
+      "Constat / action": "Vidéo publique absente de TheTVDB, entre S2021E16 (19/06) et l’actuel S2021E17 (03/07). L’insertion implique probablement de décaler les épisodes suivants de 2021 de +1.",
+      "Niveau de certitude": "Correction très probable",
+      "batchStatus": "À résoudre au préflight",
+      "batchAction": "Confirmer date/position, absence réelle, puis créer; renuméroter la saison si insertion nécessaire",
+      "writePolicy": "Oui après résolution",
+      "dependency": "État saison + date + ID des suivants"
+    },
+    {
+      "YouTubeur": "Amixem",
+      "Type": "À examiner",
+      "Code / zone": "Unassigned",
+      "Titre / élément": "5 épisodes",
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "5 épisodes non assignés sur TheTVDB ; contrôle individuel requis.",
+      "Niveau de certitude": "À vérifier",
+      "batchStatus": "Contrôle individuel requis",
+      "batchAction": "Résoudre les 5 Unassigned individuellement; aucune suppression ni affectation en masse",
+      "writePolicy": "Conditionnel",
+      "dependency": "IDs/titres/dates des 5 entrées"
+    },
+    {
+      "YouTubeur": "Amixem",
+      "Type": "Historique corrigé",
+      "Code / zone": "2023 (16 épisodes)",
+      "Titre / élément": null,
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "Durées précédemment corrigées/identifiées sur E07, E11–E14, E16–E18, E21, E30, E35, E37, E44, E49, E50, E53.",
+      "Niveau de certitude": "Vérifié précédemment",
+      "batchStatus": "Contrôle seulement",
+      "batchAction": "Vérifier que la correction historique est toujours présente; ne rien écrire si conforme",
+      "writePolicy": "Non",
+      "dependency": "Aucune"
+    },
+    {
+      "YouTubeur": "Amixem",
+      "Type": "Historique titres",
+      "Code / zone": "S2023E01/E18/E21/E55",
+      "Titre / élément": null,
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "Divergences d’emojis/titres déjà relevées ; conserver comme points de contrôle.",
+      "Niveau de certitude": "Vérifié précédemment",
+      "batchStatus": "Contrôle seulement",
+      "batchAction": "Vérifier que la correction historique est toujours présente; ne rien écrire si conforme",
+      "writePolicy": "Non",
+      "dependency": "Aucune"
+    },
+    {
+      "YouTubeur": "Joyca",
+      "Type": "À examiner",
+      "Code / zone": "Unassigned",
+      "Titre / élément": "1 épisode",
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "1 épisode non assigné sur TheTVDB.",
+      "Niveau de certitude": "À vérifier",
+      "batchStatus": "Contrôle individuel requis",
+      "batchAction": "Identifier l’épisode Unassigned et décider son affectation uniquement après correspondance certaine",
+      "writePolicy": "Conditionnel",
+      "dependency": "ID/titre/date"
+    },
+    {
+      "YouTubeur": "Joyca",
+      "Type": "Titre/runtime",
+      "Code / zone": "S2026E07",
+      "Titre / élément": "ON TESTE 31 FROMAGES BIZARRES ! (ft. McFly et Carlito)",
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "Ancien titre TheTVDB indiquait 30 fromages.",
+      "Niveau de certitude": "Correction certaine au contrôle précédent",
+      "batchStatus": "Prête",
+      "batchAction": "Aligner titre et/ou runtime sur la valeur validée dans l’audit, seulement si différent",
+      "writePolicy": "Oui si différent",
+      "dependency": "ID épisode + valeur actuelle",
+      "desired": {
+        "desiredTitle": "ON TESTE 31 FROMAGES BIZARRES ! (ft. McFly et Carlito)"
+      }
+    },
+    {
+      "YouTubeur": "Joyca",
+      "Type": "Titre/runtime",
+      "Code / zone": "S2026E08",
+      "Titre / élément": "BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan)",
+      "Date": null,
+      "Durée": "58:46",
+      "Constat / action": "Titre et durée à aligner sur YouTube.",
+      "Niveau de certitude": "Correction certaine au contrôle précédent",
+      "batchStatus": "Prête",
+      "batchAction": "Aligner titre et/ou runtime sur la valeur validée dans l’audit, seulement si différent",
+      "writePolicy": "Oui si différent",
+      "dependency": "ID épisode + valeur actuelle",
+      "desired": {
+        "desiredTitle": "BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan)",
+        "desiredRuntime": "58:46"
+      }
+    },
+    {
+      "YouTubeur": "Joyca",
+      "Type": "Titre/runtime",
+      "Code / zone": "S2026E14",
+      "Titre / élément": "ON CLASSE TOUS LES BILLETS DU MONDE (Avec Mcfly & Carlito et Mathieu)",
+      "Date": null,
+      "Durée": "1:52:26",
+      "Constat / action": "Titre et durée à aligner sur YouTube.",
+      "Niveau de certitude": "Correction certaine au contrôle précédent",
+      "batchStatus": "Prête",
+      "batchAction": "Aligner titre et/ou runtime sur la valeur validée dans l’audit, seulement si différent",
+      "writePolicy": "Oui si différent",
+      "dependency": "ID épisode + valeur actuelle",
+      "desired": {
+        "desiredTitle": "ON CLASSE TOUS LES BILLETS DU MONDE (Avec Mcfly & Carlito et Mathieu)",
+        "desiredRuntime": "1:52:26"
+      }
+    },
+    {
+      "YouTubeur": "Mcfly & Carlito",
+      "Type": "À examiner",
+      "Code / zone": "Unassigned",
+      "Titre / élément": "64 épisodes",
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "64 épisodes non assignés : ne pas supprimer en masse ; contrôle individuel nécessaire.",
+      "Niveau de certitude": "À vérifier",
+      "batchStatus": "Contrôle individuel requis",
+      "batchAction": "Résoudre les 64 Unassigned individuellement; aucune opération de masse aveugle",
+      "writePolicy": "Conditionnel",
+      "dependency": "IDs/titres/dates"
+    },
+    {
+      "YouTubeur": "Mcfly & Carlito",
+      "Type": "Titre",
+      "Code / zone": "S2022E09",
+      "Titre / élément": null,
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "Le titre officiel comporte les emojis 🍿 et 🤧.",
+      "Niveau de certitude": "Correction certaine au contrôle précédent",
+      "batchStatus": "Prête",
+      "batchAction": "Appliquer la valeur exacte validée dans l’audit, uniquement si différente de l’état courant",
+      "writePolicy": "Oui si différent",
+      "dependency": "ID épisode + valeur actuelle",
+      "desired": {
+        "desiredTitle": "Qui est le papa de qui ? Préparez les 🍿 ainsi que les 🤧"
+      }
+    },
+    {
+      "YouTubeur": "Mcfly & Carlito",
+      "Type": "Titre",
+      "Code / zone": "S2024E54",
+      "Titre / élément": "Podcartes Feat. Océane 🌷#2",
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "Titre exact à conserver.",
+      "Niveau de certitude": "Correction certaine au contrôle précédent",
+      "batchStatus": "Prête",
+      "batchAction": "Appliquer la valeur exacte validée dans l’audit, uniquement si différente de l’état courant",
+      "writePolicy": "Oui si différent",
+      "dependency": "ID épisode + valeur actuelle",
+      "desired": {
+        "desiredTitle": "Podcartes Feat. Océane 🌷#2"
+      }
+    },
+    {
+      "YouTubeur": "Mcfly & Carlito",
+      "Type": "Date",
+      "Code / zone": "S2024E63",
+      "Titre / élément": null,
+      "Date": "05/09/2024",
+      "Durée": null,
+      "Constat / action": "Date correcte 05/09/2024 (E64 10/09, E65 12/09).",
+      "Niveau de certitude": "Correction certaine au contrôle précédent",
+      "batchStatus": "Prête",
+      "batchAction": "Appliquer la valeur exacte validée dans l’audit, uniquement si différente de l’état courant",
+      "writePolicy": "Oui si différent",
+      "dependency": "ID épisode + valeur actuelle",
+      "desired": {
+        "desiredFirstAired": "2024-09-05"
+      }
+    },
+    {
+      "YouTubeur": "Mcfly & Carlito",
+      "Type": "Titre",
+      "Code / zone": "S2026E08",
+      "Titre / élément": "Carl a aimé",
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "Titre exact signalé.",
+      "Niveau de certitude": "Correction certaine au contrôle précédent",
+      "batchStatus": "Prête",
+      "batchAction": "Appliquer la valeur exacte validée dans l’audit, uniquement si différente de l’état courant",
+      "writePolicy": "Oui si différent",
+      "dependency": "ID épisode + valeur actuelle",
+      "desired": {
+        "desiredTitle": "La moins bonne vidéo de la chaîne ? (Mcfly et les autres ont détesté mais Carl a aimé)"
+      }
+    },
+    {
+      "YouTubeur": "Mcfly & Carlito",
+      "Type": "Titre",
+      "Code / zone": "S2026E11",
+      "Titre / élément": null,
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "Titre officiel comprend 💜 et « y’a ».",
+      "Niveau de certitude": "Correction certaine au contrôle précédent",
+      "batchStatus": "Prête",
+      "batchAction": "Appliquer la valeur exacte validée dans l’audit, uniquement si différente de l’état courant",
+      "writePolicy": "Oui si différent",
+      "dependency": "ID épisode + valeur actuelle",
+      "desired": {
+        "desiredTitle": "Quel couple se connaît le mieux ? Avec Erika et Tif 💜 (y’a TOUT dans cette vidéo)"
+      }
+    },
+    {
+      "YouTubeur": "Mcfly & Carlito",
+      "Type": "Runtime",
+      "Code / zone": "S2026E30",
+      "Titre / élément": null,
+      "Date": null,
+      "Durée": "88 min (1:28:02)",
+      "Constat / action": "Runtime correct ≈88 min.",
+      "Niveau de certitude": "Correction certaine au contrôle précédent",
+      "batchStatus": "Prête",
+      "batchAction": "Appliquer la valeur exacte validée dans l’audit, uniquement si différente de l’état courant",
+      "writePolicy": "Oui si différent",
+      "dependency": "ID épisode + valeur actuelle",
+      "desired": {
+        "desiredRuntimeMinutes": 88
+      }
+    },
+    {
+      "YouTubeur": "Mcfly & Carlito",
+      "Type": "Titre",
+      "Code / zone": "S2026E43",
+      "Titre / élément": null,
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "Titre officiel comprend 🍿.",
+      "Niveau de certitude": "Correction certaine au contrôle précédent",
+      "batchStatus": "Prête",
+      "batchAction": "Appliquer la valeur exacte validée dans l’audit, uniquement si différente de l’état courant",
+      "writePolicy": "Oui si différent",
+      "dependency": "ID épisode + valeur actuelle",
+      "desired": {
+        "desiredTitle": "On classe 32 friandises de cinéma avec Florent Bernard & Seb Vaniček (Mcfly n’aime pas le popcorn 🍿)"
+      }
+    },
+    {
+      "YouTubeur": "Mcfly & Carlito",
+      "Type": "Ne pas modifier",
+      "Code / zone": "S2025E78",
+      "Titre / élément": null,
+      "Date": null,
+      "Durée": null,
+      "Constat / action": "Le caractère invisible existe aussi sur YouTube : ne pas le “corriger” automatiquement.",
+      "Niveau de certitude": "Vérifié",
+      "batchStatus": "Contrôle seulement",
+      "batchAction": "Vérifier que la correction historique est toujours présente; ne rien écrire si conforme",
+      "writePolicy": "Non",
+      "dependency": "Aucune"
+    },
+    {
+      "YouTubeur": "Mcfly & Carlito",
+      "Type": "Ne pas recréer",
+      "Code / zone": "S2026E53",
+      "Titre / élément": null,
+      "Date": null,
+      "Durée": "≈56 min (55:43)",
+      "Constat / action": "Épisode déjà présent ; ne pas recréer.",
+      "Niveau de certitude": "Vérifié",
+      "batchStatus": "Contrôle seulement",
+      "batchAction": "Vérifier que la correction historique est toujours présente; ne rien écrire si conforme",
+      "writePolicy": "Non",
+      "dependency": "Aucune"
+    }
+  ]
+}
