@@ -101,17 +101,17 @@ jobs:
           TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
         run: npm run batch:resolve
 
-      - name: Static check for safe resume apply-all v3
+      - name: Static check for safe resume apply-all v4
         if: ${{ inputs.mode == 'apply-all' }}
-        run: node --check src/batch-apply-all-v3.js
+        run: node --check src/batch-apply-all-v4.js && node --check src/batch-apply-all-v3.js
 
-      - name: Final safe resume apply-all v3
+      - name: Final safe resume apply-all v4
         if: ${{ inputs.mode == 'apply-all' }}
         env:
           TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
           TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
           TVDB_BATCH_APPLY: 'yes'
-        run: node src/batch-apply-all-v3.js
+        run: node src/batch-apply-all-v4.js
 
       - name: Upload execution report
         if: always()
