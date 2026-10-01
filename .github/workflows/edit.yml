@@ -11,6 +11,7 @@ on:
         options:
           - dry-run
           - auth-preflight
+          - form-preflight
           - apply
 
 permissions:
@@ -40,7 +41,7 @@ jobs:
         run: npm run audit:plan
 
       - name: Controlled dry-run or apply preflight
-        if: ${{ inputs.mode != 'auth-preflight' }}
+        if: ${{ inputs.mode == 'dry-run' || inputs.mode == 'apply' }}
         env:
           TVDB_EDIT_MODE: ${{ inputs.mode }}
           TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
@@ -53,6 +54,13 @@ jobs:
           TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
           TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
         run: npm run auth:preflight
+
+      - name: Read-only form preflight
+        if: ${{ inputs.mode == 'form-preflight' }}
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: npm run form:preflight
 
       - name: Upload execution report
         if: always()
