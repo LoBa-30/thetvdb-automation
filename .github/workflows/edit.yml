@@ -10,6 +10,7 @@ on:
         type: choice
         options:
           - dry-run
+          - auth-preflight
           - apply
 
 permissions:
@@ -38,12 +39,20 @@ jobs:
       - name: Rebuild fresh audit and correction plan
         run: npm run audit:plan
 
-      - name: Controlled edit preflight
+      - name: Controlled dry-run or apply preflight
+        if: ${{ inputs.mode != 'auth-preflight' }}
         env:
           TVDB_EDIT_MODE: ${{ inputs.mode }}
           TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
           TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
         run: npm run edit
+
+      - name: Authentication preflight only
+        if: ${{ inputs.mode == 'auth-preflight' }}
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: npm run auth:preflight
 
       - name: Upload execution report
         if: always()
