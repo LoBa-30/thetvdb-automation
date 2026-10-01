@@ -30,8 +30,8 @@ jobs:
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
 
-      - name: Run read-only audit
-        run: npm run audit
+      - name: Run read-only audit and build correction plan
+        run: npm run audit:plan
 
       - name: Upload audit report
         if: always()
