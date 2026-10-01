@@ -10,6 +10,7 @@
     "edit": "node src/edit.js",
     "auth:preflight": "node src/auth-preflight.js",
     "form:preflight": "node src/form-preflight.js",
+    "translation:preflight": "node src/translation-preflight.js",
     "final:dry-run": "node src/final-dry-run.js",
     "final:apply": "node src/final-apply.js",
     "post:apply-check": "node src/post-apply-check.js",
