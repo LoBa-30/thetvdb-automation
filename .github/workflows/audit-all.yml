@@ -1,0 +1,44 @@
+name: TheTVDB full 9-channel audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'src/audit-all.js'
+      - '.github/workflows/audit-all.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  audit-all:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run full 9-channel read-only audit
+        run: node src/audit-all.js
+
+      - name: Upload full audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: thetvdb-full-9-channel-audit
+          path: reports/
+          if-no-files-found: warn
+          retention-days: 30
