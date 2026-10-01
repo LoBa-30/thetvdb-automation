@@ -40,19 +40,6 @@ const context = await browser.newContext({
 });
 const page = await context.newPage();
 
-function safeFieldDescriptor(el) {
-  return {
-    tag: el.tagName.toLowerCase(),
-    type: el.getAttribute('type'),
-    name: el.getAttribute('name'),
-    id: el.getAttribute('id'),
-    required: Boolean(el.required),
-    placeholder: el.getAttribute('placeholder'),
-    autocomplete: el.getAttribute('autocomplete'),
-    multiple: Boolean(el.multiple)
-  };
-}
-
 async function login() {
   await page.goto('https://thetvdb.com/auth/login', { waitUntil: 'domcontentloaded', timeout: 60000 });
   await page.waitForTimeout(1000);
@@ -90,7 +77,16 @@ async function inspectCurrentPage(source, candidateKind) {
     index,
     action: form.getAttribute('action'),
     method: (form.getAttribute('method') || 'GET').toUpperCase(),
-    fields: Array.from(form.querySelectorAll('input, select, textarea')).map(safeFieldDescriptor),
+    fields: Array.from(form.querySelectorAll('input, select, textarea')).map(el => ({
+      tag: el.tagName.toLowerCase(),
+      type: el.getAttribute('type'),
+      name: el.getAttribute('name'),
+      id: el.getAttribute('id'),
+      required: Boolean(el.required),
+      placeholder: el.getAttribute('placeholder'),
+      autocomplete: el.getAttribute('autocomplete'),
+      multiple: Boolean(el.multiple)
+    })),
     submitControls: Array.from(form.querySelectorAll('button[type="submit"], input[type="submit"]')).map(el => ({
       tag: el.tagName.toLowerCase(),
       type: el.getAttribute('type'),
@@ -100,13 +96,44 @@ async function inspectCurrentPage(source, candidateKind) {
     }))
   })));
 
+  const controls = await page.locator('a[href], button').evaluateAll(nodes => nodes.map(el => ({
+    tag: el.tagName.toLowerCase(),
+    href: el.tagName.toLowerCase() === 'a' ? el.href : null,
+    text: (el.textContent || '').replace(/\s+/g, ' ').trim(),
+    title: el.getAttribute('title'),
+    ariaLabel: el.getAttribute('aria-label')
+  })).filter(item => /add|create|edit|episode/i.test(`${item.text} ${item.href || ''} ${item.title || ''} ${item.ariaLabel || ''}`)).slice(0, 80));
+
   return {
     source,
     candidateKind,
     finalUrl: page.url(),
     title: await page.title(),
-    forms
+    forms,
+    controls
   };
+}
+
+async function collectEditorSignals() {
+  return page.locator('a[href], button').evaluateAll(nodes => {
+    const out = [];
+    const seen = new Set();
+    for (const el of nodes) {
+      const tag = el.tagName.toLowerCase();
+      const href = tag === 'a' ? (el.href || '') : '';
+      const text = (el.textContent || '').replace(/\s+/g, ' ').trim();
+      const title = el.getAttribute('title') || '';
+      const aria = el.getAttribute('aria-label') || '';
+      const signal = `${text} ${href} ${title} ${aria}`.toLowerCase();
+      if (!/(add|create|edit|episode)/i.test(signal)) continue;
+      if (href && !href.includes('thetvdb.com')) continue;
+      const key = `${tag}|${href}|${text}|${title}|${aria}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push({ tag, href: href || null, text, title: title || null, ariaLabel: aria || null });
+    }
+    return out.slice(0, 120);
+  });
 }
 
 try {
@@ -130,44 +157,51 @@ try {
       continue;
     }
 
-    const links = await page.locator('a[href]').evaluateAll(anchors => {
-      const out = [];
-      const seen = new Set();
-      for (const a of anchors) {
-        const href = a.href || '';
-        const text = (a.textContent || '').replace(/\s+/g, ' ').trim();
-        const signal = `${text} ${href}`.toLowerCase();
-        if (!/(add|create|edit|episode)/i.test(signal)) continue;
-        if (!href.includes('thetvdb.com')) continue;
-        if (seen.has(href)) continue;
-        seen.add(href);
-        out.push({ href, text });
-      }
-      return out.slice(0, 80);
-    });
-
+    const links = await collectEditorSignals();
     targetResult.candidateLinks = links;
 
-    const addCandidate = links.find(link => /add|create/i.test(`${link.text} ${link.href}`) && /episode/i.test(`${link.text} ${link.href}`));
-    const editCandidate = links.find(link => /edit/i.test(`${link.text} ${link.href}`) && /episode/i.test(`${link.text} ${link.href}`));
+    const episodeDetail = links.find(link => link.href && /\/episodes?\//i.test(link.href));
+    const directAdd = links.find(link => link.href && /add|create/i.test(`${link.text} ${link.href} ${link.title || ''} ${link.ariaLabel || ''}`) && /episode/i.test(`${link.text} ${link.href} ${link.title || ''} ${link.ariaLabel || ''}`));
+    const directEdit = links.find(link => link.href && /edit/i.test(`${link.text} ${link.href} ${link.title || ''} ${link.ariaLabel || ''}`) && /episode/i.test(`${link.text} ${link.href} ${link.title || ''} ${link.ariaLabel || ''}`));
 
-    for (const [kind, candidate] of [['add-episode', addCandidate], ['edit-episode', editCandidate]]) {
-      if (!candidate) {
-        targetResult.notes.push(`No visible ${kind} link discovered on the series page.`);
-        continue;
+    const candidates = [];
+    if (directAdd) candidates.push(['add-episode', directAdd]);
+    if (directEdit) candidates.push(['edit-episode', directEdit]);
+
+    // If the series page does not expose editor links directly, inspect one episode detail page read-only
+    // and discover edit controls there. This still performs GET navigation only and never submits a form.
+    if (!directAdd && !directEdit && episodeDetail) {
+      const detailNav = await page.goto(episodeDetail.href, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => null);
+      await page.waitForTimeout(900);
+      if (detailNav && detailNav.status() < 400) {
+        targetResult.inspectedPages.push(await inspectCurrentPage(episodeDetail.href, 'episode-detail'));
+        const detailSignals = await collectEditorSignals();
+        for (const signal of detailSignals) {
+          if (!targetResult.candidateLinks.some(x => x.href === signal.href && x.text === signal.text)) targetResult.candidateLinks.push(signal);
+        }
+        const detailEdit = detailSignals.find(link => link.href && /edit/i.test(`${link.text} ${link.href} ${link.title || ''} ${link.ariaLabel || ''}`));
+        if (detailEdit) candidates.push(['edit-episode-from-detail', detailEdit]);
+      } else {
+        targetResult.notes.push(`Episode detail candidate returned HTTP ${detailNav?.status() ?? 'n/a'}.`);
       }
+      await page.goto(target.url, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => null);
+      await page.waitForTimeout(500);
+    }
 
+    if (!directAdd) targetResult.notes.push('No direct add-episode URL discovered on the series page.');
+    if (!directEdit) targetResult.notes.push('No direct edit-episode URL discovered on the series page.');
+
+    for (const [kind, candidate] of candidates) {
+      if (!candidate?.href) continue;
       const nav = await page.goto(candidate.href, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => null);
-      await page.waitForTimeout(1000);
+      await page.waitForTimeout(900);
       if (!nav || nav.status() >= 400) {
         targetResult.notes.push(`${kind} candidate returned HTTP ${nav?.status() ?? 'n/a'}.`);
       } else {
         targetResult.inspectedPages.push(await inspectCurrentPage(candidate.href, kind));
       }
-
-      // Return to the canonical series page before inspecting another candidate.
       await page.goto(target.url, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => null);
-      await page.waitForTimeout(600);
+      await page.waitForTimeout(500);
     }
 
     report.targets.push(targetResult);
@@ -190,13 +224,19 @@ const lines = [
 ];
 for (const target of report.targets) {
   lines.push(`## ${target.name}`);
-  lines.push(`Candidate links: ${target.candidateLinks.length}`);
+  lines.push(`Candidate controls: ${target.candidateLinks.length}`);
+  for (const candidate of target.candidateLinks.slice(0, 25)) {
+    lines.push(`- CONTROL ${candidate.tag}: ${candidate.text || '(no text)'} | ${candidate.href || '(no href)'} | title=${candidate.title || ''} | aria=${candidate.ariaLabel || ''}`);
+  }
   lines.push(`Inspected pages: ${target.inspectedPages.length}`);
   for (const inspected of target.inspectedPages) {
     lines.push(`- ${inspected.candidateKind}: ${inspected.finalUrl}`);
     lines.push(`  Forms: ${inspected.forms.length}`);
     for (const form of inspected.forms) {
       lines.push(`  - ${(form.method || 'GET').toUpperCase()} ${form.action || '(no action)'} | fields=${form.fields.map(f => `${f.tag}:${f.type || ''}:${f.name || f.id || '(unnamed)'}`).join(', ')}`);
+    }
+    for (const control of inspected.controls.slice(0, 20)) {
+      lines.push(`  - PAGE CONTROL ${control.tag}: ${control.text || '(no text)'} | ${control.href || '(no href)'} | title=${control.title || ''} | aria=${control.ariaLabel || ''}`);
     }
   }
   for (const note of target.notes) lines.push(`- NOTE: ${note}`);
