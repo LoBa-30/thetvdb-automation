@@ -23,20 +23,20 @@ jobs:
           python-version: '3.12'
       - name: Install dependencies
         run: python -m pip install -U yt-dlp requests beautifulsoup4 pillow imagehash
-      - name: Retrieve exact Joyca metadata
+      - name: Retrieve Joyca flat catalogue
         run: |
           mkdir -p reports/joyca-images
-          yt-dlp --dump-json --skip-download --ignore-errors --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/c/JOYCA-JORDAN/videos' > reports/joyca-images/full-metadata.jsonl
+          yt-dlp --flat-playlist --dump-single-json --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/c/JOYCA-JORDAN/videos' > reports/joyca-images/catalogue.json
       - name: Audit metadata and image provenance
         run: |
           cat > /tmp/audit_images.py <<'PY'
-          import json, re, io, time, math, unicodedata
+          import json, re, io, unicodedata
           import requests
           from bs4 import BeautifulSoup
           from PIL import Image
           import imagehash
           from difflib import SequenceMatcher
-          from collections import Counter, defaultdict
+          from collections import Counter
           from datetime import datetime
 
           REF='20260909'
@@ -61,32 +61,18 @@ jobs:
               sec=int(round(sec)); h,rem=divmod(sec,3600); m,s=divmod(rem,60)
               return f'{h}:{m:02d}:{s:02d}' if h else f'{m}:{s:02d}'
 
-          videos=[]
-          for line in open('reports/joyca-images/full-metadata.jsonl',encoding='utf-8'):
-              line=line.strip()
-              if not line: continue
-              try: e=json.loads(line)
-              except Exception: continue
-              if not e.get('id') or not e.get('title'): continue
-              if e.get('live_status') in ('is_live','is_upcoming','post_live'): continue
-              up=e.get('upload_date')
-              videos.append({
-                'id':e.get('id'),'title':e.get('title'),'upload_date':up,
-                'duration':e.get('duration'),'duration_text':fmt_duration(e.get('duration')),
-                'thumbnail':e.get('thumbnail'),'availability':e.get('availability'),
-                'webpage_url':e.get('webpage_url') or ('https://www.youtube.com/watch?v='+e.get('id'))
-              })
+          cat=json.load(open('reports/joyca-images/catalogue.json',encoding='utf-8'))
+          # YouTube tab is newest->oldest. Reverse to oldest->newest for sequence alignment.
+          videos=[{
+              'id':e.get('id'),'title':e.get('title'),
+              'duration':e.get('duration'),'duration_text':fmt_duration(e.get('duration'))
+          } for e in (cat.get('entries') or []) if e.get('id') and e.get('title')]
+          videos=list(reversed(videos))
 
-          by_date=defaultdict(list)
-          for v in videos:
-              if v.get('upload_date'): by_date[v['upload_date']].append(v)
-
-          # Discover all current TVDB episode pages.
           episodes=[]
           for y in range(2016,2027):
               url=f'https://thetvdb.com/series/335805-show/seasons/official/{y}'
-              rr=S.get(url,timeout=30)
-              rr.raise_for_status()
+              rr=S.get(url,timeout=30); rr.raise_for_status()
               soup=BeautifulSoup(rr.text,'html.parser')
               seen=set()
               for a in soup.select('a[href*="/series/335805-show/episodes/"]'):
@@ -95,36 +81,33 @@ jobs:
                   if not m or m.group(1) in seen: continue
                   seen.add(m.group(1))
                   episodes.append({
-                    'year':y,'episode_id':m.group(1),
+                    'season_hint':y,'episode_id':m.group(1),
                     'url':'https://thetvdb.com'+href if href.startswith('/') else href
                   })
 
-          out=[]
+          rows=[]
           for idx,e in enumerate(episodes,1):
-              row={'episode_id':e['episode_id'],'url':e['url'],'season_hint':e['year']}
+              row={'episode_id':e['episode_id'],'url':e['url'],'season_hint':e['season_hint']}
               try:
                   rr=S.get(e['url'],timeout=30); rr.raise_for_status()
                   soup=BeautifulSoup(rr.text,'html.parser')
                   text='\\n'.join(x.strip() for x in soup.stripped_strings)
                   mt=re.search(r'Season\\s+(\\d{4})\\s*/\\s*Episode\\s+(\\d+)',text,re.I)
-                  season=int(mt.group(1)) if mt else e['year']
+                  season=int(mt.group(1)) if mt else e['season_hint']
                   epnum=int(mt.group(2)) if mt else None
                   code=f'S{season}E{epnum:02d}' if epnum is not None else ''
                   h1=soup.find('h1')
                   title=' '.join(h1.get_text(' ',strip=True).split()) if h1 else None
                   dm=re.search(r'Originally Aired\\s+([A-Z][a-z]+ \\d{1,2}, \\d{4})',text,re.I)
-                  date_iso=None
-                  if dm:
-                      date_iso=datetime.strptime(dm.group(1),'%B %d, %Y').strftime('%Y%m%d')
+                  date_iso=datetime.strptime(dm.group(1),'%B %d, %Y').strftime('%Y%m%d') if dm else None
                   rm=re.search(r'Runtime\\s+(\\d+)\\s+minutes?',text,re.I)
                   runtime=int(rm.group(1)) if rm else None
 
                   img=None
-                  # Prefer explicit artwork links, then image src.
                   for tag in soup.find_all(['a','img']):
                       val=tag.get('href') if tag.name=='a' else tag.get('src')
                       if not val: continue
-                      if 'artworks.thetvdb.com' in val and ('episode' in val.lower() or e['episode_id'] in val):
+                      if 'artworks.thetvdb.com' in val and (e['episode_id'] in val or '/episode' in val.lower()):
                           img=val; break
                   if not img:
                       for tag in soup.find_all('img'):
@@ -132,101 +115,120 @@ jobs:
                           if 'artworks.thetvdb.com/banners/episodes/' in val:
                               img=val; break
 
-                  # Date-first exact matching; title resolves same-day ambiguity.
-                  candidates=by_date.get(date_iso,[]) if date_iso else []
-                  best=None; score=-1; match_method='NONE'
-                  for v in candidates:
-                      sc=sim(title,v['title'])
-                      if sc>score: score=sc; best=v
-                  if best:
-                      match_method='SAME_DATE'
-                  else:
-                      for v in videos:
-                          sc=sim(title,v['title'])
-                          if sc>score: score=sc; best=v
-                      if best and score>=0.72:
-                          match_method='TITLE_FALLBACK'
-                      else:
-                          best=None
-
                   row.update({
-                    'season':season,'episode':epnum,'code':code,
-                    'tvdb_title':title,'tvdb_date':date_iso,'tvdb_runtime_minutes':runtime,
-                    'tvdb_image':img,
-                    'youtube_id':best['id'] if best else None,
-                    'youtube_title':best['title'] if best else None,
-                    'youtube_date':best['upload_date'] if best else None,
-                    'youtube_duration_seconds':best['duration'] if best else None,
-                    'youtube_duration':best['duration_text'] if best else None,
-                    'youtube_thumbnail':best['thumbnail'] if best else None,
-                    'title_similarity':round(score,3) if best else None,
-                    'match_method':match_method,
-                    'title_exact':bool(best and title==best['title']),
-                    'date_exact':bool(best and date_iso==best['upload_date']),
-                    'runtime_delta_seconds':abs(runtime*60-best['duration']) if best and runtime is not None and best.get('duration') is not None else None,
-                    'runtime_major_mismatch':bool(best and runtime is not None and best.get('duration') is not None and abs(runtime*60-best['duration'])>=60),
+                    'season':season,'episode':epnum,'code':code,'tvdb_title':title,
+                    'tvdb_date':date_iso,'tvdb_runtime_minutes':runtime,'tvdb_image':img,
                     'after_reference_date':bool(date_iso and date_iso>REF),
                     'non_main_candidate':bool(title and re.search(r'\\b(instrumental|lyrics video|playlist du mois|trailer|teaser|bande.?annonce|annonce video|annonce vidéo)\\b',title,re.I))
                   })
-
-                  if img and best:
-                      try:
-                          b=S.get(img,timeout=30).content
-                          tv=Image.open(io.BytesIO(b)).convert('RGB')
-                          ph_tv=imagehash.phash(tv)
-                          yt_urls=[]
-                          if best.get('thumbnail'): yt_urls.append(best['thumbnail'])
-                          yt_urls += [f"https://i.ytimg.com/vi/{best['id']}/maxresdefault.jpg",f"https://i.ytimg.com/vi/{best['id']}/hqdefault.jpg"]
-                          bestdist=None; used=None
-                          for yu in dict.fromkeys(yt_urls):
-                              try:
-                                  r2=S.get(yu,timeout=30)
-                                  if r2.status_code!=200 or len(r2.content)<1000: continue
-                                  yi=Image.open(io.BytesIO(r2.content)).convert('RGB')
-                                  dist=ph_tv-imagehash.phash(yi)
-                                  if bestdist is None or dist<bestdist: bestdist=dist; used=yu
-                              except Exception:
-                                  pass
-                          row['thumbnail_phash_distance']=int(bestdist) if bestdist is not None else None
-                          row['compared_youtube_thumbnail']=used
-                          if bestdist is not None and bestdist<=4:
-                              row['image_provenance']='CONFIRMED_OFFICIAL_THUMBNAIL'
-                          else:
-                              row['image_provenance']='PRESENT_ORIGIN_UNCONFIRMED_NEEDS_VIDEO_FRAME_CHECK'
-                      except Exception as ex:
-                          row['image_provenance']='IMAGE_COMPARE_ERROR'; row['image_error']=str(ex)
-                  elif not img:
-                      row['image_provenance']='MISSING_IMAGE'
-                  else:
-                      row['image_provenance']='PRESENT_NO_CONFIDENT_YOUTUBE_MATCH'
-
               except Exception as ex:
                   row['error']=str(ex)
-              out.append(row)
-              if idx%25==0: print('processed',idx,'/',len(episodes))
+              rows.append(row)
+              if idx%25==0: print('parsed TVDB',idx,'/',len(episodes))
 
-          out.sort(key=lambda r:(r.get('season',9999),r.get('episode') or 9999))
+          rows.sort(key=lambda r:(r.get('season',9999),r.get('episode') or 9999))
+
+          # Order-constrained alignment: all public YouTube videos are aligned to a subsequence
+          # of TheTVDB. The 470-449 = 21 extra TVDB entries become historical/no-current-public-video gaps.
+          n,m=len(rows),len(videos)
+          NEG=-10**9
+          dp=[[NEG]*(m+1) for _ in range(n+1)]
+          prev=[[None]*(m+1) for _ in range(n+1)]
+          dp[0][0]=0.0
+          for i in range(n):
+              for j in range(m+1):
+                  cur=dp[i][j]
+                  if cur<=NEG/2: continue
+                  # Skip a TVDB entry.
+                  if cur>dp[i+1][j]:
+                      dp[i+1][j]=cur
+                      prev[i+1][j]=(i,j,'skip')
+                  # Match next YouTube video to this TVDB entry.
+                  if j<m:
+                      score=sim(rows[i].get('tvdb_title'),videos[j].get('title'))
+                      val=cur+score
+                      if val>dp[i+1][j+1]:
+                          dp[i+1][j+1]=val
+                          prev[i+1][j+1]=(i,j,'match')
+
+          # Backtrack.
+          i,j=n,m
+          matched_pairs=[]
+          skipped=[]
+          while i>0 or j>0:
+              p=prev[i][j]
+              if p is None: break
+              pi,pj,act=p
+              if act=='match':
+                  matched_pairs.append((pi,pj))
+              else:
+                  skipped.append(pi)
+              i,j=pi,pj
+          matched_pairs.reverse(); skipped=set(skipped)
+          pair_by_tv={ti:yj for ti,yj in matched_pairs}
+
+          out=[]
+          for ti,row in enumerate(rows):
+              row=dict(row)
+              yj=pair_by_tv.get(ti)
+              if yj is None:
+                  row.update({
+                    'youtube_id':None,'youtube_title':None,'youtube_duration_seconds':None,
+                    'youtube_duration':None,'title_similarity':None,'title_exact':False,
+                    'runtime_delta_seconds':None,'runtime_major_mismatch':False,
+                    'image_provenance':'MISSING_IMAGE' if not row.get('tvdb_image') else 'PRESENT_NO_CURRENT_PUBLIC_YOUTUBE_MATCH'
+                  })
+                  out.append(row); continue
+
+              v=videos[yj]
+              score=sim(row.get('tvdb_title'),v.get('title'))
+              row.update({
+                'youtube_id':v['id'],'youtube_title':v['title'],
+                'youtube_duration_seconds':v.get('duration'),'youtube_duration':v.get('duration_text'),
+                'title_similarity':round(score,3),'title_exact':row.get('tvdb_title')==v.get('title'),
+                'runtime_delta_seconds':abs(row['tvdb_runtime_minutes']*60-v['duration']) if row.get('tvdb_runtime_minutes') is not None and v.get('duration') is not None else None,
+                'runtime_major_mismatch':bool(row.get('tvdb_runtime_minutes') is not None and v.get('duration') is not None and abs(row['tvdb_runtime_minutes']*60-v['duration'])>=60)
+              })
+
+              img=row.get('tvdb_image')
+              if img:
+                  try:
+                      b=S.get(img,timeout=30).content
+                      tv=Image.open(io.BytesIO(b)).convert('RGB')
+                      ph_tv=imagehash.phash(tv)
+                      bestdist=None; used=None
+                      for yu in [f"https://i.ytimg.com/vi/{v['id']}/maxresdefault.jpg",f"https://i.ytimg.com/vi/{v['id']}/hqdefault.jpg"]:
+                          try:
+                              r2=S.get(yu,timeout=30)
+                              if r2.status_code!=200 or len(r2.content)<1000: continue
+                              yi=Image.open(io.BytesIO(r2.content)).convert('RGB')
+                              dist=ph_tv-imagehash.phash(yi)
+                              if bestdist is None or dist<bestdist: bestdist=dist; used=yu
+                          except Exception:
+                              pass
+                      row['thumbnail_phash_distance']=int(bestdist) if bestdist is not None else None
+                      row['compared_youtube_thumbnail']=used
+                      row['image_provenance']='CONFIRMED_OFFICIAL_THUMBNAIL' if bestdist is not None and bestdist<=4 else 'PRESENT_ORIGIN_UNCONFIRMED_NEEDS_VIDEO_FRAME_CHECK'
+                  except Exception as ex:
+                      row['image_provenance']='IMAGE_COMPARE_ERROR'; row['image_error']=str(ex)
+              else:
+                  row['image_provenance']='MISSING_IMAGE'
+              out.append(row)
+
           json.dump(out,open('reports/joyca-images/audit.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
 
           relevant=[r for r in out if not r.get('after_reference_date')]
           c=Counter(r.get('image_provenance','ERROR') for r in relevant)
-          title_m=[r for r in relevant if r.get('youtube_id') and not r.get('title_exact')]
-          date_m=[r for r in relevant if r.get('youtube_id') and not r.get('date_exact')]
-          run_m=[r for r in relevant if r.get('runtime_major_mismatch')]
-          missing_yt=[r for r in relevant if not r.get('youtube_id')]
-          nonmain=[r for r in relevant if r.get('non_main_candidate')]
-
           summary={
             'reference_date':'2026-09-09',
-            'youtube_metadata_entries':len(videos),
-            'tvdb_episode_pages':len(out),
+            'youtube_public_videos_current_total':len(videos),
+            'tvdb_episode_pages_current_total':len(out),
             'relevant_tvdb_episodes_through_reference':len(relevant),
-            'matched_to_current_public_youtube':sum(1 for r in relevant if r.get('youtube_id')),
-            'tvdb_without_confident_current_public_youtube':len(missing_yt),
-            'exact_title_mismatches':len(title_m),
-            'date_mismatches':len(date_m),
-            'runtime_major_mismatches':len(run_m),
-            'non_main_candidates':len(nonmain),
+            'matched_to_current_public_youtube_through_reference':sum(1 for r in relevant if r.get('youtube_id')),
+            'tvdb_without_current_public_youtube_through_reference':sum(1 for r in relevant if not r.get('youtube_id')),
+            'exact_title_mismatches':sum(1 for r in relevant if r.get('youtube_id') and not r.get('title_exact')),
+            'runtime_major_mismatches':sum(1 for r in relevant if r.get('runtime_major_mismatch')),
+            'non_main_candidates':sum(1 for r in relevant if r.get('non_main_candidate')),
             'image_provenance_counts':dict(c)
           }
           json.dump(summary,open('reports/joyca-images/summary.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
