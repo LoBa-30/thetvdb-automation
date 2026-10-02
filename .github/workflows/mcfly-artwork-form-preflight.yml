@@ -1,0 +1,31 @@
+name: Mcfly artwork form preflight
+on:
+  push:
+    branches: [mcfly-audit-2026-10-03]
+    paths:
+      - '.github/workflows/mcfly-artwork-form-preflight.yml'
+      - 'src/mcfly-artwork-form-preflight.js'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Inspect upload forms without submitting
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: node src/mcfly-artwork-form-preflight.js
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mcfly-artwork-form-preflight
+          path: reports/mcfly-artwork-form-preflight/
+          retention-days: 30
