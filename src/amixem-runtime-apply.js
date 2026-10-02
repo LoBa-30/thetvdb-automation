@@ -97,7 +97,7 @@ try{
     };
     await context.route('**/*',handler);
     await m.f.locator('input[name="runtime"]').fill(String(x.desiredRuntime));
-    await Promise.all([page.waitForLoadState('domcontentloaded').catch(()=>{}),m.f.locator('button[type="submit"],input[type="submit"]').last().click()]);
+    await Promise.all([page.waitForLoadState('domcontentloaded').catch(()=>{}),m.f.evaluate(form=>form.requestSubmit())]);
     await page.waitForTimeout(450);
     await context.unroute('**/*',handler);
     if(unexpectedPost){report.blocked.push({id,reason:unexpectedPost}); continue;}
