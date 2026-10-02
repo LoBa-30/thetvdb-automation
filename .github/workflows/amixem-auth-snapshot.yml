@@ -1,0 +1,44 @@
+name: Amixem authenticated current snapshot
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/amixem-auth-snapshot.yml'
+      - 'src/amixem-auth-snapshot.js'
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Authenticated read-only snapshot
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: node src/amixem-auth-snapshot.js
+      - name: Commit snapshot
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/amixem-auth-snapshot
+          git commit -m "Update Amixem authenticated snapshot [skip ci]" || exit 0
+          git pull --rebase
+          git push
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: amixem-auth-current-snapshot
+          path: reports/amixem-auth-snapshot/
+          retention-days: 30
