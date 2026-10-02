@@ -1,0 +1,31 @@
+name: Joyca live TheTVDB snapshot
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/joyca-tvdb-live.yml'
+      - 'src/joyca-tvdb-live.js'
+
+permissions:
+  contents: read
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - run: node src/joyca-tvdb-live.js
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: joyca-tvdb-live
+          path: reports/joyca-live/
+          retention-days: 30
