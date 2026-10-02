@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-10-02T22:27:40.839Z",
+  "authenticated": true,
+  "writeRequestsDetected": 34,
+  "unassigned": {
+    "rows": [],
+    "url": null,
+    "bodyPreview": "Discover Earn Points Support Home / Series / Mcfly & Carlito / Aired Order / Unassigned Unassigned Season 2012 1 Season 2013 54 Season 2014 24 Season 2015 4 Season 2016 3 Season 2017 51 Season 2018 45 Season 2019 45 Season 2020 26 Season 2021 32 Season 2022 14 Season 2023 38 Season 2024 100 Season 2025 86 Season 2026 59 Unassigned 64 Name Aired Send To Boire 10 cafés, devenir fous, construire un château de cartes, devenir fous 2024-01-29 Season 2012 Season 2013 Season 2014 Season 2015 Season 2016 Season 2017 Season 2018 Season 2019 Season 2020 Season 2021 Season 2022 Season 2023 Season 2024 Se",
+    "error": "GET https://thetvdb.com/series/338282-show/seasons/official/0/edit 403"
+  },
+  "translations": [],
+  "knownMetadata": [
+    {
+      "publicId": "9381309",
+      "title": "Qui est le papa de qui ? Préparez les ???? ainsi que les ????",
+      "translationAction": "/episodes/translatestore",
+      "airdate": "2022-07-31",
+      "runtime": 82,
+      "metaAction": "/series/338282-show/season/official/episodes/9381309/update"
+    },
+    {
+      "publicId": "10677628",
+      "title": "Podcartes Feat. Océane ????#2",
+      "translationAction": "/episodes/translatestore",
+      "airdate": "2024-07-12",
+      "runtime": 41,
+      "metaAction": "/series/338282-show/season/official/episodes/10677628/update"
+    },
+    {
+      "publicId": "10714431",
+      "title": "On s’habille fashion alors qu’on déteste ça…",
+      "translationAction": "/episodes/translatestore",
+      "airdate": "2024-09-05",
+      "runtime": 33,
+      "metaAction": "/series/338282-show/season/official/episodes/10714431/update"
+    },
+    {
+      "publicId": "11595720",
+      "title": "La moins bonne vidéo de la chaîne ? (Mcfly et les autres ont détesté mais Carl a aimé)",
+      "translationAction": "/episodes/translatestore",
+      "airdate": "2026-02-04",
+      "runtime": 12,
+      "metaAction": "/series/338282-show/season/official/episodes/11595720/update"
+    },
+    {
+      "publicId": "11614913",
+      "title": "Quel couple se connaît le mieux ? Avec Erika et Tif ???? (y a TOUT dans cette vidéo) ",
+      "translationAction": "/episodes/translatestore",
+      "airdate": "2026-02-14",
+      "runtime": 67,
+      "metaAction": "/series/338282-show/season/official/episodes/11614913/update"
+    },
+    {
+      "publicId": "11792871",
+      "title": "24h avec les marins-pompiers de Marseille (tournage le plus marquant de notre vie)",
+      "translationAction": "/episodes/translatestore",
+      "airdate": "2026-05-14",
+      "runtime": 88,
+      "metaAction": "/series/338282-show/season/official/episodes/11792871/update"
+    },
+    {
+      "publicId": "11879094",
+      "title": "On classe 32 friandises de cinéma avec Florent Bernard & Seb Vaniček (Mcfly n’aime pas le popcorn ????)",
+      "translationAction": "/episodes/translatestore",
+      "airdate": "2026-07-09",
+      "runtime": 106,
+      "metaAction": "/series/338282-show/season/official/episodes/11879094/update"
+    }
+  ]
+}
