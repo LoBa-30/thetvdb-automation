@@ -1,0 +1,42 @@
+name: Squeezie duplicate delete preflight
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/squeezie-delete-preflight.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Inspect duplicate deletion forms without submitting
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: node src/squeezie-delete-preflight.js
+      - name: Commit preflight
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/squeezie-deep/delete-preflight.json
+          git commit -m "Update Squeezie duplicate delete preflight [skip ci]" || exit 0
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: squeezie-delete-preflight
+          path: reports/squeezie-deep/delete-preflight.json
+          retention-days: 30
