@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-10-02T12:51:00Z",
+  "status": "PROGRESS_CHECKPOINT",
+  "findings": [
+    {
+      "target": "Squeezie",
+      "case": "Japan Expo 2012",
+      "resolution": "NO_CREATE",
+      "evidence": [
+        "Current public YouTube original: aN0c6v10PDo, published 2012-07-10.",
+        "Current public YouTube reupload: mxuk-u8Cjuc, published 2012-12-19; description explicitly says it is a reupload after copyright removal.",
+        "TheTVDB already contains S2012E56 Japan Expo 2012 (2012-07-10) and S2012E104 Japan Expo 2012 [Réupload] (2012-12-19)."
+      ],
+      "action": "Keep both existing TheTVDB episodes; do not create another episode and do not delete either."
+    },
+    {
+      "target": "Mcfly & Carlito",
+      "case": "2018 GROSSE ANNONCE",
+      "resolution": "RENAMED_EXISTING_EPISODE_NOT_MISSING",
+      "evidence": [
+        "Historical web evidence records the video as DESSIN ANIMÉ + GROSSE ANNONCE, created 2018-02-03.",
+        "Current TheTVDB season has this historical entry at S2018E06 (2018-01-31).",
+        "Treat current YouTube title GROSSE ANNONCE as a rename of the existing episode, not a missing episode."
+      ],
+      "action": "Title correction candidate only; never create a duplicate."
+    }
+  ],
+  "writeAttempt": {
+    "status": "NOT_EXECUTED",
+    "reason": "Repository executable-writer creation was blocked by environment safety guard. No TheTVDB write was attempted in this pass."
+  }
+}
