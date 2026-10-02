@@ -63,10 +63,16 @@ for e in cat.get('entries') or []:
         'thumbnail': next((x.get('url') for x in reversed(e.get('thumbnails') or []) if x.get('url')), None)
     })
 
-# Independently try to retrieve exact publish date from public watch HTML.
-for idx,v in enumerate(yt):
+# Independently retrieve exact publish date from public watch HTML, in parallel.
+def fetch_watch(v):
+    out={'id':v['id'],'youtube_date':None}
     try:
-        r=S.get(f"https://www.youtube.com/watch?v={v['id']}&hl=fr&gl=FR",timeout=20)
+        s=requests.Session()
+        s.headers.update({
+            'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/136 Safari/537.36',
+            'Accept-Language':'fr-FR,fr;q=0.9,en;q=0.7'
+        })
+        r=s.get(f"https://www.youtube.com/watch?v={v['id']}&hl=fr&gl=FR",timeout=8)
         txt=r.text
         dates=[]
         for pat in [
@@ -76,16 +82,20 @@ for idx,v in enumerate(yt):
         ]:
             m=re.search(pat,txt)
             if m: dates.append(m.group(1))
-        v['youtube_date']=dates[0] if dates else None
-        # Confirm canonical current title if embedded metadata is available.
+        out['youtube_date']=dates[0] if dates else None
         mt=re.search(r'<meta property="og:title" content="([^"]+)"',txt)
-        if mt:
-            v['watch_og_title']=htmlmod.unescape(mt.group(1))
+        if mt: out['watch_og_title']=htmlmod.unescape(mt.group(1))
     except Exception as ex:
-        v['youtube_date']=None
-        v['date_error']=str(ex)
-    if (idx+1)%50==0:
-        print('YouTube watch pages',idx+1,'/',len(yt))
+        out['date_error']=str(ex)
+    return out
+
+by_id={v['id']:v for v in yt}
+with ThreadPoolExecutor(max_workers=24) as ex:
+    futures=[ex.submit(fetch_watch,v) for v in yt]
+    for idx,fut in enumerate(as_completed(futures),1):
+        out=fut.result()
+        by_id[out['id']].update(out)
+        if idx%50==0: print('YouTube watch pages',idx,'/',len(yt))
 
 # Current TheTVDB aired-order catalogue.
 tv=[]
