@@ -43,3 +43,5 @@ jobs:
           name: amixem-runtime-apply-report
           path: reports/amixem-runtime-apply/
           retention-days: 30
+
+# rerun native submit
