@@ -1,0 +1,31 @@
+name: Mastu historical YouTube verification
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/mastu-historical.yml'
+      - 'src/mastu-historical-audit.py'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -U yt-dlp
+      - name: Search historical videos on official Mastu YouTube
+        run: python src/mastu-historical-audit.py
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mastu-historical-youtube-verification
+          path: reports/mastu-historical/
+          retention-days: 30
