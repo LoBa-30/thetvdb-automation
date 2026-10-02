@@ -19,6 +19,20 @@ const TARGETS = [
   { name: 'Mcfly & Carlito', youtubeUrl: 'https://www.youtube.com/c/LeFatShow/videos', tvdbUrl: 'https://thetvdb.com/series/338282-show/allseasons/official' }
 ];
 
+// Lower bounds, not exact counts. New uploads/TVDB additions may increase them.
+// A result below one of these bounds is treated as an incomplete lazy-loading scrape.
+const MINIMUMS = {
+  'Djilsi': { youtube: 215, tvdb: 215 },
+  'Elian Ventre': { youtube: 29, tvdb: 29 },
+  'Raska': { youtube: 149, tvdb: 150 },
+  'Maxime Biaggi': { youtube: 64, tvdb: 64 },
+  'Squeezie': { youtube: 1585, tvdb: 1659 },
+  'Mastu': { youtube: 360, tvdb: 376 },
+  'Amixem': { youtube: 889, tvdb: 974 },
+  'Joyca': { youtube: 449, tvdb: 470 },
+  'Mcfly & Carlito': { youtube: 576, tvdb: 582 }
+};
+
 function runNode(file) {
   return new Promise((resolve, reject) => {
     const child = spawn(process.execPath, [file], { stdio: ['ignore', 'pipe', 'pipe'], cwd: process.cwd() });
@@ -31,11 +45,25 @@ function runNode(file) {
   });
 }
 
+function validateCandidate(target, candidate) {
+  if (!candidate) throw new Error('single-target report missing target');
+  const min = MINIMUMS[target.name];
+  const yt = Number(candidate.youtubeVideoCount || 0);
+  const tvdb = Number(candidate.tvdbEpisodeCount || 0);
+  const errors = candidate.errors?.length || 0;
+
+  if (errors) throw new Error(`target reported ${errors} error(s)`);
+  if (!min) throw new Error(`missing minimum guard for ${target.name}`);
+  if (yt < min.youtube) throw new Error(`incomplete YouTube inventory: ${yt} < minimum ${min.youtube}`);
+  if (tvdb < min.tvdb) throw new Error(`incomplete TheTVDB inventory: ${tvdb} < minimum ${min.tvdb}`);
+}
+
 await fs.mkdir('reports', { recursive: true });
 const merged = {
   generatedAt: new Date().toISOString(),
-  mode: 'READ_ONLY_AUDIT_9_CHANNELS_ISOLATED',
-  methodology: 'Each channel is audited in an isolated browser process, then the reports are merged. This prevents a transient YouTube/TheTVDB failure on one channel from contaminating later targets.',
+  mode: 'READ_ONLY_AUDIT_9_CHANNELS_ISOLATED_STRICT_MINIMUMS',
+  methodology: 'Each channel is audited in an isolated browser process and must meet known lower-bound counts before its result is accepted. Every accepted result still contains the per-video matching produced by audit.js; equal catalogue counts alone never mark a channel complete.',
+  minimums: MINIMUMS,
   targets: [],
   warnings: []
 };
@@ -46,9 +74,9 @@ for (let index = 0; index < TARGETS.length; index += 1) {
   let patched = source.replace(/const TARGETS = \[[\s\S]*?\n\];/, replacement);
   if (patched === source) throw new Error('TARGETS block not found in audit.js');
 
-  // Give large channels more time to stabilize instead of accepting an early lazy-loading plateau.
+  // Large catalogues need long scrolling and several stable rounds before stopping.
   patched = patched
-    .replace('i < 140 && stableRounds < 6', 'i < 280 && stableRounds < 10')
+    .replace('i < 140 && stableRounds < 6', 'i < 360 && stableRounds < 12')
     .replace('await page.waitForTimeout(850);', 'await page.waitForTimeout(1000);');
 
   const runtimePath = path.join(here, `.audit-one-${index}.mjs`);
@@ -56,20 +84,17 @@ for (let index = 0; index < TARGETS.length; index += 1) {
 
   let item = null;
   let lastError = null;
-  for (let attempt = 1; attempt <= 2 && !item; attempt += 1) {
+  for (let attempt = 1; attempt <= 3 && !item; attempt += 1) {
     try {
       await runNode(runtimePath);
       const single = JSON.parse(await fs.readFile('reports/audit.json', 'utf8'));
       const candidate = single.targets?.[0] || null;
-      if (!candidate) throw new Error('single-target report missing target');
-      const suspiciousTvdbZero = (candidate.youtubeVideoCount || 0) > 0 && (candidate.tvdbEpisodeCount || 0) === 0;
-      if (candidate.errors?.length || suspiciousTvdbZero) {
-        throw new Error(`suspicious result: errors=${candidate.errors?.length || 0}, yt=${candidate.youtubeVideoCount || 0}, tvdb=${candidate.tvdbEpisodeCount || 0}`);
-      }
+      validateCandidate(target, candidate);
       item = candidate;
     } catch (error) {
       lastError = error;
-      if (attempt < 2) await new Promise(r => setTimeout(r, 1500));
+      merged.warnings.push(`${target.name} attempt ${attempt}: ${error?.message || String(error)}`);
+      if (attempt < 3) await new Promise(r => setTimeout(r, 2000 * attempt));
     }
   }
 
@@ -78,9 +103,10 @@ for (let index = 0; index < TARGETS.length; index += 1) {
       name: target.name,
       youtubeUrl: target.youtubeUrl,
       tvdbUrl: target.tvdbUrl,
-      errors: [`Isolated audit failed after retry: ${lastError?.message || String(lastError)}`]
+      errors: [`Strict isolated audit failed after 3 attempts: ${lastError?.message || String(lastError)}`]
     };
   }
+
   merged.targets.push(item);
   await fs.rm(runtimePath, { force: true });
 }
@@ -96,6 +122,15 @@ const summary = merged.targets.map(t => [
   `Erreurs: ${t.errors?.length ?? 0}`
 ].join(' | ')).join('\n');
 
+const failed = merged.targets.filter(t => (t.errors?.length || 0) > 0);
+merged.complete = failed.length === 0 && merged.targets.length === TARGETS.length;
+
 await fs.writeFile('reports/audit.json', JSON.stringify(merged, null, 2));
-await fs.writeFile('reports/summary.txt', summary);
+await fs.writeFile('reports/summary.txt', summary + `\n\nStrict 9-channel audit complete: ${merged.complete}`);
 console.log(summary);
+console.log(`Strict 9-channel audit complete: ${merged.complete}`);
+
+if (!merged.complete) {
+  console.error(`Strict audit incomplete: ${failed.map(x => x.name).join(', ') || 'target count mismatch'}`);
+  process.exitCode = 2;
+}
