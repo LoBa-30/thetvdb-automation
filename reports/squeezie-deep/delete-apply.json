@@ -1,20 +1,27 @@
 {
-  "generatedAt": "2026-10-02T20:38:48.715Z",
+  "generatedAt": "2026-10-02T20:40:55.020Z",
   "mode": "EXACT_DUPLICATE_DELETE",
   "actions": [
     {
       "source": "6975388",
       "target": "6952099",
       "expectedTarget": "JE VIDE MON SAC !",
-      "status": "error",
+      "status": "verification-failed",
       "checks": {
         "targetHttp": 200,
         "targetMatches": true,
         "sourceHttpBefore": 200,
         "formSourceId": "6975388",
-        "formType": "3"
-      },
-      "error": "locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('form[action*=\"/entity/delete\"]').first().locator('select[name=\"delete-reason\"]')\n    - locator resolved to <select id=\"delete-reason\" name=\"delete-reason\" class=\"form-control visible_trigger\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - element is not visible\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - element is not visible\n    - retrying select option action\n      - waiting 100ms\n    59 × waiting for element to be visible and enabled\n       - element is not visible\n     - retrying select option action\n       - waiting 500ms\n"
+        "formType": "3",
+        "formValues": {
+          "deleteReason": "50",
+          "mergeType": "3",
+          "mergeId": "6952099"
+        },
+        "sourceHttpAfter": 200,
+        "sourceStillEditable": true,
+        "afterUrl": "https://thetvdb.com/series/279758-show/episodes/6975388"
+      }
     }
   ],
   "success": false
