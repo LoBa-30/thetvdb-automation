@@ -42,16 +42,18 @@ for(const c of cases){
    action.checks.formSourceId=hiddenId; action.checks.formType=hiddenType;
    if(hiddenId!==c.source||hiddenType!=='3') throw new Error('Delete form identity mismatch');
 
-   await del.locator('select[name="delete-reason"]').selectOption('50');
-   await del.locator('select[name="mergeto_entitytype"]').selectOption('3');
-   await del.locator('input[name="mergeto_id"]').fill(c.target);
-   const values=await del.evaluate(form=>Object.fromEntries([...new FormData(form).entries()]));
+   const values=await del.evaluate((form,target)=>{
+     form.querySelector('select[name="delete-reason"]').value='50';
+     form.querySelector('select[name="mergeto_entitytype"]').value='3';
+     form.querySelector('input[name="mergeto_id"]').value=target;
+     return Object.fromEntries([...new FormData(form).entries()]);
+   },c.target);
    action.checks.formValues={deleteReason:values['delete-reason'],mergeType:values['mergeto_entitytype'],mergeId:values['mergeto_id']};
    if(values['delete-reason']!=='50'||values['mergeto_entitytype']!=='3'||values['mergeto_id']!==c.target) throw new Error('Delete payload pre-submit mismatch');
 
    await Promise.all([
      page.waitForLoadState('domcontentloaded').catch(()=>{}),
-     del.locator('button[type=submit]').click()
+     del.evaluate(form=>form.submit())
    ]);
    await page.waitForTimeout(900);
 
