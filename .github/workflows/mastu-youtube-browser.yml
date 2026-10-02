@@ -1,0 +1,40 @@
+name: Mastu browser YouTube metadata
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/mastu-youtube-browser.yml'
+      - 'src/mastu-youtube-browser-meta.js'
+
+permissions:
+  contents: read
+
+jobs:
+  metadata:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - run: python -m pip install -U yt-dlp
+      - name: Retrieve official Videos-tab catalogue
+        run: |
+          mkdir -p reports/mastu-youtube-browser
+          yt-dlp --flat-playlist --dump-single-json --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/channel/UCAhaFPP6v3WCfK5Tjao0B7A/videos' > reports/mastu-youtube-browser/catalogue.json
+      - name: Read exact metadata from official watch pages
+        run: node src/mastu-youtube-browser-meta.js
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mastu-browser-youtube-metadata
+          path: reports/mastu-youtube-browser/
+          retention-days: 30
