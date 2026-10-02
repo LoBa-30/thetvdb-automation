@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-02T20:40:55.020Z",
+  "generatedAt": "2026-10-02T21:07:52.597Z",
   "mode": "EXACT_DUPLICATE_DELETE",
   "actions": [
     {
       "source": "6975388",
       "target": "6952099",
       "expectedTarget": "JE VIDE MON SAC !",
-      "status": "verification-failed",
+      "status": "error",
       "checks": {
         "targetHttp": 200,
         "targetMatches": true,
@@ -18,10 +18,11 @@
           "mergeType": "3",
           "mergeId": "6952099"
         },
-        "sourceHttpAfter": 200,
-        "sourceStillEditable": true,
-        "afterUrl": "https://thetvdb.com/series/279758-show/episodes/6975388"
-      }
+        "submitHttp": 401,
+        "submitUrl": "https://thetvdb.com/entity/delete",
+        "submitBodyPreview": "<!DOCTYPE html> <html> <head> <meta name=\"robots\" content=\"noindex,nofollow\" /> <style> /* Copyright (c) 2010, Yahoo! Inc. All rights reserved. Code licensed under the BSD License: http://developer.yahoo.com/yui/license.html */ html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,stron"
+      },
+      "error": "Delete POST failed with HTTP 401"
     }
   ],
   "success": false
