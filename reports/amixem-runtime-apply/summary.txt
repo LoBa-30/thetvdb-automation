@@ -1,8 +1,8 @@
 mode=AMIXEM_RUNTIME_SAFE_APPLY
 authenticated=true
 planned=493
-writes=0
-skips=0
-blocked=1
-verifications=0
-result=BLOCKED_BEFORE_WRITES
+writes=316
+skips=177
+blocked=0
+verifications=316
+result=APPLIED_AND_VERIFIED
