@@ -1,0 +1,45 @@
+{
+  "authenticated": true,
+  "url": "https://thetvdb.com/series/328213-show/seasons/official/unassigned/edit",
+  "body": "Discover Earn Points Support Home / Series / Amixem / Aired Order / Unassigned Unassigned Season 2012 7 Season 2013 41 Season 2014 24 Season 2015 99 Season 2016 103 Season 2017 101 Season 2018 92 Season 2019 80 Season 2020 81 Season 2021 86 Season 2022 58 Season 2023 58 Season 2024 54 Season 2025 51 Season 2026 39 Unassigned 5 Name Aired Send To Making of ???? : Pièce secrète #2 2024-12-12 Season 2012 Season 2013 Season 2014 Season 2015 Season 2016 Season 2017 Season 2018 Season 2019 Season 2020 Season 2021 Season 2022 Season 2023 Season 2024 Season 2025 Season 2026 Unknown 2026-01-18 Season 2012 Season 2013 Season 2014 Season 2015 Season 2016 Season 2017 Season 2018 Season 2019 Season 2020 Season 2021 Season 2022 Season 2023 Season 2024 Season 2025 Season 2026 Unknown 2026-01-18 Season 2012 Season 2013 Season 2014 Season 2015 Season 2016 Season 2017 Season 2018 Season 2019 Season 2020 Season 2021 Season 2022 Season 2023 Season 2024 Season 2025 Season 2026 Unknown 2026-01-18 Season 2012 Season 2013 Season 2014 Season 2015 Season 2016 Season 2017 Season 2018 Season 2019 Season 2020 Season 2021 Season 2022 Season 2023 Season 2024 Season 2025 Season 2026 Unknown 2026-01-18 Season 2012 Season 2013 Season 2014 Season 2015 Season 2016 Season 2017 Season 2018 Season 2019 Season 2020 Season 2021 Season 2022 Season 2023 Season 2024 Season 2025 Season 2026 Save ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information",
+  "episodes": [
+    {
+      "href": "https://thetvdb.com/series/328213-show/episodes/10857946",
+      "title": "Making of ???? : Pièce secrète #2",
+      "context": "Making of ???? : Pièce secrète #2 2024-12-12 Season 2012 Season 2013 Season 2014 Season 2015 Season 2016 Season 2017 Season 2018 Season 2019 Season 2020 Season 2021 Season 2022 Season 2023 Season 2024 Season 2025 Season 2026"
+    },
+    {
+      "href": "https://thetvdb.com/series/328213-show/episodes/11566311",
+      "title": "Unknown",
+      "context": "Unknown 2026-01-18 Season 2012 Season 2013 Season 2014 Season 2015 Season 2016 Season 2017 Season 2018 Season 2019 Season 2020 Season 2021 Season 2022 Season 2023 Season 2024 Season 2025 Season 2026"
+    },
+    {
+      "href": "https://thetvdb.com/series/328213-show/episodes/11566313",
+      "title": "Unknown",
+      "context": "Unknown 2026-01-18 Season 2012 Season 2013 Season 2014 Season 2015 Season 2016 Season 2017 Season 2018 Season 2019 Season 2020 Season 2021 Season 2022 Season 2023 Season 2024 Season 2025 Season 2026"
+    },
+    {
+      "href": "https://thetvdb.com/series/328213-show/episodes/11566314",
+      "title": "Unknown",
+      "context": "Unknown 2026-01-18 Season 2012 Season 2013 Season 2014 Season 2015 Season 2016 Season 2017 Season 2018 Season 2019 Season 2020 Season 2021 Season 2022 Season 2023 Season 2024 Season 2025 Season 2026"
+    },
+    {
+      "href": "https://thetvdb.com/series/328213-show/episodes/11566315",
+      "title": "Unknown",
+      "context": "Unknown 2026-01-18 Season 2012 Season 2013 Season 2014 Season 2015 Season 2016 Season 2017 Season 2018 Season 2019 Season 2020 Season 2021 Season 2022 Season 2023 Season 2024 Season 2025 Season 2026"
+    }
+  ],
+  "inputs": [
+    {
+      "name": "query",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "_token",
+      "value": "n9OUJHB7jO7GX9DJuduoj18BJhNoM7iVVq08vHsZ",
+      "type": "hidden"
+    }
+  ],
+  "result": "OK"
+}
