@@ -1,0 +1,37 @@
+name: Squeezie blocked metadata recovery
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/squeezie-piped-recovery.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Recover remaining blocked video metadata through public YouTube frontends
+        run: python src/squeezie-piped-recovery.py
+      - name: Commit recovery report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/squeezie-deep/youtube-piped-recovery.ndjson reports/squeezie-deep/youtube-piped-summary.json
+          git commit -m "Update Squeezie blocked metadata recovery [skip ci]" || exit 0
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: squeezie-piped-recovery
+          path: reports/squeezie-deep/youtube-piped-*
+          retention-days: 30
