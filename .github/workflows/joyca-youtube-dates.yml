@@ -1,0 +1,68 @@
+name: Joyca YouTube publication dates
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/joyca-youtube-dates.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  dates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -U yt-dlp requests
+      - name: Retrieve catalogue and publication dates
+        run: |
+          mkdir -p reports/joyca-youtube-dates
+          yt-dlp --flat-playlist --dump-single-json --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/c/JOYCA-JORDAN/videos' > reports/joyca-youtube-dates/catalogue.json
+          python - <<'PY'
+          import json,re,time,requests,html
+          from collections import Counter
+          cat=json.load(open('reports/joyca-youtube-dates/catalogue.json',encoding='utf-8'))
+          entries=cat.get('entries') or []
+          S=requests.Session()
+          S.headers.update({
+            'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/136 Safari/537.36',
+            'Accept-Language':'fr-FR,fr;q=0.9,en;q=0.8'
+          })
+          out=[]
+          pats=[
+            re.compile(r'"publishDate":"(\\d{4}-\\d{2}-\\d{2})"'),
+            re.compile(r'"uploadDate":"(\\d{4}-\\d{2}-\\d{2})"'),
+            re.compile(r'itemprop="uploadDate" content="(\\d{4}-\\d{2}-\\d{2})"')
+          ]
+          for i,e in enumerate(entries,1):
+            vid=e.get('id'); row={'id':vid,'title':e.get('title'),'duration':e.get('duration'),'publish_date':None,'status':None}
+            try:
+              r=S.get(f'https://www.youtube.com/watch?v={vid}&hl=fr&gl=FR',timeout=25)
+              row['status']=r.status_code
+              txt=r.text
+              dates=[]
+              for p in pats: dates += p.findall(txt)
+              row['publish_date']=dates[0] if dates else None
+              row['all_dates']=sorted(set(dates))
+            except Exception as ex:
+              row['error']=str(ex)
+            out.append(row)
+            if i%50==0: print(i, 'dates', sum(1 for x in out if x.get('publish_date')))
+            time.sleep(0.03)
+          json.dump(out,open('reports/joyca-youtube-dates/dates.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+          summary={'entries':len(out),'with_date':sum(1 for x in out if x.get('publish_date')),'without_date':sum(1 for x in out if not x.get('publish_date')),'status_counts':dict(Counter(x.get('status') for x in out))}
+          json.dump(summary,open('reports/joyca-youtube-dates/summary.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+          print(json.dumps(summary,ensure_ascii=False,indent=2))
+          PY
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: joyca-youtube-publication-dates
+          path: reports/joyca-youtube-dates/
+          retention-days: 30
