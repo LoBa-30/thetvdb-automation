@@ -51,19 +51,28 @@ for(const c of cases){
    action.checks.formValues={deleteReason:values['delete-reason'],mergeType:values['mergeto_entitytype'],mergeId:values['mergeto_id']};
    if(values['delete-reason']!=='50'||values['mergeto_entitytype']!=='3'||values['mergeto_id']!==c.target) throw new Error('Delete payload pre-submit mismatch');
 
-   // Submit the exact verified form payload through the authenticated browser context.
-   // This avoids the hidden/JS-controlled form UI while still using the live CSRF token
-   // and the same authenticated cookies as the browser session.
+   // Submit from inside the authenticated page so the browser's exact session cookies
+   // and the live CSRF token are sent together. Capture the server response before verifying.
    const actionUrl=await del.evaluate(form=>form.action);
-   const submitResponse=await context.request.post(actionUrl,{
-     form:values,
-     headers:{referer:page.url()}
-   });
-   action.checks.submitHttp=submitResponse.status();
-   action.checks.submitUrl=submitResponse.url();
-   const submitText=await submitResponse.text().catch(()=>'');
-   action.checks.submitBodyPreview=submitText.replace(/\s+/g,' ').slice(0,500);
-   if(submitResponse.status()>=400) throw new Error('Delete POST failed with HTTP '+submitResponse.status());
+   const submitResult=await page.evaluate(async ({actionUrl,values})=>{
+     const body=new URLSearchParams();
+     for(const [k,v] of Object.entries(values)) body.append(k,String(v));
+     const r=await fetch(actionUrl,{
+       method:'POST',
+       body,
+       credentials:'include',
+       redirect:'follow',
+       headers:{
+         'Content-Type':'application/x-www-form-urlencoded;charset=UTF-8',
+         'Accept':'text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8'
+       }
+     });
+     return {status:r.status,url:r.url,text:(await r.text()).slice(0,1200)};
+   },{actionUrl,values});
+   action.checks.submitHttp=submitResult.status;
+   action.checks.submitUrl=submitResult.url;
+   action.checks.submitBodyPreview=(submitResult.text||'').replace(/\s+/g,' ').slice(0,500);
+   if(submitResult.status>=400) throw new Error('Delete POST failed with HTTP '+submitResult.status);
    await page.waitForTimeout(900);
 
    // Verify source no longer resolves as editable episode.
