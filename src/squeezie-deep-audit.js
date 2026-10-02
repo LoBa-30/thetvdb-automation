@@ -42,6 +42,7 @@ const yt=raw.split(/\n+/).filter(Boolean).map(line=>JSON.parse(line)).map(v=>({
   liveStatus:v.live_status??null,
   thumbnails:v.thumbnails??[],
   thumbnail:(v.thumbnails||[]).at(-1)?.url||v.thumbnail||null,
+  playlistIndex:v.playlist_index??null,
   description:v.description??null
 })).filter(v=>v.id&&v.title);
 
@@ -94,7 +95,7 @@ for (const season of SEASONS){
       title=title.replace(/\s+(season premiere|season finale|mid-season finale|mid-season premiere).*$/i,'').trim();
       tvdb.push({...r,title,firstAired:date,runtimeMinutes:runtime,
         seasonPremiere:/season premiere/i.test(r.rowText),
-        seasonFinale:/season finale/i.test(r.rowText),
+        seasonFinale:/season finale/i.test(r.rowText) && !/mid-season finale/i.test(r.rowText),
         midSeasonFinale:/mid-season finale/i.test(r.rowText),
         midSeasonPremiere:/mid-season premiere/i.test(r.rowText)
       });
@@ -129,7 +130,12 @@ const tvdbUnmatched=tvdb.filter(e=>!used.has(e.code));
 
 const bySeason={};
 for(const season of SEASONS){
-  const ytv=ytCut.filter(v=>v.uploadDate?.startsWith(String(season))).sort((a,b)=>(a.uploadDate||'').localeCompare(b.uploadDate||'') || a.id.localeCompare(b.id));
+  const ytv=ytCut.filter(v=>v.uploadDate?.startsWith(String(season))).sort((a,b)=>{
+    const d=(a.uploadDate||'').localeCompare(b.uploadDate||''); if(d) return d;
+    if(a.timestamp!=null&&b.timestamp!=null&&a.timestamp!==b.timestamp) return a.timestamp-b.timestamp;
+    if(a.playlistIndex!=null&&b.playlistIndex!=null&&a.playlistIndex!==b.playlistIndex) return b.playlistIndex-a.playlistIndex;
+    return a.id.localeCompare(b.id);
+  });
   const te=tvdb.filter(e=>e.season===season).sort((a,b)=>a.episode-b.episode);
   const mm=matched.filter(x=>x.tvdb.season===season);
   const titleDiff=mm.filter(x=>x.youtube.title!==x.tvdb.title);
@@ -166,7 +172,7 @@ const report={
  tvdb:{count:tvdb.length,seasonErrors},
  matched:matched.length,missingTvdbCount:missingTvdb.length,tvdbUnmatchedCount:tvdbUnmatched.length,
  suspiciousPromoCount:suspiciousPromo.length,
- bySeason,missingTvdb,tvdbUnmatched,suspiciousPromo,
+ bySeason,matchedRows:matched,tvdbEpisodes:tvdb,missingTvdb,tvdbUnmatched,suspiciousPromo,
  notes:[
   'YouTube source is the official @Squeezie /videos tab collected with yt-dlp flat playlist metadata.',
   'TheTVDB source is the current public annual season pages.',
