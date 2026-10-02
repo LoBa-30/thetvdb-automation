@@ -27,7 +27,9 @@ const parseDateText=t=>{
 const secToMin=s=>s==null?null:Math.round(Number(s)/60);
 
 await fs.mkdir(OUT,{recursive:true});
-const raw=await fs.readFile(`${OUT}/youtube-flat.ndjson`,'utf8');
+let sourceFile=`${OUT}/youtube-full.ndjson`;
+try { await fs.access(sourceFile); } catch { sourceFile=`${OUT}/youtube-flat.ndjson`; }
+const raw=await fs.readFile(sourceFile,'utf8');
 const yt=raw.split(/\n+/).filter(Boolean).map(line=>JSON.parse(line)).map(v=>({
   id:v.id,
   title:v.title||v.fulltitle||'',
