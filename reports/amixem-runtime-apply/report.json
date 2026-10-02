@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-10-02T21:47:15.942Z",
+  "mode": "AMIXEM_RUNTIME_SAFE_APPLY",
+  "armed": true,
+  "authenticated": true,
+  "planned": 493,
+  "writes": [],
+  "skips": [],
+  "blocked": [
+    {
+      "reason": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('form').filter({ has: locator('input[name=\"airdate\"],input[name=\"runtime\"]') }).first().locator('button[type=\"submit\"],input[type=\"submit\"]').last()\n\n    at /home/runner/work/thetvdb-automation/thetvdb-automation/src/amixem-runtime-apply.js:100:145"
+    }
+  ],
+  "verifications": [],
+  "result": "BLOCKED_BEFORE_WRITES"
+}
