@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-10-02T15:12:00Z",
+  "status": "PROGRESS_CHECKPOINT",
+  "source": {
+    "latestCommit": "0b00baeb4078ec76c16fe17d0ee55f12c7289aec",
+    "latestReadOnlyAuditRun": 37009338009,
+    "latestFull9AuditRun": 37000134970
+  },
+  "findings": [
+    {
+      "target": "Djilsi",
+      "resolution": "LATEST_ARTIFACT_STALE_FOR_COUNT",
+      "evidence": [
+        "Run 37009338009 artifact reported 213 TVDB episodes and 2 unmatched YouTube videos.",
+        "Current TheTVDB series page now reports 215 official episodes total and Season 2026 has 17 episodes.",
+        "Do not recreate either unmatched candidate from the stale artifact without fresh preflight."
+      ]
+    },
+    {
+      "target": "Elian Ventre",
+      "case": "xkGjW_FR8vI",
+      "resolution": "EXISTING_S2026E08_TITLE_RENAME_CANDIDATE",
+      "evidence": [
+        "Current TheTVDB reports 29 episodes total and S2026E08 exists on 2026-09-30.",
+        "TheTVDB current title: On s'affronte pour construire la meilleure cabane ! ft. Maxime Biaggi.",
+        "Latest audit YouTube inventory title for exact ID xkGjW_FR8vI: Qui construira la meilleure cabane ? ft Maxime Biaggi et le Loup.",
+        "Never create a duplicate; only consider an in-place title correction after authenticated preflight."
+      ]
+    },
+    {
+      "target": "Raska",
+      "resolution": "PARTIAL_CACHE_RESOLUTION",
+      "evidence": [
+        "Current public TheTVDB now shows 2023-09-30 as S2023E19 and 2023-10-07 as S2023E20, resolving the stale S2023E19 collision from the audit artifact.",
+        "The stale artifact also reported a S2018E02 collision; current public evidence is insufficient here to mark it resolved, so keep as À vérifier/Ticket."
+      ]
+    },
+    {
+      "target": "Mastu",
+      "resolution": "MATCHER_FALSE_POSITIVES_RESOLVED",
+      "evidence": [
+        "Current TheTVDB contains S2019E35 JE REGARDE UN ÉPISODE DE NEXT (10 ans après), aired 2019-12-07, runtime 16.",
+        "Current TheTVDB contains S2026E15 LA TABLE INFERNALE 2 (Avec Byilhan, Flamby et Elian), aired 2026-09-19.",
+        "Do not create either episode."
+      ]
+    },
+    {
+      "target": "Djilsi",
+      "case": "uMmwt8l0FtM teaser",
+      "resolution": "DO_NOT_AUTO_ADD_FROM_STALE_PLAN",
+      "evidence": [
+        "The correction plan labels this USER_APPROVED_ADD_TO_TVDB, but the current TVDB count increased from 213 to 215 after that artifact.",
+        "Fresh preflight is mandatory before any creation to avoid duplication."
+      ]
+    },
+    {
+      "target": "Mcfly & Carlito",
+      "case": "fttKpTYRdMs GROSSE ANNONCE",
+      "resolution": "RENAMED_EXISTING_EPISODE_NOT_MISSING",
+      "evidence": [
+        "Carry forward prior checkpoint: historical title maps to an existing episode.",
+        "Do not create a duplicate; title-only correction remains candidate after authenticated preflight."
+      ]
+    }
+  ],
+  "writePolicy": {
+    "tvdbWritesThisPass": "NONE",
+    "reason": "Current evidence invalidated stale create candidates; authenticated fresh preflight is required before any write."
+  }
+}
