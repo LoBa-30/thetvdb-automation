@@ -1,0 +1,36 @@
+name: Squeezie TheTVDB auth preflight
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/squeezie-auth-preflight.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  auth:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Authenticate to TheTVDB without editing
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: npm run auth:preflight
+      - name: Upload auth preflight report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: squeezie-auth-preflight
+          path: reports/
+          if-no-files-found: warn
+          retention-days: 30
