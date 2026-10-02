@@ -1,0 +1,76 @@
+name: Joyca YouTube metadata audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/joyca-ytdlp.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  catalogue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install yt-dlp
+        run: python -m pip install -U yt-dlp
+      - name: Retrieve Joyca flat catalogue
+        run: |
+          mkdir -p reports/joyca-ytdlp
+          yt-dlp --flat-playlist --dump-single-json --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/c/JOYCA-JORDAN/videos' > reports/joyca-ytdlp/catalogue.json
+      - name: Retrieve exact per-video metadata
+        continue-on-error: true
+        run: |
+          yt-dlp --dump-json --skip-download --ignore-errors --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/c/JOYCA-JORDAN/videos' > reports/joyca-ytdlp/full-metadata.jsonl
+      - name: Build compact metadata
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          cat=json.load(open('reports/joyca-ytdlp/catalogue.json',encoding='utf-8'))
+          entries=cat.get('entries') or []
+          flat=[{
+            'id':e.get('id'),'title':e.get('title'),'url':e.get('url') or e.get('webpage_url'),
+            'duration':e.get('duration')
+          } for e in entries]
+          json.dump(flat,open('reports/joyca-ytdlp/flat-metadata.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+          full=[]
+          p='reports/joyca-ytdlp/full-metadata.jsonl'
+          if os.path.exists(p):
+            for line in open(p,encoding='utf-8'):
+              line=line.strip()
+              if not line: continue
+              try: e=json.loads(line)
+              except Exception: continue
+              full.append({
+                'id':e.get('id'),'title':e.get('title'),'webpage_url':e.get('webpage_url'),
+                'duration':e.get('duration'),'upload_date':e.get('upload_date'),
+                'timestamp':e.get('timestamp'),'release_timestamp':e.get('release_timestamp'),
+                'thumbnail':e.get('thumbnail'),'thumbnails':e.get('thumbnails'),
+                'availability':e.get('availability'),'live_status':e.get('live_status')
+              })
+          json.dump(full,open('reports/joyca-ytdlp/full-metadata-compact.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+          with open('reports/joyca-ytdlp/summary.txt','w',encoding='utf-8') as f:
+            f.write(f'Flat entries: {len(flat)}\n')
+            f.write(f'Full metadata entries: {len(full)}\n')
+            f.write(f'Full with upload_date/timestamp: {sum(1 for x in full if x.get("upload_date") or x.get("timestamp") is not None)}\n')
+            f.write(f'Full with duration: {sum(1 for x in full if x.get("duration") is not None)}\n')
+            f.write(f'Full with thumbnail: {sum(1 for x in full if x.get("thumbnail"))}\n')
+          print(open('reports/joyca-ytdlp/summary.txt',encoding='utf-8').read())
+          PY
+      - name: Upload catalogue
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: joyca-ytdlp-full-metadata-fr
+          path: reports/joyca-ytdlp/
+          retention-days: 30
