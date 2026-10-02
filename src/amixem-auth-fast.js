@@ -35,7 +35,7 @@ async function login(){
   return Boolean(p?.ok());
 }
 async function readSeason(year){
-  await go(\`\${BASE}/series/\${SLUG}/seasons/official/\${year}/edit\`);
+  await go(`${BASE}/series/${SLUG}/seasons/official/${year}/edit`);
   const rows=await page.locator('input[name^="episodes["]').evaluateAll(inputs=>inputs.map(input=>{
     const internalId=(input.getAttribute('name')||'').match(/^episodes\[(\d+)\]$/)?.[1]||null;
     const c=input.closest('tr')||input.closest('.row')||input.parentElement?.parentElement||input.parentElement;
@@ -53,7 +53,7 @@ async function readSeason(year){
   return rows;
 }
 async function readUnassigned(){
-  await go(\`\${BASE}/series/\${SLUG}/seasons/official/unassigned/edit\`);
+  await go(`${BASE}/series/${SLUG}/seasons/official/unassigned/edit`);
   return await page.locator('input[name^="episodes["]').evaluateAll(inputs=>inputs.map(input=>{
     const internalId=(input.getAttribute('name')||'').match(/^episodes\[(\d+)\]$/)?.[1]||null;
     const c=input.closest('tr')||input.closest('.row')||input.parentElement?.parentElement||input.parentElement;
@@ -70,7 +70,7 @@ async function readUnassigned(){
   }));
 }
 async function readEpisode(publicId){
-  await go(\`\${BASE}/series/\${SLUG}/episodes/\${publicId}/0/edit\`);
+  await go(`${BASE}/series/${SLUG}/episodes/${publicId}/0/edit`);
   const f=page.locator('form').filter({has:page.locator('input[name="airdate"],input[name="runtime"]')}).first();
   const airdate=await f.locator('input[name="airdate"]').first().inputValue().catch(()=>'');
   const runtime=await f.locator('input[name="runtime"]').first().inputValue().catch(()=>'');
@@ -106,7 +106,7 @@ await fs.writeFile(OUT+'/summary.txt',[
   'result='+report.result,
   'seasonCounts='+JSON.stringify(Object.fromEntries(Object.entries(report.seasons).map(([y,v])=>[y,v.length]))),
   'unassigned='+report.unassigned.length,
-  ...report.unassigned.map(x=>\`UNASSIGNED | \${x.publicId} | E\${x.number} | \${x.title} | \${x.rowText}\`)
+  ...report.unassigned.map(x=>`UNASSIGNED | ${x.publicId} | E${x.number} | ${x.title} | ${x.rowText}`)
 ].join('\n'));
 console.log(await fs.readFile(OUT+'/summary.txt','utf8'));
 if(report.result!=='OK_READ_ONLY') process.exitCode=2;
