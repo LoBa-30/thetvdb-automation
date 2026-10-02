@@ -1,0 +1,64 @@
+name: Mastu exact YouTube metadata
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/mastu-ytdlp-full.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  metadata:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -U yt-dlp
+      - name: Retrieve flat Mastu catalogue
+        run: |
+          mkdir -p reports/mastu-ytdlp-full
+          yt-dlp --flat-playlist --dump-single-json --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/channel/UCAhaFPP6v3WCfK5Tjao0B7A/videos' > reports/mastu-ytdlp-full/catalogue.json
+      - name: Retrieve exact per-video metadata from official YouTube pages
+        continue-on-error: true
+        run: |
+          yt-dlp --dump-json --skip-download --ignore-errors --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/channel/UCAhaFPP6v3WCfK5Tjao0B7A/videos' > reports/mastu-ytdlp-full/full-metadata.jsonl
+      - name: Build compact report
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          cat=json.load(open('reports/mastu-ytdlp-full/catalogue.json',encoding='utf-8'))
+          flat=[{'id':e.get('id'),'title':e.get('title'),'url':e.get('url') or e.get('webpage_url'),'duration':e.get('duration')} for e in (cat.get('entries') or []) if e.get('id')]
+          full=[]
+          p='reports/mastu-ytdlp-full/full-metadata.jsonl'
+          if os.path.exists(p):
+            for line in open(p,encoding='utf-8'):
+              line=line.strip()
+              if not line: continue
+              try: e=json.loads(line)
+              except Exception: continue
+              full.append({
+                'id':e.get('id'),'title':e.get('title'),'webpage_url':e.get('webpage_url'),
+                'duration':e.get('duration'),'upload_date':e.get('upload_date'),
+                'timestamp':e.get('timestamp'),'release_timestamp':e.get('release_timestamp'),
+                'thumbnail':e.get('thumbnail'),'availability':e.get('availability'),
+                'live_status':e.get('live_status')
+              })
+          json.dump(flat,open('reports/mastu-ytdlp-full/flat.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+          json.dump(full,open('reports/mastu-ytdlp-full/full.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+          summary={'flat_entries':len(flat),'full_entries':len(full),'with_upload_date':sum(1 for x in full if x.get('upload_date')),'with_duration':sum(1 for x in full if x.get('duration') is not None)}
+          json.dump(summary,open('reports/mastu-ytdlp-full/summary.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+          print(json.dumps(summary,ensure_ascii=False,indent=2))
+          PY
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mastu-ytdlp-full-metadata
+          path: reports/mastu-ytdlp-full/
+          retention-days: 30
