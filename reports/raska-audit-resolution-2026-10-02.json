@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-10-02T17:05:00Z",
+  "sourceRuns": [
+    37034689120,
+    37035894301,
+    37035894290
+  ],
+  "findings": {
+    "publicVideos": 149,
+    "tvdbEpisodes": 150,
+    "staleS2018E02Collision": "RESOLVED",
+    "current2018Sequence": [
+      "S2018E01",
+      "S2018E02",
+      "S2018E03",
+      "S2018E04",
+      "S2018E05",
+      "S2018E06",
+      "S2018E07",
+      "S2018E08",
+      "S2018E09",
+      "S2018E10",
+      "S2018E11",
+      "S2018E12",
+      "S2018E13"
+    ],
+    "youtubeRuntimeInventory": "149/149 captured",
+    "exactUploadDates": "not available from detailed yt-dlp endpoint in this run",
+    "missingTvdbImages": 29,
+    "tvdbImagesPresent": 121
+  },
+  "action": "No Raska renumbering needed for the stale 2018 collision. Keep image work optional; continue metadata audit."
+}
