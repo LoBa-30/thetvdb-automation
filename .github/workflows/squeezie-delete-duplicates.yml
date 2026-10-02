@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/squeezie-delete-duplicates.yml'
+      - 'src/squeezie-delete-duplicates.js'
   workflow_dispatch:
 
 permissions:
