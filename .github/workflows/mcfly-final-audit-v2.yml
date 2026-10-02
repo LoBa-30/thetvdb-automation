@@ -1,0 +1,45 @@
+name: Mcfly & Carlito final exhaustive audit v2
+
+on:
+  push:
+    branches: [mcfly-audit-2026-10-03]
+    paths:
+      - '.github/workflows/mcfly-final-audit-v2.yml'
+      - 'src/mcfly-final-audit-v2.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install -U yt-dlp requests beautifulsoup4 pillow imagehash
+      - name: Retrieve official Mcfly & Carlito Videos tab
+        run: |
+          mkdir -p reports/mcfly-final-v2
+          yt-dlp --flat-playlist --dump-single-json --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/c/LeFatShow/videos' > reports/mcfly-final-v2/catalogue.json
+      - name: Run exhaustive comparison v2
+        run: python src/mcfly-final-audit-v2.py
+      - name: Commit audit report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/mcfly-final-v2
+          git commit -m "Update Mcfly & Carlito exhaustive audit [skip ci]" || exit 0
+          git push
+      - name: Upload final audit v2
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mcfly-final-exhaustive-audit-v2
+          path: reports/mcfly-final-v2/
+          retention-days: 30
