@@ -1,0 +1,39 @@
+name: Squeezie artwork provenance checks
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/squeezie-artwork-provenance.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install image dependencies
+        run: python -m pip install pillow imagehash
+      - name: Verify existing artwork against official YouTube thumbnails
+        run: python src/squeezie-artwork-provenance.py
+      - name: Commit provenance report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/squeezie-artwork
+          git commit -m "Update Squeezie artwork provenance report [skip ci]" || exit 0
+          git push
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: squeezie-artwork-provenance
+          path: reports/squeezie-artwork/
+          retention-days: 30
