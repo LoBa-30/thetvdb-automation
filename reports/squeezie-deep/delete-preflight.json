@@ -1,0 +1,877 @@
+[
+  {
+    "id": "6975388",
+    "duplicateOf": "2019E01",
+    "note": "Je vide mon sac! duplicate of assigned S2019E01",
+    "url": "https://thetvdb.com/series/279758-show/episodes/6975388",
+    "title": "Squeezie - Unknown - TheTVDB.com",
+    "forms": [
+      {
+        "action": "https://thetvdb.com/search",
+        "method": "get",
+        "text": "",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "query",
+            "id": null,
+            "value": null,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "https://thetvdb.com/entity/delete",
+        "method": "post",
+        "text": "× Delete Episode Why are you deleting this episode? * Choose an option Constitutes an unaired placeholder without title or dateDisallowed contentDuplicate recordInsufficient dataOtherOther (no notification)Primary title is not in selected origin languageShould be a movieThe primary country and/or language of origin do not reflect the actual origin Type of Duplicate * Series Season Episode Movie Person Artwork Company List ID of Duplicate * Enter the type and id of the record that this record is ",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "_token",
+            "id": null,
+            "value": "kwauVQfHW5UjA8DBg5WjtTN6bnXi4hJSYBV4o9jI",
+            "text": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "type",
+            "id": null,
+            "value": "3",
+            "text": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "id",
+            "id": null,
+            "value": "6975388",
+            "text": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": null,
+            "id": null,
+            "value": null,
+            "text": "×"
+          },
+          {
+            "tag": "select",
+            "type": null,
+            "name": "delete-reason",
+            "id": "delete-reason",
+            "value": null,
+            "text": "Choose an option Constitutes an unaired placeholder without title or dateDisallowed contentDuplicate",
+            "options": [
+              {
+                "value": "Choose an option",
+                "text": "Choose an option"
+              },
+              {
+                "value": "72",
+                "text": "Constitutes an unaired placeholder without title or date"
+              },
+              {
+                "value": "49",
+                "text": "Disallowed content"
+              },
+              {
+                "value": "50",
+                "text": "Duplicate record"
+              },
+              {
+                "value": "51",
+                "text": "Insufficient data"
+              },
+              {
+                "value": "54",
+                "text": "Other"
+              },
+              {
+                "value": "55",
+                "text": "Other (no notification)"
+              },
+              {
+                "value": "52",
+                "text": "Primary title is not in selected origin language"
+              },
+              {
+                "value": "53",
+                "text": "Should be a movie"
+              },
+              {
+                "value": "74",
+                "text": "The primary country and/or language of origin do not reflect the actual origin"
+              }
+            ]
+          },
+          {
+            "tag": "select",
+            "type": null,
+            "name": "mergeto_entitytype",
+            "id": "delete-duplicate-type",
+            "value": null,
+            "text": "Series Season Episode Movie Person Artwork Company List",
+            "options": [
+              {
+                "value": "",
+                "text": ""
+              },
+              {
+                "value": "1",
+                "text": "Series"
+              },
+              {
+                "value": "2",
+                "text": "Season"
+              },
+              {
+                "value": "3",
+                "text": "Episode"
+              },
+              {
+                "value": "4",
+                "text": "Movie"
+              },
+              {
+                "value": "5",
+                "text": "Person"
+              },
+              {
+                "value": "6",
+                "text": "Artwork"
+              },
+              {
+                "value": "8",
+                "text": "Company"
+              },
+              {
+                "value": "9",
+                "text": "List"
+              }
+            ]
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "mergeto_id",
+            "id": "delete-duplicate-id",
+            "value": null,
+            "text": ""
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "name": null,
+            "id": null,
+            "value": null,
+            "text": "Delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10779950",
+    "duplicateOf": "2024E16",
+    "note": "Unknown duplicate of assigned S2024E16",
+    "url": "https://thetvdb.com/series/279758-show/episodes/10779950",
+    "title": "Squeezie - Unknown - TheTVDB.com",
+    "forms": [
+      {
+        "action": "https://thetvdb.com/search",
+        "method": "get",
+        "text": "",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "query",
+            "id": null,
+            "value": null,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "https://thetvdb.com/entity/delete",
+        "method": "post",
+        "text": "× Delete Episode Why are you deleting this episode? * Choose an option Constitutes an unaired placeholder without title or dateDisallowed contentDuplicate recordInsufficient dataOtherOther (no notification)Primary title is not in selected origin languageShould be a movieThe primary country and/or language of origin do not reflect the actual origin Type of Duplicate * Series Season Episode Movie Person Artwork Company List ID of Duplicate * Enter the type and id of the record that this record is ",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "_token",
+            "id": null,
+            "value": "kwauVQfHW5UjA8DBg5WjtTN6bnXi4hJSYBV4o9jI",
+            "text": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "type",
+            "id": null,
+            "value": "3",
+            "text": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "id",
+            "id": null,
+            "value": "10779950",
+            "text": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": null,
+            "id": null,
+            "value": null,
+            "text": "×"
+          },
+          {
+            "tag": "select",
+            "type": null,
+            "name": "delete-reason",
+            "id": "delete-reason",
+            "value": null,
+            "text": "Choose an option Constitutes an unaired placeholder without title or dateDisallowed contentDuplicate",
+            "options": [
+              {
+                "value": "Choose an option",
+                "text": "Choose an option"
+              },
+              {
+                "value": "72",
+                "text": "Constitutes an unaired placeholder without title or date"
+              },
+              {
+                "value": "49",
+                "text": "Disallowed content"
+              },
+              {
+                "value": "50",
+                "text": "Duplicate record"
+              },
+              {
+                "value": "51",
+                "text": "Insufficient data"
+              },
+              {
+                "value": "54",
+                "text": "Other"
+              },
+              {
+                "value": "55",
+                "text": "Other (no notification)"
+              },
+              {
+                "value": "52",
+                "text": "Primary title is not in selected origin language"
+              },
+              {
+                "value": "53",
+                "text": "Should be a movie"
+              },
+              {
+                "value": "74",
+                "text": "The primary country and/or language of origin do not reflect the actual origin"
+              }
+            ]
+          },
+          {
+            "tag": "select",
+            "type": null,
+            "name": "mergeto_entitytype",
+            "id": "delete-duplicate-type",
+            "value": null,
+            "text": "Series Season Episode Movie Person Artwork Company List",
+            "options": [
+              {
+                "value": "",
+                "text": ""
+              },
+              {
+                "value": "1",
+                "text": "Series"
+              },
+              {
+                "value": "2",
+                "text": "Season"
+              },
+              {
+                "value": "3",
+                "text": "Episode"
+              },
+              {
+                "value": "4",
+                "text": "Movie"
+              },
+              {
+                "value": "5",
+                "text": "Person"
+              },
+              {
+                "value": "6",
+                "text": "Artwork"
+              },
+              {
+                "value": "8",
+                "text": "Company"
+              },
+              {
+                "value": "9",
+                "text": "List"
+              }
+            ]
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "mergeto_id",
+            "id": "delete-duplicate-id",
+            "value": null,
+            "text": ""
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "name": null,
+            "id": null,
+            "value": null,
+            "text": "Delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10779951",
+    "duplicateOf": "2024E16",
+    "note": "Unknown duplicate of assigned S2024E16",
+    "url": "https://thetvdb.com/series/279758-show/episodes/10779951",
+    "title": "Squeezie - Unknown - TheTVDB.com",
+    "forms": [
+      {
+        "action": "https://thetvdb.com/search",
+        "method": "get",
+        "text": "",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "query",
+            "id": null,
+            "value": null,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "https://thetvdb.com/entity/delete",
+        "method": "post",
+        "text": "× Delete Episode Why are you deleting this episode? * Choose an option Constitutes an unaired placeholder without title or dateDisallowed contentDuplicate recordInsufficient dataOtherOther (no notification)Primary title is not in selected origin languageShould be a movieThe primary country and/or language of origin do not reflect the actual origin Type of Duplicate * Series Season Episode Movie Person Artwork Company List ID of Duplicate * Enter the type and id of the record that this record is ",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "_token",
+            "id": null,
+            "value": "kwauVQfHW5UjA8DBg5WjtTN6bnXi4hJSYBV4o9jI",
+            "text": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "type",
+            "id": null,
+            "value": "3",
+            "text": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "id",
+            "id": null,
+            "value": "10779951",
+            "text": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": null,
+            "id": null,
+            "value": null,
+            "text": "×"
+          },
+          {
+            "tag": "select",
+            "type": null,
+            "name": "delete-reason",
+            "id": "delete-reason",
+            "value": null,
+            "text": "Choose an option Constitutes an unaired placeholder without title or dateDisallowed contentDuplicate",
+            "options": [
+              {
+                "value": "Choose an option",
+                "text": "Choose an option"
+              },
+              {
+                "value": "72",
+                "text": "Constitutes an unaired placeholder without title or date"
+              },
+              {
+                "value": "49",
+                "text": "Disallowed content"
+              },
+              {
+                "value": "50",
+                "text": "Duplicate record"
+              },
+              {
+                "value": "51",
+                "text": "Insufficient data"
+              },
+              {
+                "value": "54",
+                "text": "Other"
+              },
+              {
+                "value": "55",
+                "text": "Other (no notification)"
+              },
+              {
+                "value": "52",
+                "text": "Primary title is not in selected origin language"
+              },
+              {
+                "value": "53",
+                "text": "Should be a movie"
+              },
+              {
+                "value": "74",
+                "text": "The primary country and/or language of origin do not reflect the actual origin"
+              }
+            ]
+          },
+          {
+            "tag": "select",
+            "type": null,
+            "name": "mergeto_entitytype",
+            "id": "delete-duplicate-type",
+            "value": null,
+            "text": "Series Season Episode Movie Person Artwork Company List",
+            "options": [
+              {
+                "value": "",
+                "text": ""
+              },
+              {
+                "value": "1",
+                "text": "Series"
+              },
+              {
+                "value": "2",
+                "text": "Season"
+              },
+              {
+                "value": "3",
+                "text": "Episode"
+              },
+              {
+                "value": "4",
+                "text": "Movie"
+              },
+              {
+                "value": "5",
+                "text": "Person"
+              },
+              {
+                "value": "6",
+                "text": "Artwork"
+              },
+              {
+                "value": "8",
+                "text": "Company"
+              },
+              {
+                "value": "9",
+                "text": "List"
+              }
+            ]
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "mergeto_id",
+            "id": "delete-duplicate-id",
+            "value": null,
+            "text": ""
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "name": null,
+            "id": null,
+            "value": null,
+            "text": "Delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10940462",
+    "duplicateOf": "2025E01",
+    "note": "Unknown duplicate of assigned S2025E01",
+    "url": "https://thetvdb.com/series/279758-show/episodes/10940462",
+    "title": "Squeezie - Unknown - TheTVDB.com",
+    "forms": [
+      {
+        "action": "https://thetvdb.com/search",
+        "method": "get",
+        "text": "",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "query",
+            "id": null,
+            "value": null,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "https://thetvdb.com/entity/delete",
+        "method": "post",
+        "text": "× Delete Episode Why are you deleting this episode? * Choose an option Constitutes an unaired placeholder without title or dateDisallowed contentDuplicate recordInsufficient dataOtherOther (no notification)Primary title is not in selected origin languageShould be a movieThe primary country and/or language of origin do not reflect the actual origin Type of Duplicate * Series Season Episode Movie Person Artwork Company List ID of Duplicate * Enter the type and id of the record that this record is ",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "_token",
+            "id": null,
+            "value": "kwauVQfHW5UjA8DBg5WjtTN6bnXi4hJSYBV4o9jI",
+            "text": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "type",
+            "id": null,
+            "value": "3",
+            "text": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "id",
+            "id": null,
+            "value": "10940462",
+            "text": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": null,
+            "id": null,
+            "value": null,
+            "text": "×"
+          },
+          {
+            "tag": "select",
+            "type": null,
+            "name": "delete-reason",
+            "id": "delete-reason",
+            "value": null,
+            "text": "Choose an option Constitutes an unaired placeholder without title or dateDisallowed contentDuplicate",
+            "options": [
+              {
+                "value": "Choose an option",
+                "text": "Choose an option"
+              },
+              {
+                "value": "72",
+                "text": "Constitutes an unaired placeholder without title or date"
+              },
+              {
+                "value": "49",
+                "text": "Disallowed content"
+              },
+              {
+                "value": "50",
+                "text": "Duplicate record"
+              },
+              {
+                "value": "51",
+                "text": "Insufficient data"
+              },
+              {
+                "value": "54",
+                "text": "Other"
+              },
+              {
+                "value": "55",
+                "text": "Other (no notification)"
+              },
+              {
+                "value": "52",
+                "text": "Primary title is not in selected origin language"
+              },
+              {
+                "value": "53",
+                "text": "Should be a movie"
+              },
+              {
+                "value": "74",
+                "text": "The primary country and/or language of origin do not reflect the actual origin"
+              }
+            ]
+          },
+          {
+            "tag": "select",
+            "type": null,
+            "name": "mergeto_entitytype",
+            "id": "delete-duplicate-type",
+            "value": null,
+            "text": "Series Season Episode Movie Person Artwork Company List",
+            "options": [
+              {
+                "value": "",
+                "text": ""
+              },
+              {
+                "value": "1",
+                "text": "Series"
+              },
+              {
+                "value": "2",
+                "text": "Season"
+              },
+              {
+                "value": "3",
+                "text": "Episode"
+              },
+              {
+                "value": "4",
+                "text": "Movie"
+              },
+              {
+                "value": "5",
+                "text": "Person"
+              },
+              {
+                "value": "6",
+                "text": "Artwork"
+              },
+              {
+                "value": "8",
+                "text": "Company"
+              },
+              {
+                "value": "9",
+                "text": "List"
+              }
+            ]
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "mergeto_id",
+            "id": "delete-duplicate-id",
+            "value": null,
+            "text": ""
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "name": null,
+            "id": null,
+            "value": null,
+            "text": "Delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10940463",
+    "duplicateOf": "2025E01",
+    "note": "Unknown duplicate of assigned S2025E01",
+    "url": "https://thetvdb.com/series/279758-show/episodes/10940463",
+    "title": "Squeezie - Unknown - TheTVDB.com",
+    "forms": [
+      {
+        "action": "https://thetvdb.com/search",
+        "method": "get",
+        "text": "",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "query",
+            "id": null,
+            "value": null,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "action": "https://thetvdb.com/entity/delete",
+        "method": "post",
+        "text": "× Delete Episode Why are you deleting this episode? * Choose an option Constitutes an unaired placeholder without title or dateDisallowed contentDuplicate recordInsufficient dataOtherOther (no notification)Primary title is not in selected origin languageShould be a movieThe primary country and/or language of origin do not reflect the actual origin Type of Duplicate * Series Season Episode Movie Person Artwork Company List ID of Duplicate * Enter the type and id of the record that this record is ",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "_token",
+            "id": null,
+            "value": "kwauVQfHW5UjA8DBg5WjtTN6bnXi4hJSYBV4o9jI",
+            "text": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "type",
+            "id": null,
+            "value": "3",
+            "text": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "id",
+            "id": null,
+            "value": "10940463",
+            "text": ""
+          },
+          {
+            "tag": "button",
+            "type": "button",
+            "name": null,
+            "id": null,
+            "value": null,
+            "text": "×"
+          },
+          {
+            "tag": "select",
+            "type": null,
+            "name": "delete-reason",
+            "id": "delete-reason",
+            "value": null,
+            "text": "Choose an option Constitutes an unaired placeholder without title or dateDisallowed contentDuplicate",
+            "options": [
+              {
+                "value": "Choose an option",
+                "text": "Choose an option"
+              },
+              {
+                "value": "72",
+                "text": "Constitutes an unaired placeholder without title or date"
+              },
+              {
+                "value": "49",
+                "text": "Disallowed content"
+              },
+              {
+                "value": "50",
+                "text": "Duplicate record"
+              },
+              {
+                "value": "51",
+                "text": "Insufficient data"
+              },
+              {
+                "value": "54",
+                "text": "Other"
+              },
+              {
+                "value": "55",
+                "text": "Other (no notification)"
+              },
+              {
+                "value": "52",
+                "text": "Primary title is not in selected origin language"
+              },
+              {
+                "value": "53",
+                "text": "Should be a movie"
+              },
+              {
+                "value": "74",
+                "text": "The primary country and/or language of origin do not reflect the actual origin"
+              }
+            ]
+          },
+          {
+            "tag": "select",
+            "type": null,
+            "name": "mergeto_entitytype",
+            "id": "delete-duplicate-type",
+            "value": null,
+            "text": "Series Season Episode Movie Person Artwork Company List",
+            "options": [
+              {
+                "value": "",
+                "text": ""
+              },
+              {
+                "value": "1",
+                "text": "Series"
+              },
+              {
+                "value": "2",
+                "text": "Season"
+              },
+              {
+                "value": "3",
+                "text": "Episode"
+              },
+              {
+                "value": "4",
+                "text": "Movie"
+              },
+              {
+                "value": "5",
+                "text": "Person"
+              },
+              {
+                "value": "6",
+                "text": "Artwork"
+              },
+              {
+                "value": "8",
+                "text": "Company"
+              },
+              {
+                "value": "9",
+                "text": "List"
+              }
+            ]
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "mergeto_id",
+            "id": "delete-duplicate-id",
+            "value": null,
+            "text": ""
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "name": null,
+            "id": null,
+            "value": null,
+            "text": "Delete"
+          }
+        ]
+      }
+    ]
+  }
+]
