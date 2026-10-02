@@ -1,4 +1,5 @@
 name: Amixem authenticated current snapshot
+# rerun after snapshot regex fix
 
 on:
   workflow_dispatch:
