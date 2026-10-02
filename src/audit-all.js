@@ -19,15 +19,14 @@ const TARGETS = [
   { name: 'Mcfly & Carlito', youtubeUrl: 'https://www.youtube.com/c/LeFatShow/videos', tvdbUrl: 'https://thetvdb.com/series/338282-show/allseasons/official' }
 ];
 
-// Lower bounds, not exact counts. New uploads/TVDB additions may increase them.
-// A result below one of these bounds is treated as an incomplete lazy-loading scrape.
+// Lower bounds, not exact counts. YouTube bounds protect against incomplete lazy-loading.\n// TVDB public all-seasons pages can lag authenticated edits, so their lower bounds use the last stable public catalogue baseline.\n// Authenticated post-apply verification remains authoritative for recent writes.\n// A result below one of these bounds is treated as an incomplete scrape.
 const MINIMUMS = {
-  'Djilsi': { youtube: 215, tvdb: 215 },
-  'Elian Ventre': { youtube: 29, tvdb: 29 },
+  'Djilsi': { youtube: 215, tvdb: 213 },
+  'Elian Ventre': { youtube: 29, tvdb: 28 },
   'Raska': { youtube: 149, tvdb: 150 },
   'Maxime Biaggi': { youtube: 64, tvdb: 64 },
   'Squeezie': { youtube: 1585, tvdb: 1659 },
-  'Mastu': { youtube: 360, tvdb: 376 },
+  'Mastu': { youtube: 360, tvdb: 374 },
   'Amixem': { youtube: 889, tvdb: 974 },
   'Joyca': { youtube: 449, tvdb: 470 },
   'Mcfly & Carlito': { youtube: 576, tvdb: 582 }
