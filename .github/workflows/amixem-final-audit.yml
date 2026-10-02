@@ -1,0 +1,46 @@
+name: Amixem final exhaustive audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/amixem-final-audit.yml'
+      - 'src/amixem-final-audit.py'
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install -U yt-dlp requests beautifulsoup4 pillow imagehash
+      - name: Retrieve official Amixem Videos tab
+        run: |
+          mkdir -p reports/amixem-final
+          yt-dlp --flat-playlist --dump-single-json --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/c/Amixem/videos' > reports/amixem-final/catalogue.json
+      - name: Run exhaustive comparison
+        run: python src/amixem-final-audit.py
+      - name: Commit audit report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/amixem-final
+          git commit -m "Update Amixem exhaustive audit [skip ci]" || exit 0
+          git pull --rebase
+          git push
+      - name: Upload audit artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: amixem-final-exhaustive-audit
+          path: reports/amixem-final/
+          retention-days: 30
