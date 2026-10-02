@@ -74,16 +74,16 @@ for(let year=2012;year<=2026;year++){
 const unassignedUrl=`${BASE}/series/${SLUG}/seasons/official/unassigned/edit`;
 await goto(unassignedUrl);
 const unassignedRows=await page.locator('input[name^="episodes["]').evaluateAll(inputs=>inputs.map((input,index)=>{
-  const internalId=(input.getAttribute('name')||'').match(/^episodes\\[(\\d+)\\]$/)?.[1]||null;
+  const internalId=(input.getAttribute('name')||'').match(/^episodes\[(\d+)\]$/)?.[1]||null;
   let c=input.closest('tr')||input.closest('.row')||input.parentElement?.parentElement||input.parentElement;
   const a=c?.querySelector('a[href*="/episodes/"]')||null;
   const href=a?.href||'';
   return {
     index,internalId,
-    publicId:href.match(/\\/episodes\\/(\\d+)/)?.[1]||null,
+    publicId:href.match(/\/episodes\/(\d+)/)?.[1]||null,
     number:Number(input.value)||null,
-    title:(a?.textContent||'').replace(/\\s+/g,' ').trim(),
-    rowText:(c?.textContent||'').replace(/\\s+/g,' ').trim(),
+    title:(a?.textContent||'').replace(/\s+/g,' ').trim(),
+    rowText:(c?.textContent||'').replace(/\s+/g,' ').trim(),
     href
   };
 }));
