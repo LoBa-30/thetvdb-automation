@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-10-02T23:50:00Z",
+  "status": "PROGRESS_CHECKPOINT",
+  "target": "Mcfly & Carlito",
+  "branch": "mcfly-audit-2026-10-03",
+  "findings": [
+    {
+      "youtubeVideoId": "TKEX4dZZFPs",
+      "title": "LA BATTLE DES PAYS : on déguste les spécialités Portugaises avec David Castello-Lopes",
+      "resolution": "EXACT_PUBLICATION_DATE_RESOLVED",
+      "publicationDate": "2026-02-17",
+      "runtime": "50:26",
+      "evidence": [
+        "Official YouTube result for exact video ID reports Published: 2026-02-17.",
+        "Independent playd.tv catalogue reports 17 Feb 2026 and runtime 50:26.",
+        "Independent SensCritique indexing also reports first broadcast 17 Feb 2026."
+      ],
+      "action": "Use 2026-02-17 as exact publication date in subsequent comparison/preflight. Do not create a new episode solely from this finding."
+    },
+    {
+      "case": "Unassigned snapshot",
+      "resolution": "AUTHENTICATED_SNAPSHOT_CONFIRMED",
+      "count": 64,
+      "action": "Keep all 64 pending individual identity/order checks; no bulk move or deletion."
+    }
+  ],
+  "writes": {
+    "thetvdb": "NONE",
+    "reason": "This pass resolved source evidence only; no authenticated in-place correction was sufficiently isolated and preflighted."
+  }
+}
