@@ -6,6 +6,8 @@ on:
     paths:
       - '.github/workflows/squeezie-final-compare.yml'
       - 'src/squeezie-final-compare.js'
+      - 'reports/squeezie-deep/youtube-piped-recovery.ndjson'
+      - 'reports/squeezie-deep/youtube-player-fallback.ndjson'
   workflow_dispatch:
 
 permissions:
