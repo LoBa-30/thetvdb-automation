@@ -1,0 +1,44 @@
+name: Amixem fast authenticated preflight
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/amixem-auth-fast.yml'
+      - 'src/amixem-auth-fast.js'
+
+permissions:
+  contents: write
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Read authenticated current state
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: node src/amixem-auth-fast.js
+      - name: Commit preflight
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/amixem-auth-fast
+          git commit -m "Update Amixem fast authenticated preflight [skip ci]" || exit 0
+          git pull --rebase
+          git push
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: amixem-fast-auth-preflight
+          path: reports/amixem-auth-fast/
+          retention-days: 30
