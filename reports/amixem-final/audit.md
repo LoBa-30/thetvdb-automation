@@ -1,0 +1,710 @@
+# Audit exhaustif Amixem — TheTVDB vs YouTube officiel
+
+**Date de référence : 2026-09-09**
+
+## Bilan chiffré
+
+- **generated_at** : 2026-10-02T21:24:47.543726Z
+- **reference_date** : 2026-09-09
+- **youtube_public_videos_current** : 889
+- **tvdb_episodes_current** : 974
+- **aligned_pairs_current** : 889
+- **youtube_extras_current** : 0
+- **tvdb_without_current_public_youtube** : 85
+- **in_scope_aligned_pairs** : 885
+- **in_scope_tvdb_historical_without_current_public_youtube** : 85
+- **title_exact_mismatches_in_scope** : 66
+- **title_substantive_mismatches_in_scope** : 8
+- **runtime_mismatches_in_scope** : 493
+- **runtime_unverifiable_in_scope** : 0
+- **youtube_dates_independently_retrieved_in_scope** : 0
+- **date_mismatches_in_scope** : 0
+- **images_missing_in_scope** : 769
+- **images_confirmed_official_thumbnail_in_scope** : 114
+- **images_present_origin_unproven_in_scope** : 2
+
+## Structure TheTVDB par saison
+
+| Saison | Épisodes | Trous | Doublons | Finale | Artworks présents |
+|---:|---:|---|---|---|---:|
+| 2012 | 7 | — | — | S2012E07 | 0 |
+| 2013 | 41 | — | — | S2013E41 | 0 |
+| 2014 | 24 | — | — | S2014E24 | 0 |
+| 2015 | 99 | — | — | S2015E99 | 0 |
+| 2016 | 103 | — | — | S2016E103 | 0 |
+| 2017 | 101 | — | — | S2017E101 | 49 |
+| 2018 | 92 | — | — | S2018E92 | 57 |
+| 2019 | 80 | — | — | S2019E80 | 10 |
+| 2020 | 81 | — | — | S2020E81 | 0 |
+| 2021 | 86 | — | — | S2021E86 | 0 |
+| 2022 | 58 | — | — | S2022E58 | 0 |
+| 2023 | 58 | — | — | S2023E58 | 0 |
+| 2024 | 54 | — | — | S2024E54 | 0 |
+| 2025 | 51 | — | — | S2025E51 | 0 |
+| 2026 | 39 | — | — | — | 0 |
+
+## Corrections de titre exactes dans le périmètre (YouTube actuel ≠ TheTVDB)
+
+- **S2026E14 — 2026-03-29** — TheTVDB : « ON MANGE 50 PLATS D'AFFILÉE et on les juge (édition JAPON) » → YouTube actuel : « ON MANGE 50 PLATS D'AFFILÉE et on les juge (édition JAPON 🇯🇵) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2025E20 — 2025-05-18** — TheTVDB : « J’ai acheté tous les objets censés changer ta vie » → YouTube actuel : « J’ai acheté tous les objets censés changer ta vie 🤔 » — COSMETIC_EXACTNESS
+- **S2024E40 — 2024-09-29** — TheTVDB : « J'AI ACHETÉ UN SOUS-MARIN sur AliExpress (t’as bien lu) » → YouTube actuel : « J'AI ACHETÉ UN SOUS-MARIN sur AliExpress 🤯 (t’as bien lu) » — COSMETIC_EXACTNESS
+- **S2024E36 — 2024-09-01** — TheTVDB : « Ces gens sont TROP qualifiés pour leur JOB » → YouTube actuel : « Ces gens sont TROP qualifiés pour leur JOB 😱 » — COSMETIC_EXACTNESS
+- **S2024E34 — 2024-08-18** — TheTVDB : « J'AI ACHETÉ LA PORSCHE LA MOINS CHÈRE POSSIBLE (c'est une épave) » → YouTube actuel : « J'AI ACHETÉ LA PORSCHE LA MOINS CHÈRE POSSIBLE (c'est une épave 😭) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2024E32 — 2024-07-28** — TheTVDB : « 300 JOURS AVANT QUE CETTE FUSÉE DÉCOLLE (ou explose en plein vol) » → YouTube actuel : « 300 JOURS AVANT QUE CETTE FUSÉE DÉCOLLE (ou explose en plein vol 😭) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2024E26 — 2024-06-16** — TheTVDB : « ON TESTE LES PROMESSES DES PUBLICITÉS (c’est incroyable) » → YouTube actuel : « ON TESTE LES PROMESSES DES PUBLICITÉS (c’est incroyable 😮) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2024E21 — 2024-05-12** — TheTVDB : « LA BATAILLE DES RESTAURANTS ! (on a explosé le budget) » → YouTube actuel : « LA BATAILLE DES RESTAURANTS ! (on a explosé le budget 😭) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2024E19 — 2024-04-28** — TheTVDB : « LES PIRES VIDÉOS du TIKTOK CHINOIS (c’est un autre monde) #2 » → YouTube actuel : « LES PIRES VIDÉOS du TIKTOK CHINOIS (c’est un autre monde 😮) #2 » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2024E13 — 2024-03-24** — TheTVDB : « ON JUGE 50 SOSIES (c’est exceptionnel) ft. Kev Adams » → YouTube actuel : « ON JUGE 50 SOSIES (c’est exceptionnel) 😭 ft. Kev Adams » — COSMETIC_EXACTNESS
+- **S2024E10 — 2024-03-03** — TheTVDB : « Les PIRES OBJETS D'AMAZON USA ! (aucune limite) » → YouTube actuel : « Les PIRES OBJETS D'AMAZON USA ! 🇺🇸 (aucune limite) » — COSMETIC_EXACTNESS
+- **S2023E55 — 2023-12-10** — TheTVDB : « ON TESTE DES HÔTELS NOTÉS UNE ÉTOILE ! (c’est scandaleux) » → YouTube actuel : « ON TESTE DES HÔTELS NOTÉS UNE ÉTOILE ! (c’est scandaleux 😱) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2023E21 — 2023-05-07** — TheTVDB : « ON SURVIT 24H dans le DÉSERT ! (avec des objets de sites chinois) » → YouTube actuel : « ON SURVIT 24H dans le DÉSERT ! (avec des objets de sites chinois 😬) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2023E18 — 2023-04-16** — TheTVDB : « J'ai acheté tous les objets des pubs insta (on a explosé le budget) #4 » → YouTube actuel : « J'ai acheté tous les objets des pubs insta (on a explosé le budget 😭) #4 » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2023E01 — 2023-01-01** — TheTVDB : « ÉTOILÉ ou SURGELÉ ? (le jeu de dégustation IMPOSSIBLE) #3 » → YouTube actuel : « ÉTOILÉ ou SURGELÉ ? (le jeu de dégustation IMPOSSIBLE) #3 🇨🇦 » — COSMETIC_EXACTNESS
+- **S2022E58 — 2022-12-25** — TheTVDB : « On a construit le LEGO TOUR EIFFEL en 48H !(le plus gros du monde)(fatigue extrême) » → YouTube actuel : « On a construit le LEGO TOUR EIFFEL en 48H !(le plus gros du monde😭)(fatigue extrême) » — COSMETIC_EXACTNESS
+- **S2022E53 — 2022-11-27** — TheTVDB : « ON AFFRONTE 100 PEURS ! (on peut vraiment avoir peur de ça ?) » → YouTube actuel : « ON AFFRONTE 100 PEURS ! (on peut vraiment avoir peur de ça ? 😭) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2022E47 — 2022-10-16** — TheTVDB : « ON MANGE 100 PLATS D’AFFILÉ (et on les juge)(On en peut plus) » → YouTube actuel : « ON MANGE 100 PLATS D’AFFILÉE (et on les juge)(On en peut plus) » — SUBSTANTIVE_MISMATCH
+- **S2022E42 — 2022-09-25** — TheTVDB : « J'AI ACHETÉ UN CONTENEUR AUX ENCHÈRES (énorme escroquerie) » → YouTube actuel : « J'AI ACHETÉ UN CONTENEUR AUX ENCHÈRES (énorme escroquerie😭) » — COSMETIC_EXACTNESS
+- **S2022E40 — 2022-09-11** — TheTVDB : « LES PIRES OBJETS sur EBAY ! #2 (retirez ça tout de suite de la vente) » → YouTube actuel : « LES PIRES OBJETS sur EBAY ! #2 (retirez ça tout de suite de la vente 😭) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2022E28 — 2022-06-17** — TheTVDB : « LES PIRES CLIENTS (elle est insupportable mais c’est drôle) » → YouTube actuel : « LES PIRES CLIENTS (elle est insupportable mais c’est drôle 😭) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2022E17 — 2022-04-17** — TheTVDB : « QUI TROUVERA LE LINGOT D’OR CACHÉ ? (ils ont tout détruit) » → YouTube actuel : « QUI TROUVERA LE LINGOT D’OR CACHÉ ? (ils ont tout détruit 😭) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2022E12 — 2022-03-13** — TheTVDB : « 100 COUCHES DE GLACE CHALLENGE (on s'évade de notre prison en glace) » → YouTube actuel : « 100 COUCHES DE GLACE CHALLENGE (on s'évade de notre prison en glace 🧊) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2022E09 — 2022-02-23** — TheTVDB : « CES VIDÉOS NOUS ONT RETOURNÉ LE CERVEAU ! » → YouTube actuel : « CES VIDÉOS NOUS ONT RETOURNÉ LE CERVEAU ! 🤯 » — COSMETIC_EXACTNESS
+- **S2022E06 — 2022-02-06** — TheTVDB : « ÉTOILÉ ou SURGELÉ ? (meilleur jeu de dégustation) » → YouTube actuel : « ÉTOILÉ ou SURGELÉ ? (meilleur jeu de dégustation) 😂 » — COSMETIC_EXACTNESS
+- **S2021E84 — 2021-12-23** — TheTVDB : « ON DÉCORE UN SAPIN DE NOËL GÉANT ! (on passe une journée de Noël ultra cliché) » → YouTube actuel : « ON DÉCORE UN SAPIN DE NOËL GÉANT ! (on passe une journée de Noël ultra cliché 😅) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2021E81 — 2021-12-08** — TheTVDB : « Les PIRES évasions (il a sauté d'un immeuble) » → YouTube actuel : « Les PIRES évasions (il a sauté d'un immeuble 🤯) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2021E80 — 2021-12-05** — TheTVDB : « BARIL CHALLENGE (20000€ de cadeaux)(il’s m’ont RUINÉ) » → YouTube actuel : « BARIL CHALLENGE (20000€ de cadeaux)(il’s m’ont RUINÉ 😭) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2021E79 — 2021-11-28** — TheTVDB : « On va en Angleterre avec notre bateau rénové ! (il est incroyable) » → YouTube actuel : « On va en Angleterre avec notre bateau rénové ! (il est incroyable 😲) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2021E73 — 2021-11-07** — TheTVDB : « UNE JOURNÉE COMME UN AGRICULTEUR » → YouTube actuel : « UNE JOURNÉE COMME UN AGRICULTEUR 😲 » — COSMETIC_EXACTNESS
+- **S2021E72 — 2021-11-04** — TheTVDB : « LES PIRES OBJETS (extrêmement chers) DES SITES CHINOIS ! » → YouTube actuel : « LES PIRES OBJETS (extrêmement chers) DES SITES CHINOIS ! 😭 » — COSMETIC_EXACTNESS
+- **S2021E70 — 2021-10-27** — TheTVDB : « Les PIRES inventions du FUTUR (genre ça dans 30 ans c’est normal ?) » → YouTube actuel : « Les PIRES inventions du FUTUR (genre ça dans 30 ans c’est normal ? 😭) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2021E69 — 2021-10-22** — TheTVDB : « MON NOUVEAU STUDIO (le plus beau de youtube en toute objectivité) » → YouTube actuel : « MON NOUVEAU STUDIO 😲 (le plus beau de youtube en toute objectivité) » — COSMETIC_EXACTNESS
+- **S2021E65 — 2021-10-06** — TheTVDB : « LES PIRES OBJETS EBAY ! (c’est un pied)(pourquoi on a jamais parlé de ça ?) » → YouTube actuel : « LES PIRES OBJETS EBAY ! (c’est un pied)(pourquoi on a jamais parlé de ça ?)😅 » — COSMETIC_EXACTNESS
+- **S2021E63 — 2021-09-29** — TheTVDB : « Les PIRES SUPPORTERS (ils sont horribles mais ça me tue) » → YouTube actuel : « Les PIRES SUPPORTERS (ils sont horribles mais ça me tue 😭) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2021E61 — 2021-09-17** — TheTVDB : « ON A CONSTRUIT CE LEGO STAR WARS JUSQU’À ÉPUISEMENT (on a pas tenu) » → YouTube actuel : « ON A CONSTRUIT CE LEGO STAR WARS JUSQU’À ÉPUISEMENT (on a pas tenu😭) » — COSMETIC_EXACTNESS
+- **S2021E59 — 2021-09-08** — TheTVDB : « LES PIRES TUNINGS ! (c’est excessivement BEAUF) » → YouTube actuel : « LES PIRES TUNINGS ! (c’est excessivement BEAUF 😅) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2021E56 — 2021-08-22** — TheTVDB : « J’AI ACHETÉ LA PLUS PETITE MAISON POSSIBLE (on l’aménage pour y habiter) » → YouTube actuel : « J’AI ACHETÉ LA PLUS PETITE MAISON POSSIBLE (on l’aménage pour y habiter😅) » — COSMETIC_EXACTNESS
+- **S2021E50 — 2021-07-18** — TheTVDB : « Me demandez pas pourquoi ils font ça » → YouTube actuel : « Me demandez pas pourquoi ils font ça 😂 » — COSMETIC_EXACTNESS
+- **S2021E47 — 2021-07-04** — TheTVDB : « LES PIRES (et meilleures) ENTREPRISES des ABONNÉS ! (j’en veux encore) » → YouTube actuel : « LES PIRES (et meilleures) ENTREPRISES des ABONNÉS ! (j’en veux encore 😂😂) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2021E45 — 2021-06-27** — TheTVDB : « LIBÉREZ L’OTAGE CHALLENGE (c’est trop stylé) (et drôle) » → YouTube actuel : « LIBÉREZ L’OTAGE CHALLENGE (c’est trop stylé)(et drôle)😅 » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2021E42 — 2021-06-13** — TheTVDB : « Ces gens sont beaucoup trop forts ! » → YouTube actuel : « Ces gens sont beaucoup trop forts 😭 ! » — COSMETIC_EXACTNESS
+- **S2021E40 — 2021-06-05** — TheTVDB : « UNE NUIT DANS UN MANOIR HANTÉ (j’ai jamais eu aussi peur) » → YouTube actuel : « UNE NUIT DANS UN MANOIR HANTÉ (j’ai jamais eu aussi peur 😭) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2021E37 — 2021-05-23** — TheTVDB : « BATAILLE DE CONSTRUCTION DE FUSÉES (j’pensais pas aller si haut) » → YouTube actuel : « BATAILLE DE CONSTRUCTION DE FUSÉES 🚀 (j’pensais pas aller si haut 😲) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2021E36 — 2021-05-19** — TheTVDB : « CES GENS ONT PÉTÉ LES PLOMBS ! (mais ça va mieux) (pas sûr) #2 » → YouTube actuel : « CES GENS ONT PÉTÉ LES PLOMBS ! (mais ça va mieux) (pas sûr) #2 » — COSMETIC_EXACTNESS
+- **S2021E33 — 2021-05-05** — TheTVDB : « Mais pourquoi ils font ça à leurs enfants ? (Les pires pranks de parents) » → YouTube actuel : « Mais pourquoi ils font ça à leurs enfants ? 😭 (Les pires pranks de parents) » — COSMETIC_EXACTNESS
+- **S2021E31 — 2021-04-29** — TheTVDB : « Y’a peu de chances que ça se finisse bien » → YouTube actuel : « Y’a peu de chances que ça se finisse bien 😭 » — COSMETIC_EXACTNESS
+- **S2021E28 — 2021-04-18** — TheTVDB : « Une nuit 400 mètres sous terre (24H dans une grotte) » → YouTube actuel : « Une nuit 400 mètres sous terre 😲 (24H dans une grotte) » — COSMETIC_EXACTNESS
+- **S2021E16 — 2021-03-03** — TheTVDB : « Elle croit vraiment qu’on l’a pas vu (les PIRES camouflages) » → YouTube actuel : « Elle croit vraiment qu’on l’a pas vu 😭 (les PIRES camouflages) » — COSMETIC_EXACTNESS
+- **S2021E05 — 2021-01-17** — TheTVDB : « 100 ABONNÉS VS 4 YOUTUBERS ! (Nerf Zombie) ft @Michou​, @LeBouseuh​, @CHRIS​ » → YouTube actuel : « 100 ABONNÉS VS 4 YOUTUBERS ! (Nerf Zombie) ft @Michou, @LeBouseuh, @Chris_ » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2020E73 — 2020-11-22** — TheTVDB : « ON A CONSTRUIT UN BUNKER ! (genre vraiment) » → YouTube actuel : « CES GENS SONT INCONSCIENTS ! (et ils sont payés pour ça) » — SUBSTANTIVE_MISMATCH
+- **S2020E72 — 2020-11-20** — TheTVDB : « CES GENS SONT INCONSCIENTS ! (et ils sont payés pour ça) » → YouTube actuel : « ON A CONSTRUIT UN BUNKER ! (genre vraiment) » — SUBSTANTIVE_MISMATCH
+- **S2018E58 — 2018-08-12** — TheTVDB : « ENORME BATAILLE NAVALE DANS LA VRAIE VIE ! (ft. ALL STAR REDBOX) » → YouTube actuel : « ÉNORME BATAILLE NAVALE DANS LA VRAIE VIE ! (ft. ALL STAR REDBOX) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2018E36 — 2018-05-18** — TheTVDB : « 1000 KILOMÈTRES SANS CARTE NI GPS ! - RedBoxTrip #1 » → YouTube actuel : « 1000 KILOMÈTRES SANS CARTE NI GPS ! - RedBox Trip #1 » — SUBSTANTIVE_MISMATCH
+- **S2018E19 — 2018-03-11** — TheTVDB : « JE VLOG SUR LE TOURNAGE D'UN GROS FILM ! (Tomb Raider) » → YouTube actuel : « JE VLOG SUR LE TOURNAGE D'UN GROS FILM ! (Tomb Raider ) » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2017E83 — 2017-10-20** — TheTVDB : « LES PIRES OBJETS SUR LES SITES CHINOIS ! » → YouTube actuel : « LES PIRES OBJETS SUR LES SITES CHINOIS !⁠⁠⁠⁠ » — COSMETIC_EXACTNESS
+- **S2017E43 — 2017-05-30** — TheTVDB : « LE CADEAU D'ABONNÉ LE PLUS GÊNANT » → YouTube actuel : « LE CADEAU D'ABONNÉ LE PLUS GÊNANT ! » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2017E37 — 2017-05-09** — TheTVDB : « LE JOUR OÙ JE ME SUIS RÉVEILLÉ DANS UNE BAIGNOIRE ... » → YouTube actuel : « LE JOUR OÙ JE ME SUIS RÉVEILLÉ DANS UNE BAIGNOIRE... » — PUNCTUATION_EMOJI_EXACTNESS
+- **S2017E31 — 2017-04-20** — TheTVDB : « UN ALLIGATOR ME BLOQUE LA ROUTE ! (Vlog Floride) » → YouTube actuel : « UN ALLIGATOR ME BLOQUE LA ROUTE !  (Vlog Floride) » — COSMETIC_EXACTNESS
+- **S2017E12 — 2017-02-11** — TheTVDB : « LE MEILLEUR TEST DE PERSONNALITÉ ! » → YouTube actuel : « JE JOUE À L'INSTRUMENT DE MUSIQUE LE PLUS BIZARRE ! » — SUBSTANTIVE_MISMATCH
+- **S2016E98 — 2016-12-17** — TheTVDB : « JE JUGE LES YOUTUBERS ! » → YouTube actuel : « J'AI CRASHÉ MON NOUVEAU DRONE ! (Oui, encore...) » — SUBSTANTIVE_MISMATCH
+- **S2016E97 — 2016-12-17** — TheTVDB : « J'AI CRASHÉ MON NOUVEAU DRONE ! (Oui, encore...) » → YouTube actuel : « JE JUGE LES YOUTUBERS ! » — SUBSTANTIVE_MISMATCH
+- **S2016E49 — 2016-06-25** — TheTVDB : « QUAND DES INCONNUS TESTENT LA RÉALITÉ VIRTUELLE ! » → YouTube actuel : « QUAND DES INCONNUS TESTENT LA RÉALITÉ VIRTUELLE  ! » — COSMETIC_EXACTNESS
+- **S2016E44 — 2016-06-07** — TheTVDB : « LES YOUTUBERS DESSINENT EN RÉALITÉ VIRTUELLE ! ft. Pierre Croce.. » → YouTube actuel : « LES YOUTUBERS DESSINENT EN RÉALITÉ VIRTUELLE ! ft. Pierre Croce, Terracid & LeMondeÀLenvers » — SUBSTANTIVE_MISMATCH
+- **S2015E61 — 2015-08-16** — TheTVDB : « ON VISITE UN HÔTEL FANTÔME ! - Altis Vs. Life #3 » → YouTube actuel : « ON VISITE UN HÔTEL FANTÔME  ! - Altis Vs. Life #3 » — COSMETIC_EXACTNESS
+- **S2013E11 — 2013-03-21** — TheTVDB : « ► Let's Play #1 fr ! The Walking Dead : Survival Instinct ! Part 1 Episode 1 [FRANCAIS] » → YouTube actuel : « ► Let's Play #1 fr !  The Walking Dead : Survival Instinct ! Part 1 Episode 1 [FRANCAIS] » — COSMETIC_EXACTNESS
+
+## Corrections de runtime dans le périmètre
+
+- **S2026E34 — 2026-08-30 — JE VISITE LES 3 LIEUX LES + INTERDITS de FRANCE !** : YouTube 47:32 → TheTVDB 47 min ; valeur minute attendue 48 min.
+- **S2026E33 — 2026-08-16 — 1000 COUCHES DE ROCHES (on s’évade de notre prison) ** : YouTube 45:31 → TheTVDB 45 min ; valeur minute attendue 46 min.
+- **S2026E32 — 2026-08-02 — On juge 50 SOSIES ! avec Mcfly et Carlito #4** : YouTube 1:15:11 → TheTVDB 76 min ; valeur minute attendue 75 min.
+- **S2026E31 — 2026-07-26 — J'AI ACHETÉ UNE MAISON SUR TIKTOK (et je regrette pas)** : YouTube 1:07:50 → TheTVDB 67 min ; valeur minute attendue 68 min.
+- **S2026E25 — 2026-06-14 — ON MANGE 30 PLATS DE 30 PAYS (et on les juge) avec Manu Payet** : YouTube 1:04:42 → TheTVDB 64 min ; valeur minute attendue 65 min.
+- **S2026E23 — 2026-05-31 — On vit 24H SUR UN YACHT de LUXE ! (+ cache cache de riche) #2** : YouTube 1:06:55 → TheTVDB 66 min ; valeur minute attendue 67 min.
+- **S2026E20 — 2026-05-03 — ON OUVRE DES COFFRES-FORTS DE 1€ à 10000€ (le dernier est impossible) ** : YouTube 42:46 → TheTVDB 42 min ; valeur minute attendue 43 min.
+- **S2026E19 — 2026-04-26 — DEVINE QUI TU ES #3 ft. SEB** : YouTube 1:14:35 → TheTVDB 74 min ; valeur minute attendue 75 min.
+- **S2026E13 — 2026-03-22 — 99,9% de MALAISE (on en peut plus) ** : YouTube 23:50 → TheTVDB 25 min ; valeur minute attendue 24 min.
+- **S2026E09 — 2026-02-22 — On a construit le LEGO PIRATES DES CARAÏBES sans dormir ! (Un calvaire)** : YouTube 1:04:52 → TheTVDB 66 min ; valeur minute attendue 65 min.
+- **S2026E06 — 2026-02-01 — J’ai acheté tous les objets des pubs TikTok #6 (exceptionnel) ** : YouTube 40:38 → TheTVDB 40 min ; valeur minute attendue 41 min.
+- **S2026E04 — 2026-01-21 — 100H SUR LE TOURNAGE LE PLUS FOU DE MA VIE ! avec Thomas** : YouTube 25:42 → TheTVDB 25 min ; valeur minute attendue 26 min.
+- **S2026E02 — 2026-01-11 — 24H SUR UN BATEAU CARGO (en pleine mer)** : YouTube 53:46 → TheTVDB 53 min ; valeur minute attendue 54 min.
+- **S2025E51 — 2025-12-21 — ÉTOILÉ ou SURGELÉ ? (le jeu de dégustation IMPOSSIBLE) #7** : YouTube 30:34 → TheTVDB 30 min ; valeur minute attendue 31 min.
+- **S2025E44 — 2025-11-06 — LES PIRES COMPTES TIKTOK ! (c’est génial)** : YouTube 21:38 → TheTVDB 21 min ; valeur minute attendue 22 min.
+- **S2025E41 — 2025-10-26 — LES PIRES VIDÉOS DE CAMÉRA DE SURVEILLANCE (édition paranormale) ** : YouTube 24:41 → TheTVDB 24 min ; valeur minute attendue 25 min.
+- **S2025E36 — 2025-09-21 — LES PIRES MOTS DANS LE CARNET ! #11** : YouTube 26:40 → TheTVDB 26 min ; valeur minute attendue 27 min.
+- **S2025E35 — 2025-09-14 — ON MANGE 50 ALIMENTS DE LUXE (et on les juge) (c’est indécent)** : YouTube 1:06:27 → TheTVDB 70 min ; valeur minute attendue 66 min.
+- **S2025E34 — 2025-08-31 — Les PIRES guerres entre voisins #2 (ils n'ont aucune limite)** : YouTube 21:30 → TheTVDB 21 min ; valeur minute attendue 22 min.
+- **S2025E32 — 2025-08-17 — ON TESTE LES JOUETS LES PLUS CHERS DU MONDE ! #2 (c’est une folie)** : YouTube 24:40 → TheTVDB 24 min ; valeur minute attendue 25 min.
+- **S2025E28 — 2025-07-13 — PÉTARD À 1€ Vs. PÉTARD à 10 000€ (on a tout testé et c’est incroyable)** : YouTube 48:44 → TheTVDB 48 min ; valeur minute attendue 49 min.
+- **S2025E27 — 2025-07-06 — DEVINE QUI TU ES #1 ft. Maghla, Thomas** : YouTube 54:22 → TheTVDB 55 min ; valeur minute attendue 54 min.
+- **S2025E26 — 2025-06-29 — CACHE-CACHE EXTRÊME #5 (1000€ pour se cacher dans un hôtel)** : YouTube 43:16 → TheTVDB 44 min ; valeur minute attendue 43 min.
+- **S2025E25 — 2025-06-22 — LES PIRES OBJETS LIDL ! (c’est dangereux)** : YouTube 23:05 → TheTVDB 24 min ; valeur minute attendue 23 min.
+- **S2025E23 — 2025-06-08 — CES GENS SONT DES HÉROS DU QUOTIDIEN (on en veut plus)** : YouTube 23:05 → TheTVDB 24 min ; valeur minute attendue 23 min.
+- **S2025E20 — 2025-05-18 — J’ai acheté tous les objets censés changer ta vie 🤔** : YouTube 21:26 → TheTVDB 22 min ; valeur minute attendue 21 min.
+- **S2025E19 — 2025-05-11 — FAKE OU RÉEL ? ft. @MrBeast (et surtout une interview incroyable)** : YouTube 28:33 → TheTVDB 28 min ; valeur minute attendue 29 min.
+- **S2025E15 — 2025-04-13 — CES GENS SONT INCONSCIENTS ! (ils me désespèrent) #3** : YouTube 21:10 → TheTVDB 22 min ; valeur minute attendue 21 min.
+- **S2025E12 — 2025-03-23 — J'ai acheté tous les objets AMAZON avec ZÉRO AVIS ! (c'est dangereux en fait)** : YouTube 27:45 → TheTVDB 27 min ; valeur minute attendue 28 min.
+- **S2025E02 — 2025-01-12 — ON JUGE 50 IMITATEURS ! avec Paul Mirabel** : YouTube 1:06:49 → TheTVDB 66 min ; valeur minute attendue 67 min.
+- **S2024E47 — 2024-11-17 — 1000 COUCHES DE TERRE (on creuse un tunnel pour s’évader)** : YouTube 37:55 → TheTVDB 37 min ; valeur minute attendue 38 min.
+- **S2024E38 — 2024-09-15 — J’ai acheté tous les objets des pubs TikTok #3 (ça devient dangereux)** : YouTube 29:30 → TheTVDB 29 min ; valeur minute attendue 30 min.
+- **S2024E11 — 2024-03-10 — Petite VS GRANDE Prison INCASSABLE ! *EVASION CHALLENGE* #3** : YouTube 33:33 → TheTVDB 33 min ; valeur minute attendue 34 min.
+- **S2024E10 — 2024-03-03 — Les PIRES OBJETS D'AMAZON USA ! 🇺🇸 (aucune limite)** : YouTube 15:46 → TheTVDB 15 min ; valeur minute attendue 16 min.
+- **S2024E04 — 2024-01-28 — J’ai acheté tous les objets des pubs TikTok #2 (c’est le futur)(non)** : YouTube 30:53 → TheTVDB 30 min ; valeur minute attendue 31 min.
+- **S2024E02 — 2024-01-14 — ON TESTE TOUTES LES VOITURES de 1€ à 1 MILLION d’EUROS** : YouTube 34:35 → TheTVDB 34 min ; valeur minute attendue 35 min.
+- **S2022E52 — 2022-11-20 — LES PIRES PRODUITS DÉRIVÉS (ils ont essayé de nous vendre ça)** : YouTube 16:47 → TheTVDB 16 min ; valeur minute attendue 17 min.
+- **S2022E44 — 2022-10-02 — DUEL DE BLAGUES NULLES édition sonore (on a pleuré de rire)** : YouTube 22:57 → TheTVDB 22 min ; valeur minute attendue 23 min.
+- **S2022E41 — 2022-09-18 — Pendant ce temps là aux États-Unis.. (ils ne s’arrêteront jamais)** : YouTube 13:58 → TheTVDB 15 min ; valeur minute attendue 14 min.
+- **S2022E33 — 2022-07-17 — J’ai acheté tous les objets des pubs insta (c'est parti en suçette) #3** : YouTube 26:51 → TheTVDB 28 min ; valeur minute attendue 27 min.
+- **S2022E25 — 2022-06-01 — Les plats les plus chers du monde (c'était bon)** : YouTube 22:40 → TheTVDB 22 min ; valeur minute attendue 23 min.
+- **S2022E24 — 2022-05-29 — Une journée comme des naufragés sur un radeau de survie** : YouTube 33:32 → TheTVDB 33 min ; valeur minute attendue 34 min.
+- **S2022E14 — 2022-03-27 — ON A CONSTRUIT UNE MAISON FLOTTANTE (on dort dedans il fait 2°)** : YouTube 48:52 → TheTVDB 48 min ; valeur minute attendue 49 min.
+- **S2022E12 — 2022-03-13 — 100 COUCHES DE GLACE CHALLENGE (on s'évade de notre prison en glace 🧊)** : YouTube 36:56 → TheTVDB 36 min ; valeur minute attendue 37 min.
+- **S2022E08 — 2022-02-20 — ON DEVINE QUEL EST L’OBJET DE LUXE ! (à l’aveugle)** : YouTube 21:54 → TheTVDB 21 min ; valeur minute attendue 22 min.
+- **S2022E05 — 2022-01-30 — Les PIRES arrestations ! (heureusement c’était filmé c’est un bonheur)** : YouTube 14:39 → TheTVDB 14 min ; valeur minute attendue 15 min.
+- **S2022E04 — 2022-01-26 — Les pires moments arrivés EN DIRECT (il s’est fait dessus on est d’accord)** : YouTube 13:46 → TheTVDB 13 min ; valeur minute attendue 14 min.
+- **S2022E01 — 2022-01-09 — Je découvre la version chinoise de TikTok (c’est un AUTRE monde)** : YouTube 14:43 → TheTVDB 14 min ; valeur minute attendue 15 min.
+- **S2021E85 — 2021-12-28 — SI ÇA N’AVAIT PAS ÉTÉ FILMÉ TU L’AURAIS PAS CRU ! (moi non plus)** : YouTube 15:45 → TheTVDB 15 min ; valeur minute attendue 16 min.
+- **S2021E84 — 2021-12-23 — ON DÉCORE UN SAPIN DE NOËL GÉANT ! (on passe une journée de Noël ultra cliché 😅)** : YouTube 27:51 → TheTVDB 27 min ; valeur minute attendue 28 min.
+- **S2021E83 — 2021-12-19 — LES PIRES (et meilleurs) DIY TIKTOK (je les teste tous)** : YouTube 15:56 → TheTVDB 15 min ; valeur minute attendue 16 min.
+- **S2021E82 — 2021-12-12 — 100 COUCHES DE CARTON CHALLENGE (on s’évade de notre prison en carton)** : YouTube 32:39 → TheTVDB 32 min ; valeur minute attendue 33 min.
+- **S2021E79 — 2021-11-28 — On va en Angleterre avec notre bateau rénové ! (il est incroyable 😲)** : YouTube 31:31 → TheTVDB 31 min ; valeur minute attendue 32 min.
+- **S2021E76 — 2021-11-19 — LA BATAILLE DES STYLISTES (qui fera le meilleur look ?)** : YouTube 49:51 → TheTVDB 49 min ; valeur minute attendue 50 min.
+- **S2021E74 — 2021-11-10 — LES VIDÉOS YOUTUBE D’IL Y A 10 ANS (ça fait mal)** : YouTube 17:57 → TheTVDB 17 min ; valeur minute attendue 18 min.
+- **S2021E73 — 2021-11-07 — UNE JOURNÉE COMME UN AGRICULTEUR 😲** : YouTube 17:49 → TheTVDB 17 min ; valeur minute attendue 18 min.
+- **S2021E72 — 2021-11-04 — LES PIRES OBJETS (extrêmement chers) DES SITES CHINOIS ! 😭** : YouTube 15:31 → TheTVDB 15 min ; valeur minute attendue 16 min.
+- **S2021E70 — 2021-10-27 — Les PIRES inventions du FUTUR (genre ça dans 30 ans c’est normal ? 😭)** : YouTube 18:47 → TheTVDB 18 min ; valeur minute attendue 19 min.
+- **S2021E68 — 2021-10-16 — ON A CONSTRUIT UNE CABANE DANS UN ARBRE (elle est ÉNORME)** : YouTube 41:35 → TheTVDB 41 min ; valeur minute attendue 42 min.
+- **S2021E67 — 2021-10-13 — Les PIRES vidéos de caméras de surveillance ! #3** : YouTube 13:35 → TheTVDB 13 min ; valeur minute attendue 14 min.
+- **S2021E62 — 2021-09-24 — Ces juges sont beaucoup trop à l'aise (LES PIRES JUGEMENTS)** : YouTube 19:41 → TheTVDB 19 min ; valeur minute attendue 20 min.
+- **S2021E59 — 2021-09-08 — LES PIRES TUNINGS ! (c’est excessivement BEAUF 😅)** : YouTube 19:31 → TheTVDB 19 min ; valeur minute attendue 20 min.
+- **S2021E57 — 2021-08-29 — ON A CONSTRUIT UN CAMP DE SURVIVANTS (pour la fin du monde genre)(on y passe une journée)** : YouTube 43:51 → TheTVDB 43 min ; valeur minute attendue 44 min.
+- **S2021E56 — 2021-08-22 — J’AI ACHETÉ LA PLUS PETITE MAISON POSSIBLE (on l’aménage pour y habiter😅)** : YouTube 37:42 → TheTVDB 37 min ; valeur minute attendue 38 min.
+- **S2021E55 — 2021-08-15 — ON A CONSTRUIT UNE VOITURE DIY ! (j'ai failli mourir en la conduisant)** : YouTube 38:47 → TheTVDB 38 min ; valeur minute attendue 39 min.
+- **S2021E51 — 2021-07-21 — Aller au McDrive en volant (et manger mon McDo en l’air)** : YouTube 17:41 → TheTVDB 17 min ; valeur minute attendue 18 min.
+- **S2021E42 — 2021-06-13 — Ces gens sont beaucoup trop forts 😭 !** : YouTube 19:47 → TheTVDB 19 min ; valeur minute attendue 20 min.
+- **S2021E39 — 2021-05-30 — Celui qui trouve l’aiguille dans la botte de foin gagne 10000€** : YouTube 34:44 → TheTVDB 34 min ; valeur minute attendue 35 min.
+- **S2021E35 — 2021-05-14 — 24H SUR UNE ÎLE DÉSERTE (on a construit un camp incroyable)** : YouTube 47:54 → TheTVDB 47 min ; valeur minute attendue 48 min.
+- **S2021E32 — 2021-05-02 — Les PIRES bricoleurs ! (ils sont NULS mais c’est drôle)** : YouTube 13:30 → TheTVDB 13 min ; valeur minute attendue 14 min.
+- **S2021E31 — 2021-04-29 — Y’a peu de chances que ça se finisse bien 😭** : YouTube 11:40 → TheTVDB 11 min ; valeur minute attendue 12 min.
+- **S2021E30 — 2021-04-25 — J'OUVRE VOS COLIS ! (je sais même pas ce que c’est) #9867** : YouTube 18:43 → TheTVDB 18 min ; valeur minute attendue 19 min.
+- **S2021E26 — 2021-04-11 — LA BATAILLE DES FOOD TRUCKS (on a rincé nos clients)** : YouTube 56:35 → TheTVDB 56 min ; valeur minute attendue 57 min.
+- **S2021E25 — 2021-04-08 — Les PIRES guerres entre voisins (ils sont très peu courtois)(voire violents)** : YouTube 16:41 → TheTVDB 16 min ; valeur minute attendue 17 min.
+- **S2021E20 — 2021-03-17 — Les PIRES transformations physiques ! (POURQUOI ?)** : YouTube 14:33 → TheTVDB 14 min ; valeur minute attendue 15 min.
+- **S2021E16 — 2021-03-03 — Elle croit vraiment qu’on l’a pas vu 😭 (les PIRES camouflages)** : YouTube 11:33 → TheTVDB 11 min ; valeur minute attendue 12 min.
+- **S2021E12 — 2021-02-17 — LES PIRES INVENTIONS (c’était pas nécessaire vraiment)** : YouTube 17:35 → TheTVDB 17 min ; valeur minute attendue 18 min.
+- **S2021E09 — 2021-02-05 — CES GENS ONT PÉTÉ LES PLOMBS ! (ça leur a fait du bien)(je crois)** : YouTube 17:39 → TheTVDB 17 min ; valeur minute attendue 18 min.
+- **S2021E07 — 2021-01-27 — LES PIRES OBJETS SUR LES SITES CHINOIS ! #6** : YouTube 14:33 → TheTVDB 14 min ; valeur minute attendue 15 min.
+- **S2021E01 — 2021-01-02 — LES PIRES TRADITIONS INSOLITES ! (genre la fête du pénis)** : YouTube 15:44 → TheTVDB 15 min ; valeur minute attendue 16 min.
+- **S2020E81 — 2020-12-28 — LE RÉSEAU SOCIAL LE PLUS DRÔLE DU MONDE ! (VR CHAT #5)** : YouTube 16:36 → TheTVDB 16 min ; valeur minute attendue 17 min.
+- **S2020E80 — 2020-12-23 — ON A CONSTRUIT POUDLARD LEGO EN 24H ! (Sans dormir) (On s’est décomposé)** : YouTube 1:06:41 → TheTVDB 66 min ; valeur minute attendue 67 min.
+- **S2020E79 — 2020-12-20 — LA CHANSON DES COMMENTAIRES - AMIXEM (Clip Officiel)** : YouTube 4:44 → TheTVDB 4 min ; valeur minute attendue 5 min.
+- **S2020E76 — 2020-12-11 — JE SUIS CHOQUÉ PAR CE SPORT ! (c'est incroyable)** : YouTube 22:45 → TheTVDB 22 min ; valeur minute attendue 23 min.
+- **S2020E73 — 2020-11-22 — CES GENS SONT INCONSCIENTS ! (et ils sont payés pour ça)** : YouTube 12:53 → TheTVDB 34 min ; valeur minute attendue 13 min.
+- **S2020E72 — 2020-11-20 — ON A CONSTRUIT UN BUNKER ! (genre vraiment)** : YouTube 34:32 → TheTVDB 12 min ; valeur minute attendue 35 min.
+- **S2020E68 — 2020-11-07 — Je prank des gens avec mon chien robot #1 (c’est incroyable)** : YouTube 14:38 → TheTVDB 14 min ; valeur minute attendue 15 min.
+- **S2020E63 — 2020-10-18 — WIKIPEDIA CHALLENGE (c’est clairement le meilleur jeu) #2** : YouTube 16:42 → TheTVDB 16 min ; valeur minute attendue 17 min.
+- **S2020E60 — 2020-10-09 — LES PIRES MOTS DANS LE CARNET ! #7** : YouTube 15:32 → TheTVDB 15 min ; valeur minute attendue 16 min.
+- **S2020E56 — 2020-09-20 — VOS SOIRÉES QUI ONT FAILLI (TRÈS) MAL FINIR ! #2 (feat JOYCA)** : YouTube 28:40 → TheTVDB 28 min ; valeur minute attendue 29 min.
+- **S2020E53 — 2020-09-04 — Une semaine avec le plus grand explorateur du monde (Mike Horn)** : YouTube 38:35 → TheTVDB 38 min ; valeur minute attendue 39 min.
+- **S2020E48 — 2020-08-02 — LES DILEMMES IMPOSSIBLES ! (je préfère être un robinet)** : YouTube 20:32 → TheTVDB 20 min ; valeur minute attendue 21 min.
+- **S2020E47 — 2020-07-26 — LES PIRES CHAMPIONNATS DU MONDE ! #2** : YouTube 18:46 → TheTVDB 18 min ; valeur minute attendue 19 min.
+- **S2020E45 — 2020-07-19 — LES PIRES PHOTOS DE RADAR ROUTIER ! #1** : YouTube 16:46 → TheTVDB 16 min ; valeur minute attendue 17 min.
+- **S2020E43 — 2020-07-15 — MARIO KART DANS LA VRAIE VIE (du futur avec des robots) !** : YouTube 15:41 → TheTVDB 15 min ; valeur minute attendue 16 min.
+- **S2020E35 — 2020-06-06 — LES MEILLEURES ILLUSIONS D'OPTIQUE ! (ça retourne le cerveau)** : YouTube 17:38 → TheTVDB 17 min ; valeur minute attendue 18 min.
+- **S2020E33 — 2020-05-29 — LES PIRES PUBS DANS LA RUE !** : YouTube 16:43 → TheTVDB 16 min ; valeur minute attendue 17 min.
+- **S2020E26 — 2020-04-30 — Voici ma chaîne youtube préférée** : YouTube 29:37 → TheTVDB 29 min ; valeur minute attendue 30 min.
+- **S2020E23 — 2020-04-19 — Les PIRES vidéos de caméra de surveillance !** : YouTube 19:39 → TheTVDB 19 min ; valeur minute attendue 20 min.
+- **S2020E04 — 2020-01-31 — DEVINEZ LE BON PERSONNAGE DE DESSIN ANIMÉ ! #1** : YouTube 14:41 → TheTVDB 14 min ; valeur minute attendue 15 min.
+- **S2019E48 — 2019-07-26 — NE JOUEZ PAS À CE JEU AVEC DES INCONNUS ! (parce que c'est choquant)** : YouTube 16:35 → TheTVDB 16 min ; valeur minute attendue 17 min.
+- **S2019E34 — 2019-05-26 — ENORME BATTLE ROYALE AIRSOFT !** : YouTube 24:36 → TheTVDB 24 min ; valeur minute attendue 25 min.
+- **S2019E33 — 2019-05-24 — ESSAYEZ DE NE PAS REGARDER CHALLENGE #4 ft. MASTU** : YouTube 13:44 → TheTVDB 13 min ; valeur minute attendue 14 min.
+- **S2019E31 — 2019-05-12 — BOÎTE À MENSONGES CHALLENGE - AMIXEM** : YouTube 15:41 → TheTVDB 15 min ; valeur minute attendue 16 min.
+- **S2019E12 — 2019-02-22 — JE SORS MON PREMIER ALBUM ! (Vidéo 5 millions)** : YouTube 5:44 → TheTVDB 5 min ; valeur minute attendue 6 min.
+- **S2019E11 — 2019-02-20 — ON A FAIT UNE BATAILLE DE CHARS AIRSOFT ! (ft. CYRIL, VODK, NEOXI, RomainTechNews)** : YouTube 13:23 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2019E10 — 2019-02-15 — LE JEU DESTRUCTEUR D'AMITIÉ !** : YouTube 12:35 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2019E09 — 2019-02-08 — INCROYABLE TALENT (version pauvre) - ÉPISODE 2** : YouTube 12:42 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2019E08 — 2019-02-03 — LES PIRES (et meilleurs) TALENTS DE MES ABONNÉS - EPISODE 1** : YouTube 16:19 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2019E07 — 2019-01-27 — LES PIRES OBJETS DE TÉLÉACHAT ! (avec Vodk)** : YouTube 11:56 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2019E06 — 2019-01-25 — ESSAYEZ DE NE PAS REGARDER CHALLENGE ! #2** : YouTube 12:48 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2019E05 — 2019-01-20 — SILENCE CHALLENGE ! (ft. Joyca, Mastu, Vodk, Artishow)** : YouTube 21:00 → TheTVDB 25 min ; valeur minute attendue 21 min.
+- **S2019E04 — 2019-01-18 — JE VOUS DÉVOILE TOUTE LA VÉRITÉ !** : YouTube 15:10 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2019E03 — 2019-01-11 — LES PIRES ARTISTES DE TOUS LES TEMPS ! (avec JOYCA & WANKIL)** : YouTube 15:12 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2019E02 — 2019-01-07 — LA MEILLEURE ANNÉE DE MA VIE !** : YouTube 6:33 → TheTVDB 25 min ; valeur minute attendue 7 min.
+- **S2019E01 — 2019-01-02 — LE PLUS GROS SECRET DE MA CHAINE YOUTUBE !** : YouTube 12:37 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2018E92 — 2018-12-28 — LES COMPTES TWITTER LES PLUS DRÔLES ! #3** : YouTube 17:28 → TheTVDB 25 min ; valeur minute attendue 17 min.
+- **S2018E91 — 2018-12-26 — SI VOUS ME FAITES RIRE, JE VOUS PAYE !** : YouTube 17:19 → TheTVDB 25 min ; valeur minute attendue 17 min.
+- **S2018E90 — 2018-12-23 — L’ULTIME SALLE SECRÈTE DE LA REDBOX !** : YouTube 16:02 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2018E89 — 2018-12-16 — LE PLUS GROS TOURNAGE DE LA REDBOX !** : YouTube 15:17 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2018E88 — 2018-12-14 — ON PARODIE DES CLIPS ! #3 feat. Joyca** : YouTube 15:17 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2018E87 — 2018-12-09 — J'AI RISQUÉ MA VIE POUR CETTE VIDÉO ! (Chasse à la tornade)** : YouTube 26:23 → TheTVDB 25 min ; valeur minute attendue 26 min.
+- **S2018E86 — 2018-12-08 — 100 ABONNÉS Vs 4 YOUTUBERS ! (Nerf Zombies)** : YouTube 23:02 → TheTVDB 25 min ; valeur minute attendue 23 min.
+- **S2018E85 — 2018-12-02 — LES PIRES ANNONCES SUR LEBONCOIN ! #9** : YouTube 12:19 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2018E84 — 2018-11-25 — ON SE PERD SUR INTERNET ! #1** : YouTube 17:37 → TheTVDB 25 min ; valeur minute attendue 18 min.
+- **S2018E83 — 2018-11-23 — ESSAYEZ DE NE PAS REGARDER CHALLENGE** : YouTube 10:06 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2018E82 — 2018-11-18 — VOUS CONTROLEZ MES ACTIONS À LA REDBOX !** : YouTube 22:28 → TheTVDB 25 min ; valeur minute attendue 22 min.
+- **S2018E81 — 2018-11-16 — LES COMPTES TWITTER LES PLUS DRÔLES ! #2** : YouTube 16:40 → TheTVDB 25 min ; valeur minute attendue 17 min.
+- **S2018E80 — 2018-11-11 — JE RÉPONDS À VOS QUESTIONS (DANS UN AVION DE CHASSE) !** : YouTube 18:01 → TheTVDB 25 min ; valeur minute attendue 18 min.
+- **S2018E79 — 2018-11-09 — J’AI (ENCORE) RÉALISÉ UN RÊVE D’ENFANT !** : YouTube 14:19 → TheTVDB 25 min ; valeur minute attendue 14 min.
+- **S2018E78 — 2018-11-04 — JE TESTE ENFIN L'OBJET DE MES RÊVES !** : YouTube 20:47 → TheTVDB 25 min ; valeur minute attendue 21 min.
+- **S2018E77 — 2018-11-01 — LE DERNIER DÉCOR SECRET DE LA REDBOX !** : YouTube 11:19 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2018E76 — 2018-10-28 — 99,5% DE MALAISE ! (TIK TOK)** : YouTube 14:19 → TheTVDB 25 min ; valeur minute attendue 14 min.
+- **S2018E75 — 2018-10-26 — JE PASSE MON PERMIS DE TANK !** : YouTube 23:03 → TheTVDB 25 min ; valeur minute attendue 23 min.
+- **S2018E74 — 2018-10-21 — LES PIRES OBJETS ACHETÉS SUR INTERNET (L’ÉMISSION) ! #1** : YouTube 20:04 → TheTVDB 25 min ; valeur minute attendue 20 min.
+- **S2018E73 — 2018-10-19 — JE RÉPONDS À VOS DILEMMES IMPOSSIBLES ! #2** : YouTube 14:51 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2018E72 — 2018-10-14 — CET OBJET A DÉTRUIT NOTRE AMITIÉ !** : YouTube 22:46 → TheTVDB 25 min ; valeur minute attendue 23 min.
+- **S2018E71 — 2018-10-12 — ESSAYEZ DE NE PAS CRASHER L'AVION CHALLENGE** : YouTube 13:44 → TheTVDB 25 min ; valeur minute attendue 14 min.
+- **S2018E70 — 2018-09-30 — JE SUIS PAPA !** : YouTube 4:53 → TheTVDB 25 min ; valeur minute attendue 5 min.
+- **S2018E69 — 2018-09-28 — JE LIVRE DES CADEAUX À DES ABONNÉS AU HASARD !** : YouTube 21:03 → TheTVDB 25 min ; valeur minute attendue 21 min.
+- **S2018E68 — 2018-09-23 — ILS CONTRÔLENT MA VIE PENDANT 48H !** : YouTube 23:34 → TheTVDB 25 min ; valeur minute attendue 24 min.
+- **S2018E67 — 2018-09-21 — LES PIRES (et les meilleurs) OBJETS DES ANNÉES 90 ! (ft. Joyca)** : YouTube 15:57 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2018E66 — 2018-09-14 — JE REGARDE DES PUBS JAPONAISES !** : YouTube 13:42 → TheTVDB 25 min ; valeur minute attendue 14 min.
+- **S2018E65 — 2018-09-09 — ON A REÇU UN MYSTERIEUX COLIS ! (feat. JOYCA)** : YouTube 14:06 → TheTVDB 25 min ; valeur minute attendue 14 min.
+- **S2018E64 — 2018-09-06 — LA VÉRITÉ SUR MES ORIGINES...** : YouTube 18:59 → TheTVDB 25 min ; valeur minute attendue 19 min.
+- **S2018E63 — 2018-09-02 — LES PIRES OBJETS DES SITES CHINOIS ! #4** : YouTube 16:51 → TheTVDB 25 min ; valeur minute attendue 17 min.
+- **S2018E62 — 2018-08-28 — JE PERDS = JE DONNE MA CARTE BLEUE À UN ABONNÉ...** : YouTube 21:46 → TheTVDB 25 min ; valeur minute attendue 22 min.
+- **S2018E61 — 2018-08-24 — JE RÉPONDS À VOS DILEMMES IMPOSSIBLES !** : YouTube 13:18 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2018E60 — 2018-08-18 — CE JEU M'A RETOURNÉ LE CERVEAU !** : YouTube 12:54 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2018E59 — 2018-08-15 — SI J'AVAIS FAIT CETTE VIDÉO EN 1998...** : YouTube 10:45 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2018E58 — 2018-08-12 — ÉNORME BATAILLE NAVALE DANS LA VRAIE VIE ! (ft. ALL STAR REDBOX)** : YouTube 15:24 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2018E57 — 2018-08-05 — LES PIRES ARTICLES AMAZON ! (Spécial objets miniatures)** : YouTube 16:27 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2018E56 — 2018-08-02 — POUR COMBIEN TU... ? (ft. Vodk, Mastu, Neoxi)** : YouTube 12:42 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2018E55 — 2018-07-29 — NOTRE NOUVEAU STUDIO À LA REDBOX !** : YouTube 14:14 → TheTVDB 25 min ; valeur minute attendue 14 min.
+- **S2018E54 — 2018-07-25 — JE NE DEVRAIS PAS ETRE ICI...** : YouTube 16:29 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2018E53 — 2018-07-22 — PONT EN CARTON CHALLENGE ! (ft. Vodk, Joyca, Neoxi, Mastu)** : YouTube 17:12 → TheTVDB 25 min ; valeur minute attendue 17 min.
+- **S2018E52 — 2018-07-19 — CETTE TECHNOLOGIE EST INCROYABLE ! (Drone Sous-Marin #2)** : YouTube 10:20 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2018E51 — 2018-07-14 — LES PIRES DOUBLAGES DE TABLEAUX ! EPISODE #1** : YouTube 4:45 → TheTVDB 25 min ; valeur minute attendue 5 min.
+- **S2018E50 — 2018-07-12 — J'EXPLORE DES ÉPAVES EN DRONE SOUS MARIN ! #1** : YouTube 12:56 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2018E48 — 2018-07-04 — JE VOUS PRÉSENTE MON IDOLE !** : YouTube 13:59 → TheTVDB 25 min ; valeur minute attendue 14 min.
+- **S2018E47 — 2018-06-29 — VOICI MON NOUVEAU MÉTIER !** : YouTube 18:57 → TheTVDB 25 min ; valeur minute attendue 19 min.
+- **S2018E46 — 2018-06-24 — LES COMPTES TWITTER LES PLUS DRÔLES ! #1** : YouTube 15:48 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2018E45 — 2018-06-21 — CE JEU T'AIDE À FAIRE LES BONS CHOIX !** : YouTube 8:30 → TheTVDB 25 min ; valeur minute attendue 9 min.
+- **S2018E44 — 2018-06-16 — LES PIRES OBJETS JAPONAIS (achetés à TOKYO) ! #3** : YouTube 12:03 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2018E43 — 2018-06-13 — CE JEU VA TE FAIRE DÉTESTER L’ÉCOLE !** : YouTube 12:11 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2018E42 — 2018-06-09 — JE NE PEUX FAIRE CONFIANCE À PERSONNE... (Nerf)** : YouTube 15:09 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2018E41 — 2018-06-06 — J’AI RETROUVÉ LES JEUX DE MON ENFANCE ! #1** : YouTube 16:53 → TheTVDB 25 min ; valeur minute attendue 17 min.
+- **S2018E40 — 2018-06-02 — LA MEILLEURE AVENTURE EN VOITURE ! - RedboxTrip #3** : YouTube 32:30 → TheTVDB 25 min ; valeur minute attendue 33 min.
+- **S2018E39 — 2018-05-31 — AVEZ-VOUS L'ESPRIT MAL PLACÉ ? (test d'innocence)** : YouTube 10:33 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2018E38 — 2018-05-26 — ON A COMPLÈTEMENT CRAQUÉ ! Redbox Trip #2** : YouTube 28:24 → TheTVDB 25 min ; valeur minute attendue 28 min.
+- **S2018E37 — 2018-05-21 — COME BACK LITTLE RED SH*T !!! (Dessin animé)** : YouTube 4:56 → TheTVDB 25 min ; valeur minute attendue 5 min.
+- **S2018E36 — 2018-05-18 — 1000 KILOMÈTRES SANS CARTE NI GPS ! - RedBox Trip #1** : YouTube 35:18 → TheTVDB 25 min ; valeur minute attendue 35 min.
+- **S2018E35 — 2018-05-14 — ON SE PERD SUR GOOGLE STREET !** : YouTube 11:14 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2018E34 — 2018-05-09 — JE REPONDS À VOS QUESTIONS VIDÉOS ! (FAQ pas très originale)** : YouTube 25:56 → TheTVDB 25 min ; valeur minute attendue 26 min.
+- **S2018E33 — 2018-05-03 — LES PIRES OBJETS JAPONAIS (achetés à TOKYO) ! #2** : YouTube 11:57 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2018E32 — 2018-04-29 — 5 SECONDES CHALLENGE** : YouTube 18:35 → TheTVDB 25 min ; valeur minute attendue 19 min.
+- **S2018E31 — 2018-04-25 — CET OBJET VA RÉVOLUTIONNER YOUTUBE ! (Drone Sous-Marin)** : YouTube 12:57 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2018E30 — 2018-04-23 — LES PIRES PRÉDICTIONS JAPONAISES ! (ft. Vodk & Joyca)** : YouTube 11:10 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2018E29 — 2018-04-19 — LES PIRES OBJETS JAPONAIS (achetés à TOKYO) ! #1** : YouTube 12:40 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2018E28 — 2018-04-15 — VOICI D'OÙ JE VIENS ! (Mon test ADN)** : YouTube 20:03 → TheTVDB 25 min ; valeur minute attendue 20 min.
+- **S2018E27 — 2018-04-11 — ON DÉGUSTE DES PRODUITS JAPONAIS (douteux) !** : YouTube 15:48 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2018E26 — 2018-04-06 — JE REGARDE DES VIDEOS DE GENS INCONSCIENTS ! (Compilation)** : YouTube 13:56 → TheTVDB 25 min ; valeur minute attendue 14 min.
+- **S2018E25 — 2018-04-03 — JE VLOG LES COULISSES DE BIGFLO ET OLI !** : YouTube 10:54 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2018E24 — 2018-03-30 — LE JEU QUI TE FAIT PERDRE UN POTE !** : YouTube 16:29 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2018E23 — 2018-03-27 — LE PIRE PECHEUR DE L'HISTOIRE ! (ft. Cyr!l & Vodk)** : YouTube 15:31 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2018E22 — 2018-03-22 — ON A CONSTRUIT UNE ÉCOLE DANS LE DÉSERT !** : YouTube 14:54 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2018E21 — 2018-03-18 — IL VOUS RESTE 60 SECONDES AVANT LA FIN DU MONDE ! (60 Seconds Meteor)** : YouTube 13:13 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2018E20 — 2018-03-15 — JE VOUS DÉVOILE MON NOUVEAU DÉCOR !** : YouTube 13:46 → TheTVDB 25 min ; valeur minute attendue 14 min.
+- **S2018E19 — 2018-03-11 — JE VLOG SUR LE TOURNAGE D'UN GROS FILM ! (Tomb Raider )** : YouTube 15:30 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2018E18 — 2018-03-05 — JE RECRUTE DES ABONNÉS !** : YouTube 5:16 → TheTVDB 25 min ; valeur minute attendue 5 min.
+- **S2018E17 — 2018-03-02 — LE RÉSEAU SOCIAL LE PLUS DRÔLE DU MONDE ! (VRCHAT #3 ft. Squeezie)** : YouTube 16:40 → TheTVDB 25 min ; valeur minute attendue 17 min.
+- **S2018E16 — 2018-02-26 — LE JEU QUI DÉTRUIT DES AMITIÉS !** : YouTube 14:53 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2018E15 — 2018-02-24 — JE N'AURAIS JAMAIS DU L'INVITER DANS CETTE VIDÉO...** : YouTube 11:11 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2018E14 — 2018-02-22 — LES PIRES OBJETS SUR LES SITES CHINOIS ! #3** : YouTube 11:29 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2018E13 — 2018-02-18 — LE RÉSEAU SOCIAL LE PLUS DROLE DU MONDE ! (VRCHAT #2)** : YouTube 13:35 → TheTVDB 25 min ; valeur minute attendue 14 min.
+- **S2018E12 — 2018-02-15 — J'AI RÉALISÉ MON RÊVE D'ENFANT ! (Décollage Fusée)** : YouTube 20:41 → TheTVDB 25 min ; valeur minute attendue 21 min.
+- **S2018E11 — 2018-02-09 — J’AI REÇU UN COLIS SACRÉ D’UN ABONNÉ !** : YouTube 12:21 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2018E10 — 2018-02-07 — LE RÉSEAU SOCIAL LE PLUS DRÔLE DU MONDE ! (VRCHAT #1)** : YouTube 12:11 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2018E09 — 2018-02-04 — LES PIRES PIRATES DE L'HISTOIRE ! (avec Wankil Studio & Cyril)** : YouTube 16:37 → TheTVDB 25 min ; valeur minute attendue 17 min.
+- **S2018E08 — 2018-01-31 — JE N'AI JAMAIS EU AUSSI PEUR EN VOITURE !** : YouTube 7:17 → TheTVDB 25 min ; valeur minute attendue 7 min.
+- **S2018E07 — 2018-01-26 — LES PIRES ET MEILLEURS ABONNÉS QUE J’AI RENCONTRÉS !** : YouTube 21:20 → TheTVDB 25 min ; valeur minute attendue 21 min.
+- **S2018E06 — 2018-01-24 — JE RÉPONDS À VOS QUESTIONS ! (FAQ Amixem)** : YouTube 20:22 → TheTVDB 25 min ; valeur minute attendue 20 min.
+- **S2018E05 — 2018-01-19 — J'AI DÉTRUIT UNE VOITURE AVEC UNE PELLETEUSE ! (Vlog Las Vegas)** : YouTube 15:58 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2018E04 — 2018-01-14 — ON PARODIE DES CLIPS ! (feat. Joyca) #1** : YouTube 10:57 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2018E03 — 2018-01-11 — MON ANNÉE 2017 SUR YOUTUBE !** : YouTube 6:31 → TheTVDB 25 min ; valeur minute attendue 7 min.
+- **S2018E02 — 2018-01-07 — ON AFFRONTE NOS ABONNÉS ! (avec YouTunes)** : YouTube 10:15 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2018E01 — 2018-01-03 — BATTLE ROYALE DANS LA VRAIE VIE ! (PUBG NERF Episode 2)** : YouTube 14:21 → TheTVDB 25 min ; valeur minute attendue 14 min.
+- **S2017E101 — 2017-12-31 — VOS PIRES MOTS DANS LE CARNET ! #3** : YouTube 10:45 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E100 — 2017-12-27 — NE ME LAISSEZ PLUS JAMAIS JOUER À CE JEU.** : YouTube 11:18 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E99 — 2017-12-24 — ON DECOUVRE NOS FUTURS STUDIOS !** : YouTube 11:29 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E98 — 2017-12-20 — JE REGARDE VOS VIDÉOS FOND VERT ! #3** : YouTube 16:37 → TheTVDB 25 min ; valeur minute attendue 17 min.
+- **S2017E97 — 2017-12-16 — J'AI FAIT PERDRE 1000€ À UN POTE ...** : YouTube 10:27 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2017E96 — 2017-12-13 — LE JEU LE PLUS CHOQUANT !** : YouTube 10:43 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E95 — 2017-12-11 — ON VA ADOPTER UNE CHÈVRE ? (FAQ REDBOX)** : YouTube 13:12 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2017E94 — 2017-12-08 — ENORME BATTLE ROYALE DANS LA VRAIE VIE ! (PUBG NERF)** : YouTube 11:51 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2017E93 — 2017-12-03 — LES PIRES ANNONCES SUR LEBONCOIN ! #8** : YouTube 9:32 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2017E92 — 2017-11-29 — ON VOUS ANNONCE NOTRE PROJET SECRET !** : YouTube 13:08 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2017E91 — 2017-11-24 — MES ABONNÉS ESSAYENT DE CASSER MON IPHONE X !** : YouTube 12:49 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2017E90 — 2017-11-19 — LES PIRES OBJETS SUR LES SITES CHINOIS ! #2** : YouTube 10:48 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E89 — 2017-11-14 — DUEL DE BLAGUES NULLES ! #2 (Vs Google Home)** : YouTube 10:04 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2017E88 — 2017-11-09 — VOS PIRES MOTS DANS LE CARNET ! #2** : YouTube 10:12 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2017E87 — 2017-11-05 — CETTE TECHNOLOGIE EST INCROYABLE !** : YouTube 11:03 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E86 — 2017-11-02 — MA PLUS GROSSE FRAYEUR EN AVION !** : YouTube 13:15 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2017E85 — 2017-10-28 — LES PIRES CHANSONS ÉTRANGÈRES ! (ft. Youtunes)** : YouTube 13:24 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2017E83 — 2017-10-20 — LES PIRES OBJETS SUR LES SITES CHINOIS !⁠⁠⁠⁠** : YouTube 11:11 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E82 — 2017-10-18 — J'AI CONDUIT UNE VOITURE À 150000€ ! (et j'ai eu peur)** : YouTube 12:27 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2017E81 — 2017-10-15 — LE JEU LE PLUS DRÔLE EN RÉALITÉ VIRTUELLE ! (ft. SuperKonar & Wankil)** : YouTube 14:36 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2017E80 — 2017-10-11 — ESSAYEZ DE DEVINER CES LANGAGES ! (99% impossible)** : YouTube 11:12 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E79 — 2017-10-06 — COMMENT CRÉER UN SITE INTERNET STYLÉ ? (je regarde les anciennes vidéos)** : YouTube 15:40 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2017E78 — 2017-09-29 — J'AI FAIT UNE BATAILLE DE CHAR PAINTBALL !** : YouTube 13:06 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2017E77 — 2017-09-26 — VOS PIRES MOTS DANS LE CARNET !** : YouTube 9:04 → TheTVDB 25 min ; valeur minute attendue 9 min.
+- **S2017E76 — 2017-09-23 — MA PLUS GROSSE CHASSE AU TRÉSOR !** : YouTube 16:14 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2017E75 — 2017-09-20 — JE ME SUIS FAIT ATTAQUER PAR DES FRELONS ! (avec LEGRANDJD)** : YouTube 12:48 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2017E74 — 2017-09-17 — LES PIRES ARTICLES AMAZON USA ! #3** : YouTube 10:01 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2017E73 — 2017-09-13 — VOS PIRES BULLETINS DE NOTE !** : YouTube 10:08 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2017E72 — 2017-09-09 — DUEL DE BLAGUES NULLES ! (Amixem Vs Joyca)** : YouTube 13:04 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2017E71 — 2017-09-06 — JE SUIS À VENDRE SUR INTERNET !** : YouTube 12:25 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2017E70 — 2017-09-03 — UNE GRANDE NOUVELLE À VOUS ANNONCER !** : YouTube 10:51 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E69 — 2017-08-30 — JE L'AI RENCONTRÉE SUR TINDER !** : YouTube 15:01 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2017E68 — 2017-08-28 — J'AI TESTÉ UNE EXPÉRIENCE INCROYABLE ! (Scooter Sous Marin)** : YouTube 10:49 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E67 — 2017-08-23 — J'AI RÉALISÉ MON PLUS GROS RÊVE !** : YouTube 28:11 → TheTVDB 25 min ; valeur minute attendue 28 min.
+- **S2017E66 — 2017-08-19 — LES PLUS GROS FOUS RIRES AVEC MES ABONNÉS !** : YouTube 10:20 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2017E65 — 2017-08-16 — CE CADEAU D'ABONNÉ EST GÊNANT !** : YouTube 13:58 → TheTVDB 25 min ; valeur minute attendue 14 min.
+- **S2017E64 — 2017-08-11 — JE VLOG DANS UN SOUS-MARIN !** : YouTube 19:05 → TheTVDB 25 min ; valeur minute attendue 19 min.
+- **S2017E63 — 2017-08-07 — TU DOIS ESSAYER DE DEVINER QUI EST CE YOUTUBER !** : YouTube 9:18 → TheTVDB 25 min ; valeur minute attendue 9 min.
+- **S2017E61 — 2017-07-30 — CET INSTRUMENT DE MUSIQUE EST DINGUE !** : YouTube 16:30 → TheTVDB 25 min ; valeur minute attendue 17 min.
+- **S2017E60 — 2017-07-26 — J'ESSAYE DE MENTIR À UN MENTALISTE !** : YouTube 11:50 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2017E59 — 2017-07-22 — LES RECHERCHES GOOGLE LES PLUS DRÔLES !** : YouTube 9:39 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2017E58 — 2017-07-20 — LE CADEAU D'ABONNÉ LE PLUS DINGUE !** : YouTube 10:21 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2017E57 — 2017-07-17 — LE JEU LE PLUS FACILE DU MONDE !** : YouTube 11:51 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2017E56 — 2017-07-14 — LES PIRES ARTICLES AMAZON USA ! #2** : YouTube 10:04 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2017E55 — 2017-07-10 — J'AI TIRÉ AVEC DES ARMES ULTRA RARES !** : YouTube 13:05 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2017E54 — 2017-07-06 — JE ME SUIS CHERCHÉ SUR GOOGLE !** : YouTube 11:14 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E53 — 2017-07-01 — LE TOURNAGE LE PLUS DRÔLE DE MA VIE ! (Doublage ft. Sofyan)** : YouTube 7:41 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2017E52 — 2017-06-29 — LES PIRES CV DE MES ABONNÉS !** : YouTube 11:14 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E51 — 2017-06-24 — LA CHANSON PUTACLIC - Amixem ft. YouTunes** : YouTube 3:31 → TheTVDB 25 min ; valeur minute attendue 4 min.
+- **S2017E50 — 2017-06-23 — ON A COMPOSÉ UNE CHANSON EN 24H !** : YouTube 23:45 → TheTVDB 25 min ; valeur minute attendue 24 min.
+- **S2017E49 — 2017-06-20 — LES PIRES ARTICLES AMAZON USA !** : YouTube 12:23 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2017E48 — 2017-06-18 — CETTE TECHNOLOGIE TE TRANSFORME EN OISEAU !** : YouTube 8:14 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2017E47 — 2017-06-15 — J'AI PRANK UN YOUTUBER AMÉRICAIN ! (omg no fake explications)** : YouTube 6:30 → TheTVDB 25 min ; valeur minute attendue 7 min.
+- **S2017E46 — 2017-06-11 — MA PREMIÈRE FOIS SUR SCÈNE !** : YouTube 10:04 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2017E45 — 2017-06-07 — CE BATEAU EST ABSOLUMENT INCROYABLE !** : YouTube 8:59 → TheTVDB 25 min ; valeur minute attendue 9 min.
+- **S2017E44 — 2017-06-03 — LES PIRES ARTICLES AMAZON ! #3** : YouTube 14:10 → TheTVDB 25 min ; valeur minute attendue 14 min.
+- **S2017E43 — 2017-05-30 — LE CADEAU D'ABONNÉ LE PLUS GÊNANT !** : YouTube 16:51 → TheTVDB 25 min ; valeur minute attendue 17 min.
+- **S2017E42 — 2017-05-26 — CET HOMME NE SAIT PAS CE QU'IL MANGE !** : YouTube 10:04 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2017E41 — 2017-05-23 — 50% DE CHANCE D'ÊTRE TRAUMATISÉ ! (50/50 CHALLENGE)** : YouTube 12:34 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2017E40 — 2017-05-20 — JE JETTE MA VOITURE DANS L'EAU !** : YouTube 13:45 → TheTVDB 25 min ; valeur minute attendue 14 min.
+- **S2017E39 — 2017-05-16 — J'AI ÉTÉ INVITÉ CHEZ UNE STAR AMÉRICAINE !** : YouTube 16:08 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2017E38 — 2017-05-12 — YOUTUBERS Vs ABONNÉS : LE GRAND CLASH !** : YouTube 8:24 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2017E37 — 2017-05-09 — LE JOUR OÙ JE ME SUIS RÉVEILLÉ DANS UNE BAIGNOIRE...** : YouTube 11:09 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E36 — 2017-05-05 — LES PIRES ANNONCES SUR LEBONCOIN ! #7** : YouTube 13:28 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2017E35 — 2017-05-03 — LES PREMIERS SEINS EN RÉALITÉ VIRTUELLE ! Tilt Brush #5** : YouTube 15:01 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2017E34 — 2017-04-30 — LE COACH DE YOUTUBE !** : YouTube 3:19 → TheTVDB 25 min ; valeur minute attendue 3 min.
+- **S2017E33 — 2017-04-28 — COMMENT DISCUTER AVEC UN MEURTRIER ?** : YouTube 15:46 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2017E32 — 2017-04-26 — LA PRISON LA PLUS MYTHIQUE DU MONDE ! (Vlog Afrique du Sud)** : YouTube 12:34 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2017E31 — 2017-04-20 — UN ALLIGATOR ME BLOQUE LA ROUTE !  (Vlog Floride)** : YouTube 11:19 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E30 — 2017-04-16 — L'UNBOXING DES CARTES YOUTUBERS !** : YouTube 16:41 → TheTVDB 25 min ; valeur minute attendue 17 min.
+- **S2017E29 — 2017-04-14 — JE REPASSE LE CODE DE LA ROUTE 7 ANS APRÈS ...** : YouTube 11:23 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E28 — 2017-04-11 — LE CALENDRIER DES YOUTUBERS NUS ! (J'ouvre vos colis)** : YouTube 15:07 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2017E27 — 2017-04-07 — J'ÉCRIS DES SMS EN CONDUISANT !** : YouTube 15:17 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2017E26 — 2017-04-04 — LE JOUR OÙ ON S'EST PRIS LA TÊTE ! 4L Trophy FAQ** : YouTube 27:32 → TheTVDB 25 min ; valeur minute attendue 28 min.
+- **S2017E25 — 2017-03-31 — JE CRITIQUE DES PUBLICITÉS TV !** : YouTube 10:14 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2017E24 — 2017-03-28 — LES PIRES ARTICLES AMAZON ! #2** : YouTube 15:26 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2017E23 — 2017-03-24 — VISITER 7 PAYS EN UNE VIDÉO !** : YouTube 5:33 → TheTVDB 25 min ; valeur minute attendue 6 min.
+- **S2017E22 — 2017-03-22 — QUAND TES PARENTS REGARDENT MES VIDÉOS !** : YouTube 10:42 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E21 — 2017-03-18 — VOICI LE MOMENT LE PLUS ÉPIQUE DE MA VIE ! - 4L Trophy EP #5** : YouTube 15:45 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2017E19 — 2017-03-15 — JE VISITE LA STATION SPATIALE !** : YouTube 10:43 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E18 — 2017-03-11 — ENSABLÉS DANS LE DÉSERT ! 4L Trophy EP #3** : YouTube 22:54 → TheTVDB 25 min ; valeur minute attendue 23 min.
+- **S2017E17 — 2017-03-08 — LES PIRES ARTICLES AMAZON !** : YouTube 10:52 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E16 — 2017-03-04 — L'AVENTURE LA PLUS DINGUE DE MA VIE ! - 4L Trophy EP #1** : YouTube 22:00 → TheTVDB 25 min ; valeur minute attendue 22 min.
+- **S2017E15 — 2017-02-26 — JE TESTE LES PIRES INSTRUMENTS DE MUSIQUES !** : YouTube 12:30 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2017E14 — 2017-02-22 — MA PREMIÈRE PARTIE D'AIRSOFT EN HÉLICOPTÈRE !** : YouTube 21:46 → TheTVDB 25 min ; valeur minute attendue 22 min.
+- **S2017E13 — 2017-02-19 — LE PIRE COLIS QU'UN ABONNÉ M'AIT ENVOYÉ !** : YouTube 17:44 → TheTVDB 25 min ; valeur minute attendue 18 min.
+- **S2017E12 — 2017-02-11 — JE JOUE À L'INSTRUMENT DE MUSIQUE LE PLUS BIZARRE !** : YouTube 14:19 → TheTVDB 25 min ; valeur minute attendue 14 min.
+- **S2017E11 — 2017-02-07 — QUELS YOUTUBERS REGARDENT MA CHAINE ?** : YouTube 10:15 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2017E10 — 2017-02-03 — LES PIRES CADEAUX DE MES ABONNÉS !** : YouTube 16:02 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2017E08 — 2017-01-29 — LES VIDÉOS LES PLUS DRÔLES QUE J'AI JAMAIS VUES !** : YouTube 12:51 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2017E07 — 2017-01-25 — LES PIRES ANNONCES SUR LEBONCOIN ! #6** : YouTube 12:53 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2017E06 — 2017-01-20 — MON OPÉRATION DES YEUX EN VIDÉO !** : YouTube 10:39 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E05 — 2017-01-17 — CET HOMME A PASSÉ LA PIRE JOURNÉE DU MONDE** : YouTube 50:59 → TheTVDB 25 min ; valeur minute attendue 51 min.
+- **S2017E04 — 2017-01-11 — CE QU'IL S'EST VRAIMENT PASSÉ PENDANT CETTE SCÈNE...** : YouTube 6:45 → TheTVDB 25 min ; valeur minute attendue 7 min.
+- **S2017E03 — 2017-01-07 — IL DEVINE MON MOT DE PASSE YOUTUBE !** : YouTube 11:19 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2017E02 — 2017-01-04 — J'ESPIONNE LE TELEPHONE D'UN TERRORISTE - Replica** : YouTube 23:36 → TheTVDB 25 min ; valeur minute attendue 24 min.
+- **S2017E01 — 2017-01-01 — J'AI ACHETÉ UNE VOITURE AVEC L'ARGENT DES ABONNÉS !** : YouTube 19:45 → TheTVDB 25 min ; valeur minute attendue 20 min.
+- **S2016E103 — 2016-12-29 — LES PREMIÈRES TESTICULES EN RÉALITÉ VIRTUELLE ! - Tilt Brush #4** : YouTube 15:26 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2016E102 — 2016-12-26 — DES INCONNUS RÉAGISSENT À MES VIDÉOS !** : YouTube 9:29 → TheTVDB 25 min ; valeur minute attendue 9 min.
+- **S2016E101 — 2016-12-24 — LE PIRE PÈRE NOËL !** : YouTube 10:52 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2016E100 — 2016-12-22 — JE REGARDE VOS VIDEOS FOND VERT ! #2** : YouTube 20:17 → TheTVDB 25 min ; valeur minute attendue 20 min.
+- **S2016E99 — 2016-12-19 — J'OUVRE VOS LETTRES & COLIS !** : YouTube 20:46 → TheTVDB 25 min ; valeur minute attendue 21 min.
+- **S2016E98 — 2016-12-17 — J'AI CRASHÉ MON NOUVEAU DRONE ! (Oui, encore...)** : YouTube 10:48 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2016E97 — 2016-12-17 — JE JUGE LES YOUTUBERS !** : YouTube 12:41 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2016E96 — 2016-12-13 — L'UNE DE CES DEUX PERSONNES DOIT MOURIR. (Moral Machine)** : YouTube 10:27 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2016E95 — 2016-12-10 — J'EMPÊCHE LE SUICIDE D'UN SOLDAT ! (Onward)** : YouTube 10:31 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2016E94 — 2016-12-08 — LES PIRES CALENDRIERS DE L'AVENT !** : YouTube 12:24 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2016E93 — 2016-12-06 — JE VOUS DONNE MON ADRESSE !** : YouTube 11:53 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2016E92 — 2016-12-02 — QUAND TON POTE CROIT QU'IL EST LE MEILLEUR ! (Vlog Ski)** : YouTube 12:32 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2016E91 — 2016-11-29 — JE JOUE AU JEU LE PLUS ATTENDU DU MONDE !** : YouTube 7:48 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2016E90 — 2016-11-23 — JE FOUILLE LE TÉLÉPHONE D'UNE INCONNUE ! (Sara Is Missing)** : YouTube 27:30 → TheTVDB 25 min ; valeur minute attendue 28 min.
+- **S2016E89 — 2016-11-18 — JE ME BAIGNE DANS UN LAC GELÉ ! (Finlande)** : YouTube 12:52 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2016E88 — 2016-11-16 — LE PREMIER POULET CONNECTÉ AU MONDE !** : YouTube 9:10 → TheTVDB 25 min ; valeur minute attendue 9 min.
+- **S2016E87 — 2016-11-12 — MA PIRE FRAYEUR EN HÉLICOPTÈRE !** : YouTube 10:54 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2016E86 — 2016-11-09 — J'EMPÊCHE UN SUICIDE.** : YouTube 10:25 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2016E85 — 2016-11-05 — BIENVENUE CHEZ MOI ! (SETUP)** : YouTube 23:19 → TheTVDB 25 min ; valeur minute attendue 23 min.
+- **S2016E84 — 2016-10-31 — JE ME FAIS CLASHER PAR MES ABONNÉS** : YouTube 6:12 → TheTVDB 25 min ; valeur minute attendue 6 min.
+- **S2016E83 — 2016-10-26 — ESSAYEZ DE NE PAS ÊTRE MAL À L' AISE** : YouTube 8:00 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2016E82 — 2016-10-22 — MON PIRE SOUVENIR DU JAPON !** : YouTube 15:07 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2016E81 — 2016-10-19 — JE ME SUIS FAIT ATTAQUER PAR UN REQUIN !** : YouTube 13:19 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2016E80 — 2016-10-15 — JE VLOG EN APESANTEUR !** : YouTube 15:50 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2016E79 — 2016-10-12 — LE PIRE MÉTIER DU MONDE...** : YouTube 8:51 → TheTVDB 25 min ; valeur minute attendue 9 min.
+- **S2016E78 — 2016-10-08 — LA DERNIÈRE VIDÉO AVANT LA FIN DU MONDE** : YouTube 13:52 → TheTVDB 25 min ; valeur minute attendue 14 min.
+- **S2016E77 — 2016-10-05 — VOS PIRES TOP COMMENTAIRES...** : YouTube 6:27 → TheTVDB 25 min ; valeur minute attendue 6 min.
+- **S2016E76 — 2016-10-01 — J'AI VISITÉ UNE ÎLE ABANDONNÉE !** : YouTube 14:29 → TheTVDB 25 min ; valeur minute attendue 14 min.
+- **S2016E75 — 2016-09-28 — LE BEST OF D'AMIXEM !** : YouTube 5:19 → TheTVDB 25 min ; valeur minute attendue 5 min.
+- **S2016E74 — 2016-09-24 — J'AI GOÛTÉ LE FRUIT LE PLUS DÉGOÛTANT DU MONDE !** : YouTube 11:37 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2016E73 — 2016-09-21 — LA PREMIÈRE CROTTE EN RÉALITÉ VIRTUELLE ! - Tilt Brush #3** : YouTube 7:53 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2016E72 — 2016-09-17 — L'INCROYABLE ENQUÊTE DU FUTUR** : YouTube 11:08 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2016E71 — 2016-09-14 — LE DIEU DE YOUTUBE** : YouTube 10:47 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2016E70 — 2016-09-10 — JE ME SUIS FAIT FRIENDZONER...** : YouTube 17:35 → TheTVDB 25 min ; valeur minute attendue 18 min.
+- **S2016E69 — 2016-09-07 — J'AI SURVOLÉ UNE BALEINE EN DRONE !** : YouTube 8:22 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2016E68 — 2016-09-02 — LA PARTIE PAINTBALL LA PLUS ÉPIQUE !** : YouTube 10:42 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2016E67 — 2016-08-31 — LA PREMIÈRE MANETTE BROSSE À DENT AU MONDE.** : YouTube 6:56 → TheTVDB 25 min ; valeur minute attendue 7 min.
+- **S2016E66 — 2016-08-27 — J'AI RENCONTRÉ UNE VOYANTE !** : YouTube 10:57 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2016E65 — 2016-08-24 — MON MYSTÉRIEUX COLIS.** : YouTube 4:18 → TheTVDB 25 min ; valeur minute attendue 4 min.
+- **S2016E64 — 2016-08-20 — LES PIRES ANNONCES SUR LEBONCOIN ! #5** : YouTube 8:58 → TheTVDB 25 min ; valeur minute attendue 9 min.
+- **S2016E63 — 2016-08-17 — DEVINEZ DANS QUEL PAYS JE SUIS ? GeoGuessr #2** : YouTube 11:30 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2016E62 — 2016-08-14 — CET ENFANT NOUS A RENDU FOUS. - The Hidden** : YouTube 10:02 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2016E61 — 2016-08-10 — JE RÉPONDS À VOS QUESTIONS !** : YouTube 22:49 → TheTVDB 25 min ; valeur minute attendue 23 min.
+- **S2016E60 — 2016-08-06 — JE REGARDE VOS VIDEOS FOND VERT !** : YouTube 20:15 → TheTVDB 25 min ; valeur minute attendue 20 min.
+- **S2016E59 — 2016-08-03 — CE QUE LES GENS CHERCHENT LE PLUS SUR GOOGLE.** : YouTube 6:20 → TheTVDB 25 min ; valeur minute attendue 6 min.
+- **S2016E58 — 2016-07-29 — LA BRIGADE POKEMON GO** : YouTube 12:17 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2016E57 — 2016-07-26 — LA FIN DE MON FOND VERT...** : YouTube 8:11 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2016E56 — 2016-07-21 — UN PASSAGE SECRET DANS MON IMMEUBLE !** : YouTube 14:50 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2016E55 — 2016-07-17 — J'AI SAUTÉ DU 3ÈME ÉTAGE !** : YouTube 8:05 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2016E54 — 2016-07-14 — COMMENT FAIRE UNE OEUVRE D'ART EN RÉALITÉ VIRTUELLE ?** : YouTube 5:01 → TheTVDB 25 min ; valeur minute attendue 5 min.
+- **S2016E53 — 2016-07-10 — DEVINEZ DANS QUEL PAYS JE SUIS ? - GeoGuessr** : YouTube 12:09 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2016E52 — 2016-07-05 — LES PIRES ANNONCES SUR LEBONCOIN ! #4** : YouTube 10:05 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2016E51 — 2016-07-01 — ELLE TUE UN ORC AVEC SES SEINS** : YouTube 8:53 → TheTVDB 25 min ; valeur minute attendue 9 min.
+- **S2016E50 — 2016-06-29 — COMMENT PILOTER UN DRONE ?** : YouTube 10:06 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2016E49 — 2016-06-25 — QUAND DES INCONNUS TESTENT LA RÉALITÉ VIRTUELLE  !** : YouTube 12:52 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2016E48 — 2016-06-21 — J'AI ESSAYÉ LE PORNO EN RÉALITÉ VIRTUELLE... - Vlog E3** : YouTube 7:58 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2016E47 — 2016-06-18 — AMIXEM DIE PIE - REMIX** : YouTube 2:05 → TheTVDB 25 min ; valeur minute attendue 2 min.
+- **S2016E46 — 2016-06-15 — J'AI JOUÉ CONTRE WIZ KHALIFA ! Battlefield 1** : YouTube 10:01 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2016E45 — 2016-06-12 — FOUETTÉ PAR UNE INFIRMIÈRE** : YouTube 11:54 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2016E44 — 2016-06-07 — LES YOUTUBERS DESSINENT EN RÉALITÉ VIRTUELLE ! ft. Pierre Croce, Terracid & LeMondeÀLenvers** : YouTube 27:08 → TheTVDB 25 min ; valeur minute attendue 27 min.
+- **S2016E43 — 2016-06-01 — CE JEU EST SCANDALEUX.** : YouTube 11:35 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2016E42 — 2016-05-28 — MES MEILLEURES VIDÉOS AU DRONE !** : YouTube 5:21 → TheTVDB 25 min ; valeur minute attendue 5 min.
+- **S2016E41 — 2016-05-25 — COMMENT CONSTRUIRE UN BÉLIER ?** : YouTube 10:02 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2016E40 — 2016-05-21 — COMMENT DEVENIR UN YOUTUBER CÉLÈBRE ?** : YouTube 12:09 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2016E39 — 2016-05-18 — LA MEILLEURE EXPÉRIENCE DE RÉALITÉ VIRTUELLE - Tilt Brush #2** : YouTube 11:23 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2016E38 — 2016-05-13 — QUAND T'EFFACES PAS TON HISTORIQUE INTERNET.** : YouTube 7:11 → TheTVDB 25 min ; valeur minute attendue 7 min.
+- **S2016E37 — 2016-05-10 — LA MEILLEURE EXPÉRIENCE DE RÉALITÉ VIRTUELLE ! Tilt Brush #1** : YouTube 7:40 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2016E36 — 2016-05-06 — MES PIRES DESSINS DE MATERNELLE !** : YouTube 5:27 → TheTVDB 25 min ; valeur minute attendue 5 min.
+- **S2016E35 — 2016-05-04 — LE PIRE CONTROLEUR AÉRIEN !** : YouTube 5:01 → TheTVDB 25 min ; valeur minute attendue 5 min.
+- **S2016E34 — 2016-05-01 — MON STAGE À LA NASA** : YouTube 11:11 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2016E33 — 2016-04-26 — COMMENT PILOTER UN PORTE AVION ?** : YouTube 8:41 → TheTVDB 25 min ; valeur minute attendue 9 min.
+- **S2016E32 — 2016-04-23 — CET HOMME SE PREND POUR UN CERF.** : YouTube 10:48 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2016E31 — 2016-04-20 — CRASHER SON DRONE EN ISLANDE** : YouTube 13:07 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2016E30 — 2016-04-15 — ME CONNAISSEZ VOUS BIEN ? - Miitomo** : YouTube 9:17 → TheTVDB 25 min ; valeur minute attendue 9 min.
+- **S2016E29 — 2016-04-12 — SE REVEILLER À CÔTÉ D'UNE INCONNUE.** : YouTube 10:35 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2016E28 — 2016-04-08 — MES ABONNÉS SONT-ILS FIDÈLES ?** : YouTube 8:01 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2016E27 — 2016-04-05 — CET ENFANT A TUÉ UN HOMME.** : YouTube 10:26 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2016E26 — 2016-04-01 — UN PLATEAU DE TOURNAGE POUR MOI TOUT SEUL** : YouTube 8:21 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2016E25 — 2016-03-28 — CETTE CHOSE EST ULTRA VIOLENTE.** : YouTube 6:05 → TheTVDB 25 min ; valeur minute attendue 6 min.
+- **S2016E24 — 2016-03-24 — YOUTUBE SIMULATOR** : YouTube 13:02 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2016E23 — 2016-03-19 — LES PIRES ANNONCES SUR LEBONCOIN ! #3** : YouTube 6:22 → TheTVDB 25 min ; valeur minute attendue 6 min.
+- **S2016E22 — 2016-03-16 — COMMENT TUER AVEC UN LUSTRE ?** : YouTube 8:31 → TheTVDB 25 min ; valeur minute attendue 9 min.
+- **S2016E21 — 2016-03-12 — LE JEU LE PLUS ABUSÉ ! Avec Pierre Croce** : YouTube 13:14 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2016E19 — 2016-03-05 — JE PARS FAIRE 6000KM DANS LE DÉSERT !** : YouTube 6:57 → TheTVDB 25 min ; valeur minute attendue 7 min.
+- **S2016E18 — 2016-03-01 — TOUT DOUX MINOU ! Far Cry Primal** : YouTube 11:25 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2016E17 — 2016-02-26 — CETTE CHOSE A RÉPONSE À TOUT ! Simsimi** : YouTube 7:19 → TheTVDB 25 min ; valeur minute attendue 7 min.
+- **S2016E16 — 2016-02-23 — COMMENT INFILTRER UN BATEAU ? Hitman** : YouTube 8:55 → TheTVDB 25 min ; valeur minute attendue 9 min.
+- **S2016E15 — 2016-02-19 — COMMENT SURVIVRE DANS LA NATURE ?** : YouTube 15:59 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2016E14 — 2016-02-16 — TROP DE TROLL ET DE BUZZ DANS CE JEU !** : YouTube 14:30 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2016E13 — 2016-02-16 — JE SUIS BONNE OU PAS ? - Face Swap Live** : YouTube 7:32 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2016E12 — 2016-02-11 — QUAND UN STAGIAIRE NÉGOCIE UNE PRISE D'OTAGE - GTA V** : YouTube 11:18 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2016E11 — 2016-02-05 — LES PIRES ANNONCES SUR LEBONCOIN ! #2** : YouTube 10:02 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2016E10 — 2016-02-03 — COMMENT FAIRE DU COVOITURAGE AVEC UN PÉDOPHILE ?** : YouTube 12:08 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2016E09 — 2016-01-29 — QUE FONT LES GENS SUR PERISCOPE ? #2** : YouTube 11:32 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2016E08 — 2016-01-27 — CE JEU EST BEAUCOUP TROP ÉPIQUE ! Naval Action** : YouTube 10:03 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2016E07 — 2016-01-22 — COMMENT ÉTAIT INTERNET IL Y A 10 ANS ?** : YouTube 10:02 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2016E06 — 2016-01-20 — CE JEU N'EST PAS CE QUE TU CROIS.** : YouTube 23:46 → TheTVDB 25 min ; valeur minute attendue 24 min.
+- **S2016E05 — 2016-01-16 — FAIRE DE LA GYM EN PLEINE GUERRE - The Division** : YouTube 10:17 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2016E04 — 2016-01-13 — QUE FONT LES GENS SUR PERISCOPE ? #1** : YouTube 11:05 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2016E03 — 2016-01-08 — LES PIRES DILEMMES ! - Would You Rather** : YouTube 12:11 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2016E02 — 2016-01-05 — JE SUIS LE ROI OMG ! - Sort The Court** : YouTube 8:36 → TheTVDB 25 min ; valeur minute attendue 9 min.
+- **S2016E01 — 2016-01-02 — PIANO Vs. GUITARE !** : YouTube 7:25 → TheTVDB 25 min ; valeur minute attendue 7 min.
+- **S2015E99 — 2015-12-30 — VIE NULLE SIMULATOR - Life: The Game** : YouTube 11:45 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2015E98 — 2015-12-27 — LES PIRES ANNONCES SUR LEBONCOIN !** : YouTube 10:02 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2015E97 — 2015-12-24 — JE REGARDE VOS VIDÉOS ! - Vos YTP** : YouTube 12:13 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2015E96 — 2015-12-22 — COMMENT VOLER EN MONTGOLFIÈRE HUMAINE ?! Just Cause 3** : YouTube 15:45 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2015E95 — 2015-12-16 — COMMENT COURIR SANS JAMBES ? Ben and Ed** : YouTube 10:02 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2015E94 — 2015-12-12 — J'AI JOUÉ DANS STAR WARS !** : YouTube 10:22 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2015E93 — 2015-12-09 — MON UNIVERSITÉ À LONDRES !** : YouTube 11:20 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2015E92 — 2015-12-04 — CHEVAUCHER UN MAMMOUTH ?! Far Cry Primal** : YouTube 12:39 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2015E91 — 2015-12-01 — COMMENT S'ENFUIR D'UNE BASE MILITAIRE ? Fleeing The Complex** : YouTube 40:35 → TheTVDB 25 min ; valeur minute attendue 41 min.
+- **S2015E90 — 2015-11-27 — N'APPUIE PAS SUR CE BOUTON OMG** : YouTube 14:11 → TheTVDB 25 min ; valeur minute attendue 14 min.
+- **S2015E89 — 2015-11-25 — COMMENT ENVOYER UNE VACHE DANS L'ESPACE ? Just Cause 3** : YouTube 12:08 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2015E88 — 2015-11-18 — LES BEAUFS À LA PÊCHE ! (Euro Fishing ft. Terracid)** : YouTube 35:34 → TheTVDB 25 min ; valeur minute attendue 36 min.
+- **S2015E87 — 2015-11-13 — JE REGARDE VOS VIDÉOS YOUTUBE !** : YouTube 6:59 → TheTVDB 25 min ; valeur minute attendue 7 min.
+- **S2015E86 — 2015-11-10 — 1000 FOIS PLUS VIOLENT QU'ADIBOU, ET POURTANT... - Unreal Tournament** : YouTube 7:47 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2015E85 — 2015-11-06 — L'ORIGINE DE MON PSEUDO ?! - Vos Commentaires YouTube #1** : YouTube 11:05 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2015E83 — 2015-11-01 — COULISSES DE LA PARIS GAMES WEEK 2015 ! - Amixem** : YouTube 9:26 → TheTVDB 25 min ; valeur minute attendue 9 min.
+- **S2015E82 — 2015-10-28 — COMMENT INFILTRER UN AVION ? (Infiltrating The Airship)** : YouTube 37:02 → TheTVDB 25 min ; valeur minute attendue 37 min.
+- **S2015E81 — 2015-10-25 — LA VIDÉO NULLE ! - PARIS GAMES WEEK 2015** : YouTube 2:46 → TheTVDB 25 min ; valeur minute attendue 3 min.
+- **S2015E80 — 2015-10-23 — IL DEVINE MES YOUTUBERS PRÉFÉRÉS ! - Akinator** : YouTube 13:12 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2015E79 — 2015-10-20 — LA GUERRE DES CARTONS ! - METAL GEAR ONLINE** : YouTube 17:33 → TheTVDB 25 min ; valeur minute attendue 18 min.
+- **S2015E78 — 2015-10-16 — MON PIANO EST LE MEILLEUR !** : YouTube 6:20 → TheTVDB 25 min ; valeur minute attendue 6 min.
+- **S2015E77 — 2015-10-13 — JE FAIS DU eSPORT SUR ADIBOU !** : YouTube 7:45 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2015E76 — 2015-10-09 — LE JET LAG DU PÂTÉ** : YouTube 3:18 → TheTVDB 25 min ; valeur minute attendue 3 min.
+- **S2015E75 — 2015-10-06 — PARDON... J'AI DETRUIT L'UNIVERS (Universe Sandbox 2)** : YouTube 15:29 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2015E74 — 2015-10-02 — UNE PROMENADE DE 8000 KM !** : YouTube 11:06 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2015E73 — 2015-09-30 — QUEL YOUTUBER EST LE MEURTRIER ? - GMOD Murder** : YouTube 16:11 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2015E72 — 2015-09-25 — LE POÈTE DES TOILETTES !** : YouTube 4:33 → TheTVDB 25 min ; valeur minute attendue 5 min.
+- **S2015E71 — 2015-09-22 — AGARIO AVEC LES ABONNÉS !** : YouTube 10:14 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2015E70 — 2015-09-18 — MON FOND VERT EST VIVANT !** : YouTube 4:33 → TheTVDB 25 min ; valeur minute attendue 5 min.
+- **S2015E68 — 2015-09-11 — J'OUVRE VOS SNAP : VOS PIRES JEUX DE MOTS !** : YouTube 10:19 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2015E66 — 2015-09-04 — IMPRESSION 3D DE ZIZI !** : YouTube 6:04 → TheTVDB 25 min ; valeur minute attendue 6 min.
+- **S2015E64 — 2015-08-27 — MEDLEY YOUTUBE AU PIANO !** : YouTube 4:22 → TheTVDB 25 min ; valeur minute attendue 4 min.
+- **S2015E63 — 2015-08-24 — 5 YOUTUBERS SE CHIENT DESSUS ! - Dead Realm** : YouTube 27:01 → TheTVDB 25 min ; valeur minute attendue 27 min.
+- **S2015E62 — 2015-08-20 — MES 5 SECRETS HONTEUX !** : YouTube 7:42 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2015E61 — 2015-08-16 — ON VISITE UN HÔTEL FANTÔME  ! - Altis Vs. Life #3** : YouTube 7:32 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2015E58 — 2015-08-04 — J'OUVRE VOS SNAP : FAQ INVERSÉE !** : YouTube 9:28 → TheTVDB 25 min ; valeur minute attendue 9 min.
+- **S2015E57 — 2015-08-02 — ALTIS Vs LIFE : KAVALA LA SUITE ! #2** : YouTube 7:22 → TheTVDB 25 min ; valeur minute attendue 7 min.
+- **S2015E56 — 2015-07-30 — MON PIANO EST VIVANT !** : YouTube 7:53 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2015E55 — 2015-07-26 — ALTIS Vs. LIFE - KAVALA IRL ! #1** : YouTube 15:27 → TheTVDB 25 min ; valeur minute attendue 15 min.
+- **S2015E54 — 2015-07-22 — LA CHANSON DES ABONNÉS !** : YouTube 15:30 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2015E52 — 2015-07-15 — J'OUVRE VOS SNAP !** : YouTube 7:44 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2015E51 — 2015-07-11 — JE VOUS PIÈGE AU TÉLÉPHONE !** : YouTube 12:22 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2015E50 — 2015-07-07 — BEST REACTIONS après RAID TWITCH ! - Amixem** : YouTube 12:41 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2015E49 — 2015-06-26 — J'OUVRE VOS SNAPCHAT : RENDEZ L'ARGENT AUX YOUTUBERS !** : YouTube 7:03 → TheTVDB 25 min ; valeur minute attendue 7 min.
+- **S2015E48 — 2015-06-22 — LA VIDEO SETUP OMG** : YouTube 34:53 → TheTVDB 25 min ; valeur minute attendue 35 min.
+- **S2015E46 — 2015-06-19 — LA BAGUETTE YAMAKASI ! Mirror's Edge Catalyst - Vlog E3 2015** : YouTube 4:20 → TheTVDB 25 min ; valeur minute attendue 4 min.
+- **S2015E45 — 2015-06-18 — J'AI JOUÉ À STARWARS BATTLEFRONT ! - Vlog E3 2015** : YouTube 7:16 → TheTVDB 25 min ; valeur minute attendue 7 min.
+- **S2015E44 — 2015-06-17 — TOURNAGE DANS LE DÉSERT CALIFORNIEN ! - Vlog E3 2015** : YouTube 5:01 → TheTVDB 25 min ; valeur minute attendue 5 min.
+- **S2015E43 — 2015-06-14 — À LA RECHERCHE DE L'E3 ! - Amixem** : YouTube 9:27 → TheTVDB 25 min ; valeur minute attendue 9 min.
+- **S2015E42 — 2015-06-12 — NOUVELLE CHAINE GAMING !** : YouTube 2:58 → TheTVDB 25 min ; valeur minute attendue 3 min.
+- **S2015E41 — 2015-06-10 — LE BRAQUAGE DU FAIL RATÉ ! ft. Sup3r Konar, DarkFu & Kalipso - PayDay 2 PS4 !** : YouTube 12:57 → TheTVDB 25 min ; valeur minute attendue 13 min.
+- **S2015E40 — 2015-06-03 — C'est pas Sorcier - YouTube [Vidéo Annonce ;)]** : YouTube 1:34 → TheTVDB 25 min ; valeur minute attendue 2 min.
+- **S2015E39 — 2015-06-01 — JE M'INCRUSTE DANS UNE SOIRÉE EN LIVE :O** : YouTube 11:44 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2015E37 — 2015-05-23 — J'OUVRE VOS SNAPCHAT ! - AMIXEM** : YouTube 11:16 → TheTVDB 25 min ; valeur minute attendue 11 min.
+- **S2015E36 — 2015-05-17 — LE RAID ULTIME SUR TWITCH ! TWERK EN LIVE :O #2** : YouTube 17:12 → TheTVDB 25 min ; valeur minute attendue 17 min.
+- **S2015E34 — 2015-05-07 — LE RAID ULTIME SUR TWITCH ! VOUS L'AVEZ FAIT CRAQUER ! #1** : YouTube 26:12 → TheTVDB 25 min ; valeur minute attendue 26 min.
+- **S2015E22 — 2015-03-31 — YO ! JE VAIS À LA CAVICON & VIDEO CITY PARIS !** : YouTube 4:25 → TheTVDB 25 min ; valeur minute attendue 4 min.
+- **S2015E12 — 2015-03-06 — L'INCROYABLE HISTOIRE DE LA PISCINE À BOULES + BONUS CHANSONS EN LIVE** : YouTube 21:57 → TheTVDB 25 min ; valeur minute attendue 22 min.
+- **S2015E04 — 2015-02-06 — COURSES POURSUITES WTF ft. Chris & Duff sur Battlefield Hardline [Rediff Twitch]** : YouTube 10:23 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2015E03 — 2015-01-28 — ZOMBIES Vs. MOI** : YouTube 3:37 → TheTVDB 25 min ; valeur minute attendue 4 min.
+- **S2014E22 — 2014-10-29 — LA BRIGADE ANTI RAGEUX - TRAILER (Vidéo dispo sur The Fantastiques)** : YouTube 2:09 → TheTVDB 25 min ; valeur minute attendue 2 min.
+- **S2014E17 — 2014-09-05 — JE SUIS LÀ POUR T'AIDER ! - Parodie IRL SIMS 4 ft. SUP3R KONAR !** : YouTube 6:31 → TheTVDB 25 min ; valeur minute attendue 7 min.
+- **S2013E33 — 2013-10-07 — The GameTrotter #1 - Tokyo Game Show.** : YouTube 8:02 → TheTVDB 25 min ; valeur minute attendue 8 min.
+- **S2013E28 — 2013-08-06 — ► Let's Play Toilet Simulator 2013 - Episodes 1, 2, 3, 4, 5, 6, 7 et 8.** : YouTube 5:24 → TheTVDB 25 min ; valeur minute attendue 5 min.
+- **S2013E27 — 2013-07-10 — ► LEGO Seigneur des Anneaux EN MODE POSEY !◄ by CoopGameplays** : YouTube 10:25 → TheTVDB 25 min ; valeur minute attendue 10 min.
+- **S2013E26 — 2013-07-05 — ► TUTO : Comment avoir le succès de Diablox9 ? \| by CoopGameplays.** : YouTube 4:24 → TheTVDB 25 min ; valeur minute attendue 4 min.
+- **S2013E19 — 2013-05-11 — ► Un whisky, un ami, un SLENDER. ◄ by Coop Gameplays** : YouTube 7:23 → TheTVDB 25 min ; valeur minute attendue 7 min.
+- **S2013E17 — 2013-04-16 — ► OMG, 2000 ABONNÉS ! by CoopGameplays ◄** : YouTube 3:15 → TheTVDB 25 min ; valeur minute attendue 3 min.
+- **S2013E15 — 2013-04-09 — ► VIDÉO 1000 ABONNÉS - Discours du PDG de la CoopGameplays.** : YouTube 2:47 → TheTVDB 25 min ; valeur minute attendue 3 min.
+- **S2013E12 — 2013-03-25 — ► Let's Play #2 fr ! The Walking Dead : Survival Instinct ! Part 2 Episode 2 [FRANCAIS]** : YouTube 21:52 → TheTVDB 25 min ; valeur minute attendue 22 min.
+- **S2013E11 — 2013-03-21 — ► Let's Play #1 fr !  The Walking Dead : Survival Instinct ! Part 1 Episode 1 [FRANCAIS]** : YouTube 15:54 → TheTVDB 25 min ; valeur minute attendue 16 min.
+- **S2013E10 — 2013-03-21 — ► TOMB RAIDER 2013 (1080p) - Gameplay découverte commenté. [FR]** : YouTube 19:59 → TheTVDB 25 min ; valeur minute attendue 20 min.
+- **S2013E09 — 2013-03-13 — ► Meilleurs moments LoL de la CoopGameplays sur Battlefield 3.** : YouTube 3:34 → TheTVDB 25 min ; valeur minute attendue 4 min.
+- **S2013E08 — 2013-03-10 — ► DEAD OPS ARCADE à l'ancienne ! [Call Of Duty Black Ops]** : YouTube 11:44 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2013E07 — 2013-03-04 — ►PlanetSide 2 \| Zap : Meilleurs Moments avec JiinZz Gaming** : YouTube 12:01 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2013E06 — 2013-02-14 — ► Borderlands 2 : Massacre en Coop !** : YouTube 21:33 → TheTVDB 25 min ; valeur minute attendue 22 min.
+- **S2013E05 — 2013-01-28 — ► Délires sur FARMING SIMULATOR 2013** : YouTube 17:34 → TheTVDB 25 min ; valeur minute attendue 18 min.
+- **S2013E04 — 2013-01-23 — ► [TUTO] Cheat codes / Tricher sur FARCRY 3 ? [Argent, Santé, Munitions...]** : YouTube 17:21 → TheTVDB 25 min ; valeur minute attendue 17 min.
+- **S2013E03 — 2013-01-16 — ► EXTASE graphique sur Assassin's Creed 3 ! - Gameplay [FR]** : YouTube 19:02 → TheTVDB 25 min ; valeur minute attendue 19 min.
+- **S2013E02 — 2013-01-14 — ► BATTLEFIELD 3 - DRUM n' BASS FRAGMOVIE [FR]** : YouTube 3:27 → TheTVDB 25 min ; valeur minute attendue 3 min.
+- **S2012E07 — 2012-12-20 — ► FAR CRY 3 - Gameplay découverte #2.** : YouTube 22:17 → TheTVDB 25 min ; valeur minute attendue 22 min.
+- **S2012E06 — 2012-12-12 — ► Pétage de plomb sur BF3 Aftermath : Le Gameplay le plus raté de l'Histoire ? [FR]** : YouTube 11:48 → TheTVDB 25 min ; valeur minute attendue 12 min.
+- **S2012E05 — 2012-12-06 — ► Gameplay déjanté sur Battlefield 3 Aftermath [FR]** : YouTube 26:18 → TheTVDB 25 min ; valeur minute attendue 26 min.
+- **S2012E04 — 2012-12-05 — ► FAR CRY 3 : Gameplay découverte [FR]** : YouTube 24:02 → TheTVDB 25 min ; valeur minute attendue 24 min.
+- **S2012E03 — 2012-11-27 — ► Les 10 meilleures planques de ZIBA TOWER [Battlefield 3] [FR]** : YouTube 33:57 → TheTVDB 25 min ; valeur minute attendue 34 min.
+- **S2012E02 — 2012-11-14 — ► Battlefield 3 : Gameplay à Tour Ziba [AEK-971] [FR]** : YouTube 37:36 → TheTVDB 25 min ; valeur minute attendue 38 min.
+- **S2012E01 — 2012-11-11 — ► Premiers pas sur Borderlands 2 - Gameplay découverte [FR]** : YouTube 58:20 → TheTVDB 25 min ; valeur minute attendue 58 min.
+
+## Entrées TheTVDB sans vidéo publique actuelle — ne pas supprimer automatiquement
+
+- **S2022E48 — 2022-10-23 — UNE JOURNÉE DANS UN SIMULATEUR MÉTÉO EXTRÊME ! (c’est l’enfer)** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2020E61 — 2020-10-11 — UNE JOURNÉE COMME DES TRADERS ! (j’ai failli tout perdre)** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2017E20 — 2017-03-16 — JE JOUE À L'INSTRUMENT DE MUSIQUE LE PLUS BIZARRE !** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E84 — 2015-11-04 — MAMADOU LE PIRATE ft. PÈRE FOURAS - Altis Life** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E69 — 2015-09-15 — MAMADOU ET LE CHIBRE DES SECRETS - Poudlard RP** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E67 — 2015-09-08 — MAD AMIXEM ET LE MOCHE BUCKET - Mad Max** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E65 — 2015-08-31 — MAMADOU À L'ÉCOLE DES SORCIERS ! - Poudlard RP** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E60 — 2015-08-11 — BAGUETTE, BANANE et PISTOLETS - Rainbow Six Siege** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E59 — 2015-08-08 — MEURTRE À L'OPINEL ! - Assassin's Creed Syndicate** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E53 — 2015-07-19 — MON ARRIVÉE EN PRISON ! - PrisonRP #1** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E38 — 2015-05-27 — STARK Vs LANNISTER Vs GREYJOY ! Délires Reign Of Kings RP !** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E35 — 2015-05-14 — LA NAISSANCE DE L'EMPIRE ! ft. Aiekillu sur Reign Of Kings RP** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E33 — 2015-05-01 — GTA 5 : LOS SANTOS AIR FORCE !** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E32 — 2015-04-27 — MAMADOU sur GTA V : L'EPREUVE DU FEU ft. SUP3R KONAR !** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E31 — 2015-04-25 — MAMADOU sur GTA V : LA RENCONTRE ft. SUP3R KONAR !** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E30 — 2015-04-24 — ESCORTE V.I.P sur GTA V ! - GTA 5 RP Episode 1** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E29 — 2015-04-22 — COURSE POURSUITE INFERNALE avec un KIKOO :O - Gmod DarkRP Episode 19** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E28 — 2015-04-20 — PETITE PRISE D'OTAGES OKLM + BONUS - Gmod DarkRP Episode 18** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E27 — 2015-04-19 — RAP CONTENDER ! Mamadou Vs. Aiekillu - Gmod DarkRP Episode 17** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E26 — 2015-04-18 — L'ENQUÊTE IMPOSSIBLE #2 : INFILTRATION sur Gmod DarkRP Episode 16** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E25 — 2015-04-17 — L'ENQUÊTE IMPOSSIBLE #1 : L'ARNAQUEUR ARNAQUÉ Gmod DarkRP Episode 15** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E24 — 2015-04-04 — CORRUPTION DE FLICS ! - Gmod DarkRP Episode 14** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E23 — 2015-04-02 — L'ÉPIDÉMIE DU CHARLATAN ! Gmod DarkRP Episode 13** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E21 — 2015-03-28 — ON A VOLÉ MON TAXI ! ENQUÊTE sur Gmod DarkRP - Episode 12** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E20 — 2015-03-25 — BATTLEFION HARDLINE - QUI A PÉTÉ ?** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E19 — 2015-03-19 — MAMADOU EN CONCERT - Gmod DarkRP Episode 11** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E18 — 2015-03-17 — UNE HISTOIRE DE CANONS - ft. VodkProd & Kalipso53 sur War Thunder** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E17 — 2015-03-15 — SPACE MOUNTAIN TRICYCLOBUS ! Gmod DarkRP Episode 10** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E16 — 2015-03-13 — LE TRICYCLOBUS WTF ! Gmod DarkRP Episode 9** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E15 — 2015-03-11 — TUEUR A GAGE 100% LEGAL Gmod DarkRP Episode 8** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E14 — 2015-03-09 — SUPER-PIZZAYOLOMAN Gmod DarkRP Episode 7** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E13 — 2015-03-07 — JE FAIS DES MEURTRES AVEC MA FEMME - Gmod DarkRP Episode 6** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E11 — 2015-03-04 — BRAQUAGE DE BANQUE À L'ITALIENNE - Gmod DarkRP Episode 5** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E10 — 2015-03-03 — MA SECRÉTAIRE EST COQUINE ! Gmod DarkRP Episode 4** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E09 — 2015-03-01 — LE COMPLOT DE LA MEUTE CONTRE LE MAIRE ! Gmod DarkRP Episode 3** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E08 — 2015-02-27 — JE SUIS LE MAIRE ! LA BAGUETTE TOUTE PUISSANTE Gmod DarkRP Episode 2** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E07 — 2015-02-26 — MAMADOU Vs. AIEKILLU : LE PSYCHOPATHE ! Gmod DarkRP Episode 1** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E06 — 2015-02-18 — MAMADOU SAGE FEMME sur ALTIS LIFE !** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E05 — 2015-02-07 — INTERVIEW DE MAMADOU SUR ALTIS NEWS TV !** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E02 — 2015-01-16 — MAMADOU sur ALTIS LIFE - EN CONCERT !** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2015E01 — 2015-01-10 — MAMADOU FAIT DU JAMBON FLEURY MICHON- Far Cry 4 Funny Maps** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E24 — 2014-12-10 — MAMADOU PILOTE D'AVION - Avec SUP3R KONAR ! - War Thunder Oculus Rift** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E23 — 2014-11-22 — MAMADOU CHERCHE L'AMOUR sur ALTIS LIFE** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E21 — 2014-10-25 — MAMADOU à la PARIS GAMES WEEK** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E20 — 2014-10-14 — CHASSE & PÊCHE, BATTLE D'ÉLÉPHANT ET HÉLICO ! - GAMEPLAY CO-OP sur FAR CRY 4 ft. SUP3R KONAR !** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E19 — 2014-10-04 — MAMADOU sur Altis Life - L'AVENTURE WTF !** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E18 — 2014-09-17 — MAMADOU SCHIZOPHRENE sur ALTIS LIFE !** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E16 — 2014-08-22 — DRAGON AGE INQUISITION FR & BONUS IRL à la GAMESCOM 2014 !** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E15 — 2014-08-10 — HARCELEMENT SEXUEL sur ALTIS LIFE ? - Giselle #1** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E14 — 2014-07-11 — Prise d'otages à l'ancienne sur ALTIS LIFE - Mamadou le négociateur ! [REDIFF TWITCH]** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E13 — 2014-06-30 — MAMADOU Stagiaire Dieu sur Altis Life !** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E12 — 2014-06-06 — Altis Life MAMADOU : Vol de Camion + Mamadou Kart ! [Rediff Twitch]** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E11 — 2014-05-16 — Altis Life MAMADOU ! Double Evasion + Bonus Tapis !** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E10 — 2014-05-09 — Mamadou sur Altis Life : Gilles de la Tourette, Troll & BOOBIES ! [Rediff Twitch]** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E09 — 2014-04-25 — Explosion Atomique sur Altis Life ? Feat. Mamadou** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E08 — 2014-04-09 — Mamadou médecin du SAMU ! Altis Life / ARMA III RP.** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E07 — 2014-03-29 — Une SECTE sur Altis Life ! Le Pingouin Rédempteur.** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E06 — 2014-03-08 — La TRAQUE #2 Altis Life - MAMADOU LE REBELLE - Partie 2.** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E05 — 2014-03-01 — Braquage & Prise d'otages #1 Altis Life - MAMADOU LE REBELLE - Partie 1.** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E04 — 2014-02-12 — Mamadou sur TITANFALL - Gameplay exclusif FR** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E03 — 2014-02-08 — Aiekillu au peloton d'exécution - MAMADOU, Altis Life FR RP.** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E02 — 2014-02-06 — ► Mamadou le dépanneur ! ALTIS LIFE - ARMA 3 - RP FR** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2014E01 — 2014-01-11 — Prise d'otage à $3'000'000 ALTIS LIFE - Mamadou le négociateur EP. 5 - ARMA 3 RP FR** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E41 — 2013-12-24 — Best Of de Noël ! CoopGameplays** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E40 — 2013-12-20 — Parachutage sur Altis Life - MAMADOU, Le négociateur, Episode 4.** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E39 — 2013-12-12 — MAMADOU Vs. Armée Rebelle sur Altis Life - MAMADOU, Le négociateur. Episode 3** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E38 — 2013-12-02 — Braquage nocturne sur Arma 3 Altis Life - MAMADOU, Le négociateur. Episode 2.** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E37 — 2013-11-30 — Prise d'otage sur Altis Life - MAMADOU, Le négociateur. Episode 1** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E36 — 2013-11-07 — ► BATTLEFION 4™ - EP #4 - Anal of Honor** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E35 — 2013-11-06 — BATTLEFION EP#4 - En ligne - [Annonce]** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E34 — 2013-10-24 — ► Playthrough Gone Home | Congélateur, Lesbiennes et Acajou | feat. crackPHI, JiinZz & Amixem** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E32 — 2013-09-15 — TheGameTrotter #0 - Welcome London - Teaser** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E31 — 2013-09-09 — FAQ 10000 abonnés - ATTENTION : Baratin inintéressant de 1h18. (Bon courage).** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E30 — 2013-09-02 — AKECOUCOU #1 - Xbox One ou PS4 ?** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E29 — 2013-08-06 — Et si on se faisait une Elfe à cul ? [ FAQ ]** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E25 — 2013-07-04 — ► PARODIE PUB AXA sur Battlefield 3 | Amixem feat. MrJiinZz** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E24 — 2013-06-20 — ▶ VIDEO BONUS : Mamadou + Black Ops 2 (for MrJiinZz)** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E23 — 2013-06-17 — ▶ DayZ STANDALONE - Bowdel ! Où sont les zombies ?** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E22 — 2013-06-12 — ▶ INTRO / BANDE ANNONCE - Welcome on the CoopGameplays.** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E21 — 2013-06-04 — ► BATTLEFION 4™ / EPISODE 3** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E20 — 2013-06-03 — ► BATTLEFION 4™ / EPISODE 3 - TEASER (épisode en ligne)** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E18 — 2013-04-30 — ► TRANSPLANTAFION CARDIAQUE ◄ by Coop Gameplays [Surgeon Simulator]** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E16 — 2013-04-11 — ► BATTLEFION 4™ - Episode 2 : Salut c'est Julien. [Parodie BATTLEFIELD 4]** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E14 — 2013-03-27 — ► BATTLEFION 4™ - Episode 1 : [Parodie BATTLEFIELD 4]** — historique/privé/supprimé à rechercher avant toute décision.
+- **S2013E13 — 2013-03-25 — ► Tout savoir sur BATTLEFIELD 4 en 4 minutes !** — historique/privé/supprimé à rechercher avant toute décision.
+
+## Images d’épisode
+
+- Images manquantes dans le périmètre : **769**.
+- Images confirmées identiques à la miniature YouTube officielle : **114**.
+- Images présentes mais dont l’origine n’est pas prouvée par correspondance de miniature : **2**. Elles restent **douteuses** et ne sont pas validées par défaut.
+
+## Périmètre après la date de référence
+- S2026E16 (14/09/2026) et S2026E17 (27/09/2026) existent aujourd’hui mais sont hors périmètre du 09/09/2026 ; elles ne servent pas à renuméroter rétroactivement l’audit.
+
+## Annexe exhaustive
+- Le fichier CSV joint contient une ligne pour chaque vidéo publique actuelle alignée avec TheTVDB, avec titre, date, durée, runtime, image et statut.
+- Le JSON joint conserve toutes les données et les 21 entrées historiques TheTVDB sans vidéo publique actuelle.

@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-10-02T21:24:47.543726Z",
+  "reference_date": "2026-09-09",
+  "youtube_public_videos_current": 889,
+  "tvdb_episodes_current": 974,
+  "aligned_pairs_current": 889,
+  "youtube_extras_current": 0,
+  "tvdb_without_current_public_youtube": 85,
+  "in_scope_aligned_pairs": 885,
+  "in_scope_tvdb_historical_without_current_public_youtube": 85,
+  "title_exact_mismatches_in_scope": 66,
+  "title_substantive_mismatches_in_scope": 8,
+  "runtime_mismatches_in_scope": 493,
+  "runtime_unverifiable_in_scope": 0,
+  "youtube_dates_independently_retrieved_in_scope": 0,
+  "date_mismatches_in_scope": 0,
+  "images_missing_in_scope": 769,
+  "images_confirmed_official_thumbnail_in_scope": 114,
+  "images_present_origin_unproven_in_scope": 2
+}
