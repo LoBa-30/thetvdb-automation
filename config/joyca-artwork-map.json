@@ -1,0 +1,716 @@
+{
+  "generatedAt": "2026-10-02T17:27:19.244Z",
+  "count": 71,
+  "entries": [
+    {
+      "code": "S2016E33",
+      "season": 2016,
+      "episode": 33,
+      "episode_id": "6342792",
+      "title": "LA MUSIQUE QUI LIT DANS TES PENSÉES !",
+      "date": "December 1, 2016",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342792.jpg"
+    },
+    {
+      "code": "S2016E35",
+      "season": 2016,
+      "episode": 35,
+      "episode_id": "6342796",
+      "title": "PARODIE TOP 5 DES CLIPS DE NOËL !",
+      "date": "December 16, 2016",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342796.jpg"
+    },
+    {
+      "code": "S2016E36",
+      "season": 2016,
+      "episode": 36,
+      "episode_id": "6342800",
+      "title": "SQUEEZIE, IBRA TV, SUPERKONAR - POCE BLO (REMIX)",
+      "date": "December 20, 2016",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342800.jpg"
+    },
+    {
+      "code": "S2017E01",
+      "season": 2017,
+      "episode": 1,
+      "episode_id": "6342814",
+      "title": "ON A FAIT UN CLIP AVEC TAUPE 10 !",
+      "date": "January 1, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342814.jpg"
+    },
+    {
+      "code": "S2017E02",
+      "season": 2017,
+      "episode": 2,
+      "episode_id": "6342812",
+      "title": "LE BOTTLE FLIP CHALLENGE LE PLUS LONG DU MONDE !",
+      "date": "January 9, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342812.jpg"
+    },
+    {
+      "code": "S2017E07",
+      "season": 2017,
+      "episode": 7,
+      "episode_id": "6342880",
+      "title": "J'AI BESOIN DE VOUS ! (ANNONCE VIDEO 300K)",
+      "date": "January 30, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342880.jpg"
+    },
+    {
+      "code": "S2017E10",
+      "season": 2017,
+      "episode": 10,
+      "episode_id": "6342891",
+      "title": "J'AI UN PROJET FOU...",
+      "date": "February 8, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342891.jpg"
+    },
+    {
+      "code": "S2017E11",
+      "season": 2017,
+      "episode": 11,
+      "episode_id": "6342903",
+      "title": "COMMENT FAIRE UN HIT ?",
+      "date": "February 11, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342903.jpg"
+    },
+    {
+      "code": "S2017E12",
+      "season": 2017,
+      "episode": 12,
+      "episode_id": "6342904",
+      "title": "J'AI MALTRAITÉ CET ENFANT ! (REMIX)",
+      "date": "February 16, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342904.jpg"
+    },
+    {
+      "code": "S2017E14",
+      "season": 2017,
+      "episode": 14,
+      "episode_id": "6342907",
+      "title": "CE CHAT EST UNE MUSIQUE !",
+      "date": "March 1, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342907.jpg"
+    },
+    {
+      "code": "S2017E22",
+      "season": 2017,
+      "episode": 22,
+      "episode_id": "6342917",
+      "title": "LES PIRES CHANSONS !",
+      "date": "April 24, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342917.jpg"
+    },
+    {
+      "code": "S2017E24",
+      "season": 2017,
+      "episode": 24,
+      "episode_id": "6342921",
+      "title": "LES MEILLEURS RAPPEURS DE YOUTUBE !",
+      "date": "May 8, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342921.jpg"
+    },
+    {
+      "code": "S2017E27",
+      "season": 2017,
+      "episode": 27,
+      "episode_id": "6342925",
+      "title": "JE REMIXE VOS IDÉES !",
+      "date": "May 29, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342925.jpg"
+    },
+    {
+      "code": "S2017E32",
+      "season": 2017,
+      "episode": 32,
+      "episode_id": "6342942",
+      "title": "CETTE CHAMBRE PEUT TE RENDRE FOU !",
+      "date": "June 21, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342942.jpg"
+    },
+    {
+      "code": "S2017E35",
+      "season": 2017,
+      "episode": 35,
+      "episode_id": "6342945",
+      "title": "LE CASQUE LE PLUS CHER DU MONDE ! (55 000€)",
+      "date": "July 7, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342945.jpg"
+    },
+    {
+      "code": "S2017E38",
+      "season": 2017,
+      "episode": 38,
+      "episode_id": "6342948",
+      "title": "LES PIRES CHANSONS #2",
+      "date": "July 29, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342948.jpg"
+    },
+    {
+      "code": "S2017E40",
+      "season": 2017,
+      "episode": 40,
+      "episode_id": "6342950",
+      "title": "QU'EST-CE QUE JE FAIS LÀ ?",
+      "date": "August 10, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342950.jpg"
+    },
+    {
+      "code": "S2017E41",
+      "season": 2017,
+      "episode": 41,
+      "episode_id": "6342951",
+      "title": "VOS QUESTIONS GÊNANTES...",
+      "date": "August 19, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342951.jpg"
+    },
+    {
+      "code": "S2017E42",
+      "season": 2017,
+      "episode": 42,
+      "episode_id": "6342952",
+      "title": "FAIRE UN BEAT AVEC... UNE VOITURE !",
+      "date": "August 27, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342952.jpg"
+    },
+    {
+      "code": "S2017E44",
+      "season": 2017,
+      "episode": 44,
+      "episode_id": "6342954",
+      "title": "CE JEU EST BEAUCOUP TROP DRÔLE !",
+      "date": "September 8, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342954.jpg"
+    },
+    {
+      "code": "S2017E45",
+      "season": 2017,
+      "episode": 45,
+      "episode_id": "6342955",
+      "title": "MES PIRES MUSIQUES...",
+      "date": "September 15, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6342955.jpg"
+    },
+    {
+      "code": "S2017E49",
+      "season": 2017,
+      "episode": 49,
+      "episode_id": "6360886",
+      "title": "FAIRE UN BEAT AVEC... DES MEDOC !",
+      "date": "October 13, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6360886.jpg"
+    },
+    {
+      "code": "S2017E51",
+      "season": 2017,
+      "episode": 51,
+      "episode_id": "6385533",
+      "title": "LES PIRES CHANSONS #3",
+      "date": "October 28, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6385533.jpg"
+    },
+    {
+      "code": "S2017E52",
+      "season": 2017,
+      "episode": 52,
+      "episode_id": "6398814",
+      "title": "FAIRE UN BEAT AVEC DES TANKS ! (Ft. AMIXEM)",
+      "date": "November 6, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6398814.jpg"
+    },
+    {
+      "code": "S2017E54",
+      "season": 2017,
+      "episode": 54,
+      "episode_id": "6419762",
+      "title": "LA VERITÉ SUR DISNEY ! Feat BOOSTEE (CHANSON)",
+      "date": "November 20, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6419762.jpg"
+    },
+    {
+      "code": "S2017E55",
+      "season": 2017,
+      "episode": 55,
+      "episode_id": "6420985",
+      "title": "LE MONDE DE DISNEY ! Feat BOOSTEE (CLIP)",
+      "date": "November 22, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6420985.jpg"
+    },
+    {
+      "code": "S2017E57",
+      "season": 2017,
+      "episode": 57,
+      "episode_id": "6447525",
+      "title": "JE REMIX VOS IDÉES ! #2",
+      "date": "December 8, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6447525.jpg"
+    },
+    {
+      "code": "S2017E58",
+      "season": 2017,
+      "episode": 58,
+      "episode_id": "6454527",
+      "title": "ON CRÉE DES HALLUCINATIONS AUDITIVES !",
+      "date": "December 15, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6454527.jpg"
+    },
+    {
+      "code": "S2017E59",
+      "season": 2017,
+      "episode": 59,
+      "episode_id": "6465607",
+      "title": "BIENVENUE DANS MON STUDIO ! (SETUP 2017)",
+      "date": "December 22, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6465607.jpg"
+    },
+    {
+      "code": "S2017E60",
+      "season": 2017,
+      "episode": 60,
+      "episode_id": "6467822",
+      "title": "J'AI CRAQUÉ !",
+      "date": "December 25, 2017",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6467822.jpg"
+    },
+    {
+      "code": "S2018E01",
+      "season": 2018,
+      "episode": 1,
+      "episode_id": "6492903",
+      "title": "CHANTEUR BOURRÉ SIMULATOR !",
+      "date": "January 6, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6492903.jpg"
+    },
+    {
+      "code": "S2018E02",
+      "season": 2018,
+      "episode": 2,
+      "episode_id": "6515443",
+      "title": "J'ARRÊTE LES PARODIES ?",
+      "date": "January 18, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6515443.jpg"
+    },
+    {
+      "code": "S2018E03",
+      "season": 2018,
+      "episode": 3,
+      "episode_id": "6526406",
+      "title": "J'AI RÉALISÉ LE RÊVE DE MON PÈRE !",
+      "date": "January 27, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6526406.jpg"
+    },
+    {
+      "code": "S2018E06",
+      "season": 2018,
+      "episode": 6,
+      "episode_id": "6559528",
+      "title": "MES PIRES MUSIQUES ! #2",
+      "date": "February 17, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6559528.jpg"
+    },
+    {
+      "code": "S2018E07",
+      "season": 2018,
+      "episode": 7,
+      "episode_id": "6572115",
+      "title": "FAIRE UN BEAT AVEC... UN CAMION DE POMPIER !",
+      "date": "February 24, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6572115.jpg"
+    },
+    {
+      "code": "S2018E09",
+      "season": 2018,
+      "episode": 9,
+      "episode_id": "6614717",
+      "title": "JE CHANGE DE NOM !",
+      "date": "March 16, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6614717.jpg"
+    },
+    {
+      "code": "S2018E10",
+      "season": 2018,
+      "episode": 10,
+      "episode_id": "6614718",
+      "title": "LES PIRES CHANSONS #4 !",
+      "date": "March 23, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6614718.jpg"
+    },
+    {
+      "code": "S2018E11",
+      "season": 2018,
+      "episode": 11,
+      "episode_id": "6626687",
+      "title": "LE MEILLEUR MOYEN DE CASSER UN IPHONE X !",
+      "date": "March 30, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6626687.jpg"
+    },
+    {
+      "code": "S2018E13",
+      "season": 2018,
+      "episode": 13,
+      "episode_id": "6633920",
+      "title": "MON RÊVE DE GOSSE ! (Ft CYR!L)",
+      "date": "April 4, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6633920.jpg"
+    },
+    {
+      "code": "S2018E14",
+      "season": 2018,
+      "episode": 14,
+      "episode_id": "6648084",
+      "title": "VOUS TROUVEZ MES SOSIES !",
+      "date": "April 13, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6648084.jpg"
+    },
+    {
+      "code": "S2018E15",
+      "season": 2018,
+      "episode": 15,
+      "episode_id": "6661580",
+      "title": "JOYCA - HIGH (CLIP OFFICIEL)",
+      "date": "April 22, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6661580.jpg"
+    },
+    {
+      "code": "S2018E16",
+      "season": 2018,
+      "episode": 16,
+      "episode_id": "6677148",
+      "title": "LE PIRE DÉCOR DE LA REDBOX...",
+      "date": "April 27, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6677148.jpg"
+    },
+    {
+      "code": "S2018E18",
+      "season": 2018,
+      "episode": 18,
+      "episode_id": "6688599",
+      "title": "DEMANDER SON CHEMIN AU JAPON AVEC GOOGLE TRADUCTION !",
+      "date": "May 4, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6688599.jpg"
+    },
+    {
+      "code": "S2018E19",
+      "season": 2018,
+      "episode": 19,
+      "episode_id": "6688600",
+      "title": "C'EST QUOI CE JEU ?!",
+      "date": "May 12, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6688600.jpg"
+    },
+    {
+      "code": "S2018E21",
+      "season": 2018,
+      "episode": 21,
+      "episode_id": "6707164",
+      "title": "JE REMIX VOS IDÉES ! #3",
+      "date": "May 25, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6707164.jpg"
+    },
+    {
+      "code": "S2018E24",
+      "season": 2018,
+      "episode": 24,
+      "episode_id": "6722492",
+      "title": "BELLA CIAO, DANS 10 STYLES DIFFERENTS",
+      "date": "June 8, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6722492.jpg"
+    },
+    {
+      "code": "S2018E26",
+      "season": 2018,
+      "episode": 26,
+      "episode_id": "6736819",
+      "title": "J'AI RISQUÉ MA VIE POUR CETTE VIDEO !",
+      "date": "June 22, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6736819.jpg"
+    },
+    {
+      "code": "S2018E27",
+      "season": 2018,
+      "episode": 27,
+      "episode_id": "6761587",
+      "title": "JE VOUS DEVOILE ENFIN MON DECOR !",
+      "date": "June 29, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6761587.jpg"
+    },
+    {
+      "code": "S2018E29",
+      "season": 2018,
+      "episode": 29,
+      "episode_id": "6761589",
+      "title": "ON PARIE SUR YOUTUBE ! (Ft Neoxi)",
+      "date": "July 13, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6761589.jpg"
+    },
+    {
+      "code": "S2018E31",
+      "season": 2018,
+      "episode": 31,
+      "episode_id": "6773982",
+      "title": "CETTE VIDÉO TE RENDRA VIEUX !",
+      "date": "July 27, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6773982.jpg"
+    },
+    {
+      "code": "S2018E33",
+      "season": 2018,
+      "episode": 33,
+      "episode_id": "6791200",
+      "title": "JE VISITE UN CHANTIER INTERDIT !",
+      "date": "August 12, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6791200.jpg"
+    },
+    {
+      "code": "S2018E34",
+      "season": 2018,
+      "episode": 34,
+      "episode_id": "6802863",
+      "title": "DUEL DE BLAGUES ! (EDITION SLOGANS)",
+      "date": "August 17, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6802863.jpg"
+    },
+    {
+      "code": "S2018E36",
+      "season": 2018,
+      "episode": 36,
+      "episode_id": "6812069",
+      "title": "COMMENT J'EN SUIS ARRIVÉ LÀ...",
+      "date": "August 31, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6812069.jpg"
+    },
+    {
+      "code": "S2018E38",
+      "season": 2018,
+      "episode": 38,
+      "episode_id": "6827729",
+      "title": "1 HEURE DE STRESS POUR...",
+      "date": "September 14, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6827729.jpg"
+    },
+    {
+      "code": "S2018E39",
+      "season": 2018,
+      "episode": 39,
+      "episode_id": "6837092",
+      "title": "JE REALISE LE RÊVE DE MASTU !",
+      "date": "September 21, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6837092.jpg"
+    },
+    {
+      "code": "S2018E40",
+      "season": 2018,
+      "episode": 40,
+      "episode_id": "6843927",
+      "title": "J’APPELLE DES TÉLÉPHONES ROSE",
+      "date": "September 28, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6843927.jpg"
+    },
+    {
+      "code": "S2018E41",
+      "season": 2018,
+      "episode": 41,
+      "episode_id": "6864880",
+      "title": "LE QUIZZ DE L'IMPOSSIBLE ! (Ft.Mastu, Neoxi, Artishow, Amixem)",
+      "date": "October 5, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6864880.jpg"
+    },
+    {
+      "code": "S2018E42",
+      "season": 2018,
+      "episode": 42,
+      "episode_id": "6864882",
+      "title": "JE DÉCOUVRE LA RÉALITÉ VIRTUELLE !",
+      "date": "October 12, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6864882.jpg"
+    },
+    {
+      "code": "S2018E43",
+      "season": 2018,
+      "episode": 43,
+      "episode_id": "6872587",
+      "title": "Je vous dis tout...",
+      "date": "October 19, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6872587.jpg"
+    },
+    {
+      "code": "S2018E44",
+      "season": 2018,
+      "episode": 44,
+      "episode_id": "6880904",
+      "title": "ON CRITIQUE MES ABONNÉS !",
+      "date": "October 27, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6880904.jpg"
+    },
+    {
+      "code": "S2018E46",
+      "season": 2018,
+      "episode": 46,
+      "episode_id": "6898787",
+      "title": "J'AI GAGNÉ CE CHÂTEAU AU POKER ! (oui, vraiment)",
+      "date": "November 9, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6898787.jpg"
+    },
+    {
+      "code": "S2018E47",
+      "season": 2018,
+      "episode": 47,
+      "episode_id": "6907022",
+      "title": "ESSAYEZ DE LES RECONNAÎTRE ! (92% IMPOSSIBLE)",
+      "date": "November 16, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6907022.jpg"
+    },
+    {
+      "code": "S2018E48",
+      "season": 2018,
+      "episode": 48,
+      "episode_id": "6915047",
+      "title": "J’AI CRU QUE JE N’ALLAIS PAS Y ARRIVER !",
+      "date": "November 23, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6915047.jpg"
+    },
+    {
+      "code": "S2018E49",
+      "season": 2018,
+      "episode": 49,
+      "episode_id": "6924710",
+      "title": "JE NE VOUS AI JAMAIS PARLÉ DE ÇA !",
+      "date": "December 2, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6924710.jpg"
+    },
+    {
+      "code": "S2018E50",
+      "season": 2018,
+      "episode": 50,
+      "episode_id": "6933304",
+      "title": "CET ABONNÉ M'A CHOQUÉ !",
+      "date": "December 9, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6933304.jpg"
+    },
+    {
+      "code": "S2018E52",
+      "season": 2018,
+      "episode": 52,
+      "episode_id": "6952717",
+      "title": "CETTE VIDEO VA TE RETOURNER LE CERVEAU !",
+      "date": "December 23, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6952717.jpg"
+    },
+    {
+      "code": "S2018E53",
+      "season": 2018,
+      "episode": 53,
+      "episode_id": "6967602",
+      "title": "JE N'EN PEUX PLUS !",
+      "date": "December 28, 2018",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6967602.jpg"
+    },
+    {
+      "code": "S2019E02",
+      "season": 2019,
+      "episode": 2,
+      "episode_id": "6989830",
+      "title": "CET OBJET EST SURPRENANT !",
+      "date": "January 13, 2019",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/6989830.jpg"
+    },
+    {
+      "code": "S2019E03",
+      "season": 2019,
+      "episode": 3,
+      "episode_id": "7002511",
+      "title": "FAIRE UNE MUSIQUE AVEC SON PET ! (Feat Mastu)",
+      "date": "January 20, 2019",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/7002511.jpg"
+    },
+    {
+      "code": "S2019E04",
+      "season": 2019,
+      "episode": 4,
+      "episode_id": "7051435",
+      "title": "UN ABONNÉ M’A OFFERT UN OBJET INCROYABLE !",
+      "date": "January 27, 2019",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/7051435.jpg"
+    },
+    {
+      "code": "S2019E07",
+      "season": 2019,
+      "episode": 7,
+      "episode_id": "7051441",
+      "title": "VOUS RISQUEZ DE ME DETESTER !",
+      "date": "February 18, 2019",
+      "runtime": 10,
+      "artwork": "https://artworks.thetvdb.com/banners/episodes/335805/7051441.jpg"
+    }
+  ]
+}
