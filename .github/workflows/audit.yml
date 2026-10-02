@@ -13,7 +13,7 @@ permissions:
 jobs:
   audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
 
     steps:
       - name: Checkout
@@ -30,8 +30,14 @@ jobs:
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
 
-      - name: Run read-only audit and build correction plan
-        run: npm run audit:plan
+      - name: Static check exhaustive 9-channel audit
+        run: node --check src/audit-all.js && node --check src/plan.js
+
+      - name: Run exhaustive read-only audit for all 9 channels
+        run: npm run audit:all
+
+      - name: Build correction plan from exhaustive audit
+        run: npm run plan
 
       - name: Upload audit report
         if: always()
