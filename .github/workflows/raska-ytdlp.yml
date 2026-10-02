@@ -13,7 +13,7 @@ permissions:
 jobs:
   catalogue:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -23,40 +23,54 @@ jobs:
           python-version: '3.12'
       - name: Install yt-dlp
         run: python -m pip install -U yt-dlp
-      - name: Retrieve Raska Videos metadata
+      - name: Retrieve Raska flat catalogue
         run: |
           mkdir -p reports/raska-ytdlp
           yt-dlp --flat-playlist --dump-single-json --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/@R4SK4/videos' > reports/raska-ytdlp/catalogue.json
+      - name: Retrieve exact per-video metadata
+        continue-on-error: true
+        run: |
+          yt-dlp --dump-json --skip-download --ignore-errors --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/@R4SK4/videos' > reports/raska-ytdlp/full-metadata.jsonl
+      - name: Build compact metadata
+        if: always()
+        run: |
           python - <<'PY'
-          import json
-          p='reports/raska-ytdlp/catalogue.json'
-          d=json.load(open(p, encoding='utf-8'))
-          entries=d.get('entries') or []
-          out=[]
-          for e in entries:
-              out.append({
-                  'id': e.get('id'),
-                  'title': e.get('title'),
-                  'url': e.get('url') or e.get('webpage_url'),
-                  'duration': e.get('duration'),
-                  'timestamp': e.get('timestamp'),
-                  'upload_date': e.get('upload_date'),
-                  'release_timestamp': e.get('release_timestamp'),
-                  'thumbnail': e.get('thumbnail'),
-                  'availability': e.get('availability'),
-                  'live_status': e.get('live_status'),
+          import json, os
+          cat=json.load(open('reports/raska-ytdlp/catalogue.json',encoding='utf-8'))
+          entries=cat.get('entries') or []
+          flat=[{
+            'id':e.get('id'),'title':e.get('title'),'url':e.get('url') or e.get('webpage_url'),
+            'duration':e.get('duration')
+          } for e in entries]
+          json.dump(flat,open('reports/raska-ytdlp/flat-metadata.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+          full=[]
+          p='reports/raska-ytdlp/full-metadata.jsonl'
+          if os.path.exists(p):
+            for line in open(p,encoding='utf-8'):
+              line=line.strip()
+              if not line: continue
+              try:
+                e=json.loads(line)
+              except Exception: continue
+              full.append({
+                'id':e.get('id'),'title':e.get('title'),'webpage_url':e.get('webpage_url'),
+                'duration':e.get('duration'),'upload_date':e.get('upload_date'),
+                'timestamp':e.get('timestamp'),'release_timestamp':e.get('release_timestamp'),
+                'thumbnail':e.get('thumbnail'),'availability':e.get('availability'),
+                'live_status':e.get('live_status')
               })
-          json.dump(out, open('reports/raska-ytdlp/metadata.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)
+          json.dump(full,open('reports/raska-ytdlp/full-metadata-compact.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
           with open('reports/raska-ytdlp/summary.txt','w',encoding='utf-8') as f:
-              f.write(f'Raska YouTube Videos tab via yt-dlp: {len(entries)}\n')
-              f.write(f'With duration: {sum(x.get("duration") is not None for x in out)}\n')
-              f.write(f'With timestamp/upload_date: {sum((x.get("timestamp") is not None or x.get("upload_date")) for x in out)}\n')
+            f.write(f'Flat entries: {len(flat)}\n')
+            f.write(f'Full metadata entries: {len(full)}\n')
+            f.write(f'Full with upload_date/timestamp: {sum(1 for x in full if x.get("upload_date") or x.get("timestamp") is not None)}\n')
+            f.write(f'Full with duration: {sum(1 for x in full if x.get("duration") is not None)}\n')
           print(open('reports/raska-ytdlp/summary.txt',encoding='utf-8').read())
           PY
       - name: Upload catalogue
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: raska-ytdlp-metadata-fr
+          name: raska-ytdlp-full-metadata-fr
           path: reports/raska-ytdlp/
           retention-days: 30
