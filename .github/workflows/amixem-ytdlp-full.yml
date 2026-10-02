@@ -1,0 +1,66 @@
+name: Amixem exact YouTube metadata
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/amixem-ytdlp-full.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  metadata:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -U yt-dlp
+      - name: Retrieve exact per-video metadata
+        run: |
+          mkdir -p reports/amixem-ytdlp-full
+          yt-dlp --dump-json --skip-download --ignore-errors --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/c/Amixem/videos' > reports/amixem-ytdlp-full/full-metadata.jsonl
+      - name: Build compact report
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          p='reports/amixem-ytdlp-full/full-metadata.jsonl'
+          full=[]
+          if os.path.exists(p):
+            for line in open(p,encoding='utf-8'):
+              line=line.strip()
+              if not line: continue
+              try: e=json.loads(line)
+              except Exception: continue
+              full.append({
+                'id':e.get('id'),'title':e.get('title'),'webpage_url':e.get('webpage_url'),
+                'duration':e.get('duration'),'upload_date':e.get('upload_date'),
+                'timestamp':e.get('timestamp'),'release_timestamp':e.get('release_timestamp'),
+                'thumbnail':e.get('thumbnail'),'availability':e.get('availability'),
+                'live_status':e.get('live_status')
+              })
+          json.dump(full,open('reports/amixem-ytdlp-full/full.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+          summary={'full_entries':len(full),'with_upload_date':sum(1 for x in full if x.get('upload_date')),'with_duration':sum(1 for x in full if x.get('duration') is not None)}
+          json.dump(summary,open('reports/amixem-ytdlp-full/summary.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+          print(json.dumps(summary,ensure_ascii=False,indent=2))
+          PY
+      - name: Commit metadata
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/amixem-ytdlp-full
+          git commit -m "Update Amixem exact YouTube metadata [skip ci]" || exit 0
+          git pull --rebase
+          git push
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: amixem-exact-youtube-metadata
+          path: reports/amixem-ytdlp-full/
+          retention-days: 30
