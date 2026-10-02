@@ -1,0 +1,4 @@
+authenticated=true
+result=FAILED
+seasonCounts={"2012":7,"2013":41,"2014":24,"2015":99,"2016":103,"2017":101,"2018":92,"2019":80,"2020":81}
+unassigned=0
