@@ -1,0 +1,39 @@
+name: Squeezie artwork presence audit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/squeezie-artwork-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Audit every current TheTVDB episode artwork slot
+        run: node src/squeezie-artwork-audit.js
+      - name: Commit artwork report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/squeezie-artwork
+          git commit -m "Update Squeezie artwork presence audit [skip ci]" || exit 0
+          git push
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: squeezie-artwork-presence
+          path: reports/squeezie-artwork/
+          retention-days: 30
