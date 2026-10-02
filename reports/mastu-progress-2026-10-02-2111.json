@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-10-02T19:11:00Z",
+  "target": "Mastu",
+  "sourceRun": 37051988634,
+  "artwork": {
+    "checked": 61,
+    "confirmed": 1,
+    "strongCandidates": 19,
+    "unproven": 41,
+    "errors": 0,
+    "confirmedEpisode": "S2023E17",
+    "confirmedTitle": "LOUP-GAROU NOCTURNE (Avec Joyca, Michou, Maghla...)",
+    "youtubeId": "t1zyUOvZGK0",
+    "proof": "TheTVDB artwork matches the official YouTube maxres reference with perceptual distance 0."
+  },
+  "historicalSearch": {
+    "sourceRun": 37051195820,
+    "checked": 16,
+    "officialProven": 0,
+    "unproven": 16
+  },
+  "tvdbWritesThisPass": "NONE"
+}
