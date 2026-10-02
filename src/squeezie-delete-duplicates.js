@@ -51,10 +51,19 @@ for(const c of cases){
    action.checks.formValues={deleteReason:values['delete-reason'],mergeType:values['mergeto_entitytype'],mergeId:values['mergeto_id']};
    if(values['delete-reason']!=='50'||values['mergeto_entitytype']!=='3'||values['mergeto_id']!==c.target) throw new Error('Delete payload pre-submit mismatch');
 
-   await Promise.all([
-     page.waitForLoadState('domcontentloaded').catch(()=>{}),
-     del.evaluate(form=>form.submit())
-   ]);
+   // Submit the exact verified form payload through the authenticated browser context.
+   // This avoids the hidden/JS-controlled form UI while still using the live CSRF token
+   // and the same authenticated cookies as the browser session.
+   const actionUrl=await del.evaluate(form=>form.action);
+   const submitResponse=await context.request.post(actionUrl,{
+     form:values,
+     headers:{referer:page.url()}
+   });
+   action.checks.submitHttp=submitResponse.status();
+   action.checks.submitUrl=submitResponse.url();
+   const submitText=await submitResponse.text().catch(()=>'');
+   action.checks.submitBodyPreview=submitText.replace(/\s+/g,' ').slice(0,500);
+   if(submitResponse.status()>=400) throw new Error('Delete POST failed with HTTP '+submitResponse.status());
    await page.waitForTimeout(900);
 
    // Verify source no longer resolves as editable episode.
