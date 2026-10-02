@@ -98,7 +98,7 @@ jobs:
                               dist=ph_tv-imagehash.phash(yi)
                               if bestdist is None or dist<bestdist:
                                   bestdist=dist; used=yu
-                          row['thumbnail_phash_distance']=bestdist
+                          row['thumbnail_phash_distance']=int(bestdist) if bestdist is not None else None
                           row['youtube_thumbnail']=used
                           row['provenance']='CONFIRMED_OFFICIAL_THUMBNAIL' if bestdist is not None and bestdist<=4 else 'PRESENT_NOT_THUMBNAIL_MATCH'
                       except Exception as ex:
