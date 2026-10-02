@@ -1,0 +1,130 @@
+name: Raska episode image provenance audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/raska-image-audit.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  image-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install -U yt-dlp requests beautifulsoup4 pillow imagehash
+      - name: Audit image provenance
+        run: |
+          mkdir -p reports/raska-images
+          yt-dlp --flat-playlist --dump-single-json --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/@R4SK4/videos' > reports/raska-images/catalogue.json
+          cat > /tmp/audit_images.py <<'PY'
+          import json, re, io, time
+          import requests
+          from bs4 import BeautifulSoup
+          from PIL import Image
+          import imagehash
+          from difflib import SequenceMatcher
+
+          S=requests.Session()
+          S.headers.update({'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/136 Safari/537.36'})
+
+          def norm(s):
+              s=(s or '').lower()
+              s=re.sub(r'https?://\S+',' ',s)
+              s=re.sub(r'@[\w.-]+',' ',s)
+              s=re.sub(r'[^a-z0-9à-ÿ]+',' ',s)
+              s=re.sub(r'\s+',' ',s).strip()
+              return s
+          cat=json.load(open('reports/raska-images/catalogue.json',encoding='utf-8'))
+          vids=[{'id':e.get('id'),'title':e.get('title')} for e in (cat.get('entries') or []) if e.get('id') and e.get('title')]
+          years=range(2017,2027)
+          episodes=[]
+          for y in years:
+              url=f'https://thetvdb.com/series/raska/seasons/official/{y}'
+              h=S.get(url,timeout=30).text
+              soup=BeautifulSoup(h,'html.parser')
+              for a in soup.select('a[href*="/series/raska/episodes/"]'):
+                  href=a.get('href') or ''
+                  m=re.search(r'/episodes/(\d+)',href)
+                  if not m: continue
+                  eid=m.group(1)
+                  full='https://thetvdb.com'+href if href.startswith('/') else href
+                  title=' '.join(a.get_text(' ',strip=True).split())
+                  episodes.append({'year':y,'episode_id':eid,'url':full,'title_hint':title})
+          uniq={e['episode_id']:e for e in episodes}
+          episodes=list(uniq.values())
+          out=[]
+          for idx,e in enumerate(episodes,1):
+              try:
+                  h=S.get(e['url'],timeout=30).text
+                  soup=BeautifulSoup(h,'html.parser')
+                  text='\n'.join(x.strip() for x in soup.stripped_strings)
+                  mt=re.search(r'Season\s+(\d{4})\s*/\s*Episode\s+(\d+)',text,re.I)
+                  h1=soup.find('h1')
+                  title=' '.join(h1.get_text(' ',strip=True).split()) if h1 else e['title_hint']
+                  code=f"S{mt.group(1)}E{int(mt.group(2)):02d}" if mt else ''
+                  img=None
+                  for a in soup.find_all('a',href=True):
+                      href=a['href']
+                      if 'artworks.thetvdb.com' in href and '/episode/' in href:
+                          img=href; break
+                  best=None; score=-1
+                  nt=norm(title)
+                  for v in vids:
+                      sc=SequenceMatcher(None,nt,norm(v['title'])).ratio()
+                      if sc>score: score=sc; best=v
+                  row={'code':code,'episode_id':e['episode_id'],'tvdb_title':title,'tvdb_image':img,'youtube_id':best['id'] if best and score>=0.60 else None,'youtube_title':best['title'] if best and score>=0.60 else None,'title_similarity':round(score,3)}
+                  if img and row['youtube_id']:
+                      yt_urls=[f"https://i.ytimg.com/vi/{row['youtube_id']}/maxresdefault.jpg",f"https://i.ytimg.com/vi/{row['youtube_id']}/hqdefault.jpg"]
+                      try:
+                          b=S.get(img,timeout=30).content
+                          tv=Image.open(io.BytesIO(b)).convert('RGB')
+                          ph_tv=imagehash.phash(tv)
+                          bestdist=None; used=None
+                          for yu in yt_urls:
+                              rr=S.get(yu,timeout=30)
+                              if rr.status_code!=200 or len(rr.content)<1000: continue
+                              yi=Image.open(io.BytesIO(rr.content)).convert('RGB')
+                              dist=ph_tv-imagehash.phash(yi)
+                              if bestdist is None or dist<bestdist:
+                                  bestdist=dist; used=yu
+                          row['thumbnail_phash_distance']=bestdist
+                          row['youtube_thumbnail']=used
+                          row['provenance']='CONFIRMED_OFFICIAL_THUMBNAIL' if bestdist is not None and bestdist<=4 else 'PRESENT_NOT_THUMBNAIL_MATCH'
+                      except Exception as ex:
+                          row['provenance']='IMAGE_COMPARE_ERROR'; row['image_error']=str(ex)
+                  elif not img:
+                      row['provenance']='MISSING_IMAGE'
+                  else:
+                      row['provenance']='NO_CONFIDENT_YOUTUBE_MATCH'
+                  out.append(row)
+              except Exception as ex:
+                  out.append({'episode_id':e['episode_id'],'url':e['url'],'error':str(ex)})
+              if idx%20==0: print('processed',idx,'/',len(episodes))
+          out.sort(key=lambda r:r.get('code',''))
+          json.dump(out,open('reports/raska-images/image-audit.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+          from collections import Counter
+          c=Counter(r.get('provenance','ERROR') for r in out)
+          with open('reports/raska-images/summary.txt','w',encoding='utf-8') as f:
+              f.write(f'Episodes: {len(out)}\n')
+              for k,v in sorted(c.items()): f.write(f'{k}: {v}\n')
+          print(open('reports/raska-images/summary.txt',encoding='utf-8').read())
+          PY
+          python /tmp/audit_images.py
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: raska-image-provenance-audit
+          path: reports/raska-images/
+          retention-days: 30
