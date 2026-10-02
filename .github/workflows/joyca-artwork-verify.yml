@@ -1,0 +1,81 @@
+name: Joyca existing artwork provenance
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/joyca-artwork-verify.yml'
+      - 'config/joyca-artwork-map.json'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -U yt-dlp requests pillow imagehash
+      - name: Verify 71 existing artworks
+        run: |
+          mkdir -p reports/joyca-artwork-verify
+          yt-dlp --flat-playlist --dump-single-json --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/c/JOYCA-JORDAN/videos' > reports/joyca-artwork-verify/catalogue.json
+          python - <<'PY'
+          import json,re,io,unicodedata,requests
+          from PIL import Image
+          import imagehash
+          from difflib import SequenceMatcher
+          from collections import Counter
+          S=requests.Session(); S.headers.update({'User-Agent':'Mozilla/5.0'})
+          def norm(s):
+              s=unicodedata.normalize('NFKD',s or '')
+              s=''.join(c for c in s if not unicodedata.combining(c)).lower()
+              s=re.sub(r'@[\\w.-]+',' ',s); s=re.sub(r'[^a-z0-9]+',' ',s)
+              s=re.sub(r'\\b(ft|feat|avec|youtube|officiel|official|le|la|les|un|une|des|de|du|et)\\b',' ',s)
+              return re.sub(r'\\s+',' ',s).strip()
+          art=json.load(open('config/joyca-artwork-map.json',encoding='utf-8'))['entries']
+          cat=json.load(open('reports/joyca-artwork-verify/catalogue.json',encoding='utf-8'))
+          vids=[{'id':e.get('id'),'title':e.get('title')} for e in (cat.get('entries') or []) if e.get('id') and e.get('title')]
+          out=[]
+          for a in art:
+              best=None; score=-1
+              for v in vids:
+                  sc=SequenceMatcher(None,norm(a['title']),norm(v['title'])).ratio()
+                  if sc>score: score=sc; best=v
+              row=dict(a); row['youtube_match_score']=round(score,3); row['youtube_id']=best['id'] if score>=0.62 else None; row['youtube_title']=best['title'] if score>=0.62 else None
+              if not row['youtube_id']:
+                  row['provenance']='PRESENT_NO_CONFIDENT_CURRENT_PUBLIC_YOUTUBE_MATCH'; out.append(row); continue
+              try:
+                  rr=S.get(a['artwork'],timeout=30); rr.raise_for_status()
+                  tv=Image.open(io.BytesIO(rr.content)).convert('RGB'); ph=imagehash.phash(tv)
+                  bestdist=None; used=None
+                  for u in [f"https://i.ytimg.com/vi/{row['youtube_id']}/maxresdefault.jpg",f"https://i.ytimg.com/vi/{row['youtube_id']}/hqdefault.jpg"]:
+                      try:
+                          r2=S.get(u,timeout=30)
+                          if r2.status_code!=200 or len(r2.content)<1000: continue
+                          yi=Image.open(io.BytesIO(r2.content)).convert('RGB')
+                          d=ph-imagehash.phash(yi)
+                          if bestdist is None or d<bestdist: bestdist=d; used=u
+                      except Exception: pass
+                  row['thumbnail_phash_distance']=int(bestdist) if bestdist is not None else None
+                  row['youtube_thumbnail']=used
+                  row['provenance']='CONFIRMED_OFFICIAL_THUMBNAIL' if bestdist is not None and bestdist<=4 else 'PRESENT_NOT_THUMBNAIL_MATCH_ORIGIN_UNCONFIRMED'
+              except Exception as ex:
+                  row['provenance']='IMAGE_COMPARE_ERROR'; row['error']=str(ex)
+              out.append(row)
+          c=Counter(x['provenance'] for x in out)
+          json.dump(out,open('reports/joyca-artwork-verify/audit.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+          json.dump(dict(c),open('reports/joyca-artwork-verify/summary.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+          print(json.dumps(dict(c),ensure_ascii=False,indent=2))
+          PY
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: joyca-existing-artwork-provenance
+          path: reports/joyca-artwork-verify/
+          retention-days: 30
