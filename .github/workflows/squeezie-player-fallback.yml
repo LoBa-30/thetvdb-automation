@@ -1,0 +1,37 @@
+name: Squeezie YouTube player fallback metadata
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/squeezie-player-fallback.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Recover blocked metadata with alternate official player clients
+        run: python src/squeezie-youtube-player-fallback.py
+      - name: Commit fallback metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/squeezie-deep/youtube-player-fallback.ndjson reports/squeezie-deep/youtube-player-fallback-summary.json
+          git commit -m "Update Squeezie fallback YouTube metadata [skip ci]" || exit 0
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: squeezie-player-fallback
+          path: reports/squeezie-deep/youtube-player-fallback*
+          retention-days: 30
