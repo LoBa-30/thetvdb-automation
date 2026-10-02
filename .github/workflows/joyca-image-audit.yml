@@ -1,0 +1,244 @@
+name: Joyca episode image provenance audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/joyca-image-audit.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  image-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install -U yt-dlp requests beautifulsoup4 pillow imagehash
+      - name: Retrieve exact Joyca metadata
+        run: |
+          mkdir -p reports/joyca-images
+          yt-dlp --dump-json --skip-download --ignore-errors --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/c/JOYCA-JORDAN/videos' > reports/joyca-images/full-metadata.jsonl
+      - name: Audit metadata and image provenance
+        run: |
+          cat > /tmp/audit_images.py <<'PY'
+          import json, re, io, time, math, unicodedata
+          import requests
+          from bs4 import BeautifulSoup
+          from PIL import Image
+          import imagehash
+          from difflib import SequenceMatcher
+          from collections import Counter, defaultdict
+          from datetime import datetime
+
+          REF='20260909'
+          S=requests.Session()
+          S.headers.update({'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/136 Safari/537.36'})
+
+          def norm(s):
+              s=unicodedata.normalize('NFKD',s or '')
+              s=''.join(c for c in s if not unicodedata.combining(c)).lower()
+              s=re.sub(r'https?://\\S+',' ',s)
+              s=re.sub(r'@[\\w.-]+',' ',s)
+              s=re.sub(r'[^a-z0-9]+',' ',s)
+              s=re.sub(r'\\b(ft|feat|avec|youtube|officiel|official|le|la|les|un|une|des|de|du|et)\\b',' ',s)
+              s=re.sub(r'\\s+',' ',s).strip()
+              return s
+
+          def sim(a,b):
+              return SequenceMatcher(None,norm(a),norm(b)).ratio()
+
+          def fmt_duration(sec):
+              if sec is None: return None
+              sec=int(round(sec)); h,rem=divmod(sec,3600); m,s=divmod(rem,60)
+              return f'{h}:{m:02d}:{s:02d}' if h else f'{m}:{s:02d}'
+
+          videos=[]
+          for line in open('reports/joyca-images/full-metadata.jsonl',encoding='utf-8'):
+              line=line.strip()
+              if not line: continue
+              try: e=json.loads(line)
+              except Exception: continue
+              if not e.get('id') or not e.get('title'): continue
+              if e.get('live_status') in ('is_live','is_upcoming','post_live'): continue
+              up=e.get('upload_date')
+              videos.append({
+                'id':e.get('id'),'title':e.get('title'),'upload_date':up,
+                'duration':e.get('duration'),'duration_text':fmt_duration(e.get('duration')),
+                'thumbnail':e.get('thumbnail'),'availability':e.get('availability'),
+                'webpage_url':e.get('webpage_url') or ('https://www.youtube.com/watch?v='+e.get('id'))
+              })
+
+          by_date=defaultdict(list)
+          for v in videos:
+              if v.get('upload_date'): by_date[v['upload_date']].append(v)
+
+          # Discover all current TVDB episode pages.
+          episodes=[]
+          for y in range(2016,2027):
+              url=f'https://thetvdb.com/series/335805-show/seasons/official/{y}'
+              rr=S.get(url,timeout=30)
+              rr.raise_for_status()
+              soup=BeautifulSoup(rr.text,'html.parser')
+              seen=set()
+              for a in soup.select('a[href*="/series/335805-show/episodes/"]'):
+                  href=a.get('href') or ''
+                  m=re.search(r'/episodes/(\\d+)',href)
+                  if not m or m.group(1) in seen: continue
+                  seen.add(m.group(1))
+                  episodes.append({
+                    'year':y,'episode_id':m.group(1),
+                    'url':'https://thetvdb.com'+href if href.startswith('/') else href
+                  })
+
+          out=[]
+          for idx,e in enumerate(episodes,1):
+              row={'episode_id':e['episode_id'],'url':e['url'],'season_hint':e['year']}
+              try:
+                  rr=S.get(e['url'],timeout=30); rr.raise_for_status()
+                  soup=BeautifulSoup(rr.text,'html.parser')
+                  text='\\n'.join(x.strip() for x in soup.stripped_strings)
+                  mt=re.search(r'Season\\s+(\\d{4})\\s*/\\s*Episode\\s+(\\d+)',text,re.I)
+                  season=int(mt.group(1)) if mt else e['year']
+                  epnum=int(mt.group(2)) if mt else None
+                  code=f'S{season}E{epnum:02d}' if epnum is not None else ''
+                  h1=soup.find('h1')
+                  title=' '.join(h1.get_text(' ',strip=True).split()) if h1 else None
+                  dm=re.search(r'Originally Aired\\s+([A-Z][a-z]+ \\d{1,2}, \\d{4})',text,re.I)
+                  date_iso=None
+                  if dm:
+                      date_iso=datetime.strptime(dm.group(1),'%B %d, %Y').strftime('%Y%m%d')
+                  rm=re.search(r'Runtime\\s+(\\d+)\\s+minutes?',text,re.I)
+                  runtime=int(rm.group(1)) if rm else None
+
+                  img=None
+                  # Prefer explicit artwork links, then image src.
+                  for tag in soup.find_all(['a','img']):
+                      val=tag.get('href') if tag.name=='a' else tag.get('src')
+                      if not val: continue
+                      if 'artworks.thetvdb.com' in val and ('episode' in val.lower() or e['episode_id'] in val):
+                          img=val; break
+                  if not img:
+                      for tag in soup.find_all('img'):
+                          val=tag.get('src') or ''
+                          if 'artworks.thetvdb.com/banners/episodes/' in val:
+                              img=val; break
+
+                  # Date-first exact matching; title resolves same-day ambiguity.
+                  candidates=by_date.get(date_iso,[]) if date_iso else []
+                  best=None; score=-1; match_method='NONE'
+                  for v in candidates:
+                      sc=sim(title,v['title'])
+                      if sc>score: score=sc; best=v
+                  if best:
+                      match_method='SAME_DATE'
+                  else:
+                      for v in videos:
+                          sc=sim(title,v['title'])
+                          if sc>score: score=sc; best=v
+                      if best and score>=0.72:
+                          match_method='TITLE_FALLBACK'
+                      else:
+                          best=None
+
+                  row.update({
+                    'season':season,'episode':epnum,'code':code,
+                    'tvdb_title':title,'tvdb_date':date_iso,'tvdb_runtime_minutes':runtime,
+                    'tvdb_image':img,
+                    'youtube_id':best['id'] if best else None,
+                    'youtube_title':best['title'] if best else None,
+                    'youtube_date':best['upload_date'] if best else None,
+                    'youtube_duration_seconds':best['duration'] if best else None,
+                    'youtube_duration':best['duration_text'] if best else None,
+                    'youtube_thumbnail':best['thumbnail'] if best else None,
+                    'title_similarity':round(score,3) if best else None,
+                    'match_method':match_method,
+                    'title_exact':bool(best and title==best['title']),
+                    'date_exact':bool(best and date_iso==best['upload_date']),
+                    'runtime_delta_seconds':abs(runtime*60-best['duration']) if best and runtime is not None and best.get('duration') is not None else None,
+                    'runtime_major_mismatch':bool(best and runtime is not None and best.get('duration') is not None and abs(runtime*60-best['duration'])>=60),
+                    'after_reference_date':bool(date_iso and date_iso>REF),
+                    'non_main_candidate':bool(title and re.search(r'\\b(instrumental|lyrics video|playlist du mois|trailer|teaser|bande.?annonce|annonce video|annonce vidéo)\\b',title,re.I))
+                  })
+
+                  if img and best:
+                      try:
+                          b=S.get(img,timeout=30).content
+                          tv=Image.open(io.BytesIO(b)).convert('RGB')
+                          ph_tv=imagehash.phash(tv)
+                          yt_urls=[]
+                          if best.get('thumbnail'): yt_urls.append(best['thumbnail'])
+                          yt_urls += [f"https://i.ytimg.com/vi/{best['id']}/maxresdefault.jpg",f"https://i.ytimg.com/vi/{best['id']}/hqdefault.jpg"]
+                          bestdist=None; used=None
+                          for yu in dict.fromkeys(yt_urls):
+                              try:
+                                  r2=S.get(yu,timeout=30)
+                                  if r2.status_code!=200 or len(r2.content)<1000: continue
+                                  yi=Image.open(io.BytesIO(r2.content)).convert('RGB')
+                                  dist=ph_tv-imagehash.phash(yi)
+                                  if bestdist is None or dist<bestdist: bestdist=dist; used=yu
+                              except Exception:
+                                  pass
+                          row['thumbnail_phash_distance']=int(bestdist) if bestdist is not None else None
+                          row['compared_youtube_thumbnail']=used
+                          if bestdist is not None and bestdist<=4:
+                              row['image_provenance']='CONFIRMED_OFFICIAL_THUMBNAIL'
+                          else:
+                              row['image_provenance']='PRESENT_ORIGIN_UNCONFIRMED_NEEDS_VIDEO_FRAME_CHECK'
+                      except Exception as ex:
+                          row['image_provenance']='IMAGE_COMPARE_ERROR'; row['image_error']=str(ex)
+                  elif not img:
+                      row['image_provenance']='MISSING_IMAGE'
+                  else:
+                      row['image_provenance']='PRESENT_NO_CONFIDENT_YOUTUBE_MATCH'
+
+              except Exception as ex:
+                  row['error']=str(ex)
+              out.append(row)
+              if idx%25==0: print('processed',idx,'/',len(episodes))
+
+          out.sort(key=lambda r:(r.get('season',9999),r.get('episode') or 9999))
+          json.dump(out,open('reports/joyca-images/audit.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+
+          relevant=[r for r in out if not r.get('after_reference_date')]
+          c=Counter(r.get('image_provenance','ERROR') for r in relevant)
+          title_m=[r for r in relevant if r.get('youtube_id') and not r.get('title_exact')]
+          date_m=[r for r in relevant if r.get('youtube_id') and not r.get('date_exact')]
+          run_m=[r for r in relevant if r.get('runtime_major_mismatch')]
+          missing_yt=[r for r in relevant if not r.get('youtube_id')]
+          nonmain=[r for r in relevant if r.get('non_main_candidate')]
+
+          summary={
+            'reference_date':'2026-09-09',
+            'youtube_metadata_entries':len(videos),
+            'tvdb_episode_pages':len(out),
+            'relevant_tvdb_episodes_through_reference':len(relevant),
+            'matched_to_current_public_youtube':sum(1 for r in relevant if r.get('youtube_id')),
+            'tvdb_without_confident_current_public_youtube':len(missing_yt),
+            'exact_title_mismatches':len(title_m),
+            'date_mismatches':len(date_m),
+            'runtime_major_mismatches':len(run_m),
+            'non_main_candidates':len(nonmain),
+            'image_provenance_counts':dict(c)
+          }
+          json.dump(summary,open('reports/joyca-images/summary.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+          with open('reports/joyca-images/summary.txt','w',encoding='utf-8') as f:
+              for k,v in summary.items(): f.write(f'{k}: {v}\\n')
+          print(json.dumps(summary,ensure_ascii=False,indent=2))
+          PY
+          python /tmp/audit_images.py
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: joyca-image-provenance-audit
+          path: reports/joyca-images/
+          retention-days: 30
