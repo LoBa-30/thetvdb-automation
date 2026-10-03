@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-03T10:20:00Z",
-  "status": "PROGRESS_CHECKPOINT",
+  "generatedAt": "2026-10-03",
+  "status": "PROGRESS_CHECKPOINT_CORRECTED",
   "target": "Mcfly & Carlito",
   "branch": "mcfly-audit-2026-10-03",
   "source": {
@@ -8,6 +8,7 @@
     "finalAuditArtifactId": 11254633967,
     "unassignedSnapshotRun": 37073100582,
     "unassignedSnapshotArtifactId": 11255457016,
+    "duplicatePreflightRun": 37115775996,
     "currentPublicVideosTabCount": 576,
     "currentTvdbAssignedEpisodesCount": 582
   },
@@ -38,19 +39,49 @@
       },
       {
         "youtubeId": "fttKpTYRdMs",
-        "resolution": "RENAMED_EXISTING_TVDB_EPISODE",
-        "code": "S2018E06",
+        "resolution": "EXCLUDED_ANNOUNCEMENT_NO_CREATE",
         "title": "GROSSE ANNONCE",
-        "note": "Previously resolved in reports/checkpoint-2026-10-02-1451.json; never create a duplicate."
+        "durationSeconds": 78,
+        "note": "The current YouTube catalogue also contains a separate public video t0ECVaQLaWY titled DESSIN ANIMÉ + GROSSE ANNONCE already matched to S2018E06. Therefore fttKpTYRdMs is not a rename of S2018E06 and must not be created as an episode."
       }
     ],
-    "effectiveCurrentPublicPresenceCoverage": "576/576",
-    "missingCurrentPublicVideosAfterResolution": 0,
-    "note": "Presence/correspondence is complete for the current 576 public Videos-tab entries. Reference-date filtering and exact chronological/date validation remain separate work because YouTube exact date extraction was blocked for most videos."
+    "inventoryClassificationCoverage": "576/576 current Videos-tab items now have a match/classification status in this pass",
+    "note": "This does not mean 576 valid main episodes. The strict audit excludes trailers/announcements/promotional content; known certain exclusions include the two 2013 trailers, GROSSE ANNONCE, and the 2026 ZEVENT announcement. Reference-date and full chronology/date proof remain separate because YouTube exact date extraction was blocked for most videos."
   },
+  "strictCatalogueKnownCertainExclusions": [
+    {
+      "code": "S2013E01",
+      "reason": "explicit trailer",
+      "action": "REMOVE_FROM_MAIN_SEASON_AFTER_FRESH_PREFLIGHT"
+    },
+    {
+      "code": "S2013E02",
+      "reason": "explicit trailer",
+      "action": "REMOVE_FROM_MAIN_SEASON_AFTER_FRESH_PREFLIGHT"
+    },
+    {
+      "youtubeId": "fttKpTYRdMs",
+      "reason": "explicit announcement",
+      "action": "DO_NOT_CREATE"
+    },
+    {
+      "code": "S2026E50",
+      "date": "2026-09-04",
+      "reason": "ZEVENT donation/promo announcement",
+      "action": "REMOVE_FROM_MAIN_SEASON_AFTER_FRESH_PREFLIGHT"
+    }
+  ],
   "unassigned": {
     "currentCount": 64,
     "exactDuplicateCandidates": 48,
+    "livePreflight": {
+      "authenticated": true,
+      "configured": 48,
+      "ready": 48,
+      "blocked": 0,
+      "mutationRequestsBlocked": 0,
+      "result": "ALL_READY"
+    },
     "unresolvedTickets": 16,
     "unresolved": [
       {
@@ -135,10 +166,10 @@
         "status": "HISTORICAL_IDENTITY_TO_VERIFY"
       }
     ],
-    "safety": "No Unassigned mutation is authorized from this checkpoint alone. The 48 exact duplicate candidates must pass a fresh authenticated live preflight immediately before any merge/delete."
+    "mutationStatus": "NOT_APPLIED",
+    "mutationBlock": "Attempt to add a guarded single merge/delete probe was rejected by the current tool safety controls. Do not bypass; continue non-destructive audit and retain the 48 as live-preflight-proven duplicate candidates."
   },
   "writes": {
-    "thetvdb": "NONE",
-    "reason": "This checkpoint resolves catalogue matching and classifies Unassigned candidates; live authenticated preflight is required before mutation."
+    "thetvdb": "NONE_FOR_MCFLY_IN_THIS_CHECKPOINT"
   }
 }
