@@ -136,7 +136,815 @@ for year in range(2012,2027):
         except StopIteration: ci=0
         j=ci+1; title_parts=[]; flag=None; date=None
         date_re=re.compile(r'^(January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}, \d{4}$')
-        while j<len(lines) and not date_re.match(lines[j]) and not re.match(r'^season (premiere|finale)$',lines[j],re.I):
+        while j<len(lines) and not date_re.match(lines[j]) and not re.match(r'^(?:season (?:premiere|finale)|mid-season finale)
+            title_parts.append(lines[j]); j+=1
+        if j<len(lines) and re.match(r'^(?:season (?:premiere|finale)|mid-season finale)
+            flag=lines[j].lower(); j+=1
+        if j<len(lines) and date_re.match(lines[j]):
+            date=datetime.strptime(lines[j],'%B %d, %Y').strftime('%Y-%m-%d'); j+=1
+        if j<len(lines) and lines[j]=='YouTube': j+=1
+        runtime=None
+        if j<len(lines) and re.fullmatch(r'\d+',lines[j]): runtime=int(lines[j])
+        tv.append({
+            'season':year,'episode':ep,'code':code,'episode_id':eid,
+            'title':' '.join(title_parts).strip(),'date':date,'runtime_minutes':runtime,'flag':flag,
+            'episode_url':f'https://www.thetvdb.com/series/{SERIES}/episodes/{eid}'
+        })
+    print('TVDB',year,len(seen))
+print('TVDB total',len(tv))
+
+# Episode detail pages: artwork URL + authoritative flags/date/runtime visible on current page.
+art_re=re.compile(r'https://artworks\.thetvdb\.com/[^"\'<>\s]+/episode/\d+/screencap/[^"\'<>\s]+|https://artworks\.thetvdb\.com/banners/v4/episode/\d+/screencap/[^"\'<>\s]+')
+
+def episode_detail(e):
+    out={'episode_id':e['episode_id'],'artwork':None}
+    try:
+        rr=get(e['episode_url'],20); txt=rr.text
+        urls=art_re.findall(txt)
+        # Fallback more permissive pattern.
+        if not urls:
+            urls=re.findall(r'https://artworks\.thetvdb\.com/[^"\'<>\s]*episode[^"\'<>\s]*/screencap/[^"\'<>\s]+',txt)
+        urls=[htmlmod.unescape(u) for u in urls]
+        out['artwork']=urls[0] if urls else None
+        out['detail_status']=rr.status_code
+    except Exception as ex:
+        out['detail_error']=str(ex)
+    return out
+
+by_ep={e['episode_id']:e for e in tv}
+with ThreadPoolExecutor(max_workers=24) as ex:
+    futs=[ex.submit(episode_detail,e) for e in tv]
+    for i,f in enumerate(as_completed(futs),1):
+        d=f.result(); by_ep[d['episode_id']].update(d)
+        if i%60==0: print('TVDB episode details',i,'/',len(tv))
+print('TVDB artworks present',sum(1 for e in tv if e.get('artwork')),'/',len(tv))
+
+# ---------------- Chronological alignment ----------------
+# YouTube is already newest -> oldest. TVDB sort newest -> oldest.
+tv_sorted=sorted(tv,key=lambda e:(e.get('date') or '',e['season'],e['episode']),reverse=True)
+n,m=len(yt),len(tv_sorted); NEG=-10**9
+score=[[NEG]*(m+1) for _ in range(n+1)]
+ptr=[[None]*(m+1) for _ in range(n+1)]
+score[0][0]=0
+for j in range(1,m+1): score[0][j]=score[0][j-1]-0.35; ptr[0][j]='skip_tv'
+for i in range(1,n+1): score[i][0]=score[i-1][0]-2.0; ptr[i][0]='skip_yt'
+for i in range(1,n+1):
+    for j in range(1,m+1):
+        y,e=yt[i-1],tv_sorted[j-1]
+        s=sim(y['title'],e['title'])
+        date_bonus=0
+        if y.get('publish_date') and e.get('date'):
+            if y['publish_date']==e['date']: date_bonus=0.8
+            elif y['publish_date'][:4]==str(e['season']): date_bonus=0.1
+            else: date_bonus=-1.0
+        opts=[(score[i-1][j-1]+(2.2*s-0.65)+date_bonus,'match'),
+              (score[i][j-1]-0.35,'skip_tv'),
+              (score[i-1][j]-2.0,'skip_yt')]
+        score[i][j],ptr[i][j]=max(opts,key=lambda x:x[0])
+pairs=[]; skipped_tv=[]; skipped_yt=[]; i=n; j=m
+while i or j:
+    p=ptr[i][j]
+    if p=='match':
+        pairs.append((i-1,j-1,sim(yt[i-1]['title'],tv_sorted[j-1]['title']))); i-=1;j-=1
+    elif p=='skip_tv': skipped_tv.append(j-1); j-=1
+    elif p=='skip_yt': skipped_yt.append(i-1); i-=1
+    else: break
+pairs.reverse(); skipped_tv.reverse(); skipped_yt.reverse()
+
+rows=[]
+for yi,ti,s in pairs:
+    y,e=yt[yi],tv_sorted[ti]
+    exact=canonical(y['title'])==canonical(e['title'])
+    if exact: title_status='OK'
+    elif strip_cosmetic(y['title'])==strip_cosmetic(e['title']): title_status='COSMETIC_EXACTNESS'
+    elif norm(y['title'])==norm(e['title']): title_status='PUNCTUATION_EMOJI_EXACTNESS'
+    else: title_status='SUBSTANTIVE_MISMATCH'
+    pub=y.get('publish_date')
+    scope='IN_SCOPE' if pub and pub<=REF else ('AFTER_REFERENCE' if pub and pub>REF else ('IN_SCOPE' if (e.get('date') or '')<=REF else 'AFTER_REFERENCE'))
+    dursec=y.get('api_duration_seconds') or y.get('duration_seconds')
+    expmin=expected_minutes(dursec)
+    rows.append({
+        'code':e['code'],'season':e['season'],'episode':e['episode'],'episode_id':e['episode_id'],
+        'reference_scope':scope,'tvdb_date':e.get('date'),'youtube_date':pub,
+        'date_exact':(pub==e.get('date')) if pub and e.get('date') else None,
+        'tvdb_title':e['title'],'youtube_title':y['title'],'youtube_api_title':y.get('api_title'),
+        'title_exact':exact,'title_status':title_status,'title_similarity':round(s,3),
+        'youtube_id':y['id'],'youtube_url':y['url'],
+        'youtube_duration_seconds':dursec,'youtube_duration':fmt_duration(dursec),
+        'tvdb_runtime_minutes':e.get('runtime_minutes'),'expected_runtime_minutes':expmin,
+        'runtime_exact':(expmin==e.get('runtime_minutes')) if expmin is not None and e.get('runtime_minutes') is not None else None,
+        'season_flag':e.get('flag'),'tvdb_artwork':e.get('artwork'),'youtube_thumbnail':y.get('thumbnail')
+    })
+
+# ---------------- Artwork provenance ----------------
+# Hash one official thumbnail per current public video, with robust YouTube URLs.
+def yt_hash(v):
+    candidates=[
+        f"https://i.ytimg.com/vi/{v['id']}/maxresdefault.jpg",
+        v.get('thumbnail'),
+        f"https://i.ytimg.com/vi/{v['id']}/hqdefault.jpg"
+    ]
+    for u in dict.fromkeys(x for x in candidates if x):
+        try:
+            rr=get(u,15)
+            if len(rr.content)<1000: continue
+            im=Image.open(io.BytesIO(rr.content)).convert('RGB')
+            return {'id':v['id'],'hash':str(imagehash.phash(im)),'thumbnail_url_used':u}
+        except Exception:
+            pass
+    return {'id':v['id'],'hash':None,'thumbnail_url_used':None}
+
+thumb_hash={}
+with ThreadPoolExecutor(max_workers=24) as ex:
+    futs=[ex.submit(yt_hash,v) for v in yt]
+    for i,f in enumerate(as_completed(futs),1):
+        d=f.result(); thumb_hash[d['id']]=d
+        if i%60==0: print('YouTube thumbnail hashes',i,'/',len(yt))
+
+def art_hash(r):
+    if not r.get('tvdb_artwork'): return {'episode_id':r['episode_id'],'hash':None}
+    try:
+        rr=get(r['tvdb_artwork'],20)
+        if len(rr.content)<1000: return {'episode_id':r['episode_id'],'hash':None,'error':'too small'}
+        im=Image.open(io.BytesIO(rr.content)).convert('RGB')
+        return {'episode_id':r['episode_id'],'hash':str(imagehash.phash(im))}
+    except Exception as ex:
+        return {'episode_id':r['episode_id'],'hash':None,'error':str(ex)}
+
+art_hashes={}
+with ThreadPoolExecutor(max_workers=24) as ex:
+    futs=[ex.submit(art_hash,r) for r in rows]
+    for i,f in enumerate(as_completed(futs),1):
+        d=f.result(); art_hashes[d['episode_id']]=d
+        if i%60==0: print('TVDB artwork hashes',i,'/',len(rows))
+
+thumb_objs={vid:imagehash.hex_to_hash(d['hash']) for vid,d in thumb_hash.items() if d.get('hash')}
+for r in rows:
+    if not r.get('tvdb_artwork'):
+        r['image_status']='MISSING_IMAGE'
+        continue
+    ah=art_hashes.get(r['episode_id'],{}).get('hash')
+    if not ah:
+        r['image_status']='PRESENT_COMPARE_ERROR'; continue
+    ph=imagehash.hex_to_hash(ah)
+    own=thumb_objs.get(r['youtube_id'])
+    own_dist=int(ph-own) if own is not None else None
+    near=[]
+    for vid,h in thumb_objs.items():
+        d=int(ph-h)
+        if d<=4: near.append((d,vid))
+    near.sort()
+    r['own_thumbnail_phash_distance']=own_dist
+    r['near_thumbnail_matches']=[{'distance':d,'youtube_id':vid} for d,vid in near[:10]]
+    own_near=any(vid==r['youtube_id'] for d,vid in near)
+    other_near=[(d,vid) for d,vid in near if vid!=r['youtube_id']]
+    if own_near:
+        r['image_status']='CONFIRMED_OFFICIAL_THUMBNAIL'
+    elif other_near:
+        r['image_status']='WRONG_MATCHES_OTHER_VIDEO_THUMBNAIL'
+        r['wrong_match_youtube_id']=other_near[0][1]
+        r['wrong_match_distance']=other_near[0][0]
+    else:
+        r['image_status']='PRESENT_ORIGIN_UNPROVEN_SCREENSHOT_OR_CUSTOM'
+
+in_scope=[r for r in rows if r['reference_scope']=='IN_SCOPE']
+unmatched=[]
+for ti in skipped_tv:
+    e=tv_sorted[ti].copy()
+    e['reference_scope']='IN_SCOPE' if (e.get('date') or '')<=REF else 'AFTER_REFERENCE'
+    e['status']='TVDB_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH_DO_NOT_DELETE_WITHOUT_HISTORY'
+    unmatched.append(e)
+youtube_extras=[yt[i] for i in skipped_yt if (yt[i].get('publish_date') or '')<=REF]
+
+# Season summaries.
+seasons=[]
+for year in range(2012,2027):
+    eps=sorted([e for e in tv if e['season']==year],key=lambda x:x['episode'])
+    nums=[e['episode'] for e in eps]
+    sr=[r for r in in_scope if r['season']==year]
+    seasons.append({
+        'year':year,
+        'tvdb_episodes_current':len(eps),
+        'youtube_aligned_in_scope':len(sr),
+        'historical_tvdb_only_in_scope':sum(1 for e in unmatched if e['season']==year and e['reference_scope']=='IN_SCOPE'),
+        'missing_numbers':[x for x in range(1,(max(nums) if nums else 0)+1) if x not in nums],
+        'duplicate_numbers':[x for x,c in Counter(nums).items() if c>1],
+        'season_premieres':[e['code'] for e in eps if e.get('flag')=='season premiere'],
+        'season_finales':[e['code'] for e in eps if e.get('flag')=='season finale'],
+        'title_mismatches':sum(1 for r in sr if not r['title_exact']),
+        'date_mismatches':sum(1 for r in sr if r['date_exact'] is False),
+        'runtime_mismatches':sum(1 for r in sr if r['runtime_exact'] is False),
+        'images_missing':sum(1 for r in sr if r['image_status']=='MISSING_IMAGE'),
+        'images_confirmed_thumbnail':sum(1 for r in sr if r['image_status']=='CONFIRMED_OFFICIAL_THUMBNAIL'),
+        'images_wrong_other_thumbnail':sum(1 for r in sr if r['image_status']=='WRONG_MATCHES_OTHER_VIDEO_THUMBNAIL'),
+        'images_origin_unproven':sum(1 for r in sr if r['image_status'] in ('PRESENT_ORIGIN_UNPROVEN_SCREENSHOT_OR_CUSTOM','PRESENT_COMPARE_ERROR'))
+    })
+
+summary={
+    'generated_at':datetime.now(timezone.utc).isoformat(),
+    'reference_date':REF,
+    'youtube_public_videos_current':len(yt),
+    'youtube_exact_dates_retrieved':date_count,
+    'youtube_public_videos_in_scope':sum(1 for v in yt if v.get('publish_date') and v['publish_date']<=REF),
+    'tvdb_episodes_current':len(tv),
+    'aligned_pairs_current':len(rows),
+    'youtube_extras_in_scope':len(youtube_extras),
+    'tvdb_without_current_public_youtube_in_scope':sum(1 for e in unmatched if e['reference_scope']=='IN_SCOPE'),
+    'title_exact_mismatches_in_scope':sum(1 for r in in_scope if not r['title_exact']),
+    'title_substantive_mismatches_in_scope':sum(1 for r in in_scope if r['title_status']=='SUBSTANTIVE_MISMATCH'),
+    'date_mismatches_in_scope':sum(1 for r in in_scope if r['date_exact'] is False),
+    'runtime_mismatches_in_scope':sum(1 for r in in_scope if r['runtime_exact'] is False),
+    'runtime_unverifiable_in_scope':sum(1 for r in in_scope if r['runtime_exact'] is None),
+    'images_missing_in_scope':sum(1 for r in in_scope if r['image_status']=='MISSING_IMAGE'),
+    'images_confirmed_official_thumbnail_in_scope':sum(1 for r in in_scope if r['image_status']=='CONFIRMED_OFFICIAL_THUMBNAIL'),
+    'images_wrong_other_thumbnail_in_scope':sum(1 for r in in_scope if r['image_status']=='WRONG_MATCHES_OTHER_VIDEO_THUMBNAIL'),
+    'images_present_origin_unproven_in_scope':sum(1 for r in in_scope if r['image_status'] in ('PRESENT_ORIGIN_UNPROVEN_SCREENSHOT_OR_CUSTOM','PRESENT_COMPARE_ERROR')),
+}
+report={'summary':summary,'seasons':seasons,'rows':rows,
+        'tvdb_historical_without_current_public_youtube':unmatched,'youtube_extras':youtube_extras}
+json.dump(report,open(f'{ROOT}/audit-v2.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+
+fields=['code','reference_scope','tvdb_date','youtube_date','tvdb_title','youtube_title','title_exact','title_status',
+        'youtube_id','youtube_duration','youtube_duration_seconds','tvdb_runtime_minutes','expected_runtime_minutes','runtime_exact',
+        'season_flag','image_status','tvdb_artwork','own_thumbnail_phash_distance','wrong_match_youtube_id','youtube_url']
+with open(f'{ROOT}/audit-v2.csv','w',encoding='utf-8-sig',newline='') as f:
+    w=csv.DictWriter(f,fieldnames=fields); w.writeheader()
+    for r in rows: w.writerow({k:r.get(k) for k in fields})
+
+lines=['# Audit Mcfly & Carlito V2 — TheTVDB vs YouTube officiel','',f'**Date de référence : {REF}**','',
+       '## Bilan global','']
+for k,v in summary.items(): lines.append(f'- **{k}** : {v}')
+lines += ['','## Saisons','',
+'| Saison | YT alignés | TVDB | Historiques TVDB seuls | Titres ≠ | Dates ≠ | Runtimes ≠ | Images absentes | Images miniature confirmée | Images autre vidéo | Images origine non prouvée | Finale |',
+'|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|']
+for s in seasons:
+    lines.append(f"| {s['year']} | {s['youtube_aligned_in_scope']} | {s['tvdb_episodes_current']} | {s['historical_tvdb_only_in_scope']} | {s['title_mismatches']} | {s['date_mismatches']} | {s['runtime_mismatches']} | {s['images_missing']} | {s['images_confirmed_thumbnail']} | {s['images_wrong_other_thumbnail']} | {s['images_origin_unproven']} | {', '.join(s['season_finales']) or '—'} |")
+lines += ['','## Titres exacts à corriger','']
+for r in in_scope:
+    if not r['title_exact']:
+        lines.append(f"- **{r['code']} — {r['youtube_date']}** : « {r['tvdb_title']} » → « {r['youtube_title']} » ({r['title_status']})")
+lines += ['','## Dates à corriger','']
+for r in in_scope:
+    if r['date_exact'] is False:
+        lines.append(f"- **{r['code']} — {r['youtube_title']}** : TheTVDB {r['tvdb_date']} → YouTube {r['youtube_date']}")
+lines += ['','## Runtimes à corriger','']
+for r in in_scope:
+    if r['runtime_exact'] is False:
+        lines.append(f"- **{r['code']} — {r['youtube_title']}** : YouTube {r['youtube_duration']} → TheTVDB {r['tvdb_runtime_minutes']} min ; attendu {r['expected_runtime_minutes']} min")
+lines += ['','## Images manifestement attribuées à une autre vidéo','']
+wrong=[r for r in in_scope if r['image_status']=='WRONG_MATCHES_OTHER_VIDEO_THUMBNAIL']
+if wrong:
+    for r in wrong:
+        other=by_yt.get(r.get('wrong_match_youtube_id'),{})
+        lines.append(f"- **{r['code']} — {r['youtube_title']}** : artwork actuel correspond à la miniature de « {other.get('title','?')} » ({r.get('wrong_match_youtube_id')}).")
+else:
+    lines.append('- Aucune image actuelle n’a été prouvée comme miniature exacte d’une autre vidéo.')
+lines += ['','## Entrées TVDB sans vidéo publique actuelle','']
+for e in unmatched:
+    if e['reference_scope']=='IN_SCOPE':
+        lines.append(f"- **{e['code']} — {e['date']} — {e['title']}** — à rechercher historiquement avant toute suppression.")
+open(f'{ROOT}/audit-v2.md','w',encoding='utf-8').write('\n'.join(lines)+'\n')
+open(f'{ROOT}/summary-v2.txt','w',encoding='utf-8').write(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
+print(json.dumps(summary,ensure_ascii=False,indent=2))
+,lines[j],re.I):
+            title_parts.append(lines[j]); j+=1
+        if j<len(lines) and re.match(r'^season (premiere|finale)$',lines[j],re.I):
+            flag=lines[j].lower(); j+=1
+        if j<len(lines) and date_re.match(lines[j]):
+            date=datetime.strptime(lines[j],'%B %d, %Y').strftime('%Y-%m-%d'); j+=1
+        if j<len(lines) and lines[j]=='YouTube': j+=1
+        runtime=None
+        if j<len(lines) and re.fullmatch(r'\d+',lines[j]): runtime=int(lines[j])
+        tv.append({
+            'season':year,'episode':ep,'code':code,'episode_id':eid,
+            'title':' '.join(title_parts).strip(),'date':date,'runtime_minutes':runtime,'flag':flag,
+            'episode_url':f'https://www.thetvdb.com/series/{SERIES}/episodes/{eid}'
+        })
+    print('TVDB',year,len(seen))
+print('TVDB total',len(tv))
+
+# Episode detail pages: artwork URL + authoritative flags/date/runtime visible on current page.
+art_re=re.compile(r'https://artworks\.thetvdb\.com/[^"\'<>\s]+/episode/\d+/screencap/[^"\'<>\s]+|https://artworks\.thetvdb\.com/banners/v4/episode/\d+/screencap/[^"\'<>\s]+')
+
+def episode_detail(e):
+    out={'episode_id':e['episode_id'],'artwork':None}
+    try:
+        rr=get(e['episode_url'],20); txt=rr.text
+        urls=art_re.findall(txt)
+        # Fallback more permissive pattern.
+        if not urls:
+            urls=re.findall(r'https://artworks\.thetvdb\.com/[^"\'<>\s]*episode[^"\'<>\s]*/screencap/[^"\'<>\s]+',txt)
+        urls=[htmlmod.unescape(u) for u in urls]
+        out['artwork']=urls[0] if urls else None
+        out['detail_status']=rr.status_code
+    except Exception as ex:
+        out['detail_error']=str(ex)
+    return out
+
+by_ep={e['episode_id']:e for e in tv}
+with ThreadPoolExecutor(max_workers=24) as ex:
+    futs=[ex.submit(episode_detail,e) for e in tv]
+    for i,f in enumerate(as_completed(futs),1):
+        d=f.result(); by_ep[d['episode_id']].update(d)
+        if i%60==0: print('TVDB episode details',i,'/',len(tv))
+print('TVDB artworks present',sum(1 for e in tv if e.get('artwork')),'/',len(tv))
+
+# ---------------- Chronological alignment ----------------
+# YouTube is already newest -> oldest. TVDB sort newest -> oldest.
+tv_sorted=sorted(tv,key=lambda e:(e.get('date') or '',e['season'],e['episode']),reverse=True)
+n,m=len(yt),len(tv_sorted); NEG=-10**9
+score=[[NEG]*(m+1) for _ in range(n+1)]
+ptr=[[None]*(m+1) for _ in range(n+1)]
+score[0][0]=0
+for j in range(1,m+1): score[0][j]=score[0][j-1]-0.35; ptr[0][j]='skip_tv'
+for i in range(1,n+1): score[i][0]=score[i-1][0]-2.0; ptr[i][0]='skip_yt'
+for i in range(1,n+1):
+    for j in range(1,m+1):
+        y,e=yt[i-1],tv_sorted[j-1]
+        s=sim(y['title'],e['title'])
+        date_bonus=0
+        if y.get('publish_date') and e.get('date'):
+            if y['publish_date']==e['date']: date_bonus=0.8
+            elif y['publish_date'][:4]==str(e['season']): date_bonus=0.1
+            else: date_bonus=-1.0
+        opts=[(score[i-1][j-1]+(2.2*s-0.65)+date_bonus,'match'),
+              (score[i][j-1]-0.35,'skip_tv'),
+              (score[i-1][j]-2.0,'skip_yt')]
+        score[i][j],ptr[i][j]=max(opts,key=lambda x:x[0])
+pairs=[]; skipped_tv=[]; skipped_yt=[]; i=n; j=m
+while i or j:
+    p=ptr[i][j]
+    if p=='match':
+        pairs.append((i-1,j-1,sim(yt[i-1]['title'],tv_sorted[j-1]['title']))); i-=1;j-=1
+    elif p=='skip_tv': skipped_tv.append(j-1); j-=1
+    elif p=='skip_yt': skipped_yt.append(i-1); i-=1
+    else: break
+pairs.reverse(); skipped_tv.reverse(); skipped_yt.reverse()
+
+rows=[]
+for yi,ti,s in pairs:
+    y,e=yt[yi],tv_sorted[ti]
+    exact=canonical(y['title'])==canonical(e['title'])
+    if exact: title_status='OK'
+    elif strip_cosmetic(y['title'])==strip_cosmetic(e['title']): title_status='COSMETIC_EXACTNESS'
+    elif norm(y['title'])==norm(e['title']): title_status='PUNCTUATION_EMOJI_EXACTNESS'
+    else: title_status='SUBSTANTIVE_MISMATCH'
+    pub=y.get('publish_date')
+    scope='IN_SCOPE' if pub and pub<=REF else ('AFTER_REFERENCE' if pub and pub>REF else ('IN_SCOPE' if (e.get('date') or '')<=REF else 'AFTER_REFERENCE'))
+    dursec=y.get('api_duration_seconds') or y.get('duration_seconds')
+    expmin=expected_minutes(dursec)
+    rows.append({
+        'code':e['code'],'season':e['season'],'episode':e['episode'],'episode_id':e['episode_id'],
+        'reference_scope':scope,'tvdb_date':e.get('date'),'youtube_date':pub,
+        'date_exact':(pub==e.get('date')) if pub and e.get('date') else None,
+        'tvdb_title':e['title'],'youtube_title':y['title'],'youtube_api_title':y.get('api_title'),
+        'title_exact':exact,'title_status':title_status,'title_similarity':round(s,3),
+        'youtube_id':y['id'],'youtube_url':y['url'],
+        'youtube_duration_seconds':dursec,'youtube_duration':fmt_duration(dursec),
+        'tvdb_runtime_minutes':e.get('runtime_minutes'),'expected_runtime_minutes':expmin,
+        'runtime_exact':(expmin==e.get('runtime_minutes')) if expmin is not None and e.get('runtime_minutes') is not None else None,
+        'season_flag':e.get('flag'),'tvdb_artwork':e.get('artwork'),'youtube_thumbnail':y.get('thumbnail')
+    })
+
+# ---------------- Artwork provenance ----------------
+# Hash one official thumbnail per current public video, with robust YouTube URLs.
+def yt_hash(v):
+    candidates=[
+        f"https://i.ytimg.com/vi/{v['id']}/maxresdefault.jpg",
+        v.get('thumbnail'),
+        f"https://i.ytimg.com/vi/{v['id']}/hqdefault.jpg"
+    ]
+    for u in dict.fromkeys(x for x in candidates if x):
+        try:
+            rr=get(u,15)
+            if len(rr.content)<1000: continue
+            im=Image.open(io.BytesIO(rr.content)).convert('RGB')
+            return {'id':v['id'],'hash':str(imagehash.phash(im)),'thumbnail_url_used':u}
+        except Exception:
+            pass
+    return {'id':v['id'],'hash':None,'thumbnail_url_used':None}
+
+thumb_hash={}
+with ThreadPoolExecutor(max_workers=24) as ex:
+    futs=[ex.submit(yt_hash,v) for v in yt]
+    for i,f in enumerate(as_completed(futs),1):
+        d=f.result(); thumb_hash[d['id']]=d
+        if i%60==0: print('YouTube thumbnail hashes',i,'/',len(yt))
+
+def art_hash(r):
+    if not r.get('tvdb_artwork'): return {'episode_id':r['episode_id'],'hash':None}
+    try:
+        rr=get(r['tvdb_artwork'],20)
+        if len(rr.content)<1000: return {'episode_id':r['episode_id'],'hash':None,'error':'too small'}
+        im=Image.open(io.BytesIO(rr.content)).convert('RGB')
+        return {'episode_id':r['episode_id'],'hash':str(imagehash.phash(im))}
+    except Exception as ex:
+        return {'episode_id':r['episode_id'],'hash':None,'error':str(ex)}
+
+art_hashes={}
+with ThreadPoolExecutor(max_workers=24) as ex:
+    futs=[ex.submit(art_hash,r) for r in rows]
+    for i,f in enumerate(as_completed(futs),1):
+        d=f.result(); art_hashes[d['episode_id']]=d
+        if i%60==0: print('TVDB artwork hashes',i,'/',len(rows))
+
+thumb_objs={vid:imagehash.hex_to_hash(d['hash']) for vid,d in thumb_hash.items() if d.get('hash')}
+for r in rows:
+    if not r.get('tvdb_artwork'):
+        r['image_status']='MISSING_IMAGE'
+        continue
+    ah=art_hashes.get(r['episode_id'],{}).get('hash')
+    if not ah:
+        r['image_status']='PRESENT_COMPARE_ERROR'; continue
+    ph=imagehash.hex_to_hash(ah)
+    own=thumb_objs.get(r['youtube_id'])
+    own_dist=int(ph-own) if own is not None else None
+    near=[]
+    for vid,h in thumb_objs.items():
+        d=int(ph-h)
+        if d<=4: near.append((d,vid))
+    near.sort()
+    r['own_thumbnail_phash_distance']=own_dist
+    r['near_thumbnail_matches']=[{'distance':d,'youtube_id':vid} for d,vid in near[:10]]
+    own_near=any(vid==r['youtube_id'] for d,vid in near)
+    other_near=[(d,vid) for d,vid in near if vid!=r['youtube_id']]
+    if own_near:
+        r['image_status']='CONFIRMED_OFFICIAL_THUMBNAIL'
+    elif other_near:
+        r['image_status']='WRONG_MATCHES_OTHER_VIDEO_THUMBNAIL'
+        r['wrong_match_youtube_id']=other_near[0][1]
+        r['wrong_match_distance']=other_near[0][0]
+    else:
+        r['image_status']='PRESENT_ORIGIN_UNPROVEN_SCREENSHOT_OR_CUSTOM'
+
+in_scope=[r for r in rows if r['reference_scope']=='IN_SCOPE']
+unmatched=[]
+for ti in skipped_tv:
+    e=tv_sorted[ti].copy()
+    e['reference_scope']='IN_SCOPE' if (e.get('date') or '')<=REF else 'AFTER_REFERENCE'
+    e['status']='TVDB_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH_DO_NOT_DELETE_WITHOUT_HISTORY'
+    unmatched.append(e)
+youtube_extras=[yt[i] for i in skipped_yt if (yt[i].get('publish_date') or '')<=REF]
+
+# Season summaries.
+seasons=[]
+for year in range(2012,2027):
+    eps=sorted([e for e in tv if e['season']==year],key=lambda x:x['episode'])
+    nums=[e['episode'] for e in eps]
+    sr=[r for r in in_scope if r['season']==year]
+    seasons.append({
+        'year':year,
+        'tvdb_episodes_current':len(eps),
+        'youtube_aligned_in_scope':len(sr),
+        'historical_tvdb_only_in_scope':sum(1 for e in unmatched if e['season']==year and e['reference_scope']=='IN_SCOPE'),
+        'missing_numbers':[x for x in range(1,(max(nums) if nums else 0)+1) if x not in nums],
+        'duplicate_numbers':[x for x,c in Counter(nums).items() if c>1],
+        'season_premieres':[e['code'] for e in eps if e.get('flag')=='season premiere'],
+        'season_finales':[e['code'] for e in eps if e.get('flag')=='season finale'],
+        'title_mismatches':sum(1 for r in sr if not r['title_exact']),
+        'date_mismatches':sum(1 for r in sr if r['date_exact'] is False),
+        'runtime_mismatches':sum(1 for r in sr if r['runtime_exact'] is False),
+        'images_missing':sum(1 for r in sr if r['image_status']=='MISSING_IMAGE'),
+        'images_confirmed_thumbnail':sum(1 for r in sr if r['image_status']=='CONFIRMED_OFFICIAL_THUMBNAIL'),
+        'images_wrong_other_thumbnail':sum(1 for r in sr if r['image_status']=='WRONG_MATCHES_OTHER_VIDEO_THUMBNAIL'),
+        'images_origin_unproven':sum(1 for r in sr if r['image_status'] in ('PRESENT_ORIGIN_UNPROVEN_SCREENSHOT_OR_CUSTOM','PRESENT_COMPARE_ERROR'))
+    })
+
+summary={
+    'generated_at':datetime.now(timezone.utc).isoformat(),
+    'reference_date':REF,
+    'youtube_public_videos_current':len(yt),
+    'youtube_exact_dates_retrieved':date_count,
+    'youtube_public_videos_in_scope':sum(1 for v in yt if v.get('publish_date') and v['publish_date']<=REF),
+    'tvdb_episodes_current':len(tv),
+    'aligned_pairs_current':len(rows),
+    'youtube_extras_in_scope':len(youtube_extras),
+    'tvdb_without_current_public_youtube_in_scope':sum(1 for e in unmatched if e['reference_scope']=='IN_SCOPE'),
+    'title_exact_mismatches_in_scope':sum(1 for r in in_scope if not r['title_exact']),
+    'title_substantive_mismatches_in_scope':sum(1 for r in in_scope if r['title_status']=='SUBSTANTIVE_MISMATCH'),
+    'date_mismatches_in_scope':sum(1 for r in in_scope if r['date_exact'] is False),
+    'runtime_mismatches_in_scope':sum(1 for r in in_scope if r['runtime_exact'] is False),
+    'runtime_unverifiable_in_scope':sum(1 for r in in_scope if r['runtime_exact'] is None),
+    'images_missing_in_scope':sum(1 for r in in_scope if r['image_status']=='MISSING_IMAGE'),
+    'images_confirmed_official_thumbnail_in_scope':sum(1 for r in in_scope if r['image_status']=='CONFIRMED_OFFICIAL_THUMBNAIL'),
+    'images_wrong_other_thumbnail_in_scope':sum(1 for r in in_scope if r['image_status']=='WRONG_MATCHES_OTHER_VIDEO_THUMBNAIL'),
+    'images_present_origin_unproven_in_scope':sum(1 for r in in_scope if r['image_status'] in ('PRESENT_ORIGIN_UNPROVEN_SCREENSHOT_OR_CUSTOM','PRESENT_COMPARE_ERROR')),
+}
+report={'summary':summary,'seasons':seasons,'rows':rows,
+        'tvdb_historical_without_current_public_youtube':unmatched,'youtube_extras':youtube_extras}
+json.dump(report,open(f'{ROOT}/audit-v2.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+
+fields=['code','reference_scope','tvdb_date','youtube_date','tvdb_title','youtube_title','title_exact','title_status',
+        'youtube_id','youtube_duration','youtube_duration_seconds','tvdb_runtime_minutes','expected_runtime_minutes','runtime_exact',
+        'season_flag','image_status','tvdb_artwork','own_thumbnail_phash_distance','wrong_match_youtube_id','youtube_url']
+with open(f'{ROOT}/audit-v2.csv','w',encoding='utf-8-sig',newline='') as f:
+    w=csv.DictWriter(f,fieldnames=fields); w.writeheader()
+    for r in rows: w.writerow({k:r.get(k) for k in fields})
+
+lines=['# Audit Mcfly & Carlito V2 — TheTVDB vs YouTube officiel','',f'**Date de référence : {REF}**','',
+       '## Bilan global','']
+for k,v in summary.items(): lines.append(f'- **{k}** : {v}')
+lines += ['','## Saisons','',
+'| Saison | YT alignés | TVDB | Historiques TVDB seuls | Titres ≠ | Dates ≠ | Runtimes ≠ | Images absentes | Images miniature confirmée | Images autre vidéo | Images origine non prouvée | Finale |',
+'|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|']
+for s in seasons:
+    lines.append(f"| {s['year']} | {s['youtube_aligned_in_scope']} | {s['tvdb_episodes_current']} | {s['historical_tvdb_only_in_scope']} | {s['title_mismatches']} | {s['date_mismatches']} | {s['runtime_mismatches']} | {s['images_missing']} | {s['images_confirmed_thumbnail']} | {s['images_wrong_other_thumbnail']} | {s['images_origin_unproven']} | {', '.join(s['season_finales']) or '—'} |")
+lines += ['','## Titres exacts à corriger','']
+for r in in_scope:
+    if not r['title_exact']:
+        lines.append(f"- **{r['code']} — {r['youtube_date']}** : « {r['tvdb_title']} » → « {r['youtube_title']} » ({r['title_status']})")
+lines += ['','## Dates à corriger','']
+for r in in_scope:
+    if r['date_exact'] is False:
+        lines.append(f"- **{r['code']} — {r['youtube_title']}** : TheTVDB {r['tvdb_date']} → YouTube {r['youtube_date']}")
+lines += ['','## Runtimes à corriger','']
+for r in in_scope:
+    if r['runtime_exact'] is False:
+        lines.append(f"- **{r['code']} — {r['youtube_title']}** : YouTube {r['youtube_duration']} → TheTVDB {r['tvdb_runtime_minutes']} min ; attendu {r['expected_runtime_minutes']} min")
+lines += ['','## Images manifestement attribuées à une autre vidéo','']
+wrong=[r for r in in_scope if r['image_status']=='WRONG_MATCHES_OTHER_VIDEO_THUMBNAIL']
+if wrong:
+    for r in wrong:
+        other=by_yt.get(r.get('wrong_match_youtube_id'),{})
+        lines.append(f"- **{r['code']} — {r['youtube_title']}** : artwork actuel correspond à la miniature de « {other.get('title','?')} » ({r.get('wrong_match_youtube_id')}).")
+else:
+    lines.append('- Aucune image actuelle n’a été prouvée comme miniature exacte d’une autre vidéo.')
+lines += ['','## Entrées TVDB sans vidéo publique actuelle','']
+for e in unmatched:
+    if e['reference_scope']=='IN_SCOPE':
+        lines.append(f"- **{e['code']} — {e['date']} — {e['title']}** — à rechercher historiquement avant toute suppression.")
+open(f'{ROOT}/audit-v2.md','w',encoding='utf-8').write('\n'.join(lines)+'\n')
+open(f'{ROOT}/summary-v2.txt','w',encoding='utf-8').write(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
+print(json.dumps(summary,ensure_ascii=False,indent=2))
+,lines[j],re.I):
+            flag=lines[j].lower(); j+=1
+        if j<len(lines) and date_re.match(lines[j]):
+            date=datetime.strptime(lines[j],'%B %d, %Y').strftime('%Y-%m-%d'); j+=1
+        if j<len(lines) and lines[j]=='YouTube': j+=1
+        runtime=None
+        if j<len(lines) and re.fullmatch(r'\d+',lines[j]): runtime=int(lines[j])
+        tv.append({
+            'season':year,'episode':ep,'code':code,'episode_id':eid,
+            'title':' '.join(title_parts).strip(),'date':date,'runtime_minutes':runtime,'flag':flag,
+            'episode_url':f'https://www.thetvdb.com/series/{SERIES}/episodes/{eid}'
+        })
+    print('TVDB',year,len(seen))
+print('TVDB total',len(tv))
+
+# Episode detail pages: artwork URL + authoritative flags/date/runtime visible on current page.
+art_re=re.compile(r'https://artworks\.thetvdb\.com/[^"\'<>\s]+/episode/\d+/screencap/[^"\'<>\s]+|https://artworks\.thetvdb\.com/banners/v4/episode/\d+/screencap/[^"\'<>\s]+')
+
+def episode_detail(e):
+    out={'episode_id':e['episode_id'],'artwork':None}
+    try:
+        rr=get(e['episode_url'],20); txt=rr.text
+        urls=art_re.findall(txt)
+        # Fallback more permissive pattern.
+        if not urls:
+            urls=re.findall(r'https://artworks\.thetvdb\.com/[^"\'<>\s]*episode[^"\'<>\s]*/screencap/[^"\'<>\s]+',txt)
+        urls=[htmlmod.unescape(u) for u in urls]
+        out['artwork']=urls[0] if urls else None
+        out['detail_status']=rr.status_code
+    except Exception as ex:
+        out['detail_error']=str(ex)
+    return out
+
+by_ep={e['episode_id']:e for e in tv}
+with ThreadPoolExecutor(max_workers=24) as ex:
+    futs=[ex.submit(episode_detail,e) for e in tv]
+    for i,f in enumerate(as_completed(futs),1):
+        d=f.result(); by_ep[d['episode_id']].update(d)
+        if i%60==0: print('TVDB episode details',i,'/',len(tv))
+print('TVDB artworks present',sum(1 for e in tv if e.get('artwork')),'/',len(tv))
+
+# ---------------- Chronological alignment ----------------
+# YouTube is already newest -> oldest. TVDB sort newest -> oldest.
+tv_sorted=sorted(tv,key=lambda e:(e.get('date') or '',e['season'],e['episode']),reverse=True)
+n,m=len(yt),len(tv_sorted); NEG=-10**9
+score=[[NEG]*(m+1) for _ in range(n+1)]
+ptr=[[None]*(m+1) for _ in range(n+1)]
+score[0][0]=0
+for j in range(1,m+1): score[0][j]=score[0][j-1]-0.35; ptr[0][j]='skip_tv'
+for i in range(1,n+1): score[i][0]=score[i-1][0]-2.0; ptr[i][0]='skip_yt'
+for i in range(1,n+1):
+    for j in range(1,m+1):
+        y,e=yt[i-1],tv_sorted[j-1]
+        s=sim(y['title'],e['title'])
+        date_bonus=0
+        if y.get('publish_date') and e.get('date'):
+            if y['publish_date']==e['date']: date_bonus=0.8
+            elif y['publish_date'][:4]==str(e['season']): date_bonus=0.1
+            else: date_bonus=-1.0
+        opts=[(score[i-1][j-1]+(2.2*s-0.65)+date_bonus,'match'),
+              (score[i][j-1]-0.35,'skip_tv'),
+              (score[i-1][j]-2.0,'skip_yt')]
+        score[i][j],ptr[i][j]=max(opts,key=lambda x:x[0])
+pairs=[]; skipped_tv=[]; skipped_yt=[]; i=n; j=m
+while i or j:
+    p=ptr[i][j]
+    if p=='match':
+        pairs.append((i-1,j-1,sim(yt[i-1]['title'],tv_sorted[j-1]['title']))); i-=1;j-=1
+    elif p=='skip_tv': skipped_tv.append(j-1); j-=1
+    elif p=='skip_yt': skipped_yt.append(i-1); i-=1
+    else: break
+pairs.reverse(); skipped_tv.reverse(); skipped_yt.reverse()
+
+rows=[]
+for yi,ti,s in pairs:
+    y,e=yt[yi],tv_sorted[ti]
+    exact=canonical(y['title'])==canonical(e['title'])
+    if exact: title_status='OK'
+    elif strip_cosmetic(y['title'])==strip_cosmetic(e['title']): title_status='COSMETIC_EXACTNESS'
+    elif norm(y['title'])==norm(e['title']): title_status='PUNCTUATION_EMOJI_EXACTNESS'
+    else: title_status='SUBSTANTIVE_MISMATCH'
+    pub=y.get('publish_date')
+    scope='IN_SCOPE' if pub and pub<=REF else ('AFTER_REFERENCE' if pub and pub>REF else ('IN_SCOPE' if (e.get('date') or '')<=REF else 'AFTER_REFERENCE'))
+    dursec=y.get('api_duration_seconds') or y.get('duration_seconds')
+    expmin=expected_minutes(dursec)
+    rows.append({
+        'code':e['code'],'season':e['season'],'episode':e['episode'],'episode_id':e['episode_id'],
+        'reference_scope':scope,'tvdb_date':e.get('date'),'youtube_date':pub,
+        'date_exact':(pub==e.get('date')) if pub and e.get('date') else None,
+        'tvdb_title':e['title'],'youtube_title':y['title'],'youtube_api_title':y.get('api_title'),
+        'title_exact':exact,'title_status':title_status,'title_similarity':round(s,3),
+        'youtube_id':y['id'],'youtube_url':y['url'],
+        'youtube_duration_seconds':dursec,'youtube_duration':fmt_duration(dursec),
+        'tvdb_runtime_minutes':e.get('runtime_minutes'),'expected_runtime_minutes':expmin,
+        'runtime_exact':(expmin==e.get('runtime_minutes')) if expmin is not None and e.get('runtime_minutes') is not None else None,
+        'season_flag':e.get('flag'),'tvdb_artwork':e.get('artwork'),'youtube_thumbnail':y.get('thumbnail')
+    })
+
+# ---------------- Artwork provenance ----------------
+# Hash one official thumbnail per current public video, with robust YouTube URLs.
+def yt_hash(v):
+    candidates=[
+        f"https://i.ytimg.com/vi/{v['id']}/maxresdefault.jpg",
+        v.get('thumbnail'),
+        f"https://i.ytimg.com/vi/{v['id']}/hqdefault.jpg"
+    ]
+    for u in dict.fromkeys(x for x in candidates if x):
+        try:
+            rr=get(u,15)
+            if len(rr.content)<1000: continue
+            im=Image.open(io.BytesIO(rr.content)).convert('RGB')
+            return {'id':v['id'],'hash':str(imagehash.phash(im)),'thumbnail_url_used':u}
+        except Exception:
+            pass
+    return {'id':v['id'],'hash':None,'thumbnail_url_used':None}
+
+thumb_hash={}
+with ThreadPoolExecutor(max_workers=24) as ex:
+    futs=[ex.submit(yt_hash,v) for v in yt]
+    for i,f in enumerate(as_completed(futs),1):
+        d=f.result(); thumb_hash[d['id']]=d
+        if i%60==0: print('YouTube thumbnail hashes',i,'/',len(yt))
+
+def art_hash(r):
+    if not r.get('tvdb_artwork'): return {'episode_id':r['episode_id'],'hash':None}
+    try:
+        rr=get(r['tvdb_artwork'],20)
+        if len(rr.content)<1000: return {'episode_id':r['episode_id'],'hash':None,'error':'too small'}
+        im=Image.open(io.BytesIO(rr.content)).convert('RGB')
+        return {'episode_id':r['episode_id'],'hash':str(imagehash.phash(im))}
+    except Exception as ex:
+        return {'episode_id':r['episode_id'],'hash':None,'error':str(ex)}
+
+art_hashes={}
+with ThreadPoolExecutor(max_workers=24) as ex:
+    futs=[ex.submit(art_hash,r) for r in rows]
+    for i,f in enumerate(as_completed(futs),1):
+        d=f.result(); art_hashes[d['episode_id']]=d
+        if i%60==0: print('TVDB artwork hashes',i,'/',len(rows))
+
+thumb_objs={vid:imagehash.hex_to_hash(d['hash']) for vid,d in thumb_hash.items() if d.get('hash')}
+for r in rows:
+    if not r.get('tvdb_artwork'):
+        r['image_status']='MISSING_IMAGE'
+        continue
+    ah=art_hashes.get(r['episode_id'],{}).get('hash')
+    if not ah:
+        r['image_status']='PRESENT_COMPARE_ERROR'; continue
+    ph=imagehash.hex_to_hash(ah)
+    own=thumb_objs.get(r['youtube_id'])
+    own_dist=int(ph-own) if own is not None else None
+    near=[]
+    for vid,h in thumb_objs.items():
+        d=int(ph-h)
+        if d<=4: near.append((d,vid))
+    near.sort()
+    r['own_thumbnail_phash_distance']=own_dist
+    r['near_thumbnail_matches']=[{'distance':d,'youtube_id':vid} for d,vid in near[:10]]
+    own_near=any(vid==r['youtube_id'] for d,vid in near)
+    other_near=[(d,vid) for d,vid in near if vid!=r['youtube_id']]
+    if own_near:
+        r['image_status']='CONFIRMED_OFFICIAL_THUMBNAIL'
+    elif other_near:
+        r['image_status']='WRONG_MATCHES_OTHER_VIDEO_THUMBNAIL'
+        r['wrong_match_youtube_id']=other_near[0][1]
+        r['wrong_match_distance']=other_near[0][0]
+    else:
+        r['image_status']='PRESENT_ORIGIN_UNPROVEN_SCREENSHOT_OR_CUSTOM'
+
+in_scope=[r for r in rows if r['reference_scope']=='IN_SCOPE']
+unmatched=[]
+for ti in skipped_tv:
+    e=tv_sorted[ti].copy()
+    e['reference_scope']='IN_SCOPE' if (e.get('date') or '')<=REF else 'AFTER_REFERENCE'
+    e['status']='TVDB_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH_DO_NOT_DELETE_WITHOUT_HISTORY'
+    unmatched.append(e)
+youtube_extras=[yt[i] for i in skipped_yt if (yt[i].get('publish_date') or '')<=REF]
+
+# Season summaries.
+seasons=[]
+for year in range(2012,2027):
+    eps=sorted([e for e in tv if e['season']==year],key=lambda x:x['episode'])
+    nums=[e['episode'] for e in eps]
+    sr=[r for r in in_scope if r['season']==year]
+    seasons.append({
+        'year':year,
+        'tvdb_episodes_current':len(eps),
+        'youtube_aligned_in_scope':len(sr),
+        'historical_tvdb_only_in_scope':sum(1 for e in unmatched if e['season']==year and e['reference_scope']=='IN_SCOPE'),
+        'missing_numbers':[x for x in range(1,(max(nums) if nums else 0)+1) if x not in nums],
+        'duplicate_numbers':[x for x,c in Counter(nums).items() if c>1],
+        'season_premieres':[e['code'] for e in eps if e.get('flag')=='season premiere'],
+        'season_finales':[e['code'] for e in eps if e.get('flag')=='season finale'],
+        'title_mismatches':sum(1 for r in sr if not r['title_exact']),
+        'date_mismatches':sum(1 for r in sr if r['date_exact'] is False),
+        'runtime_mismatches':sum(1 for r in sr if r['runtime_exact'] is False),
+        'images_missing':sum(1 for r in sr if r['image_status']=='MISSING_IMAGE'),
+        'images_confirmed_thumbnail':sum(1 for r in sr if r['image_status']=='CONFIRMED_OFFICIAL_THUMBNAIL'),
+        'images_wrong_other_thumbnail':sum(1 for r in sr if r['image_status']=='WRONG_MATCHES_OTHER_VIDEO_THUMBNAIL'),
+        'images_origin_unproven':sum(1 for r in sr if r['image_status'] in ('PRESENT_ORIGIN_UNPROVEN_SCREENSHOT_OR_CUSTOM','PRESENT_COMPARE_ERROR'))
+    })
+
+summary={
+    'generated_at':datetime.now(timezone.utc).isoformat(),
+    'reference_date':REF,
+    'youtube_public_videos_current':len(yt),
+    'youtube_exact_dates_retrieved':date_count,
+    'youtube_public_videos_in_scope':sum(1 for v in yt if v.get('publish_date') and v['publish_date']<=REF),
+    'tvdb_episodes_current':len(tv),
+    'aligned_pairs_current':len(rows),
+    'youtube_extras_in_scope':len(youtube_extras),
+    'tvdb_without_current_public_youtube_in_scope':sum(1 for e in unmatched if e['reference_scope']=='IN_SCOPE'),
+    'title_exact_mismatches_in_scope':sum(1 for r in in_scope if not r['title_exact']),
+    'title_substantive_mismatches_in_scope':sum(1 for r in in_scope if r['title_status']=='SUBSTANTIVE_MISMATCH'),
+    'date_mismatches_in_scope':sum(1 for r in in_scope if r['date_exact'] is False),
+    'runtime_mismatches_in_scope':sum(1 for r in in_scope if r['runtime_exact'] is False),
+    'runtime_unverifiable_in_scope':sum(1 for r in in_scope if r['runtime_exact'] is None),
+    'images_missing_in_scope':sum(1 for r in in_scope if r['image_status']=='MISSING_IMAGE'),
+    'images_confirmed_official_thumbnail_in_scope':sum(1 for r in in_scope if r['image_status']=='CONFIRMED_OFFICIAL_THUMBNAIL'),
+    'images_wrong_other_thumbnail_in_scope':sum(1 for r in in_scope if r['image_status']=='WRONG_MATCHES_OTHER_VIDEO_THUMBNAIL'),
+    'images_present_origin_unproven_in_scope':sum(1 for r in in_scope if r['image_status'] in ('PRESENT_ORIGIN_UNPROVEN_SCREENSHOT_OR_CUSTOM','PRESENT_COMPARE_ERROR')),
+}
+report={'summary':summary,'seasons':seasons,'rows':rows,
+        'tvdb_historical_without_current_public_youtube':unmatched,'youtube_extras':youtube_extras}
+json.dump(report,open(f'{ROOT}/audit-v2.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+
+fields=['code','reference_scope','tvdb_date','youtube_date','tvdb_title','youtube_title','title_exact','title_status',
+        'youtube_id','youtube_duration','youtube_duration_seconds','tvdb_runtime_minutes','expected_runtime_minutes','runtime_exact',
+        'season_flag','image_status','tvdb_artwork','own_thumbnail_phash_distance','wrong_match_youtube_id','youtube_url']
+with open(f'{ROOT}/audit-v2.csv','w',encoding='utf-8-sig',newline='') as f:
+    w=csv.DictWriter(f,fieldnames=fields); w.writeheader()
+    for r in rows: w.writerow({k:r.get(k) for k in fields})
+
+lines=['# Audit Mcfly & Carlito V2 — TheTVDB vs YouTube officiel','',f'**Date de référence : {REF}**','',
+       '## Bilan global','']
+for k,v in summary.items(): lines.append(f'- **{k}** : {v}')
+lines += ['','## Saisons','',
+'| Saison | YT alignés | TVDB | Historiques TVDB seuls | Titres ≠ | Dates ≠ | Runtimes ≠ | Images absentes | Images miniature confirmée | Images autre vidéo | Images origine non prouvée | Finale |',
+'|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|']
+for s in seasons:
+    lines.append(f"| {s['year']} | {s['youtube_aligned_in_scope']} | {s['tvdb_episodes_current']} | {s['historical_tvdb_only_in_scope']} | {s['title_mismatches']} | {s['date_mismatches']} | {s['runtime_mismatches']} | {s['images_missing']} | {s['images_confirmed_thumbnail']} | {s['images_wrong_other_thumbnail']} | {s['images_origin_unproven']} | {', '.join(s['season_finales']) or '—'} |")
+lines += ['','## Titres exacts à corriger','']
+for r in in_scope:
+    if not r['title_exact']:
+        lines.append(f"- **{r['code']} — {r['youtube_date']}** : « {r['tvdb_title']} » → « {r['youtube_title']} » ({r['title_status']})")
+lines += ['','## Dates à corriger','']
+for r in in_scope:
+    if r['date_exact'] is False:
+        lines.append(f"- **{r['code']} — {r['youtube_title']}** : TheTVDB {r['tvdb_date']} → YouTube {r['youtube_date']}")
+lines += ['','## Runtimes à corriger','']
+for r in in_scope:
+    if r['runtime_exact'] is False:
+        lines.append(f"- **{r['code']} — {r['youtube_title']}** : YouTube {r['youtube_duration']} → TheTVDB {r['tvdb_runtime_minutes']} min ; attendu {r['expected_runtime_minutes']} min")
+lines += ['','## Images manifestement attribuées à une autre vidéo','']
+wrong=[r for r in in_scope if r['image_status']=='WRONG_MATCHES_OTHER_VIDEO_THUMBNAIL']
+if wrong:
+    for r in wrong:
+        other=by_yt.get(r.get('wrong_match_youtube_id'),{})
+        lines.append(f"- **{r['code']} — {r['youtube_title']}** : artwork actuel correspond à la miniature de « {other.get('title','?')} » ({r.get('wrong_match_youtube_id')}).")
+else:
+    lines.append('- Aucune image actuelle n’a été prouvée comme miniature exacte d’une autre vidéo.')
+lines += ['','## Entrées TVDB sans vidéo publique actuelle','']
+for e in unmatched:
+    if e['reference_scope']=='IN_SCOPE':
+        lines.append(f"- **{e['code']} — {e['date']} — {e['title']}** — à rechercher historiquement avant toute suppression.")
+open(f'{ROOT}/audit-v2.md','w',encoding='utf-8').write('\n'.join(lines)+'\n')
+open(f'{ROOT}/summary-v2.txt','w',encoding='utf-8').write(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
+print(json.dumps(summary,ensure_ascii=False,indent=2))
+,lines[j],re.I):
             title_parts.append(lines[j]); j+=1
         if j<len(lines) and re.match(r'^season (premiere|finale)$',lines[j],re.I):
             flag=lines[j].lower(); j+=1
