@@ -1,0 +1,88 @@
+{
+  "authenticated": true,
+  "planned": 7,
+  "writes": [
+    {
+      "id": "9407164",
+      "season": 2022,
+      "episode": 47,
+      "from": "ON MANGE 100 PLATS D’AFFILÉ (et on les juge)(On en peut plus)",
+      "to": "ON MANGE 100 PLATS D’AFFILÉE (et on les juge)(On en peut plus)"
+    },
+    {
+      "id": "8155934",
+      "season": 2021,
+      "episode": 5,
+      "from": "100 ABONNÉS VS 4 YOUTUBERS ! (Nerf Zombie) ft @Michou​, @LeBouseuh​, @CHRIS​",
+      "to": "100 ABONNÉS VS 4 YOUTUBERS ! (Nerf Zombie) ft @Michou, @LeBouseuh, @Chris_"
+    },
+    {
+      "id": "6791197",
+      "season": 2018,
+      "episode": 58,
+      "from": "ENORME BATAILLE NAVALE DANS LA VRAIE VIE ! (ft. ALL STAR REDBOX)",
+      "to": "ÉNORME BATAILLE NAVALE DANS LA VRAIE VIE ! (ft. ALL STAR REDBOX)"
+    },
+    {
+      "id": "6695248",
+      "season": 2018,
+      "episode": 36,
+      "from": "1000 KILOMÈTRES SANS CARTE NI GPS ! - RedBoxTrip #1",
+      "to": "1000 KILOMÈTRES SANS CARTE NI GPS ! - RedBox Trip #1"
+    },
+    {
+      "id": "6111940",
+      "season": 2017,
+      "episode": 43,
+      "from": "LE CADEAU D'ABONNÉ LE PLUS GÊNANT",
+      "to": "LE CADEAU D'ABONNÉ LE PLUS GÊNANT !"
+    },
+    {
+      "id": "6102865",
+      "season": 2017,
+      "episode": 37,
+      "from": "LE JOUR OÙ JE ME SUIS RÉVEILLÉ DANS UNE BAIGNOIRE ...",
+      "to": "LE JOUR OÙ JE ME SUIS RÉVEILLÉ DANS UNE BAIGNOIRE..."
+    },
+    {
+      "id": "6095581",
+      "season": 2016,
+      "episode": 44,
+      "from": "LES YOUTUBERS DESSINENT EN RÉALITÉ VIRTUELLE ! ft. Pierre Croce..",
+      "to": "LES YOUTUBERS DESSINENT EN RÉALITÉ VIRTUELLE ! ft. Pierre Croce, Terracid & LeMondeÀLenvers"
+    }
+  ],
+  "skips": [],
+  "blocked": [],
+  "verifications": [
+    {
+      "id": "9407164",
+      "ok": true
+    },
+    {
+      "id": "8155934",
+      "ok": true
+    },
+    {
+      "id": "6791197",
+      "ok": true
+    },
+    {
+      "id": "6695248",
+      "ok": true
+    },
+    {
+      "id": "6111940",
+      "ok": true
+    },
+    {
+      "id": "6102865",
+      "ok": true
+    },
+    {
+      "id": "6095581",
+      "ok": true
+    }
+  ],
+  "result": "APPLIED_AND_VERIFIED"
+}

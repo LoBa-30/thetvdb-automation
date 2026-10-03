@@ -1,0 +1,7 @@
+authenticated=true
+planned=7
+writes=7
+skips=0
+blocked=0
+verifications=7
+result=APPLIED_AND_VERIFIED
