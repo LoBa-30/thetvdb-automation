@@ -1,0 +1,5 @@
+authenticated=true
+result=APPLIED_AND_VERIFIED
+preflight={"row":{"number":8,"title":"BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan)"},"currentTitle":"BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan)"}
+write={"status":"WRITTEN","from":"BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan)","to":"ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan)"}
+verification={"title":"ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan)","ok":true}

@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-10-03T11:50:19.536Z",
+  "mode": "JOYCA_SINGLE_TITLE_REFRESH",
+  "authenticated": true,
+  "edit": {
+    "season": 2026,
+    "episode": 8,
+    "id": "11749116",
+    "from": "BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan)",
+    "to": "ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan)"
+  },
+  "preflight": {
+    "row": {
+      "number": 8,
+      "title": "BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan)"
+    },
+    "currentTitle": "BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan)"
+  },
+  "write": {
+    "status": "WRITTEN",
+    "from": "BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan)",
+    "to": "ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan)"
+  },
+  "verification": {
+    "title": "ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan)",
+    "ok": true
+  },
+  "result": "APPLIED_AND_VERIFIED"
+}
