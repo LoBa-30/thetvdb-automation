@@ -1,0 +1,488 @@
+{
+  "generatedAt": "2026-10-03",
+  "target": "Mcfly & Carlito",
+  "seriesSlug": "338282-show",
+  "rule": "Each source was present in current Unassigned and matched exactly one assigned episode by NFC title + airdate; that assigned target also had a current public YouTube match in artifact run 37071623875. Fresh authenticated live preflight is mandatory before mutation.",
+  "pairs": [
+    {
+      "sourceId": "10436702",
+      "targetId": "10436723",
+      "season": 2024,
+      "episode": 7,
+      "code": "S2024E07",
+      "date": "2024-01-29",
+      "title": "Boire 10 cafés, devenir fous, construire un château de cartes, devenir fous",
+      "youtubeId": "UmwUm23QOtk"
+    },
+    {
+      "sourceId": "10436705",
+      "targetId": "10436728",
+      "season": 2024,
+      "episode": 10,
+      "code": "S2024E10",
+      "date": "2024-02-06",
+      "title": "Dégustation de 8 piments bruts, avec un quasi décès de Mcfly",
+      "youtubeId": "jslLKDDtoa8"
+    },
+    {
+      "sourceId": "10436706",
+      "targetId": "10436729",
+      "season": 2024,
+      "episode": 11,
+      "code": "S2024E11",
+      "date": "2024-02-08",
+      "title": "Mario Carte Bleue OG feat Antoine Dupont (tu perds, tu paies)",
+      "youtubeId": "W3Y8bCDZFXE"
+    },
+    {
+      "sourceId": "10436707",
+      "targetId": "10436730",
+      "season": 2024,
+      "episode": 12,
+      "code": "S2024E12",
+      "date": "2024-02-13",
+      "title": "Excusez-moi monsieur mais il y a une crotte de nez sur le traversin",
+      "youtubeId": "YhainxWmVgY"
+    },
+    {
+      "sourceId": "10436710",
+      "targetId": "10436733",
+      "season": 2024,
+      "episode": 15,
+      "code": "S2024E15",
+      "date": "2024-02-28",
+      "title": "Retour sur les objets qui ont marqué notre enfance avec Cyprien NOSTALGIE LEVEL MAX",
+      "youtubeId": "k9hLku6g2i4"
+    },
+    {
+      "sourceId": "10436711",
+      "targetId": "10436734",
+      "season": 2024,
+      "episode": 16,
+      "code": "S2024E16",
+      "date": "2024-03-05",
+      "title": "Venez on se rappelle de Golden Moustache car c’était trop bien",
+      "youtubeId": "uCnH55DAOWk"
+    },
+    {
+      "sourceId": "10436713",
+      "targetId": "10436736",
+      "season": 2024,
+      "episode": 18,
+      "code": "S2024E18",
+      "date": "2024-03-12",
+      "title": "On devine 41 saveurs de sirop et c'est un enfer",
+      "youtubeId": "UpnLxLY9r6o"
+    },
+    {
+      "sourceId": "10436714",
+      "targetId": "10436737",
+      "season": 2024,
+      "episode": 19,
+      "code": "S2024E19",
+      "date": "2024-03-14",
+      "title": "PAINBALL : si t’es pas honnête, tu souffres #2 feat Paul Mirabel",
+      "youtubeId": "X5IyhotPoT0"
+    },
+    {
+      "sourceId": "10436717",
+      "targetId": "10436740",
+      "season": 2024,
+      "episode": 22,
+      "code": "S2024E22",
+      "date": "2024-03-26",
+      "title": "Dégustation de on sait plus combien de bières mais qu'est-ce qu'on a ri",
+      "youtubeId": "q_ZU6t7ri5I"
+    },
+    {
+      "sourceId": "10436718",
+      "targetId": "10436700",
+      "season": 2024,
+      "episode": 5,
+      "code": "S2024E05",
+      "date": "2024-01-22",
+      "title": "Le journalisme d’aujourd’hui feat Élise Lucet et Hugo Décrypte",
+      "youtubeId": "tZNU5iRL5p0"
+    },
+    {
+      "sourceId": "10436720",
+      "targetId": "10436701",
+      "season": 2024,
+      "episode": 6,
+      "code": "S2024E06",
+      "date": "2024-01-25",
+      "title": "RACLETTE LEAGUE : tu manges une raclette OU tu passes la raclette (feat Thomas & Amixem)",
+      "youtubeId": "uaDxk6I8B3k"
+    },
+    {
+      "sourceId": "10436721",
+      "targetId": "10436742",
+      "season": 2024,
+      "episode": 24,
+      "code": "S2024E24",
+      "date": "2024-04-01",
+      "title": "Les secrets et coulisses du cultissime Morning Live",
+      "youtubeId": "qP6g6UZjOVY"
+    },
+    {
+      "sourceId": "10436724",
+      "targetId": "10436703",
+      "season": 2024,
+      "episode": 8,
+      "code": "S2024E08",
+      "date": "2024-01-31",
+      "title": "La vidéo s’arrête si l’un de nous rigole",
+      "youtubeId": "Bf5YZPAjnIA"
+    },
+    {
+      "sourceId": "10436726",
+      "targetId": "10436704",
+      "season": 2024,
+      "episode": 9,
+      "code": "S2024E09",
+      "date": "2024-02-02",
+      "title": "5 humoristes brillants pour notre 1ère émission stand up (Julien Santini au sommet)",
+      "youtubeId": "xpYs-SSpfEk"
+    },
+    {
+      "sourceId": "10436731",
+      "targetId": "10436708",
+      "season": 2024,
+      "episode": 13,
+      "code": "S2024E13",
+      "date": "2024-02-15",
+      "title": "Faites-nous rire et gagnez un SMIC ou un Bec Bunsen par exemple",
+      "youtubeId": "qEeNgCFjP1A"
+    },
+    {
+      "sourceId": "10436732",
+      "targetId": "10436709",
+      "season": 2024,
+      "episode": 14,
+      "code": "S2024E14",
+      "date": "2024-02-26",
+      "title": "La gestion des émotions feat Djilsi et Paola",
+      "youtubeId": "Yyy7J_mb5pg"
+    },
+    {
+      "sourceId": "10436735",
+      "targetId": "10436712",
+      "season": 2024,
+      "episode": 17,
+      "code": "S2024E17",
+      "date": "2024-03-07",
+      "title": "Du rire et des associations alimentaires douteuses avec Jeremy Nadeau (feat l’échelle)",
+      "youtubeId": "lKvtL7Nw06M"
+    },
+    {
+      "sourceId": "10436738",
+      "targetId": "10436715",
+      "season": 2024,
+      "episode": 20,
+      "code": "S2024E20",
+      "date": "2024-03-18",
+      "title": "Discussion passionnée autour des mangas avec Lous et Cyprien",
+      "youtubeId": "8EhRnXZJ_-0"
+    },
+    {
+      "sourceId": "10436739",
+      "targetId": "10436716",
+      "season": 2024,
+      "episode": 21,
+      "code": "S2024E21",
+      "date": "2024-03-21",
+      "title": "On goûte les 4 spécialités culinaires les plus cheloues de la planète #3 (âmes sensibles s’abstenir)",
+      "youtubeId": "Eu4RtkzDKzI"
+    },
+    {
+      "sourceId": "10436741",
+      "targetId": "10436719",
+      "season": 2024,
+      "episode": 23,
+      "code": "S2024E23",
+      "date": "2024-03-28",
+      "title": "Battle de bières : un génie, un mito et un naze",
+      "youtubeId": "wp5fOS5hSrs"
+    },
+    {
+      "sourceId": "10751277",
+      "targetId": "10751304",
+      "season": 2013,
+      "episode": 6,
+      "code": "S2013E06",
+      "date": "2013-02-01",
+      "title": "LE FAT SHOW No2 (L'ENORME TV) GUEST : ANTOINE DE MAXIMY",
+      "youtubeId": "41oQDeHlhZU"
+    },
+    {
+      "sourceId": "10751280",
+      "targetId": "10751307",
+      "season": 2013,
+      "episode": 9,
+      "code": "S2013E09",
+      "date": "2013-02-08",
+      "title": "LE FAT SHOW No3 (L'ENORME TV) GUEST : ANNA POLINA (DORCEL)",
+      "youtubeId": "z0Y9V7RflnY"
+    },
+    {
+      "sourceId": "10751281",
+      "targetId": "10751308",
+      "season": 2013,
+      "episode": 10,
+      "code": "S2013E10",
+      "date": "2013-02-09",
+      "title": "LE FAT SHOW - LE CHANTEUR DE METAL APHONE (MCFLY ET CARLITO)",
+      "youtubeId": "alhF53Ipb0A"
+    },
+    {
+      "sourceId": "10751282",
+      "targetId": "10751309",
+      "season": 2013,
+      "episode": 11,
+      "code": "S2013E11",
+      "date": "2013-02-15",
+      "title": "LE FAT SHOW No4 (L'ENORME TV) AVEC MCFLY, CARLITO ET GAEL MECTOOB",
+      "youtubeId": "GXekJanA4TE"
+    },
+    {
+      "sourceId": "10751284",
+      "targetId": "10751311",
+      "season": 2013,
+      "episode": 13,
+      "code": "S2013E13",
+      "date": "2013-02-22",
+      "title": "LE FAT SHOW No5 (L'ENORME TV) GUEST : A2H",
+      "youtubeId": "CYkZpTUELdI"
+    },
+    {
+      "sourceId": "10751285",
+      "targetId": "10751312",
+      "season": 2013,
+      "episode": 14,
+      "code": "S2013E14",
+      "date": "2013-02-27",
+      "title": "LE MICROTROTTOIR DE MARINA - LE PORNO",
+      "youtubeId": "PGnP5pmkVso"
+    },
+    {
+      "sourceId": "10751286",
+      "targetId": "10751313",
+      "season": 2013,
+      "episode": 15,
+      "code": "S2013E15",
+      "date": "2013-03-01",
+      "title": "LE FAT SHOW No6 (L'ENORME TV) GUEST : NEPHAEL",
+      "youtubeId": "bRunTwBhoqY"
+    },
+    {
+      "sourceId": "10751287",
+      "targetId": "10751314",
+      "season": 2013,
+      "episode": 16,
+      "code": "S2013E16",
+      "date": "2013-03-03",
+      "title": "ARKASIA - \"REVOLUTION\" LIVE @LE FAT SHOW (ENORME TV)",
+      "youtubeId": "_QmgKcLTP_A"
+    },
+    {
+      "sourceId": "10751288",
+      "targetId": "10751315",
+      "season": 2013,
+      "episode": 17,
+      "code": "S2013E17",
+      "date": "2013-03-06",
+      "title": "MCFLY ET CARLITO - RAPPEUR SANS HISTOIRE VIDEOCLIP (ENORME TV)",
+      "youtubeId": "EF63MoXrc1M"
+    },
+    {
+      "sourceId": "10751290",
+      "targetId": "10751317",
+      "season": 2013,
+      "episode": 19,
+      "code": "S2013E19",
+      "date": "2013-03-12",
+      "title": "GERARD DARMON LIT UN SKETCH DE MCFLY ET CARLITO",
+      "youtubeId": "EjuWtBO9i50"
+    },
+    {
+      "sourceId": "10751292",
+      "targetId": "10751319",
+      "season": 2013,
+      "episode": 21,
+      "code": "S2013E21",
+      "date": "2013-03-18",
+      "title": "AMORIA & JOKAFACE - \"BOSSY CLASSY SISTA\" LIVE @LE FAT SHOW",
+      "youtubeId": "ysDPjbEoniE"
+    },
+    {
+      "sourceId": "10751293",
+      "targetId": "10751320",
+      "season": 2013,
+      "episode": 22,
+      "code": "S2013E22",
+      "date": "2013-03-22",
+      "title": "LE FAT SHOW No9 (L'ENORME TV) GUEST : YACINE BELHOUSSE",
+      "youtubeId": "NqLuiEpVaOY"
+    },
+    {
+      "sourceId": "10751295",
+      "targetId": "10751322",
+      "season": 2013,
+      "episode": 24,
+      "code": "S2013E24",
+      "date": "2013-03-29",
+      "title": "LE FAT SHOW No10 MCFLY & CARLITO - GUEST : VICELOW (SAIAN SUPA CREW)",
+      "youtubeId": "xOAeJe_GnjA"
+    },
+    {
+      "sourceId": "10751299",
+      "targetId": "10751326",
+      "season": 2013,
+      "episode": 28,
+      "code": "S2013E28",
+      "date": "2013-04-26",
+      "title": "LE FAT SHOW No13 - GUEST : KAYANE",
+      "youtubeId": "KrczeCBPObI"
+    },
+    {
+      "sourceId": "10751305",
+      "targetId": "10751278",
+      "season": 2013,
+      "episode": 7,
+      "code": "S2013E07",
+      "date": "2013-02-03",
+      "title": "LA BLAGUE DE SCHNYDEPS - PAINTBALL (LE FAT SHOW No2)",
+      "youtubeId": "-1hEz7UYeAE"
+    },
+    {
+      "sourceId": "10751306",
+      "targetId": "10751279",
+      "season": 2013,
+      "episode": 8,
+      "code": "S2013E08",
+      "date": "2013-02-04",
+      "title": "FRANK \"DANS LA TETE\" LIVE @LE FAT SHOW",
+      "youtubeId": "_q6twnj0kGg"
+    },
+    {
+      "sourceId": "10751310",
+      "targetId": "10751283",
+      "season": 2013,
+      "episode": 12,
+      "code": "S2013E12",
+      "date": "2013-02-19",
+      "title": "MCFLY ET CARLITO - CHUTES EN PUBLIC (SKETCH LE FAT SHOW No2)",
+      "youtubeId": "U8v0Qk1DXgQ"
+    },
+    {
+      "sourceId": "10751316",
+      "targetId": "10751289",
+      "season": 2013,
+      "episode": 18,
+      "code": "S2013E18",
+      "date": "2013-03-08",
+      "title": "LE FAT SHOW No7 (L'ENORME TV) GUEST : AQME",
+      "youtubeId": "mPzv-d4Qd4Q"
+    },
+    {
+      "sourceId": "10751318",
+      "targetId": "10751291",
+      "season": 2013,
+      "episode": 20,
+      "code": "S2013E20",
+      "date": "2013-03-15",
+      "title": "LE FAT SHOW No8 (L'ENORME TV) GUEST : GERARD DARMON",
+      "youtubeId": "xLi6u-yHWIU"
+    },
+    {
+      "sourceId": "10751321",
+      "targetId": "10751294",
+      "season": 2013,
+      "episode": 23,
+      "code": "S2013E23",
+      "date": "2013-03-29",
+      "title": "VICELOW \"BEAT SALE\" - LIVE LE FAT SHOW No10",
+      "youtubeId": "wQlpMkh7pYw"
+    },
+    {
+      "sourceId": "10751323",
+      "targetId": "10751296",
+      "season": 2013,
+      "episode": 25,
+      "code": "S2013E25",
+      "date": "2013-04-05",
+      "title": "LE FAT SHOW No11 (L'ENORME TV) GUEST : LAURENT BAFFIE",
+      "youtubeId": "Bo4JdwTpUUY"
+    },
+    {
+      "sourceId": "10751324",
+      "targetId": "10751297",
+      "season": 2013,
+      "episode": 26,
+      "code": "S2013E26",
+      "date": "2013-04-19",
+      "title": "LE FAT SHOW No12 (L'ENORME TV) GUEST : ELISE LARNICOL",
+      "youtubeId": "GzXnuPd6oX8"
+    },
+    {
+      "sourceId": "10751325",
+      "targetId": "10751298",
+      "season": 2013,
+      "episode": 27,
+      "code": "S2013E27",
+      "date": "2013-04-26",
+      "title": "MCFLY & SCHNYDEPS - LES GYMNASTES URBAINS (REAL/CADRE PAR CARLITO)",
+      "youtubeId": "K_XlCUH3HTc"
+    },
+    {
+      "sourceId": "10751327",
+      "targetId": "10751300",
+      "season": 2013,
+      "episode": 29,
+      "code": "S2013E29",
+      "date": "2013-05-03",
+      "title": "PETER VON POEHL \"28 PARADISE\" - @LE FAT SHOW (LIVE 1080 HD)",
+      "youtubeId": "MIe7ijju2N8"
+    },
+    {
+      "sourceId": "10751328",
+      "targetId": "10751301",
+      "season": 2013,
+      "episode": 30,
+      "code": "S2013E30",
+      "date": "2013-05-03",
+      "title": "LE FAT SHOW No14 - GUESTS : RAPHAEL CHIQUET/PETER VON POEHL",
+      "youtubeId": "B3XQyHeTl70"
+    },
+    {
+      "sourceId": "10831017",
+      "targetId": "10831016",
+      "season": 2024,
+      "episode": 89,
+      "code": "S2024E89",
+      "date": "2024-11-28",
+      "title": "Faites nous rire avec Joyca (très beau) et c’est de loin le meilleur épisode (très drôle)",
+      "youtubeId": "8iDFsLu9qJw"
+    },
+    {
+      "sourceId": "10932206",
+      "targetId": "10922900",
+      "season": 2025,
+      "episode": 5,
+      "code": "S2025E05",
+      "date": "2025-01-21",
+      "title": "On devine 27 apéricubes et Carlito a battu Mcfly ! NON BIEN ENTENDU",
+      "youtubeId": "3hpCXchPy68"
+    },
+    {
+      "sourceId": "10932209",
+      "targetId": "10929387",
+      "season": 2025,
+      "episode": 6,
+      "code": "S2025E06",
+      "date": "2025-01-24",
+      "title": "On découvre les gestes qui peuvent sauver une vie",
+      "youtubeId": "-b80wdE9KVE"
+    }
+  ]
+}
