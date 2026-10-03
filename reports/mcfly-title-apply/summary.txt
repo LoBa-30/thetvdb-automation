@@ -1,0 +1,8 @@
+authenticated=true
+planned=4
+youtubeCatalogueCount=576
+writes=0
+skips=0
+blocked=1
+verifications=0
+result=BLOCKED_BEFORE_WRITES

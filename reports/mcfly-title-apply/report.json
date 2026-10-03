@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-10-03T10:22:53.811Z",
+  "authenticated": true,
+  "planned": 4,
+  "youtubeCatalogueCount": 576,
+  "youtubePreflight": [
+    {
+      "id": "9381309",
+      "youtubeId": "YQ0Ty-EJeSM",
+      "expected": "Qui est le papa de qui ? Préparez les 🍿 ainsi que les 🤧",
+      "actual": "Qui est le papa de qui ? Préparez les 🍿 ainsi que les 🤧",
+      "ok": true
+    },
+    {
+      "id": "10677628",
+      "youtubeId": "FMTRmSa8iz8",
+      "expected": "Podcartes Feat. Océane 🌷#2",
+      "actual": "Podcartes Feat. Océane 🌷#2",
+      "ok": true
+    },
+    {
+      "id": "11614913",
+      "youtubeId": "nbKXn_XtajY",
+      "expected": "Quel couple se connaît le mieux ? Avec Erika et Tif 💜 (y’a TOUT dans cette vidéo)",
+      "actual": "Quel couple se connaît le mieux ? Avec Erika et Tif 💜 (y’a TOUT dans cette vidéo)",
+      "ok": true
+    },
+    {
+      "id": "11879094",
+      "youtubeId": "Vr9kBC8rG3A",
+      "expected": "On classe 32 friandises de cinéma avec Florent Bernard & Seb Vaniček (Mcfly n’aime pas le popcorn 🍿)",
+      "actual": "On classe 32 friandises de cinéma avec Florent Bernard & Seb Vaniček (Mcfly n’aime pas le popcorn 🍿)",
+      "ok": true
+    }
+  ],
+  "writes": [],
+  "skips": [],
+  "blocked": [
+    {
+      "reason": "Error: Title verify failed 9381309 got Qui est le papa de qui ? Préparez les ???? ainsi que les ????\n    at file:///home/runner/work/thetvdb-automation/thetvdb-automation/src/mcfly-title-apply.js:68:43\n    at runNextTicks (node:internal/process/task_queues:64:5)\n    at process.processImmediate (node:internal/timers:452:9)\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)"
+    }
+  ],
+  "verifications": [],
+  "result": "BLOCKED_BEFORE_WRITES"
+}
