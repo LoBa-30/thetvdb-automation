@@ -1,4 +1,4 @@
-import json, re, csv, io, math, unicodedata, html as htmlmod
+import json, re, csv, io, math, unicodedata, html as htmlmod, time
 from datetime import datetime, timezone
 from difflib import SequenceMatcher
 from collections import Counter, defaultdict
@@ -52,9 +52,25 @@ def fmt_duration(sec):
 def expected_minutes(sec):
     return int(math.floor(float(sec)/60.0 + 0.5)) if sec is not None else None
 
-def get(url, timeout=25):
-    s=requests.Session(); s.headers.update(HEADERS)
-    r=s.get(url,timeout=timeout); r.raise_for_status(); return r
+_http=requests.Session()
+_http.headers.update(HEADERS)
+
+def get(url, timeout=25, attempts=5):
+    last=None
+    for attempt in range(1,attempts+1):
+        try:
+            r=_http.get(url,timeout=timeout)
+            if r.status_code in (429,500,502,503,504):
+                last=RuntimeError(f'HTTP {r.status_code} for {url}')
+                time.sleep(min(2*attempt,8))
+                continue
+            r.raise_for_status()
+            return r
+        except requests.RequestException as ex:
+            last=ex
+            if attempt<attempts:
+                time.sleep(min(2*attempt,8))
+    raise last
 
 # ---------------- YouTube catalogue ----------------
 cat=json.load(open(f'{ROOT}/catalogue.json',encoding='utf-8'))
