@@ -1,0 +1,155 @@
+{
+  "generatedAt": "2026-10-03T13:51:00+02:00",
+  "purpose": "Master execution plan consolidating every user-supplied PDF audit with the live GitHub state. PDF findings are requirements/tickets, not blind write instructions: fresh preflight always wins.",
+  "globalRules": [
+    "Complete all nine supplied PDF audits; none may be silently dropped.",
+    "Control every long public video individually from first to last.",
+    "Fresh TheTVDB/YouTube preflight before every write.",
+    "Never recreate an episode already present.",
+    "Never delete solely because a video is no longer public.",
+    "Resolve Unassigned individually; no blind bulk operations.",
+    "Verify every successful write afterward.",
+    "Artwork is valid only when provenance to the exact episode is demonstrated."
+  ],
+  "pdfAudits": [
+    {
+      "target": "Djilsi",
+      "pdf": "AUDIT THETVDB — DJILSI.pdf",
+      "status": "IN_PROGRESS",
+      "pdfOpenWork": [
+        "2 episode dates + series First Aired check",
+        "30 runtimes",
+        "2026 teaser/numbering/finale issue must be re-preflighted because later repository policy/user approval may conflict",
+        "139 missing artworks in PDF snapshot",
+        "75 existing artworks provenance checks"
+      ]
+    },
+    {
+      "target": "Elian Ventre",
+      "pdf": "AUDIT THETVDB — ELIAN VENTRE.pdf",
+      "status": "IN_PROGRESS",
+      "pdfOpenWork": [
+        "S2024E01 exact emoji title",
+        "9 missing artworks in 09/09 scope + current S2026E08 artwork",
+        "19 existing artworks provenance",
+        "S2026E08 current title/runtime/image recheck"
+      ]
+    },
+    {
+      "target": "Raska",
+      "pdf": "Audit — Raska : TheTVDB.pdf",
+      "status": "IN_PROGRESS",
+      "pdfOpenWork": [
+        "Complete remaining metadata and historical private-video validation",
+        "Image work/provenance",
+        "Do not redo resolved 2018/2023 numbering collisions"
+      ]
+    },
+    {
+      "target": "Maxime Biaggi",
+      "pdf": "AUDIT THETVDB — MAXIME BIAGGI.pdf",
+      "scope": "MAIN CHANNEL ONLY",
+      "status": "IN_PROGRESS",
+      "pdfOpenWork": [
+        "10 exact title corrections",
+        "7 Season Premiere markers if convention still intended after fresh preflight",
+        "64 missing artworks",
+        "S2024E05 runtime ticket"
+      ]
+    },
+    {
+      "target": "Squeezie",
+      "pdf": "AUDIT THETVDB — SQUEEZIE.pdf",
+      "status": "IN_PROGRESS",
+      "pdfOpenWork": [
+        "5 certain Unassigned duplicates still need successful delete/merge",
+        "165 metadata-blocked videos in PDF snapshot",
+        "runtime tickets in 2016/2017/2019/2021",
+        "historical research for TVDB-only entries",
+        "114 existing artwork provenance checks",
+        "1484 missing artworks in PDF snapshot"
+      ]
+    },
+    {
+      "target": "Mastu",
+      "pdf": "AUDIT MASTU × THETVDB.pdf",
+      "status": "IN_PROGRESS",
+      "pdfOpenWork": [
+        "10 Unassigned individually",
+        "16 historical TVDB-only entries research",
+        "emoji/???? title cases",
+        "artwork provenance/completeness",
+        "new live-audit unmatched 5IC69WoRYQ8 must not be created: public TVDB already has S2022E15"
+      ]
+    },
+    {
+      "target": "Amixem",
+      "pdf": "AMIXEM — AUDIT THETVDB.pdf",
+      "status": "IN_PROGRESS",
+      "pdfOpenWork": [
+        "5 Unassigned individually",
+        "historical research for 85 TVDB-only entries",
+        "substantive inversion tickets S2016E97/E98, S2017E12, S2020E72/E73",
+        "769 missing artworks in PDF snapshot",
+        "2 artwork provenance tickets",
+        "runtime/title corrections already partially/mostly applied must be post-verified, not repeated"
+      ]
+    },
+    {
+      "target": "Joyca",
+      "pdf": "AUDIT JOYCA — THETVDB VS YOUTUBE OFFICIEL.pdf",
+      "status": "IN_PROGRESS",
+      "pdfOpenWork": [
+        "53 exact-title differences from PDF with fresh preflight",
+        "214 runtimes from PDF with fresh preflight",
+        "379 missing artworks + 3 provenance tickets",
+        "21 historical TVDB-only entries research",
+        "Unassigned appears resolved",
+        "S2026E08 stale PDF title superseded by current official YouTube title: ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan)"
+      ]
+    },
+    {
+      "target": "Mcfly & Carlito",
+      "pdf": "AUDIT THETVDB — MCFLY & CARLITO.pdf",
+      "status": "IN_PROGRESS",
+      "pdfOpenWork": [
+        "Strict exclusions/trailer/promo findings require current preflight before destructive action",
+        "Exact-title divergences",
+        "historical TVDB-only entries research",
+        "artwork provenance/completeness",
+        "Unassigned/specials state must use current authenticated snapshot, not stale count",
+        "GROSSE ANNONCE is a renamed existing episode: never create"
+      ]
+    }
+  ],
+  "latestLiveAudit": {
+    "sourceRun": 37042038540,
+    "attempt": 2,
+    "result": "SUCCESS",
+    "observed": {
+      "Djilsi": "215 YT / 215 TVDB / 215 matches / 0 unmatched",
+      "Elian Ventre": "29 / 29 / 29 / 0 unmatched",
+      "Raska": "149 / 150 / 149 / 0 YT unmatched / 1 TVDB-only",
+      "Maxime Biaggi": "64 / 64 / 64 / 0 unmatched",
+      "Squeezie": "1585 / 1659 / 1584 / 1 YT unmatched / 75 TVDB-only",
+      "Mastu": "361 / 376 / 360 / 1 YT unmatched / 16 TVDB-only",
+      "Amixem": "889 / 974 / 889 / 0 unmatched / 85 TVDB-only",
+      "Joyca": "449 / 470 / 448 / 1 YT unmatched / 22 TVDB-only",
+      "Mcfly & Carlito": "576 / 582 / 575 / 1 YT unmatched / 7 TVDB-only"
+    }
+  },
+  "newlyResolvedOrEscalated": [
+    {
+      "target": "Mastu",
+      "case": "5IC69WoRYQ8 LE JEU DE LA FRAUDE",
+      "resolution": "MATCHER_FALSE_POSITIVE_DO_NOT_CREATE",
+      "evidence": "Current public TheTVDB already exposes S2022E15 with same title/date."
+    },
+    {
+      "target": "Joyca",
+      "case": "C_TvsFED5gY",
+      "resolution": "CURRENT_TITLE_REFRESH_IN_PROGRESS",
+      "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
+    }
+  ]
+}
