@@ -1,0 +1,144 @@
+{
+  "generatedAt": "2026-10-03T10:20:00Z",
+  "status": "PROGRESS_CHECKPOINT",
+  "target": "Mcfly & Carlito",
+  "branch": "mcfly-audit-2026-10-03",
+  "source": {
+    "finalAuditArtifactRun": 37071623875,
+    "finalAuditArtifactId": 11254633967,
+    "unassignedSnapshotRun": 37073100582,
+    "unassignedSnapshotArtifactId": 11255457016,
+    "currentPublicVideosTabCount": 576,
+    "currentTvdbAssignedEpisodesCount": 582
+  },
+  "presenceResolution": {
+    "rawAlignedPairs": 572,
+    "rawYoutubeExtras": 4,
+    "resolvedYoutubeExtras": [
+      {
+        "youtubeId": "vbj8bMQNIZE",
+        "resolution": "EXISTING_TVDB_MATCH",
+        "tvdbId": "10714430",
+        "code": "S2024E65",
+        "title": "On repasse le code de la route et c’est bien plus dur que prévu"
+      },
+      {
+        "youtubeId": "AwdfloSJrtA",
+        "resolution": "EXISTING_TVDB_MATCH",
+        "tvdbId": "8189257",
+        "code": "S2020E13",
+        "title": "MÉLI-MÉLO... le 3."
+      },
+      {
+        "youtubeId": "r1_H7Va8D8w",
+        "resolution": "EXISTING_TVDB_MATCH",
+        "tvdbId": "6672789",
+        "code": "S2018E01",
+        "title": "BLINDTEST DES SYNONYMES feat. MAXENSS et SQUEEZIE"
+      },
+      {
+        "youtubeId": "fttKpTYRdMs",
+        "resolution": "RENAMED_EXISTING_TVDB_EPISODE",
+        "code": "S2018E06",
+        "title": "GROSSE ANNONCE",
+        "note": "Previously resolved in reports/checkpoint-2026-10-02-1451.json; never create a duplicate."
+      }
+    ],
+    "effectiveCurrentPublicPresenceCoverage": "576/576",
+    "missingCurrentPublicVideosAfterResolution": 0,
+    "note": "Presence/correspondence is complete for the current 576 public Videos-tab entries. Reference-date filtering and exact chronological/date validation remain separate work because YouTube exact date extraction was blocked for most videos."
+  },
+  "unassigned": {
+    "currentCount": 64,
+    "exactDuplicateCandidates": 48,
+    "unresolvedTickets": 16,
+    "unresolved": [
+      {
+        "id": "10751340",
+        "date": "2013-05-10",
+        "title": "Unknown"
+      },
+      {
+        "id": "10751341",
+        "date": "2013-05-10",
+        "title": "Unknown"
+      },
+      {
+        "id": "10752394",
+        "date": "2014-01-10",
+        "title": "Unknown"
+      },
+      {
+        "id": "10752395",
+        "date": "2014-01-10",
+        "title": "Unknown"
+      },
+      {
+        "id": "10752396",
+        "date": "2014-01-10",
+        "title": "Unknown"
+      },
+      {
+        "id": "10752397",
+        "date": "2014-01-10",
+        "title": "Unknown"
+      },
+      {
+        "id": "10752398",
+        "date": "2014-01-10",
+        "title": "Unknown"
+      },
+      {
+        "id": "10752399",
+        "date": "2014-01-10",
+        "title": "Unknown"
+      },
+      {
+        "id": "10752404",
+        "date": "2014-01-10",
+        "title": "Unknown"
+      },
+      {
+        "id": "10752405",
+        "date": "2014-01-10",
+        "title": "Unknown"
+      },
+      {
+        "id": "10752406",
+        "date": "2014-01-10",
+        "title": "Unknown"
+      },
+      {
+        "id": "10752407",
+        "date": "2014-01-10",
+        "title": "Unknown"
+      },
+      {
+        "id": "10752676",
+        "date": "2015-06-07",
+        "title": "Unknown"
+      },
+      {
+        "id": "10752677",
+        "date": "2015-06-07",
+        "title": "Unknown"
+      },
+      {
+        "id": "11261473",
+        "date": "2025-07-27",
+        "title": "Unknown"
+      },
+      {
+        "id": "11582420",
+        "date": "2026-01-28",
+        "title": "Joyca vole le cadeau d'un abonné et l'anniversaire de Karmen est un fiasco !",
+        "status": "HISTORICAL_IDENTITY_TO_VERIFY"
+      }
+    ],
+    "safety": "No Unassigned mutation is authorized from this checkpoint alone. The 48 exact duplicate candidates must pass a fresh authenticated live preflight immediately before any merge/delete."
+  },
+  "writes": {
+    "thetvdb": "NONE",
+    "reason": "This checkpoint resolves catalogue matching and classifies Unassigned candidates; live authenticated preflight is required before mutation."
+  }
+}
