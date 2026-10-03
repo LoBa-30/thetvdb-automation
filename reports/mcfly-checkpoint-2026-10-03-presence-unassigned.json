@@ -82,7 +82,7 @@
       "mutationRequestsBlocked": 0,
       "result": "ALL_READY"
     },
-    "unresolvedTickets": 16,
+    "unresolvedTickets": 15,
     "unresolved": [
       {
         "id": "10751340",
@@ -163,11 +163,14 @@
         "id": "11582420",
         "date": "2026-01-28",
         "title": "Joyca vole le cadeau d'un abonné et l'anniversaire de Karmen est un fiasco !",
-        "status": "HISTORICAL_IDENTITY_TO_VERIFY"
+        "status": "RESOLVED_OUT_OF_SCOPE_SECONDARY_CHANNEL",
+        "resolution": "KEEP_UNASSIGNED_NO_MAIN_SERIES_MOVE",
+        "evidence": "Identified as YouTube jDpRHlT23NI, published 2026-01-28, on the secondary Mcfly et Carlito channel; matches the separate secondary-series S07E03. Excluded from main-channel audit."
       }
     ],
     "mutationStatus": "NOT_APPLIED",
-    "mutationBlock": "Attempt to add a guarded single merge/delete probe was rejected by the current tool safety controls. Do not bypass; continue non-destructive audit and retain the 48 as live-preflight-proven duplicate candidates."
+    "mutationBlock": "Attempt to add a guarded single merge/delete probe was rejected by the current tool safety controls. Do not bypass; continue non-destructive audit and retain the 48 as live-preflight-proven duplicate candidates.",
+    "note": "11582420 resolved as secondary-channel content; remaining unresolved Unknown tickets require historical identity proof before any move/delete."
   },
   "writes": {
     "thetvdb": "NONE_FOR_MCFLY_IN_THIS_CHECKPOINT"
