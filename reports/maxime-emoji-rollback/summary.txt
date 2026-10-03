@@ -1,0 +1,7 @@
+authenticated=true
+planned=10
+writes=10
+skips=0
+blocked=0
+verifications=10
+result=RESTORED_AND_VERIFIED
