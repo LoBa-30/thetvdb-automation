@@ -1,0 +1,46 @@
+name: Amixem safe title apply
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/amixem-title-apply.yml'
+      - 'src/amixem-title-apply.js'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Fresh preflight, apply and verify safe title corrections
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+          TVDB_AMIXEM_TITLE_APPLY: 'yes'
+        run: node src/amixem-title-apply.js
+      - name: Persist title correction report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/amixem-title-apply
+          git commit -m "Record Amixem title correction results [skip ci]" || true
+          git pull --rebase
+          git push
+      - name: Upload title correction artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: amixem-title-apply
+          path: reports/amixem-title-apply/
+          retention-days: 30
