@@ -1,0 +1,46 @@
+name: Joyca current-title refresh
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/joyca-title-refresh.yml'
+      - 'src/joyca-title-refresh.js'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Fresh preflight, apply and verify current Joyca title
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+          TVDB_JOYCA_TITLE_REFRESH: 'yes'
+        run: node src/joyca-title-refresh.js
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/joyca-title-refresh
+          git commit -m "Record Joyca current-title refresh [skip ci]" || true
+          git pull --rebase
+          git push
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: joyca-title-refresh
+          path: reports/joyca-title-refresh/
+          retention-days: 30
