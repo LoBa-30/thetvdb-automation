@@ -1,0 +1,54 @@
+name: Mcfly safe title apply
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [mcfly-audit-2026-10-03]
+    paths:
+      - '.github/workflows/mcfly-title-apply.yml'
+      - 'src/mcfly-title-apply.js'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - run: python -m pip install -U yt-dlp
+      - name: Fresh current YouTube title snapshot
+        run: |
+          mkdir -p reports/mcfly-title-apply
+          yt-dlp --flat-playlist --dump-single-json "https://www.youtube.com/c/LeFatShow/videos" > reports/mcfly-title-apply/youtube-flat.json
+      - name: Fresh TVDB preflight, apply and verify exact titles
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+          TVDB_MCFLY_TITLE_APPLY: 'yes'
+        run: node src/mcfly-title-apply.js
+      - name: Persist title correction report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/mcfly-title-apply
+          git commit -m "Record Mcfly title correction results [skip ci]" || true
+          git pull --rebase
+          git push
+      - name: Upload title correction artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mcfly-title-apply
+          path: reports/mcfly-title-apply/
+          retention-days: 30
