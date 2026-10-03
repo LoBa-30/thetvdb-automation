@@ -1,0 +1,46 @@
+name: Maxime emoji rollback
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/maxime-emoji-rollback.yml'
+      - 'src/maxime-emoji-rollback.js'
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Restore titles if emoji writes were stored as question marks
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+          TVDB_MAXIME_EMOJI_ROLLBACK: 'yes'
+        run: node src/maxime-emoji-rollback.js
+      - name: Persist rollback report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/maxime-emoji-rollback
+          git commit -m "Record Maxime emoji rollback [skip ci]" || true
+          git pull --rebase
+          git push
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: maxime-emoji-rollback
+          path: reports/maxime-emoji-rollback/
+          retention-days: 30
