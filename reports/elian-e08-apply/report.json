@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-10-03T18:39:25.360Z",
+  "authenticated": true,
+  "checks": [
+    {
+      "row": {
+        "number": 8,
+        "title": "On s'affronte pour construire la meilleure cabane ! ft. Maxime Biaggi",
+        "id": "12014528"
+      }
+    },
+    {
+      "currentTitle": "On s'affronte pour construire la meilleure cabane ! ft. Maxime Biaggi"
+    },
+    {
+      "currentRuntime": 0
+    }
+  ],
+  "writes": [
+    {
+      "field": "title",
+      "from": "On s'affronte pour construire la meilleure cabane ! ft. Maxime Biaggi",
+      "to": "Nos cabanes vont-elles résister au Loup ?! (ft. Maxime Biaggi)"
+    },
+    {
+      "field": "runtime",
+      "from": 0,
+      "to": 34
+    }
+  ],
+  "skips": [],
+  "blocked": [],
+  "verifications": [
+    {
+      "field": "title",
+      "ok": true,
+      "value": "Nos cabanes vont-elles résister au Loup ?! (ft. Maxime Biaggi)"
+    },
+    {
+      "field": "runtime",
+      "ok": true,
+      "value": 34
+    }
+  ],
+  "result": "APPLIED_AND_VERIFIED"
+}
