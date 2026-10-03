@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-10-03T12:03:45.451Z",
+  "authenticated": true,
+  "planned": 2,
+  "writes": [
+    {
+      "season": 2026,
+      "episode": 7,
+      "from": "ON TESTE 31 FROMAGES BIZARRES ! (ft. McFly et Carlito)",
+      "to": "ON TESTE 30 FROMAGES BIZARRES ! (ft. McFly et Carlito)",
+      "id": "11719791"
+    },
+    {
+      "season": 2026,
+      "episode": 14,
+      "from": "ON CLASSE TOUS LES BILLETS DU MONDE (Avec Mcfly & Carlito et Mathieu)",
+      "to": "ON JUGE TOUS LES BILLETS DU MONDE (Avec Mcfly & Carlito et Mathieu)",
+      "id": "11908448"
+    }
+  ],
+  "skips": [],
+  "blocked": [],
+  "verifications": [
+    {
+      "id": "11719791",
+      "season": 2026,
+      "episode": 7,
+      "title": "ON TESTE 30 FROMAGES BIZARRES ! (ft. McFly et Carlito)",
+      "ok": true
+    },
+    {
+      "id": "11908448",
+      "season": 2026,
+      "episode": 14,
+      "title": "ON JUGE TOUS LES BILLETS DU MONDE (Avec Mcfly & Carlito et Mathieu)",
+      "ok": true
+    }
+  ],
+  "result": "APPLIED_AND_VERIFIED"
+}
