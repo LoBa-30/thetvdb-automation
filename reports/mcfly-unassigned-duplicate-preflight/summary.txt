@@ -1,0 +1,8 @@
+mode=READ_ONLY_EXACT_UNASSIGNED_DUPLICATE_PREFLIGHT
+authenticated=true
+configured=48
+currentUnassignedCount=64
+ready=48
+blocked=0
+mutationRequestsBlocked=0
+result=ALL_READY
