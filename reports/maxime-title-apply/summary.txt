@@ -1,0 +1,7 @@
+authenticated=true
+planned=10
+writes=0
+skips=0
+blocked=10
+verifications=0
+result=APPLIED_WITH_BLOCKED_DRIFT
