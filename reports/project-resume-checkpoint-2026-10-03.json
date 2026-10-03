@@ -1,0 +1,180 @@
+{
+  "generatedAt": "2026-10-03T13:36:00+02:00",
+  "status": "PROJECT_RESUME_CHECKPOINT",
+  "sourceOfTruth": {
+    "repository": "LoBa-30/thetvdb-automation",
+    "mainHeadObserved": "5350d7eea6d5a4f6c8a9d78b5912d9e2487dac0b",
+    "mcflyBranch": "mcfly-audit-2026-10-03",
+    "mcflyFreshAuditRun": 37119955096,
+    "mcflyFreshAuditArtifact": 11272149603
+  },
+  "recoveredState": {
+    "previousSafeBatch": {
+      "run": 36933431028,
+      "result": "SAFE_REMAINDER_APPLIED_AND_VERIFIED",
+      "writes": 7,
+      "skips": 6,
+      "verifiedWrites": [
+        {
+          "target": "Djilsi",
+          "id": "12014132",
+          "action": "EDIT_METADATA"
+        },
+        {
+          "target": "Joyca",
+          "id": "11719791",
+          "action": "EDIT_FRENCH_TITLE"
+        },
+        {
+          "target": "Joyca",
+          "id": "11749116",
+          "action": "EDIT_FRENCH_TITLE"
+        },
+        {
+          "target": "Joyca",
+          "id": "11908448",
+          "action": "EDIT_FRENCH_TITLE"
+        },
+        {
+          "target": "Mcfly & Carlito",
+          "id": "10714431",
+          "action": "EDIT_METADATA"
+        },
+        {
+          "target": "Mcfly & Carlito",
+          "id": "11595720",
+          "action": "EDIT_FRENCH_TITLE"
+        },
+        {
+          "target": "Mcfly & Carlito",
+          "id": "11792871",
+          "action": "EDIT_METADATA"
+        }
+      ],
+      "backendEmojiUnsupported": [
+        {
+          "target": "Djilsi",
+          "id": "12014131"
+        },
+        {
+          "target": "Raska",
+          "id": "11960839"
+        },
+        {
+          "target": "Mcfly & Carlito",
+          "id": "9381309"
+        },
+        {
+          "target": "Mcfly & Carlito",
+          "id": "10677628"
+        },
+        {
+          "target": "Mcfly & Carlito",
+          "id": "11614913"
+        },
+        {
+          "target": "Mcfly & Carlito",
+          "id": "11879094"
+        }
+      ]
+    },
+    "amixem": {
+      "currentYoutube": 889,
+      "currentTvdb": 974,
+      "aligned": 889,
+      "youtubeMissingOnTvdb": 0,
+      "historicalTvdbWithoutCurrentPublicYoutube": 85,
+      "runtimeApply": {
+        "planned": 493,
+        "writes": 316,
+        "skips": 177,
+        "verified": 316,
+        "result": "APPLIED_AND_VERIFIED"
+      },
+      "titleApply": {
+        "planned": 7,
+        "writes": 7,
+        "verified": 7,
+        "result": "APPLIED_AND_VERIFIED"
+      },
+      "unassignedCurrent": 5
+    },
+    "raska": {
+      "publicVideos": 149,
+      "tvdbEpisodes": 150,
+      "numbering2018Collision": "RESOLVED",
+      "numbering2023Collision": "RESOLVED",
+      "youtubeRuntimeInventory": "149/149",
+      "missingImages": 29,
+      "imagesPresent": 121
+    },
+    "mastu": {
+      "currentYoutube": 360,
+      "currentTvdb": 376,
+      "currentMatches": 360,
+      "historicalTvdbWithoutCurrentPublicYoutube": 16,
+      "previouslyStaleCreateCandidates": "RESOLVED_AS_ALREADY_EXISTING",
+      "artwork": {
+        "checked": 61,
+        "confirmed": 1,
+        "strongCandidates": 19,
+        "unproven": 41
+      }
+    },
+    "squeezie": {
+      "currentYoutube": 1585,
+      "currentTvdbAssigned": 1659,
+      "japanExpo2012": "NO_CREATE_ALREADY_HAS_ORIGINAL_AND_REUPLOAD",
+      "exactDuplicateDeleteAttempt": {
+        "source": "6975388",
+        "target": "6952099",
+        "result": "NOT_APPLIED",
+        "blocker": "TheTVDB entity/delete returned HTTP 401"
+      }
+    },
+    "maximeBiaggi": {
+      "scope": "MAIN_CHANNEL_ONLY",
+      "currentYoutube": 64,
+      "currentTvdb": 64,
+      "aligned": 64,
+      "structuralOpenAnomalies": 0
+    },
+    "mcflyCarlito": {
+      "currentYoutube": 576,
+      "currentTvdbAssigned": 582,
+      "latestPresenceClassificationCoverage": "576/576",
+      "unassignedCurrent": 64,
+      "exactDuplicateCandidates": 48,
+      "exactDuplicatePreflight": "ALL_READY_READ_ONLY",
+      "unresolvedUnassignedTickets": 16,
+      "knownStrictExclusions": [
+        "S2013E01 explicit trailer",
+        "S2013E02 explicit trailer",
+        "fttKpTYRdMs GROSSE ANNONCE — do not create",
+        "S2026E50 ZEVENT donation/promo announcement"
+      ],
+      "freshAudit": {
+        "run": 37119955096,
+        "result": "SUCCESS",
+        "alignedPairs": 572,
+        "tvdbArtworksPresent": 98,
+        "exactYouTubePublishDatesRetrieved": 1,
+        "note": "Exact-date extraction remains blocked for almost all videos; do not treat generated date mismatch counts as exhaustive independent YouTube date verification."
+      }
+    }
+  },
+  "safetyPolicy": [
+    "Fresh preflight before every TheTVDB write",
+    "Never recreate an entry already present",
+    "Never delete solely because a YouTube video is currently absent",
+    "No blind mass Unassigned operations",
+    "Verify after each write",
+    "Ambiguous cases become tickets and do not block the rest of the audit"
+  ],
+  "nextPriorities": [
+    "Continue Mcfly structural/Unassigned resolution without relying on unavailable exact YouTube dates",
+    "Recover and verify all Squeezie duplicate/deletion state before any further destructive action",
+    "Re-run current-state checks for Djilsi, Elian, Joyca and Maxime before any new write",
+    "Continue remaining exact metadata and historical-video tickets across all nine channels"
+  ]
+}
