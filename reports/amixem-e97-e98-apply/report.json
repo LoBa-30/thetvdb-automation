@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-10-04T10:55:19.116Z",
+  "authenticated": true,
+  "checks": [],
+  "writes": [],
+  "skips": [],
+  "blocked": [
+    {
+      "reason": "Error: Metadata form missing 6102789\n    at meta (file:///home/runner/work/thetvdb-automation/thetvdb-automation/src/amixem-e97-e98-apply.js:20:198)\n    at runNextTicks (node:internal/process/task_queues:64:5)\n    at process.processImmediate (node:internal/timers:452:9)\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)\n    at async file:///home/runner/work/thetvdb-automation/thetvdb-automation/src/amixem-e97-e98-apply.js:26:65"
+    }
+  ],
+  "verifications": [],
+  "result": "BLOCKED_BEFORE_WRITES"
+}
