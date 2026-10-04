@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-10-05T01:29:47+02:00",
+  "status": "AUTONOMOUS_CHECKPOINT",
+  "repository": "LoBa-30/thetvdb-automation",
+  "observedHead": "22f0ca5f821cb565ba70ef716aa23406886e1fa3",
+  "verified": {
+    "amixem": {
+      "s2016e97e98": {
+        "result": "APPLIED_AND_VERIFIED",
+        "writes": 3,
+        "blocked": 0,
+        "ids": [
+          "6102789",
+          "6102787"
+        ]
+      },
+      "remainingPriority": [
+        "5 Unassigned individually",
+        "85 historical TVDB-only entries",
+        "artwork completeness/provenance"
+      ],
+      "doNotRepeat": [
+        "S2016E97/E98 verified writes"
+      ]
+    },
+    "maximeBiaggi": {
+      "scope": "MAIN_CHANNEL_ONLY",
+      "emojiTitleAttempts": "DO_NOT_RETRY",
+      "rollback": {
+        "result": "RESTORED_AND_VERIFIED",
+        "writes": 10,
+        "verified": 10
+      }
+    },
+    "joyca": {
+      "s2026e08": {
+        "result": "APPLIED_AND_VERIFIED",
+        "id": "11749116"
+      },
+      "substantive2026Titles": {
+        "result": "APPLIED_AND_VERIFIED",
+        "ids": [
+          "11719791",
+          "11908448"
+        ]
+      }
+    }
+  },
+  "nextPriorities": [
+    "Continue Squeezie historical/Unassigned resolution without destructive action on absence alone",
+    "Continue Mcfly & Carlito unresolved Unassigned/historical tickets",
+    "Continue Mastu 10 Unassigned and 16 historical TVDB-only cases",
+    "Continue Amixem 5 Unassigned and 85 historical TVDB-only cases",
+    "Artwork only with exact-episode provenance"
+  ],
+  "safety": [
+    "fresh preflight before writes",
+    "verify after writes",
+    "never recreate existing episode",
+    "never delete solely for current YouTube absence",
+    "no emoji title retries when backend converts emoji to question marks"
+  ]
+}
