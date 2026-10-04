@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-10-04",
+  "target": "Amixem",
+  "case": "S2016E97-E98",
+  "status": "PROVEN_CORRECTION_REQUIRES_FRESH_WRITE_PREFLIGHT",
+  "evidence": {
+    "authenticatedSnapshot": "reports/amixem-auth-fast/snapshot.json",
+    "currentObserved": {
+      "S2016E97": {
+        "tvdbId": "6102789",
+        "title": "J'AI CRASHÉ MON NOUVEAU DRONE ! (Oui, encore...)",
+        "date": "2016-12-17"
+      },
+      "S2016E98": {
+        "tvdbId": "6102787",
+        "title": "JE JUGE LES YOUTUBERS !",
+        "date": "2016-12-17"
+      }
+    },
+    "officialYoutube": {
+      "S2016E97": {
+        "youtubeId": "Tu0tDXPx_4k",
+        "title": "JE JUGE LES YOUTUBERS !",
+        "published": "2016-12-17"
+      },
+      "S2016E98": {
+        "youtubeId": "Zja5z7C0c7g",
+        "title": "J'AI CRASHÉ MON NOUVEAU DRONE ! (Oui, encore...)",
+        "published": "2016-12-18"
+      }
+    },
+    "chronology": "Independent chronology also orders JE JUGE LES YOUTUBERS as E97 on 2016-12-17 and drone as E98 on 2016-12-18."
+  },
+  "requiredFinalState": {
+    "S2016E97": {
+      "title": "JE JUGE LES YOUTUBERS !",
+      "date": "2016-12-17"
+    },
+    "S2016E98": {
+      "title": "J'AI CRASHÉ MON NOUVEAU DRONE ! (Oui, encore...)",
+      "date": "2016-12-18"
+    }
+  },
+  "safety": "Do not write from this checkpoint alone. Reload authenticated current episode state immediately before mutation; abort if state changed; verify both episodes after any write."
+}
