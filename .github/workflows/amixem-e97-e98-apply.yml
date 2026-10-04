@@ -1,0 +1,43 @@
+name: Amixem E97 E98 safe apply
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/amixem-e97-e98-apply.yml'
+      - 'src/amixem-e97-e98-apply.js'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Fresh preflight, apply and verify Amixem S2016E97-E98
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+          TVDB_AMIXEM_E97_E98_APPLY: 'yes'
+        run: node src/amixem-e97-e98-apply.js
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/amixem-e97-e98-apply
+          git commit -m "Record Amixem E97-E98 correction results [skip ci]" || true
+          git pull --rebase
+          git push
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: amixem-e97-e98-apply
+          path: reports/amixem-e97-e98-apply/
+          retention-days: 30
