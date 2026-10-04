@@ -1,14 +1,77 @@
 {
-  "generatedAt": "2026-10-04T10:55:19.116Z",
+  "generatedAt": "2026-10-04T16:51:13.342Z",
   "authenticated": true,
-  "checks": [],
-  "writes": [],
-  "skips": [],
-  "blocked": [
+  "checks": [
     {
-      "reason": "Error: Metadata form missing 6102789\n    at meta (file:///home/runner/work/thetvdb-automation/thetvdb-automation/src/amixem-e97-e98-apply.js:20:198)\n    at runNextTicks (node:internal/process/task_queues:64:5)\n    at process.processImmediate (node:internal/timers:452:9)\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)\n    at async file:///home/runner/work/thetvdb-automation/thetvdb-automation/src/amixem-e97-e98-apply.js:26:65"
+      "id": "6102789",
+      "row": {
+        "number": 97,
+        "id": "6102789",
+        "title": "J'AI CRASHÉ MON NOUVEAU DRONE ! (Oui, encore...)",
+        "text": "97 J'AI CRASHÉ MON NOUVEAU DRONE ! (Oui, encore...) 2016-12-17 Season 2012 Season 2013 Season 2014 Season 2015 Season 2017 Season 2018 Season 2019 Season 2020 Season 2021 Season 2022 Season 2023 Season 2024 Season 2025 Season 2026 Unassigned"
+      },
+      "title": "J'AI CRASHÉ MON NOUVEAU DRONE ! (Oui, encore...)",
+      "date": "2016-12-17"
+    },
+    {
+      "id": "6102787",
+      "row": {
+        "number": 98,
+        "id": "6102787",
+        "title": "JE JUGE LES YOUTUBERS !",
+        "text": "98 JE JUGE LES YOUTUBERS ! 2016-12-17 Season 2012 Season 2013 Season 2014 Season 2015 Season 2017 Season 2018 Season 2019 Season 2020 Season 2021 Season 2022 Season 2023 Season 2024 Season 2025 Season 2026 Unassigned"
+      },
+      "title": "JE JUGE LES YOUTUBERS !",
+      "date": "2016-12-17"
     }
   ],
-  "verifications": [],
-  "result": "BLOCKED_BEFORE_WRITES"
+  "writes": [
+    {
+      "id": "6102789",
+      "field": "title",
+      "from": "J'AI CRASHÉ MON NOUVEAU DRONE ! (Oui, encore...)",
+      "to": "JE JUGE LES YOUTUBERS !"
+    },
+    {
+      "id": "6102787",
+      "field": "title",
+      "from": "JE JUGE LES YOUTUBERS !",
+      "to": "J'AI CRASHÉ MON NOUVEAU DRONE ! (Oui, encore...)"
+    },
+    {
+      "id": "6102787",
+      "field": "date",
+      "from": "2016-12-17",
+      "to": "2016-12-18"
+    }
+  ],
+  "skips": [
+    {
+      "id": "6102789",
+      "field": "date",
+      "reason": "ALREADY_CORRECT"
+    }
+  ],
+  "blocked": [],
+  "verifications": [
+    {
+      "id": "6102789",
+      "field": "title",
+      "ok": true,
+      "value": "JE JUGE LES YOUTUBERS !"
+    },
+    {
+      "id": "6102787",
+      "field": "title",
+      "ok": true,
+      "value": "J'AI CRASHÉ MON NOUVEAU DRONE ! (Oui, encore...)"
+    },
+    {
+      "id": "6102787",
+      "field": "date",
+      "ok": true,
+      "value": "2016-12-18"
+    }
+  ],
+  "result": "APPLIED_AND_VERIFIED"
 }

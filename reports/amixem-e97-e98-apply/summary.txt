@@ -1,6 +1,6 @@
 authenticated=true
-writes=0
-skips=0
-blocked=1
-verifications=0
-result=BLOCKED_BEFORE_WRITES
+writes=3
+skips=1
+blocked=0
+verifications=3
+result=APPLIED_AND_VERIFIED
