@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-10-05T23:58:59+02:00",
+  "status": "CORRECTION_PROVEN_PENDING_WRITE",
+  "chain": "Mcfly & Carlito",
+  "seriesId": 338282,
+  "episodeId": 8189288,
+  "airedOrder": "S2020E07",
+  "title": "LE MARADON : une journée en live pour les hôpitaux de France",
+  "observed": {
+    "firstAired": "2020-03-02",
+    "runtimeMinutes": 670
+  },
+  "correction": {
+    "firstAired": "2020-04-02"
+  },
+  "evidence": [
+    "TheTVDB current episode 8189288 shows March 2, 2020.",
+    "BFMTV contemporaneous article dated 2020-04-02 reports the charity live happening that day.",
+    "La Dépêche dated 2020-04-03 reports the Maradon was held Thursday 2020-04-02.",
+    "HuffPost reports the duo held the Maradon Thursday 2020-04-02.",
+    "Rire & Chansons links the original YouTube video hLq-DMPwHy8."
+  ],
+  "action": "Do not change title/runtime/episode number. Fresh authenticated preflight required before changing firstAired only; verify after write.",
+  "safety": [
+    "no delete",
+    "no recreation",
+    "no unrelated field changes"
+  ]
+}
