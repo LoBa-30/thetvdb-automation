@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-10-05T17:18:00+02:00",
+  "status": "INVESTIGATED_KEEP_AS_TICKETS",
+  "target": "Amixem Unassigned 2026-01-18",
+  "tvdbIds": [
+    "11566311",
+    "11566313",
+    "11566314",
+    "11566315"
+  ],
+  "evidence": {
+    "tvdb": "All four entries are still titled Unknown, all dated 2026-01-18, in Unassigned.",
+    "publicLongVideo": "Independent current sources identify S2026E03 'ON TESTE DES TECHNOLOGIES DE LUXE ! (on est outrés)' as the public long-form Amixem episode on 2026-01-18; that episode is already represented in the assigned 2026 season.",
+    "idSearch": "Direct searches for each TVDB ID did not recover reliable Amixem/YouTube provenance for the individual Unknown records."
+  },
+  "decision": "A_VERIFIER_NO_DELETE",
+  "rationale": "Same-date coincidence makes duplicate/import residue plausible, but individual provenance is insufficient. Do not delete solely from current YouTube absence or date collision.",
+  "safety": [
+    "No TheTVDB write performed",
+    "No deletion performed",
+    "Fresh proof required before destructive action"
+  ]
+}
