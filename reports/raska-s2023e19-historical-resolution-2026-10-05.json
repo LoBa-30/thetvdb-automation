@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-10-05",
+  "channel": "Raska",
+  "ticket": "S2023E19 historical/current-public absence",
+  "tvdb": {
+    "season": 2023,
+    "episode": 19,
+    "title": "3J avec BigFlo & Oli au Rose Festival ! (c'était fou)",
+    "airdate": "2023-09-30"
+  },
+  "historical_youtube": {
+    "video_id": "l8mAIuFys84",
+    "title": "3J avec Bigflo & Oli au Rose Festival ! (c'était fou)",
+    "published": "2023-09-30"
+  },
+  "evidence": [
+    "Historical video index preserves the official RASKA upload ID, title and publication date.",
+    "Current TheTVDB aired-order page has S2023E19 with the same title/date between E18 (2023-09-23) and E20 (2023-10-07)."
+  ],
+  "resolution": "RESOLVED_KEEP_NO_DELETE",
+  "rationale": "The TVDB-only item is historically tied to a real official long-form RASKA upload. Absence from the current public Videos tab is not evidence for deletion and does not establish whether the upload is private, deleted or otherwise unavailable.",
+  "mutation": "NONE"
+}
