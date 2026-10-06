@@ -1,0 +1,50 @@
+{
+  "generatedAt": "2026-10-06T16:31:00Z",
+  "target": "Joyca",
+  "sourceRun": 37495286414,
+  "mode": "HISTORICAL_RESOLUTION_NO_WRITE",
+  "summary": {
+    "checked": 21,
+    "officialCurrentSearchProven": 0,
+    "historicalThirdPartyTraces": 4,
+    "keepNoDelete": 21,
+    "destructiveActions": 0
+  },
+  "resolvedPolicy": "All 21 TVDB-only entries remain KEEP_NO_DELETE. Current absence from the official YouTube search is not evidence of invalidity.",
+  "historicalTraces": [
+    {
+      "code": "S2016E37",
+      "title": "LE PEN CHANTE NOEL ! (REMIX)",
+      "date": "2016-12-24",
+      "status": "HISTORICAL_TRACE_CONFIRMED_KEEP",
+      "evidence": "TheTVDB detail/all-seasons pages retain title, date, YouTube network and original description."
+    },
+    {
+      "code": "S2018E43",
+      "title": "Je vous dis tout...",
+      "date": "2018-10-19",
+      "status": "HISTORICAL_TRACE_CONFIRMED_KEEP",
+      "evidence": "TheTVDB and Episode Calendar preserve title/date/description."
+    },
+    {
+      "code": "S2023E34",
+      "title": "150 000€ SONT EN JEU !",
+      "date": "2023-12-11",
+      "status": "HISTORICAL_TRACE_CONFIRMED_KEEP",
+      "evidence": "SensCritique and Episode Calendar preserve title/date/description."
+    },
+    {
+      "code": "S2025E05",
+      "title": "ON ESSAIE 10 THÉRAPIES INSOLITES (2 sont fausses)",
+      "date": "2025-03-16",
+      "status": "HISTORICAL_TRACE_CONFIRMED_KEEP",
+      "evidence": "SensCritique / Episode Calendar preserve title/date and description even though current official-channel search did not return it."
+    }
+  ],
+  "remainingUnproven": 17,
+  "safeguards": [
+    "NO_DELETE_ON_CURRENT_YOUTUBE_ABSENCE",
+    "NO_RECREATE",
+    "FRESH_EXACT_PROVENANCE_REQUIRED_BEFORE_MUTATION"
+  ]
+}
