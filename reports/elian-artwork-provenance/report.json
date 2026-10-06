@@ -1,0 +1,1493 @@
+{
+  "summary": {
+    "existing_artworks_checked": 19,
+    "confirmed_same_video_reference": 16,
+    "strong_candidate": 3,
+    "still_unproven": 0,
+    "errors": 0
+  },
+  "rows": [
+    {
+      "code": "S2023E01",
+      "episodeId": "11092248",
+      "title": "Vlog de fin d'année - feat @MaximeBiaggi et bcp de gens",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11092248/screencap/6a9dc5e01ec44.jpg",
+      "youtubeId": "BSBGXa9Uu6U",
+      "youtubeTitle": "Vlog de fin d'année - feat @MaximeBiaggi et bcp de gens",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/BSBGXa9Uu6U/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 0
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/BSBGXa9Uu6U/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 20
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/BSBGXa9Uu6U/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 20
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/BSBGXa9Uu6U/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 28
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/BSBGXa9Uu6U/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 30
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/BSBGXa9Uu6U/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 24
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/BSBGXa9Uu6U/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 0
+      },
+      "status": "CONFIRMED_SAME_VIDEO_YOUTUBE_REFERENCE"
+    },
+    {
+      "code": "S2023E03",
+      "episodeId": "11092250",
+      "title": "BACKSTAGE DE TOURNAGE EN CORSE",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11092250/screencap/6a9dc608edda7.jpg",
+      "youtubeId": "XHyAAESGvqg",
+      "youtubeTitle": "BACKSTAGE DE TOURNAGE EN CORSE",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/XHyAAESGvqg/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 0
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/XHyAAESGvqg/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 16
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/XHyAAESGvqg/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 16
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/XHyAAESGvqg/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 26
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/XHyAAESGvqg/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 22
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/XHyAAESGvqg/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 34
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/XHyAAESGvqg/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 0
+      },
+      "status": "CONFIRMED_SAME_VIDEO_YOUTUBE_REFERENCE"
+    },
+    {
+      "code": "S2023E05",
+      "episodeId": "11092252",
+      "title": "LES PIRES JOUEURS AVEC ZIDANE",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11092252/screencap/6a9dc61f579ad.jpg",
+      "youtubeId": "dLWwATfSMoE",
+      "youtubeTitle": "LES PIRES JOUEURS AVEC ZIDANE",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/dLWwATfSMoE/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 0
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/dLWwATfSMoE/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 18
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/dLWwATfSMoE/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 18
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/dLWwATfSMoE/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 30
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/dLWwATfSMoE/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 32
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/dLWwATfSMoE/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 30
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/dLWwATfSMoE/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 0
+      },
+      "status": "CONFIRMED_SAME_VIDEO_YOUTUBE_REFERENCE"
+    },
+    {
+      "code": "S2024E01",
+      "episodeId": "11092254",
+      "title": "AVEC MES CHIENNES ft. Scooby Doo et Dingo",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11092254/screencap/6a9e78b934ce9.jpg",
+      "youtubeId": "xs4Idfkj0YQ",
+      "youtubeTitle": "AVEC MES CHIENNES 🐶🥺🥵🦴 ft. Scooby Doo et Dingo",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/xs4Idfkj0YQ/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 0
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/xs4Idfkj0YQ/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 16
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/xs4Idfkj0YQ/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 16
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/xs4Idfkj0YQ/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 36
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/xs4Idfkj0YQ/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 30
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/xs4Idfkj0YQ/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 28
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/xs4Idfkj0YQ/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 0
+      },
+      "status": "CONFIRMED_SAME_VIDEO_YOUTUBE_REFERENCE"
+    },
+    {
+      "code": "S2024E03",
+      "episodeId": "11092256",
+      "title": "J’achète un homard pour partir le libérer en pleine mer !",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11092256/screencap/6a9e79cdc2ed5.jpg",
+      "youtubeId": "einc-Ygx634",
+      "youtubeTitle": "J’achète un homard pour partir le libérer en pleine mer !",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/einc-Ygx634/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 0
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/einc-Ygx634/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 14
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/einc-Ygx634/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 14
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/einc-Ygx634/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 36
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/einc-Ygx634/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 32
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/einc-Ygx634/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 30
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/einc-Ygx634/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 0
+      },
+      "status": "CONFIRMED_SAME_VIDEO_YOUTUBE_REFERENCE"
+    },
+    {
+      "code": "S2024E05",
+      "episodeId": "11092258",
+      "title": "VLOG A MIAMI ( avec Max, Djilsi, Manas...etc)",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11092258/screencap/6a9e79e39bbbd.jpg",
+      "youtubeId": "VWrrnS_AVKw",
+      "youtubeTitle": "VLOG A MIAMI ( avec Max, Djilsi, Manas...etc)",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/VWrrnS_AVKw/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 0
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/VWrrnS_AVKw/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 14
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/VWrrnS_AVKw/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 14
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/VWrrnS_AVKw/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 26
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/VWrrnS_AVKw/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 22
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/VWrrnS_AVKw/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 34
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/VWrrnS_AVKw/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 0
+      },
+      "status": "CONFIRMED_SAME_VIDEO_YOUTUBE_REFERENCE"
+    },
+    {
+      "code": "S2024E06",
+      "episodeId": "11092259",
+      "title": "1 an sur Paris je nettoie ENFIN mon appartement…",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11092259/screencap/6a9e79eb47000.jpg",
+      "youtubeId": "U_UN_zHozeg",
+      "youtubeTitle": "1 an sur Paris je nettoie ENFIN mon appartement…",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/U_UN_zHozeg/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 0
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/U_UN_zHozeg/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 14
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/U_UN_zHozeg/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 14
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/U_UN_zHozeg/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 26
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/U_UN_zHozeg/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 26
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/U_UN_zHozeg/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 22
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/U_UN_zHozeg/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 0
+      },
+      "status": "CONFIRMED_SAME_VIDEO_YOUTUBE_REFERENCE"
+    },
+    {
+      "code": "S2024E08",
+      "episodeId": "11092261",
+      "title": "J'aurais dû MOURIR ce soir-là...JE VOUS RACONTE",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11092261/screencap/6a9e79fa04b1d.jpg",
+      "youtubeId": "Zy6jI6f8uMc",
+      "youtubeTitle": "J'aurais dû MOURIR ce soir-là...JE VOUS RACONTE",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/Zy6jI6f8uMc/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 0
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/Zy6jI6f8uMc/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 18
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/Zy6jI6f8uMc/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 18
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/Zy6jI6f8uMc/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 26
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/Zy6jI6f8uMc/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 30
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/Zy6jI6f8uMc/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 30
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/Zy6jI6f8uMc/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 0
+      },
+      "status": "CONFIRMED_SAME_VIDEO_YOUTUBE_REFERENCE"
+    },
+    {
+      "code": "S2025E01",
+      "episodeId": "11092262",
+      "title": "SURVIVRE dans une FORÊT HANTÉE ft @MaximeBiaggi",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11092262/screencap/6a9e7ab628b1b.jpg",
+      "youtubeId": "RLt6F-YKcdY",
+      "youtubeTitle": "SURVIVRE dans une FORÊT HANTÉE ft @MaximeBiaggi",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/RLt6F-YKcdY/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 10
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/RLt6F-YKcdY/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 16
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/RLt6F-YKcdY/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 16
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/RLt6F-YKcdY/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 26
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/RLt6F-YKcdY/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 30
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/RLt6F-YKcdY/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 26
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/RLt6F-YKcdY/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 10
+      },
+      "status": "STRONG_SAME_VIDEO_CANDIDATE"
+    },
+    {
+      "code": "S2025E02",
+      "episodeId": "11153863",
+      "title": "FAIRE UN TERRARIUM #1ft @Mastu",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11153863/screencap/6a9e7b01c9aa7.jpg",
+      "youtubeId": "mpMIHu1Ao2U",
+      "youtubeTitle": "FAIRE UN TERRARIUM #1ft @Mastu",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/mpMIHu1Ao2U/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 10
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/mpMIHu1Ao2U/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 12
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/mpMIHu1Ao2U/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 12
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/mpMIHu1Ao2U/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 26
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/mpMIHu1Ao2U/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 32
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/mpMIHu1Ao2U/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 28
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/mpMIHu1Ao2U/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 10
+      },
+      "status": "STRONG_SAME_VIDEO_CANDIDATE"
+    },
+    {
+      "code": "S2025E04",
+      "episodeId": "11270957",
+      "title": "Je dois DORMIR chez une inconnue CE SOIR !",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11270957/screencap/6a9e7a254e9e3.jpg",
+      "youtubeId": "b6JaNgBWVQk",
+      "youtubeTitle": "Je dois DORMIR chez une inconnue CE SOIR !",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/b6JaNgBWVQk/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 0
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/b6JaNgBWVQk/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 16
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/b6JaNgBWVQk/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 16
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/b6JaNgBWVQk/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 30
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/b6JaNgBWVQk/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 32
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/b6JaNgBWVQk/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 26
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/b6JaNgBWVQk/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 0
+      },
+      "status": "CONFIRMED_SAME_VIDEO_YOUTUBE_REFERENCE"
+    },
+    {
+      "code": "S2025E05",
+      "episodeId": "11395923",
+      "title": "Nos PIRES ANECDOTES entre frères (catfish sur Tinder, médecin en colère...)",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11395923/screencap/6a9e7b168f505.jpg",
+      "youtubeId": "vVvRTEvrRV4",
+      "youtubeTitle": "Nos PIRES ANECDOTES entre frères (catfish sur Tinder, médecin en colère...)",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/vVvRTEvrRV4/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 0
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/vVvRTEvrRV4/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 12
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/vVvRTEvrRV4/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 12
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/vVvRTEvrRV4/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 34
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/vVvRTEvrRV4/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 30
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/vVvRTEvrRV4/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 40
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/vVvRTEvrRV4/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 0
+      },
+      "status": "CONFIRMED_SAME_VIDEO_YOUTUBE_REFERENCE"
+    },
+    {
+      "code": "S2025E06",
+      "episodeId": "11480364",
+      "title": "UN FILM D’HORREUR SANS BUDGET (ft Max, Djilsi, Billy, Theorus….Grim)",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11480364/screencap/6a9e7b1e63287.jpg",
+      "youtubeId": "IN7XUpFolPE",
+      "youtubeTitle": "UN FILM D’HORREUR SANS BUDGET (ft Max, Djilsi, Billy, Theorus….Grim)",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/IN7XUpFolPE/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 0
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/IN7XUpFolPE/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 14
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/IN7XUpFolPE/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 14
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/IN7XUpFolPE/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 30
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/IN7XUpFolPE/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 28
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/IN7XUpFolPE/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 36
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/IN7XUpFolPE/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 0
+      },
+      "status": "CONFIRMED_SAME_VIDEO_YOUTUBE_REFERENCE"
+    },
+    {
+      "code": "S2026E01",
+      "episodeId": "11597266",
+      "title": "FAIRE UN TERRARIUM sans rien y connaître #2 ft Maxime Biaggi",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11597266/screencap/6a9e7b415e532.jpg",
+      "youtubeId": "VEi5-aPFIQA",
+      "youtubeTitle": "FAIRE UN TERRARIUM sans rien y connaître #2 ft Maxime Biaggi",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/VEi5-aPFIQA/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 0
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/VEi5-aPFIQA/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 20
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/VEi5-aPFIQA/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 20
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/VEi5-aPFIQA/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 28
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/VEi5-aPFIQA/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 26
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/VEi5-aPFIQA/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 32
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/VEi5-aPFIQA/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 0
+      },
+      "status": "CONFIRMED_SAME_VIDEO_YOUTUBE_REFERENCE"
+    },
+    {
+      "code": "S2026E03",
+      "episodeId": "11710015",
+      "title": "MINI-JEUX pour des GROSSES conséquences ft Mc Fly & Carlito",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11710015/screencap/6a9e7b7333791.jpg",
+      "youtubeId": "3i5EvcWBhuo",
+      "youtubeTitle": "MINI-JEUX pour des GROSSES conséquences ft Mc Fly & Carlito",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/3i5EvcWBhuo/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 14
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/3i5EvcWBhuo/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 10
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/3i5EvcWBhuo/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 10
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/3i5EvcWBhuo/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 26
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/3i5EvcWBhuo/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 32
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/3i5EvcWBhuo/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 34
+        }
+      ],
+      "best": {
+        "kind": "hq",
+        "url": "https://i.ytimg.com/vi/3i5EvcWBhuo/hqdefault.jpg",
+        "size": [
+          480,
+          360
+        ],
+        "distance": 10
+      },
+      "status": "STRONG_SAME_VIDEO_CANDIDATE"
+    },
+    {
+      "code": "S2026E04",
+      "episodeId": "11768261",
+      "title": "Nos sac à dos décident de notre vie pendant 24H ! ft Grim et Flamby",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11768261/screencap/6a9e7b54722db.jpg",
+      "youtubeId": "yYaoBCmUWjQ",
+      "youtubeTitle": "Nos sac à dos décident de notre vie pendant 24H ! ft Grim et Flamby",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/yYaoBCmUWjQ/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 0
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/yYaoBCmUWjQ/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 18
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/yYaoBCmUWjQ/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 18
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/yYaoBCmUWjQ/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 34
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/yYaoBCmUWjQ/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 32
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/yYaoBCmUWjQ/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 38
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/yYaoBCmUWjQ/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 0
+      },
+      "status": "CONFIRMED_SAME_VIDEO_YOUTUBE_REFERENCE"
+    },
+    {
+      "code": "S2026E05",
+      "episodeId": "11826827",
+      "title": "On doit refaire ces TikTok mais Billy en a décidé autrement…ft Billy du coup",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11826827/screencap/6a9e7b861818b.jpg",
+      "youtubeId": "QdCPY-JJahA",
+      "youtubeTitle": "On doit refaire ces TikTok mais Billy en a décidé autrement…ft Billy du coup",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/QdCPY-JJahA/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 0
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/QdCPY-JJahA/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 16
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/QdCPY-JJahA/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 16
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/QdCPY-JJahA/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 32
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/QdCPY-JJahA/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 30
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/QdCPY-JJahA/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 28
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/QdCPY-JJahA/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 0
+      },
+      "status": "CONFIRMED_SAME_VIDEO_YOUTUBE_REFERENCE"
+    },
+    {
+      "code": "S2026E06",
+      "episodeId": "11962150",
+      "title": "On s'affronte sur 5 compétitions insolites ! Ft Maxime Biaggi & Mastu",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11962150/screencap/6a9e7b8d9946a.jpg",
+      "youtubeId": "zEhSXbYhcYc",
+      "youtubeTitle": "On s'affronte sur 5 compétitions insolites ! Ft Maxime Biaggi & Mastu",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/zEhSXbYhcYc/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 0
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/zEhSXbYhcYc/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 10
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/zEhSXbYhcYc/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 10
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/zEhSXbYhcYc/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 32
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/zEhSXbYhcYc/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 34
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/zEhSXbYhcYc/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 32
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/zEhSXbYhcYc/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 0
+      },
+      "status": "CONFIRMED_SAME_VIDEO_YOUTUBE_REFERENCE"
+    },
+    {
+      "code": "S2026E07",
+      "episodeId": "11962151",
+      "title": "Voyages, rencontres amoureuses et lieux dangereux ft Tibi Jones",
+      "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11962151/screencap/6a9e7b96ea4a3.jpg",
+      "youtubeId": "B3SH2fh2nx0",
+      "youtubeTitle": "Voyages, rencontres amoureuses et lieux dangereux ft Tibi Jones",
+      "artworkSize": [
+        640,
+        360
+      ],
+      "references": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/B3SH2fh2nx0/maxresdefault.jpg",
+          "size": [
+            1280,
+            720
+          ],
+          "distance": 0
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/B3SH2fh2nx0/hqdefault.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 16
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/B3SH2fh2nx0/0.jpg",
+          "size": [
+            480,
+            360
+          ],
+          "distance": 16
+        },
+        {
+          "kind": "frame1",
+          "url": "https://i.ytimg.com/vi/B3SH2fh2nx0/1.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 38
+        },
+        {
+          "kind": "frame2",
+          "url": "https://i.ytimg.com/vi/B3SH2fh2nx0/2.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 30
+        },
+        {
+          "kind": "frame3",
+          "url": "https://i.ytimg.com/vi/B3SH2fh2nx0/3.jpg",
+          "size": [
+            120,
+            90
+          ],
+          "distance": 34
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/B3SH2fh2nx0/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 0
+      },
+      "status": "CONFIRMED_SAME_VIDEO_YOUTUBE_REFERENCE"
+    }
+  ]
+}

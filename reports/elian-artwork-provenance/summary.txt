@@ -1,0 +1,7 @@
+{
+  "existing_artworks_checked": 19,
+  "confirmed_same_video_reference": 16,
+  "strong_candidate": 3,
+  "still_unproven": 0,
+  "errors": 0
+}
