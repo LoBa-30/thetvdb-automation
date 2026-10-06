@@ -1,0 +1,41 @@
+name: Elian artwork pilot
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/elian-artwork-pilot.yml'
+      - 'src/elian-artwork-pilot.js'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Guarded official-thumbnail pilot
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+          TVDB_ELIAN_ARTWORK_PILOT: yes
+        run: node src/elian-artwork-pilot.js
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/elian-artwork-pilot
+          git commit -m "Record Elian artwork pilot [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: elian-artwork-pilot
+          path: reports/elian-artwork-pilot/
