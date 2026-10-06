@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-10-06T16:33:00Z",
+  "target": "Joyca",
+  "sourceRuns": {
+    "historicalSearch": 37495286414,
+    "historicalTvdbDetails": 37496217782
+  },
+  "status": "HISTORICAL_BACKLOG_STRUCTURALLY_RESOLVED_NO_WRITE",
+  "summary": {
+    "historicalTvdbOnly": 21,
+    "detailPagesRead": 21,
+    "detailErrors": 0,
+    "currentOfficialSearchHits": 0,
+    "keepAsHistorical": 21,
+    "delete": 0
+  },
+  "evidenceSummary": {
+    "all21HaveCurrentTheTVDBDetailPages": true,
+    "all21NetworkYouTube": true,
+    "all21HaveSpecificTitleDateRuntime": true,
+    "nearlyAllHaveSpecificDescriptions": true,
+    "chronology": "Entries from late 2017 onward were generally created on/within days of the listed air date; older 2016/early-2017 rows were bulk-imported on 2017-10-01 but contain specific titles/descriptions and fit the surrounding chronology.",
+    "independentlyTraced": [
+      "S2016E37",
+      "S2018E43",
+      "S2023E34",
+      "S2025E05"
+    ]
+  },
+  "decision": "KEEP_ALL_21_AS_LEGACY_HISTORICAL_EPISODES",
+  "rationale": "The 21 rows are not anonymous import parasites: they carry coherent season placement, exact dates, runtimes, YouTube network attribution, and mostly specific contemporary descriptions. Current absence from Joyca's public Videos tab is consistent with removed/private/unlisted historical uploads and is not grounds for deletion.",
+  "notes": [
+    "S2023E34 runtime is 2 minutes on TheTVDB; unusual but not corrected without an official archived duration source.",
+    "S2025E05 runtime is 66 minutes and has a detailed contemporary description; keep.",
+    "No destructive action performed."
+  ],
+  "safeguards": [
+    "NO_DELETE_ON_CURRENT_YOUTUBE_ABSENCE",
+    "NO_RUNTIME_CHANGE_WITHOUT_PRIMARY_SOURCE",
+    "NO_RECREATE"
+  ]
+}
