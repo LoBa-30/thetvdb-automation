@@ -17,9 +17,17 @@ const context=await browser.newContext({
 });
 const page=await context.newPage();
 
-let logged=false,writeRequests=0;
-context.on('request',r=>{
-  if(logged && r.method()==='POST' && /thetvdb\.com/i.test(r.url())) writeRequests++;
+let readOnlyLock=false;
+const blockedRequests=[];
+await context.route('**/*', async route=>{
+  const req=route.request();
+  const method=req.method().toUpperCase();
+  const isTvdb=/thetvdb\.com/i.test(req.url());
+  if(readOnlyLock && isTvdb && !['GET','HEAD','OPTIONS'].includes(method)){
+    blockedRequests.push({method,url:req.url()});
+    return route.abort('blockedbyclient');
+  }
+  return route.continue();
 });
 
 async function goto(p,url){
