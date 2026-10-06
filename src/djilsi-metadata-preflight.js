@@ -61,6 +61,10 @@ const page=await context.newPage();let lock=false;
 await context.route('**/*',async route=>{const q=route.request(),method=q.method().toUpperCase();if(lock&&/thetvdb\.com/i.test(q.url())&&!['GET','HEAD','OPTIONS'].includes(method)){report.blockedRequests.push({method,url:q.url()});return route.abort('blockedbyclient');}return route.continue();});
 try{
  await go(page,BASE+'/auth/login');const f=page.locator('form').filter({has:page.locator('input[name="password"]')}).first();await f.locator('input[name="email"]').fill(username);await f.locator('input[name="password"]').fill(password);await Promise.all([page.waitForLoadState('domcontentloaded').catch(()=>{}),f.locator('button[type="submit"],input[type="submit"]').first().click()]);await page.waitForTimeout(700);const probe=await context.request.get(BASE+'/auth/getuser');report.authenticated=probe.ok();if(!report.authenticated)throw new Error('TVDB auth not proven');lock=true;
+ // Current public series First Aired for post-episode correction verification.
+ await go(page,BASE+'/series/'+SLUG);
+ const seriesBody=(await page.locator('body').innerText()).replace(/\s+/g,' ').trim();
+ report.seriesFirstAired=seriesBody.match(/First Aired\s+([A-Za-z]+\s+\d{1,2},\s+\d{4})/i)?.[1]||null;
  const maps=new Map();
  for(const y of [...new Set(T.map(x=>x.season))]){await go(page,BASE+'/series/'+SLUG+'/seasons/official/'+y+'/edit');const rows=await page.locator('input[name^="episodes["]').evaluateAll(ins=>ins.map(input=>{const c=input.closest('tr')||input.closest('.row')||input.parentElement?.parentElement||input.parentElement;const a=c?.querySelector('a[href*="/episodes/"]');const h=a?.href||'';return {number:Number(input.value)||null,id:h.match(/\/episodes\/(\d+)/)?.[1]||null,title:(a?.textContent||'').replace(/\s+/g,' ').trim()};}));maps.set(y,rows);}
  const vids=report.youtube.videos||[];
