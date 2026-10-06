@@ -125,8 +125,10 @@ for year in range(2012,2027):
         except StopIteration: ci=0
         j=ci+1; title_parts=[]
         date=None; flag=None
-        date_re=re.compile(r'^(January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}, \d{4}$')
-        while j<len(lines) and not date_re.match(lines[j]) and not re.match(r'^(?:season premiere|season finale|mid-season finale)
+        date_re=re.compile(r'^(January|February|March|April|May|June|July|August|September|October|November|December) \\d{1,2}, \\d{4}$')
+        while j<len(lines) and not date_re.match(lines[j]) and not re.match(r'^(?:season premiere|season finale|mid-season finale)$',lines[j],re.I):
+            title_parts.append(lines[j]); j+=1
+        if j<len(lines) and re.match(r'^(?:season premiere|season finale|mid-season finale)$',lines[j],re.I):
             flag=lines[j].lower(); j+=1
         if j<len(lines) and date_re.match(lines[j]):
             date=datetime.strptime(lines[j],'%B %d, %Y').strftime('%Y-%m-%d'); j+=1
