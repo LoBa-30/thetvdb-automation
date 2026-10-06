@@ -1,5 +1,5 @@
 authenticated=true
-writes=0
+writes=1
 skips=0
-blocked=1
-result=BLOCKED
+blocked=0
+result=APPLIED_AND_VERIFIED

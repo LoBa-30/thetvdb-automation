@@ -1,16 +1,19 @@
 {
-  "generatedAt": "2026-10-06T18:15:38.298Z",
+  "generatedAt": "2026-10-06T18:22:01.313Z",
   "target": "Elian S2026E08",
   "youtubeId": "xkGjW_FR8vI",
-  "mode": "GUARDED_CURRENT_TITLE_REFRESH_V2_DYNAMIC_TRANSLATION_LINK",
+  "mode": "GUARDED_CURRENT_TITLE_REFRESH_V3_NORMAL_LANGUAGE_NAVIGATION",
   "authenticated": true,
-  "writes": [],
-  "skips": [],
-  "blocked": [
+  "writes": [
     {
-      "reason": "Translation edit form missing on current Edit Translations URL"
+      "field": "title",
+      "from": "Nos cabanes vont-elles résister au Loup ?! (ft. Maxime Biaggi)",
+      "to": "On s'affronte pour construire la meilleure cabane ! ft. Maxime Biaggi",
+      "actionPath": "/episodes/translatestore"
     }
   ],
+  "skips": [],
+  "blocked": [],
   "checks": [
     {
       "publicBefore": {
@@ -22,9 +25,147 @@
     },
     {
       "translationUrl": "https://thetvdb.com/series/elian-ventre-462729/episodes/12014528/translate/ep/0",
-      "translationFormCount": 0
+      "translationFormCount": 0,
+      "translationLinks": [
+        {
+          "text": "Login",
+          "href": "/auth/login?redirect=series/elian-ventre-462729/episodes/12014528/translate/ep/0"
+        },
+        {
+          "text": "Login",
+          "href": "/auth/login?redirect=series/elian-ventre-462729/episodes/12014528/translate/ep/0"
+        },
+        {
+          "text": "French (français)",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/fra/0/single"
+        },
+        {
+          "text": "Edit",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/fra/0/single"
+        },
+        {
+          "text": "Abkhaz (аҧсуа бызшәа)",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/abk/0/single"
+        },
+        {
+          "text": "Edit",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/abk/0/single"
+        },
+        {
+          "text": "Afar (Afaraf)",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/aar/0/single"
+        },
+        {
+          "text": "Edit",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/aar/0/single"
+        },
+        {
+          "text": "Afrikaans (Afrikaans)",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/afr/0/single"
+        },
+        {
+          "text": "Edit",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/afr/0/single"
+        },
+        {
+          "text": "Akan (Akan)",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/aka/0/single"
+        },
+        {
+          "text": "Edit",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/aka/0/single"
+        },
+        {
+          "text": "Albanian (gjuha shqipe)",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/sqi/0/single"
+        },
+        {
+          "text": "Edit",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/sqi/0/single"
+        },
+        {
+          "text": "Amharic (አማርኛ)",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/amh/0/single"
+        },
+        {
+          "text": "Edit",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/amh/0/single"
+        },
+        {
+          "text": "Arabic (العربية)",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/ara/0/single"
+        },
+        {
+          "text": "Edit",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/ara/0/single"
+        },
+        {
+          "text": "Aragonese (aragonés)",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/arg/0/single"
+        },
+        {
+          "text": "Edit",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/arg/0/single"
+        },
+        {
+          "text": "Armenian (Հայերեն)",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/hye/0/single"
+        },
+        {
+          "text": "Edit",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/hye/0/single"
+        },
+        {
+          "text": "Assamese (অসমীয়া)",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/asm/0/single"
+        },
+        {
+          "text": "Edit",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/asm/0/single"
+        },
+        {
+          "text": "Avaric (авар мацӀ)",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/ava/0/single"
+        },
+        {
+          "text": "Edit",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/ava/0/single"
+        },
+        {
+          "text": "Avestan (avesta)",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/ave/0/single"
+        },
+        {
+          "text": "Edit",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/ave/0/single"
+        },
+        {
+          "text": "Aymara (aymar aru)",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/aym/0/single"
+        },
+        {
+          "text": "Edit",
+          "href": "/series/elian-ventre-462729/episodes/12014528/translate/aym/0/single"
+        }
+      ]
+    },
+    {
+      "frenchTranslationUrl": "https://thetvdb.com/series/elian-ventre-462729/episodes/12014528/translate/fra/0/single",
+      "translationFormCountAfterFrenchLink": 1
+    },
+    {
+      "translationCandidate": 0,
+      "language": "fra",
+      "title": "Nos cabanes vont-elles résister au Loup ?! (ft. Maxime Biaggi)"
     }
   ],
-  "verification": null,
-  "result": "BLOCKED"
+  "verification": {
+    "title": "On s'affronte pour construire la meilleure cabane ! ft. Maxime Biaggi",
+    "date": "September 30, 2026",
+    "runtime": 34,
+    "titleOk": true,
+    "dateOk": true,
+    "runtimeOk": true
+  },
+  "result": "APPLIED_AND_VERIFIED"
 }
