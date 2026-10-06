@@ -109,7 +109,6 @@
       "status": "IN_PROGRESS_REDUCED",
       "pdfOpenWork": [
         "5 Unassigned individually",
-        "historical research for 85 TVDB-only entries",
         "769 missing artworks in PDF snapshot",
         "2 artwork provenance tickets",
         "runtime/title corrections already partially/mostly applied must be post-verified, not repeated"
@@ -118,7 +117,8 @@
         "S2017 E13-E20 structural numbering repaired and verified; episode 6102812 airdate corrected to 2017-02-16.",
         "S2020 E72/E73 stale inversion ticket freshly rechecked: current TVDB already correct; no write.",
         "S2016 E97/E98 guarded repair workflow prepared/launched from proven checkpoint; fresh preflight required before mutation.",
-        "S2016 E97/E98 fresh authenticated verification: titles/dates already correct; no redundant write."
+        "S2016 E97/E98 fresh authenticated verification: titles/dates already correct; no redundant write.",
+        "Historical TVDB-only backlog already exhaustively classified: 85/85 detail pages read, 0 errors, 0 delete candidates. 82 legacy-import rows retained pending provenance; 3 isolated cases resolved/structurally repaired."
       ]
     },
     {
@@ -186,7 +186,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-06T19:00:00Z",
+  "lastUpdatedAt": "2026-10-06T19:02:00Z",
   "latestContinuationCommits": [
     "598e20d6635a2789b735e38d0d4f5f002f872685",
     "793b2dd728db8c39f24e7c711528651c6c60c00a",
