@@ -116,23 +116,25 @@
       "resolvedSincePlan": [
         "S2017 E13-E20 structural numbering repaired and verified; episode 6102812 airdate corrected to 2017-02-16.",
         "S2020 E72/E73 stale inversion ticket freshly rechecked: current TVDB already correct; no write.",
-        "S2016 E97/E98 guarded repair workflow prepared/launched from proven checkpoint; fresh preflight required before mutation."
+        "S2016 E97/E98 guarded repair workflow prepared/launched from proven checkpoint; fresh preflight required before mutation.",
+        "S2016 E97/E98 fresh authenticated verification: titles/dates already correct; no redundant write."
       ]
     },
     {
       "target": "Joyca",
       "pdf": "AUDIT JOYCA — THETVDB VS YOUTUBE OFFICIEL.pdf",
-      "status": "IN_PROGRESS",
+      "status": "IN_PROGRESS_REDUCED",
       "pdfOpenWork": [
         "53 exact-title differences from PDF with fresh preflight",
         "214 runtimes from PDF with fresh preflight",
         "379 missing artworks + 3 provenance tickets",
-        "Unassigned appears resolved",
-        "S2026E08 stale PDF title superseded by current official YouTube title: ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan)"
+        "Unassigned appears resolved"
       ],
       "resolvedSincePlan": [
         "TROUVE LE GÂTEAU repeated-title discrepancy resolved as matcher false positive; four checked entries correct.",
-        "Historical TVDB-only backlog closed with keep/no-delete decisions."
+        "Historical TVDB-only backlog closed with keep/no-delete decisions.",
+        "S2026E08 current title ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan) was already applied and verified on 2026-10-03; stale in-progress ticket closed.",
+        "Fresh 2026 runtime preflight found and corrected three in-scope mismatches: E01 27→28, E09 45→46, E10 67→68; all post-write verifications passed."
       ]
     },
     {
@@ -183,10 +185,10 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-06T18:42:00Z",
+  "lastUpdatedAt": "2026-10-06T18:52:00Z",
   "latestContinuationCommits": [
-    "bb601dbac30716269847cd9a3823eb8d03ee88f3",
-    "da3c19d0c896137428835d9b2d29ec6fba3a24f2",
-    "c20ef72a33eea8de268fdc739ac3788d7a138861"
+    "598e20d6635a2789b735e38d0d4f5f002f872685",
+    "793b2dd728db8c39f24e7c711528651c6c60c00a",
+    "da3c19d0c896137428835d9b2d29ec6fba3a24f2"
   ]
 }
