@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-10-06T20:15:00+02:00",
+  "target": "Mcfly & Carlito",
+  "source": "reports/mcfly-final/audit.json",
+  "mode": "EXHAUSTIVE_ALIGNMENT_RESOLUTION_NO_CREATE",
+  "exactRematches": [
+    {
+      "youtubeId": "QG1WcEWOF4g",
+      "youtubeTitle": "PRIORITIES : vous êtes plus d’accord avec David ou Raf ? (Moi avec Raf)",
+      "tvdbCode": "S2026E60",
+      "episodeId": "12022496",
+      "tvdbTitle": "PRIORITIES : vous êtes plus d’accord avec David ou Raf ? (Moi avec Raf)",
+      "runtime": {
+        "youtube": "41:43",
+        "tvdb": 42
+      }
+    },
+    {
+      "youtubeId": "vbj8bMQNIZE",
+      "youtubeTitle": "On repasse le code de la route et c’est bien plus dur que prévu",
+      "tvdbCode": "S2024E65",
+      "episodeId": "10714430",
+      "tvdbTitle": "On repasse le code de la route et c'est bien plus dur que prévu",
+      "runtime": {
+        "youtube": "20:00",
+        "tvdb": 20
+      }
+    },
+    {
+      "youtubeId": "AwdfloSJrtA",
+      "youtubeTitle": "MÉLI-MÉLO... le 3.",
+      "tvdbCode": "S2020E13",
+      "episodeId": "8189257",
+      "tvdbTitle": "MÉLI-MÉLO... le 3.",
+      "runtime": {
+        "youtube": "1:16:14",
+        "tvdb": 76
+      }
+    },
+    {
+      "youtubeId": "r1_H7Va8D8w",
+      "youtubeTitle": "BLINDTEST DES SYNONYMES feat. MAXENSS et SQUEEZIE",
+      "tvdbCode": "S2018E01",
+      "episodeId": "6672789",
+      "tvdbTitle": "BLINDTEST DES SYNONYMES feat. MAXENSS et SQUEEZIE",
+      "runtime": {
+        "youtube": "15:24",
+        "tvdb": 15
+      }
+    }
+  ],
+  "unresolvedProtected": {
+    "youtubeId": "fttKpTYRdMs",
+    "title": "GROSSE ANNONCE",
+    "status": "TICKET_A_VERIFIER_NO_CREATE",
+    "sourceReport": "reports/mcfly-grosse-annonce-resolution-2026-10-06.json",
+    "reason": "Exact publication date/runtime and identity against older TVDB entries remain insufficiently proven; YouTube direct metadata probe is blocked by anti-bot and must not be bypassed."
+  },
+  "conclusion": {
+    "youtubeExtrasReported": 5,
+    "exactExistingTvdbRematches": 4,
+    "protectedHistoricalTicket": 1,
+    "createCandidates": 0,
+    "destructiveActions": 0
+  },
+  "safeguards": [
+    "NO_RECREATE",
+    "NO_SECURITY_BYPASS",
+    "NO_DELETE_ON_CURRENT_ABSENCE"
+  ]
+}
