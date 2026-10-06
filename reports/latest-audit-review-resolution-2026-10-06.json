@@ -1,0 +1,142 @@
+{
+  "generatedAt": "2026-10-06T18:18:06.059Z",
+  "sourceAuditRun": 37508725066,
+  "purpose": "Resolve review-only false positives from latest 9-channel audit without TVDB writes",
+  "resolutions": [
+    {
+      "target": "Djilsi",
+      "reviewTypes": [
+        "TVDB_DUPLICATE_TITLE"
+      ],
+      "groups": [
+        {
+          "normalizedTitle": "on traverse etats unis en camping car onvaou6",
+          "codes": [
+            "S2022E14",
+            "S2022E15",
+            "S2022E16",
+            "S2022E17",
+            "S2022E18"
+          ],
+          "decision": "KEEP_DISTINCT_SERIAL_EPISODES",
+          "reason": "Explicit ep1..ep5 sequence with distinct weekly air dates; normalized-title heuristic collapses episode suffixes."
+        },
+        {
+          "normalizedTitle": "on traverse japon en train",
+          "codes": [
+            "S2023E02",
+            "S2023E03",
+            "S2023E04"
+          ],
+          "decision": "KEEP_DISTINCT_SERIAL_EPISODES",
+          "reason": "Explicit ep1..ep3 sequence with distinct weekly air dates; not duplicates."
+        }
+      ]
+    },
+    {
+      "target": "Squeezie",
+      "reviewTypes": [
+        "TVDB_DUPLICATE_TITLE"
+      ],
+      "groups": [
+        {
+          "normalizedTitle": "top 5 connerie",
+          "codes": [
+            "S2011E47",
+            "S2011E55"
+          ],
+          "decision": "KEEP_DISTINCT_SERIAL_EPISODES",
+          "reason": "Titles explicitly Episode 1 and Episode 2 with different air dates."
+        },
+        {
+          "normalizedTitle": "toy story sur minecraft on est jouets frigiel",
+          "codes": [
+            "S2013E65",
+            "S2013E68"
+          ],
+          "decision": "KEEP_DISTINCT_SERIAL_EPISODES",
+          "reason": "Titles explicitly Episode 1 and Episode 2 with different air dates."
+        },
+        {
+          "normalizedTitle": "j ai completement craque",
+          "codes": [
+            "S2017E170",
+            "S2018E36"
+          ],
+          "decision": "KEEP_HISTORICAL_AMBIGUOUS",
+          "reason": "Same title on distinct historical dates; both currently lack public-YouTube match. No deletion on title equality alone."
+        }
+      ]
+    },
+    {
+      "target": "Mastu",
+      "reviewTypes": [
+        "LIKELY_MISSING_FROM_TVDB_OR_NON_EPISODE",
+        "TVDB_DUPLICATE_TITLE"
+      ],
+      "groups": [
+        {
+          "youtubeId": "5IC69WoRYQ8",
+          "youtubeTitle": "LE JEU DE LA FRAUDE (Avec @theodortytb)",
+          "decision": "ALREADY_PRESENT_NO_CREATE",
+          "existing": "S2022E15",
+          "existingEpisodeId": "9063509",
+          "existingDate": "2022-03-19",
+          "reason": "Current TheTVDB has this exact first Fraude episode; audit matcher was displaced by repeated-concept titles."
+        },
+        {
+          "normalizedTitle": "je peux tout vous expliquer",
+          "codes": [
+            "S2020E27",
+            "S2022E13"
+          ],
+          "decision": "KEEP_DISTINCT_REUSED_TITLE",
+          "reason": "Distinct uploads/air dates 2020-09-05 and 2022-03-02."
+        },
+        {
+          "normalizedTitle": "on accoste gens en voiture theodort",
+          "codes": [
+            "S2023E07",
+            "S2024E11",
+            "S2026E13"
+          ],
+          "decision": "KEEP_DISTINCT_REUSED_CONCEPT",
+          "reason": "Distinct uploads on 2023-05-06, 2024-08-04 and 2026-07-18. Emoji-corrupted 2026 title remains no-retry per project rule."
+        },
+        {
+          "normalizedTitle": "on a passe 24h en enfer michou zafeel hctuan",
+          "codes": [
+            "S2023E20",
+            "S2025E19"
+          ],
+          "decision": "KEEP_DISTINCT_REUSED_CONCEPT",
+          "reason": "Distinct uploads on 2023-12-17 and 2025-11-29."
+        }
+      ]
+    },
+    {
+      "target": "Joyca",
+      "reviewTypes": [
+        "TVDB_DUPLICATE_TITLE"
+      ],
+      "groups": [
+        {
+          "normalizedTitle": "trouve gateau",
+          "codes": [
+            "S2022E37",
+            "S2025E19",
+            "S2026E05"
+          ],
+          "decision": "REVIEW_MAPPING_NOT_DELETE",
+          "reason": "Three distinct dated entries with differing guests; normalized-title heuristic is insufficient. Do not delete or merge. Exact current-title/date mapping should be handled separately if a mismatch is proven."
+        }
+      ]
+    }
+  ],
+  "safeguards": [
+    "NO_WRITES",
+    "NO_CREATE_ON_MASTU_5IC69WoRYQ8",
+    "NO_DELETE_ON_TITLE_EQUALITY",
+    "NO_EMOJI_TITLE_RETRY"
+  ]
+}
