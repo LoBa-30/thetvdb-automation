@@ -8,31 +8,48 @@ const TARGETS = [
   { name: 'Raska', youtubeUrl: 'https://www.youtube.com/@R4SK4/videos', tvdbUrl: 'https://thetvdb.com/series/raska/allseasons/official' }
 ];
 
-const normalize = (value = '') => value
+const normalizeBase = (value = '') => value
   .normalize('NFD')
   .replace(/[\u0300-\u036f]/g, '')
   .toLowerCase()
   .replace(/https?:\/\/\S+/g, ' ')
-  .replace(/@[a-z0-9_.-]+/gi, ' ')
-  .replace(/\b(?:ep|episode)\s*\d+\b/gi, ' ')
-  .replace(/[^a-z0-9]+/g, ' ')
+  .replace(/[^a-z0-9@_.-]+/g, ' ')
   .replace(/\b(ft|feat|avec|youtube|officiel|official|ytb|le|la|les|un|une|des|de|du|et)\b/g, ' ')
   .replace(/\s+/g, ' ')
   .trim();
 
-function tokens(value) {
-  return new Set(normalize(value).split(' ').filter(w => w.length > 1));
-}
+// Strict normalization keeps guest handles and explicit episode numbers.
+// This prevents repeated formats such as "TROUVE LE GÂTEAU" or travel series
+// from being cross-matched solely because their shared base title is identical.
+const normalizeStrict = (value = '') => normalizeBase(value)
+  .replace(/@([a-z0-9_.-]+)/gi, '$1')
+  .replace(/\bepisode\s*(\d+)\b/gi, 'ep $1')
+  .replace(/\s+/g, ' ')
+  .trim();
 
-function similarity(a, b) {
-  const A = tokens(a);
-  const B = tokens(b);
+// Relaxed normalization remains available as a small fallback signal for
+// harmless title variants, but it can no longer dominate an exact guest/part match.
+const normalizeRelaxed = (value = '') => normalizeBase(value)
+  .replace(/@[a-z0-9_.-]+/gi, ' ')
+  .replace(/\b(?:ep|episode)\s*\d+\b/gi, ' ')
+  .replace(/\s+/g, ' ')
+  .trim();
+
+function tokenSimilarity(a, b, normalizer) {
+  const A = new Set(normalizer(a).split(' ').filter(w => w.length > 1));
+  const B = new Set(normalizer(b).split(' ').filter(w => w.length > 1));
   if (!A.size || !B.size) return 0;
   let intersection = 0;
   for (const word of A) if (B.has(word)) intersection += 1;
   const overlap = intersection / Math.max(A.size, B.size);
   const containment = intersection / Math.min(A.size, B.size);
   return (overlap * 0.65) + (containment * 0.35);
+}
+
+function similarity(a, b) {
+  const strict = tokenSimilarity(a, b, normalizeStrict);
+  const relaxed = tokenSimilarity(a, b, normalizeRelaxed);
+  return (strict * 0.8) + (relaxed * 0.2);
 }
 
 function parseTvdbDate(value) {
@@ -123,7 +140,7 @@ function detectTvdbDuplicates(episodes) {
   for (const episode of episodes) {
     if (!byCode.has(episode.code)) byCode.set(episode.code, []);
     byCode.get(episode.code).push(episode);
-    const key = normalize(episode.title);
+    const key = normalizeStrict(episode.title);
     if (key) {
       if (!byTitle.has(key)) byTitle.set(key, []);
       byTitle.get(key).push(episode);
@@ -187,7 +204,7 @@ const context = await browser.newContext({
 const report = {
   generatedAt: new Date().toISOString(),
   mode: 'READ_ONLY_AUDIT',
-  methodology: 'Public YouTube Videos tabs are compared to public TheTVDB All Seasons pages. Title normalization removes accents, handles and common filler words. The report classifies discrepancies conservatively and detects duplicate TheTVDB episode codes. No login or edit action is performed.',
+  methodology: 'Public YouTube Videos tabs are compared to public TheTVDB All Seasons pages. Matching now preserves guest handles and explicit episode numbers as the dominant signal, with a small relaxed fallback for harmless variants. Duplicate-title detection also preserves those distinguishing tokens. No login or edit action is performed.',
   targets: [],
   warnings: [
     'A TheTVDB entry without a current public YouTube match may be a deleted/private/unlisted historical video and is NOT automatically an error.',
