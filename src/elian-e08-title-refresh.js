@@ -21,28 +21,29 @@ try{
  await Promise.all([page.waitForLoadState('domcontentloaded').catch(()=>{}),lf.locator('button[type="submit"],input[type="submit"]').first().click()]);
  await page.waitForTimeout(700);
  const probe=await context.request.get(BASE+'/auth/getuser');report.authenticated=probe.ok();if(!report.authenticated)throw new Error('Auth not proven');
- await go(BASE+'/series/'+SLUG+'/episodes/'+ID+'/0/edit');
- const f=page.locator('form').filter({has:page.locator('input[name="name"]')}).first();
- if(!(await f.count()))throw new Error('Edit form missing');
- const name=f.locator('input[name="name"]').first();
+ await go(BASE+'/series/'+SLUG+'/episodes/'+ID+'/translate/fra/0/single');
+ const tf=page.locator('form').filter({has:page.locator('input[name="episode_name"]')}).first();
+ if(!(await tf.count()))throw new Error('Translation form missing');
+ const name=tf.locator('input[name="episode_name"]').first();
  const current=await name.inputValue();report.currentTitle=current;
- const runtime=Number(await f.locator('input[name="runtime"]').first().inputValue().catch(()=>''))||null;report.runtime=runtime;
  if(current===TO){report.skips.push({reason:'ALREADY_CURRENT',title:current});}
  else if(current!==FROM){report.blocked.push({reason:'TITLE_DRIFT',expectedFrom:FROM,actual:current});throw new Error('TITLE_DRIFT');}
  else{
    await name.fill(TO);
-   const action=await f.getAttribute('action');const path=new URL(action,BASE).pathname;let bad=null;
+   const path='/episodes/translatestore';let bad=null;
    const h=async route=>{const req=route.request(),u=new URL(req.url());if(req.method()==='DELETE'||/\/entity\/delete/.test(u.pathname)){bad='DESTRUCTIVE';return route.abort();}if(u.origin===BASE&&req.method()==='POST'&&u.pathname!==path){bad='UNEXPECTED_POST '+u.pathname;return route.abort();}return route.continue();};
    await context.route('**/*',h);
-   await Promise.all([page.waitForLoadState('domcontentloaded').catch(()=>{}),f.evaluate(form=>form.requestSubmit())]);
+   await Promise.all([page.waitForLoadState('domcontentloaded').catch(()=>{}),tf.evaluate(form=>form.requestSubmit())]);
    await page.waitForTimeout(500);await context.unroute('**/*',h);
    if(bad)throw new Error(bad);
    report.writes.push({field:'title',from:FROM,to:TO});
  }
+ await go(BASE+'/series/'+SLUG+'/episodes/'+ID+'/translate/fra/0/single');
+ const vtf=page.locator('form').filter({has:page.locator('input[name="episode_name"]')}).first();
+ const finalTitle=await vtf.locator('input[name="episode_name"]').first().inputValue();
  await go(BASE+'/series/'+SLUG+'/episodes/'+ID+'/0/edit');
- const vf=page.locator('form').filter({has:page.locator('input[name="name"]')}).first();
- const finalTitle=await vf.locator('input[name="name"]').first().inputValue();
- const finalRuntime=Number(await vf.locator('input[name="runtime"]').first().inputValue().catch(()=>''))||null;
+ const mf=page.locator('form').filter({has:page.locator('input[name="runtime"]')}).first();
+ const finalRuntime=Number(await mf.locator('input[name="runtime"]').first().inputValue().catch(()=>''))||null;
  report.verification={title:finalTitle,runtime:finalRuntime,titleOk:finalTitle===TO,runtimeOk:finalRuntime===34};
  report.result=report.verification.titleOk&&report.verification.runtimeOk?'APPLIED_AND_VERIFIED':'VERIFY_FAILED';
 }catch(e){if(!report.blocked.length)report.blocked.push({reason:String(e?.message||e)});if(report.result==='NOT_STARTED')report.result='BLOCKED';}
