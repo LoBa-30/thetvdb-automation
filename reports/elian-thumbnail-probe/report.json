@@ -1,0 +1,371 @@
+{
+  "generatedAt": "2026-10-06T17:18:23.348Z",
+  "mode": "READ_ONLY_OFFICIAL_YOUTUBE_THUMBNAIL_PROBE",
+  "rows": [
+    {
+      "code": "S2023E02",
+      "id": "rDlPlsjuWXw",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/rDlPlsjuWXw/maxresdefault.jpg",
+          "status": 404,
+          "contentType": "image/jpeg",
+          "width": 120,
+          "height": 90,
+          "ratio": 1.3333,
+          "usable16x9": false
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/rDlPlsjuWXw/sddefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 640,
+          "height": 480,
+          "ratio": 1.3333,
+          "usable16x9": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/rDlPlsjuWXw/hqdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 480,
+          "height": 360,
+          "ratio": 1.3333,
+          "usable16x9": false
+        }
+      ]
+    },
+    {
+      "code": "S2023E04",
+      "id": "QboHB6hZ5dg",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/QboHB6hZ5dg/maxresdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "ratio": 1.7778,
+          "usable16x9": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/QboHB6hZ5dg/sddefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 640,
+          "height": 480,
+          "ratio": 1.3333,
+          "usable16x9": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/QboHB6hZ5dg/hqdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 480,
+          "height": 360,
+          "ratio": 1.3333,
+          "usable16x9": false
+        }
+      ]
+    },
+    {
+      "code": "S2023E06",
+      "id": "lBYtMPlWRq4",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/lBYtMPlWRq4/maxresdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "ratio": 1.7778,
+          "usable16x9": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/lBYtMPlWRq4/sddefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 640,
+          "height": 480,
+          "ratio": 1.3333,
+          "usable16x9": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/lBYtMPlWRq4/hqdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 480,
+          "height": 360,
+          "ratio": 1.3333,
+          "usable16x9": false
+        }
+      ]
+    },
+    {
+      "code": "S2024E02",
+      "id": "IKWScHFW_Mk",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/IKWScHFW_Mk/maxresdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "ratio": 1.7778,
+          "usable16x9": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/IKWScHFW_Mk/sddefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 640,
+          "height": 480,
+          "ratio": 1.3333,
+          "usable16x9": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/IKWScHFW_Mk/hqdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 480,
+          "height": 360,
+          "ratio": 1.3333,
+          "usable16x9": false
+        }
+      ]
+    },
+    {
+      "code": "S2024E04",
+      "id": "U6DoBQQk4OE",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/U6DoBQQk4OE/maxresdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "ratio": 1.7778,
+          "usable16x9": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/U6DoBQQk4OE/sddefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 640,
+          "height": 480,
+          "ratio": 1.3333,
+          "usable16x9": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/U6DoBQQk4OE/hqdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 480,
+          "height": 360,
+          "ratio": 1.3333,
+          "usable16x9": false
+        }
+      ]
+    },
+    {
+      "code": "S2024E07",
+      "id": "DmXahVPYCbc",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/DmXahVPYCbc/maxresdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "ratio": 1.7778,
+          "usable16x9": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/DmXahVPYCbc/sddefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 640,
+          "height": 480,
+          "ratio": 1.3333,
+          "usable16x9": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/DmXahVPYCbc/hqdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 480,
+          "height": 360,
+          "ratio": 1.3333,
+          "usable16x9": false
+        }
+      ]
+    },
+    {
+      "code": "S2025E03",
+      "id": "UjZkmAczOI8",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/UjZkmAczOI8/maxresdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "ratio": 1.7778,
+          "usable16x9": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/UjZkmAczOI8/sddefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 640,
+          "height": 480,
+          "ratio": 1.3333,
+          "usable16x9": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/UjZkmAczOI8/hqdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 480,
+          "height": 360,
+          "ratio": 1.3333,
+          "usable16x9": false
+        }
+      ]
+    },
+    {
+      "code": "S2025E07",
+      "id": "F3NCaUo25Ys",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/F3NCaUo25Ys/maxresdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "ratio": 1.7778,
+          "usable16x9": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/F3NCaUo25Ys/sddefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 640,
+          "height": 480,
+          "ratio": 1.3333,
+          "usable16x9": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/F3NCaUo25Ys/hqdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 480,
+          "height": 360,
+          "ratio": 1.3333,
+          "usable16x9": false
+        }
+      ]
+    },
+    {
+      "code": "S2026E02",
+      "id": "jRU3jVvS8Wg",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/jRU3jVvS8Wg/maxresdefault.jpg",
+          "status": 404,
+          "contentType": "image/jpeg",
+          "width": 120,
+          "height": 90,
+          "ratio": 1.3333,
+          "usable16x9": false
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/jRU3jVvS8Wg/sddefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 640,
+          "height": 480,
+          "ratio": 1.3333,
+          "usable16x9": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/jRU3jVvS8Wg/hqdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 480,
+          "height": 360,
+          "ratio": 1.3333,
+          "usable16x9": false
+        }
+      ]
+    },
+    {
+      "code": "S2026E08",
+      "id": "xkGjW_FR8vI",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/xkGjW_FR8vI/maxresdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "ratio": 1.7778,
+          "usable16x9": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/xkGjW_FR8vI/sddefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 640,
+          "height": 480,
+          "ratio": 1.3333,
+          "usable16x9": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/xkGjW_FR8vI/hqdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "width": 480,
+          "height": 360,
+          "ratio": 1.3333,
+          "usable16x9": false
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "videos": 10,
+    "withUsable16x9": 8
+  }
+}
