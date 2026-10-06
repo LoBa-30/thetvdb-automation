@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-10-06T16:04:00Z",
+  "target": "Mastu",
+  "scope": "Unassigned resolution update",
+  "newlyResolved": {
+    "sourceId": "11567163",
+    "status": "EXACT_DUPLICATE_PROVEN_DELETE_BLOCKED_POLICY",
+    "source": {
+      "title": "Unknown Title",
+      "date": "2025-12-27",
+      "runtimeMinutes": 78
+    },
+    "target": {
+      "id": "11567164",
+      "code": "S2025E21",
+      "title": "QUI DES 30 ? (Avec Mcfly et Carlito)",
+      "date": "2025-12-27",
+      "runtimeMinutes": 78,
+      "seasonFinale": true
+    },
+    "youtube": {
+      "id": "MUIH0k5oz1A",
+      "title": "QUI DES 30 ? (Avec Mcfly et Carlito)",
+      "published": "2025-12-27",
+      "channel": "Mastu"
+    },
+    "evidence": "Current TheTVDB assigned episode and official Mastu YouTube video independently confirm same title/date/runtime. Unassigned record has same date/runtime and no independent identity.",
+    "action": "NO_DELETE_RETRY",
+    "reason": "Previous exact-duplicate deletion path returned HTTP 401. Do not bypass or blindly retry destructive action."
+  },
+  "totalsAfterClassification": {
+    "unassignedCurrent": 10,
+    "exactDuplicatesProven": 5,
+    "historicalUnprovenKeepNoDelete": 5,
+    "deletionsCompleted": 0
+  },
+  "safeguards": [
+    "NO_401_BYPASS",
+    "NO_DELETE_ON_YOUTUBE_ABSENCE",
+    "FRESH_AUTHENTICATED_PREFLIGHT_BEFORE_ANY_FUTURE_DESTRUCTIVE_ACTION"
+  ]
+}
