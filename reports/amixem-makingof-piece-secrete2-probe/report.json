@@ -1,0 +1,8 @@
+{
+  "generatedAt": "2026-10-06T18:55:29.781565Z",
+  "target": "Amixem Unassigned 10857946",
+  "youtubeId": "M93zTCxjqp8",
+  "returncode": 1,
+  "stderr": "ERROR: [youtube] M93zTCxjqp8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+  "result": "METADATA_BLOCKED"
+}
