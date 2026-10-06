@@ -35,8 +35,8 @@ await goto(page,BASE+'/auth/login');
 const form=page.locator('form').filter({has:page.locator('input[type=password]')}).first();
 await form.locator('input[name=email]').fill(username);
 await form.locator('input[name=password]').fill(password);
-await Promise.all([page.waitForLoadState('domcontentloaded').catch(()=>{}),form.locator('button[type=submit],input[type=submit]').first().click()]);
-await page.waitForTimeout(800);
+await form.locator('button[type=submit],input[type=submit]').first().click({noWaitAfter:true});
+await page.waitForTimeout(1200);
 const probe=await context.request.get(BASE+'/auth/getuser');
 if(!probe.ok()) throw new Error('Authentication not proven; possible human verification');
 let up={}; try{up=await probe.json();}catch{}
