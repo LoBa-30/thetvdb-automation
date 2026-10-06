@@ -22,6 +22,9 @@
         "2026 teaser/numbering/finale issue must be re-preflighted because later repository policy/user approval may conflict",
         "139 missing artworks in PDF snapshot",
         "75 existing artworks provenance checks"
+      ],
+      "resolvedSincePlan": [
+        "Metadata corrections applied and final verification closed; do not repeat verified writes."
       ]
     },
     {
@@ -33,6 +36,10 @@
         "9 missing artworks in 09/09 scope + current S2026E08 artwork",
         "19 existing artworks provenance",
         "S2026E08 current title/runtime/image recheck"
+      ],
+      "resolvedSincePlan": [
+        "S2026E08 title refreshed to current official YouTube title and verified with date/runtime.",
+        "Artwork pilot for S2023E04 submitted but post-write verification failed; no blind retry."
       ]
     },
     {
@@ -43,31 +50,41 @@
         "Complete remaining metadata and historical private-video validation",
         "Image work/provenance",
         "Do not redo resolved 2018/2023 numbering collisions"
+      ],
+      "resolvedSincePlan": [
+        "149 current public long videos matched to 149 current counterparts; runtimes verified.",
+        "Only TVDB-only S2023E19 historically corroborated; keep/no-delete."
       ]
     },
     {
       "target": "Maxime Biaggi",
       "pdf": "AUDIT THETVDB — MAXIME BIAGGI.pdf",
       "scope": "MAIN CHANNEL ONLY",
-      "status": "IN_PROGRESS",
+      "status": "IN_PROGRESS_REDUCED",
       "pdfOpenWork": [
-        "10 exact title corrections",
         "7 Season Premiere markers if convention still intended after fresh preflight",
-        "64 missing artworks",
-        "S2024E05 runtime ticket"
+        "64 missing artworks"
+      ],
+      "resolvedSincePlan": [
+        "S2024E05 runtime rechecked: 59:23 YouTube -> 59 min TVDB, no change.",
+        "10 emoji-title attempts rolled back and verified; per project rule, do not retry emoji titles that TheTVDB converts to question marks."
       ]
     },
     {
       "target": "Squeezie",
       "pdf": "AUDIT THETVDB — SQUEEZIE.pdf",
-      "status": "IN_PROGRESS",
+      "status": "IN_PROGRESS_REDUCED",
       "pdfOpenWork": [
         "5 certain Unassigned duplicates still need successful delete/merge",
         "165 metadata-blocked videos in PDF snapshot",
         "runtime tickets in 2016/2017/2019/2021",
-        "historical research for TVDB-only entries",
         "114 existing artwork provenance checks",
         "1484 missing artworks in PDF snapshot"
+      ],
+      "resolvedSincePlan": [
+        "Current structural/historical backlog re-audited: 1586 current YouTube videos, 1660 TVDB assigned, 1585 current matches.",
+        "Single YouTube unmatched resolved as existing/reupload false positive; no create.",
+        "75 TVDB-only rows individually read: 74 historical keep, 1 live-only out of scope, 0 delete candidates."
       ]
     },
     {
@@ -75,24 +92,31 @@
       "pdf": "AUDIT MASTU × THETVDB.pdf",
       "status": "IN_PROGRESS",
       "pdfOpenWork": [
-        "10 Unassigned individually",
         "16 historical TVDB-only entries research",
         "emoji/???? title cases",
         "artwork provenance/completeness",
         "new live-audit unmatched 5IC69WoRYQ8 must not be created: public TVDB already has S2022E15"
+      ],
+      "resolvedSincePlan": [
+        "10 current Unassigned classified individually: 5 exact duplicates proven, 5 historical keep/no-delete.",
+        "Exact duplicate deletion path blocked HTTP 401; no retry/bypass."
       ]
     },
     {
       "target": "Amixem",
       "pdf": "AMIXEM — AUDIT THETVDB.pdf",
-      "status": "IN_PROGRESS",
+      "status": "IN_PROGRESS_REDUCED",
       "pdfOpenWork": [
         "5 Unassigned individually",
         "historical research for 85 TVDB-only entries",
-        "substantive inversion tickets S2016E97/E98, S2017E12, S2020E72/E73",
         "769 missing artworks in PDF snapshot",
         "2 artwork provenance tickets",
         "runtime/title corrections already partially/mostly applied must be post-verified, not repeated"
+      ],
+      "resolvedSincePlan": [
+        "S2017 E13-E20 structural numbering repaired and verified; episode 6102812 airdate corrected to 2017-02-16.",
+        "S2020 E72/E73 stale inversion ticket freshly rechecked: current TVDB already correct; no write.",
+        "S2016 E97/E98 guarded repair workflow prepared/launched from proven checkpoint; fresh preflight required before mutation."
       ]
     },
     {
@@ -103,9 +127,12 @@
         "53 exact-title differences from PDF with fresh preflight",
         "214 runtimes from PDF with fresh preflight",
         "379 missing artworks + 3 provenance tickets",
-        "21 historical TVDB-only entries research",
         "Unassigned appears resolved",
         "S2026E08 stale PDF title superseded by current official YouTube title: ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan)"
+      ],
+      "resolvedSincePlan": [
+        "TROUVE LE GÂTEAU repeated-title discrepancy resolved as matcher false positive; four checked entries correct.",
+        "Historical TVDB-only backlog closed with keep/no-delete decisions."
       ]
     },
     {
@@ -119,6 +146,10 @@
         "artwork provenance/completeness",
         "Unassigned/specials state must use current authenticated snapshot, not stale count",
         "GROSSE ANNONCE is a renamed existing episode: never create"
+      ],
+      "resolvedSincePlan": [
+        "2025 duplicate repair proven but normal merge/delete blocked HTTP 401; no retry/bypass.",
+        "Historical GROSSE ANNONCE remains ticket À vérifier; no speculative create."
       ]
     }
   ],
@@ -151,5 +182,11 @@
       "resolution": "CURRENT_TITLE_REFRESH_IN_PROGRESS",
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
+  ],
+  "lastUpdatedAt": "2026-10-06T18:42:00Z",
+  "latestContinuationCommits": [
+    "bb601dbac30716269847cd9a3823eb8d03ee88f3",
+    "da3c19d0c896137428835d9b2d29ec6fba3a24f2",
+    "c20ef72a33eea8de268fdc739ac3788d7a138861"
   ]
 }
