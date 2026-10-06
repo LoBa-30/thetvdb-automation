@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-10-06T16:46:00Z",
+  "target": "Squeezie",
+  "referenceDate": "2026-09-09",
+  "sources": {
+    "currentStructuralRun": 37496780719,
+    "historicalDetailRun": 37497210985,
+    "historicalDetailArtifactId": 11427409797
+  },
+  "counts": {
+    "youtubeCurrent": 1586,
+    "tvdbAssigned": 1660,
+    "matchedCurrent": 1585,
+    "youtubeUnmatched": 1,
+    "tvdbWithoutCurrentPublicYoutube": 75,
+    "historicalDetailPagesRead": 75,
+    "historicalDetailErrors": 0
+  },
+  "youtubeUnmatchedResolution": {
+    "id": "aN0c6v10PDo",
+    "title": "Japan Expo 2012",
+    "status": "RESOLVED_EXISTING_ORIGINAL_REUPLOAD_FALSE_POSITIVE",
+    "action": "NO_CREATE"
+  },
+  "historicalResolution": {
+    "keepHistorical": 74,
+    "outOfScopeLiveOnlyNoAction": 1,
+    "delete": 0,
+    "rationale": "All 75 TVDB-only rows have specific title/date/runtime detail pages; 73 have specific descriptions, 45 were created within 7 days of their air date, and 74/75 explicitly show YouTube as network. Current absence from the public Videos tab is not evidence for deletion.",
+    "liveOnlyCandidate": {
+      "code": "S2011E103",
+      "episodeId": "5313872",
+      "title": "SqueeZie en compagnie de la PCC et d'autres youtubers en LIVE !",
+      "date": "2011-11-19",
+      "runtimeMinutes": 62,
+      "status": "OUT_OF_SCOPE_LIVE_ONLY_KEEP_NO_ACTION",
+      "note": "Historical indexes preserve it as a roughly one-hour live publication. Project scope excludes live-only items; leave untouched rather than delete."
+    },
+    "thinDescriptionButKeep": [
+      {
+        "code": "S2014E58",
+        "title": "Squeezie et Gwen GANG BEASTS !",
+        "date": "2014-05-06",
+        "runtimeMinutes": 8
+      },
+      {
+        "code": "S2018E97",
+        "title": "CES THÉORIES VOUS FERONT TRANSPIRER",
+        "date": "2018-12-30",
+        "runtimeMinutes": 11
+      }
+    ]
+  },
+  "duplicateTitleGroups": {
+    "status": "NOT_EPISODE_DUPLICATES",
+    "groups": [
+      "Top 5 de la connerie | Episode 1 / Episode 2",
+      "Toy Story sur Minecraft Episode 1 / Episode 2",
+      "J'AI COMPLÈTEMENT CRAQUÉ... (2017 vs 2018)"
+    ]
+  },
+  "safeguards": [
+    "NO_DELETE_ON_CURRENT_YOUTUBE_ABSENCE",
+    "NO_CREATE_FOR_JAPAN_EXPO_FALSE_POSITIVE",
+    "NO_ACTION_ON_LIVE_ONLY_SCOPE_EXCLUSION",
+    "NO_BLIND_DESTRUCTIVE_ACTION"
+  ]
+}
