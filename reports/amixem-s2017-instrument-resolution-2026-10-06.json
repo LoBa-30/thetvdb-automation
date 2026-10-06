@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-10-06T16:52:30Z",
+  "target": "Amixem",
+  "case": "S2017 instrument chronology anomaly",
+  "sourceRun": 37498590252,
+  "mode": "RESOLUTION_NO_WRITE",
+  "youtube": {
+    "videoId": "fu-nBHrmokA",
+    "currentTitle": "JE JOUE À L'INSTRUMENT DE MUSIQUE LE PLUS BIZARRE !",
+    "currentChannelId": "UCgvqvBoSHB1ctlyyhoHrGwQ",
+    "currentPageHttp": 200,
+    "currentRelativeAge": "il y a 9 a",
+    "exactPublishDateRetrieved": false,
+    "blocker": "YouTube public page requested robot confirmation and withheld exact publish/upload metadata. No bypass attempted."
+  },
+  "tvdbCurrent": {
+    "authenticated": true,
+    "episodeId": "6102812",
+    "code": "S2017E20",
+    "title": "JE JOUE À L'INSTRUMENT DE MUSIQUE LE PLUS BIZARRE !",
+    "date": "2017-03-16",
+    "runtimeMinutes": 14,
+    "surrounding": [
+      "S2017E12 6102810 LE MEILLEUR TEST DE PERSONNALITÉ ! — 2017-02-11",
+      "S2017E13 6102813 LE PIRE COLIS QU'UN ABONNÉ M'AIT ENVOYÉ ! — 2017-02-19",
+      "S2017E14 6102814 MA PREMIÈRE PARTIE D'AIRSOFT EN HÉLICOPTÈRE ! — 2017-02-22",
+      "S2017E15 6102822 JE TESTE LES PIRES INSTRUMENTS DE MUSIQUES ! — 2017-02-26",
+      "S2017E16 6102824 L'AVENTURE LA PLUS DINGUE DE MA VIE ! - 4L Trophy EP #1 — 2017-03-04",
+      "S2017E17 6102827 LES PIRES ARTICLES AMAZON ! — 2017-03-08",
+      "S2017E18 6102828 ENSABLÉS DANS LE DÉSERT ! 4L Trophy EP #3 — 2017-03-11",
+      "S2017E19 6102829 JE VISITE LA STATION SPATIALE ! — 2017-03-15",
+      "S2017E20 6102812 JE JOUE À L'INSTRUMENT DE MUSIQUE LE PLUS BIZARRE ! — 2017-03-16",
+      "S2017E21 6102831 VOICI LE MOMENT LE PLUS ÉPIQUE DE MA VIE ! - 4L Trophy EP #5 — 2017-03-18"
+    ]
+  },
+  "evidence": {
+    "currentOfficialPlaylistOrder": "The exhaustive current-channel catalogue places fu-nBHrmokA between the 2017-02-11 and 2017-02-19 sequence, causing the matcher to leave current TVDB S2017E20 unmatched rather than treating the video as March 16.",
+    "historicalIndex": "Seriebox historical listing places the instrument video on 2017-02-16 between LE MEILLEUR TEST DE PERSONNALITÉ and LE PIRE COLIS.",
+    "implication": "If 2017-02-16 is independently confirmed from a primary/archive source, the likely correction is to move episode 6102812 to E13 and shift current E13–E19 to E14–E20; E21 onward remains unchanged."
+  },
+  "resolution": {
+    "status": "HIGH_CONFIDENCE_STRUCTURAL_CANDIDATE_PRIMARY_DATE_BLOCKED",
+    "tvdbWrites": 0,
+    "doNotApplyUntil": "Exact 2017-02-16 publication date is independently confirmed from primary/archival evidence and a fresh authenticated write preflight confirms all affected IDs."
+  },
+  "safeguards": [
+    "NO_YOUTUBE_BOT_BYPASS",
+    "NO_MULTI_EPISODE_RENUMBER_ON_SECONDARY_DATE_ONLY",
+    "FRESH_PREFLIGHT_BEFORE_ANY_WRITE"
+  ]
+}
