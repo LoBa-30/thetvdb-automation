@@ -1,0 +1,26 @@
+{
+  "target": "Mastu S2018E08",
+  "episodeId": "6953923",
+  "youtubeId": "TcUSeNjrzFU",
+  "mode": "READ_ONLY",
+  "youtube": {
+    "title": null,
+    "publishDate": null,
+    "uploadDate": null,
+    "durationSeconds": null,
+    "channelId": null,
+    "author": null,
+    "playability": "LOGIN_REQUIRED"
+  },
+  "tvdb": {
+    "title": "QUAND 2 BEAUFS PRENNENT LA VOITURE",
+    "firstAiredText": "March 3, 2018",
+    "runtimeMinutes": 10,
+    "url": "https://www.thetvdb.com/series/346011-show/episodes/6953923"
+  },
+  "expectedRuntimeMinutes": null,
+  "comparison": {
+    "titleExact": false,
+    "runtimeExact": null
+  }
+}
