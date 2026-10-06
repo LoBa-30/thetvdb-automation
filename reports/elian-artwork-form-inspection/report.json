@@ -1,0 +1,111 @@
+{
+  "generatedAt": "2026-10-06T17:13:44.098Z",
+  "mode": "AUTHENTICATED_STRICT_READ_ONLY_FORM_INSPECTION",
+  "episodeId": "11092249",
+  "authenticated": true,
+  "links": [
+    {
+      "text": "Add Artwork",
+      "href": "https://thetvdb.com/artwork/upload?type=11&episode=11092249&series=462729"
+    }
+  ],
+  "forms": [
+    {
+      "action": "https://thetvdb.com/search",
+      "method": "get",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "query",
+          "value": null,
+          "accept": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "action": "https://thetvdb.com/artwork/upload_handler",
+      "method": "post",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "_token",
+          "value": "HfvcqjtZLvZIaXPE7P4tUSq7BjifNe8TZCv0Cp8X",
+          "accept": null,
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "type",
+          "value": "11",
+          "accept": null,
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "episode",
+          "value": "11092249",
+          "accept": null,
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "series",
+          "value": "462729",
+          "accept": null,
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "redirect",
+          "value": "/series/elian-ventre-462729/episodes/11092249",
+          "accept": null,
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "file",
+          "name": "file",
+          "value": null,
+          "accept": null,
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "url",
+          "value": "",
+          "accept": null,
+          "required": false
+        }
+      ]
+    }
+  ],
+  "blocked": [
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306827919&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092249&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092249&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306827919&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092249&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092249&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306828719&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11092249%26series%3D462729&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306828719&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11092249%26series%3D462729&beacon=1"
+    }
+  ],
+  "errors": [],
+  "pageUrl": "https://thetvdb.com/artwork/upload?type=11&episode=11092249&series=462729",
+  "pageTitle": "Artwork Upload - TheTVDB.com"
+}
