@@ -1,0 +1,4 @@
+authenticated=true
+writes=2
+blocked=0
+result=APPLIED_AND_VERIFIED

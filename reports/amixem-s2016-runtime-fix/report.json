@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-10-06T19:15:44.579Z",
+  "target": "Amixem S2016E97-E98 runtimes",
+  "authenticated": true,
+  "preflight": [
+    {
+      "id": "6102789",
+      "episode": 97,
+      "row": {
+        "number": 97,
+        "publicId": "6102789",
+        "title": "JE JUGE LES YOUTUBERS !"
+      },
+      "airdate": "2016-12-17",
+      "runtime": 11,
+      "youtubeId": "Tu0tDXPx_4k",
+      "duration": "12:41"
+    },
+    {
+      "id": "6102787",
+      "episode": 98,
+      "row": {
+        "number": 98,
+        "publicId": "6102787",
+        "title": "J'AI CRASHÉ MON NOUVEAU DRONE ! (Oui, encore...)"
+      },
+      "airdate": "2016-12-18",
+      "runtime": 13,
+      "youtubeId": "Zja5z7C0c7g",
+      "duration": "10:48"
+    }
+  ],
+  "writes": [
+    {
+      "id": "6102789",
+      "episode": 97,
+      "from": 11,
+      "to": 13,
+      "youtubeId": "Tu0tDXPx_4k",
+      "duration": "12:41"
+    },
+    {
+      "id": "6102787",
+      "episode": 98,
+      "from": 13,
+      "to": 11,
+      "youtubeId": "Zja5z7C0c7g",
+      "duration": "10:48"
+    }
+  ],
+  "verifications": [
+    {
+      "id": "6102789",
+      "episode": 97,
+      "runtime": 13,
+      "airdate": "2016-12-17",
+      "ok": true
+    },
+    {
+      "id": "6102787",
+      "episode": 98,
+      "runtime": 11,
+      "airdate": "2016-12-18",
+      "ok": true
+    }
+  ],
+  "blocked": [],
+  "result": "APPLIED_AND_VERIFIED"
+}
