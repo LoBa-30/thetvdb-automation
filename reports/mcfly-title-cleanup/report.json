@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-10-06T20:16:32.378Z",
+  "target": "Mcfly & Carlito substantive title cleanup",
+  "mode": "GUARDED_TITLE_REPAIR",
+  "authenticated": true,
+  "preflight": [
+    {
+      "id": "11261488",
+      "code": "S2025E54",
+      "currentTitle": "MÉLI-MÉLO 4 (tout simplement)",
+      "allowed": [
+        "MÉLI-MÉLO 4 (tout simplement) mid-season finale",
+        "MÉLI-MÉLO 4 (tout simplement)"
+      ]
+    },
+    {
+      "id": "10677656",
+      "code": "S2024E60",
+      "currentTitle": "Merci pour cette saison.",
+      "allowed": [
+        "Merci pour cette saison. mid-season finale",
+        "Merci pour cette saison."
+      ]
+    },
+    {
+      "id": "9915826",
+      "code": "S2023E06",
+      "currentTitle": "La maison est incroyable ! Fin de l’aventure Bizeneuille",
+      "allowed": [
+        "La maison est incroyable ! Fin de l’aventure Bizeneuille mid-season finale",
+        "La maison est incroyable ! Fin de l’aventure Bizeneuille"
+      ]
+    },
+    {
+      "id": "9599423",
+      "code": "S2023E05",
+      "currentTitle": "Les pires anecdotes de nos abonnés (la dernière est la meilleure de tous les temps)",
+      "allowed": [
+        "Les pires anecdotes de nos abonnés (la dernière est la meilleure de tous les temps) mid-season finale",
+        "Les pires anecdotes de nos abonnés (la dernière est la meilleure de tous les temps)"
+      ]
+    }
+  ],
+  "writes": [],
+  "skips": [
+    {
+      "id": "11261488",
+      "code": "S2025E54",
+      "reason": "ALREADY_CORRECT"
+    },
+    {
+      "id": "10677656",
+      "code": "S2024E60",
+      "reason": "ALREADY_CORRECT"
+    },
+    {
+      "id": "9915826",
+      "code": "S2023E06",
+      "reason": "ALREADY_CORRECT"
+    },
+    {
+      "id": "9599423",
+      "code": "S2023E05",
+      "reason": "ALREADY_CORRECT"
+    }
+  ],
+  "verifications": [
+    {
+      "id": "11261488",
+      "code": "S2025E54",
+      "title": "MÉLI-MÉLO 4 (tout simplement)",
+      "ok": true
+    },
+    {
+      "id": "10677656",
+      "code": "S2024E60",
+      "title": "Merci pour cette saison.",
+      "ok": true
+    },
+    {
+      "id": "9915826",
+      "code": "S2023E06",
+      "title": "La maison est incroyable ! Fin de l’aventure Bizeneuille",
+      "ok": true
+    },
+    {
+      "id": "9599423",
+      "code": "S2023E05",
+      "title": "Les pires anecdotes de nos abonnés (la dernière est la meilleure de tous les temps)",
+      "ok": true
+    }
+  ],
+  "blocked": [],
+  "result": "APPLIED_AND_VERIFIED"
+}
