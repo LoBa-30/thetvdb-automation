@@ -1,0 +1,75 @@
+{
+  "generatedAt": "2026-10-06T15:57:00Z",
+  "target": "Mcfly & Carlito",
+  "sourceRun": 37491514934,
+  "mode": "RESOLUTION_CHECKPOINT_NO_WRITE",
+  "findings": {
+    "checked": 15,
+    "readErrors": 0,
+    "groups": [
+      {
+        "ids": [
+          "10751340",
+          "10751341"
+        ],
+        "date": "2013-05-10",
+        "runtimeMinutes": 4,
+        "count": 2,
+        "currentTitle": "Unknown Title",
+        "created": "2014 import-like cluster metadata observed as CREATED October 19, 2024",
+        "decision": "A_VERIFIER_KEEP_NO_DELETE"
+      },
+      {
+        "ids": [
+          "10752394",
+          "10752395",
+          "10752396",
+          "10752397",
+          "10752398",
+          "10752399",
+          "10752404",
+          "10752405",
+          "10752406",
+          "10752407"
+        ],
+        "date": "2014-01-10",
+        "runtimeMinutes": 26,
+        "count": 10,
+        "currentTitle": "Unknown Title",
+        "created": "CREATED October 20, 2024",
+        "decision": "A_VERIFIER_KEEP_NO_DELETE"
+      },
+      {
+        "ids": [
+          "10752676",
+          "10752677"
+        ],
+        "date": "2015-06-07",
+        "runtimeMinutes": 45,
+        "count": 2,
+        "currentTitle": "Unknown Title",
+        "created": "CREATED October 20, 2024",
+        "decision": "A_VERIFIER_KEEP_NO_DELETE"
+      },
+      {
+        "ids": [
+          "11261473"
+        ],
+        "date": "2025-07-27",
+        "runtimeMinutes": null,
+        "count": 1,
+        "currentTitle": "Unknown Title",
+        "created": "CREATED July 26, 2025",
+        "decision": "LIKELY_DUPLICATE_A_VERIFIER_KEEP_NO_DELETE",
+        "candidateDuplicate": {
+          "id": "11261488",
+          "code": "S2025E54",
+          "title": "MÉLI-MÉLO 4 (tout simplement)"
+        },
+        "note": "Same-date duplicate/import hypothesis from prior audit; individual provenance still insufficient for deletion."
+      }
+    ]
+  },
+  "conclusion": "No destructive action. Current TheTVDB pages provide no individual title/provenance for these historical Unknown entries. Absence from current main-channel YouTube is not a deletion criterion.",
+  "next": "Research historical provenance per group; only delete/merge after exact individual proof and fresh authenticated preflight."
+}
