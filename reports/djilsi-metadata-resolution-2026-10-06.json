@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-10-06T17:09:00Z",
+  "target": "Djilsi",
+  "scope": "Final structural/text/date/runtime resolution after guarded writes",
+  "evidence": {
+    "applyRun": 37500245089,
+    "applyReportCommit": "76cc06a2f767defff60d8eb2eba14328f5a928e4",
+    "finalVerificationRun": 37501048088,
+    "finalVerificationCommit": "09ddc9e0db3c2437856ba4ef42bcb2aa7879a2ec",
+    "globalPostApplyAuditRun": 37500245222
+  },
+  "result": {
+    "targetEpisodesChecked": 31,
+    "finalChecksPassed": 31,
+    "finalChecksFailed": 0,
+    "runtimeTargets": 30,
+    "dateTargets": 2,
+    "seriesFirstAired": "2018-08-09",
+    "youtubeCount": 215,
+    "tvdbCount": 215,
+    "matched": 215,
+    "youtubeUnmatched": 0,
+    "tvdbWithoutCurrentPublicYoutube": 0,
+    "duplicateCodes": 0,
+    "auditErrors": 0
+  },
+  "structure2026": {
+    "episodeCount": 17,
+    "announcementE11": {
+      "id": "12014131",
+      "status": "PRESERVED_USER_APPROVED"
+    },
+    "e13": {
+      "id": "11971086",
+      "runtimeMinutes": 49,
+      "status": "VERIFIED"
+    },
+    "e14": {
+      "id": "11976892",
+      "runtimeMinutes": 45,
+      "status": "VERIFIED"
+    },
+    "renumbering": "NONE"
+  },
+  "writes": {
+    "guardedApplyResult": "APPLIED_AND_VERIFIED",
+    "reportWrites": 24,
+    "reportSkipsAlreadyCorrect": 8,
+    "blocked": 0,
+    "note": "A concurrent idempotent guarded apply handled some targets before the successful workflow reached them. The independent final verifier subsequently confirmed every intended final value, so current state—not runner attribution—is authoritative."
+  },
+  "decision": "METADATA_RESOLVED",
+  "remainingScope": [
+    "episode artwork completeness/provenance only"
+  ],
+  "safeguards": [
+    "DO_NOT_REDO_VERIFIED_METADATA",
+    "KEEP_USER_APPROVED_2026_ANNOUNCEMENT",
+    "NO_EMOJI_RETRY_WHERE_BACKEND_NORMALIZES_TO_QUESTION_MARKS"
+  ]
+}
