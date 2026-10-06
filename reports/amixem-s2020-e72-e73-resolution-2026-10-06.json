@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-10-06T18:40:30Z",
+  "target": "Amixem",
+  "ticket": "S2020E72-E73 stale inversion",
+  "mode": "FRESH_PUBLIC_RECHECK_NO_WRITE",
+  "staleAudit": {
+    "source": "reports/amixem-final/audit.json",
+    "observed": {
+      "S2020E72": {
+        "episodeId": "8107823",
+        "tvdbTitle": "CES GENS SONT INCONSCIENTS ! (et ils sont payés pour ça)",
+        "matchedYoutubeTitle": "ON A CONSTRUIT UN BUNKER ! (genre vraiment)",
+        "youtubeId": "tB1RJcIyQqc"
+      },
+      "S2020E73": {
+        "episodeId": "8107822",
+        "tvdbTitle": "ON A CONSTRUIT UN BUNKER ! (genre vraiment)",
+        "matchedYoutubeTitle": "CES GENS SONT INCONSCIENTS ! (et ils sont payés pour ça)",
+        "youtubeId": "zusoj9QmlHc"
+      }
+    }
+  },
+  "freshState": {
+    "source": "current public TheTVDB season 2020 page",
+    "S2020E72": {
+      "title": "CES GENS SONT INCONSCIENTS ! (et ils sont payés pour ça)",
+      "date": "2020-11-20",
+      "runtimeMinutes": 13
+    },
+    "S2020E73": {
+      "title": "ON A CONSTRUIT UN BUNKER ! (genre vraiment)",
+      "date": "2020-11-22",
+      "runtimeMinutes": 35
+    }
+  },
+  "corroboration": [
+    {
+      "source": "official YouTube indexed result",
+      "youtubeId": "tB1RJcIyQqc",
+      "title": "ON A CONSTRUIT UN BUNKER ! (genre vraiment)",
+      "published": "2020-11-22",
+      "duration": "34:32"
+    },
+    {
+      "source": "Seriebox / EpisodeCalendar historical chronology",
+      "title": "CES GENS SONT INCONSCIENTS ! (et ils sont payés pour ça)",
+      "published": "2020-11-20"
+    }
+  ],
+  "resolution": "CURRENT_TVDB_ALREADY_CORRECT_STALE_MATCHER_FALSE_POSITIVE",
+  "action": "NO_WRITE",
+  "safeguards": [
+    "DO_NOT_REWRITE_ALREADY_CORRECT_STATE",
+    "REFRESH_EXHAUSTIVE_AUDIT_BEFORE_FURTHER_AMIXEM_METADATA_WRITES"
+  ]
+}
