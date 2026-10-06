@@ -1,0 +1,76 @@
+name: Mcfly GROSSE ANNONCE historical probe
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/mcfly-grosse-annonce-probe.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -U yt-dlp requests beautifulsoup4
+      - name: Read exact public YouTube metadata and TVDB title presence
+        shell: bash
+        run: |
+          mkdir -p reports/mcfly-grosse-annonce-probe
+          set +e
+          yt-dlp --dump-json --skip-download --no-warnings 'https://www.youtube.com/watch?v=fttKpTYRdMs' > /tmp/yt.json 2>/tmp/yt.err
+          YT_RC=$?
+          set -e
+          python - <<'PY'
+          import json, pathlib, requests, re, datetime
+          from bs4 import BeautifulSoup
+          out=pathlib.Path('reports/mcfly-grosse-annonce-probe')
+          try:
+              y=json.load(open('/tmp/yt.json',encoding='utf-8'))
+              yt={
+                'ok':True,'id':y.get('id'),'title':y.get('title'),'upload_date':y.get('upload_date'),
+                'timestamp':y.get('timestamp'),'duration_seconds':y.get('duration'),
+                'duration_string':y.get('duration_string'),'channel':y.get('channel'),
+                'channel_id':y.get('channel_id'),'webpage_url':y.get('webpage_url'),
+                'description':y.get('description')
+              }
+          except Exception as e:
+              yt={'ok':False,'error':str(e),'stderr':open('/tmp/yt.err',encoding='utf-8',errors='replace').read()[:4000]}
+          url='https://thetvdb.com/series/338282-show/allseasons/official'
+          r=requests.get(url,headers={'User-Agent':'Mozilla/5.0'},timeout=30)
+          soup=BeautifulSoup(r.text,'html.parser')
+          text=' '.join(soup.stripped_strings)
+          anchors=[]
+          for a in soup.select('a[href*="/series/338282-show/episodes/"]'):
+              title=' '.join(a.stripped_strings)
+              if 'ANNONCE' in title.upper() or 'GROSSE' in title.upper():
+                  anchors.append({'title':title,'href':a.get('href')})
+          report={
+            'generatedAt':datetime.datetime.utcnow().isoformat()+'Z',
+            'target':'Mcfly & Carlito historical public video fttKpTYRdMs',
+            'mode':'READ_ONLY_EXACT_METADATA_AND_TVDB_PRESENCE',
+            'youtube':yt,
+            'tvdb':{'allSeasonsHttp':r.status_code,'matchingAnnouncementAnchors':anchors,'rawContainsExactGrosseAnnonce':bool(re.search(r'(?i)>\s*GROSSE ANNONCE\s*<',r.text))},
+            'decision':'PENDING_REVIEW'
+          }
+          json.dump(report,open(out/'report.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+          print(json.dumps(report,ensure_ascii=False,indent=2))
+          PY
+      - name: Persist probe
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/mcfly-grosse-annonce-probe
+          git commit -m "Record Mcfly GROSSE ANNONCE historical probe [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mcfly-grosse-annonce-probe
+          path: reports/mcfly-grosse-annonce-probe/
