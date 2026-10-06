@@ -4,7 +4,7 @@
 
 ## Bilan chiffré
 
-- **generated_at** : 2026-10-06T19:13:32.073638Z
+- **generated_at** : 2026-10-06T19:19:54.695118Z
 - **reference_date** : 2026-09-09
 - **youtube_public_videos_current** : 890
 - **tvdb_episodes_current** : 975
@@ -13,9 +13,9 @@
 - **tvdb_without_current_public_youtube** : 85
 - **in_scope_aligned_pairs** : 885
 - **in_scope_tvdb_historical_without_current_public_youtube** : 85
-- **title_exact_mismatches_in_scope** : 56
-- **title_substantive_mismatches_in_scope** : 2
-- **runtime_mismatches_in_scope** : 4
+- **title_exact_mismatches_in_scope** : 54
+- **title_substantive_mismatches_in_scope** : 0
+- **runtime_mismatches_in_scope** : 0
 - **runtime_unverifiable_in_scope** : 0
 - **youtube_dates_independently_retrieved_in_scope** : 0
 - **date_mismatches_in_scope** : 0
@@ -93,8 +93,6 @@
 - **S2021E31 — 2021-04-29** — TheTVDB : « Y’a peu de chances que ça se finisse bien » → YouTube actuel : « Y’a peu de chances que ça se finisse bien 😭 » — COSMETIC_EXACTNESS
 - **S2021E28 — 2021-04-18** — TheTVDB : « Une nuit 400 mètres sous terre (24H dans une grotte) » → YouTube actuel : « Une nuit 400 mètres sous terre 😲 (24H dans une grotte) » — COSMETIC_EXACTNESS
 - **S2021E16 — 2021-03-03** — TheTVDB : « Elle croit vraiment qu’on l’a pas vu (les PIRES camouflages) » → YouTube actuel : « Elle croit vraiment qu’on l’a pas vu 😭 (les PIRES camouflages) » — COSMETIC_EXACTNESS
-- **S2020E73 — 2020-11-22** — TheTVDB : « ON A CONSTRUIT UN BUNKER ! (genre vraiment) » → YouTube actuel : « CES GENS SONT INCONSCIENTS ! (et ils sont payés pour ça) » — SUBSTANTIVE_MISMATCH
-- **S2020E72 — 2020-11-20** — TheTVDB : « CES GENS SONT INCONSCIENTS ! (et ils sont payés pour ça) » → YouTube actuel : « ON A CONSTRUIT UN BUNKER ! (genre vraiment) » — SUBSTANTIVE_MISMATCH
 - **S2018E19 — 2018-03-11** — TheTVDB : « JE VLOG SUR LE TOURNAGE D'UN GROS FILM ! (Tomb Raider) » → YouTube actuel : « JE VLOG SUR LE TOURNAGE D'UN GROS FILM ! (Tomb Raider ) » — PUNCTUATION_EMOJI_EXACTNESS
 - **S2017E83 — 2017-10-20** — TheTVDB : « LES PIRES OBJETS SUR LES SITES CHINOIS ! » → YouTube actuel : « LES PIRES OBJETS SUR LES SITES CHINOIS !⁠⁠⁠⁠ » — COSMETIC_EXACTNESS
 - **S2017E31 — 2017-04-20** — TheTVDB : « UN ALLIGATOR ME BLOQUE LA ROUTE ! (Vlog Floride) » → YouTube actuel : « UN ALLIGATOR ME BLOQUE LA ROUTE !  (Vlog Floride) » — COSMETIC_EXACTNESS
@@ -104,10 +102,7 @@
 
 ## Corrections de runtime dans le périmètre
 
-- **S2020E73 — 2020-11-22 — CES GENS SONT INCONSCIENTS ! (et ils sont payés pour ça)** : YouTube 12:53 → TheTVDB 35 min ; valeur minute attendue 13 min.
-- **S2020E72 — 2020-11-20 — ON A CONSTRUIT UN BUNKER ! (genre vraiment)** : YouTube 34:32 → TheTVDB 13 min ; valeur minute attendue 35 min.
-- **S2016E98 — 2016-12-18 — J'AI CRASHÉ MON NOUVEAU DRONE ! (Oui, encore...)** : YouTube 10:48 → TheTVDB 13 min ; valeur minute attendue 11 min.
-- **S2016E97 — 2016-12-17 — JE JUGE LES YOUTUBERS !** : YouTube 12:41 → TheTVDB 11 min ; valeur minute attendue 13 min.
+- Aucune divergence de runtime détectée.
 
 ## Entrées TheTVDB sans vidéo publique actuelle — ne pas supprimer automatiquement
 
