@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-10-06T17:13:28.169Z",
+  "target": "Elian S2026E08",
+  "youtubeId": "xkGjW_FR8vI",
+  "mode": "GUARDED_CURRENT_TITLE_REFRESH",
+  "authenticated": true,
+  "writes": [],
+  "skips": [],
+  "blocked": [
+    {
+      "reason": "Edit form missing"
+    }
+  ],
+  "verification": null,
+  "result": "BLOCKED"
+}
