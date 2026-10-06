@@ -1,0 +1,902 @@
+{
+  "generatedAt": "2026-10-06T17:01:31.999Z",
+  "target": "Djilsi",
+  "mode": "GUARDED_METADATA_APPLY",
+  "armed": true,
+  "authenticated": true,
+  "announcementPolicy": "KEEP_USER_APPROVED_E11_NO_RENUMBER",
+  "preflight": [
+    {
+      "id": "9242990",
+      "season": 2018,
+      "episode": 1,
+      "expectedTitle": "PARTIR EN TOUR DE FRANCE EN IMPRO TOTALE ! #DécouvreTonPays 1",
+      "row": {
+        "number": 1,
+        "id": "9242990",
+        "title": "PARTIR EN TOUR DE FRANCE EN IMPRO TOTALE ! #DécouvreTonPays 1"
+      },
+      "currentDate": "2018-08-10",
+      "currentRuntime": 10
+    },
+    {
+      "id": "9242992",
+      "season": 2018,
+      "episode": 3,
+      "expectedTitle": "SUR LA PLUS HAUTE DUNE D'EUROPE ! #DécouvreTonPays 3",
+      "row": {
+        "number": 3,
+        "id": "9242992",
+        "title": "SUR LA PLUS HAUTE DUNE D'EUROPE ! #DécouvreTonPays 3"
+      },
+      "currentDate": "2018-08-23",
+      "currentRuntime": 6
+    },
+    {
+      "id": "9242995",
+      "season": 2018,
+      "episode": 6,
+      "expectedTitle": "UN GENDARME ME MET UNE PRESSION PAR TELEPHONE ! #DécouvreTonPays 6",
+      "row": {
+        "number": 6,
+        "id": "9242995",
+        "title": "UN GENDARME ME MET UNE PRESSION PAR TELEPHONE ! #DécouvreTonPays 6"
+      },
+      "currentDate": "2018-09-07",
+      "currentRuntime": 14
+    },
+    {
+      "id": "9243020",
+      "season": 2018,
+      "episode": 15,
+      "expectedTitle": "COUP DE POKER #JournalDeBord EP3",
+      "row": {
+        "number": 15,
+        "id": "9243020",
+        "title": "COUP DE POKER #JournalDeBord EP3"
+      },
+      "currentDate": "2018-12-05",
+      "currentRuntime": 13
+    },
+    {
+      "id": "9243034",
+      "season": 2019,
+      "episode": 7,
+      "expectedTitle": "LE PIRE ÉLÈVE À LA FAC ! CACHE LA CAM #2",
+      "row": {
+        "number": 7,
+        "id": "9243034",
+        "title": "LE PIRE ÉLÈVE À LA FAC ! CACHE LA CAM #2"
+      },
+      "currentDate": "2019-03-23",
+      "currentRuntime": 8
+    },
+    {
+      "id": "9243035",
+      "season": 2019,
+      "episode": 8,
+      "expectedTitle": "LE MEC LE PLUS CHELOU DANS LA RUE ! CACHE LA CAM #3",
+      "row": {
+        "number": 8,
+        "id": "9243035",
+        "title": "LE MEC LE PLUS CHELOU DANS LA RUE ! CACHE LA CAM #3"
+      },
+      "currentDate": "2019-04-10",
+      "currentRuntime": 5
+    },
+    {
+      "id": "9243049",
+      "season": 2019,
+      "episode": 22,
+      "expectedTitle": "ON S'INCRUSTE CHEZ DES GENS ! #OnVaOù",
+      "row": {
+        "number": 22,
+        "id": "9243049",
+        "title": "ON S'INCRUSTE CHEZ DES GENS ! #OnVaOù"
+      },
+      "currentDate": "2019-08-10",
+      "currentRuntime": 22
+    },
+    {
+      "id": "9243050",
+      "season": 2019,
+      "episode": 23,
+      "expectedTitle": "LE MOMENT LE PLUS GÊNANT DE NOTRE VIE ! #OnVaOù (final saison 1)",
+      "row": {
+        "number": 23,
+        "id": "9243050",
+        "title": "LE MOMENT LE PLUS GÊNANT DE NOTRE VIE ! #OnVaOù (final saison 1)"
+      },
+      "currentDate": "2019-08-17",
+      "currentRuntime": 23
+    },
+    {
+      "id": "9243051",
+      "season": 2019,
+      "episode": 24,
+      "expectedTitle": "1 AN SUR YOUTUBE : JE VOUS DIS TOUT !",
+      "row": {
+        "number": 24,
+        "id": "9243051",
+        "title": "1 AN SUR YOUTUBE : JE VOUS DIS TOUT !"
+      },
+      "currentDate": "2019-09-04",
+      "currentRuntime": 31
+    },
+    {
+      "id": "9243057",
+      "season": 2019,
+      "episode": 29,
+      "expectedTitle": "LES FRANCAIS SONT-ILS PERVERS ? INTERVIEW CHELOU #7",
+      "row": {
+        "number": 29,
+        "id": "9243057",
+        "title": "LES FRANCAIS SONT-ILS PERVERS ? INTERVIEW CHELOU #7"
+      },
+      "currentDate": "2019-10-19",
+      "currentRuntime": 7
+    },
+    {
+      "id": "9243064",
+      "season": 2019,
+      "episode": 36,
+      "expectedTitle": "LE PIRE VENDEUR DU MONDE ! CACHE LA CAM #11",
+      "row": {
+        "number": 36,
+        "id": "9243064",
+        "title": "LE PIRE VENDEUR DU MONDE ! CACHE LA CAM #11"
+      },
+      "currentDate": "2019-12-21",
+      "currentRuntime": 7
+    },
+    {
+      "id": "9243084",
+      "season": 2020,
+      "episode": 5,
+      "expectedTitle": "DES CONFLITS AU SEIN DU GROUPE !! #OnVaOù3",
+      "row": {
+        "number": 5,
+        "id": "9243084",
+        "title": "DES CONFLITS AU SEIN DU GROUPE !! #OnVaOù3"
+      },
+      "currentDate": "2020-03-08",
+      "currentRuntime": 21
+    },
+    {
+      "id": "9243162",
+      "season": 2020,
+      "episode": 27,
+      "expectedTitle": "J'AI ÉTÉ BLOQUÉ DANS UNE COURSE POURSUITE EN VOITURE ! (la voiture explose c'est faux)",
+      "row": {
+        "number": 27,
+        "id": "9243162",
+        "title": "J'AI ÉTÉ BLOQUÉ DANS UNE COURSE POURSUITE EN VOITURE ! (la voiture explose c'est faux)"
+      },
+      "currentDate": "2020-11-21",
+      "currentRuntime": 20
+    },
+    {
+      "id": "9243181",
+      "season": 2021,
+      "episode": 15,
+      "expectedTitle": "Des gros problèmes aux frontières... (notre niveau de chance est de 0/10) #OnVaOù5",
+      "row": {
+        "number": 15,
+        "id": "9243181",
+        "title": "Des gros problèmes aux frontières... (notre niveau de chance est de 0/10) #OnVaOù5"
+      },
+      "currentDate": "2021-07-03",
+      "currentRuntime": 32
+    },
+    {
+      "id": "9243184",
+      "season": 2021,
+      "episode": 18,
+      "expectedTitle": "PARCOURIR 700km SANS ARGENT (on est des génies, objectivement) - Pékin Hesspress partie 2",
+      "row": {
+        "number": 18,
+        "id": "9243184",
+        "title": "PARCOURIR 700km SANS ARGENT (on est des génies, objectivement) - Pékin Hesspress partie 2"
+      },
+      "currentDate": "2021-09-25",
+      "currentRuntime": 51
+    },
+    {
+      "id": "9243195",
+      "season": 2022,
+      "episode": 7,
+      "expectedTitle": "On joue à des jeux de société et ça finit forcément mal",
+      "row": {
+        "number": 7,
+        "id": "9243195",
+        "title": "On joue à des jeux de société et ça finit forcément mal"
+      },
+      "currentDate": "2022-05-07",
+      "currentRuntime": 49
+    },
+    {
+      "id": "9254620",
+      "season": 2022,
+      "episode": 8,
+      "expectedTitle": "On contrôle le date de notre pote",
+      "row": {
+        "number": 8,
+        "id": "9254620",
+        "title": "On contrôle le date de notre pote"
+      },
+      "currentDate": "2022-05-21",
+      "currentRuntime": 45
+    },
+    {
+      "id": "9477724",
+      "season": 2022,
+      "episode": 16,
+      "expectedTitle": "On traverse les États-Unis en camping car #OnVaOù6 ep3",
+      "row": {
+        "number": 16,
+        "id": "9477724",
+        "title": "On traverse les États-Unis en camping car #OnVaOù6 ep3"
+      },
+      "currentDate": "2022-09-17",
+      "currentRuntime": 65
+    },
+    {
+      "id": "9477725",
+      "season": 2022,
+      "episode": 17,
+      "expectedTitle": "On traverse les États-Unis en camping car #OnVaOù6 ep4",
+      "row": {
+        "number": 17,
+        "id": "9477725",
+        "title": "On traverse les États-Unis en camping car #OnVaOù6 ep4"
+      },
+      "currentDate": "2022-09-24",
+      "currentRuntime": 94
+    },
+    {
+      "id": "9477730",
+      "season": 2022,
+      "episode": 21,
+      "expectedTitle": "Je deviens pilote de F4 (Grand Prix Explorer) FINAL",
+      "row": {
+        "number": 21,
+        "id": "9477730",
+        "title": "Je deviens pilote de F4 (Grand Prix Explorer) FINAL"
+      },
+      "currentDate": "2022-10-29",
+      "currentRuntime": 64
+    },
+    {
+      "id": "9812414",
+      "season": 2023,
+      "episode": 7,
+      "expectedTitle": "Je deviens cascadeur",
+      "row": {
+        "number": 7,
+        "id": "9812414",
+        "title": "Je deviens cascadeur"
+      },
+      "currentDate": "2023-04-29",
+      "currentRuntime": 40
+    },
+    {
+      "id": "9812432",
+      "season": 2023,
+      "episode": 8,
+      "expectedTitle": "En route pour le GP Explorer 2",
+      "row": {
+        "number": 8,
+        "id": "9812432",
+        "title": "En route pour le GP Explorer 2"
+      },
+      "currentDate": "2023-05-06",
+      "currentRuntime": 50
+    },
+    {
+      "id": "10740763",
+      "season": 2023,
+      "episode": 15,
+      "expectedTitle": "Le grand final du GP Explorer 2",
+      "row": {
+        "number": 15,
+        "id": "10740763",
+        "title": "Le grand final du GP Explorer 2"
+      },
+      "currentDate": "2023-09-23",
+      "currentRuntime": 100
+    },
+    {
+      "id": "10740764",
+      "season": 2023,
+      "episode": 16,
+      "expectedTitle": "4 jours à travers l'un des plus grands fleuves du Sénégal",
+      "row": {
+        "number": 16,
+        "id": "10740764",
+        "title": "4 jours à travers l'un des plus grands fleuves du Sénégal"
+      },
+      "currentDate": "2023-10-14",
+      "currentRuntime": 91
+    },
+    {
+      "id": "10824277",
+      "season": 2024,
+      "episode": 2,
+      "expectedTitle": "LE DÎNER DE C*NS (ft Théodort, Maxime Biaggi, Elian, Ben Haddad et Manas)",
+      "row": {
+        "number": 2,
+        "id": "10824277",
+        "title": "LE DÎNER DE C*NS (ft Théodort, Maxime Biaggi, Elian, Ben Haddad et Manas)"
+      },
+      "currentDate": "2024-01-27",
+      "currentRuntime": 57
+    },
+    {
+      "id": "10824283",
+      "season": 2024,
+      "episode": 8,
+      "expectedTitle": "J'anime une colonie de vacances de séniors",
+      "row": {
+        "number": 8,
+        "id": "10824283",
+        "title": "J'anime une colonie de vacances de séniors"
+      },
+      "currentDate": "2024-05-18",
+      "currentRuntime": 68
+    },
+    {
+      "id": "10824294",
+      "season": 2024,
+      "episode": 14,
+      "expectedTitle": "3 jeux d'horreur dans les lieux réels ! (ft Billy et Maxime Biaggi)",
+      "row": {
+        "number": 14,
+        "id": "10824294",
+        "title": "3 jeux d'horreur dans les lieux réels ! (ft Billy et Maxime Biaggi)"
+      },
+      "currentDate": "2024-09-26",
+      "currentRuntime": 47
+    },
+    {
+      "id": "11684522",
+      "season": 2025,
+      "episode": 1,
+      "expectedTitle": "Envoyé en mission dans un pays étranger ! MISSION INUTILE",
+      "row": {
+        "number": 1,
+        "id": "11684522",
+        "title": "Envoyé en mission dans un pays étranger ! MISSION INUTILE"
+      },
+      "currentDate": "2025-02-22",
+      "currentRuntime": 52
+    },
+    {
+      "id": "11684527",
+      "season": 2025,
+      "episode": 6,
+      "expectedTitle": "GP EXPLORER 3 : Et si c'était la bonne ?",
+      "row": {
+        "number": 6,
+        "id": "11684527",
+        "title": "GP EXPLORER 3 : Et si c'était la bonne ?"
+      },
+      "currentDate": "2025-05-24",
+      "currentRuntime": 54
+    },
+    {
+      "id": "11971086",
+      "season": 2026,
+      "episode": 13,
+      "expectedTitle": "Les problèmes commencent… - ON VA OÙ 7 ep2 (ft Maxime Biaggi, Joyca & Théodort)",
+      "row": {
+        "number": 13,
+        "id": "11971086",
+        "title": "Les problèmes commencent… - ON VA OÙ 7 ep2 (ft Maxime Biaggi, Joyca & Théodort)"
+      },
+      "currentDate": "2026-09-09",
+      "currentRuntime": 48
+    },
+    {
+      "id": "11976892",
+      "season": 2026,
+      "episode": 14,
+      "expectedTitle": "Des accidents et une soirée chaotique... - ON VA OÙ 7 ep3 (ft Maxime Biaggi, Joyca & Théodort)",
+      "row": {
+        "number": 14,
+        "id": "11976892",
+        "title": "Des accidents et une soirée chaotique... - ON VA OÙ 7 ep3 (ft Maxime Biaggi, Joyca & Théodort)"
+      },
+      "currentDate": "2026-09-12",
+      "currentRuntime": 46
+    }
+  ],
+  "writes": [
+    {
+      "id": "9242990",
+      "season": 2018,
+      "episode": 1,
+      "changes": [
+        {
+          "field": "date",
+          "from": "2018-08-10",
+          "to": "2018-08-09"
+        }
+      ]
+    },
+    {
+      "id": "9242992",
+      "season": 2018,
+      "episode": 3,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 6,
+          "to": 7
+        }
+      ]
+    },
+    {
+      "id": "9242995",
+      "season": 2018,
+      "episode": 6,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 14,
+          "to": 15
+        }
+      ]
+    },
+    {
+      "id": "9243020",
+      "season": 2018,
+      "episode": 15,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 13,
+          "to": 14
+        }
+      ]
+    },
+    {
+      "id": "9243034",
+      "season": 2019,
+      "episode": 7,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 8,
+          "to": 9
+        }
+      ]
+    },
+    {
+      "id": "9243035",
+      "season": 2019,
+      "episode": 8,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 5,
+          "to": 6
+        }
+      ]
+    },
+    {
+      "id": "9243049",
+      "season": 2019,
+      "episode": 22,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 22,
+          "to": 23
+        }
+      ]
+    },
+    {
+      "id": "9243050",
+      "season": 2019,
+      "episode": 23,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 23,
+          "to": 24
+        }
+      ]
+    },
+    {
+      "id": "9243051",
+      "season": 2019,
+      "episode": 24,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 31,
+          "to": 32
+        }
+      ]
+    },
+    {
+      "id": "9243057",
+      "season": 2019,
+      "episode": 29,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 7,
+          "to": 8
+        }
+      ]
+    },
+    {
+      "id": "9243064",
+      "season": 2019,
+      "episode": 36,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 7,
+          "to": 9
+        }
+      ]
+    },
+    {
+      "id": "9243162",
+      "season": 2020,
+      "episode": 27,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 20,
+          "to": 21
+        }
+      ]
+    },
+    {
+      "id": "9243184",
+      "season": 2021,
+      "episode": 18,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 51,
+          "to": 52
+        }
+      ]
+    },
+    {
+      "id": "9254620",
+      "season": 2022,
+      "episode": 8,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 45,
+          "to": 46
+        }
+      ]
+    },
+    {
+      "id": "9477724",
+      "season": 2022,
+      "episode": 16,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 65,
+          "to": 66
+        }
+      ]
+    },
+    {
+      "id": "9477725",
+      "season": 2022,
+      "episode": 17,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 94,
+          "to": 95
+        }
+      ]
+    },
+    {
+      "id": "9477730",
+      "season": 2022,
+      "episode": 21,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 64,
+          "to": 65
+        }
+      ]
+    },
+    {
+      "id": "9812414",
+      "season": 2023,
+      "episode": 7,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 40,
+          "to": 41
+        }
+      ]
+    },
+    {
+      "id": "9812432",
+      "season": 2023,
+      "episode": 8,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 50,
+          "to": 51
+        }
+      ]
+    },
+    {
+      "id": "10740764",
+      "season": 2023,
+      "episode": 16,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 91,
+          "to": 92
+        }
+      ]
+    },
+    {
+      "id": "10824283",
+      "season": 2024,
+      "episode": 8,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 68,
+          "to": 69
+        }
+      ]
+    },
+    {
+      "id": "11684522",
+      "season": 2025,
+      "episode": 1,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 52,
+          "to": 53
+        }
+      ]
+    },
+    {
+      "id": "11971086",
+      "season": 2026,
+      "episode": 13,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 48,
+          "to": 49
+        }
+      ]
+    },
+    {
+      "id": "11976892",
+      "season": 2026,
+      "episode": 14,
+      "changes": [
+        {
+          "field": "runtime",
+          "from": 46,
+          "to": 45
+        }
+      ]
+    }
+  ],
+  "skips": [
+    {
+      "id": "9243084",
+      "field": "runtime",
+      "reason": "ALREADY_CORRECT",
+      "value": 22
+    },
+    {
+      "id": "9243181",
+      "field": "runtime",
+      "reason": "ALREADY_CORRECT",
+      "value": 33
+    },
+    {
+      "id": "9243195",
+      "field": "runtime",
+      "reason": "ALREADY_CORRECT",
+      "value": 50
+    },
+    {
+      "id": "10740763",
+      "field": "runtime",
+      "reason": "ALREADY_CORRECT",
+      "value": 101
+    },
+    {
+      "id": "10824277",
+      "field": "runtime",
+      "reason": "ALREADY_CORRECT",
+      "value": 58
+    },
+    {
+      "id": "10824294",
+      "field": "runtime",
+      "reason": "ALREADY_CORRECT",
+      "value": 46
+    },
+    {
+      "id": "10824294",
+      "field": "date",
+      "reason": "ALREADY_CORRECT",
+      "value": "2024-10-26"
+    },
+    {
+      "id": "11684527",
+      "field": "runtime",
+      "reason": "ALREADY_CORRECT",
+      "value": 55
+    }
+  ],
+  "blocked": [],
+  "verifications": [
+    {
+      "id": "9242990",
+      "ok": true,
+      "runtime": 10,
+      "date": "2018-08-09"
+    },
+    {
+      "id": "9242992",
+      "ok": true,
+      "runtime": 7,
+      "date": "2018-08-23"
+    },
+    {
+      "id": "9242995",
+      "ok": true,
+      "runtime": 15,
+      "date": "2018-09-07"
+    },
+    {
+      "id": "9243020",
+      "ok": true,
+      "runtime": 14,
+      "date": "2018-12-05"
+    },
+    {
+      "id": "9243034",
+      "ok": true,
+      "runtime": 9,
+      "date": "2019-03-23"
+    },
+    {
+      "id": "9243035",
+      "ok": true,
+      "runtime": 6,
+      "date": "2019-04-10"
+    },
+    {
+      "id": "9243049",
+      "ok": true,
+      "runtime": 23,
+      "date": "2019-08-10"
+    },
+    {
+      "id": "9243050",
+      "ok": true,
+      "runtime": 24,
+      "date": "2019-08-17"
+    },
+    {
+      "id": "9243051",
+      "ok": true,
+      "runtime": 32,
+      "date": "2019-09-04"
+    },
+    {
+      "id": "9243057",
+      "ok": true,
+      "runtime": 8,
+      "date": "2019-10-19"
+    },
+    {
+      "id": "9243064",
+      "ok": true,
+      "runtime": 9,
+      "date": "2019-12-21"
+    },
+    {
+      "id": "9243162",
+      "ok": true,
+      "runtime": 21,
+      "date": "2020-11-21"
+    },
+    {
+      "id": "9243184",
+      "ok": true,
+      "runtime": 52,
+      "date": "2021-09-25"
+    },
+    {
+      "id": "9254620",
+      "ok": true,
+      "runtime": 46,
+      "date": "2022-05-21"
+    },
+    {
+      "id": "9477724",
+      "ok": true,
+      "runtime": 66,
+      "date": "2022-09-17"
+    },
+    {
+      "id": "9477725",
+      "ok": true,
+      "runtime": 95,
+      "date": "2022-09-24"
+    },
+    {
+      "id": "9477730",
+      "ok": true,
+      "runtime": 65,
+      "date": "2022-10-29"
+    },
+    {
+      "id": "9812414",
+      "ok": true,
+      "runtime": 41,
+      "date": "2023-04-29"
+    },
+    {
+      "id": "9812432",
+      "ok": true,
+      "runtime": 51,
+      "date": "2023-05-06"
+    },
+    {
+      "id": "10740764",
+      "ok": true,
+      "runtime": 92,
+      "date": "2023-10-14"
+    },
+    {
+      "id": "10824283",
+      "ok": true,
+      "runtime": 69,
+      "date": "2024-05-18"
+    },
+    {
+      "id": "11684522",
+      "ok": true,
+      "runtime": 53,
+      "date": "2025-02-22"
+    },
+    {
+      "id": "11971086",
+      "ok": true,
+      "runtime": 49,
+      "date": "2026-09-09"
+    },
+    {
+      "id": "11976892",
+      "ok": true,
+      "runtime": 45,
+      "date": "2026-09-12"
+    }
+  ],
+  "seriesFirstAiredAfter": "August 9, 2018",
+  "result": "APPLIED_AND_VERIFIED"
+}

@@ -1,0 +1,9 @@
+authenticated=true
+plannedEpisodes=31
+writes=24
+fieldChanges=24
+skips=8
+blocked=0
+verified=24
+seriesFirstAiredAfter=August 9, 2018
+result=APPLIED_AND_VERIFIED
