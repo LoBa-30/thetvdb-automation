@@ -1,0 +1,105 @@
+{
+  "generatedAt": "2026-10-06T18:49:33.636Z",
+  "target": "Joyca 2026 runtimes",
+  "mode": "GUARDED_RUNTIME_APPLY",
+  "authenticated": true,
+  "preflight": [
+    {
+      "id": "11553598",
+      "episode": 1,
+      "currentRow": {
+        "number": 1,
+        "publicId": "11553598",
+        "title": "ON REND FOU DES INCONNUS AU TELEPHONE ! (Avec @Djilsi)"
+      },
+      "airdate": "2026-01-11",
+      "runtime": 27,
+      "expectedFrom": 27,
+      "desired": 28,
+      "youtubeId": "mn1WK--10sk",
+      "duration": "27:43"
+    },
+    {
+      "id": "11775704",
+      "episode": 9,
+      "currentRow": {
+        "number": 9,
+        "publicId": "11775704",
+        "title": "TIK TOK M'A FAIT ACHETER ÇA ! (j'ai failli tout cramer) #11"
+      },
+      "airdate": "2026-05-03",
+      "runtime": 45,
+      "expectedFrom": 45,
+      "desired": 46,
+      "youtubeId": "HE9yP4drJ1w",
+      "duration": "45:34"
+    },
+    {
+      "id": "11809946",
+      "episode": 10,
+      "currentRow": {
+        "number": 10,
+        "publicId": "11809946",
+        "title": "SAUVE LE SHERIF ! (Avec Djilsi, Maxime Biaggi, Seb, Sofyan, Etoiles, Mathieu)"
+      },
+      "airdate": "2026-05-24",
+      "runtime": 67,
+      "expectedFrom": 67,
+      "desired": 68,
+      "youtubeId": "5TjFUj3JaLg",
+      "duration": "1:07:33"
+    }
+  ],
+  "writes": [
+    {
+      "id": "11553598",
+      "episode": 1,
+      "from": 27,
+      "to": 28,
+      "youtubeId": "mn1WK--10sk",
+      "duration": "27:43"
+    },
+    {
+      "id": "11775704",
+      "episode": 9,
+      "from": 45,
+      "to": 46,
+      "youtubeId": "HE9yP4drJ1w",
+      "duration": "45:34"
+    },
+    {
+      "id": "11809946",
+      "episode": 10,
+      "from": 67,
+      "to": 68,
+      "youtubeId": "5TjFUj3JaLg",
+      "duration": "1:07:33"
+    }
+  ],
+  "skips": [],
+  "blocked": [],
+  "verifications": [
+    {
+      "id": "11553598",
+      "episode": 1,
+      "runtime": 28,
+      "airdate": "2026-01-11",
+      "ok": true
+    },
+    {
+      "id": "11775704",
+      "episode": 9,
+      "runtime": 46,
+      "airdate": "2026-05-03",
+      "ok": true
+    },
+    {
+      "id": "11809946",
+      "episode": 10,
+      "runtime": 68,
+      "airdate": "2026-05-24",
+      "ok": true
+    }
+  ],
+  "result": "APPLIED_AND_VERIFIED"
+}
