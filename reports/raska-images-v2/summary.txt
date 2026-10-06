@@ -1,0 +1,8 @@
+{
+  "existing_checked": 121,
+  "confirmed_same_video_reference": 0,
+  "strong_same_video_candidate": 6,
+  "origin_unproven_not_wrong": 115,
+  "errors": 0,
+  "missing_images_from_v1": 29
+}

@@ -1,0 +1,2674 @@
+{
+  "summary": {
+    "existing_checked": 121,
+    "confirmed_same_video_reference": 0,
+    "strong_same_video_candidate": 6,
+    "origin_unproven_not_wrong": 115,
+    "errors": 0,
+    "missing_images_from_v1": 29
+  },
+  "rows": [
+    {
+      "code": "S2017E01",
+      "episode_id": "11960837",
+      "tvdb_title": "JOSMAN - LA FLÈCHE MONTANTE DU RAP FRANÇAIS !",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960837/screencap/6a9b0f7718428.jpg",
+      "youtube_id": "gjdFjDkAUYE",
+      "youtube_title": "JOSMAN - LA FLÈCHE MONTANTE DU RAP FRANÇAIS !",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/gjdFjDkAUYE/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 20
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2017E02",
+      "episode_id": "11960838",
+      "tvdb_title": "LA SCÈNE RAP DE GENÈVE ! (DI-MEH & SLIMKA)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960838/screencap/6a9b108415866.jpg",
+      "youtube_id": "xKyB9F2ZoFY",
+      "youtube_title": "LA SCÈNE RAP DE GENÈVE ! (DI-MEH & SLIMKA)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/xKyB9F2ZoFY/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2018E01",
+      "episode_id": "11960841",
+      "tvdb_title": "LE RAP FRANCOPHONE EN 2017 ?",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960841/screencap/6a9b109c787a1.jpg",
+      "youtube_id": "bWaeKRfIa5E",
+      "youtube_title": "LE RAP FRANCOPHONE EN 2017 ?",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/bWaeKRfIa5E/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2018E04",
+      "episode_id": "11960843",
+      "tvdb_title": "BEEBY - Palace | JUICE #1 (Dir. by RASKA)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960843/screencap/6a9b10a45aa36.jpg",
+      "youtube_id": "P3RBXJEFFPs",
+      "youtube_title": "BEEBY - Palace | JUICE #1 (Dir. by RASKA)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/P3RBXJEFFPs/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2018E06",
+      "episode_id": "11960845",
+      "tvdb_title": "SWENZ - Hustle | JUICE #2 (Dir. by RASKA)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960845/screencap/6a9b10aae18e0.jpg",
+      "youtube_id": "n8p8z2e9SnU",
+      "youtube_title": "SWENZ - Hustle | JUICE #2 (Dir. by RASKA)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/n8p8z2e9SnU/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 22
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2018E08",
+      "episode_id": "11960847",
+      "tvdb_title": "Captaine Roshi - FOU | JUICE #3 (Dir. by RASKA)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960847/screencap/6a9b10b158bf4.jpg",
+      "youtube_id": "sGQTYgb92Bc",
+      "youtube_title": "Captaine Roshi - FOU | JUICE #3 (Dir. by RASKA)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame2",
+        "url": "https://i.ytimg.com/vi/sGQTYgb92Bc/2.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2018E09",
+      "episode_id": "11960848",
+      "tvdb_title": "4 PUNCHLINES DE DAMSO ! (Analyse)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960848/screencap/6a9b10b828856.jpg",
+      "youtube_id": "Jb1uwfaN4zs",
+      "youtube_title": "4 PUNCHLINES DE DAMSO ! (Analyse)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/Jb1uwfaN4zs/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 20
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2018E10",
+      "episode_id": "11960849",
+      "tvdb_title": "BEKAR - Téla | JUICE #4 (Dir. by RASKA)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960849/screencap/6a9b10beec4c5.jpg",
+      "youtube_id": "3wG6DBsksi4",
+      "youtube_title": "BEKAR - Téla | JUICE #4 (Dir. by RASKA)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/3wG6DBsksi4/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 10
+      },
+      "status": "STRONG_SAME_VIDEO_CANDIDATE"
+    },
+    {
+      "code": "S2018E11",
+      "episode_id": "11960850",
+      "tvdb_title": "4 PUNCHLINES DE PNL ! (Analyse)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960850/screencap/6a9b10c4b99c3.jpg",
+      "youtube_id": "hjpfThYjQcE",
+      "youtube_title": "4 PUNCHLINES DE PNL ! (Analyse)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/hjpfThYjQcE/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 12
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2018E12",
+      "episode_id": "11960851",
+      "tvdb_title": "MAZOO - BAMBEE | JUICE #5 (Dir. by RASKA)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960851/screencap/6a9b10cc5c118.jpg",
+      "youtube_id": "OKs_mIQNBAM",
+      "youtube_title": "MAZOO - BAMBEE  | JUICE #5 (Dir. by RASKA)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/OKs_mIQNBAM/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2018E13",
+      "episode_id": "11960852",
+      "tvdb_title": "BOOBA : UNE CARRIÈRE DE CLASH ? (Histoire)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960852/screencap/6a9b10d574a50.jpg",
+      "youtube_id": "1fOg-BtpBro",
+      "youtube_title": "BOOBA : UNE CARRIÈRE DE CLASH ? (Histoire)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/1fOg-BtpBro/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2019E02",
+      "episode_id": "11960854",
+      "tvdb_title": "4 PUNCHLINES DE NEKFEU ! (Analyse)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960854/screencap/6a9b110aa46f2.jpg",
+      "youtube_id": "G3AolmUf_So",
+      "youtube_title": "4 PUNCHLINES DE NEKFEU ! (Analyse)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/G3AolmUf_So/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2019E03",
+      "episode_id": "11960855",
+      "tvdb_title": "MTLORD - Glock | JUICE'Max #1 (Dir. by RASKA & touchemoipas.100k)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960855/screencap/6a9b11124013b.jpg",
+      "youtube_id": "-Y4z9oOkLLM",
+      "youtube_title": "MTLORD - Glock | JUICE'Max #1 (Dir. by RASKA & touchemoipas.100k)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/-Y4z9oOkLLM/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 20
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2019E04",
+      "episode_id": "11960856",
+      "tvdb_title": "CINCO - OG | JUICE'Max #2 (Dir. by RASKA)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960856/screencap/6a9b111a1790e.jpg",
+      "youtube_id": "H1O_ZIhKvjs",
+      "youtube_title": "CINCO - OG | JUICE'Max #2 (Dir. by RASKA)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/H1O_ZIhKvjs/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E01",
+      "episode_id": "11960862",
+      "tvdb_title": "H1N1 - EP01: Lancement de la première série sur le RAP",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960862/screencap/6a9bda20e75a3.jpg",
+      "youtube_id": "aNN3R7mziBs",
+      "youtube_title": "H1N1 - EP01: Lancement de la première série sur le RAP",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/aNN3R7mziBs/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E03",
+      "episode_id": "11960864",
+      "tvdb_title": "H1N1 - EP03 : Je deviens DA, shooting photo pour les plateformes !",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960864/screencap/6a9b11352543c.jpg",
+      "youtube_id": "Bg8NxVI9UQI",
+      "youtube_title": "H1N1 - EP03 : Je deviens DA, shooting photo pour les plateformes !",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame2",
+        "url": "https://i.ytimg.com/vi/Bg8NxVI9UQI/2.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 26
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E04",
+      "episode_id": "11960865",
+      "tvdb_title": "CROMA619 - Lévite | JUICE'Max #4 (Dir. by RASKA)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960865/screencap/6a9b113b8b4a0.jpg",
+      "youtube_id": "fg-NW8EF73Q",
+      "youtube_title": "CROMA619 - Lévite | JUICE'Max #4 (Dir. by RASKA)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/fg-NW8EF73Q/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 30
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E05",
+      "episode_id": "11960866",
+      "tvdb_title": "H1N1 - EP04 : On démarre un feu sur un tournage !",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960866/screencap/6a9b1141d6404.jpg",
+      "youtube_id": "PYbAkdR6Yhs",
+      "youtube_title": "H1N1 - EP04 : On démarre un feu sur un tournage !",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/PYbAkdR6Yhs/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E06",
+      "episode_id": "11960867",
+      "tvdb_title": "H1N1 - EP05 : Réfléchir à une stratégie de communication !",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960867/screencap/6a9b11490c9aa.jpg",
+      "youtube_id": "3tpaBFDla0k",
+      "youtube_title": "H1N1 - EP05 : Réfléchir à une stratégie de communication !",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame2",
+        "url": "https://i.ytimg.com/vi/3tpaBFDla0k/2.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 22
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E07",
+      "episode_id": "11960868",
+      "tvdb_title": "H1N1 - EP06 : On fait écouter le projet au public !",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960868/screencap/6a9b114f6144d.jpg",
+      "youtube_id": "WETT4EjQqoM",
+      "youtube_title": "H1N1 - EP06 : On fait écouter le projet au public !",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/WETT4EjQqoM/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E08",
+      "episode_id": "11960869",
+      "tvdb_title": "H1N1 - EP07 : Premier passage en radio, interviews,...",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960869/screencap/6a9b118876634.jpg",
+      "youtube_id": "271t2NF0jMc",
+      "youtube_title": "H1N1 - EP07 : Premier passage en radio, interviews,...",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/271t2NF0jMc/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E10",
+      "episode_id": "11960871",
+      "tvdb_title": "3 CLIPS QUI ONT CHANGÉ LE RAP FRANÇAIS !",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960871/screencap/6a9b118f68585.jpg",
+      "youtube_id": "IFeZSnWVJWM",
+      "youtube_title": "3 CLIPS QUI ONT CHANGÉ LE RAP FRANÇAIS !",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/IFeZSnWVJWM/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 20
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E11",
+      "episode_id": "11960872",
+      "tvdb_title": "LES CONTRATS DANS LE RAP ! (Part.1 - La distribution)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960872/screencap/6a9b1195ec555.jpg",
+      "youtube_id": "y1KYG9wy414",
+      "youtube_title": "LES CONTRATS DANS LE RAP ! (Part.1 - La distribution)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/y1KYG9wy414/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E13",
+      "episode_id": "11960874",
+      "tvdb_title": "LES CONTRATS DANS LE RAP ! (Part.2 - Licence & Artiste)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960874/screencap/6a9b119c8b444.jpg",
+      "youtube_id": "eLDLEGqliLg",
+      "youtube_title": "LES CONTRATS DANS LE RAP ! (Part.2 - Licence & Artiste)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/eLDLEGqliLg/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E14",
+      "episode_id": "11960875",
+      "tvdb_title": "Sto - MONEY | JUICE'Max #5 (Dir. by RASKA & Mobius)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960875/screencap/6a9b11a410d1d.jpg",
+      "youtube_id": "pMqn0GkiAWI",
+      "youtube_title": "Sto - MONEY | JUICE'Max #5 (Dir. by RASKA & Mobius)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/pMqn0GkiAWI/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 22
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E15",
+      "episode_id": "11960876",
+      "tvdb_title": "Halki x Paki ft. Maze400 x Dface400 (400 F) - LABORATORY 3 | JUICE'Max #6",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960876/screencap/6a9b11aad9b9d.jpg",
+      "youtube_id": "9ge0tQbcJqg",
+      "youtube_title": "Halki x Paki ft. Maze400 x Dface400 (400 F) - LABORATORY 3 | JUICE'Max #6",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/9ge0tQbcJqg/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E16",
+      "episode_id": "11960877",
+      "tvdb_title": "LA FACE CACHÉE DU RAP (Topliner/Ghostwriter)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960877/screencap/6a9b11b22e0f1.jpg",
+      "youtube_id": "sPrOcYkgX1w",
+      "youtube_title": "LA FACE CACHÉE DU RAP (Topliner/Ghostwriter)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/sPrOcYkgX1w/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E19",
+      "episode_id": "11960880",
+      "tvdb_title": "JE CRÉE DES FAUX DISQUES D'OR ! (Ninho/Hatik)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960880/screencap/6a9b11b902021.jpg",
+      "youtube_id": "ZVvRxu3kHOM",
+      "youtube_title": "JE CRÉE DES FAUX DISQUES D'OR ! (Ninho/Hatik)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/ZVvRxu3kHOM/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E20",
+      "episode_id": "11960881",
+      "tvdb_title": "LE RAPPEUR LE PLUS RICHE (une vraie moula le boug)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960881/screencap/6a9b1208a1054.jpg",
+      "youtube_id": "bTnyBTiB8tI",
+      "youtube_title": "LE RAPPEUR LE PLUS RICHE (une vraie moula le boug)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/bTnyBTiB8tI/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 26
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E21",
+      "episode_id": "11960882",
+      "tvdb_title": "LE SUCCÈS DE FREEZE CORLEONE !",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960882/screencap/6a9b12135dcfc.jpg",
+      "youtube_id": "n4egi07_iWs",
+      "youtube_title": "LE SUCCÈS DE FREEZE CORLEONE !",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/n4egi07_iWs/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 20
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E22",
+      "episode_id": "11960883",
+      "tvdb_title": "CE QUI A CHANGÉ LE RAP FR ! (JUL, PNL... le succès de l'Auto-Tune)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960883/screencap/6a9b1219b0e0b.jpg",
+      "youtube_id": "ciibi-7FCv8",
+      "youtube_title": "CE QUI A CHANGÉ LE RAP FR ! (JUL, PNL... le succès de l'Auto-Tune)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/ciibi-7FCv8/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 22
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E23",
+      "episode_id": "11960884",
+      "tvdb_title": "LE RAPPEUR SUR QUI PARIER ! (avec @madeinparis75 )",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960884/screencap/6a9b12203ab42.jpg",
+      "youtube_id": "ehvlA-vK-A4",
+      "youtube_title": "LE RAPPEUR SUR QUI PARIER ! (avec @madeinparis75 )",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/ehvlA-vK-A4/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E24",
+      "episode_id": "11960885",
+      "tvdb_title": "COMBIEN D'ARGENT TOUCHENT LES RAPPEURS ? (La SACEM)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960885/screencap/6a9b122744ecd.jpg",
+      "youtube_id": "04rH1W4lFzk",
+      "youtube_title": "COMBIEN D'ARGENT TOUCHENT LES RAPPEURS ? (La SACEM)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/04rH1W4lFzk/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E25",
+      "episode_id": "11960886",
+      "tvdb_title": "TOUT SAVOIR SUR LES FEATURINGS DANS LE RAP ! (Zola, Lacrim, Ninho…)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960886/screencap/6a9b122e65638.jpg",
+      "youtube_id": "ZKSeVLXjiQY",
+      "youtube_title": "TOUT SAVOIR SUR LES FEATURINGS DANS LE RAP ! (Zola, Lacrim, Ninho…)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/ZKSeVLXjiQY/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 24
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E26",
+      "episode_id": "11960887",
+      "tvdb_title": "LES CONTRATS DANS LE RAP ! (Part.3 - L'Édition)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960887/screencap/6a9b12347e071.jpg",
+      "youtube_id": "72uXJYq9fBc",
+      "youtube_title": "LES CONTRATS DANS LE RAP ! (Part.3 - L'Édition)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/72uXJYq9fBc/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 24
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2020E27",
+      "episode_id": "11960888",
+      "tvdb_title": "QUIZZ RAP : le test des connaisseurs ! (Alpha Wann, Freeze Corleone...)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960888/screencap/6a9b123b90803.jpg",
+      "youtube_id": "OLvUnV1L2sk",
+      "youtube_title": "QUIZZ RAP : le test des connaisseurs ! (Alpha Wann, Freeze Corleone...)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/OLvUnV1L2sk/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2021E01",
+      "episode_id": "11960889",
+      "tvdb_title": "RAP AWARDS 2020 ! (Laylow, Freeze Corleone, SCH...)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960889/screencap/6a9b124169283.jpg",
+      "youtube_id": "Ya6L1YZUBFQ",
+      "youtube_title": "RAP AWARDS 2020 ! (Laylow, Freeze Corleone, SCH...)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/Ya6L1YZUBFQ/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2021E04",
+      "episode_id": "11960892",
+      "tvdb_title": "FAIRE UN CLIP AVEC UNE CAMÉRA À 10 EUROS ! (F***k Wish)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960892/screencap/6a9b124ecb8c6.jpg",
+      "youtube_id": "twCnt2urJWg",
+      "youtube_title": "FAIRE UN CLIP AVEC UNE CAMÉRA À 10 EUROS ! (F***k Wish)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/twCnt2urJWg/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2021E05",
+      "episode_id": "11960893",
+      "tvdb_title": "LE RAP ANTILLAIS ! (Tiitof, Kalash, Meryl...)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960893/screencap/6a9b1294e15b4.jpg",
+      "youtube_id": "E81UbjO-uwo",
+      "youtube_title": "LE RAP ANTILLAIS ! (Tiitof, Kalash, Meryl...)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/E81UbjO-uwo/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 12
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2021E06",
+      "episode_id": "11960894",
+      "tvdb_title": "5 GÉNIES DE L'IMPRO RAP ! (LIM, Alpha Wann...)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960894/screencap/6a9b129b1faae.jpg",
+      "youtube_id": "o3clVy7lh9A",
+      "youtube_title": "5 GÉNIES DE L'IMPRO RAP ! (LIM, Alpha Wann...)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/o3clVy7lh9A/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 20
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2021E07",
+      "episode_id": "11960895",
+      "tvdb_title": "3 RAPPEURS DISPARUS ?! (One Hit Wonders)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960895/screencap/6a9b12a1ceba3.jpg",
+      "youtube_id": "JLps632h1jM",
+      "youtube_title": "3 RAPPEURS DISPARUS ?! (One Hit Wonders)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame2",
+        "url": "https://i.ytimg.com/vi/JLps632h1jM/2.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2021E08",
+      "episode_id": "11960896",
+      "tvdb_title": "UNE JOURNÉE CHEZ @SLIMKATV ! (Tunnel Vision)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960896/screencap/6a9b12a7a60ee.jpg",
+      "youtube_id": "0fKz0MVWB3g",
+      "youtube_title": "UNE JOURNÉE CHEZ @SLIMKATV ! (Tunnel Vision)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/0fKz0MVWB3g/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2021E09",
+      "episode_id": "11960897",
+      "tvdb_title": "Tournage en slip avec @Mastu & @theodortytb (Making-of)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960897/screencap/6a9b12af7082d.jpg",
+      "youtube_id": "RFHVbWGh6xQ",
+      "youtube_title": "Tournage en slip avec @Mastu & @THEODORT (Making-of)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/RFHVbWGh6xQ/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2021E10",
+      "episode_id": "11960898",
+      "tvdb_title": "Devine le rappeur ou prends une bastos ! ft. @theodortytb",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960898/screencap/6a9b12b5f3291.jpg",
+      "youtube_id": "fw69201_NBE",
+      "youtube_title": "Devine le rappeur ou prends une bastos ! ft. @theodortytb",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/fw69201_NBE/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 26
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2021E11",
+      "episode_id": "11960899",
+      "tvdb_title": "Faire un son dans un studio à 100.000€ vs studio à 100€",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960899/screencap/6a9b12bc66c2d.jpg",
+      "youtube_id": "6hSHuJNzK7E",
+      "youtube_title": "Faire un son dans un studio à 100.000€ vs studio à 100€",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/6hSHuJNzK7E/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2021E12",
+      "episode_id": "11960900",
+      "tvdb_title": "LES MEILLEURS DUOS DU RAP FRANÇAIS ! (Rappeur-Producteur)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960900/screencap/6a9b12c689121.jpg",
+      "youtube_id": "mizMWYVvV-c",
+      "youtube_title": "LES MEILLEURS DUOS DU RAP FRANÇAIS ! (Rappeur-Producteur)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/mizMWYVvV-c/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2021E13",
+      "episode_id": "11960901",
+      "tvdb_title": "Making-Of de \"CE RAPPEUR QUI...\" avec @theodortytb",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960901/screencap/6a9b12cd64fd8.jpg",
+      "youtube_id": "jICa9OCCv1g",
+      "youtube_title": "Making-Of de \"CE RAPPEUR QUI...\" avec @THEODORT",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/jICa9OCCv1g/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2021E14",
+      "episode_id": "11960902",
+      "tvdb_title": "On juge le merch des rappeurs ft. @Vinceeh (Alpha Wann, Laylow...)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960902/screencap/6a9b12d45e07e.jpg",
+      "youtube_id": "wcuA2Z7wgdU",
+      "youtube_title": "On juge le merch des rappeurs ft. @Vinceeh (Alpha Wann, Laylow...)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/wcuA2Z7wgdU/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 12
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2021E15",
+      "episode_id": "11960903",
+      "tvdb_title": "Comment ces rappeurs ont percé ? (4 métiers de la musique)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960903/screencap/6a9b12db75d31.jpg",
+      "youtube_id": "3S2xQrXt_58",
+      "youtube_title": "Comment ces rappeurs ont percé ? (4 métiers de la musique)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/3S2xQrXt_58/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2021E16",
+      "episode_id": "11960904",
+      "tvdb_title": "Je créé le merch de Niska \"Le Monde est Méchant\" ! (Ninho, 1pliké140...)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960904/screencap/6a9b12e265627.jpg",
+      "youtube_id": "DmR2-jEh9os",
+      "youtube_title": "Je créé le merch de Niska \"Le Monde est Méchant\" ! (Ninho, 1pliké140...)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/DmR2-jEh9os/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 20
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2021E17",
+      "episode_id": "11960905",
+      "tvdb_title": "10 mois que je vous cache ça... (je stress ma race)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960905/screencap/6a9b13661522c.jpg",
+      "youtube_id": "z7T4xSUYP1g",
+      "youtube_title": "10 mois que je vous cache ça... (je stress ma race)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/z7T4xSUYP1g/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2021E18",
+      "episode_id": "11960906",
+      "tvdb_title": "Devine le rappeur ou prends une bastos ! ft. Evan",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960906/screencap/6a9b13703692c.jpg",
+      "youtube_id": "TXJAjGdxrr8",
+      "youtube_title": "Devine le rappeur ou prends une bastos ! ft. Evan",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/TXJAjGdxrr8/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2021E19",
+      "episode_id": "11960907",
+      "tvdb_title": "LE MEILLEUR JEU RAP ! (avec Mehdi Maïzi & Theodort)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960907/screencap/6a9b137856135.jpg",
+      "youtube_id": "ZrW9Q_1bECk",
+      "youtube_title": "LE MEILLEUR JEU RAP ! (avec Mehdi Maïzi & Theodort)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/ZrW9Q_1bECk/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2021E20",
+      "episode_id": "11960908",
+      "tvdb_title": "Le PÈRE NOËL du LOAT ! (je rince de cadeaux)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960908/screencap/6a9b139727009.jpg",
+      "youtube_id": "dHavpFrfPEc",
+      "youtube_title": "Le PÈRE NOËL du LOAT ! (je rince de cadeaux)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/dHavpFrfPEc/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 22
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E01",
+      "episode_id": "11960912",
+      "tvdb_title": "Qui est le meilleur rappeur de 2021 ? (Ziak, Laylow... / RAP AWARDS)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960912/screencap/6a9b13c1ae9b6.jpg",
+      "youtube_id": "E1XpfiAciao",
+      "youtube_title": "Qui est le meilleur rappeur de 2021 ? (Ziak, Laylow... / RAP AWARDS)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame2",
+        "url": "https://i.ytimg.com/vi/E1XpfiAciao/2.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E02",
+      "episode_id": "11960913",
+      "tvdb_title": "Le meilleur jeu rap entre potes (ft. Théodort, Hctuan, Théo Babac & Slimka)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960913/screencap/6a9b13cb8afd1.jpg",
+      "youtube_id": "lBmr9jWvLZY",
+      "youtube_title": "Le meilleur jeu rap entre potes  (ft. Théodort, Hctuan, Théo Babac & Slimka)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/lBmr9jWvLZY/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E03",
+      "episode_id": "11960914",
+      "tvdb_title": "On juge le merch des rappeurs ft. @LaRoutine (Freeze Corleone 667, Gazo...)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960914/screencap/6a9b13d478099.jpg",
+      "youtube_id": "D-WGlMJ0IDM",
+      "youtube_title": "On juge le merch des rappeurs ft. @LaRoutine (Freeze Corleone 667, Gazo...)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/D-WGlMJ0IDM/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 22
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E04",
+      "episode_id": "11960915",
+      "tvdb_title": "Qui sera le pire élève ? (avec @Snaptrox, @theodortytb, @Ysos & @Vinceeh)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960915/screencap/6a9b13de06092.jpg",
+      "youtube_id": "S1ligBirCWo",
+      "youtube_title": "Qui sera le pire élève ? 📚 (avec @Snaptrox, @THEODORT, @Ysos & @Vinceeh)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/S1ligBirCWo/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 20
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E05",
+      "episode_id": "11960916",
+      "tvdb_title": "J'ai mon studio au LOAT ! (c'est le plus beau)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960916/screencap/6a9b13e6899e8.jpg",
+      "youtube_id": "jggjNEtt284",
+      "youtube_title": "J'ai mon studio au LOAT ! (c'est le plus beau)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/jggjNEtt284/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E08",
+      "episode_id": "11960919",
+      "tvdb_title": "J'ai un problème de santé (ça te concerne sûrement)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960919/screencap/6a9b140cd8c8e.jpg",
+      "youtube_id": "adGynrmJqyU",
+      "youtube_title": "J'ai un problème de santé (ça te concerne sûrement)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/adGynrmJqyU/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E09",
+      "episode_id": "11960920",
+      "tvdb_title": "Qui fera le pire kebab ? avec @Snaptrox",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960920/screencap/6a9b145181803.jpg",
+      "youtube_id": "0FJemj_k_ZU",
+      "youtube_title": "Qui fera le pire kebab ? avec @Snaptrox 👨🏻‍🍳",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame2",
+        "url": "https://i.ytimg.com/vi/0FJemj_k_ZU/2.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 12
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E11",
+      "episode_id": "11960922",
+      "tvdb_title": "Le jeu de la sape avec @Vinceeh",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960922/screencap/6a9bda4575a21.jpg",
+      "youtube_id": "mPTj8cL0OmA",
+      "youtube_title": "Le jeu de la sape avec @Vinceeh",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/mPTj8cL0OmA/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 12
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E12",
+      "episode_id": "11960923",
+      "tvdb_title": "Le lien entre les Gangs & Rap (Documentaire by Raska)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960923/screencap/6a9bda4db08b8.jpg",
+      "youtube_id": "X0Sy-RhpsUU",
+      "youtube_title": "Le lien entre les Gangs & Rap (Documentaire by Raska)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame2",
+        "url": "https://i.ytimg.com/vi/X0Sy-RhpsUU/2.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E13",
+      "episode_id": "11960924",
+      "tvdb_title": "Un week-end pas comme les autres…",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960924/screencap/6a9bda554f980.jpg",
+      "youtube_id": "ci75LHLRqbc",
+      "youtube_title": "Un week-end pas comme les autres…",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/ci75LHLRqbc/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E14",
+      "episode_id": "11960925",
+      "tvdb_title": "On fait rapper les gens dans la rue (ANGERS)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960925/screencap/6a9bda5e5f9c0.jpg",
+      "youtube_id": "g1dHYfQj1Gw",
+      "youtube_title": "On fait rapper les gens dans la rue (ANGERS)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame2",
+        "url": "https://i.ytimg.com/vi/g1dHYfQj1Gw/2.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 12
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E15",
+      "episode_id": "11960926",
+      "tvdb_title": "Seul contre 30.000 personnes à cause de @lujipeka357 !",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960926/screencap/6a9bda66ae2d5.jpg",
+      "youtube_id": "YCOZZz-mWYA",
+      "youtube_title": "Seul contre 30.000 personnes à cause de @Lujipeka ! 🚍",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/YCOZZz-mWYA/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 20
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E16",
+      "episode_id": "11960927",
+      "tvdb_title": "QUI SERA LE TRAÎTRE ? avec Mastu, Joyca, Theodort, Linca, Hctuan, Theobabac, YassEncore & Waythes",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960927/screencap/6a9bdac54c7cc.jpg",
+      "youtube_id": "AvslJ37tVE4",
+      "youtube_title": "QUI SERA LE TRAÎTRE ? avec Mastu, Joyca, Theodort, Linca, Hctuan, Theobabac, YassEncore & Waythes",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/AvslJ37tVE4/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E20",
+      "episode_id": "11960931",
+      "tvdb_title": "JE DM 100 RAPPEURS : Qui est le meilleur rappeur of all time ?",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960931/screencap/6a9bdad6c808a.jpg",
+      "youtube_id": "7Zk8w36wseU",
+      "youtube_title": "JE DM 100 RAPPEURS : Qui est le meilleur rappeur of all time ?",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/7Zk8w36wseU/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E21",
+      "episode_id": "11960932",
+      "tvdb_title": "« Je suis Bigflo ! » devine-tête rap avec @TheoBabac & @totocheGang",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960932/screencap/6a9bdb5189a2b.jpg",
+      "youtube_id": "mhNJP_FXovc",
+      "youtube_title": "« Je suis Bigflo ! » devine-tête rap avec @TheoBabac & @totocheGang",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/mhNJP_FXovc/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 12
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E22",
+      "episode_id": "11960933",
+      "tvdb_title": "Ton futur jeu préféré ! ft. Théodort, Prince Waly & Mehdi Maizi",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960933/screencap/6a9bdb59a255d.jpg",
+      "youtube_id": "CVU-kqxb3Yo",
+      "youtube_title": "Ton futur jeu préféré ! ft. Théodort, Prince Waly & Mehdi Maizi",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame2",
+        "url": "https://i.ytimg.com/vi/CVU-kqxb3Yo/2.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E23",
+      "episode_id": "11960934",
+      "tvdb_title": "On fait rapper des gens dans la rue ! (PARIS)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960934/screencap/6a9bdb6e49be6.jpg",
+      "youtube_id": "lQv7vA1BvnI",
+      "youtube_title": "On fait rapper des gens dans la rue ! (PARIS)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/lQv7vA1BvnI/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 10
+      },
+      "status": "STRONG_SAME_VIDEO_CANDIDATE"
+    },
+    {
+      "code": "S2022E24",
+      "episode_id": "11960935",
+      "tvdb_title": "À 10 ans ils rappent déjà comme ça !",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960935/screencap/6a9bdb76c0cd3.jpg",
+      "youtube_id": "K21Xpaa2JDE",
+      "youtube_title": "À 10 ans ils rappent déjà comme ça !",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame2",
+        "url": "https://i.ytimg.com/vi/K21Xpaa2JDE/2.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E25",
+      "episode_id": "11960936",
+      "tvdb_title": "Vos PIRES anecdotes avec des rappeurs : « Zola me prend en stop » ! (improbable)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960936/screencap/6a9bdb7f08f5a.jpg",
+      "youtube_id": "QczTc_AQZkg",
+      "youtube_title": "Vos PIRES anecdotes avec des rappeurs : « Zola me prend en stop » ! (improbable)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/QczTc_AQZkg/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 24
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E26",
+      "episode_id": "11960937",
+      "tvdb_title": "Un réveil compliqué... avec Mastu, Théodort & Hctuan (UN BOL DE NOSTALGIE - Podcast #01)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960937/screencap/6a9bdb87d7bae.jpg",
+      "youtube_id": "k6_iD2CYwJk",
+      "youtube_title": "Un réveil compliqué... avec Mastu, Théodort & Hctuan (UN BOL DE NOSTALGIE - Podcast #01)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/k6_iD2CYwJk/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 20
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E27",
+      "episode_id": "11960938",
+      "tvdb_title": "On fait freestyler des inconnus dans la rue ! (MARSEILLE)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960938/screencap/6a9bdb9d47d67.jpg",
+      "youtube_id": "YhmCoKmz1G8",
+      "youtube_title": "On fait freestyler des inconnus dans la rue ! (MARSEILLE)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/YhmCoKmz1G8/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E28",
+      "episode_id": "11960939",
+      "tvdb_title": "DEVINEZ la bonne cover ! Ft. Mehdi Maïzi & Colombien",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960939/screencap/6a9bdba5c55ec.jpg",
+      "youtube_id": "6W_XNCEs0j0",
+      "youtube_title": "DEVINEZ la bonne cover ! Ft. Mehdi Maïzi & Colombien",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/6W_XNCEs0j0/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2022E29",
+      "episode_id": "11960940",
+      "tvdb_title": "Le rappeur préféré de 2022 ! (Tiakola, Gazo, Sch... RAP AWARDS)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960940/screencap/6a9bdbb0816f1.jpg",
+      "youtube_id": "MbQbWJOIEAw",
+      "youtube_title": "Le rappeur préféré de 2022 ! (Tiakola, Gazo, Sch... RAP AWARDS)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/MbQbWJOIEAw/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 20
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E01",
+      "episode_id": "11860681",
+      "tvdb_title": "On part 3J avec B.B. Jacques & Chroniqueur Sale",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11860681/screencap/6a9bdbc38a4ef.jpg",
+      "youtube_id": "FayAPDLQfyw",
+      "youtube_title": "On part 3J avec B.B. Jacques & Chroniqueur Sale",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/FayAPDLQfyw/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 22
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E02",
+      "episode_id": "11960797",
+      "tvdb_title": "On vous a caché ça... avec @BEENDOZ",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960797/screencap/6a9bdc663764c.jpg",
+      "youtube_id": "sa2rwKmeUJw",
+      "youtube_title": "On vous a caché ça... avec @BEENDO Z",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/sa2rwKmeUJw/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E03",
+      "episode_id": "11960798",
+      "tvdb_title": "BEENDO Z - NATURE MORTE (Réal. by Raska / La Co’Lab)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960798/screencap/6a9bdc6eb1279.jpg",
+      "youtube_id": "UbRM4dqCyTU",
+      "youtube_title": "BEENDO Z - NATURE MORTE (Réal. by Raska / La Co’Lab)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/UbRM4dqCyTU/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E04",
+      "episode_id": "11960799",
+      "tvdb_title": "Tu perds = tu sors un album de rap… (avec Maxime Biaggi & Grim)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960799/screencap/6a9bdcbc25232.jpg",
+      "youtube_id": "dFwRPBQqDJY",
+      "youtube_title": "Tu perds = tu sors un album de rap… (avec Maxime Biaggi & Grim)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/dFwRPBQqDJY/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E05",
+      "episode_id": "11960800",
+      "tvdb_title": "On juge le merch des rappeurs avec @Vinceeh (Hamza, 667, Ashe22…)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960800/screencap/6a9bdcc4b30c0.jpg",
+      "youtube_id": "dsjhWjx4btk",
+      "youtube_title": "On juge le merch des rappeurs avec @Vinceeh (Hamza, 667, Ashe22…)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame2",
+        "url": "https://i.ytimg.com/vi/dsjhWjx4btk/2.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 22
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E07",
+      "episode_id": "11960802",
+      "tvdb_title": "JE DM 100 RAPPEURS : Qui sera le nouvel artiste de 2023 ?",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960802/screencap/6a9bdcccf18e1.jpg",
+      "youtube_id": "Kv7dVW4drrw",
+      "youtube_title": "JE DM 100 RAPPEURS : Qui sera le nouvel artiste de 2023 ?",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/Kv7dVW4drrw/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E09",
+      "episode_id": "11960804",
+      "tvdb_title": "24H pour trouver le meilleur rappeur de LYON ! (avec GOUAP)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960804/screencap/6a9bdcd4d8b67.jpg",
+      "youtube_id": "WZgfAbzsSnY",
+      "youtube_title": "24H pour trouver le meilleur rappeur de LYON ! (avec GOUAP)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/WZgfAbzsSnY/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 24
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E10",
+      "episode_id": "11960805",
+      "tvdb_title": "Femmes & Rap, une histoire souvent oubliée (Documentaire)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960805/screencap/6a9bdce541786.jpg",
+      "youtube_id": "PWKI5crJvNs",
+      "youtube_title": "Femmes & Rap, une histoire souvent oubliée (Documentaire)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/PWKI5crJvNs/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E11",
+      "episode_id": "11960806",
+      "tvdb_title": "24H pour trouver le meilleur rappeur de LILLE ! (avec Bekar)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960806/screencap/6a9be016a8f78.jpg",
+      "youtube_id": "3RrnlPxZ0a4",
+      "youtube_title": "24H pour trouver le meilleur rappeur de LILLE ! (avec Bekar)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/3RrnlPxZ0a4/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 12
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E12",
+      "episode_id": "11960807",
+      "tvdb_title": "J'ORGANISE UN FESTIVAL RAP !",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960807/screencap/6a9be02a5719c.jpg",
+      "youtube_id": "gw-85NVH4Po",
+      "youtube_title": "J'ORGANISE UN FESTIVAL RAP !",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/gw-85NVH4Po/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E13",
+      "episode_id": "11960808",
+      "tvdb_title": "24H pour trouver le meilleur rappeur de Belgique ! (avec Krisy)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960808/screencap/6a9be07141d61.jpg",
+      "youtube_id": "7ovn4uEPxSk",
+      "youtube_title": "24H pour trouver le meilleur rappeur de Belgique ! (avec Krisy)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/7ovn4uEPxSk/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E14",
+      "episode_id": "11960809",
+      "tvdb_title": "Ce jeu est la relève de RAP JEU ! (gros melon oui)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960809/screencap/6a9be11f776a0.jpg",
+      "youtube_id": "70boG1iRhMQ",
+      "youtube_title": "Ce jeu est la relève de RAP JEU ! (gros melon oui)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame2",
+        "url": "https://i.ytimg.com/vi/70boG1iRhMQ/2.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E15",
+      "episode_id": "11960810",
+      "tvdb_title": "On fait rapper des inconnus dans la rue (avec Sopico)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960810/screencap/6a9be0f21f85a.jpg",
+      "youtube_id": "bhxQazw-XmA",
+      "youtube_title": "On fait rapper des inconnus dans la rue (avec Sopico)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/bhxQazw-XmA/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 22
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E16",
+      "episode_id": "11960811",
+      "tvdb_title": "Studio 100€ vs Studio 100.000€ (avec ISHA)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960811/screencap/6a9be1724bc59.jpg",
+      "youtube_id": "B-mEehkF3HE",
+      "youtube_title": "Studio 100€ vs Studio 100.000€ (avec ISHA)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame2",
+        "url": "https://i.ytimg.com/vi/B-mEehkF3HE/2.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E17",
+      "episode_id": "11960812",
+      "tvdb_title": "LE PIRE ENTRETIEN (avec Mastu, Michou & Théodort)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960812/screencap/6a9be185b6386.jpg",
+      "youtube_id": "_TvjyULQ_sw",
+      "youtube_title": "LE PIRE ENTRETIEN (avec Mastu, Michou & Théodort)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/_TvjyULQ_sw/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E18",
+      "episode_id": "11960813",
+      "tvdb_title": "Je DM 100 rappeurs : quel est le meilleur album de rap ?",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960813/screencap/6a9be1e682d9f.jpg",
+      "youtube_id": "4sy-Jg3Xf4g",
+      "youtube_title": "Je DM 100 rappeurs : quel est le meilleur album de rap ?",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/4sy-Jg3Xf4g/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E21",
+      "episode_id": "11960815",
+      "tvdb_title": "On DÉVALISE le DRESSING de Théodort, Theobabac et Take A Mic ! (ft. JustRiadh)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960815/screencap/6a9be1ce53dfe.jpg",
+      "youtube_id": "w7NY18gyDg0",
+      "youtube_title": "On DÉVALISE le DRESSING de Théodort, Theobabac et Take A Mic ! (ft. JustRiadh)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/w7NY18gyDg0/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 10
+      },
+      "status": "STRONG_SAME_VIDEO_CANDIDATE"
+    },
+    {
+      "code": "S2023E22",
+      "episode_id": "11960816",
+      "tvdb_title": "10 CHOSES que vous NE SAVEZ PAS sur ces FILMS !",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960816/screencap/6a9be24d9845d.jpg",
+      "youtube_id": "poGgaO_MmGg",
+      "youtube_title": "10 CHOSES que vous NE SAVEZ PAS sur ces FILMS !",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/poGgaO_MmGg/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E23",
+      "episode_id": "11960817",
+      "tvdb_title": "La FOLLE HISTOIRE de COLORS !",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960817/screencap/6a9be20eebe93.jpg",
+      "youtube_id": "MiK3ymWHs6c",
+      "youtube_title": "La FOLLE HISTOIRE de COLORS !",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame2",
+        "url": "https://i.ytimg.com/vi/MiK3ymWHs6c/2.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E24",
+      "episode_id": "11960818",
+      "tvdb_title": "Il est temps d'en parler.",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960818/screencap/6a9be21e21172.jpg",
+      "youtube_id": "BtJN5n7r2-I",
+      "youtube_title": "Il est temps d'en parler.",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/BtJN5n7r2-I/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 10
+      },
+      "status": "STRONG_SAME_VIDEO_CANDIDATE"
+    },
+    {
+      "code": "S2023E25",
+      "episode_id": "11960819",
+      "tvdb_title": "LE PIRE ENTRETIEN 2 (avec Joyca, Djilsi & Maxime Biaggi)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960819/screencap/6a9be23a9d0d9.jpg",
+      "youtube_id": "X3iJvZNDp9Y",
+      "youtube_title": "LE PIRE ENTRETIEN 2 (avec Joyca, Djilsi & Maxime Biaggi)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/X3iJvZNDp9Y/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E26",
+      "episode_id": "11960820",
+      "tvdb_title": "SAGE ou PAS SAGE (avec Maghla & Theobabac)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960820/screencap/6a9be25eae4c0.jpg",
+      "youtube_id": "qzuYlSpiWIw",
+      "youtube_title": "SAGE ou PAS SAGE (avec Maghla & Theobabac)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/qzuYlSpiWIw/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 10
+      },
+      "status": "STRONG_SAME_VIDEO_CANDIDATE"
+    },
+    {
+      "code": "S2023E27",
+      "episode_id": "11960821",
+      "tvdb_title": "SAGE ou PAS SAGE 2 (ft. Léopold & Grimkujow)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960821/screencap/6a9be2c5c4b26.jpg",
+      "youtube_id": "I-vkl1t61Sg",
+      "youtube_title": "SAGE ou PAS SAGE 2 (ft. Léopold & Grimkujow)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame2",
+        "url": "https://i.ytimg.com/vi/I-vkl1t61Sg/2.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2023E28",
+      "episode_id": "11960835",
+      "tvdb_title": "Ces ARTISTES qui ont véritablement DISPARUS…",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11960835/screencap/6a9be283e56ad.jpg",
+      "youtube_id": "lZIqScVAGQY",
+      "youtube_title": "Ces ARTISTES qui ont véritablement DISPARUS…",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/lZIqScVAGQY/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2024E01",
+      "episode_id": "11860680",
+      "tvdb_title": "QUI EST LE MENTEUR ? ft. Théobabac & Totoche",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11860680/screencap/6a9be6234024f.jpg",
+      "youtube_id": "XaqBB143KZ8",
+      "youtube_title": "QUI EST LE MENTEUR ? ft. Théobabac & Totoche",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/XaqBB143KZ8/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 8
+      },
+      "status": "STRONG_SAME_VIDEO_CANDIDATE"
+    },
+    {
+      "code": "S2024E02",
+      "episode_id": "11860679",
+      "tvdb_title": "La FOLLE HISTOIRE de GRÜNT (ft. ???)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11860679/screencap/6a9be64039732.jpg",
+      "youtube_id": "w2nzZiRUTTs",
+      "youtube_title": "La FOLLE HISTOIRE de GRÜNT (ft. ???)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame2",
+        "url": "https://i.ytimg.com/vi/w2nzZiRUTTs/2.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 12
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2024E04",
+      "episode_id": "11860677",
+      "tvdb_title": "1 AN POUR RÉUSSIR... (ft. Morgan Charrière)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11860677/screencap/6a9be65f07443.jpg",
+      "youtube_id": "QcVN2T0xRYg",
+      "youtube_title": "1 AN POUR RÉUSSIR... (ft. Morgan Charrière)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/QcVN2T0xRYg/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 20
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2024E05",
+      "episode_id": "11860675",
+      "tvdb_title": "VRP AGENCY, qui sera le meilleur vendeur ? (avec Joyca & Théodort)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11860675/screencap/6a9be69cc87b9.jpg",
+      "youtube_id": "n4OmVk9MTKY",
+      "youtube_title": "VRP AGENCY, qui sera le meilleur vendeur ? (avec Joyca & Théodort)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame2",
+        "url": "https://i.ytimg.com/vi/n4OmVk9MTKY/2.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2024E06",
+      "episode_id": "11860674",
+      "tvdb_title": "FAIRE UNE BD C'EST FACILE ? avec Cyprien & Julien Josselin",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11860674/screencap/6a9be6be5d1ba.jpg",
+      "youtube_id": "vW9Q1JIk62M",
+      "youtube_title": "FAIRE UNE BD C'EST FACILE ? avec Cyprien & Julien Josselin",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/vW9Q1JIk62M/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2024E08",
+      "episode_id": "11860672",
+      "tvdb_title": "On JUGE vos PIRES DINGUERIES... ft. Natoo & Baghera",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11860672/screencap/6a9be6d26a66b.jpg",
+      "youtube_id": "_n-2iUM3cHU",
+      "youtube_title": "On JUGE vos PIRES DINGUERIES... ft. Natoo & Baghera",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/_n-2iUM3cHU/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2024E10",
+      "episode_id": "11860665",
+      "tvdb_title": "CHECK TON PHONE ! (ft. Lonni & Naskid)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11860665/screencap/6a9be6e276880.jpg",
+      "youtube_id": "CtP2opTTKsQ",
+      "youtube_title": "CHECK TON PHONE ! (ft. Lonni & Naskid)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/CtP2opTTKsQ/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 20
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2025E01",
+      "episode_id": "11860664",
+      "tvdb_title": "MEME-NAGE ft. Theobabac & Flamby",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11860664/screencap/6a9be6fb88a6b.jpg",
+      "youtube_id": "wS4RPU0dTJY",
+      "youtube_title": "MEME-NAGE ft. Theobabac & Flamby",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame2",
+        "url": "https://i.ytimg.com/vi/wS4RPU0dTJY/2.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 20
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2025E02",
+      "episode_id": "11860663",
+      "tvdb_title": "La FOLLE HISTOIRE des BATTLES... (Rap Contenders)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11860663/screencap/6a9be70b8a39b.jpg",
+      "youtube_id": "PyzS8-zaw30",
+      "youtube_title": "La FOLLE HISTOIRE des BATTLES... (Rap Contenders)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/PyzS8-zaw30/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 22
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2025E03",
+      "episode_id": "11860662",
+      "tvdb_title": "35H DANS LE PIRE COMMISSARIAT (ft. Michou, Byilhan, Flamby & Nico)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11860662/screencap/6a9be725285b7.jpg",
+      "youtube_id": "c1j0oUYfSII",
+      "youtube_title": "35H DANS LE PIRE COMMISSARIAT (ft. Michou, Byilhan, Flamby & Nico)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/c1j0oUYfSII/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2025E04",
+      "episode_id": "11860661",
+      "tvdb_title": "LES PIRES SUPERS-HÉROS... ft. Mastu & Anyme",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11860661/screencap/6a9be7349e9ee.jpg",
+      "youtube_id": "VE49C_2K66U",
+      "youtube_title": "LES PIRES SUPERS-HÉROS... ft. Mastu & Anyme",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/VE49C_2K66U/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2025E05",
+      "episode_id": "11860660",
+      "tvdb_title": "24H POUR TOUT DÉVALISER (avec Theobabac)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11860660/screencap/6a9be748a0d4c.jpg",
+      "youtube_id": "vy3pUmkyTZE",
+      "youtube_title": "24H POUR TOUT DÉVALISER (avec Theobabac) ",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/vy3pUmkyTZE/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2025E06",
+      "episode_id": "11860659",
+      "tvdb_title": "J'ENFREINS les PIRES LOIS des USA (oui c'est un cochon)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11860659/screencap/6a9be775316d9.jpg",
+      "youtube_id": "T7U_f4YWcws",
+      "youtube_title": "J'ENFREINS les PIRES LOIS des USA (oui c'est un cochon)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/T7U_f4YWcws/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 20
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2025E07",
+      "episode_id": "11860658",
+      "tvdb_title": "On rénove chez quelqu’un… sans lui demander (avec Natoo)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11860658/screencap/6a9be7868cbfc.jpg",
+      "youtube_id": "f7rK3pje4C4",
+      "youtube_title": "On rénove chez quelqu’un… sans lui demander (avec Natoo)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/f7rK3pje4C4/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2025E08",
+      "episode_id": "11859546",
+      "tvdb_title": "35H DANS LE PIRE HÔPITAL (ft. Michou, Byilhan, Flamby & Nico)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11859546/screencap/6a9be797bfeb6.jpg",
+      "youtube_id": "lCWU1WEoQ2w",
+      "youtube_title": "35H DANS LE PIRE HÔPITAL (ft. Michou, Byilhan, Flamby & Nico)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/lCWU1WEoQ2w/maxresdefault.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "distance": 28
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2026E01",
+      "episode_id": "11859545",
+      "tvdb_title": "TROUVE L'ERREUR ! (ft. SEB & SOFYAN)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11859545/screencap/6a9be7b54f60d.jpg",
+      "youtube_id": "TfdTovZiqSc",
+      "youtube_title": "TROUVE L'ERREUR ! (ft. SEB & SOFYAN)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/TfdTovZiqSc/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2026E02",
+      "episode_id": "11859544",
+      "tvdb_title": "On se téléporte dans Breaking Bad... (ft. Grandingo)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11859544/screencap/6a9be7c56941e.jpg",
+      "youtube_id": "lTaChQ3QODA",
+      "youtube_title": "On se téléporte dans Breaking Bad... (ft. Grandingo)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/lTaChQ3QODA/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 18
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2026E03",
+      "episode_id": "11859543",
+      "tvdb_title": "Une journée pour tout nettoyer (ft. Élian)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11859543/screencap/6a9be7dc3edb4.jpg",
+      "youtube_id": "rJ26AtgyIWc",
+      "youtube_title": "Une journée pour tout nettoyer (ft. Élian)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame1",
+        "url": "https://i.ytimg.com/vi/rJ26AtgyIWc/1.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 14
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2026E04",
+      "episode_id": "11859542",
+      "tvdb_title": "TU PERDS, TU SAUTES ! (Ft. Theobabac, Giuseppe, Tsuku & Just1bisou)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11859542/screencap/6a9be7f0a3e44.jpg",
+      "youtube_id": "929z7AEVTWU",
+      "youtube_title": "TU PERDS, TU SAUTES ! (Ft. Theobabac, Giuseppe, Tsuku & Just1bisou)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/929z7AEVTWU/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 24
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    },
+    {
+      "code": "S2026E05",
+      "episode_id": "11962093",
+      "tvdb_title": "On réalise son rêve à 74 ans (rêve n°2)",
+      "tvdb_image": "https://artworks.thetvdb.com/banners/v4/episode/11962093/screencap/6a9be8000640f.jpg",
+      "youtube_id": "blshMoLZ02c",
+      "youtube_title": "On réalise son rêve à 74 ans (rêve n°2)",
+      "artwork_size": [
+        640,
+        360
+      ],
+      "best": {
+        "kind": "frame3",
+        "url": "https://i.ytimg.com/vi/blshMoLZ02c/3.jpg",
+        "size": [
+          120,
+          90
+        ],
+        "distance": 16
+      },
+      "status": "ORIGIN_UNPROVEN_NOT_WRONG"
+    }
+  ]
+}
