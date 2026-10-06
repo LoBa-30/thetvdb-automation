@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-10-06T20:18:32.204Z",
+  "target": "Mcfly & Carlito final two runtimes",
+  "authenticated": true,
+  "preflight": [
+    {
+      "code": "S2025E54",
+      "row": {
+        "number": 54,
+        "publicId": "11261488",
+        "title": "MÉLI-MÉLO 4 (tout simplement)"
+      },
+      "airdate": "2025-07-27",
+      "runtime": 99,
+      "ok": true
+    },
+    {
+      "code": "S2023E06",
+      "row": {
+        "number": 6,
+        "publicId": "9915826",
+        "title": "La maison est incroyable ! Fin de l’aventure Bizeneuille"
+      },
+      "airdate": "2023-07-30",
+      "runtime": 64,
+      "ok": true
+    }
+  ],
+  "writes": [
+    {
+      "code": "S2025E54",
+      "id": "11261488",
+      "from": 99,
+      "to": 109,
+      "youtubeId": "LvPzscrOVdc",
+      "duration": "1:48:51"
+    },
+    {
+      "code": "S2023E06",
+      "id": "9915826",
+      "from": 64,
+      "to": 65,
+      "youtubeId": "FmHZ3o6bdUM",
+      "duration": "1:04:32"
+    }
+  ],
+  "skips": [],
+  "verifications": [
+    {
+      "code": "S2025E54",
+      "runtime": 109,
+      "airdate": "2025-07-27",
+      "ok": true
+    },
+    {
+      "code": "S2023E06",
+      "runtime": 65,
+      "airdate": "2023-07-30",
+      "ok": true
+    }
+  ],
+  "blocked": [],
+  "result": "APPLIED_AND_VERIFIED"
+}
