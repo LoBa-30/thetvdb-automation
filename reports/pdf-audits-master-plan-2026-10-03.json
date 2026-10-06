@@ -59,14 +59,15 @@
       "target": "Maxime Biaggi",
       "pdf": "AUDIT THETVDB — MAXIME BIAGGI.pdf",
       "scope": "MAIN CHANNEL ONLY",
-      "status": "IN_PROGRESS_REDUCED",
+      "status": "IN_PROGRESS_ARTWORK_ONLY",
       "pdfOpenWork": [
-        "7 Season Premiere markers if convention still intended after fresh preflight",
         "64 missing artworks"
       ],
       "resolvedSincePlan": [
         "S2024E05 runtime rechecked: 59:23 YouTube -> 59 min TVDB, no change.",
-        "10 emoji-title attempts rolled back and verified; per project rule, do not retry emoji titles that TheTVDB converts to question marks."
+        "10 emoji-title attempts rolled back and verified; per project rule, do not retry emoji titles that TheTVDB converts to question marks.",
+        "Fresh season-boundary audit: 7 populated year-seasons, 0 Season Premiere flags, 6/6 completed seasons consistently mark only the final episode as Season Finale; 2026 is ongoing.",
+        "Season Premiere ticket resolved NO_WRITE: adding Premiere to E01 would invent a new convention rather than correct an objective error."
       ]
     },
     {
@@ -185,11 +186,13 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-06T18:56:00Z",
+  "lastUpdatedAt": "2026-10-06T19:00:00Z",
   "latestContinuationCommits": [
     "598e20d6635a2789b735e38d0d4f5f002f872685",
     "793b2dd728db8c39f24e7c711528651c6c60c00a",
     "da3c19d0c896137428835d9b2d29ec6fba3a24f2",
-    "4ea3d7959131856b5f12c4786009c56a130f1cac"
+    "4ea3d7959131856b5f12c4786009c56a130f1cac",
+    "fb254ef3040a2fdf7e784f06f44697cdb1aa54b0",
+    "234989de332f859a5fe6950a2fe05e97e753a0f9"
   ]
 }
