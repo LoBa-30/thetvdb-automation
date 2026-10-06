@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-10-06T18:58:00Z",
+  "target": "Maxime Biaggi",
+  "ticket": "7 Season Premiere markers",
+  "sourceReport": "reports/maxime-season-boundary-audit/report.json",
+  "mode": "RESOLUTION_NO_WRITE",
+  "observed": {
+    "seasonsWithEpisodes": 7,
+    "premiereFlags": 0,
+    "completedSeasonsWithFinaleFlags": 6,
+    "current2026FinaleFlags": 0,
+    "completedYears": [
+      2019,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "currentYear": 2026
+  },
+  "resolution": "DO_NOT_ADD_SEASON_PREMIERE_MARKERS",
+  "rationale": [
+    "Fresh current TheTVDB state shows zero Season Premiere flags across all seven populated year-seasons.",
+    "The six completed seasons consistently mark only their final episode as Season Finale.",
+    "The current 2026 season has no Finale because it is still ongoing.",
+    "Adding Premiere flags solely because episodes are E01 would introduce a new convention rather than correct an objectively wrong field."
+  ],
+  "action": "NO_WRITE",
+  "safeguards": [
+    "EXACT_CORRECTIONS_ONLY",
+    "NO_CONVENTION_INVENTION",
+    "KEEP_EXISTING_FINALE_PATTERN"
+  ]
+}
