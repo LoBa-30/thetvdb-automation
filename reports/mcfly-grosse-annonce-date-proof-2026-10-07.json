@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-10-07T00:05:00+02:00",
+  "target": "Mcfly & Carlito",
+  "youtubeId": "fttKpTYRdMs",
+  "title": "GROSSE ANNONCE",
+  "finding": "Exact official YouTube search result now exposes publication date 2015-04-12.",
+  "previousState": "Date was previously unverified because direct metadata retrieval hit YouTube anti-bot.",
+  "currentState": "DATE_PROVEN; runtime and historical TVDB identity still require proof.",
+  "action": "No TVDB creation or deletion. Continue historical matching first.",
+  "evidence": {
+    "source": "indexed official YouTube result",
+    "published": "2015-04-12",
+    "channel": "Mcfly et Carlito"
+  }
+}
