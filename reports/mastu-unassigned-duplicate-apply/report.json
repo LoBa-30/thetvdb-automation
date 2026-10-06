@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-10-06T16:18:58.986Z",
+  "target": "Mastu",
+  "mode": "EXACT_DUPLICATE_DELETE_WITH_MERGE",
+  "evidence": {
+    "auditRun": 37491514915,
+    "preflightReport": "reports/mastu-unassigned-duplicate-preflight/report.json"
+  },
+  "actions": [
+    {
+      "source": "11467024",
+      "target": "6941556",
+      "sourceTitle": "FAITES MOI RIRE BORDEL",
+      "targetTitle": "FAITES MOI RIRE BORDEL",
+      "date": "October 28, 2018",
+      "youtubeId": "ySeuAx4Ho08",
+      "status": "ERROR",
+      "checks": {
+        "targetHttp": 200,
+        "targetTitleExact": true,
+        "targetDateExact": true,
+        "sourceHttpBefore": 200,
+        "sourceTitleExact": true,
+        "sourceDateExact": true,
+        "formSourceId": "11467024",
+        "formType": "3",
+        "formValues": {
+          "deleteReason": "50",
+          "mergeType": "3",
+          "mergeId": "6941556"
+        },
+        "submitHttp": 401,
+        "submitUrl": "https://thetvdb.com/entity/delete",
+        "submitBodyPreview": "<!DOCTYPE html> <html> <head> <meta name=\"robots\" content=\"noindex,nofollow\" /> <style> /* Copyright (c) 2010, Yahoo! Inc. All rights reserved. Code licensed under the BSD License: http://developer.yahoo.com/yui/license.html */ html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{bord"
+      },
+      "error": "Delete POST failed with HTTP 401"
+    }
+  ],
+  "finalUnassignedIds": [
+    "6837846",
+    "6837854",
+    "6837856",
+    "6837928",
+    "9195535",
+    "11467024",
+    "11467025",
+    "11467026",
+    "11567163",
+    "11964033"
+  ],
+  "processedSourcesStillUnassigned": [
+    "11467024",
+    "11467025",
+    "11467026",
+    "11964033"
+  ],
+  "success": false
+}
