@@ -1,47 +1,333 @@
 {
-  "generatedAt": "2026-10-06T16:31:00Z",
+  "generatedAt": "2026-10-06T16:33:00Z",
   "target": "Joyca",
-  "sourceRun": 37495286414,
   "mode": "HISTORICAL_RESOLUTION_NO_WRITE",
+  "sources": {
+    "youtubeHistoricalSearchRun": 37495286414,
+    "tvdbHistoricalDetailRun": 37496217782,
+    "previousCheckpointGeneratedAt": "2026-10-06T16:31:00Z"
+  },
   "summary": {
     "checked": 21,
     "officialCurrentSearchProven": 0,
-    "historicalThirdPartyTraces": 4,
+    "contemporaryTvdbEntriesWithin7Days": 9,
+    "legacyCatalogBackfillWithDetailedMetadata": 12,
+    "independentHistoricalTraceCases": 7,
     "keepNoDelete": 21,
+    "deleteCandidates": 0,
     "destructiveActions": 0
   },
-  "resolvedPolicy": "All 21 TVDB-only entries remain KEEP_NO_DELETE. Current absence from the official YouTube search is not evidence of invalidity.",
-  "historicalTraces": [
+  "resolvedPolicy": "All 21 TVDB-only entries are classified KEEP_NO_DELETE. Nine were created on TheTVDB within seven days of their stated YouTube air date; twelve belong to the older detailed catalogue/backfill. Current absence from the official Joyca Videos/search results is not evidence of invalidity.",
+  "episodes": [
     {
       "code": "S2016E37",
+      "episodeId": "6342806",
       "title": "LE PEN CHANTE NOEL ! (REMIX)",
-      "date": "2016-12-24",
-      "status": "HISTORICAL_TRACE_CONFIRMED_KEEP",
-      "evidence": "TheTVDB detail/all-seasons pages retain title, date, YouTube network and original description."
+      "firstAired": "December 24, 2016",
+      "runtimeMinutes": 10,
+      "created": "October 1, 2017",
+      "modified": "October 1, 2017",
+      "creationDelayDays": 281,
+      "evidenceClass": "LEGACY_CATALOG_BACKFILL_WITH_DETAILED_METADATA",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [
+        "TheTVDB detail/all-seasons pages retain title, date, YouTube network and original description."
+      ],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2017E04",
+      "episodeId": "6342836",
+      "title": "LA NOUVELLE REVOLUTION APPLE !",
+      "firstAired": "January 17, 2017",
+      "runtimeMinutes": 10,
+      "created": "October 1, 2017",
+      "modified": "October 1, 2017",
+      "creationDelayDays": 257,
+      "evidenceClass": "LEGACY_CATALOG_BACKFILL_WITH_DETAILED_METADATA",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2017E10",
+      "episodeId": "6342891",
+      "title": "J'AI UN PROJET FOU...",
+      "firstAired": "February 8, 2017",
+      "runtimeMinutes": 10,
+      "created": "October 1, 2017",
+      "modified": "October 1, 2017",
+      "creationDelayDays": 235,
+      "evidenceClass": "LEGACY_CATALOG_BACKFILL_WITH_DETAILED_METADATA",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2017E19",
+      "episodeId": "6342913",
+      "title": "FAIRE UN BEAT AVEC... (SPÉCIAL 1er AVRIL)",
+      "firstAired": "April 1, 2017",
+      "runtimeMinutes": 10,
+      "created": "October 1, 2017",
+      "modified": "October 1, 2017",
+      "creationDelayDays": 183,
+      "evidenceClass": "LEGACY_CATALOG_BACKFILL_WITH_DETAILED_METADATA",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [
+        "YouTube Francophone/Fandom historical series listing preserves Faire un beat avec... (SPECIAL 1ER AVRIL)."
+      ],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2017E25",
+      "episodeId": "6342922",
+      "title": "MA PLAYLIST DU MOIS !",
+      "firstAired": "May 15, 2017",
+      "runtimeMinutes": 10,
+      "created": "October 1, 2017",
+      "modified": "October 1, 2017",
+      "creationDelayDays": 139,
+      "evidenceClass": "LEGACY_CATALOG_BACKFILL_WITH_DETAILED_METADATA",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2017E26",
+      "episodeId": "6342923",
+      "title": "5 MUSIQUES INSOLITES !",
+      "firstAired": "May 23, 2017",
+      "runtimeMinutes": 10,
+      "created": "October 1, 2017",
+      "modified": "October 1, 2017",
+      "creationDelayDays": 131,
+      "evidenceClass": "LEGACY_CATALOG_BACKFILL_WITH_DETAILED_METADATA",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [
+        "Historical Joyca channel index still lists 5 MUSIQUES INSOLITES !."
+      ],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2017E28",
+      "episodeId": "6342935",
+      "title": "MA PLAYLIST DU MOIS #2",
+      "firstAired": "May 31, 2017",
+      "runtimeMinutes": 10,
+      "created": "October 1, 2017",
+      "modified": "October 1, 2017",
+      "creationDelayDays": 123,
+      "evidenceClass": "LEGACY_CATALOG_BACKFILL_WITH_DETAILED_METADATA",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2017E34",
+      "episodeId": "6342944",
+      "title": "MA PLAYLIST DU MOIS #3",
+      "firstAired": "June 30, 2017",
+      "runtimeMinutes": 10,
+      "created": "October 1, 2017",
+      "modified": "October 1, 2017",
+      "creationDelayDays": 93,
+      "evidenceClass": "LEGACY_CATALOG_BACKFILL_WITH_DETAILED_METADATA",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2017E39",
+      "episodeId": "6342949",
+      "title": "MA PLAYLIST DU MOIS #4",
+      "firstAired": "July 31, 2017",
+      "runtimeMinutes": 10,
+      "created": "October 1, 2017",
+      "modified": "October 1, 2017",
+      "creationDelayDays": 62,
+      "evidenceClass": "LEGACY_CATALOG_BACKFILL_WITH_DETAILED_METADATA",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2017E40",
+      "episodeId": "6342950",
+      "title": "QU'EST-CE QUE JE FAIS LÀ ?",
+      "firstAired": "August 10, 2017",
+      "runtimeMinutes": 10,
+      "created": "October 1, 2017",
+      "modified": "September 7, 2026",
+      "creationDelayDays": 52,
+      "evidenceClass": "LEGACY_CATALOG_BACKFILL_WITH_DETAILED_METADATA",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2017E43",
+      "episodeId": "6342953",
+      "title": "MA PLAYLIST DU MOIS #5",
+      "firstAired": "August 30, 2017",
+      "runtimeMinutes": 10,
+      "created": "October 1, 2017",
+      "modified": "October 1, 2017",
+      "creationDelayDays": 32,
+      "evidenceClass": "LEGACY_CATALOG_BACKFILL_WITH_DETAILED_METADATA",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2017E46",
+      "episodeId": "6342956",
+      "title": "BLIND TEST EXTREME ! (Ft. Vodk, Mahdi Ba, Mastu)",
+      "firstAired": "September 22, 2017",
+      "runtimeMinutes": 10,
+      "created": "October 1, 2017",
+      "modified": "October 1, 2017",
+      "creationDelayDays": 9,
+      "evidenceClass": "LEGACY_CATALOG_BACKFILL_WITH_DETAILED_METADATA",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [
+        "Historical Joyca channel index still lists BLIND TEST EXTREME ! (Ft. Vodk, Mahdi Ba, Mastu)."
+      ],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2017E48",
+      "episodeId": "6345105",
+      "title": "MA PLAYLIST DU MOIS #6",
+      "firstAired": "October 3, 2017",
+      "runtimeMinutes": 10,
+      "created": "October 3, 2017",
+      "modified": "October 3, 2017",
+      "creationDelayDays": 0,
+      "evidenceClass": "CONTEMPORANEOUS_TVDB_ENTRY_WITHIN_7_DAYS",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2017E56",
+      "episodeId": "6434346",
+      "title": "MA PLAYLIST DU MOIS #7 !",
+      "firstAired": "November 30, 2017",
+      "runtimeMinutes": 10,
+      "created": "November 30, 2017",
+      "modified": "November 30, 2017",
+      "creationDelayDays": 0,
+      "evidenceClass": "CONTEMPORANEOUS_TVDB_ENTRY_WITHIN_7_DAYS",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2018E04",
+      "episodeId": "6534109",
+      "title": "MA PLAYLIST DU MOIS #8",
+      "firstAired": "January 31, 2018",
+      "runtimeMinutes": 10,
+      "created": "February 2, 2018",
+      "modified": "February 2, 2018",
+      "creationDelayDays": 2,
+      "evidenceClass": "CONTEMPORANEOUS_TVDB_ENTRY_WITHIN_7_DAYS",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2018E12",
+      "episodeId": "6633919",
+      "title": "MA PLAYLIST DU MOIS #9 !",
+      "firstAired": "March 31, 2018",
+      "runtimeMinutes": 10,
+      "created": "April 4, 2018",
+      "modified": "April 4, 2018",
+      "creationDelayDays": 4,
+      "evidenceClass": "CONTEMPORANEOUS_TVDB_ENTRY_WITHIN_7_DAYS",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2018E17",
+      "episodeId": "6677149",
+      "title": "MA PLAYLIST DU MOIS #10 !",
+      "firstAired": "April 30, 2018",
+      "runtimeMinutes": 10,
+      "created": "May 2, 2018",
+      "modified": "May 2, 2018",
+      "creationDelayDays": 2,
+      "evidenceClass": "CONTEMPORANEOUS_TVDB_ENTRY_WITHIN_7_DAYS",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2018E23",
+      "episodeId": "6715140",
+      "title": "MA PLAYLIST DU MOIS ! #11",
+      "firstAired": "June 1, 2018",
+      "runtimeMinutes": 10,
+      "created": "June 5, 2018",
+      "modified": "June 5, 2018",
+      "creationDelayDays": 4,
+      "evidenceClass": "CONTEMPORANEOUS_TVDB_ENTRY_WITHIN_7_DAYS",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [],
+      "decision": "KEEP_NO_DELETE"
     },
     {
       "code": "S2018E43",
+      "episodeId": "6872587",
       "title": "Je vous dis tout...",
-      "date": "2018-10-19",
-      "status": "HISTORICAL_TRACE_CONFIRMED_KEEP",
-      "evidence": "TheTVDB and Episode Calendar preserve title/date/description."
+      "firstAired": "October 19, 2018",
+      "runtimeMinutes": 10,
+      "created": "October 21, 2018",
+      "modified": "October 21, 2018",
+      "creationDelayDays": 2,
+      "evidenceClass": "CONTEMPORANEOUS_TVDB_ENTRY_WITHIN_7_DAYS",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [
+        "TheTVDB and Episode Calendar preserve title/date/description."
+      ],
+      "decision": "KEEP_NO_DELETE"
     },
     {
       "code": "S2023E34",
+      "episodeId": "10195767",
       "title": "150 000€ SONT EN JEU !",
-      "date": "2023-12-11",
-      "status": "HISTORICAL_TRACE_CONFIRMED_KEEP",
-      "evidence": "SensCritique and Episode Calendar preserve title/date/description."
+      "firstAired": "December 11, 2023",
+      "runtimeMinutes": 2,
+      "created": "December 16, 2023",
+      "modified": "December 16, 2023",
+      "creationDelayDays": 5,
+      "evidenceClass": "CONTEMPORANEOUS_TVDB_ENTRY_WITHIN_7_DAYS",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [
+        "SensCritique and Episode Calendar preserve title/date/description."
+      ],
+      "decision": "KEEP_NO_DELETE"
     },
     {
       "code": "S2025E05",
+      "episodeId": "11035334",
       "title": "ON ESSAIE 10 THÉRAPIES INSOLITES (2 sont fausses)",
-      "date": "2025-03-16",
-      "status": "HISTORICAL_TRACE_CONFIRMED_KEEP",
-      "evidence": "SensCritique / Episode Calendar preserve title/date and description even though current official-channel search did not return it."
+      "firstAired": "March 16, 2025",
+      "runtimeMinutes": 66,
+      "created": "March 19, 2025",
+      "modified": "March 19, 2025",
+      "creationDelayDays": 3,
+      "evidenceClass": "CONTEMPORANEOUS_TVDB_ENTRY_WITHIN_7_DAYS",
+      "currentOfficialYoutubeSearch": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+      "independentHistoricalTraces": [
+        "SensCritique / Episode Calendar preserve title/date and description even though current official-channel search did not return it."
+      ],
+      "decision": "KEEP_NO_DELETE"
     }
   ],
-  "remainingUnproven": 17,
   "safeguards": [
     "NO_DELETE_ON_CURRENT_YOUTUBE_ABSENCE",
     "NO_RECREATE",
