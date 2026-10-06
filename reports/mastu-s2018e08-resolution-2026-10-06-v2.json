@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-10-06T18:06:19.869Z",
+  "target": "Mastu S2018E08",
+  "scope": "Historical provenance correction",
+  "status": "RESOLVED_KEEP_TITLE_DATE_RUNTIME_TICKET",
+  "tvdb": {
+    "episodeId": "6953923",
+    "code": "S2018E08",
+    "title": "QUAND 2 BEAUFS PRENNENT LA VOITURE",
+    "date": "2018-03-03",
+    "runtimeMinutes": 10
+  },
+  "findings": {
+    "titleAndDate": [
+      "Current TheTVDB Aired Order places this exact title at S2018E08 on 2018-03-03.",
+      "SensCritique historical chronology independently places the same title on 2018-03-03 between the 2018-02-28 and 2018-03-13 Mastu uploads.",
+      "Listubes channel index independently preserves the exact title with duration 10:34."
+    ],
+    "priorYoutubeAssociationRejected": {
+      "videoId": "TcUSeNjrzFU",
+      "title": "ON ACCOSTE DES GENS EN VOITURE Feat @Joyca",
+      "published": "2021-03-13",
+      "reason": "This is a distinct later official Mastu upload and cannot be the source/provenance for the 2018 episode."
+    },
+    "runtime": {
+      "historicalDuration": "10:34",
+      "projectNearestMinutePolicyCandidate": 11,
+      "tvdbCurrent": 10,
+      "decision": "A_VERIFIER_NO_WRITE",
+      "reason": "The 10:34 duration is preserved by a historical channel index, not a recovered primary YouTube metadata response for the original 2018 upload. Do not alter runtime until primary/archived exact metadata is recovered."
+    }
+  },
+  "decision": {
+    "title": "KEEP_AS_CORRECT",
+    "date": "KEEP_AS_CORRECT",
+    "renameTo2021JoycaTitle": "REJECTED",
+    "runtime": "TICKET_A_VERIFIER",
+    "destructiveAction": "NONE"
+  },
+  "safeguards": [
+    "NO_RENAME_FROM_FALSE_2021_VIDEO_ASSOCIATION",
+    "NO_RUNTIME_WRITE_WITHOUT_PRIMARY_OR_EQUIVALENT_ARCHIVED_EXACT_METADATA",
+    "NO_DELETE_ON_CURRENT_YOUTUBE_ABSENCE"
+  ]
+}
