@@ -1,0 +1,202 @@
+[
+  {
+    "code": "S2023E17",
+    "tvdb_title": "LOUP-GAROU NOCTURNE (Avec Joyca, Michou, Maghla...)",
+    "tvdb_date": "2023-10-29",
+    "episode_id": "10115998",
+    "search_returncode": 0,
+    "official_results": [],
+    "chosen": null,
+    "proof": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+    "date_match": null
+  },
+  {
+    "code": "S2021E54",
+    "tvdb_title": "QU’EST-CE QU’ELLE FAIT LÀ?! (Je suis choqué)",
+    "tvdb_date": "2021-12-18",
+    "episode_id": "9195502",
+    "search_returncode": 1,
+    "official_results": [],
+    "chosen": null,
+    "proof": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+    "date_match": null
+  },
+  {
+    "code": "S2021E31",
+    "tvdb_title": "NOS PREMIERES CONVERSATIONS MESSENGER (Feat @THEODORT)",
+    "tvdb_date": "2021-09-11",
+    "episode_id": "8762550",
+    "search_returncode": 1,
+    "official_results": [],
+    "chosen": null,
+    "proof": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+    "date_match": null
+  },
+  {
+    "code": "S2020E34",
+    "tvdb_title": "JE VOUS FAIS VISITER MA MAISON (6 mois après, j'ai un nouveau chaton)",
+    "tvdb_date": "2020-11-21",
+    "episode_id": "8070766",
+    "search_returncode": 1,
+    "official_results": [],
+    "chosen": null,
+    "proof": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+    "date_match": null
+  },
+  {
+    "code": "S2019E32",
+    "tvdb_title": "JE SUIS UN MAUVAIS CITOYEN (La clé de bras m'a fait mal)",
+    "tvdb_date": "2019-11-02",
+    "episode_id": "11467845",
+    "search_returncode": 1,
+    "official_results": [],
+    "chosen": null,
+    "proof": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+    "date_match": null
+  },
+  {
+    "code": "S2018E32",
+    "tvdb_title": "YouTube va mal...",
+    "tvdb_date": "2018-11-17",
+    "episode_id": "6941565",
+    "search_returncode": 1,
+    "official_results": [],
+    "chosen": null,
+    "proof": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+    "date_match": null
+  },
+  {
+    "code": "S2018E29",
+    "tvdb_title": "J'ai besoin de vous parler",
+    "tvdb_date": "2018-10-13",
+    "episode_id": "6941542",
+    "search_returncode": 1,
+    "official_results": [],
+    "chosen": null,
+    "proof": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+    "date_match": null
+  },
+  {
+    "code": "S2018E25",
+    "tvdb_title": "JE VAIS ÊTRE HONNÊTE AVEC VOUS...",
+    "tvdb_date": "2018-08-22",
+    "episode_id": "6837940",
+    "search_returncode": 0,
+    "official_results": [],
+    "chosen": null,
+    "proof": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+    "date_match": null
+  },
+  {
+    "code": "S2018E12",
+    "tvdb_title": "QUI DE NOUS TROIS ? Ft Amixem & VodK",
+    "tvdb_date": "2018-04-01",
+    "episode_id": "6645830",
+    "search_returncode": 0,
+    "official_results": [],
+    "chosen": null,
+    "proof": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+    "date_match": null
+  },
+  {
+    "code": "S2018E09",
+    "tvdb_title": "J'AI RETROUVÉ DES VIDÉOS HONTEUSES SUR MON TÉLÉPHONE...",
+    "tvdb_date": "2018-03-13",
+    "episode_id": "6953922",
+    "search_returncode": 0,
+    "official_results": [],
+    "chosen": null,
+    "proof": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+    "date_match": null
+  },
+  {
+    "code": "S2018E08",
+    "tvdb_title": "QUAND 2 BEAUFS PRENNENT LA VOITURE",
+    "tvdb_date": "2018-03-03",
+    "episode_id": "6953923",
+    "search_returncode": 1,
+    "official_results": [
+      {
+        "id": "TcUSeNjrzFU",
+        "title": "ON ACCOSTE DES GENS EN VOITURE Feat @Joyca",
+        "channel_id": "UCAhaFPP6v3WCfK5Tjao0B7A",
+        "channel": "Mastu",
+        "uploader": "Mastu",
+        "upload_date": null,
+        "timestamp": null,
+        "duration": 1189,
+        "webpage_url": "https://www.youtube.com/watch?v=TcUSeNjrzFU",
+        "availability": null
+      }
+    ],
+    "chosen": {
+      "id": "TcUSeNjrzFU",
+      "title": "ON ACCOSTE DES GENS EN VOITURE Feat @Joyca",
+      "channel_id": "UCAhaFPP6v3WCfK5Tjao0B7A",
+      "channel": "Mastu",
+      "uploader": "Mastu",
+      "upload_date": null,
+      "timestamp": null,
+      "duration": 1189,
+      "webpage_url": "https://www.youtube.com/watch?v=TcUSeNjrzFU",
+      "availability": null
+    },
+    "proof": "OFFICIAL_YOUTUBE_SEARCH_RESULT",
+    "date_match": null
+  },
+  {
+    "code": "S2018E05",
+    "tvdb_title": "JE N'ARRIVE PAS À JOUER À FORTNITE... (TOP 1 raté)",
+    "tvdb_date": "2018-02-19",
+    "episode_id": "6953926",
+    "search_returncode": 1,
+    "official_results": [],
+    "chosen": null,
+    "proof": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+    "date_match": null
+  },
+  {
+    "code": "S2017E40",
+    "tvdb_title": "DES YOUTUBERS ME CLASHENT SUR TWITTER !",
+    "tvdb_date": "2017-07-08",
+    "episode_id": "9195825",
+    "search_returncode": 0,
+    "official_results": [],
+    "chosen": null,
+    "proof": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+    "date_match": null
+  },
+  {
+    "code": "S2017E36",
+    "tvdb_title": "MANGER BEAUCOUP ET NE PAS GROSSIR",
+    "tvdb_date": "2017-06-21",
+    "episode_id": "9195821",
+    "search_returncode": 1,
+    "official_results": [],
+    "chosen": null,
+    "proof": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+    "date_match": null
+  },
+  {
+    "code": "S2017E31",
+    "tvdb_title": "PROVOQUER UNE ÉMEUTE DE VACHES EN VOITURE",
+    "tvdb_date": "2017-05-25",
+    "episode_id": "9195816",
+    "search_returncode": 0,
+    "official_results": [],
+    "chosen": null,
+    "proof": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+    "date_match": null
+  },
+  {
+    "code": "S2016E09",
+    "tvdb_title": "JE RÉPONDS À VOS QUESTIONS ÉTRANGES...",
+    "tvdb_date": "2016-08-02",
+    "episode_id": "9195596",
+    "search_returncode": 1,
+    "official_results": [],
+    "chosen": null,
+    "proof": "NO_OFFICIAL_SEARCH_RESULT_FOUND",
+    "date_match": null
+  }
+]
