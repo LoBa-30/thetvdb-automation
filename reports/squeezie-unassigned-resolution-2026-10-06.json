@@ -1,0 +1,75 @@
+{
+  "generatedAt": "2026-10-06T15:55:00Z",
+  "target": "Squeezie",
+  "scope": "Unassigned exact-duplicate resolution; no destructive write",
+  "source": "reports/squeezie-deep/unassigned.json plus previously verified assigned-episode mappings",
+  "policy": [
+    "NO_DELETE_ON_YOUTUBE_ABSENCE",
+    "NO_SECURITY_BYPASS",
+    "FRESH_PREFLIGHT_REQUIRED_BEFORE_ANY_FUTURE_DELETE"
+  ],
+  "items": [
+    {
+      "id": "6975388",
+      "date": "2018-12-31",
+      "runtime": 10,
+      "status": "DUPLICATE_PROVEN_DELETE_BLOCKED",
+      "duplicateOf": {
+        "id": "6952099",
+        "season": 2019,
+        "episode": 1,
+        "title": "JE VIDE MON SAC !"
+      },
+      "note": "Historical Unassigned copy; prior delete attempt returned HTTP 401. Do not retry blindly."
+    },
+    {
+      "id": "10779950",
+      "date": "2024-10-31",
+      "runtime": 83,
+      "status": "DUPLICATE_PROVEN_PENDING_AUTHORIZED_DELETE",
+      "duplicateOf": {
+        "season": 2024,
+        "episode": 16,
+        "title": "72h enfermés dans les catacombes"
+      },
+      "note": "One of two same-date/runtime Unknown copies."
+    },
+    {
+      "id": "10779951",
+      "date": "2024-10-31",
+      "runtime": 83,
+      "status": "DUPLICATE_PROVEN_PENDING_AUTHORIZED_DELETE",
+      "duplicateOf": {
+        "season": 2024,
+        "episode": 16,
+        "title": "72h enfermés dans les catacombes"
+      },
+      "note": "One of two same-date/runtime Unknown copies."
+    },
+    {
+      "id": "10940462",
+      "date": "2025-02-01",
+      "runtime": 47,
+      "status": "DUPLICATE_PROVEN_PENDING_AUTHORIZED_DELETE",
+      "duplicateOf": {
+        "season": 2025,
+        "episode": 1,
+        "title": "Des inconnus nous jugent #2..."
+      },
+      "note": "One of two same-date/runtime Unknown copies."
+    },
+    {
+      "id": "10940463",
+      "date": "2025-02-01",
+      "runtime": 47,
+      "status": "DUPLICATE_PROVEN_PENDING_AUTHORIZED_DELETE",
+      "duplicateOf": {
+        "season": 2025,
+        "episode": 1,
+        "title": "Des inconnus nous jugent #2..."
+      },
+      "note": "One of two same-date/runtime Unknown copies."
+    }
+  ],
+  "decision": "KEEP AS RESOLVED TICKETS UNTIL A FRESH AUTHENTICATED DESTRUCTIVE PREFLIGHT IS AUTHORIZED BY THETVDB; no mutation performed in this pass."
+}
