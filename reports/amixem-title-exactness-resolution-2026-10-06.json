@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-10-06T20:22:00+02:00",
+  "target": "Amixem",
+  "sourceAudit": "reports/amixem-final/audit.json",
+  "referenceDate": "2026-09-09",
+  "titleExactMismatchesInScope": 54,
+  "substantiveMismatches": 0,
+  "classification": {
+    "punctuationEmojiExactness": 26,
+    "cosmeticExactness": 28
+  },
+  "decision": "NO_TITLE_WRITES_REMAIN",
+  "rationale": [
+    "Fresh exhaustive audit reports zero substantive title mismatches.",
+    "All 54 remaining differences are cosmetic, punctuation, emoji, invisible-character or spacing differences.",
+    "Project safeguard forbids retrying emoji writes that TheTVDB may normalize to question marks.",
+    "Whitespace/punctuation-only churn is not justified when identity and chronology are already exact."
+  ],
+  "action": "NO_WRITE",
+  "safeguards": [
+    "NO_EMOJI_RETRY",
+    "NO_WHITESPACE_ONLY_CHURN",
+    "NO_COSMETIC_REWRITE"
+  ]
+}
