@@ -1,0 +1,41 @@
+name: Squeezie runtime tickets refresh
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/squeezie-runtime-tickets-refresh.yml'
+      - 'src/squeezie-runtime-tickets-refresh.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -U yt-dlp requests beautifulsoup4
+      - name: Retrieve official Squeezie Videos tab
+        run: |
+          mkdir -p reports/squeezie-runtime-tickets-refresh
+          yt-dlp --flat-playlist --dump-single-json --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/@Squeezie/videos' > reports/squeezie-runtime-tickets-refresh/catalogue.json
+      - name: Recheck runtime tickets
+        run: python src/squeezie-runtime-tickets-refresh.py
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/squeezie-runtime-tickets-refresh
+          git commit -m "Record Squeezie runtime ticket refresh [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: squeezie-runtime-tickets-refresh
+          path: reports/squeezie-runtime-tickets-refresh/
+          retention-days: 30
