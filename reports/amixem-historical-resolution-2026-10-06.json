@@ -1,0 +1,83 @@
+{
+  "generatedAt": "2026-10-06T16:50:00Z",
+  "target": "Amixem",
+  "sourceDetailRuns": [
+    37497848337,
+    37498004711
+  ],
+  "mode": "HISTORICAL_RESOLUTION_NO_WRITE",
+  "summary": {
+    "tvdbOnlyCurrent": 85,
+    "detailPagesRead": 85,
+    "errors": 0,
+    "legacyBulkImports2013to2015": 82,
+    "isolatedHistoricalCases": 3,
+    "deleteCandidates": 0,
+    "destructiveActions": 0
+  },
+  "isolatedCases": [
+    {
+      "code": "S2022E48",
+      "episodeId": "9416848",
+      "title": "UNE JOURNÉE DANS UN SIMULATEUR MÉTÉO EXTRÊME ! (c’est l’enfer)",
+      "date": "2022-10-23",
+      "runtimeMinutes": 28,
+      "status": "HISTORICAL_DELETED_VIDEO_PROVEN_KEEP",
+      "evidence": [
+        "TheTVDB record was created on the air date and contains a detailed contemporary description.",
+        "Filmot preserves the Amixem video title/date and transcript.",
+        "Contemporary press (Numerama, 2022-10-28) reports that this exact Amixem video disappeared from YouTube days after publication."
+      ],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2020E61",
+      "episodeId": "8107809",
+      "title": "UNE JOURNÉE COMME DES TRADERS ! (j’ai failli tout perdre)",
+      "date": "2020-10-11",
+      "runtimeMinutes": 29,
+      "status": "HISTORICAL_TRACE_FOUND_KEEP",
+      "evidence": [
+        "BetaSeries and Seriebox preserve exact title/date/runtime in chronological context.",
+        "An archived social index preserves an old YouTube watch link reference for the exact title."
+      ],
+      "decision": "KEEP_NO_DELETE"
+    },
+    {
+      "code": "S2017E20",
+      "episodeId": "6102812",
+      "title": "JE JOUE À L'INSTRUMENT DE MUSIQUE LE PLUS BIZARRE !",
+      "tvdbDate": "2017-03-16",
+      "runtimeMinutes": 25,
+      "status": "STRUCTURAL_DATE_NUMBER_ANOMALY_PREFLIGHT_PENDING",
+      "evidence": [
+        "Current public YouTube audit contains the exact video ID fu-nBHrmokA and duration 14:19.",
+        "The current YouTube playlist order places that video between the 2017-02-11 and 2017-02-19 entries, causing the matcher to pair it against S2017E12 while S2017E20 becomes TVDB-only.",
+        "Seriebox historical indexing places the instrument video on 2017-02-16, between LE MEILLEUR TEST DE PERSONNALITÉ (2017-02-11) and LE PIRE COLIS... (2017-02-19).",
+        "Fresh authenticated/primary-source preflight launched before any renumber/date/runtime mutation."
+      ],
+      "decision": "NO_WRITE_UNTIL_PRIMARY_DATE_AND_FRESH_TVDB_PREFLIGHT"
+    }
+  ],
+  "legacyBulkImport": {
+    "seasons": [
+      2013,
+      2014,
+      2015
+    ],
+    "count": 82,
+    "status": "LEGACY_IMPORT_KEEP_PROVENANCE_RESEARCH",
+    "characteristics": [
+      "Entries were bulk-created mainly in May-June 2017, with several 2013 rows added in 2019.",
+      "Most carry a uniform 25-minute runtime and no surviving direct YouTube link/artwork/description.",
+      "Titles and dates form coherent historical series/arcs (Altis Life, Mamadou, DarkRP, etc.), so late import alone is not deletion evidence."
+    ],
+    "decision": "KEEP_NO_DELETE; research provenance individually before any merge/delete."
+  },
+  "safeguards": [
+    "NO_DELETE_ON_CURRENT_YOUTUBE_ABSENCE",
+    "NO_BULK_DELETE_OF_2013_2015_IMPORTS",
+    "FRESH_AUTHENTICATED_PREFLIGHT_BEFORE_STRUCTURAL_RENUMBER",
+    "NO_RECREATE"
+  ]
+}
