@@ -1,0 +1,9 @@
+authenticated=true
+checks=31
+passed=31
+failed=0
+seriesFirstAired=August 9, 2018
+announcementPreserved=true
+structure2026Count=17
+errors=0
+ok=true

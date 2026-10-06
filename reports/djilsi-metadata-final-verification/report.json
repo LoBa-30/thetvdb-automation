@@ -1,0 +1,674 @@
+{
+  "generatedAt": "2026-10-06T17:07:36.564Z",
+  "target": "Djilsi",
+  "mode": "AUTHENTICATED_STRICT_READ_ONLY_POST_APPLY",
+  "authenticated": true,
+  "checks": [
+    {
+      "id": "9242990",
+      "season": 2018,
+      "episode": 1,
+      "runtime": null,
+      "date": "2018-08-09",
+      "actualRuntime": 10,
+      "actualDate": "2018-08-09",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9242992",
+      "season": 2018,
+      "episode": 3,
+      "runtime": 7,
+      "date": null,
+      "actualRuntime": 7,
+      "actualDate": "2018-08-23",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9242995",
+      "season": 2018,
+      "episode": 6,
+      "runtime": 15,
+      "date": null,
+      "actualRuntime": 15,
+      "actualDate": "2018-09-07",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9243020",
+      "season": 2018,
+      "episode": 15,
+      "runtime": 14,
+      "date": null,
+      "actualRuntime": 14,
+      "actualDate": "2018-12-05",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9243034",
+      "season": 2019,
+      "episode": 7,
+      "runtime": 9,
+      "date": null,
+      "actualRuntime": 9,
+      "actualDate": "2019-03-23",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9243035",
+      "season": 2019,
+      "episode": 8,
+      "runtime": 6,
+      "date": null,
+      "actualRuntime": 6,
+      "actualDate": "2019-04-10",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9243049",
+      "season": 2019,
+      "episode": 22,
+      "runtime": 23,
+      "date": null,
+      "actualRuntime": 23,
+      "actualDate": "2019-08-10",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9243050",
+      "season": 2019,
+      "episode": 23,
+      "runtime": 24,
+      "date": null,
+      "actualRuntime": 24,
+      "actualDate": "2019-08-17",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9243051",
+      "season": 2019,
+      "episode": 24,
+      "runtime": 32,
+      "date": null,
+      "actualRuntime": 32,
+      "actualDate": "2019-09-04",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9243057",
+      "season": 2019,
+      "episode": 29,
+      "runtime": 8,
+      "date": null,
+      "actualRuntime": 8,
+      "actualDate": "2019-10-19",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9243064",
+      "season": 2019,
+      "episode": 36,
+      "runtime": 9,
+      "date": null,
+      "actualRuntime": 9,
+      "actualDate": "2019-12-21",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9243084",
+      "season": 2020,
+      "episode": 5,
+      "runtime": 22,
+      "date": null,
+      "actualRuntime": 22,
+      "actualDate": "2020-03-08",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9243162",
+      "season": 2020,
+      "episode": 27,
+      "runtime": 21,
+      "date": null,
+      "actualRuntime": 21,
+      "actualDate": "2020-11-21",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9243181",
+      "season": 2021,
+      "episode": 15,
+      "runtime": 33,
+      "date": null,
+      "actualRuntime": 33,
+      "actualDate": "2021-07-03",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9243184",
+      "season": 2021,
+      "episode": 18,
+      "runtime": 52,
+      "date": null,
+      "actualRuntime": 52,
+      "actualDate": "2021-09-25",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9243195",
+      "season": 2022,
+      "episode": 7,
+      "runtime": 50,
+      "date": null,
+      "actualRuntime": 50,
+      "actualDate": "2022-05-07",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9254620",
+      "season": 2022,
+      "episode": 8,
+      "runtime": 46,
+      "date": null,
+      "actualRuntime": 46,
+      "actualDate": "2022-05-21",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9477724",
+      "season": 2022,
+      "episode": 16,
+      "runtime": 66,
+      "date": null,
+      "actualRuntime": 66,
+      "actualDate": "2022-09-17",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9477725",
+      "season": 2022,
+      "episode": 17,
+      "runtime": 95,
+      "date": null,
+      "actualRuntime": 95,
+      "actualDate": "2022-09-24",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9477730",
+      "season": 2022,
+      "episode": 21,
+      "runtime": 65,
+      "date": null,
+      "actualRuntime": 65,
+      "actualDate": "2022-10-29",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9812414",
+      "season": 2023,
+      "episode": 7,
+      "runtime": 41,
+      "date": null,
+      "actualRuntime": 41,
+      "actualDate": "2023-04-29",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "9812432",
+      "season": 2023,
+      "episode": 8,
+      "runtime": 51,
+      "date": null,
+      "actualRuntime": 51,
+      "actualDate": "2023-05-06",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "10740763",
+      "season": 2023,
+      "episode": 15,
+      "runtime": 101,
+      "date": null,
+      "actualRuntime": 101,
+      "actualDate": "2023-09-23",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "10740764",
+      "season": 2023,
+      "episode": 16,
+      "runtime": 92,
+      "date": null,
+      "actualRuntime": 92,
+      "actualDate": "2023-10-14",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "10824277",
+      "season": 2024,
+      "episode": 2,
+      "runtime": 58,
+      "date": null,
+      "actualRuntime": 58,
+      "actualDate": "2024-01-27",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "10824283",
+      "season": 2024,
+      "episode": 8,
+      "runtime": 69,
+      "date": null,
+      "actualRuntime": 69,
+      "actualDate": "2024-05-18",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "10824294",
+      "season": 2024,
+      "episode": 14,
+      "runtime": 46,
+      "date": "2024-10-26",
+      "actualRuntime": 46,
+      "actualDate": "2024-10-26",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "11684522",
+      "season": 2025,
+      "episode": 1,
+      "runtime": 53,
+      "date": null,
+      "actualRuntime": 53,
+      "actualDate": "2025-02-22",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "11684527",
+      "season": 2025,
+      "episode": 6,
+      "runtime": 55,
+      "date": null,
+      "actualRuntime": 55,
+      "actualDate": "2025-05-24",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "11971086",
+      "season": 2026,
+      "episode": 13,
+      "runtime": 49,
+      "date": null,
+      "actualRuntime": 49,
+      "actualDate": "2026-09-09",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    },
+    {
+      "id": "11976892",
+      "season": 2026,
+      "episode": 14,
+      "runtime": 45,
+      "date": null,
+      "actualRuntime": 45,
+      "actualDate": "2026-09-12",
+      "runtimeOk": true,
+      "dateOk": true,
+      "ok": true
+    }
+  ],
+  "structure2026": {
+    "count": 17,
+    "e11": {
+      "number": 11,
+      "id": "12014131",
+      "title": "RDV LE SAMEDI 5 SEPTEMBRE À 11H... ????????"
+    },
+    "e13": {
+      "number": 13,
+      "id": "11971086",
+      "title": "Les problèmes commencent… - ON VA OÙ 7 ep2 (ft Maxime Biaggi, Joyca & Théodort)"
+    },
+    "e14": {
+      "number": 14,
+      "id": "11976892",
+      "title": "Des accidents et une soirée chaotique... - ON VA OÙ 7 ep3 (ft Maxime Biaggi, Joyca & Théodort)"
+    },
+    "announcementPreserved": true,
+    "e13Preserved": true,
+    "e14Preserved": true
+  },
+  "seriesFirstAired": "August 9, 2018",
+  "blockedNonReadRequests": [
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306461444&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9242990%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9242990%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306461444&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9242990%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9242990%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306462422&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9242992%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9242992%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306462422&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9242992%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9242992%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306463545&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9242995%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9242995%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306463545&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9242995%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9242995%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306464675&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243020%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243020%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306464675&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243020%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243020%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306465964&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243034%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243034%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306465964&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243034%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243034%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306467020&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243035%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243035%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306467020&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243035%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243035%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306468111&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243049%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243049%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306468111&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243049%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243049%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306469039&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243050%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243050%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306469039&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243050%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243050%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306470010&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243051%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243051%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306470010&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243051%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243051%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306470986&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243057%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243057%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306470986&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243057%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243057%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306471966&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243064%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243064%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306471966&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243064%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243064%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306473010&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243084%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243084%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306473010&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243084%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243084%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306474089&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243162%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243162%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306474089&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243162%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243162%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306475022&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243181%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243181%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306475022&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243181%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243181%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306475966&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243184%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243184%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306475966&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243184%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243184%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306477018&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243195%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243195%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306477018&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9243195%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9243195%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306478014&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9254620%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9254620%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306478014&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9254620%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9254620%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306478881&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9477724%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9477724%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306478881&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9477724%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9477724%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306479791&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9477725%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9477725%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306479791&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9477725%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9477725%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306480790&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9477730%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9477730%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306480790&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9477730%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9477730%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306481764&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9812414%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9812414%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306481764&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9812414%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9812414%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306483745&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9812432%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9812432%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306483745&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F9812432%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F9812432%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306484428&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F10740763%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F10740763%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306484428&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F10740763%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F10740763%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306485400&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F10740764%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F10740764%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306485400&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F10740764%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F10740764%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306486423&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F10824277%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F10824277%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306486423&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F10824277%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F10824277%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306487372&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F10824283%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F10824283%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306487372&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F10824283%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F10824283%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306488455&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F10824294%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F10824294%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306488455&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F10824294%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F10824294%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306489383&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F11684522%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F11684522%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306489383&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F11684522%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F11684522%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306490297&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F11684527%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F11684527%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306490297&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F11684527%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F11684527%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306491255&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F11971086%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F11971086%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306491255&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F11971086%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F11971086%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306492257&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F11976892%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F11976892%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306492257&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fepisodes%2F11976892%2F0%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fepisodes%2F11976892%2F0%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306493209&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fseasons%2Fofficial%2F2026%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fseasons%2Fofficial%2F2026%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306493209&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi%2Fseasons%2Fofficial%2F2026%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi%2Fseasons%2Fofficial%2F2026%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791306494198&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791306494198&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fdjilsi&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fdjilsi&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://thetvdb.com/tvtapi"
+    }
+  ],
+  "errors": [],
+  "ok": true
+}
