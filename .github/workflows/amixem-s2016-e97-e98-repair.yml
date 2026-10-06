@@ -1,0 +1,42 @@
+name: Amixem S2016 E97-E98 guarded repair
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/amixem-s2016-e97-e98-repair.yml'
+      - 'src/amixem-s2016-e97-e98-repair.js'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Fresh preflight, repair titles/date, verify
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+          TVDB_AMIXEM_S2016_E97_E98_APPLY: 'yes'
+        run: node src/amixem-s2016-e97-e98-repair.js
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/amixem-s2016-e97-e98-repair
+          git commit -m "Record Amixem S2016 E97-E98 repair [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: amixem-s2016-e97-e98-repair
+          path: reports/amixem-s2016-e97-e98-repair/
+          retention-days: 30
