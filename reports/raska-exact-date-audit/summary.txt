@@ -1,0 +1,12 @@
+youtube_public_long=149
+youtube_exact_dates=0
+tvdb_episodes=150
+matched=149
+youtube_unmatched=0
+tvdb_without_current_public_youtube=1
+in_scope_matched=148
+date_mismatches=0
+date_unverified=148
+runtime_mismatches=0
+runtime_unverified=0
+substantive_title_candidates=0
