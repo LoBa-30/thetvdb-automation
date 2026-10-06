@@ -1,0 +1,36 @@
+name: Maxime S2024E05 runtime preflight
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/maxime-s2024e05-runtime-preflight.yml'
+      - 'src/maxime-s2024e05-runtime-preflight.js'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - run: node src/maxime-s2024e05-runtime-preflight.js
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/maxime-s2024e05-runtime-preflight
+          git commit -m "Record Maxime S2024E05 runtime preflight [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: maxime-s2024e05-runtime-preflight
+          path: reports/maxime-s2024e05-runtime-preflight/
