@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-10-06T19:17:00Z",
+  "target": "Joyca",
+  "sourceAudit": "reports/joyca-final/audit.json",
+  "referenceDate": "2026-09-09",
+  "titleExactMismatchesInScope": 50,
+  "substantiveMismatches": 0,
+  "classification": {
+    "emojiOrSymbolCosmetic": 38,
+    "whitespaceInvisibleOrPunctuationOnly": 12
+  },
+  "decision": "NO_TITLE_WRITES_REMAIN",
+  "rationale": [
+    "Fresh exhaustive audit reports zero substantive title mismatches.",
+    "Emoji/symbol-only differences are covered by the project safeguard after TheTVDB previously normalized emoji writes to question marks.",
+    "The remaining non-emoji differences are whitespace/invisible-character/punctuation formatting only and do not justify fragile rewrites."
+  ],
+  "safeguards": [
+    "NO_EMOJI_RETRY",
+    "NO_WHITESPACE_ONLY_CHURN",
+    "CURRENT_YOUTUBE_TITLE_PRESERVED_IN_AUDIT_REPORT"
+  ]
+}
