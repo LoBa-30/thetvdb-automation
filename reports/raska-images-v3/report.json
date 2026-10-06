@@ -1,0 +1,525 @@
+{
+  "summary": {
+    "checked": 6,
+    "confirmed_v3": 0,
+    "remaining_strong_candidate": 6
+  },
+  "rows": [
+    {
+      "code": "S2018E10",
+      "episode_id": "11960849",
+      "youtube_id": "3wG6DBsksi4",
+      "tvdb_title": "BEKAR - Téla | JUICE #4 (Dir. by RASKA)",
+      "comparisons": [
+        {
+          "kind": "maxres",
+          "ssim": 0.3837,
+          "mae": 0.179,
+          "hashes": {
+            "phash": 40,
+            "dhash": 43,
+            "whash": 36,
+            "average_hash": 38
+          }
+        },
+        {
+          "kind": "hq",
+          "ssim": 0.2665,
+          "mae": 0.1879,
+          "hashes": {
+            "phash": 38,
+            "dhash": 42,
+            "whash": 36,
+            "average_hash": 35
+          }
+        },
+        {
+          "kind": "frame0",
+          "ssim": 0.2665,
+          "mae": 0.1879,
+          "hashes": {
+            "phash": 38,
+            "dhash": 42,
+            "whash": 36,
+            "average_hash": 35
+          }
+        },
+        {
+          "kind": "frame1",
+          "ssim": 0.2409,
+          "mae": 0.2369,
+          "hashes": {
+            "phash": 32,
+            "dhash": 32,
+            "whash": 30,
+            "average_hash": 33
+          }
+        },
+        {
+          "kind": "frame2",
+          "ssim": 0.3877,
+          "mae": 0.1884,
+          "hashes": {
+            "phash": 30,
+            "dhash": 26,
+            "whash": 28,
+            "average_hash": 27
+          }
+        },
+        {
+          "kind": "frame3",
+          "ssim": 0.5369,
+          "mae": 0.095,
+          "hashes": {
+            "phash": 10,
+            "dhash": 13,
+            "whash": 16,
+            "average_hash": 17
+          }
+        }
+      ],
+      "best": {
+        "kind": "frame3",
+        "ssim": 0.5369,
+        "mae": 0.095,
+        "hashes": {
+          "phash": 10,
+          "dhash": 13,
+          "whash": 16,
+          "average_hash": 17
+        }
+      },
+      "status": "PROVENANCE_REMAINS_STRONG_CANDIDATE"
+    },
+    {
+      "code": "S2022E23",
+      "episode_id": "11960934",
+      "youtube_id": "lQv7vA1BvnI",
+      "tvdb_title": "On fait rapper des gens dans la rue ! (PARIS)",
+      "comparisons": [
+        {
+          "kind": "maxres",
+          "ssim": 0.1582,
+          "mae": 0.3185,
+          "hashes": {
+            "phash": 26,
+            "dhash": 27,
+            "whash": 24,
+            "average_hash": 27
+          }
+        },
+        {
+          "kind": "hq",
+          "ssim": 0.12,
+          "mae": 0.2982,
+          "hashes": {
+            "phash": 30,
+            "dhash": 27,
+            "whash": 12,
+            "average_hash": 15
+          }
+        },
+        {
+          "kind": "frame0",
+          "ssim": 0.12,
+          "mae": 0.2982,
+          "hashes": {
+            "phash": 30,
+            "dhash": 27,
+            "whash": 12,
+            "average_hash": 15
+          }
+        },
+        {
+          "kind": "frame1",
+          "ssim": 0.1567,
+          "mae": 0.3084,
+          "hashes": {
+            "phash": 30,
+            "dhash": 29,
+            "whash": 16,
+            "average_hash": 20
+          }
+        },
+        {
+          "kind": "frame2",
+          "ssim": 0.1304,
+          "mae": 0.3092,
+          "hashes": {
+            "phash": 38,
+            "dhash": 29,
+            "whash": 24,
+            "average_hash": 27
+          }
+        },
+        {
+          "kind": "frame3",
+          "ssim": 0.2551,
+          "mae": 0.1982,
+          "hashes": {
+            "phash": 10,
+            "dhash": 9,
+            "whash": 18,
+            "average_hash": 18
+          }
+        }
+      ],
+      "best": {
+        "kind": "frame3",
+        "ssim": 0.2551,
+        "mae": 0.1982,
+        "hashes": {
+          "phash": 10,
+          "dhash": 9,
+          "whash": 18,
+          "average_hash": 18
+        }
+      },
+      "status": "PROVENANCE_REMAINS_STRONG_CANDIDATE"
+    },
+    {
+      "code": "S2023E21",
+      "episode_id": "11960815",
+      "youtube_id": "w7NY18gyDg0",
+      "tvdb_title": "On DÉVALISE le DRESSING de Théodort, Theobabac et Take A Mic ! (ft. JustRiadh)",
+      "comparisons": [
+        {
+          "kind": "maxres",
+          "ssim": 0.1854,
+          "mae": 0.2914,
+          "hashes": {
+            "phash": 30,
+            "dhash": 35,
+            "whash": 20,
+            "average_hash": 25
+          }
+        },
+        {
+          "kind": "hq",
+          "ssim": 0.1284,
+          "mae": 0.2897,
+          "hashes": {
+            "phash": 34,
+            "dhash": 37,
+            "whash": 22,
+            "average_hash": 21
+          }
+        },
+        {
+          "kind": "frame0",
+          "ssim": 0.1284,
+          "mae": 0.2897,
+          "hashes": {
+            "phash": 34,
+            "dhash": 37,
+            "whash": 22,
+            "average_hash": 21
+          }
+        },
+        {
+          "kind": "frame1",
+          "ssim": 0.256,
+          "mae": 0.2643,
+          "hashes": {
+            "phash": 34,
+            "dhash": 34,
+            "whash": 26,
+            "average_hash": 25
+          }
+        },
+        {
+          "kind": "frame2",
+          "ssim": 0.2135,
+          "mae": 0.2853,
+          "hashes": {
+            "phash": 40,
+            "dhash": 34,
+            "whash": 28,
+            "average_hash": 27
+          }
+        },
+        {
+          "kind": "frame3",
+          "ssim": 0.4266,
+          "mae": 0.1305,
+          "hashes": {
+            "phash": 10,
+            "dhash": 15,
+            "whash": 12,
+            "average_hash": 10
+          }
+        }
+      ],
+      "best": {
+        "kind": "frame3",
+        "ssim": 0.4266,
+        "mae": 0.1305,
+        "hashes": {
+          "phash": 10,
+          "dhash": 15,
+          "whash": 12,
+          "average_hash": 10
+        }
+      },
+      "status": "PROVENANCE_REMAINS_STRONG_CANDIDATE"
+    },
+    {
+      "code": "S2023E24",
+      "episode_id": "11960818",
+      "youtube_id": "BtJN5n7r2-I",
+      "tvdb_title": "Il est temps d'en parler.",
+      "comparisons": [
+        {
+          "kind": "maxres",
+          "ssim": 0.1928,
+          "mae": 0.2721,
+          "hashes": {
+            "phash": 28,
+            "dhash": 29,
+            "whash": 38,
+            "average_hash": 33
+          }
+        },
+        {
+          "kind": "hq",
+          "ssim": 0.1399,
+          "mae": 0.2663,
+          "hashes": {
+            "phash": 32,
+            "dhash": 27,
+            "whash": 34,
+            "average_hash": 31
+          }
+        },
+        {
+          "kind": "frame0",
+          "ssim": 0.1399,
+          "mae": 0.2663,
+          "hashes": {
+            "phash": 32,
+            "dhash": 27,
+            "whash": 34,
+            "average_hash": 31
+          }
+        },
+        {
+          "kind": "frame1",
+          "ssim": 0.1671,
+          "mae": 0.3423,
+          "hashes": {
+            "phash": 36,
+            "dhash": 38,
+            "whash": 28,
+            "average_hash": 31
+          }
+        },
+        {
+          "kind": "frame2",
+          "ssim": 0.2261,
+          "mae": 0.2615,
+          "hashes": {
+            "phash": 32,
+            "dhash": 32,
+            "whash": 28,
+            "average_hash": 28
+          }
+        },
+        {
+          "kind": "frame3",
+          "ssim": 0.3479,
+          "mae": 0.1322,
+          "hashes": {
+            "phash": 10,
+            "dhash": 15,
+            "whash": 14,
+            "average_hash": 11
+          }
+        }
+      ],
+      "best": {
+        "kind": "frame3",
+        "ssim": 0.3479,
+        "mae": 0.1322,
+        "hashes": {
+          "phash": 10,
+          "dhash": 15,
+          "whash": 14,
+          "average_hash": 11
+        }
+      },
+      "status": "PROVENANCE_REMAINS_STRONG_CANDIDATE"
+    },
+    {
+      "code": "S2023E26",
+      "episode_id": "11960820",
+      "youtube_id": "qzuYlSpiWIw",
+      "tvdb_title": "SAGE ou PAS SAGE (avec Maghla & Theobabac)",
+      "comparisons": [
+        {
+          "kind": "maxres",
+          "ssim": 0.2041,
+          "mae": 0.3011,
+          "hashes": {
+            "phash": 28,
+            "dhash": 24,
+            "whash": 32,
+            "average_hash": 28
+          }
+        },
+        {
+          "kind": "hq",
+          "ssim": 0.1443,
+          "mae": 0.2823,
+          "hashes": {
+            "phash": 30,
+            "dhash": 28,
+            "whash": 32,
+            "average_hash": 24
+          }
+        },
+        {
+          "kind": "frame0",
+          "ssim": 0.1443,
+          "mae": 0.2823,
+          "hashes": {
+            "phash": 30,
+            "dhash": 28,
+            "whash": 32,
+            "average_hash": 24
+          }
+        },
+        {
+          "kind": "frame1",
+          "ssim": 0.252,
+          "mae": 0.2355,
+          "hashes": {
+            "phash": 32,
+            "dhash": 37,
+            "whash": 30,
+            "average_hash": 31
+          }
+        },
+        {
+          "kind": "frame2",
+          "ssim": 0.3229,
+          "mae": 0.1875,
+          "hashes": {
+            "phash": 30,
+            "dhash": 30,
+            "whash": 26,
+            "average_hash": 24
+          }
+        },
+        {
+          "kind": "frame3",
+          "ssim": 0.4787,
+          "mae": 0.115,
+          "hashes": {
+            "phash": 10,
+            "dhash": 8,
+            "whash": 14,
+            "average_hash": 13
+          }
+        }
+      ],
+      "best": {
+        "kind": "frame3",
+        "ssim": 0.4787,
+        "mae": 0.115,
+        "hashes": {
+          "phash": 10,
+          "dhash": 8,
+          "whash": 14,
+          "average_hash": 13
+        }
+      },
+      "status": "PROVENANCE_REMAINS_STRONG_CANDIDATE"
+    },
+    {
+      "code": "S2024E01",
+      "episode_id": "11860680",
+      "youtube_id": "XaqBB143KZ8",
+      "tvdb_title": "QUI EST LE MENTEUR ? ft. Théobabac & Totoche",
+      "comparisons": [
+        {
+          "kind": "maxres",
+          "ssim": 0.255,
+          "mae": 0.2832,
+          "hashes": {
+            "phash": 26,
+            "dhash": 28,
+            "whash": 22,
+            "average_hash": 19
+          }
+        },
+        {
+          "kind": "hq",
+          "ssim": 0.1901,
+          "mae": 0.2302,
+          "hashes": {
+            "phash": 26,
+            "dhash": 25,
+            "whash": 24,
+            "average_hash": 19
+          }
+        },
+        {
+          "kind": "frame0",
+          "ssim": 0.1901,
+          "mae": 0.2302,
+          "hashes": {
+            "phash": 26,
+            "dhash": 25,
+            "whash": 24,
+            "average_hash": 19
+          }
+        },
+        {
+          "kind": "frame1",
+          "ssim": 0.5844,
+          "mae": 0.0442,
+          "hashes": {
+            "phash": 8,
+            "dhash": 10,
+            "whash": 18,
+            "average_hash": 11
+          }
+        },
+        {
+          "kind": "frame2",
+          "ssim": 0.2162,
+          "mae": 0.1921,
+          "hashes": {
+            "phash": 28,
+            "dhash": 30,
+            "whash": 32,
+            "average_hash": 27
+          }
+        },
+        {
+          "kind": "frame3",
+          "ssim": 0.1478,
+          "mae": 0.3268,
+          "hashes": {
+            "phash": 34,
+            "dhash": 29,
+            "whash": 38,
+            "average_hash": 33
+          }
+        }
+      ],
+      "best": {
+        "kind": "frame1",
+        "ssim": 0.5844,
+        "mae": 0.0442,
+        "hashes": {
+          "phash": 8,
+          "dhash": 10,
+          "whash": 18,
+          "average_hash": 11
+        }
+      },
+      "status": "PROVENANCE_REMAINS_STRONG_CANDIDATE"
+    }
+  ]
+}
