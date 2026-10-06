@@ -103,7 +103,8 @@
       "resolvedSincePlan": [
         "10 current Unassigned classified individually: 5 exact duplicates proven, 5 historical keep/no-delete.",
         "Exact duplicate deletion path blocked HTTP 401; no retry/bypass.",
-        "S2017E31 PROVOQUER UNE ÉMEUTE DE VACHES EN VOITURE: official YouTube publication date proven as 2017-05-27; TVDB was 2017-05-25. Guarded authenticated correction applied and post-write verified."
+        "S2017E31 PROVOQUER UNE ÉMEUTE DE VACHES EN VOITURE: official YouTube publication date proven as 2017-05-27; TVDB was 2017-05-25. Guarded authenticated correction applied and post-write verified.",
+        "Read-only exact-ID probe tested 12 historical YouTube IDs: 12/12 direct metadata requests blocked by YouTube anti-bot. No cookie/challenge bypass attempted; cases remain keep/no-destructive-action unless independent primary evidence emerges."
       ]
     },
     {
@@ -113,8 +114,7 @@
       "pdfOpenWork": [
         "Exact publication dates remain independently unverified in the fresh audit",
         "769 missing artworks in PDF snapshot",
-        "2 artwork provenance tickets",
-        "54 remaining exact-title differences are cosmetic/punctuation/emoji candidates only; do not churn without substantive need"
+        "2 artwork provenance tickets"
       ],
       "resolvedSincePlan": [
         "S2017 E13-E20 structural numbering repaired and verified; episode 6102812 airdate corrected to 2017-02-16.",
@@ -124,7 +124,8 @@
         "Historical TVDB-only backlog already exhaustively classified: 85/85 detail pages read, 0 errors, 0 delete candidates. 82 legacy-import rows retained pending provenance; 3 isolated cases resolved/structurally repaired.",
         "All 5 current Unassigned entries individually classified: 10857946 is a legitimate official Amixem making-of dated 2024-12-12 and kept Unassigned; four Unknown 2026-01-18 entries remain À vérifier with no destructive action.",
         "Fresh exhaustive audit now has 890 current public YouTube videos / 975 TVDB episodes / 890 aligned pairs / 85 historical TVDB-only.",
-        "After matcher repairs and S2016 runtime correction, fresh audit reports 0 substantive title mismatches and 0 runtime mismatches."
+        "After matcher repairs and S2016 runtime correction, fresh audit reports 0 substantive title mismatches and 0 runtime mismatches.",
+        "Fresh title exactness backlog closed without writes: 54 remaining differences = 26 punctuation/emoji + 28 cosmetic; 0 substantive mismatches."
       ]
     },
     {
@@ -162,7 +163,8 @@
         "All 5 apparent YouTube extras classified without creation: 4 exact existing TVDB rematches (PRIORITIES, code de la route, MÉLI-MÉLO 3, Blindtest des synonymes) + GROSSE ANNONCE remains protected À vérifier/no-create.",
         "Four apparent substantive title mismatches were parser false positives caused by the mid-season finale label; authenticated preflight confirmed all four public titles already correct. Parser fixed.",
         "Two runtimes previously excluded due those false title mismatches were corrected and verified: S2025E54 99→109, S2023E06 64→65.",
-        "108 remaining non-substantive runtime corrections are running under all-or-nothing fresh preflight."
+        "108 remaining non-substantive runtime corrections are running under all-or-nothing fresh preflight.",
+        "Final two runtimes excluded from bulk due title-parser ambiguity were independently preflighted, corrected and verified: S2025E54 99→109 min, S2023E06 64→65 min."
       ]
     }
   ],
@@ -196,7 +198,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-06T20:20:00+02:00",
+  "lastUpdatedAt": "2026-10-06T20:25:00+02:00",
   "latestContinuationCommits": [
     "598e20d6635a2789b735e38d0d4f5f002f872685",
     "793b2dd728db8c39f24e7c711528651c6c60c00a",
@@ -213,6 +215,8 @@
     "63c842207235cddb82cc19548193585f8b7fdf47",
     "677ceb781873f5a47bc870069336f6abeb934b29",
     "9ecf348c8aa4a0228e6d2531c1d0986f7a9533f6",
-    "8162076585df4d7db8d477edfd366fd4c099895b"
+    "8162076585df4d7db8d477edfd366fd4c099895b",
+    "837537a00f0b295e03efb0e19c05b62a887ab024",
+    "e97d32263a6fb479d8e233b92a9a9b8c162363ae"
   ]
 }
