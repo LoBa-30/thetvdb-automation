@@ -148,9 +148,8 @@
     {
       "target": "Mcfly & Carlito",
       "pdf": "AUDIT THETVDB — MCFLY & CARLITO.pdf",
-      "status": "IN_PROGRESS_METADATA",
+      "status": "IN_PROGRESS_DATES_ARTWORK_HISTORICAL",
       "pdfOpenWork": [
-        "108 runtime corrections currently under guarded full preflight/apply/verification",
         "7 genuine TVDB-only historical entries remain after four exact rematches; research before any destructive action",
         "GROSSE ANNONCE remains À vérifier/no-create",
         "Artwork provenance/completeness",
@@ -164,7 +163,8 @@
         "Four apparent substantive title mismatches were parser false positives caused by the mid-season finale label; authenticated preflight confirmed all four public titles already correct. Parser fixed.",
         "Two runtimes previously excluded due those false title mismatches were corrected and verified: S2025E54 99→109, S2023E06 64→65.",
         "108 remaining non-substantive runtime corrections are running under all-or-nothing fresh preflight.",
-        "Final two runtimes excluded from bulk due title-parser ambiguity were independently preflighted, corrected and verified: S2025E54 99→109 min, S2023E06 64→65 min."
+        "Final two runtimes excluded from bulk due title-parser ambiguity were independently preflighted, corrected and verified: S2025E54 99→109 min, S2023E06 64→65 min.",
+        "Bulk runtime correction closed: 108/108 targets passed fresh preflight, 108 writes succeeded, and 108/108 post-write verifications passed; 0 skips and 0 blocks. Do not repeat these writes."
       ]
     }
   ],
@@ -198,7 +198,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-06T20:25:00+02:00",
+  "lastUpdatedAt": "2026-10-06T22:55:00+02:00",
   "latestContinuationCommits": [
     "598e20d6635a2789b735e38d0d4f5f002f872685",
     "793b2dd728db8c39f24e7c711528651c6c60c00a",
@@ -217,6 +217,7 @@
     "9ecf348c8aa4a0228e6d2531c1d0986f7a9533f6",
     "8162076585df4d7db8d477edfd366fd4c099895b",
     "837537a00f0b295e03efb0e19c05b62a887ab024",
-    "e97d32263a6fb479d8e233b92a9a9b8c162363ae"
+    "e97d32263a6fb479d8e233b92a9a9b8c162363ae",
+    "f4671c9a774bda4fd346c457647941337c3eb27e"
   ]
 }
