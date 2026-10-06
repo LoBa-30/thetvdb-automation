@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-10-06T16:02:00Z",
+  "target": "Mastu",
+  "sourceRun": 37492019710,
+  "sourceCommit": "28f05a1a409f4318b67c5709813b35bd3bed9557",
+  "summary": {
+    "historicalChecked": 16,
+    "officialProven": 1,
+    "unproven": 15,
+    "destructiveWrites": 0
+  },
+  "resolved": [
+    {
+      "code": "S2018E08",
+      "episodeId": "6953923",
+      "tvdbTitle": "QUAND 2 BEAUFS PRENNENT LA VOITURE",
+      "tvdbDate": "2018-03-03",
+      "youtubeId": "TcUSeNjrzFU",
+      "currentOfficialYouTubeTitle": "ON ACCOSTE DES GENS EN VOITURE Feat @Joyca",
+      "durationSeconds": 1189,
+      "status": "OFFICIAL_PROVEN_METADATA_PREFLIGHT_REQUIRED",
+      "decision": "KEEP; do not delete or rename until exact publication date/current metadata are independently confirmed."
+    }
+  ],
+  "unresolvedPolicy": {
+    "count": 15,
+    "status": "HISTORICAL_UNPROVEN_KEEP_NO_DELETE",
+    "reason": "No current official-channel search result is not proof of nonexistence; historical/private/deleted provenance remains possible."
+  },
+  "safeguards": [
+    "NO_DELETE_ON_CURRENT_YOUTUBE_ABSENCE",
+    "NO_RECREATE",
+    "FRESH_PREFLIGHT_BEFORE_METADATA_WRITE"
+  ]
+}
