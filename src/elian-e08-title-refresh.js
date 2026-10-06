@@ -14,7 +14,7 @@ await fs.mkdir(OUT,{recursive:true});
 const browser=await chromium.launch({headless:true});
 const context=await browser.newContext({locale:'fr-FR',userAgent:'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/153 Safari/537.36'});
 const page=await context.newPage();
-const report={generatedAt:new Date().toISOString(),target:'Elian S2026E08',youtubeId:'xkGjW_FR8vI',mode:'GUARDED_CURRENT_TITLE_REFRESH_V2_DYNAMIC_TRANSLATION_LINK',authenticated:false,writes:[],skips:[],blocked:[],checks:[],verification:null,result:'NOT_STARTED'};
+const report={generatedAt:new Date().toISOString(),target:'Elian S2026E08',youtubeId:'xkGjW_FR8vI',mode:'GUARDED_CURRENT_TITLE_REFRESH_V3_NORMAL_LANGUAGE_NAVIGATION',authenticated:false,writes:[],skips:[],blocked:[],checks:[],verification:null,result:'NOT_STARTED'};
 const norm=s=>String(s??'').normalize('NFC').replace(/\s+/g,' ').trim();
 
 async function go(u){
@@ -39,10 +39,24 @@ async function publicEpisode(){
 
 async function translationForm(href){
  await go(new URL(href,BASE).href);
- const forms=page.locator('form').filter({has:page.locator('input[name="episode_name"],textarea[name="episode_name"]')});
- const count=await forms.count();
- report.checks.push({translationUrl:page.url(),translationFormCount:count});
- if(!count) throw new Error('Translation edit form missing on current Edit Translations URL');
+ let forms=page.locator('form').filter({has:page.locator('input[name="episode_name"],textarea[name="episode_name"]')});
+ let count=await forms.count();
+ const links=await page.locator('a').evaluateAll(as=>as.map(a=>({text:(a.textContent||'').replace(/\\s+/g,' ').trim(),href:a.getAttribute('href')})).filter(x=>x.href&&x.href.includes('/translate/')));
+ report.checks.push({translationUrl:page.url(),translationFormCount:count,translationLinks:links.slice(0,30)});
+ if(!count){
+   const french=links.find(x=>/fran[cç]ais|french/i.test(x.text)||/\/fra(?:\/|$)/i.test(x.href)||/\/fr(?:\/|$)/i.test(x.href));
+   if(french){
+     await go(new URL(french.href,BASE).href);
+     forms=page.locator('form').filter({has:page.locator('input[name="episode_name"],textarea[name="episode_name"]')});
+     count=await forms.count();
+     report.checks.push({frenchTranslationUrl:page.url(),translationFormCountAfterFrenchLink:count});
+   }
+ }
+ if(!count){
+   const body=norm(await page.locator('body').innerText().catch(()=>''));
+   report.checks.push({translationBodyExcerpt:body.slice(0,1200)});
+   throw new Error('Translation edit form missing after normal Edit Translations/French navigation');
+ }
  let chosen=null;
  for(let i=0;i<count;i++){
   const form=forms.nth(i);
