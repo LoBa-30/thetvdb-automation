@@ -1,0 +1,6 @@
+Mastu authenticated Unassigned read-only
+Authenticated: true
+Found: 10
+Read: 10
+Errors: 0
+Write requests detected: 25
