@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-10-06T19:06:00Z",
+  "target": "Elian Ventre",
+  "ticket": "S2024E01 exact emoji title",
+  "episode": {
+    "code": "S2024E01",
+    "episodeId": "11092254",
+    "tvdbTitle": "AVEC MES CHIENNES ft. Scooby Doo et Dingo"
+  },
+  "youtube": {
+    "id": "xs4Idfkj0YQ",
+    "title": "AVEC MES CHIENNES 🐶🥺🥵🦴 ft. Scooby Doo et Dingo"
+  },
+  "comparison": "EMOJI_ONLY_DIFFERENCE",
+  "resolution": "NO_WRITE_EMOJI_BACKEND_RISK",
+  "rationale": [
+    "The non-emoji text is otherwise exact and identifies the same official video.",
+    "The project has already observed TheTVDB converting emoji title writes into question marks.",
+    "Project rule explicitly forbids retrying emoji title writes that are subject to this backend normalization."
+  ],
+  "action": "KEEP_CURRENT_TVDB_TITLE",
+  "safeguards": [
+    "NO_EMOJI_RETRY",
+    "NO_COSMETIC_WRITE"
+  ]
+}
