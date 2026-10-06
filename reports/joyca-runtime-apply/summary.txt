@@ -1,0 +1,8 @@
+authenticated=true
+planned=211
+preflightPassed=211
+writes=211
+skips=0
+blocked=0
+verifications=211
+result=APPLIED_AND_VERIFIED
