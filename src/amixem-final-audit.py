@@ -13,7 +13,7 @@ REF='2026-09-09'
 YT_URL='https://www.youtube.com/c/Amixem/videos'
 S=requests.Session()
 S.headers.update({
-    'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/136 Safari/537.36',
+    'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/153 Safari/537.36',
     'Accept-Language':'fr-FR,fr;q=0.9,en;q=0.7'
 })
 
@@ -70,7 +70,7 @@ def fetch_watch(v):
     try:
         s=requests.Session()
         s.headers.update({
-            'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/136 Safari/537.36',
+            'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/153 Safari/537.36',
             'Accept-Language':'fr-FR,fr;q=0.9,en;q=0.7'
         })
         r=s.get(f"https://www.youtube.com/watch?v={v['id']}&hl=fr&gl=FR",timeout=8)
