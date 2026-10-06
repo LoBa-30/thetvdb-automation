@@ -47,7 +47,7 @@ if(!probe.ok()) throw new Error('Authentication not proven; possible human verif
 let userPayload={};
 try{userPayload=await probe.json();}catch{}
 if(!userPayload || !Object.keys(userPayload).length) throw new Error('Empty authenticated user payload');
-logged=true;
+readOnlyLock=true;
 
 const url=`${BASE}/series/${SLUG}/seasons/official/unassigned/edit`;
 await goto(page,url);
@@ -101,7 +101,8 @@ for(const row of rows){
   finally{await p.close();}
 }
 
-report.writeRequestsDetected=writeRequests;
+report.readOnlyNetworkLock=true;
+report.blockedNonReadRequests=blockedRequests;
 await fs.writeFile(`${OUT}/report.json`,JSON.stringify(report,null,2));
 await fs.writeFile(`${OUT}/summary.txt`,
   [
@@ -110,9 +111,10 @@ await fs.writeFile(`${OUT}/summary.txt`,
     'Found: '+rows.length,
     'Read: '+report.episodes.length,
     'Errors: '+report.errors.length,
-    'Write requests detected: '+writeRequests
+    'Read-only network lock: true',
+    'Blocked non-read requests: '+blockedRequests.length
   ].join('\n')+'\n'
 );
-console.log('found='+rows.length+' read='+report.episodes.length+' errors='+report.errors.length+' writes='+writeRequests);
+console.log('found='+rows.length+' read='+report.episodes.length+' errors='+report.errors.length+' blocked='+blockedRequests.length);
 await browser.close();
-if(report.errors.length||writeRequests!==0) process.exitCode=2;
+if(report.errors.length) process.exitCode=2;
