@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-10-06T18:23:02.133Z",
+  "target": "Joyca",
+  "ticket": "TROUVE LE GÂTEAU repeated-title matcher drift",
+  "mode": "RESOLUTION_NO_TVDB_WRITE",
+  "resolution": "ALL_FOUR_TVDB_EPISODES_CORRECT_MATCHER_FALSE_POSITIVE",
+  "episodes": [
+    {
+      "code": "S2022E37",
+      "episodeId": null,
+      "youtubeId": "ILCHmPlEVWA",
+      "youtubeTitle": "TROUVE LE GÂTEAU ! 🍰 (Avec @SEBFRIT )",
+      "date": "2022-08-07",
+      "duration": "23:19",
+      "expectedRuntimeMinutes": 23,
+      "tvdbTitle": "TROUVE LE GÂTEAU ! (Avec @SEBFRIT)",
+      "tvdbDate": "2022-08-07",
+      "tvdbRuntimeMinutes": 23,
+      "status": "CORRECT"
+    },
+    {
+      "code": "S2023E03",
+      "episodeId": null,
+      "youtubeId": "owiX7-bGQEo",
+      "youtubeTitle": "TROUVE LE GÂTEAU ! #2 (Avec @Squeezie)",
+      "date": "2023-01-29",
+      "duration": "27:43",
+      "expectedRuntimeMinutes": 28,
+      "tvdbTitle": "TROUVE LE GÂTEAU ! #2 (Avec @Squeezie)",
+      "tvdbDate": "2023-01-29",
+      "tvdbRuntimeMinutes": 28,
+      "status": "CORRECT"
+    },
+    {
+      "code": "S2025E19",
+      "episodeId": null,
+      "youtubeId": "Ld7XsKsSk-I",
+      "youtubeTitle": "TROUVE LE GÂTEAU ! (Avec @inoxtag)",
+      "date": "2025-11-09",
+      "duration": "47:03",
+      "expectedRuntimeMinutes": 47,
+      "tvdbTitle": "TROUVE LE GÂTEAU ! (Avec @inoxtag)",
+      "tvdbDate": "2025-11-09",
+      "tvdbRuntimeMinutes": 47,
+      "status": "CORRECT"
+    },
+    {
+      "code": "S2026E05",
+      "episodeId": null,
+      "youtubeId": "CtCrSfJUEJE",
+      "youtubeTitle": "TROUVE LE GÂTEAU ! (Avec @LenaSituations)",
+      "date": "2026-03-08",
+      "duration": "53:12",
+      "expectedRuntimeMinutes": 53,
+      "tvdbTitle": "TROUVE LE GÂTEAU ! (Avec @LenaSituations)",
+      "tvdbDate": "2026-03-08",
+      "tvdbRuntimeMinutes": 53,
+      "status": "CORRECT"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "historical-index",
+      "url": "https://www.playd.tv/series/joyca/trouve-le-gateau",
+      "note": "Episode chronology, titles, durations and dates for episodes 1-6."
+    },
+    {
+      "type": "indexed-video",
+      "url": "https://zolotube.com/watch?v=Ld7XsKsSk-I",
+      "note": "Inoxtag upload date/title."
+    },
+    {
+      "type": "indexed-video",
+      "url": "https://zolotube.com/watch?v=CtCrSfJUEJE",
+      "note": "LenaSituations upload date/title."
+    },
+    {
+      "type": "thetvdb",
+      "url": "https://thetvdb.com/series/335805-show/allseasons/official",
+      "note": "Current Aired Order titles/dates/runtimes."
+    }
+  ],
+  "rootCause": "src/audit.js normalization removed @guest handles and episode-number suffixes, making distinct repeated-format episodes indistinguishable.",
+  "action": "FIX_AUDIT_NORMALIZATION_ONLY",
+  "tvdbWrites": 0
+}
