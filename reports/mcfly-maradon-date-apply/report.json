@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-10-06T13:27:59.195Z",
+  "authenticated": true,
+  "checks": [
+    {
+      "row": {
+        "number": 7,
+        "id": "8189288",
+        "title": "LE MARADON : une journée en live pour les hôpitaux de France"
+      },
+      "date": "2020-03-02"
+    }
+  ],
+  "writes": [
+    {
+      "field": "date",
+      "from": "2020-03-02",
+      "to": "2020-04-02"
+    }
+  ],
+  "skips": [],
+  "blocked": [],
+  "verifications": [
+    {
+      "field": "date",
+      "ok": true,
+      "value": "2020-04-02"
+    }
+  ],
+  "result": "APPLIED_AND_VERIFIED"
+}
