@@ -1,0 +1,35 @@
+name: Mcfly new unmatched preflight
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/mcfly-new-unmatched-preflight.yml'
+      - 'src/mcfly-new-unmatched-preflight.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -U yt-dlp
+      - run: python src/mcfly-new-unmatched-preflight.py
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/mcfly-new-video-preflight
+          git commit -m "Record Mcfly new unmatched preflight [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mcfly-new-unmatched-preflight
+          path: reports/mcfly-new-video-preflight/
