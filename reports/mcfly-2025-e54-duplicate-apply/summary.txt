@@ -1,0 +1,4 @@
+authenticated=true
+result=BLOCKED_HTTP_401_NO_RETRY
+blocked=1
+submitHttp=401

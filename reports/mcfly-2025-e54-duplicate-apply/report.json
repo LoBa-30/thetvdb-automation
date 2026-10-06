@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-10-06T18:09:24.156Z",
+  "target": "Mcfly & Carlito",
+  "mode": "EXACT_DUPLICATE_FRESH_PREFLIGHT_AND_SINGLE_APPLY",
+  "authenticated": true,
+  "checks": {
+    "target": {
+      "http": 200,
+      "title": true,
+      "date": true,
+      "runtime": true,
+      "created": true
+    },
+    "source": {
+      "http": 200,
+      "unknownTitle": true,
+      "date": true,
+      "runtimeMissing": true,
+      "created": true,
+      "creator": true
+    },
+    "form": {
+      "id": "11261473",
+      "type": "3"
+    }
+  },
+  "write": {
+    "source": "11261473",
+    "target": "11261488",
+    "submitHttp": 401,
+    "submitUrl": "https://thetvdb.com/entity/delete",
+    "bodyPreview": "<!DOCTYPE html> <html> <head> <meta name=\"robots\" content=\"noindex,nofollow\" /> <style> /* Copyright (c) 2010, Yahoo! Inc. All rights reserved. Code licensed under the BSD License: http://developer.yahoo.com/yui/license.html */ html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,"
+  },
+  "verification": null,
+  "blocked": [
+    {
+      "reason": "Normal authenticated merge/delete rejected with HTTP 401"
+    }
+  ],
+  "result": "BLOCKED_HTTP_401_NO_RETRY"
+}
