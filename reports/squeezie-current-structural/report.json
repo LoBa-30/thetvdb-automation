@@ -1,0 +1,766 @@
+{
+  "generatedAt": "2026-10-06T16:36:31.351Z",
+  "target": "Squeezie",
+  "mode": "READ_ONLY_CURRENT_STRUCTURAL_INVENTORY",
+  "counts": {
+    "youtube": 1586,
+    "tvdb": 1660,
+    "matched": 1585,
+    "youtubeWithoutMatch": 1,
+    "tvdbWithoutCurrentPublicYoutubeMatch": 75
+  },
+  "youtubeWithoutConfidentTvdbMatch": [
+    {
+      "id": "aN0c6v10PDo",
+      "title": "Japan Expo 2012",
+      "url": "https://www.youtube.com/watch?v=aN0c6v10PDo",
+      "bestSimilarity": 0,
+      "bestCandidate": null,
+      "classification": "LIKELY_MISSING_FROM_TVDB_OR_NON_EPISODE"
+    }
+  ],
+  "tvdbWithoutCurrentPublicYoutubeMatch": [
+    {
+      "season": 2011,
+      "episode": 34,
+      "code": "S2011E34",
+      "title": "LA PIRE FACON DE COMMENCER UNE PARTIE SUR CALL OF DUTY !",
+      "firstAired": "July 5, 2011 YouTube",
+      "firstAiredIso": "2011-07-05",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2011,
+      "episode": 103,
+      "code": "S2011E103",
+      "title": "SqueeZie en compagnie de la PCC et d'autres youtubers en LIVE !",
+      "firstAired": "November 19, 2011 YouTube",
+      "firstAiredIso": "2011-11-19",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2011,
+      "episode": 125,
+      "code": "S2011E125",
+      "title": "J'aime Call of | Parodie de J'aime les moches par Max Boublil",
+      "firstAired": "December 26, 2011 YouTube",
+      "firstAiredIso": "2011-12-26",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2011,
+      "episode": 126,
+      "code": "S2011E126",
+      "title": "J'aime Call of | Le bêtisier !",
+      "firstAired": "December 28, 2011 YouTube",
+      "firstAiredIso": "2011-12-28",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2012,
+      "episode": 26,
+      "code": "S2012E26",
+      "title": "On va chercher SSX (parodie BeastModeIII)",
+      "firstAired": "February 29, 2012 YouTube",
+      "firstAiredIso": "2012-02-29",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2012,
+      "episode": 103,
+      "code": "S2012E103",
+      "title": "BEST OF AUTODANCE - Danse des capotes, fessée, déhanché fatal, ect !",
+      "firstAired": "December 14, 2012 YouTube",
+      "firstAiredIso": "2012-12-14",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2013,
+      "episode": 8,
+      "code": "S2013E08",
+      "title": "Un gars une fille sur Sumotori ! - Une bite en CUBE ?!?",
+      "firstAired": "January 23, 2013 YouTube",
+      "firstAiredIso": "2013-01-23",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2013,
+      "episode": 27,
+      "code": "S2013E27",
+      "title": "SQUEEZIE FT QUENTIN - LE KEGRÉ",
+      "firstAired": "February 26, 2013 YouTube",
+      "firstAiredIso": "2013-02-26",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2013,
+      "episode": 40,
+      "code": "S2013E40",
+      "title": "PARANORMAL UNBOXING... (Bonus)",
+      "firstAired": "March 15, 2013 YouTube",
+      "firstAiredIso": "2013-03-15",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2013,
+      "episode": 45,
+      "code": "S2013E45",
+      "title": "TROLLING ON THE HOUSE ! :D",
+      "firstAired": "March 24, 2013 YouTube",
+      "firstAiredIso": "2013-03-24",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2013,
+      "episode": 54,
+      "code": "S2013E54",
+      "title": "SLENDER IS BACK - ON A ENFIN OWNED SLENDER OMFGGG !!!! - Episode 1",
+      "firstAired": "April 11, 2013 YouTube",
+      "firstAiredIso": "2013-04-11",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2013,
+      "episode": 69,
+      "code": "S2013E69",
+      "title": "JUST DANCE 4 EN COMPAGNIE FÉMININE - DANSE DU SOLEIL & LAZY SONG :') (Spécial temps de merde)",
+      "firstAired": "May 20, 2013 YouTube",
+      "firstAiredIso": "2013-05-20",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2013,
+      "episode": 96,
+      "code": "S2013E96",
+      "title": "9 TRUCS CHIANTS QUAND T'ES SUR L'ORDI",
+      "firstAired": "August 17, 2013 YouTube",
+      "firstAiredIso": "2013-08-17",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2013,
+      "episode": 138,
+      "code": "S2013E138",
+      "title": "LA VILLE DES FOUS ! - Postal 2",
+      "firstAired": "December 6, 2013 YouTube",
+      "firstAiredIso": "2013-12-06",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2014,
+      "episode": 58,
+      "code": "S2014E58",
+      "title": "Squeezie et Gwen GANG BEASTS !",
+      "firstAired": "May 6, 2014 YouTube",
+      "firstAiredIso": "2014-05-06",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2014,
+      "episode": 157,
+      "code": "S2014E157",
+      "title": "TUG THE TABLE !",
+      "firstAired": "October 17, 2014 YouTube",
+      "firstAiredIso": "2014-10-17",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2014,
+      "episode": 201,
+      "code": "S2014E201",
+      "title": "PRO GRIMACES ! (Skylanders: Trap Team)",
+      "firstAired": "December 22, 2014 YouTube",
+      "firstAiredIso": "2014-12-22",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2015,
+      "episode": 60,
+      "code": "S2015E60",
+      "title": "HARRY POTTER CHALLENGE !",
+      "firstAired": "April 14, 2015 YouTube",
+      "firstAiredIso": "2015-04-14",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2015,
+      "episode": 64,
+      "code": "S2015E64",
+      "title": "COMMENT AVOIR LA NAUSÉE ?",
+      "firstAired": "April 21, 2015 YouTube",
+      "firstAiredIso": "2015-04-21",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2015,
+      "episode": 71,
+      "code": "S2015E71",
+      "title": "LE JEU DE LA CHANTILLY ! (Pie Face)",
+      "firstAired": "May 3, 2015 YouTube",
+      "firstAiredIso": "2015-05-03",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2016,
+      "episode": 163,
+      "code": "S2016E163",
+      "title": "QUI EST LE VRAI SQUEEZIE ?",
+      "firstAired": "October 3, 2016 YouTube",
+      "firstAiredIso": "2016-10-03",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2016,
+      "episode": 189,
+      "code": "S2016E189",
+      "title": "COMMENT S'AMUSER AU TRAVAIL ? (Compilation de jeux)",
+      "firstAired": "November 19, 2016 YouTube",
+      "firstAiredIso": "2016-11-19",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 4,
+      "code": "S2017E04",
+      "title": "QUEL EST VOTRE ÂGE MENTAL ?",
+      "firstAired": "January 10, 2017 YouTube",
+      "firstAiredIso": "2017-01-10",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 5,
+      "code": "S2017E05",
+      "title": "VOUS NE VOULEZ PAS ÊTRE DANS CETTE SITUATION",
+      "firstAired": "January 11, 2017 YouTube",
+      "firstAiredIso": "2017-01-11",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 10,
+      "code": "S2017E10",
+      "title": "TU PERDS TU POUSSES (Bottle Flip Challenge)",
+      "firstAired": "January 21, 2017 YouTube",
+      "firstAiredIso": "2017-01-21",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 23,
+      "code": "S2017E23",
+      "title": "LA VIDÉO LA PLUS DRÔLE D'INTERNET ?",
+      "firstAired": "February 11, 2017 YouTube",
+      "firstAiredIso": "2017-02-11",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 26,
+      "code": "S2017E26",
+      "title": "VOS PARENTS RÉAGISSENT À MES VIDÉOS",
+      "firstAired": "February 17, 2017 YouTube",
+      "firstAiredIso": "2017-02-17",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 29,
+      "code": "S2017E29",
+      "title": "LA VIDÉO DE QUALITÉ",
+      "firstAired": "February 22, 2017 YouTube",
+      "firstAiredIso": "2017-02-22",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 31,
+      "code": "S2017E31",
+      "title": "LA SQUAD DELUXE SUR H1Z1",
+      "firstAired": "February 25, 2017 YouTube",
+      "firstAiredIso": "2017-02-25",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 32,
+      "code": "S2017E32",
+      "title": "JE CHANGE DE MÉTIER...",
+      "firstAired": "February 28, 2017 YouTube",
+      "firstAiredIso": "2017-02-28",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 48,
+      "code": "S2017E48",
+      "title": "CE QUE NOUS SOMMES VRAIMENT",
+      "firstAired": "March 29, 2017 YouTube",
+      "firstAiredIso": "2017-03-29",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 50,
+      "code": "S2017E50",
+      "title": "TU RIGOLES TU MEURS CHALLENGE",
+      "firstAired": "April 2, 2017 YouTube",
+      "firstAiredIso": "2017-04-02",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 62,
+      "code": "S2017E62",
+      "title": "1 POULET VS 10 000 ZOMBIES",
+      "firstAired": "April 23, 2017 YouTube",
+      "firstAiredIso": "2017-04-23",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 64,
+      "code": "S2017E64",
+      "title": "CE QU'ELLE FAIT VA VOUS ÉTONNER (TOP 5 PRANK GONE WRONG)",
+      "firstAired": "April 26, 2017 YouTube",
+      "firstAiredIso": "2017-04-26",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 76,
+      "code": "S2017E76",
+      "title": "ON SUIT LES TRACES DE BIGFOOT...",
+      "firstAired": "May 9, 2017 YouTube",
+      "firstAiredIso": "2017-05-09",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 88,
+      "code": "S2017E88",
+      "title": "LE CAUCHEMAR DE TOUT HOMME (Emily is Away #2)",
+      "firstAired": "May 30, 2017 YouTube",
+      "firstAiredIso": "2017-05-30",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 90,
+      "code": "S2017E90",
+      "title": "LA SITUATION A MAL TOURNÉ... (Emily is Away #3 FIN)",
+      "firstAired": "June 2, 2017 YouTube",
+      "firstAiredIso": "2017-06-02",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 97,
+      "code": "S2017E97",
+      "title": "LES PLUS GRANDES BATAILLES DE YOUTUBE",
+      "firstAired": "June 14, 2017 YouTube",
+      "firstAiredIso": "2017-06-14",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 101,
+      "code": "S2017E101",
+      "title": "JE SUIS ADDICT À CE JEU",
+      "firstAired": "June 21, 2017 YouTube",
+      "firstAiredIso": "2017-06-21",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 102,
+      "code": "S2017E102",
+      "title": "10 JEUX AVEC SQUEEZIE",
+      "firstAired": "June 23, 2017 YouTube",
+      "firstAiredIso": "2017-06-23",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 119,
+      "code": "S2017E119",
+      "title": "JE POURRAIS Y JOUER 24H/24",
+      "firstAired": "July 26, 2017 YouTube",
+      "firstAiredIso": "2017-07-26",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 129,
+      "code": "S2017E129",
+      "title": "POUR VOTRE SÉCURITÉ NE CLIQUEZ PAS",
+      "firstAired": "August 25, 2017 YouTube",
+      "firstAiredIso": "2017-08-25",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 134,
+      "code": "S2017E134",
+      "title": "JE JOUERAI À CE JEU JUSQU’À LA FIN",
+      "firstAired": "September 8, 2017 YouTube",
+      "firstAiredIso": "2017-09-08",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 148,
+      "code": "S2017E148",
+      "title": "JE NE DORS PLUS À CAUSE DE CE JEU",
+      "firstAired": "October 16, 2017 YouTube",
+      "firstAiredIso": "2017-10-16",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2017,
+      "episode": 170,
+      "code": "S2017E170",
+      "title": "J'AI COMPLÈTEMENT CRAQUÉ...",
+      "firstAired": "December 20, 2017 YouTube",
+      "firstAiredIso": "2017-12-20",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 1,
+      "code": "S2018E01",
+      "title": "LE MEILLEUR DE 2017",
+      "firstAired": "January 1, 2018 YouTube",
+      "firstAiredIso": "2018-01-01",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 3,
+      "code": "S2018E03",
+      "title": "NOUS L'AVONS FAIT...",
+      "firstAired": "January 7, 2018 YouTube",
+      "firstAiredIso": "2018-01-07",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 7,
+      "code": "S2018E07",
+      "title": "LA MEILLEURE EXPÉRIENCE ENTRE AMIS (ft McFly & Carlito & Natoo)",
+      "firstAired": "January 21, 2018 YouTube",
+      "firstAiredIso": "2018-01-21",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 11,
+      "code": "S2018E11",
+      "title": "LES SITES WEB DU FUTUR #4",
+      "firstAired": "February 6, 2018 YouTube",
+      "firstAiredIso": "2018-02-06",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 12,
+      "code": "S2018E12",
+      "title": "CECI EST UNE FOIRE AUX QUESTIONS",
+      "firstAired": "February 9, 2018 YouTube",
+      "firstAiredIso": "2018-02-09",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 16,
+      "code": "S2018E16",
+      "title": "J'AI RÉUSSI L'IMPOSSIBLE...",
+      "firstAired": "February 20, 2018 YouTube",
+      "firstAiredIso": "2018-02-20",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 17,
+      "code": "S2018E17",
+      "title": "VOS MEILLEURS MONTAGES VIDÉO #1",
+      "firstAired": "February 23, 2018 YouTube",
+      "firstAiredIso": "2018-02-23",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 20,
+      "code": "S2018E20",
+      "title": "LES REPTILIENS NOUS DOMINENT...",
+      "firstAired": "March 5, 2018 YouTube",
+      "firstAiredIso": "2018-03-05",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 22,
+      "code": "S2018E22",
+      "title": "JE RIGOLE 72 FOIS DANS CETTE VIDÉO (Best of Live)",
+      "firstAired": "March 12, 2018 YouTube",
+      "firstAiredIso": "2018-03-12",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 23,
+      "code": "S2018E23",
+      "title": "VOS MEILLEURS MONTAGES VIDEO #2",
+      "firstAired": "March 14, 2018 YouTube",
+      "firstAiredIso": "2018-03-14",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 30,
+      "code": "S2018E30",
+      "title": "LE PLUS GRAND SECRET DE L’ARMÉE...",
+      "firstAired": "April 6, 2018 YouTube",
+      "firstAiredIso": "2018-04-06",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 35,
+      "code": "S2018E35",
+      "title": "MARK ZUCKERBERG EST-IL UN ROBOT ?",
+      "firstAired": "April 19, 2018 YouTube",
+      "firstAiredIso": "2018-04-19",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 36,
+      "code": "S2018E36",
+      "title": "J'AI COMPLÈTEMENT CRAQUÉ...",
+      "firstAired": "April 23, 2018 YouTube",
+      "firstAiredIso": "2018-04-23",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 37,
+      "code": "S2018E37",
+      "title": "TU RIGOLES LA TERRE EXPLOSE !",
+      "firstAired": "April 26, 2018 YouTube",
+      "firstAiredIso": "2018-04-26",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 38,
+      "code": "S2018E38",
+      "title": "VOTRE TÊTE DEVANT CETTE THÉORIE :/",
+      "firstAired": "April 30, 2018 YouTube",
+      "firstAiredIso": "2018-04-30",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 42,
+      "code": "S2018E42",
+      "title": "LES ANECDOTES DE SQUEEZIE #1",
+      "firstAired": "May 15, 2018 YouTube",
+      "firstAiredIso": "2018-05-15",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 43,
+      "code": "S2018E43",
+      "title": "LES PIRES ET MEILLEURS FILMS INDIENS",
+      "firstAired": "May 18, 2018 YouTube",
+      "firstAiredIso": "2018-05-18",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 48,
+      "code": "S2018E48",
+      "title": "LE VRAI VISAGE DE MES AMIS !",
+      "firstAired": "June 4, 2018 YouTube",
+      "firstAiredIso": "2018-06-04",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 49,
+      "code": "S2018E49",
+      "title": "J'AI EU ENVIE DE METTRE LE FEU",
+      "firstAired": "June 7, 2018 YouTube",
+      "firstAiredIso": "2018-06-07",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 50,
+      "code": "S2018E50",
+      "title": "JE TESTE LE PHYSIQUE DE MON CHIEN",
+      "firstAired": "June 10, 2018 YouTube",
+      "firstAiredIso": "2018-06-10",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 54,
+      "code": "S2018E54",
+      "title": "TU RIGOLES = T'ES FATIGUE",
+      "firstAired": "June 22, 2018 YouTube",
+      "firstAiredIso": "2018-06-22",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 66,
+      "code": "S2018E66",
+      "title": "SQUEEZIE : LES MEILLEURS MOMENTS (2018)",
+      "firstAired": "August 13, 2018 YouTube",
+      "firstAiredIso": "2018-08-13",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 78,
+      "code": "S2018E78",
+      "title": "J’AVAIS OUBLIÉ CECI !",
+      "firstAired": "October 22, 2018 YouTube",
+      "firstAiredIso": "2018-10-22",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 79,
+      "code": "S2018E79",
+      "title": "ÇA COMMENCE BIEN MAIS...",
+      "firstAired": "October 26, 2018 YouTube",
+      "firstAiredIso": "2018-10-26",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 83,
+      "code": "S2018E83",
+      "title": "CHAQUE SITUATION EST DRÔLE",
+      "firstAired": "November 9, 2018 YouTube",
+      "firstAiredIso": "2018-11-09",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 88,
+      "code": "S2018E88",
+      "title": "LES FAILS EN PLEIN LIVE",
+      "firstAired": "November 30, 2018 YouTube",
+      "firstAiredIso": "2018-11-30",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2018,
+      "episode": 97,
+      "code": "S2018E97",
+      "title": "CES THÉORIES VOUS FERONT TRANSPIRER",
+      "firstAired": "December 30, 2018 YouTube",
+      "firstAiredIso": "2018-12-30",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2019,
+      "episode": 4,
+      "code": "S2019E04",
+      "title": "MAIS QUI EST LE PÈRE ?",
+      "firstAired": "January 15, 2019 YouTube",
+      "firstAiredIso": "2019-01-15",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2019,
+      "episode": 30,
+      "code": "S2019E30",
+      "title": "Finalement, ça doit continuer !",
+      "firstAired": "May 13, 2019 YouTube",
+      "firstAiredIso": "2019-05-13",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    },
+    {
+      "season": 2022,
+      "episode": 22,
+      "code": "S2022E22",
+      "title": "On essaye des objets étranges #5",
+      "firstAired": "May 23, 2022 YouTube",
+      "firstAiredIso": "2022-05-23",
+      "classification": "TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH"
+    }
+  ],
+  "tvdbDuplicateCodes": [],
+  "tvdbDuplicateTitles": [
+    {
+      "normalizedTitle": "top 5 connerie",
+      "episodes": [
+        {
+          "season": 2011,
+          "episode": 47,
+          "code": "S2011E47",
+          "title": "Top 5 de la connerie | Episode 1",
+          "firstAired": "July 31, 2011 YouTube",
+          "firstAiredIso": "2011-07-31"
+        },
+        {
+          "season": 2011,
+          "episode": 55,
+          "code": "S2011E55",
+          "title": "Top 5 de la connerie | Episode 2",
+          "firstAired": "August 25, 2011 YouTube",
+          "firstAiredIso": "2011-08-25"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "toy story sur minecraft on est jouets frigiel",
+      "episodes": [
+        {
+          "season": 2013,
+          "episode": 65,
+          "code": "S2013E65",
+          "title": "TOY STORY SUR MINECRAFT - On est des jouets avec Frigiel ! - Épisode 1",
+          "firstAired": "May 11, 2013 YouTube",
+          "firstAiredIso": "2013-05-11"
+        },
+        {
+          "season": 2013,
+          "episode": 68,
+          "code": "S2013E68",
+          "title": "TOY STORY SUR MINECRAFT - On est des jouets avec Frigiel ! - Épisode 2",
+          "firstAired": "May 17, 2013 YouTube",
+          "firstAiredIso": "2013-05-17"
+        }
+      ]
+    },
+    {
+      "normalizedTitle": "j ai completement craque",
+      "episodes": [
+        {
+          "season": 2017,
+          "episode": 170,
+          "code": "S2017E170",
+          "title": "J'AI COMPLÈTEMENT CRAQUÉ...",
+          "firstAired": "December 20, 2017 YouTube",
+          "firstAiredIso": "2017-12-20"
+        },
+        {
+          "season": 2018,
+          "episode": 36,
+          "code": "S2018E36",
+          "title": "J'AI COMPLÈTEMENT CRAQUÉ...",
+          "firstAired": "April 23, 2018 YouTube",
+          "firstAiredIso": "2018-04-23"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
