@@ -1,0 +1,78 @@
+{
+  "generatedAt": "2026-10-06T20:24:00+02:00",
+  "target": "Mastu historical exact-ID cases",
+  "sourceWorkflowRun": 37515931692,
+  "mode": "READ_ONLY_NO_CHALLENGE_BYPASS",
+  "tested": 12,
+  "primaryMetadataRetrieved": 0,
+  "blockedByYoutubeAntiBot": 12,
+  "exactIdCandidates": [
+    {
+      "caseId": "S2018E08",
+      "youtubeId": "qC3EVM_bhoo",
+      "expectedTitle": "QUAND 2 BEAUFS PRENNENT LA VOITURE"
+    },
+    {
+      "caseId": "S2018E29",
+      "youtubeId": "kDmn5RBFIS0",
+      "expectedTitle": "J'ai besoin de vous parler"
+    },
+    {
+      "caseId": "S2018E09",
+      "youtubeId": "Pyl8mSyLh-g",
+      "expectedTitle": "J'AI RETROUVÉ DES VIDÉOS HONTEUSES SUR MON TÉLÉPHONE..."
+    },
+    {
+      "caseId": "S2018E12",
+      "youtubeId": "L3tY9Z9y7yE",
+      "expectedTitle": "QUI DE NOUS TROIS ? Ft Amixem & VodK"
+    },
+    {
+      "caseId": "S2018E32",
+      "youtubeId": "9Ky8gLHoFeY",
+      "expectedTitle": "YouTube va mal..."
+    },
+    {
+      "caseId": "S2018E25",
+      "youtubeId": "haKY93EGeUs",
+      "expectedTitle": "JE VAIS ÊTRE HONNÊTE AVEC VOUS..."
+    },
+    {
+      "caseId": "S2018E05",
+      "youtubeId": "tiCNmB20GjE",
+      "expectedTitle": "JE N'ARRIVE PAS À JOUER À FORTNITE... (TOP 1 raté)"
+    },
+    {
+      "caseId": "historical-messenger",
+      "youtubeId": "POCI2ucog7M",
+      "expectedTitle": "NOS PREMIÈRES CONVERSATIONS MESSENGER"
+    },
+    {
+      "caseId": "S2017E31",
+      "youtubeId": "XT-M3Z-wnVE",
+      "expectedTitle": "PROVOQUER UNE ÉMEUTE DE VACHES EN VOITURE"
+    },
+    {
+      "caseId": "S2016E09",
+      "youtubeId": "IETntwf8F-w",
+      "expectedTitle": "JE RÉPONDS À VOS QUESTIONS ÉTRANGES..."
+    },
+    {
+      "caseId": "S2019E32",
+      "youtubeId": "kUuEzvQaP6E",
+      "expectedTitle": "JE SUIS UN MAUVAIS CITOYEN (La clé de bras m'a fait mal)"
+    },
+    {
+      "caseId": "S2020E34",
+      "youtubeId": "_YZeqxoPK18",
+      "expectedTitle": "JE VOUS FAIS VISITER MA MAISON (6 mois après, j'ai un nouveau chaton)"
+    }
+  ],
+  "decision": "KEEP_NO_DESTRUCTIVE_ACTION",
+  "rationale": "Exact historical IDs are useful identity leads, but direct primary metadata could not be retrieved without a YouTube anti-bot challenge. Project rules prohibit cookie/challenge bypass and prohibit deletion on current-public absence alone.",
+  "safeguards": [
+    "NO_SECURITY_BYPASS",
+    "NO_DELETE_ON_ABSENCE",
+    "NO_METADATA_WRITE_WITHOUT_PRIMARY_DATE_RUNTIME_PROOF"
+  ]
+}
