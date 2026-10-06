@@ -1,0 +1,36 @@
+name: Elian artwork provenance v2
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/elian-artwork-provenance-v2.yml'
+      - 'src/elian-artwork-provenance-v2.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -U requests pillow imagehash numpy scikit-image
+      - run: python src/elian-artwork-provenance-v2.py
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/elian-artwork-provenance-v2
+          git commit -m "Record strict Elian artwork provenance [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: elian-artwork-provenance-v2
+          path: reports/elian-artwork-provenance-v2/
+          retention-days: 30
