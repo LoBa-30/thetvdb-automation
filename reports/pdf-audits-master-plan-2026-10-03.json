@@ -29,16 +29,15 @@
     {
       "target": "Elian Ventre",
       "pdf": "AUDIT THETVDB — ELIAN VENTRE.pdf",
-      "status": "IN_PROGRESS",
+      "status": "IN_PROGRESS_ARTWORK_ONLY",
       "pdfOpenWork": [
-        "S2024E01 exact emoji title",
-        "9 missing artworks in 09/09 scope + current S2026E08 artwork",
-        "19 existing artworks provenance",
-        "S2026E08 current title/runtime/image recheck"
+        "10 missing artworks (9 in 09/09 scope + current S2026E08)",
+        "19 existing artworks provenance"
       ],
       "resolvedSincePlan": [
         "S2026E08 title refreshed to current official YouTube title and verified with date/runtime.",
-        "Artwork pilot for S2023E04 submitted but post-write verification failed; no blind retry."
+        "Artwork pilot for S2023E04 submitted but post-write verification failed; no blind retry.",
+        "S2024E01 exact-title ticket resolved NO_WRITE: current TVDB differs from official YouTube only by emojis 🐶🥺🥵🦴; project no-emoji-retry safeguard applies."
       ]
     },
     {
@@ -108,7 +107,6 @@
       "pdf": "AMIXEM — AUDIT THETVDB.pdf",
       "status": "IN_PROGRESS_REDUCED",
       "pdfOpenWork": [
-        "5 Unassigned individually",
         "769 missing artworks in PDF snapshot",
         "2 artwork provenance tickets",
         "runtime/title corrections already partially/mostly applied must be post-verified, not repeated"
@@ -118,7 +116,8 @@
         "S2020 E72/E73 stale inversion ticket freshly rechecked: current TVDB already correct; no write.",
         "S2016 E97/E98 guarded repair workflow prepared/launched from proven checkpoint; fresh preflight required before mutation.",
         "S2016 E97/E98 fresh authenticated verification: titles/dates already correct; no redundant write.",
-        "Historical TVDB-only backlog already exhaustively classified: 85/85 detail pages read, 0 errors, 0 delete candidates. 82 legacy-import rows retained pending provenance; 3 isolated cases resolved/structurally repaired."
+        "Historical TVDB-only backlog already exhaustively classified: 85/85 detail pages read, 0 errors, 0 delete candidates. 82 legacy-import rows retained pending provenance; 3 isolated cases resolved/structurally repaired.",
+        "All 5 current Unassigned entries individually classified: 10857946 is a legitimate official Amixem making-of dated 2024-12-12 and kept Unassigned; four Unknown 2026-01-18 entries remain À vérifier with no destructive action."
       ]
     },
     {
@@ -186,13 +185,15 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-06T19:02:00Z",
+  "lastUpdatedAt": "2026-10-06T19:08:00Z",
   "latestContinuationCommits": [
     "598e20d6635a2789b735e38d0d4f5f002f872685",
     "793b2dd728db8c39f24e7c711528651c6c60c00a",
     "da3c19d0c896137428835d9b2d29ec6fba3a24f2",
     "4ea3d7959131856b5f12c4786009c56a130f1cac",
     "fb254ef3040a2fdf7e784f06f44697cdb1aa54b0",
-    "234989de332f859a5fe6950a2fe05e97e753a0f9"
+    "234989de332f859a5fe6950a2fe05e97e753a0f9",
+    "55f7939cf291486e8d44a12e3801310353cbdbf0",
+    "238f10ca3a9fc9dfac92bce9b5f091d6c4135004"
   ]
 }
