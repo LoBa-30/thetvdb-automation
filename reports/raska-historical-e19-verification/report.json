@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-10-06T18:14:00Z",
+  "target": "Raska",
+  "episode": "S2023E19",
+  "episodeId": "11978003",
+  "mode": "HISTORICAL_PUBLIC_VIDEO_VERIFICATION_READ_ONLY",
+  "tvdb": {
+    "title": "3J avec BigFlo & Oli au Rose Festival ! (c'était fou)",
+    "date": "2023-09-30",
+    "runtimeMinutes": null
+  },
+  "evidence": [
+    {
+      "source": "YouTubers.me RASKA video statistics",
+      "observation": "The historical channel statistics list the exact title « 3J avec BigFlo & Oli au Rose Festival ! (c'était fou) » with publication date 30.09.2023.",
+      "url": "https://us.youtubers.me/raska/youtube-videos-stats"
+    },
+    {
+      "source": "TheTVDB current aired order",
+      "observation": "TheTVDB lists S2023E19 with the same title and air date September 30, 2023.",
+      "url": "https://thetvdb.com/series/raska/allseasons/official"
+    }
+  ],
+  "conclusion": "HISTORICAL_PUBLIC_EXISTENCE_SUPPORTED_DO_NOT_DELETE",
+  "action": "NO_WRITE",
+  "note": "The video is absent from the current public-long catalogue, but external historical channel statistics support that it existed publicly on the matching date. Per project safeguards, absence from current YouTube is not grounds for deletion."
+}
