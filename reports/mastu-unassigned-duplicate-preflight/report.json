@@ -1,0 +1,206 @@
+{
+  "generatedAt": "2026-10-06T16:16:59.731Z",
+  "target": "Mastu",
+  "mode": "AUTHENTICATED_READ_ONLY_DUPLICATE_PREFLIGHT",
+  "cases": [
+    {
+      "source": "11467024",
+      "sourceTitle": "FAITES MOI RIRE BORDEL",
+      "sourceDate": "October 28, 2018",
+      "targetSeason": 2018,
+      "targetEpisode": 31,
+      "targetTitle": "FAITES MOI RIRE BORDEL",
+      "targetDate": "October 28, 2018",
+      "youtubeId": "ySeuAx4Ho08",
+      "status": "EXACT_DUPLICATE_PREFLIGHT_OK",
+      "checks": {
+        "targetRow": {
+          "number": 31,
+          "publicId": "6941556",
+          "title": "FAITES MOI RIRE BORDEL",
+          "rowText": "31 FAITES MOI RIRE BORDEL 2018-10-28 Season 2015 Season 2016 Season 2017 Season 2019 Season 2020 Season 2021 Season 2022 Season 2023 Season 2024 Season 2025 Season 2026 Unassigned"
+        },
+        "sourceTitleExact": true,
+        "sourceDateExact": true,
+        "sourceDeleteFormPresent": true,
+        "sourceFormId": "11467024",
+        "sourceFormType": "3",
+        "targetTitleExact": true,
+        "targetDateExact": true
+      },
+      "targetId": "6941556"
+    },
+    {
+      "source": "11467025",
+      "sourceTitle": "MA VIE AVANT D'ÊTRE CONNU....",
+      "sourceDate": "December 5, 2018",
+      "targetSeason": 2018,
+      "targetEpisode": 35,
+      "targetTitle": "MA VIE AVANT D'ÊTRE CONNU...",
+      "targetDate": "December 5, 2018",
+      "youtubeId": "RITZtm8aFuA",
+      "status": "EXACT_DUPLICATE_PREFLIGHT_OK",
+      "checks": {
+        "targetRow": {
+          "number": 35,
+          "publicId": "6941574",
+          "title": "MA VIE AVANT D'ÊTRE CONNU...",
+          "rowText": "35 MA VIE AVANT D'ÊTRE CONNU... 2018-12-05 Season 2015 Season 2016 Season 2017 Season 2019 Season 2020 Season 2021 Season 2022 Season 2023 Season 2024 Season 2025 Season 2026 Unassigned"
+        },
+        "sourceTitleExact": true,
+        "sourceDateExact": true,
+        "sourceDeleteFormPresent": true,
+        "sourceFormId": "11467025",
+        "sourceFormType": "3",
+        "targetTitleExact": true,
+        "targetDateExact": true
+      },
+      "targetId": "6941574"
+    },
+    {
+      "source": "11467026",
+      "sourceTitle": "MAIS QU'EST-CE QUE VOUS AVEZ...",
+      "sourceDate": "December 15, 2018",
+      "targetSeason": 2018,
+      "targetEpisode": 36,
+      "targetTitle": "MAIS QU'EST-CE QUE VOUS AVEZ...",
+      "targetDate": "December 15, 2018",
+      "youtubeId": "GaCs2inZdjY",
+      "status": "EXACT_DUPLICATE_PREFLIGHT_OK",
+      "checks": {
+        "targetRow": {
+          "number": 36,
+          "publicId": "6941585",
+          "title": "MAIS QU'EST-CE QUE VOUS AVEZ...",
+          "rowText": "36 MAIS QU'EST-CE QUE VOUS AVEZ... 2018-12-15 Season 2015 Season 2016 Season 2017 Season 2019 Season 2020 Season 2021 Season 2022 Season 2023 Season 2024 Season 2025 Season 2026 Unassigned"
+        },
+        "sourceTitleExact": true,
+        "sourceDateExact": true,
+        "sourceDeleteFormPresent": true,
+        "sourceFormId": "11467026",
+        "sourceFormType": "3",
+        "targetTitleExact": true,
+        "targetDateExact": true
+      },
+      "targetId": "6941585"
+    },
+    {
+      "source": "11964033",
+      "sourceTitle": "Y'A QUI DANS LA BOÎTE ? (Avec Maghla et Raska)",
+      "sourceDate": "March 9, 2024",
+      "targetSeason": 2024,
+      "targetEpisode": 3,
+      "targetTitle": "Y'A QUI DANS LA BOÎTE ? (Avec Maghla et Raska)",
+      "targetDate": "March 9, 2024",
+      "youtubeId": "0T-dpx4dYJs",
+      "status": "EXACT_DUPLICATE_PREFLIGHT_OK",
+      "checks": {
+        "targetRow": {
+          "number": 3,
+          "publicId": "10372642",
+          "title": "Y'A QUI DANS LA BOÎTE ? (Avec Maghla et Raska)",
+          "rowText": "3 Y'A QUI DANS LA BOÎTE ? (Avec Maghla et Raska) 2024-03-09 Season 2015 Season 2016 Season 2017 Season 2018 Season 2019 Season 2020 Season 2021 Season 2022 Season 2023 Season 2025 Season 2026 Unassigned"
+        },
+        "sourceTitleExact": true,
+        "sourceDateExact": true,
+        "sourceDeleteFormPresent": true,
+        "sourceFormId": "11964033",
+        "sourceFormType": "3",
+        "targetTitleExact": true,
+        "targetDateExact": true
+      },
+      "targetId": "10372642"
+    }
+  ],
+  "blockedNonReadRequests": [
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791303417951&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2F&furl=https%3A%2F%2Fthetvdb.com%2F&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791303417951&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2F&furl=https%3A%2F%2Fthetvdb.com%2F&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791303418295&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fseasons%2Fofficial%2F2018%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fseasons%2Fofficial%2F2018%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791303418295&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fseasons%2Fofficial%2F2018%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fseasons%2Fofficial%2F2018%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791303419294&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fseasons%2Fofficial%2F2024%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fseasons%2Fofficial%2F2024%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791303419294&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fseasons%2Fofficial%2F2024%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fseasons%2Fofficial%2F2024%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791303420057&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fepisodes%2F11467024&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fepisodes%2F11467024&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791303420057&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fepisodes%2F11467024&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fepisodes%2F11467024&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791303421002&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fepisodes%2F6941556&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fepisodes%2F6941556&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791303421002&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fepisodes%2F6941556&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fepisodes%2F6941556&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791303421750&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fepisodes%2F11467025&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fepisodes%2F11467025&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791303421750&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fepisodes%2F11467025&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fepisodes%2F11467025&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791303422610&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fepisodes%2F6941574&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fepisodes%2F6941574&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791303422610&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fepisodes%2F6941574&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fepisodes%2F6941574&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791303423381&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fepisodes%2F11467026&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fepisodes%2F11467026&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791303423381&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fepisodes%2F11467026&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fepisodes%2F11467026&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791303424241&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fepisodes%2F6941585&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fepisodes%2F6941585&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791303424241&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fepisodes%2F6941585&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fepisodes%2F6941585&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791303425166&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fepisodes%2F11964033&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fepisodes%2F11964033&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791303425166&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fepisodes%2F11964033&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fepisodes%2F11964033&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791303425993&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fepisodes%2F10372642&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fepisodes%2F10372642&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791303425993&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F346011-show%2Fepisodes%2F10372642&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F346011-show%2Fepisodes%2F10372642&beacon=1"
+    }
+  ],
+  "success": true
+}
