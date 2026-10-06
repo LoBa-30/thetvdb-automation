@@ -1,0 +1,279 @@
+{
+  "generatedAt": "2026-10-06T18:50:29.898Z",
+  "target": "Squeezie runtime tickets",
+  "mode": "GUARDED_RUNTIME_APPLY",
+  "authenticated": true,
+  "preflight": [
+    {
+      "id": "5731695",
+      "year": 2016,
+      "episode": 144,
+      "currentRow": {
+        "number": 144,
+        "publicId": "5731695",
+        "title": "Le jeu comme Dark Souls mais c'est pas Dark Souls"
+      },
+      "airdate": "2016-08-30",
+      "runtime": 10,
+      "expectedFrom": 10,
+      "desired": 8,
+      "youtubeId": "VOQrmgoelIU",
+      "duration": "8:03"
+    },
+    {
+      "id": "5888975",
+      "year": 2016,
+      "episode": 216,
+      "currentRow": {
+        "number": 216,
+        "publicId": "5888975",
+        "title": "S'IL VOUS PLAÎT, NE TOUCHEZ À RIEN !"
+      },
+      "airdate": "2016-12-20",
+      "runtime": 1,
+      "expectedFrom": 1,
+      "desired": 9,
+      "youtubeId": "vc-NfMJU6nY",
+      "duration": "8:56"
+    },
+    {
+      "id": "5952779",
+      "year": 2017,
+      "episode": 17,
+      "currentRow": {
+        "number": 17,
+        "publicId": "5952779",
+        "title": "VRAI OU FAUX ?"
+      },
+      "airdate": "2017-02-01",
+      "runtime": 10,
+      "expectedFrom": 10,
+      "desired": 7,
+      "youtubeId": "rQQ5p3uaOe8",
+      "duration": "6:31"
+    },
+    {
+      "id": "6015449",
+      "year": 2017,
+      "episode": 44,
+      "currentRow": {
+        "number": 44,
+        "publicId": "6015449",
+        "title": "LE BAIN JAPONAIS QUI TE BRÛLE (Vlog Japon #2)"
+      },
+      "airdate": "2017-03-22",
+      "runtime": 10,
+      "expectedFrom": 10,
+      "desired": 8,
+      "youtubeId": "JVi8lCQQtGo",
+      "duration": "8:27"
+    },
+    {
+      "id": "7500993",
+      "year": 2019,
+      "episode": 22,
+      "currentRow": {
+        "number": 22,
+        "publicId": "7500993",
+        "title": "L'ACADÉMIE DES CANCRES #2 (ft Laink, Terracid, Maghla)"
+      },
+      "airdate": "2019-03-29",
+      "runtime": 20,
+      "expectedFrom": 20,
+      "desired": 23,
+      "youtubeId": "T_4lXthmpj0",
+      "duration": "23:09"
+    },
+    {
+      "id": "7501014",
+      "year": 2019,
+      "episode": 34,
+      "currentRow": {
+        "number": 34,
+        "publicId": "7501014",
+        "title": "Qui fera le meilleur hit de l'été ? (en 3 jours)"
+      },
+      "airdate": "2019-06-05",
+      "runtime": 70,
+      "expectedFrom": 70,
+      "desired": 68,
+      "youtubeId": "ZQjCh7oDRLo",
+      "duration": "1:08:24"
+    },
+    {
+      "id": "8436440",
+      "year": 2021,
+      "episode": 28,
+      "currentRow": {
+        "number": 28,
+        "publicId": "8436440",
+        "title": "méfiez-vous de ses messages privés"
+      },
+      "airdate": "2021-05-18",
+      "runtime": 13,
+      "expectedFrom": 13,
+      "desired": 19,
+      "youtubeId": "NgBdZbtHDlA",
+      "duration": "19:02"
+    },
+    {
+      "id": "9098538",
+      "year": 2021,
+      "episode": 56,
+      "currentRow": {
+        "number": 56,
+        "publicId": "9098538",
+        "title": "il sait où vous trouver..."
+      },
+      "airdate": "2021-10-28",
+      "runtime": 28,
+      "expectedFrom": 28,
+      "desired": 24,
+      "youtubeId": "XjObjgPJ0u4",
+      "duration": "23:57"
+    }
+  ],
+  "writes": [
+    {
+      "id": "5731695",
+      "year": 2016,
+      "episode": 144,
+      "from": 10,
+      "to": 8,
+      "youtubeId": "VOQrmgoelIU",
+      "duration": "8:03"
+    },
+    {
+      "id": "5888975",
+      "year": 2016,
+      "episode": 216,
+      "from": 1,
+      "to": 9,
+      "youtubeId": "vc-NfMJU6nY",
+      "duration": "8:56"
+    },
+    {
+      "id": "5952779",
+      "year": 2017,
+      "episode": 17,
+      "from": 10,
+      "to": 7,
+      "youtubeId": "rQQ5p3uaOe8",
+      "duration": "6:31"
+    },
+    {
+      "id": "6015449",
+      "year": 2017,
+      "episode": 44,
+      "from": 10,
+      "to": 8,
+      "youtubeId": "JVi8lCQQtGo",
+      "duration": "8:27"
+    },
+    {
+      "id": "7500993",
+      "year": 2019,
+      "episode": 22,
+      "from": 20,
+      "to": 23,
+      "youtubeId": "T_4lXthmpj0",
+      "duration": "23:09"
+    },
+    {
+      "id": "7501014",
+      "year": 2019,
+      "episode": 34,
+      "from": 70,
+      "to": 68,
+      "youtubeId": "ZQjCh7oDRLo",
+      "duration": "1:08:24"
+    },
+    {
+      "id": "8436440",
+      "year": 2021,
+      "episode": 28,
+      "from": 13,
+      "to": 19,
+      "youtubeId": "NgBdZbtHDlA",
+      "duration": "19:02"
+    },
+    {
+      "id": "9098538",
+      "year": 2021,
+      "episode": 56,
+      "from": 28,
+      "to": 24,
+      "youtubeId": "XjObjgPJ0u4",
+      "duration": "23:57"
+    }
+  ],
+  "skips": [],
+  "blocked": [],
+  "verifications": [
+    {
+      "id": "5731695",
+      "year": 2016,
+      "episode": 144,
+      "runtime": 8,
+      "airdate": "2016-08-30",
+      "ok": true
+    },
+    {
+      "id": "5888975",
+      "year": 2016,
+      "episode": 216,
+      "runtime": 9,
+      "airdate": "2016-12-20",
+      "ok": true
+    },
+    {
+      "id": "5952779",
+      "year": 2017,
+      "episode": 17,
+      "runtime": 7,
+      "airdate": "2017-02-01",
+      "ok": true
+    },
+    {
+      "id": "6015449",
+      "year": 2017,
+      "episode": 44,
+      "runtime": 8,
+      "airdate": "2017-03-22",
+      "ok": true
+    },
+    {
+      "id": "7500993",
+      "year": 2019,
+      "episode": 22,
+      "runtime": 23,
+      "airdate": "2019-03-29",
+      "ok": true
+    },
+    {
+      "id": "7501014",
+      "year": 2019,
+      "episode": 34,
+      "runtime": 68,
+      "airdate": "2019-06-05",
+      "ok": true
+    },
+    {
+      "id": "8436440",
+      "year": 2021,
+      "episode": 28,
+      "runtime": 19,
+      "airdate": "2021-05-18",
+      "ok": true
+    },
+    {
+      "id": "9098538",
+      "year": 2021,
+      "episode": 56,
+      "runtime": 24,
+      "airdate": "2021-10-28",
+      "ok": true
+    }
+  ],
+  "result": "APPLIED_AND_VERIFIED"
+}
