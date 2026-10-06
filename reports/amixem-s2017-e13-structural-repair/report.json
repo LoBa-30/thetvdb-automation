@@ -1,0 +1,228 @@
+{
+  "generatedAt": "2026-10-06T18:05:50.423Z",
+  "target": "Amixem S2017 E13-E20",
+  "mode": "GUARDED_STRUCTURAL_REPAIR",
+  "evidence": {
+    "youtubeVideoId": "fu-nBHrmokA",
+    "currentOfficialChannelOrder": "between 2017-02-11 and 2017-02-19 uploads",
+    "historicalIndexDate": "2017-02-16",
+    "youtubeDurationSeconds": 859,
+    "note": "No title write; no delete; no create."
+  },
+  "authenticated": true,
+  "preflight": [
+    {
+      "id": "6102812",
+      "title": "JE JOUE À L'INSTRUMENT DE MUSIQUE LE PLUS BIZARRE !",
+      "from": 20,
+      "to": 13,
+      "current": {
+        "internalId": "3998171",
+        "publicId": "6102812",
+        "number": 20,
+        "title": "JE JOUE À L'INSTRUMENT DE MUSIQUE LE PLUS BIZARRE !"
+      }
+    },
+    {
+      "id": "6102813",
+      "title": "LE PIRE COLIS QU'UN ABONNÉ M'AIT ENVOYÉ !",
+      "from": 13,
+      "to": 14,
+      "current": {
+        "internalId": "3998172",
+        "publicId": "6102813",
+        "number": 13,
+        "title": "LE PIRE COLIS QU'UN ABONNÉ M'AIT ENVOYÉ !"
+      }
+    },
+    {
+      "id": "6102814",
+      "title": "MA PREMIÈRE PARTIE D'AIRSOFT EN HÉLICOPTÈRE !",
+      "from": 14,
+      "to": 15,
+      "current": {
+        "internalId": "3998173",
+        "publicId": "6102814",
+        "number": 14,
+        "title": "MA PREMIÈRE PARTIE D'AIRSOFT EN HÉLICOPTÈRE !"
+      }
+    },
+    {
+      "id": "6102822",
+      "title": "JE TESTE LES PIRES INSTRUMENTS DE MUSIQUES !",
+      "from": 15,
+      "to": 16,
+      "current": {
+        "internalId": "3998174",
+        "publicId": "6102822",
+        "number": 15,
+        "title": "JE TESTE LES PIRES INSTRUMENTS DE MUSIQUES !"
+      }
+    },
+    {
+      "id": "6102824",
+      "title": "L'AVENTURE LA PLUS DINGUE DE MA VIE ! - 4L Trophy EP #1",
+      "from": 16,
+      "to": 17,
+      "current": {
+        "internalId": "3998175",
+        "publicId": "6102824",
+        "number": 16,
+        "title": "L'AVENTURE LA PLUS DINGUE DE MA VIE ! - 4L Trophy EP #1"
+      }
+    },
+    {
+      "id": "6102827",
+      "title": "LES PIRES ARTICLES AMAZON !",
+      "from": 17,
+      "to": 18,
+      "current": {
+        "internalId": "3998176",
+        "publicId": "6102827",
+        "number": 17,
+        "title": "LES PIRES ARTICLES AMAZON !"
+      }
+    },
+    {
+      "id": "6102828",
+      "title": "ENSABLÉS DANS LE DÉSERT ! 4L Trophy EP #3",
+      "from": 18,
+      "to": 19,
+      "current": {
+        "internalId": "3998177",
+        "publicId": "6102828",
+        "number": 18,
+        "title": "ENSABLÉS DANS LE DÉSERT ! 4L Trophy EP #3"
+      }
+    },
+    {
+      "id": "6102829",
+      "title": "JE VISITE LA STATION SPATIALE !",
+      "from": 19,
+      "to": 20,
+      "current": {
+        "internalId": "3998178",
+        "publicId": "6102829",
+        "number": 19,
+        "title": "JE VISITE LA STATION SPATIALE !"
+      }
+    },
+    {
+      "id": "6102812",
+      "field": "airdate",
+      "expected": [
+        "2017-03-16",
+        "2017-02-16"
+      ],
+      "actual": "2017-03-16"
+    }
+  ],
+  "writes": [
+    {
+      "type": "RENUMBER_SEASON",
+      "year": 2017,
+      "changes": [
+        {
+          "id": "6102812",
+          "from": 20,
+          "to": 13
+        },
+        {
+          "id": "6102813",
+          "from": 13,
+          "to": 14
+        },
+        {
+          "id": "6102814",
+          "from": 14,
+          "to": 15
+        },
+        {
+          "id": "6102822",
+          "from": 15,
+          "to": 16
+        },
+        {
+          "id": "6102824",
+          "from": 16,
+          "to": 17
+        },
+        {
+          "id": "6102827",
+          "from": 17,
+          "to": 18
+        },
+        {
+          "id": "6102828",
+          "from": 18,
+          "to": 19
+        },
+        {
+          "id": "6102829",
+          "from": 19,
+          "to": 20
+        }
+      ]
+    },
+    {
+      "type": "AIRDATE",
+      "id": "6102812",
+      "from": "2017-03-16",
+      "to": "2017-02-16"
+    }
+  ],
+  "verifications": [
+    {
+      "type": "SEASON_NUMBERING",
+      "ok": true,
+      "changes": [
+        {
+          "id": "6102812",
+          "episode": 13
+        },
+        {
+          "id": "6102813",
+          "episode": 14
+        },
+        {
+          "id": "6102814",
+          "episode": 15
+        },
+        {
+          "id": "6102822",
+          "episode": 16
+        },
+        {
+          "id": "6102824",
+          "episode": 17
+        },
+        {
+          "id": "6102827",
+          "episode": 18
+        },
+        {
+          "id": "6102828",
+          "episode": 19
+        },
+        {
+          "id": "6102829",
+          "episode": 20
+        }
+      ]
+    },
+    {
+      "type": "AIRDATE",
+      "id": "6102812",
+      "ok": true,
+      "value": "2017-02-16"
+    },
+    {
+      "type": "FINAL_STATE",
+      "ok": true,
+      "episode13Id": "6102812",
+      "date": "2017-02-16"
+    }
+  ],
+  "blocked": [],
+  "result": "APPLIED_AND_VERIFIED"
+}
