@@ -1,0 +1,225 @@
+{
+  "generatedAt": "2026-10-06T18:52:20.791431Z",
+  "target": "Maxime Biaggi",
+  "mode": "READ_ONLY_SEASON_BOUNDARY_AUDIT",
+  "seasons": [
+    {
+      "year": 2019,
+      "http": 200,
+      "count": 7,
+      "first": {
+        "episode": 1,
+        "code": "S2019E01",
+        "episode_id": "11696580",
+        "title": "Try not to embrasser son pote (nouveau challenge trop dur)",
+        "date": "February 3, 2019",
+        "flag": null
+      },
+      "last": {
+        "episode": 7,
+        "code": "S2019E07",
+        "episode_id": "11696586",
+        "title": "LONDRES : MON REPORTAGE",
+        "date": "May 12, 2019",
+        "flag": "season finale"
+      },
+      "flagged": [
+        {
+          "episode": 7,
+          "code": "S2019E07",
+          "episode_id": "11696586",
+          "title": "LONDRES : MON REPORTAGE",
+          "date": "May 12, 2019",
+          "flag": "season finale"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "http": 404,
+      "episodes": []
+    },
+    {
+      "year": 2021,
+      "http": 200,
+      "count": 2,
+      "first": {
+        "episode": 1,
+        "code": "S2021E01",
+        "episode_id": "11696587",
+        "title": "Je passe 24H avec un journaliste ca TOURNE MAL....",
+        "date": "November 27, 2021",
+        "flag": null
+      },
+      "last": {
+        "episode": 2,
+        "code": "S2021E02",
+        "episode_id": "11696588",
+        "title": "Tierlist OFFICIELLE des eaux plates avec Terracid et Yassencore",
+        "date": "December 30, 2021",
+        "flag": "season finale"
+      },
+      "flagged": [
+        {
+          "episode": 2,
+          "code": "S2021E02",
+          "episode_id": "11696588",
+          "title": "Tierlist OFFICIELLE des eaux plates avec Terracid et Yassencore",
+          "date": "December 30, 2021",
+          "flag": "season finale"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "http": 200,
+      "count": 8,
+      "first": {
+        "episode": 1,
+        "code": "S2022E01",
+        "episode_id": "11696589",
+        "title": "DRAME DANS MA VILLE : je vous raconte...",
+        "date": "January 29, 2022",
+        "flag": null
+      },
+      "last": {
+        "episode": 8,
+        "code": "S2022E08",
+        "episode_id": "11696599",
+        "title": "On fête Noël dans un Hôtel de luxe ⭐(ft Terracid, Maghla, Sefy, Bezigue, Grimkujow, Luciole)",
+        "date": "December 21, 2022",
+        "flag": "season finale"
+      },
+      "flagged": [
+        {
+          "episode": 8,
+          "code": "S2022E08",
+          "episode_id": "11696599",
+          "title": "On fête Noël dans un Hôtel de luxe ⭐(ft Terracid, Maghla, Sefy, Bezigue, Grimkujow, Luciole)",
+          "date": "December 21, 2022",
+          "flag": "season finale"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "http": 200,
+      "count": 9,
+      "first": {
+        "episode": 1,
+        "code": "S2023E01",
+        "episode_id": "11696603",
+        "title": "J'ai retrouvé mon passage dans les 12 coups de midi...",
+        "date": "January 18, 2023",
+        "flag": null
+      },
+      "last": {
+        "episode": 9,
+        "code": "S2023E09",
+        "episode_id": "11696611",
+        "title": "On offre des cadeaux à 3 abonnés (y’en a une qui chiale)",
+        "date": "December 25, 2023",
+        "flag": "season finale"
+      },
+      "flagged": [
+        {
+          "episode": 9,
+          "code": "S2023E09",
+          "episode_id": "11696611",
+          "title": "On offre des cadeaux à 3 abonnés (y’en a une qui chiale)",
+          "date": "December 25, 2023",
+          "flag": "season finale"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "http": 200,
+      "count": 6,
+      "first": {
+        "episode": 1,
+        "code": "S2024E01",
+        "episode_id": "11696620",
+        "title": "Est-ce que je suis d'accord avec Audrey ?",
+        "date": "January 25, 2024",
+        "flag": null
+      },
+      "last": {
+        "episode": 6,
+        "code": "S2024E06",
+        "episode_id": "11696625",
+        "title": "Diner de Noël avec des gros gourmands !! (Secret Santa et rigolade)",
+        "date": "December 20, 2024",
+        "flag": "season finale"
+      },
+      "flagged": [
+        {
+          "episode": 6,
+          "code": "S2024E06",
+          "episode_id": "11696625",
+          "title": "Diner de Noël avec des gros gourmands !! (Secret Santa et rigolade)",
+          "date": "December 20, 2024",
+          "flag": "season finale"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "http": 200,
+      "count": 21,
+      "first": {
+        "episode": 1,
+        "code": "S2025E01",
+        "episode_id": "11696637",
+        "title": "2 jours pour faire une piste noire (j'ai jamais skié)",
+        "date": "January 30, 2025",
+        "flag": null
+      },
+      "last": {
+        "episode": 21,
+        "code": "S2025E21",
+        "episode_id": "11696657",
+        "title": "Le repas de Noël des gourmands (ft. Djilsi, Lena, Kaatsup, Elian, Theodort, Seb)",
+        "date": "December 17, 2025",
+        "flag": "season finale"
+      },
+      "flagged": [
+        {
+          "episode": 21,
+          "code": "S2025E21",
+          "episode_id": "11696657",
+          "title": "Le repas de Noël des gourmands (ft. Djilsi, Lena, Kaatsup, Elian, Theodort, Seb)",
+          "date": "December 17, 2025",
+          "flag": "season finale"
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "http": 200,
+      "count": 11,
+      "first": {
+        "episode": 1,
+        "code": "S2026E01",
+        "episode_id": "11696661",
+        "title": "NE TE FAIS PAS SCROLL (ft. Billy, Grimkujow)",
+        "date": "January 31, 2026",
+        "flag": null
+      },
+      "last": {
+        "episode": 11,
+        "code": "S2026E11",
+        "episode_id": "11998870",
+        "title": "J'ouvre un restaurant et c'est un DÉSASTRE (ft Squeezie Djilsi Tatiana Leila Nico Gotaga Theo Elian)",
+        "date": "September 20, 2026",
+        "flag": null
+      },
+      "flagged": []
+    }
+  ],
+  "summary": {
+    "seasons_with_episodes": 7,
+    "premiere_flags": 0,
+    "finale_flags": 6
+  }
+}
