@@ -1,0 +1,114 @@
+{
+  "generatedAt": "2026-10-06T16:20:00Z",
+  "target": "Mastu",
+  "scope": "Unassigned resolution after authenticated read-only inventory and guarded duplicate apply",
+  "evidence": {
+    "latestGlobalAuditRun": 37491514915,
+    "authenticatedInventoryRun": 37493491590,
+    "duplicatePreflightRun": 37494256693,
+    "duplicateApplyRun": 37494653834,
+    "applyReportCommit": "6863ea9",
+    "unassignedCount": 10
+  },
+  "exactDuplicates": [
+    {
+      "source": "11467024",
+      "target": "6941556",
+      "targetCode": "S2018E31",
+      "title": "FAITES MOI RIRE BORDEL",
+      "date": "2018-10-28",
+      "youtubeId": "ySeuAx4Ho08",
+      "status": "EXACT_DUPLICATE_DELETE_BLOCKED_HTTP_401"
+    },
+    {
+      "source": "11467025",
+      "target": "6941574",
+      "targetCode": "S2018E35",
+      "title": "MA VIE AVANT D'ÊTRE CONNU...",
+      "date": "2018-12-05",
+      "youtubeId": "RITZtm8aFuA",
+      "status": "EXACT_DUPLICATE_DELETE_BLOCKED_HTTP_401"
+    },
+    {
+      "source": "11467026",
+      "target": "6941585",
+      "targetCode": "S2018E36",
+      "title": "MAIS QU'EST-CE QUE VOUS AVEZ...",
+      "date": "2018-12-15",
+      "youtubeId": "GaCs2inZdjY",
+      "status": "EXACT_DUPLICATE_DELETE_BLOCKED_HTTP_401"
+    },
+    {
+      "source": "11964033",
+      "target": "10372642",
+      "targetCode": "S2024E03",
+      "title": "Y'A QUI DANS LA BOÎTE ? (Avec Maghla et Raska)",
+      "date": "2024-03-09",
+      "youtubeId": "0T-dpx4dYJs",
+      "status": "EXACT_DUPLICATE_DELETE_BLOCKED_HTTP_401"
+    }
+  ],
+  "keepNoDelete": [
+    {
+      "id": "6837846",
+      "title": "J'ai travaillé chez Macdonald's",
+      "date": "2018-12-31",
+      "runtimeMinutes": 10,
+      "status": "HISTORICAL_UNPROVEN_KEEP_NO_DELETE"
+    },
+    {
+      "id": "6837854",
+      "title": "J'ai failli mourir dans cette vidéo",
+      "date": "2018-12-31",
+      "runtimeMinutes": 10,
+      "status": "HISTORICAL_UNPROVEN_KEEP_NO_DELETE"
+    },
+    {
+      "id": "6837856",
+      "title": "Comment devenir riche sur youtube",
+      "date": "2018-12-31",
+      "runtimeMinutes": 10,
+      "status": "HISTORICAL_UNPROVEN_KEEP_NO_DELETE"
+    },
+    {
+      "id": "6837928",
+      "title": "Au Japon avec la redbox",
+      "date": "2018-12-31",
+      "runtimeMinutes": 10,
+      "status": "HISTORICAL_UNPROVEN_KEEP_NO_DELETE"
+    },
+    {
+      "id": "9195535",
+      "title": "J'SUIS UN POTE HORRIBLE EN VOITURE",
+      "date": "2015-12-29",
+      "runtimeMinutes": 6,
+      "status": "HISTORICAL_UNPROVEN_KEEP_NO_DELETE"
+    },
+    {
+      "id": "11567163",
+      "title": "Unknown Title",
+      "date": "2025-12-27",
+      "runtimeMinutes": 78,
+      "status": "LIKELY_DUPLICATE_OR_IMPORT_A_VERIFIER_KEEP_NO_DELETE",
+      "note": "Same date as assigned S2025E21 QUI DES 30 ? (Avec Mcfly et Carlito), but individual identity is not yet proven."
+    }
+  ],
+  "destructiveResult": {
+    "attemptedSource": "11467024",
+    "httpStatus": 401,
+    "effect": "NONE",
+    "remainingUnassignedIds": [
+      "6837846",
+      "6837854",
+      "6837856",
+      "6837928",
+      "9195535",
+      "11467024",
+      "11467025",
+      "11467026",
+      "11567163",
+      "11964033"
+    ],
+    "policy": "DO_NOT_RETRY_OR_BYPASS_401"
+  }
+}
