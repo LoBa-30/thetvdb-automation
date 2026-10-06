@@ -216,6 +216,36 @@ for yi,ti,s in pairs:
         'image_status':'MISSING_IMAGE' if not e.get('artwork') else 'PRESENT_ORIGIN_PENDING'
     })
 
+# Repair conservative-alignment false positives when two rows in the same season are an exact reciprocal title swap.
+# This changes the audit association only; it never writes to TheTVDB.
+mismatch_idx=[i for i,r in enumerate(rows) if r['title_status']=='SUBSTANTIVE_MISMATCH']
+used_swap=set()
+for i in mismatch_idx:
+    if i in used_swap: continue
+    a=rows[i]
+    for j in mismatch_idx:
+        if j<=i or j in used_swap: continue
+        b=rows[j]
+        if a['season']!=b['season']: continue
+        if canonical(a['tvdb_title'])==canonical(b['youtube_title']) and canonical(b['tvdb_title'])==canonical(a['youtube_title']):
+            keys=['youtube_title','youtube_id','youtube_url','youtube_duration','youtube_duration_seconds','youtube_date','youtube_thumbnail']
+            av={k:a.get(k) for k in keys}; bv={k:b.get(k) for k in keys}
+            for k in keys: a[k],b[k]=bv[k],av[k]
+            for r in (a,b):
+                r['title_exact']=canonical(r['youtube_title'])==canonical(r['tvdb_title'])
+                if r['title_exact']: r['title_status']='OK'
+                elif strip_cosmetic(r['youtube_title'])==strip_cosmetic(r['tvdb_title']): r['title_status']='COSMETIC_EXACTNESS'
+                elif norm(r['youtube_title'])==norm(r['tvdb_title']): r['title_status']='PUNCTUATION_EMOJI_EXACTNESS'
+                else: r['title_status']='SUBSTANTIVE_MISMATCH'
+                r['title_similarity']=round(sim(r['youtube_title'],r['tvdb_title']),3)
+                expected=expected_minutes(r.get('youtube_duration_seconds'))
+                r['expected_runtime_minutes']=expected
+                r['runtime_exact']=(expected==r.get('tvdb_runtime_minutes')) if expected is not None and r.get('tvdb_runtime_minutes') is not None else None
+                r['date_verified']=r.get('youtube_date') is not None
+                r['date_exact']=(r.get('youtube_date')==r.get('tvdb_date')) if r['date_verified'] else None
+            used_swap.update((i,j))
+            break
+
 # Compare existing TVDB artwork to official thumbnail (exact thumbnail provenance only).
 for k,r in enumerate(rows):
     if not r.get('tvdb_artwork'): continue
