@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-10-06T18:19:21.495113Z",
+  "target": "Mcfly & Carlito historical public video fttKpTYRdMs",
+  "mode": "READ_ONLY_EXACT_METADATA_AND_TVDB_PRESENCE",
+  "youtube": {
+    "ok": false,
+    "error": "Expecting value: line 1 column 1 (char 0)",
+    "stderr": "ERROR: [youtube] fttKpTYRdMs: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+  },
+  "tvdb": {
+    "allSeasonsHttp": 200,
+    "matchingAnnouncementAnchors": [
+      {
+        "title": "MCFLY ET CARLITO - LE FAT SHOW (BANDE ANNONCE L'ENORME TV)",
+        "href": "/series/338282-show/episodes/10729932"
+      },
+      {
+        "title": "BANDE ANNONCE SCHNYDEPS - LE FAT SHOW - L'ENORME TV",
+        "href": "/series/338282-show/episodes/10729933"
+      },
+      {
+        "title": "ON A FAIT UNE GROSSE ERREUR",
+        "href": "/series/338282-show/episodes/6423903"
+      },
+      {
+        "title": "DESSIN ANIMÉ + GROSSE ANNONCE",
+        "href": "/series/338282-show/episodes/6549288"
+      },
+      {
+        "title": "2 ANS SUR YOUTUBE : DE 70.000 à 4 MILLIONS D'ABONNÉS (+ grosse surprise !)",
+        "href": "/series/338282-show/episodes/7047904"
+      },
+      {
+        "title": "On annonce le Gage de YOUTUBE WARRIOR #5 ! (Bonne chance mdr)",
+        "href": "/series/338282-show/episodes/8189261"
+      },
+      {
+        "title": "On découvre le tricot (la plus grosse vidéo de notre chaîne)",
+        "href": "/series/338282-show/episodes/11341385"
+      }
+    ],
+    "rawContainsExactGrosseAnnonce": false
+  },
+  "decision": "PENDING_REVIEW"
+}
