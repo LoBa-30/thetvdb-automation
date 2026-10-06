@@ -1,0 +1,9 @@
+{
+  "videoId": "QG1WcEWOF4g",
+  "url": "https://www.youtube.com/watch?v=QG1WcEWOF4g",
+  "returncode": 1,
+  "stderr": "ERROR: [youtube] QG1WcEWOF4g: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+  "parse_error": "'NoneType' object has no attribute 'get'",
+  "reference_date": "2026-09-09",
+  "in_scope": false
+}
