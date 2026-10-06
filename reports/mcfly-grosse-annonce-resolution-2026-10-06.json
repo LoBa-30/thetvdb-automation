@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-06T18:24:53.029Z",
+  "target": "Mcfly & Carlito",
+  "youtubeId": "fttKpTYRdMs",
+  "youtubeTitle": "GROSSE ANNONCE",
+  "mode": "HISTORICAL_PUBLIC_VIDEO_RESOLUTION_NO_WRITE",
+  "currentChannelPosition": {
+    "newerNeighbor": {
+      "youtubeId": "jlRfGoMAASE",
+      "title": "LE FAT SHOW S3E1 Feat. CYPRIEN",
+      "tvdb": "S2015E01",
+      "date": "2015-06-07"
+    },
+    "olderNeighbor": {
+      "youtubeId": "02YLM6to0ok",
+      "title": "MCFLY - DREAM THEATER - GUITAR COVER",
+      "tvdb": "S2014E24",
+      "date": "2014-09-11"
+    },
+    "conclusion": "The public upload is chronologically between 2014-09-11 and 2015-06-07."
+  },
+  "currentTvdbSearch": {
+    "exactTitlePresent": false,
+    "similarAnnouncementEntries": [
+      {
+        "id": "10729932",
+        "title": "MCFLY ET CARLITO - LE FAT SHOW (BANDE ANNONCE L'ENORME TV)"
+      },
+      {
+        "id": "10729933",
+        "title": "BANDE ANNONCE SCHNYDEPS - LE FAT SHOW - L'ENORME TV"
+      },
+      {
+        "id": "6549288",
+        "title": "DESSIN ANIMÉ + GROSSE ANNONCE",
+        "date": "2018-01-31"
+      }
+    ],
+    "note": "None is proven to be the same upload."
+  },
+  "metadataAttempt": {
+    "method": "yt-dlp public read-only",
+    "result": "BLOCKED_BY_YOUTUBE_ANTI_BOT",
+    "action": "NO_COOKIE_OR_CHALLENGE_BYPASS_ATTEMPTED"
+  },
+  "decision": "TICKET_A_VERIFIER_NO_CREATE",
+  "reason": "Public long-form upload is real and currently unmatched, but exact publication date/runtime are not sufficiently proven. Creating an episode would be speculative and could duplicate an older historical entry.",
+  "safeguards": [
+    "NO_CREATE_WITHOUT_EXACT_DATE_RUNTIME_AND_IDENTITY",
+    "NO_SECURITY_BYPASS",
+    "NO_DELETE"
+  ]
+}
