@@ -1,0 +1,180 @@
+{
+  "summary": {
+    "checked": 3,
+    "confirmed_v2": 2,
+    "remaining_strong_candidate": 1
+  },
+  "rows": [
+    {
+      "code": "S2025E01",
+      "episodeId": "11092262",
+      "youtubeId": "RLt6F-YKcdY",
+      "title": "SURVIVRE dans une FORÊT HANTÉE ft @MaximeBiaggi",
+      "comparisons": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/RLt6F-YKcdY/maxresdefault.jpg",
+          "ssim": 0.4224,
+          "mae": 0.095,
+          "hashes": {
+            "phash": 10,
+            "dhash": 7,
+            "whash": 4,
+            "average_hash": 3
+          }
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/RLt6F-YKcdY/hqdefault.jpg",
+          "ssim": 0.3194,
+          "mae": 0.1284,
+          "hashes": {
+            "phash": 16,
+            "dhash": 9,
+            "whash": 14,
+            "average_hash": 12
+          }
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/RLt6F-YKcdY/0.jpg",
+          "ssim": 0.3194,
+          "mae": 0.1284,
+          "hashes": {
+            "phash": 16,
+            "dhash": 9,
+            "whash": 14,
+            "average_hash": 12
+          }
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/RLt6F-YKcdY/maxresdefault.jpg",
+        "ssim": 0.4224,
+        "mae": 0.095,
+        "hashes": {
+          "phash": 10,
+          "dhash": 7,
+          "whash": 4,
+          "average_hash": 3
+        }
+      },
+      "status": "CONFIRMED_SAME_VIDEO_REFERENCE_V2"
+    },
+    {
+      "code": "S2025E02",
+      "episodeId": "11153863",
+      "youtubeId": "mpMIHu1Ao2U",
+      "title": "FAIRE UN TERRARIUM #1ft @Mastu",
+      "comparisons": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/mpMIHu1Ao2U/maxresdefault.jpg",
+          "ssim": 0.3806,
+          "mae": 0.1139,
+          "hashes": {
+            "phash": 10,
+            "dhash": 6,
+            "whash": 4,
+            "average_hash": 2
+          }
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/mpMIHu1Ao2U/hqdefault.jpg",
+          "ssim": 0.2487,
+          "mae": 0.1662,
+          "hashes": {
+            "phash": 12,
+            "dhash": 16,
+            "whash": 10,
+            "average_hash": 11
+          }
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/mpMIHu1Ao2U/0.jpg",
+          "ssim": 0.2487,
+          "mae": 0.1662,
+          "hashes": {
+            "phash": 12,
+            "dhash": 16,
+            "whash": 10,
+            "average_hash": 11
+          }
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/mpMIHu1Ao2U/maxresdefault.jpg",
+        "ssim": 0.3806,
+        "mae": 0.1139,
+        "hashes": {
+          "phash": 10,
+          "dhash": 6,
+          "whash": 4,
+          "average_hash": 2
+        }
+      },
+      "status": "CONFIRMED_SAME_VIDEO_REFERENCE_V2"
+    },
+    {
+      "code": "S2026E03",
+      "episodeId": "11710015",
+      "youtubeId": "3i5EvcWBhuo",
+      "title": "MINI-JEUX pour des GROSSES conséquences ft Mc Fly & Carlito",
+      "comparisons": [
+        {
+          "kind": "maxres",
+          "url": "https://i.ytimg.com/vi/3i5EvcWBhuo/maxresdefault.jpg",
+          "ssim": 0.2751,
+          "mae": 0.166,
+          "hashes": {
+            "phash": 14,
+            "dhash": 8,
+            "whash": 6,
+            "average_hash": 8
+          }
+        },
+        {
+          "kind": "hq",
+          "url": "https://i.ytimg.com/vi/3i5EvcWBhuo/hqdefault.jpg",
+          "ssim": 0.1693,
+          "mae": 0.2221,
+          "hashes": {
+            "phash": 10,
+            "dhash": 15,
+            "whash": 16,
+            "average_hash": 13
+          }
+        },
+        {
+          "kind": "frame0",
+          "url": "https://i.ytimg.com/vi/3i5EvcWBhuo/0.jpg",
+          "ssim": 0.1693,
+          "mae": 0.2221,
+          "hashes": {
+            "phash": 10,
+            "dhash": 15,
+            "whash": 16,
+            "average_hash": 13
+          }
+        }
+      ],
+      "best": {
+        "kind": "maxres",
+        "url": "https://i.ytimg.com/vi/3i5EvcWBhuo/maxresdefault.jpg",
+        "ssim": 0.2751,
+        "mae": 0.166,
+        "hashes": {
+          "phash": 14,
+          "dhash": 8,
+          "whash": 6,
+          "average_hash": 8
+        }
+      },
+      "status": "PROVENANCE_REMAINS_STRONG_CANDIDATE"
+    }
+  ]
+}
