@@ -1,14 +1,28 @@
 {
-  "generatedAt": "2026-10-06T17:13:28.169Z",
+  "generatedAt": "2026-10-06T18:15:38.298Z",
   "target": "Elian S2026E08",
   "youtubeId": "xkGjW_FR8vI",
-  "mode": "GUARDED_CURRENT_TITLE_REFRESH",
+  "mode": "GUARDED_CURRENT_TITLE_REFRESH_V2_DYNAMIC_TRANSLATION_LINK",
   "authenticated": true,
   "writes": [],
   "skips": [],
   "blocked": [
     {
-      "reason": "Edit form missing"
+      "reason": "Translation edit form missing on current Edit Translations URL"
+    }
+  ],
+  "checks": [
+    {
+      "publicBefore": {
+        "heading": "Nos cabanes vont-elles résister au Loup ?! (ft. Maxime Biaggi)",
+        "date": "September 30, 2026",
+        "runtime": 34,
+        "translateHref": "/series/elian-ventre-462729/episodes/12014528/translate/ep/0"
+      }
+    },
+    {
+      "translationUrl": "https://thetvdb.com/series/elian-ventre-462729/episodes/12014528/translate/ep/0",
+      "translationFormCount": 0
     }
   ],
   "verification": null,
