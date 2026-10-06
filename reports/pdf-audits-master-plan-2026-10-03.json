@@ -76,14 +76,15 @@
       "pdfOpenWork": [
         "5 certain Unassigned duplicates still need successful delete/merge",
         "165 metadata-blocked videos in PDF snapshot",
-        "runtime tickets in 2016/2017/2019/2021",
         "114 existing artwork provenance checks",
         "1484 missing artworks in PDF snapshot"
       ],
       "resolvedSincePlan": [
         "Current structural/historical backlog re-audited: 1586 current YouTube videos, 1660 TVDB assigned, 1585 current matches.",
         "Single YouTube unmatched resolved as existing/reupload false positive; no create.",
-        "75 TVDB-only rows individually read: 74 historical keep, 1 live-only out of scope, 0 delete candidates."
+        "75 TVDB-only rows individually read: 74 historical keep, 1 live-only out of scope, 0 delete candidates.",
+        "Fresh runtime recheck found exactly 8 >1-minute mismatches in 2016/2017/2019/2021; all 8 titles matched official YouTube exactly.",
+        "All 8 runtimes corrected with authenticated fresh preflight and post-write verification: 2016 E144 10→8, E216 1→9; 2017 E17 10→7, E44 10→8; 2019 E22 20→23, E34 70→68; 2021 E28 13→19, E56 28→24."
       ]
     },
     {
@@ -184,10 +185,11 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-06T18:54:00Z",
+  "lastUpdatedAt": "2026-10-06T18:56:00Z",
   "latestContinuationCommits": [
     "598e20d6635a2789b735e38d0d4f5f002f872685",
     "793b2dd728db8c39f24e7c711528651c6c60c00a",
-    "da3c19d0c896137428835d9b2d29ec6fba3a24f2"
+    "da3c19d0c896137428835d9b2d29ec6fba3a24f2",
+    "4ea3d7959131856b5f12c4786009c56a130f1cac"
   ]
 }
