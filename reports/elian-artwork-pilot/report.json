@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-06T17:15:55.830Z",
-  "target": "Elian S2023E02",
+  "generatedAt": "2026-10-06T17:19:49.130Z",
+  "target": "Elian S2023E04",
   "mode": "GUARDED_OFFICIAL_YOUTUBE_ARTWORK_PILOT",
   "authenticated": true,
   "preflight": {
-    "heading": "RAP CONTENDERS ZEN ÉMISSION",
+    "heading": "STRUCTURE ESPORT DE LUXE ?",
     "beforeArtwork": [],
-    "expectedTitle": "RAP CONTENDERS ZEN ÉMISSION",
-    "youtubeId": "rDlPlsjuWXw",
-    "imageUrl": "https://i.ytimg.com/vi/rDlPlsjuWXw/hqdefault.jpg"
+    "expectedTitle": "STRUCTURE ESPORT DE LUXE ?",
+    "youtubeId": "QboHB6hZ5dg",
+    "imageUrl": "https://i.ytimg.com/vi/QboHB6hZ5dg/maxresdefault.jpg"
   },
   "write": {
-    "episodeId": "11092249",
-    "imageUrl": "https://i.ytimg.com/vi/rDlPlsjuWXw/hqdefault.jpg",
+    "episodeId": "11092251",
+    "imageUrl": "https://i.ytimg.com/vi/QboHB6hZ5dg/maxresdefault.jpg",
     "submitted": true
   },
   "verification": {
