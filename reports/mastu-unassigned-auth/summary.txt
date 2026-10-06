@@ -3,4 +3,5 @@ Authenticated: true
 Found: 10
 Read: 10
 Errors: 0
-Write requests detected: 25
+Read-only network lock: true
+Blocked non-read requests: 30
