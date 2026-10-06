@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-10-06T18:39:22.819Z",
+  "target": "Amixem S2016E97-E98",
+  "mode": "GUARDED_TITLE_DATE_REPAIR",
+  "authenticated": true,
+  "preflight": [
+    {
+      "id": "6102789",
+      "code": "S2016E97",
+      "publicTitle": "JE JUGE LES YOUTUBERS !",
+      "airdate": "2016-12-17"
+    },
+    {
+      "id": "6102787",
+      "code": "S2016E98",
+      "publicTitle": "J'AI CRASHÉ MON NOUVEAU DRONE ! (Oui, encore...)",
+      "airdate": "2016-12-18"
+    }
+  ],
+  "writes": [],
+  "verifications": [
+    {
+      "type": "FINAL",
+      "code": "S2016E97",
+      "id": "6102789",
+      "title": "JE JUGE LES YOUTUBERS !",
+      "airdate": "2016-12-17",
+      "okTitle": true,
+      "okDate": true
+    },
+    {
+      "type": "FINAL",
+      "code": "S2016E98",
+      "id": "6102787",
+      "title": "J'AI CRASHÉ MON NOUVEAU DRONE ! (Oui, encore...)",
+      "airdate": "2016-12-18",
+      "okTitle": true,
+      "okDate": true
+    }
+  ],
+  "blocked": [],
+  "result": "APPLIED_AND_VERIFIED"
+}
