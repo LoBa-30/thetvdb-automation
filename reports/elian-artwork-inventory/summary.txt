@@ -1,0 +1,7 @@
+youtubeCount=29
+tvdbCount=29
+matched=28
+missingArtwork=10
+existingArtwork=19
+exactThumbnailCandidatesForMissing=9
+errors=0
