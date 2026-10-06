@@ -5,7 +5,7 @@ const username=process.env.TVDB_USERNAME,password=process.env.TVDB_PASSWORD;
 const armed=String(process.env.TVDB_ELIAN_ARTWORK_PILOT||'').toLowerCase()==='yes';
 if(!armed||!username||!password)throw new Error('Not armed or missing credentials');
 const BASE='https://thetvdb.com',SLUG='elian-ventre-462729',SERIES='462729';
-const X={id:'11092249',code:'S2023E02',title:'RAP CONTENDERS ZEN ÉMISSION',youtubeId:'rDlPlsjuWXw',imageUrl:'https://i.ytimg.com/vi/rDlPlsjuWXw/hqdefault.jpg'};
+const X={id:'11092251',code:'S2023E04',title:'STRUCTURE ESPORT DE LUXE ?',youtubeId:'QboHB6hZ5dg',imageUrl:'https://i.ytimg.com/vi/QboHB6hZ5dg/maxresdefault.jpg'};
 const OUT='reports/elian-artwork-pilot';
 await fs.mkdir(OUT,{recursive:true});
 const browser=await chromium.launch({headless:true});
