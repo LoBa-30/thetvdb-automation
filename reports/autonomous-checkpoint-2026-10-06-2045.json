@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-10-06T18:45:00Z",
+  "scope": "Autonomous nine-channel audit continuation",
+  "verifiedThisPass": [
+    {
+      "target": "Squeezie",
+      "sourceCommits": [
+        "3743a0967c32fc65bf1486cb95fd8c064ed54b66",
+        "e297ec05f016e15d0e62199d0dee5e0e67407c92"
+      ],
+      "status": "CURRENT_STRUCTURAL_HISTORICAL_BACKLOG_CLOSED",
+      "facts": {
+        "youtubeCurrent": 1586,
+        "tvdbAssigned": 1660,
+        "matchedCurrent": 1585,
+        "youtubeUnmatchedResolvedAsExistingOrReuploadFalsePositive": 1,
+        "tvdbWithoutCurrentPublicYoutube": 75,
+        "keepHistorical": 74,
+        "outOfScopeLiveOnlyNoAction": 1,
+        "deleteCandidates": 0
+      },
+      "action": "NO_WRITE"
+    },
+    {
+      "target": "Maxime Biaggi",
+      "sourceCommits": [
+        "77618b4b2143ee2801432ab4f3eaaa634c563cac",
+        "bcd791988434d005d3e3506818b9244b3eb50fc9"
+      ],
+      "status": "S2024E05_RUNTIME_TICKET_CLOSED",
+      "facts": {
+        "episodeId": "11696624",
+        "youtubeId": "OjWGpzy6u6o",
+        "youtubeDuration": "59:23",
+        "tvdbRuntimeMinutes": 59
+      },
+      "action": "NO_WRITE_RUNTIME_ALREADY_CORRECT"
+    },
+    {
+      "target": "Amixem",
+      "sourceCommit": "eeffe71736f4050327c17b124fd4ce3b722ac1db",
+      "status": "S2017_STRUCTURAL_REPAIR_APPLIED_AND_VERIFIED",
+      "facts": {
+        "renumberedRange": "E13-E20",
+        "correctedEpisodeId": "6102812",
+        "correctedAirdate": "2017-02-16"
+      },
+      "action": "DO_NOT_REAPPLY"
+    },
+    {
+      "target": "Elian Ventre",
+      "sourceCommit": "049860064d82b17d9a67adf72a3906894a3670ca",
+      "status": "ARTWORK_PILOT_VERIFY_FAILED",
+      "facts": {
+        "episode": "S2023E04",
+        "episodeId": "11092251",
+        "youtubeId": "QboHB6hZ5dg",
+        "submitted": true,
+        "artworkPresentAfter": false
+      },
+      "action": "TICKET_NO_BLIND_RETRY"
+    }
+  ],
+  "openSafeguards": [
+    "Mcfly & Carlito destructive duplicate merge/delete remains blocked by HTTP 401; no bypass or retry.",
+    "Mcfly & Carlito historical GROSSE ANNONCE remains À vérifier; no speculative creation.",
+    "Mastu exact duplicate deletions remain blocked by HTTP 401; historical Unassigned cases are keep/no-delete unless stronger proof emerges.",
+    "Elian missing-artwork writes must not be repeated blindly after failed post-write verification."
+  ]
+}
