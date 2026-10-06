@@ -1,0 +1,36 @@
+name: Elian artwork inventory
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/elian-artwork-inventory.yml'
+      - 'src/elian-artwork-inventory.js'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - run: node src/elian-artwork-inventory.js
+      - name: Persist inventory
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/elian-artwork-inventory
+          git commit -m "Record Elian artwork inventory [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: elian-artwork-inventory
+          path: reports/elian-artwork-inventory/
