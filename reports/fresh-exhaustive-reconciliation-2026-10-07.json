@@ -1,0 +1,103 @@
+{
+  "generatedAt": "2026-10-07T06:38:00Z",
+  "sourceRun": 37569999952,
+  "sourceArtifact": 11460124133,
+  "mode": "FRESH_EXHAUSTIVE_READ_ONLY_RECONCILIATION",
+  "auditComplete": true,
+  "observed": {
+    "Djilsi": {
+      "youtube": 215,
+      "tvdb": 215,
+      "matches": 215,
+      "toReview": 0,
+      "tvdbOnly": 0
+    },
+    "Elian Ventre": {
+      "youtube": 29,
+      "tvdb": 29,
+      "matches": 29,
+      "toReview": 0,
+      "tvdbOnly": 0
+    },
+    "Raska": {
+      "youtube": 149,
+      "tvdb": 150,
+      "matches": 149,
+      "toReview": 0,
+      "tvdbOnly": 1
+    },
+    "Maxime Biaggi": {
+      "youtube": 64,
+      "tvdb": 64,
+      "matches": 64,
+      "toReview": 0,
+      "tvdbOnly": 0
+    },
+    "Squeezie": {
+      "youtube": 1586,
+      "tvdb": 1660,
+      "matches": 1579,
+      "toReview": 7,
+      "tvdbOnly": 81
+    },
+    "Mastu": {
+      "youtube": 361,
+      "tvdb": 376,
+      "matches": 360,
+      "toReview": 1,
+      "tvdbOnly": 16
+    },
+    "Amixem": {
+      "youtube": 890,
+      "tvdb": 975,
+      "matches": 890,
+      "toReview": 0,
+      "tvdbOnly": 85
+    },
+    "Joyca": {
+      "youtube": 449,
+      "tvdb": 470,
+      "matches": 449,
+      "toReview": 0,
+      "tvdbOnly": 21
+    },
+    "Mcfly & Carlito": {
+      "youtube": 577,
+      "tvdb": 582,
+      "matches": 575,
+      "toReview": 2,
+      "tvdbOnly": 7
+    }
+  },
+  "reconciliation": [
+    {
+      "target": "Mcfly & Carlito",
+      "youtubeId": "QG1WcEWOF4g",
+      "decision": "KNOWN_OUT_OF_SCOPE_AFTER_2026-09-09_NO_CREATE",
+      "evidence": "reports/mcfly-priorities-out-of-scope-2026-10-06.json"
+    },
+    {
+      "target": "Mcfly & Carlito",
+      "youtubeId": "fttKpTYRdMs",
+      "decision": "A_VERIFIER_NO_CREATE",
+      "note": "Exact publication date 2015-04-12 proven; runtime/possible assigned historical identity still require proof."
+    },
+    {
+      "target": "Mastu",
+      "youtubeId": "5IC69WoRYQ8",
+      "decision": "KNOWN_MATCHER_FALSE_POSITIVE_NO_CREATE",
+      "evidence": "master plan: public TVDB already has S2022E15 same title/date."
+    }
+  ],
+  "plan": {
+    "autoEligible": 0,
+    "toVerify": 15,
+    "informational": 211
+  },
+  "safeguards": [
+    "NO_SPECULATIVE_CREATE",
+    "NO_DELETE_ON_YOUTUBE_ABSENCE",
+    "NO_SECURITY_BYPASS",
+    "NO_REPEAT_VERIFIED_WRITES"
+  ]
+}
