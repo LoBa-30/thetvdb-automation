@@ -1,0 +1,130 @@
+{
+  "generatedAt": "2026-10-07T20:11:23.685Z",
+  "authenticated": true,
+  "tvdb": {
+    "url": "https://thetvdb.com/series/elian-ventre-462729",
+    "title": "Elian Ventre - TheTVDB.com",
+    "body": "Discover Earn Points Support Elian Ventre Chaîne YouTube d’Elian Ventre consacrée au divertissement, aux vlogs, aux défis, aux expériences et aux émissions réalisées seul ou avec d’autres créateurs français. français General Seasons Cast & Crew Artwork Lists Notes THETVDB.COM SERIES ID 462729 STATUS Continuing FIRST AIRED January 17, 2023 RECENT September 30, 2026 NETWORK YouTube AVERAGE RUNTIME 26 minutes GENRES Comedy ORIGINAL COUNTRY France ORIGINAL LANGUAGE French ON OTHER SITES TheMovieDB.com Youtube EPISODE SCREENSHOT FORMAT 16:9 Screencap FAVORITED This series has been favorited by 0 people. CREATED April 18, 2025 by Modoloris MODIFIED October 7, 2026 by Frata30 ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED.",
+    "artworkLinks": [
+      {
+        "text": "Delete All Series-Level Artwork",
+        "href": "https://thetvdb.com/series/elian-ventre-462729/bulk_delete_artwork/series",
+        "title": null
+      },
+      {
+        "text": "Delete All Season-Level Artwork",
+        "href": "https://thetvdb.com/series/elian-ventre-462729/bulk_delete_artwork/season",
+        "title": null
+      },
+      {
+        "text": "Delete All Episode-Level Artwork",
+        "href": "https://thetvdb.com/series/elian-ventre-462729/bulk_delete_artwork/episode",
+        "title": null
+      },
+      {
+        "text": "Delete All Character-Level Artwork",
+        "href": "https://thetvdb.com/series/elian-ventre-462729/bulk_delete_artwork/character",
+        "title": null
+      },
+      {
+        "text": "Artwork",
+        "href": "https://thetvdb.com/series/elian-ventre-462729#artwork",
+        "title": null
+      },
+      {
+        "text": "Background\n                                0",
+        "href": "https://thetvdb.com/series/elian-ventre-462729#artwork-backgrounds",
+        "title": null
+      },
+      {
+        "text": "Banner\n                                1",
+        "href": "https://thetvdb.com/series/elian-ventre-462729#artwork-banners",
+        "title": null
+      },
+      {
+        "text": "Cinemagraph\n                                0",
+        "href": "https://thetvdb.com/series/elian-ventre-462729#artwork-cinemagraphs",
+        "title": null
+      },
+      {
+        "text": "ClearArt\n                                0",
+        "href": "https://thetvdb.com/series/elian-ventre-462729#artwork-clearart",
+        "title": null
+      },
+      {
+        "text": "ClearLogo\n                                0",
+        "href": "https://thetvdb.com/series/elian-ventre-462729#artwork-clearlogo",
+        "title": null
+      },
+      {
+        "text": "Icon\n                                1",
+        "href": "https://thetvdb.com/series/elian-ventre-462729#artwork-icons",
+        "title": null
+      },
+      {
+        "text": "Poster\n                                0",
+        "href": "https://thetvdb.com/series/elian-ventre-462729#artwork-posters",
+        "title": null
+      },
+      {
+        "text": "Add Background",
+        "href": "https://thetvdb.com/artwork/upload?type=3&series=462729",
+        "title": null
+      },
+      {
+        "text": "Add Banner",
+        "href": "https://thetvdb.com/artwork/upload?type=1&series=462729",
+        "title": null
+      },
+      {
+        "text": "Add Cinemagraph",
+        "href": "https://thetvdb.com/artwork/upload?type=20&series=462729",
+        "title": null
+      },
+      {
+        "text": "Add ClearArt",
+        "href": "https://thetvdb.com/artwork/upload?type=22&series=462729",
+        "title": null
+      },
+      {
+        "text": "Add ClearLogo",
+        "href": "https://thetvdb.com/artwork/upload?type=23&series=462729",
+        "title": null
+      },
+      {
+        "text": "Add Icon",
+        "href": "https://thetvdb.com/artwork/upload?type=5&series=462729",
+        "title": null
+      },
+      {
+        "text": "Add Poster",
+        "href": "https://thetvdb.com/artwork/upload?type=2&series=462729",
+        "title": null
+      },
+      {
+        "text": "",
+        "href": "https://artworks.thetvdb.com/banners/v4/series/462729/banners/6a9dc52732ad3.jpg",
+        "title": null
+      },
+      {
+        "text": "",
+        "href": "https://artworks.thetvdb.com/banners/v4/series/462729/icons/6a9dc58561428.png",
+        "title": null
+      }
+    ],
+    "images": []
+  },
+  "youtube": {
+    "url": "https://www.youtube.com/@elianventre",
+    "title": "Elian Ventre - YouTube",
+    "avatars": [
+      {
+        "src": "https://yt3.googleusercontent.com/uOw2e6SJwIsvq2j8rVi3vaTzGXAsgaOcnN2ixb3Sb6TKSOU3LbGhEt_glNOQJE7XHrvIsdOdCb8=s160-c-k-c0x00ffffff-no-rj",
+        "alt": "",
+        "width": 160,
+        "height": 160
+      }
+    ]
+  },
+  "result": "INSPECTION_COMPLETE"
+}
