@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-10-07T20:15:13.167Z",
+  "mode": "GUARDED_MAXIME_FINAL_ARTWORK_GAPS",
+  "authenticated": true,
+  "results": [
+    {
+      "code": "S2019E01",
+      "episodeId": "11696580",
+      "title": "Try not to embrasser son pote (nouveau challenge trop dur)",
+      "youtubeId": "3X0piITkOTE",
+      "status": "ALREADY_PRESENT_SKIP",
+      "preflight": {
+        "heading": "Try not to embrasser son pote (nouveau challenge trop dur)",
+        "beforeArtwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696580/screencap/6ac6494b1c107.jpg"
+        ]
+      },
+      "crop": null,
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696580/screencap/6ac6494b1c107.jpg"
+        ]
+      },
+      "blocked": []
+    },
+    {
+      "code": "S2025E01",
+      "episodeId": "11696637",
+      "title": "2 jours pour faire une piste noire (j'ai jamais skié)",
+      "youtubeId": "EqFLIsSB2hg",
+      "status": "BLOCKED_BEFORE_WRITE",
+      "preflight": {
+        "heading": "2 jours pour faire une piste noire (j'ai jamais skié)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/sddefault.jpg",
+          "status": 404,
+          "width": 120,
+          "height": 90,
+          "contentType": "image/jpeg",
+          "bytes": 1097
+        }
+      },
+      "crop": null,
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "SOURCE_IMAGE_INVALID"
+        }
+      ]
+    }
+  ],
+  "stopped": true,
+  "stopReason": "S2025E01: SOURCE_IMAGE_INVALID",
+  "result": "RECOVERY_STOPPED_ON_GUARD",
+  "summary": {
+    "requested": 2,
+    "processed": 2,
+    "applied": 0,
+    "skipped": 1,
+    "failed": 1
+  }
+}
