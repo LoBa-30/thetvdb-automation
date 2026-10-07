@@ -1,0 +1,39 @@
+name: Maxime Biaggi artwork preflight 2026-10-07
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/maxime-artwork-preflight-2026-10-07.yml'
+      - 'src/maxime-artwork-preflight-2026-10-07.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -U yt-dlp requests beautifulsoup4 pillow
+      - name: Read-only Maxime Biaggi artwork preflight
+        run: python src/maxime-artwork-preflight-2026-10-07.py
+      - name: Persist preflight report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/maxime-artwork-preflight-2026-10-07
+          git commit -m "Record Maxime artwork preflight [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: maxime-artwork-preflight
+          path: reports/maxime-artwork-preflight-2026-10-07/
