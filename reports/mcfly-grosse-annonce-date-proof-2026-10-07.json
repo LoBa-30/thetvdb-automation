@@ -5,11 +5,57 @@
   "title": "GROSSE ANNONCE",
   "finding": "Exact official YouTube search result now exposes publication date 2015-04-12.",
   "previousState": "Date was previously unverified because direct metadata retrieval hit YouTube anti-bot.",
-  "currentState": "DATE_PROVEN; runtime and historical TVDB identity still require proof.",
-  "action": "No TVDB creation or deletion. Continue historical matching first.",
+  "currentState": "DATE_PROVEN_AND_KNOWN_UNKNOWN_GROUPS_EXCLUDED_BY_DATE; runtime and assigned/undated historical identity still require proof.",
+  "action": "No TVDB creation or deletion. Continue assigned/undated historical matching and runtime proof.",
   "evidence": {
     "source": "indexed official YouTube result",
     "published": "2015-04-12",
     "channel": "Mcfly et Carlito"
+  },
+  "historicalCollisionCheck": {
+    "knownHistoricalUnknownGroups": [
+      {
+        "ids": [
+          "10751340",
+          "10751341"
+        ],
+        "date": "2013-05-10",
+        "count": 2
+      },
+      {
+        "ids": [
+          "10752394",
+          "10752395",
+          "10752396",
+          "10752397",
+          "10752398",
+          "10752399",
+          "10752404",
+          "10752405",
+          "10752406",
+          "10752407"
+        ],
+        "date": "2014-01-10",
+        "count": 10
+      },
+      {
+        "ids": [
+          "10752676",
+          "10752677"
+        ],
+        "date": "2015-06-07",
+        "count": 2
+      },
+      {
+        "ids": [
+          "11261473"
+        ],
+        "date": "2025-07-27",
+        "count": 1
+      }
+    ],
+    "result": "NO_DATE_COLLISION_WITH_KNOWN_HISTORICAL_UNKNOWN_GROUPS",
+    "reasoning": "GROSSE ANNONCE is proven 2015-04-12. The known historical Unknown groups are dated 2013-05-10, 2014-01-10, 2015-06-07, and 2025-07-27; therefore none can be this exact upload if TheTVDB airdate is retained correctly.",
+    "remainingRisk": "An assigned episode under a different title or an undated legacy row could still represent the upload; runtime remains unproven. No create yet."
   }
 }
