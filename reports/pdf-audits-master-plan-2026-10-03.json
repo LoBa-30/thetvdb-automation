@@ -31,8 +31,8 @@
       "pdf": "AUDIT THETVDB — ELIAN VENTRE.pdf",
       "status": "IN_PROGRESS_ARTWORK_PIPELINE_PROVEN",
       "pdfOpenWork": [
-        "S2023E04 and S2023E06 prior attempts are now understood as stage-1-only uploads; re-preflight before any full two-stage retry.",
-        "Artwork pipeline is now proven by S2024E04. Remaining clean missing-artwork candidates can be processed through guarded two-stage upload + Finish + post-write verification.",
+        "S2023E04 and S2023E06 prior attempts were stage-1-only; re-preflight before one full two-stage retry each.",
+        "Three missing artworks are now fully applied+verified via the proven two-stage path (S2024E04, S2024E07, S2025E03). Remaining clean candidates include S2024E02 and S2025E07 plus stage-1-only S2023E04/S2023E06 after re-preflight.",
         "S2023E02 and S2026E02 lack a usable official 16:9 >=640x360 thumbnail; keep artwork Ticket.",
         "S2026E08 missing artwork still requires exact current YouTube identity/provenance handling alongside the title drift.",
         "1 existing artwork provenance strong-candidate ticket remains: S2026E03."
@@ -46,7 +46,8 @@
         "S2023E06 guarded multipart file upload returned HTTP 200 but remained absent through repeated verification and current public-page check; marked SUBMITTED_PENDING_NO_RETRY.",
         "Fresh current-state audit found S2026E08 title reverted to the prior TVDB title after the Oct-06 exact current-title write was APPLIED_AND_VERIFIED. Per no-repeat rule, no second write was attempted.",
         "2026-10-07 12:23Z read-only recheck confirmed S2026E08 currently exposes the exact official YouTube title again. The prior regression self-resolved; no repeat write was made.",
-        "2026-10-07 S2024E04 two-stage artwork canary succeeded: stage1 /artwork/upload_handler -> cropper -> Finish /artwork/upload_cropper_handler -> 'Artwork successfully added' -> persistent screencap verified on episode 11092257."
+        "2026-10-07 S2024E04 two-stage artwork canary succeeded: stage1 /artwork/upload_handler -> cropper -> Finish /artwork/upload_cropper_handler -> 'Artwork successfully added' -> persistent screencap verified on episode 11092257.",
+        "2026-10-07 guarded six-artwork pilot batch added Elian S2024E07 and S2025E03; both returned 'Artwork successfully added' and persistent episode screencaps were verified. Together with the earlier S2024E04 canary, 3 Elian artworks are now fully applied+verified."
       ]
     },
     {
@@ -55,7 +56,7 @@
       "status": "IN_PROGRESS_ARTWORK_READY_DATE_BLOCKED",
       "pdfOpenWork": [
         "148 in-scope exact YouTube publication dates remain independently unverified; current GitHub runner is blocked by YouTube LOGIN_REQUIRED on all tested public player profiles. Keep as blocked/Ticket; do not bypass.",
-        "28 missing-image episodes have clean authenticated preflights and the two-stage artwork pipeline is now proven. Next step: guarded batched submission with per-episode post-write verification.",
+        "25 preflight-passed current-video missing artworks remain after 3/3 Raska pilot images were applied+verified (S2017E03, S2018E02, S2019E01). Next step: guarded larger batches with per-episode post-write verification.",
         "S2023E19 remains the sole missing-image historical TVDB-only episode with no current public YouTube counterpart; keep/no speculative artwork.",
         "Existing image provenance: 6 strong same-video candidates + 115 origin-unproven; no evidence supporting removal."
       ],
@@ -67,7 +68,8 @@
         "2026-10-07 multi-client exact-date audit v2 checked all 149 current public videos: 0 exact dates exposed. WEB, ANDROID and TVHTML5 player calls returned LOGIN_REQUIRED for 149/149; WEB_EMBEDDED_PLAYER errored for 149/149. Public watch-page fallback also exposed 0 dates. No cookie/challenge/security bypass attempted.",
         "2026-10-07 artwork preflight: 28/28 current-video missing artworks passed episode/title/form checks and expose official YouTube maxres 1280x720 references; 0 blocks and 0 stale already-present skips. S2023E19 intentionally excluded as historical TVDB-only.",
         "2026-10-07 pending-artwork materialization cross-check on prior Elian/Mcfly canaries found 0/3 materialized. TheTVDB artwork pipeline is still unproven; do not submit Raska's 28 preflight-passed images yet.",
-        "2026-10-07 two-stage artwork pipeline proven on Elian S2024E04; Raska's 28 preflight-passed images are now technically eligible for guarded batched apply with per-episode verification."
+        "2026-10-07 two-stage artwork pipeline proven on Elian S2024E04; Raska's 28 preflight-passed images are now technically eligible for guarded batched apply with per-episode verification.",
+        "2026-10-07 Raska pilot artwork batch: S2017E03, S2018E02 and S2019E01 all completed the two-stage upload/crop/Finish path and passed persistent artwork verification; 3/3 success, 0 skips, 0 blocks."
       ]
     },
     {
@@ -165,7 +167,7 @@
       "pdf": "AUDIT THETVDB — MCFLY & CARLITO.pdf",
       "status": "IN_PROGRESS_DATES_ARTWORK_HISTORICAL",
       "pdfOpenWork": [
-        "Artwork provenance/completeness; prior GROSSE ANNONCE attempt was stage-1-only and can now be re-preflighted for one complete two-stage submission.",
+        "Artwork provenance/completeness remains generally open; GROSSE ANNONCE S2015E01 artwork is now fully applied and verified.",
         "Exact YouTube publication dates remain independently unverified"
       ],
       "resolvedSincePlan": [
@@ -183,7 +185,8 @@
         "Official maxres thumbnail for S2015E01 was submitted exactly once through the guarded artwork form. Six immediate read-only post-write checks still showed no artwork, so status is SUBMITTED_VERIFICATION_PENDING_DO_NOT_RETRY. No second upload is permitted until a later read-only check proves whether TheTVDB accepted/processed the first submission.",
         "Fresh seven-entry TVDB-only historical backlog closed KEEP/NO_DELETE: S2018E08 exact official upload independently proven; S2018E19 historically corroborated; S2020E07 Maradon proven charity livestream; S2020E20 exact historical YouTube title/date corroborated; S2021E17/E18 Traversée event streams historically corroborated; S2025E58 exact official YouTube upload explicitly identified as a live replay. 7 checked, 7 keep, 0 delete candidates, 0 TVDB writes.",
         "2026-10-07 12:23Z pending-artwork recheck: S2015E01 GROSSE ANNONCE still has no materialized artwork; keep SUBMITTED_VERIFICATION_PENDING_DO_NOT_RETRY.",
-        "2026-10-07 root cause of the pending GROSSE ANNONCE artwork identified: prior workflow stopped after temporary upload stage. Full two-stage artwork path is now proven elsewhere; re-preflight before one complete Finish submission."
+        "2026-10-07 root cause of the pending GROSSE ANNONCE artwork identified: prior workflow stopped after temporary upload stage. Full two-stage artwork path is now proven elsewhere; re-preflight before one complete Finish submission.",
+        "2026-10-07 GROSSE ANNONCE artwork fully applied through the proven two-stage path and post-write verified at a persistent episode screencap URL."
       ]
     }
   ],
@@ -217,7 +220,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T12:43:00Z",
+  "lastUpdatedAt": "2026-10-07T12:49:00Z",
   "latestContinuationCommits": [
     "38c1bbafe19bfbe54c91072ab9419ec91d7715d7",
     "68bb95cb01a3f49ceb6f7e29ee530daac5e07696",
@@ -263,6 +266,9 @@
     "4a7c53b150d04e21ea5b01b971670b7991d9d417",
     "3733ebf5709f9a148f1e6faa2faa14424b5062a5",
     "a402573cb84379cd3d520443c617cd400e662ea9",
-    "465d8a4e69d87320b203840ce032409ce95f7e3d"
+    "465d8a4e69d87320b203840ce032409ce95f7e3d",
+    "4ff4327226ccf6510139b3413120962bd046c9bb",
+    "99b953d26a0f0ad73b5b3f3ff0ac7ca131acf340",
+    "0831d5dc909743e4b49697a5743af550b2b12198"
   ]
 }
