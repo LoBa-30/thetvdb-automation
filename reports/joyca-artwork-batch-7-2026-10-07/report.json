@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T16:23:35.867Z",
+  "mode": "GUARDED_JOYCA_ARTWORK_BATCH_7",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2020E10",
+    "S2020E13",
+    "S2020E14",
+    "S2020E15",
+    "S2020E16",
+    "S2020E17",
+    "S2020E18",
+    "S2020E19",
+    "S2020E20",
+    "S2020E22",
+    "S2020E23",
+    "S2020E24",
+    "S2020E25",
+    "S2020E26",
+    "S2020E27",
+    "S2020E28",
+    "S2020E29",
+    "S2020E31",
+    "S2020E33",
+    "S2020E36"
+  ],
+  "results": [
+    {
+      "code": "S2020E10",
+      "episodeId": "8070777",
+      "title": "JE VOUS PRÉSENTE MON CHATEAU !",
+      "youtubeId": "AzptOkX7S9w",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE VOUS PRÉSENTE MON CHATEAU !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/AzptOkX7S9w/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 98097
+        }
+      },
+      "crop": {
+        "id": "2329642",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6720be8f63.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070777/screencap/6ac6720d2e3d2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E13",
+      "episodeId": "8070779",
+      "title": "ON A BIEN BESOIN DE ÇA (100% POSITIVITÉ)",
+      "youtubeId": "uP-T_kgTlU0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON A BIEN BESOIN DE ÇA (100% POSITIVITÉ)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/uP-T_kgTlU0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 117802
+        }
+      },
+      "crop": {
+        "id": "2329643",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6721169ef1.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070779/screencap/6ac67212a64bc.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E14",
+      "episodeId": "7656514",
+      "title": "JOYCA - CONFINÉS",
+      "youtubeId": "QXp8RcObYSs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JOYCA - CONFINÉS",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/QXp8RcObYSs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 73383
+        }
+      },
+      "crop": {
+        "id": "2329644",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67216d07e9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7656514/screencap/6ac6721820534.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E15",
+      "episodeId": "8070780",
+      "title": "VOUS NE SAVIEZ PAS TOUT ÇA !? (moi non plus)",
+      "youtubeId": "rv0CKDoCEiQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOUS NE SAVIEZ PAS TOUT ÇA !? (moi non plus)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/rv0CKDoCEiQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 134062
+        }
+      },
+      "crop": {
+        "id": "2329645",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6721c40bb4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070780/screencap/6ac6721d6b042.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E16",
+      "episodeId": "8070781",
+      "title": "JE VOULAIS LE FAIRE DEPUIS LONGTEMPS (et ça valait le coup)",
+      "youtubeId": "2Ya-Rfp8OEA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE VOULAIS LE FAIRE DEPUIS LONGTEMPS (et ça valait le coup)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/2Ya-Rfp8OEA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 94412
+        }
+      },
+      "crop": {
+        "id": "2329646",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac672212a4b5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070781/screencap/6ac672224b8b3.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E17",
+      "episodeId": "8070782",
+      "title": "JE DÉCOUVRE DES INSTRUMENTS AVEC VOUS ! (J'essaye d'en jouer)",
+      "youtubeId": "by_TQ4aoiPU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE DÉCOUVRE DES INSTRUMENTS AVEC VOUS ! (J'essaye d'en jouer)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/by_TQ4aoiPU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 84449
+        }
+      },
+      "crop": {
+        "id": "2329647",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6722625b1f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070782/screencap/6ac672274ff98.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E18",
+      "episodeId": "8070783",
+      "title": "CES SITUATIONS N'ARRIVERONT JAMAIS ! (Troom Troom) #2",
+      "youtubeId": "JWFMOIeEsH8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CES SITUATIONS N'ARRIVERONT JAMAIS ! (Troom Troom) #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/JWFMOIeEsH8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 77301
+        }
+      },
+      "crop": {
+        "id": "2329648",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6722b5ed34.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070783/screencap/6ac6722c80fe2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E19",
+      "episodeId": "8070784",
+      "title": "TOUT ÇA ÉTAIT RESTÉ CACHÉ ! (parfois c'est pas plus mal)",
+      "youtubeId": "aPiH8HiCF6E",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "TOUT ÇA ÉTAIT RESTÉ CACHÉ ! (parfois c'est pas plus mal)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/aPiH8HiCF6E/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 94993
+        }
+      },
+      "crop": {
+        "id": "2329649",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac672303ce93.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070784/screencap/6ac672315c7a4.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E20",
+      "episodeId": "8070785",
+      "title": "C'EST POSSIBLE ÇA ? (WTF)",
+      "youtubeId": "fgZcAwAu4CM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "C'EST POSSIBLE ÇA ? (WTF)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/fgZcAwAu4CM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 96888
+        }
+      },
+      "crop": {
+        "id": "2329650",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac672352d2c4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070785/screencap/6ac672365a0eb.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E22",
+      "episodeId": "7761533",
+      "title": "J'AI BIEN AIMÉ LE CONFINEMENT ! (enfin, pas totalement)",
+      "youtubeId": "uAjnnehj5Hs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'AI BIEN AIMÉ LE CONFINEMENT ! (enfin, pas totalement)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/uAjnnehj5Hs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 65093
+        }
+      },
+      "crop": {
+        "id": "2329651",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6723a79275.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7761533/screencap/6ac6723b93614.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E23",
+      "episodeId": "8070787",
+      "title": "J'AURAIS PRÉFÉRÉ NE PAS LE SAVOIR",
+      "youtubeId": "DpD8OoBQoBQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'AURAIS PRÉFÉRÉ NE PAS LE SAVOIR",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/DpD8OoBQoBQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 101921
+        }
+      },
+      "crop": {
+        "id": "2329652",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6723f5abda.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070787/screencap/6ac6724079178.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E24",
+      "episodeId": "8070788",
+      "title": "CES ADDICTIONS SONT ÉTRANGES...",
+      "youtubeId": "2J4KL2WOT9c",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CES ADDICTIONS SONT ÉTRANGES...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/2J4KL2WOT9c/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 84047
+        }
+      },
+      "crop": {
+        "id": "2329653",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac672443b9a8.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070788/screencap/6ac6724564bc1.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E25",
+      "episodeId": "7802695",
+      "title": "OSEREZ-VOUS ME DÉFIER ? (Blindtest années 2000)",
+      "youtubeId": "z5yWtX1PB2U",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "OSEREZ-VOUS ME DÉFIER ? (Blindtest années 2000)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/z5yWtX1PB2U/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 81313
+        }
+      },
+      "crop": {
+        "id": "2329654",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac672493816a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7802695/screencap/6ac6724a637cd.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E26",
+      "episodeId": "8070789",
+      "title": "ILS PEUVENT RUINER TA JOURNÉE (Tout en restant mignons)",
+      "youtubeId": "XYKeon4tSeU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ILS PEUVENT RUINER TA JOURNÉE (Tout en restant mignons)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/XYKeon4tSeU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 89539
+        }
+      },
+      "crop": {
+        "id": "2329655",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6724e3d9ad.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070789/screencap/6ac6724f6f4a2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E27",
+      "episodeId": "8070791",
+      "title": "JE DÉCOUVRE MON \"TYPE\" ! (Test Ennéagramme)",
+      "youtubeId": "J42lCV5AnPM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE DÉCOUVRE MON \"TYPE\" ! (Test Ennéagramme)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/J42lCV5AnPM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 88579
+        }
+      },
+      "crop": {
+        "id": "2329656",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac672534a6c4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070791/screencap/6ac67254baaf9.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E28",
+      "episodeId": "8070792",
+      "title": "C'EST MA NOUVELLE PASSION ! (J'abuse un peu)",
+      "youtubeId": "cVRxophRkzk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "C'EST MA NOUVELLE PASSION ! (J'abuse un peu)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/cVRxophRkzk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 135761
+        }
+      },
+      "crop": {
+        "id": "2329657",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67258b89f8.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070792/screencap/6ac6725a11957.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E29",
+      "episodeId": "8070793",
+      "title": "J'ARRIVE PAS À DÉFINIR CES VIDEOS (mais j'aime bien)",
+      "youtubeId": "3KpaosWi8Ms",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'ARRIVE PAS À DÉFINIR CES VIDEOS (mais j'aime bien)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/3KpaosWi8Ms/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 82288
+        }
+      },
+      "crop": {
+        "id": "2329658",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6725df30ef.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070793/screencap/6ac6725f386f6.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E31",
+      "episodeId": "7864139",
+      "title": "FAIRE UN HIT AVEC ÇA ? (et sur un thème imposé)",
+      "youtubeId": "KVER4pCgYuM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FAIRE UN HIT AVEC ÇA ? (et sur un thème imposé)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/KVER4pCgYuM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 96537
+        }
+      },
+      "crop": {
+        "id": "2329659",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6726327d72.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7864139/screencap/6ac672644f8c8.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E33",
+      "episodeId": "8070796",
+      "title": "VOS SOIRÉES QUI ONT FAILLI (TRÈS) MAL FINIR ! (Feat Amixem)",
+      "youtubeId": "DTs12U36x54",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOS SOIRÉES QUI ONT FAILLI (TRÈS) MAL FINIR ! (Feat Amixem)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/DTs12U36x54/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 102248
+        }
+      },
+      "crop": {
+        "id": "2329660",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac672682bc3b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070796/screencap/6ac672697541d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E36",
+      "episodeId": "8070798",
+      "title": "SUIS-JE MEILLEUR QU'UN CHIMPANZÉ ? (Non, et vous non plus)",
+      "youtubeId": "2g-JQ8dHElY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SUIS-JE MEILLEUR QU'UN CHIMPANZÉ ? (Non, et vous non plus)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/2g-JQ8dHElY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 85893
+        }
+      },
+      "crop": {
+        "id": "2329661",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6726d5afbd.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070798/screencap/6ac6726ee96ad.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
