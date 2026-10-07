@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T14:15:25.640Z",
+  "mode": "GUARDED_JOYCA_ARTWORK_BATCH_1",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2016E02",
+    "S2016E03",
+    "S2016E05",
+    "S2016E06",
+    "S2016E07",
+    "S2016E08",
+    "S2016E10",
+    "S2016E11",
+    "S2016E12",
+    "S2016E13",
+    "S2016E14",
+    "S2016E15",
+    "S2016E16",
+    "S2016E17",
+    "S2016E18",
+    "S2016E21",
+    "S2016E22",
+    "S2016E23",
+    "S2016E24",
+    "S2016E25"
+  ],
+  "results": [
+    {
+      "code": "S2016E02",
+      "episodeId": "6342669",
+      "title": "CYPRIEN - WILLIAM EST GENTIL (REMIX)",
+      "youtubeId": "qyfTF1UHX3M",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CYPRIEN - WILLIAM EST GENTIL (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/qyfTF1UHX3M/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 136089
+        }
+      },
+      "crop": {
+        "id": "2329140",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6540230a4d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342669/screencap/6ac6540374076.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E03",
+      "episodeId": "6342670",
+      "title": "SQUEEZIE - CE PETIT COTE KAWAII (REMIX)",
+      "youtubeId": "NIKPZS3ji8M",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SQUEEZIE - CE PETIT COTE KAWAII (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/NIKPZS3ji8M/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 127775
+        }
+      },
+      "crop": {
+        "id": "2329141",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65407edf45.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342670/screencap/6ac654093f46a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E05",
+      "episodeId": "6342683",
+      "title": "YOUTUNES - MA PREMIERE FAQ + REACTION",
+      "youtubeId": "BexGaGbXB4Q",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "YOUTUNES - MA PREMIERE FAQ + REACTION",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/BexGaGbXB4Q/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 175038
+        }
+      },
+      "crop": {
+        "id": "2329142",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6540d650dc.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342683/screencap/6ac6540e960d7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E06",
+      "episodeId": "6342687",
+      "title": "AMIXEM - AMIXEM DIE PIE (REMIX)",
+      "youtubeId": "Ck7cT5t0I68",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "AMIXEM - AMIXEM DIE PIE (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Ck7cT5t0I68/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 121744
+        }
+      },
+      "crop": {
+        "id": "2329143",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65412aef16.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342687/screencap/6ac65413e3372.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E07",
+      "episodeId": "6342694",
+      "title": "ANTOINE DANIEL - LE BOSS FINAL DES INTERNETS (REMIX)",
+      "youtubeId": "cfTjxh5J6qU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ANTOINE DANIEL - LE BOSS FINAL DES INTERNETS (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/cfTjxh5J6qU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 139123
+        }
+      },
+      "crop": {
+        "id": "2329144",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac654182a10c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342694/screencap/6ac65419574ee.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E08",
+      "episodeId": "6342702",
+      "title": "FAQ #2 - QUESTIONS + ANNONCE VIDEO SPECIALE",
+      "youtubeId": "Iox5y3Ry0Gg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FAQ #2 - QUESTIONS + ANNONCE VIDEO SPECIALE",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Iox5y3Ry0Gg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 113617
+        }
+      },
+      "crop": {
+        "id": "2329145",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6541dab020.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342702/screencap/6ac6541ed3f6c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E10",
+      "episodeId": "6342711",
+      "title": "YOUTUNES - 100.000 ABONNES ! (REMIX)",
+      "youtubeId": "bNxPJav5NfY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "YOUTUNES - 100.000 ABONNES ! (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/bNxPJav5NfY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 105589
+        }
+      },
+      "crop": {
+        "id": "2329146",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65422c7efa.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342711/screencap/6ac65423ef67a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E11",
+      "episodeId": "6342716",
+      "title": "YOUTUNES - QUAND TU PARS PAS EN VACANCES (MUSIQUE)",
+      "youtubeId": "iyRbE0ZLxMA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "YOUTUNES - QUAND TU PARS PAS EN VACANCES (MUSIQUE)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/iyRbE0ZLxMA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 173416
+        }
+      },
+      "crop": {
+        "id": "2329147",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac654280c8dc.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342716/screencap/6ac65429395b2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E12",
+      "episodeId": "6342719",
+      "title": "TIBO INSHAPE - ENORME ET SECHE ! (REMIX)",
+      "youtubeId": "In5MNx1sicc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "TIBO INSHAPE - ENORME ET SECHE ! (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/In5MNx1sicc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 114113
+        }
+      },
+      "crop": {
+        "id": "2329148",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6542d51d18.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342719/screencap/6ac6542e7d2be.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E13",
+      "episodeId": "6342723",
+      "title": "SUP3RKONAR - MON HOMME IDEAL (REMIX)",
+      "youtubeId": "Vi8U9TQ_Ab4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SUP3RKONAR - MON HOMME IDEAL (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Vi8U9TQ_Ab4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 124734
+        }
+      },
+      "crop": {
+        "id": "2329149",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6543275c72.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342723/screencap/6ac65433a335b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E14",
+      "episodeId": "6342724",
+      "title": "YOUTUNES - RAP POKEMON GO (MUSIQUE)",
+      "youtubeId": "mCy_QUWfadI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "YOUTUNES - RAP POKEMON GO (MUSIQUE)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/mCy_QUWfadI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 161895
+        }
+      },
+      "crop": {
+        "id": "2329150",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65437dc0d5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342724/screencap/6ac6543926ca2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E15",
+      "episodeId": "6342725",
+      "title": "FULL METAL JACKET - MON CUL (REMIX)",
+      "youtubeId": "t3CYIm1JjLw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FULL METAL JACKET - MON CUL (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/t3CYIm1JjLw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 131470
+        }
+      },
+      "crop": {
+        "id": "2329151",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6543d599ee.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342725/screencap/6ac6543e91762.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E16",
+      "episodeId": "6342727",
+      "title": "QUI EST YOUTUNES ?",
+      "youtubeId": "1MlwYaH5OYg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "QUI EST YOUTUNES ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/1MlwYaH5OYg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 97523
+        }
+      },
+      "crop": {
+        "id": "2329152",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65442aac84.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342727/screencap/6ac65443de15c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E17",
+      "episodeId": "6342726",
+      "title": "WANKIL STUDIO - CORENTIN (REMIX)",
+      "youtubeId": "-UKCyiM6EAg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "WANKIL STUDIO - CORENTIN (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/-UKCyiM6EAg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 161180
+        }
+      },
+      "crop": {
+        "id": "2329153",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6544860fbb.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342726/screencap/6ac654499d9f1.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E18",
+      "episodeId": "6342728",
+      "title": "WANKIL STUDIO - CORENTIN (INSTRUMENTAL)",
+      "youtubeId": "XU8Ea7luoV8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "WANKIL STUDIO - CORENTIN (INSTRUMENTAL)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/XU8Ea7luoV8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 148751
+        }
+      },
+      "crop": {
+        "id": "2329154",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6544dc7bc2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342728/screencap/6ac6544f047e4.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E21",
+      "episodeId": "6342736",
+      "title": "YOUTUNES FEAT NOU - JE VOUS ECLATE LES BITES (REMIX)",
+      "youtubeId": "aJcv8Pe_9rg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "YOUTUNES FEAT NOU - JE VOUS ECLATE LES BITES (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/aJcv8Pe_9rg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 118210
+        }
+      },
+      "crop": {
+        "id": "2329155",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac654532722b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342736/screencap/6ac6545453b75.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E22",
+      "episodeId": "6342741",
+      "title": "DE LA MUSIQUE NO COPYRIGHT ? (+ ANNONCE FAQ)",
+      "youtubeId": "zH3rXQM_1Pg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DE LA MUSIQUE NO COPYRIGHT ? (+ ANNONCE FAQ)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/zH3rXQM_1Pg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 120320
+        }
+      },
+      "crop": {
+        "id": "2329157",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6545885891.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342741/screencap/6ac65459b09a4.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E23",
+      "episodeId": "6342740",
+      "title": "MATHIEU SOMMET - ILS SONT COOLS (REMIX)",
+      "youtubeId": "xrrX4qBIQ1o",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MATHIEU SOMMET - ILS SONT COOLS (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/xrrX4qBIQ1o/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 109609
+        }
+      },
+      "crop": {
+        "id": "2329158",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6545dc9efc.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342740/screencap/6ac6545f0f159.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E24",
+      "episodeId": "6342743",
+      "title": "Pen Pineapple Apple Pen PPAP (YOUTUNES REMIX)",
+      "youtubeId": "MEz9XuHBPV4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Pen Pineapple Apple Pen PPAP (YOUTUNES REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/MEz9XuHBPV4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 152176
+        }
+      },
+      "crop": {
+        "id": "2329159",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac654635ef8e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342743/screencap/6ac65464a6e21.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E25",
+      "episodeId": "6342746",
+      "title": "YOUTUNES - ANUBIS (MUSIQUE NO COPYRIGHT)",
+      "youtubeId": "HouKo4qk1tA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "YOUTUNES - ANUBIS (MUSIQUE NO COPYRIGHT)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/HouKo4qk1tA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 120969
+        }
+      },
+      "crop": {
+        "id": "2329160",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65468b79f7.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342746/screencap/6ac6546a0ba2c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
