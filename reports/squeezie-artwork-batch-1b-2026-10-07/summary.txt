@@ -1,0 +1,8 @@
+authenticated=false
+requested=4
+processed=0
+applied=0
+skipped=0
+failed=0
+stopped=false
+result=FATAL_BEFORE_BATCH

@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-10-07T13:39:58.415Z",
+  "mode": "GUARDED_SQUEEZIE_ARTWORK_BATCH_1B",
+  "armed": true,
+  "authenticated": false,
+  "targets": [
+    "S2011E59",
+    "S2011E71",
+    "S2011E79",
+    "S2011E81"
+  ],
+  "results": [],
+  "stopped": false,
+  "stopReason": null,
+  "result": "FATAL_BEFORE_BATCH",
+  "fatal": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('form').filter({ has: locator('input[name=\"password\"]') }).first().locator('button[type=\"submit\"],input[type=\"submit\"]').first()\n    - locator resolved to <button type=\"submit\" class=\"btn btn-default btn-default\">Login</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n    - click action done\n    - waiting for scheduled navigations to finish\n\n    at /home/runner/work/thetvdb-automation/thetvdb-automation/src/squeezie-artwork-batch-1b.js:29:143"
+}
