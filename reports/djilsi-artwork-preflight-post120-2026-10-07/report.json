@@ -1,0 +1,5239 @@
+{
+  "generatedAt": null,
+  "mode": "READ_ONLY_DJILSI_MISSING_ARTWORK_PREFLIGHT_POST120",
+  "tvdb": [
+    {
+      "season": 2018,
+      "episode": 1,
+      "code": "S2018E01",
+      "episodeId": "9242990",
+      "title": "PARTIR EN TOUR DE FRANCE EN IMPRO TOTALE ! #DécouvreTonPays 1",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9242990"
+    },
+    {
+      "season": 2018,
+      "episode": 2,
+      "code": "S2018E02",
+      "episodeId": "9242991",
+      "title": "DES B*TES PARTOUT ! #DécouvreTonPays 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9242991"
+    },
+    {
+      "season": 2018,
+      "episode": 3,
+      "code": "S2018E03",
+      "episodeId": "9242992",
+      "title": "SUR LA PLUS HAUTE DUNE D'EUROPE ! #DécouvreTonPays 3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9242992"
+    },
+    {
+      "season": 2018,
+      "episode": 4,
+      "code": "S2018E04",
+      "episodeId": "9242993",
+      "title": "TOUT NU DANS LA LAVANDE ?! #DécouvreTonPays 4",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9242993"
+    },
+    {
+      "season": 2018,
+      "episode": 5,
+      "code": "S2018E05",
+      "episodeId": "9242994",
+      "title": "RIEN NE S'EST PASSÉ COMME PRÉVU... #DécouvreTonPays 5",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9242994"
+    },
+    {
+      "season": 2018,
+      "episode": 6,
+      "code": "S2018E06",
+      "episodeId": "9242995",
+      "title": "UN GENDARME ME MET UNE PRESSION PAR TELEPHONE ! #DécouvreTonPays 6",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9242995"
+    },
+    {
+      "season": 2018,
+      "episode": 7,
+      "code": "S2018E07",
+      "episodeId": "9242996",
+      "title": "JE ME FAIS EMBROUILLER EN SORTANT D'UN BAR ! #DécouvreTonPays 7",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9242996"
+    },
+    {
+      "season": 2018,
+      "episode": 8,
+      "code": "S2018E08",
+      "episodeId": "9242997",
+      "title": "ON N'A PLUS DE CHAUSSURES ! #DécouvreTonPays 8",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9242997"
+    },
+    {
+      "season": 2018,
+      "episode": 9,
+      "code": "S2018E09",
+      "episodeId": "9242998",
+      "title": "JE VEUX FAIRE DEMI-TOUR SUR L'AUTOROUTE ! #DécouvreTonPays 9 (final saison 1)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9242998"
+    },
+    {
+      "season": 2018,
+      "episode": 10,
+      "code": "S2018E10",
+      "episodeId": "9243015",
+      "title": "NOS GALÈRES EN GRÈCE + POSEZ-MOI VOS QUESTIONS",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243015"
+    },
+    {
+      "season": 2018,
+      "episode": 11,
+      "code": "S2018E11",
+      "episodeId": "9243016",
+      "title": "J’AI CASSÉ MA CAMÉRA... #BourbiersDor 1",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243016"
+    },
+    {
+      "season": 2018,
+      "episode": 12,
+      "code": "S2018E12",
+      "episodeId": "9243017",
+      "title": "CACHÉS DANS LES TOILETTES D'UN TRAIN EN ALLEMAGNE #BourbiersDor 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243017"
+    },
+    {
+      "season": 2018,
+      "episode": 13,
+      "code": "S2018E13",
+      "episodeId": "9243018",
+      "title": "SE LANCER SUR YOUTUBE #JournalDeBord EP1",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243018"
+    },
+    {
+      "season": 2018,
+      "episode": 14,
+      "code": "S2018E14",
+      "episodeId": "9243019",
+      "title": "PROBLEMES D'ARGENT #JournalDeBord EP2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243019"
+    },
+    {
+      "season": 2018,
+      "episode": 15,
+      "code": "S2018E15",
+      "episodeId": "9243020",
+      "title": "COUP DE POKER #JournalDeBord EP3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243020"
+    },
+    {
+      "season": 2018,
+      "episode": 16,
+      "code": "S2018E16",
+      "episodeId": "9243021",
+      "title": "AU MILIEU D'UNE MANIFESTATION DES GILETS JAUNES !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243021"
+    },
+    {
+      "season": 2018,
+      "episode": 17,
+      "code": "S2018E17",
+      "episodeId": "9243022",
+      "title": "BESOIN D'AIDE... #JournalDeBord EP4",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243022"
+    },
+    {
+      "season": 2018,
+      "episode": 18,
+      "code": "S2018E18",
+      "episodeId": "9243023",
+      "title": "UNE SOLUTION RADICALE #JournalDeBord EP5",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243023"
+    },
+    {
+      "season": 2018,
+      "episode": 19,
+      "code": "S2018E19",
+      "episodeId": "9243024",
+      "title": "LES RETROUVAILLES #JournalDeBord EP6 - FINAL SAISON 1",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243024"
+    },
+    {
+      "season": 2019,
+      "episode": 1,
+      "code": "S2019E01",
+      "episodeId": "9243028",
+      "title": "QUELLES SONT VOS RÉSOLUTIONS 2019 ? INTERVIEW CHELOU #1",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243028"
+    },
+    {
+      "season": 2019,
+      "episode": 2,
+      "code": "S2019E02",
+      "episodeId": "9243029",
+      "title": "QUELLE EST VOTRE PIRE CONNERIE ? INTERVIEW CHELOU #2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243029"
+    },
+    {
+      "season": 2019,
+      "episode": 3,
+      "code": "S2019E03",
+      "episodeId": "9243030",
+      "title": "QUEL EST VOTRE FANTASME ? INTERVIEW CHELOU #3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243030"
+    },
+    {
+      "season": 2019,
+      "episode": 4,
+      "code": "S2019E04",
+      "episodeId": "9243031",
+      "title": "LA SAINT VALENTIN, CA VEUT DIRE QUOI ? INTERVIEW CHELOU #4",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243031"
+    },
+    {
+      "season": 2019,
+      "episode": 5,
+      "code": "S2019E05",
+      "episodeId": "9243032",
+      "title": "LES PARISIENS SONT-ILS CHIANTS ? INTERVIEW CHELOU #5",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243032"
+    },
+    {
+      "season": 2019,
+      "episode": 6,
+      "code": "S2019E06",
+      "episodeId": "9243033",
+      "title": "ETRE INSUPPORTABLE DANS LE METRO ! CACHE LA CAM #1",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243033"
+    },
+    {
+      "season": 2019,
+      "episode": 7,
+      "code": "S2019E07",
+      "episodeId": "9243034",
+      "title": "LE PIRE ÉLÈVE À LA FAC ! CACHE LA CAM #2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243034"
+    },
+    {
+      "season": 2019,
+      "episode": 8,
+      "code": "S2019E08",
+      "episodeId": "9243035",
+      "title": "LE MEC LE PLUS CHELOU DANS LA RUE ! CACHE LA CAM #3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243035"
+    },
+    {
+      "season": 2019,
+      "episode": 9,
+      "code": "S2019E09",
+      "episodeId": "9243036",
+      "title": "LE PIRE CLIENT A L'HOTEL ! CACHE LA CAM #4",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243036"
+    },
+    {
+      "season": 2019,
+      "episode": 10,
+      "code": "S2019E10",
+      "episodeId": "9243037",
+      "title": "LE PIRE MAGICIEN DU MONDE ! CACHE LA CAM #5",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243037"
+    },
+    {
+      "season": 2019,
+      "episode": 11,
+      "code": "S2019E11",
+      "episodeId": "9243038",
+      "title": "100.000 ABONNES EN UNE SEMAINE ?! ❤️ #FAQ",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243038"
+    },
+    {
+      "season": 2019,
+      "episode": 12,
+      "code": "S2019E12",
+      "episodeId": "9243039",
+      "title": "LE PIRE MEC DANS LE METRO PARISIEN ! CACHE LA CAM #6",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243039"
+    },
+    {
+      "season": 2019,
+      "episode": 13,
+      "code": "S2019E13",
+      "episodeId": "9243040",
+      "title": "LES PIRES SERVEURS DU MONDE ! CACHE LA CAM #7",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243040"
+    },
+    {
+      "season": 2019,
+      "episode": 14,
+      "code": "S2019E14",
+      "episodeId": "9243041",
+      "title": "LE FESTIVAL DE CANNES, ÇA VAUT LE COUP ? INTERVIEW CHELOU #6",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243041"
+    },
+    {
+      "season": 2019,
+      "episode": 15,
+      "code": "S2019E15",
+      "episodeId": "9243042",
+      "title": "UNE FEMME FLIPPANTE AU BORD DE LA ROUTE ! #NosAventuresàCannes Part 1",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243042"
+    },
+    {
+      "season": 2019,
+      "episode": 16,
+      "code": "S2019E16",
+      "episodeId": "9243043",
+      "title": "UNE ACTRICE ME FAIT UN CLIN D'OEIL ! #NosAventuresàCannes Part 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243043"
+    },
+    {
+      "season": 2019,
+      "episode": 17,
+      "code": "S2019E17",
+      "episodeId": "9243044",
+      "title": "MES PROBLEMES AVEC LA POLICE !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243044"
+    },
+    {
+      "season": 2019,
+      "episode": 18,
+      "code": "S2019E18",
+      "episodeId": "9243045",
+      "title": "UN RACKETTEUR A VOULU ME PLANTER",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243045"
+    },
+    {
+      "season": 2019,
+      "episode": 19,
+      "code": "S2019E19",
+      "episodeId": "9243046",
+      "title": "LE PIRE EMPLOYÉ D'UN HOTEL ! CACHE LA CAM #8",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243046"
+    },
+    {
+      "season": 2019,
+      "episode": 20,
+      "code": "S2019E20",
+      "episodeId": "9243047",
+      "title": "ON VA QUELQUE PART AU HASARD SUR GOOGLE MAPS ! #OnVaOù",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243047"
+    },
+    {
+      "season": 2019,
+      "episode": 21,
+      "code": "S2019E21",
+      "episodeId": "9243048",
+      "title": "DES SUPPORTERS DU PSG À MARSEILLE ?! #OnVaOù",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243048"
+    },
+    {
+      "season": 2019,
+      "episode": 22,
+      "code": "S2019E22",
+      "episodeId": "9243049",
+      "title": "ON S'INCRUSTE CHEZ DES GENS ! #OnVaOù",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243049"
+    },
+    {
+      "season": 2019,
+      "episode": 23,
+      "code": "S2019E23",
+      "episodeId": "9243050",
+      "title": "LE MOMENT LE PLUS GÊNANT DE NOTRE VIE ! #OnVaOù (final saison 1)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243050"
+    },
+    {
+      "season": 2019,
+      "episode": 24,
+      "code": "S2019E24",
+      "episodeId": "9243051",
+      "title": "1 AN SUR YOUTUBE : JE VOUS DIS TOUT !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243051"
+    },
+    {
+      "season": 2019,
+      "episode": 25,
+      "code": "S2019E25",
+      "episodeId": "9243052",
+      "title": "LE PIRE MEC DANS LA RUE ! CACHE LA CAM #9",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243052"
+    },
+    {
+      "season": 2019,
+      "episode": 26,
+      "code": "S2019E26",
+      "episodeId": "9243053",
+      "title": "J'AI CASSÉ LE NEZ DE MON MEILLEUR AMI...",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243053"
+    },
+    {
+      "season": 2019,
+      "episode": 27,
+      "code": "S2019E27",
+      "episodeId": "9243055",
+      "title": "JE VOUS LE DIS ENFIN...?",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243055"
+    },
+    {
+      "season": 2019,
+      "episode": 28,
+      "code": "S2019E28",
+      "episodeId": "9243056",
+      "title": "J’AI FAIT LE SAUT À L’ÉLASTIQUE LE PLUS HAUT D'EUROPE ! (je me suis ch*é dessus)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243056"
+    },
+    {
+      "season": 2019,
+      "episode": 29,
+      "code": "S2019E29",
+      "episodeId": "9243057",
+      "title": "LES FRANCAIS SONT-ILS PERVERS ? INTERVIEW CHELOU #7",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243057"
+    },
+    {
+      "season": 2019,
+      "episode": 30,
+      "code": "S2019E30",
+      "episodeId": "9243058",
+      "title": "LE PIRE CLIENT AU CENTRE COMMERCIAL ! CACHE LA CAM #10",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243058"
+    },
+    {
+      "season": 2019,
+      "episode": 31,
+      "code": "S2019E31",
+      "episodeId": "9243059",
+      "title": "ON VA QUELQUE PART AU HASARD EN EUROPE ! #OnVaOù2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243059"
+    },
+    {
+      "season": 2019,
+      "episode": 32,
+      "code": "S2019E32",
+      "episodeId": "9243060",
+      "title": "UN CACHE-CACHE DANS TOUTE LA VILLE ! #OnVaOù2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243060"
+    },
+    {
+      "season": 2019,
+      "episode": 33,
+      "code": "S2019E33",
+      "episodeId": "9243061",
+      "title": "ON VA FINIR PAR METTRE LE FEU... #OnVaOù2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243061"
+    },
+    {
+      "season": 2019,
+      "episode": 34,
+      "code": "S2019E34",
+      "episodeId": "9243062",
+      "title": "LA PIRE SOIRÉE HALLOWEEN ! #OnVaOù2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243062"
+    },
+    {
+      "season": 2019,
+      "episode": 35,
+      "code": "S2019E35",
+      "episodeId": "9243063",
+      "title": "DANS UN CHAMP EN PLEINE NUIT EN SLOVENIE ! #OnVaOù2 (final saison 2)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243063"
+    },
+    {
+      "season": 2019,
+      "episode": 36,
+      "code": "S2019E36",
+      "episodeId": "9243064",
+      "title": "LE PIRE VENDEUR DU MONDE ! CACHE LA CAM #11",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243064"
+    },
+    {
+      "season": 2019,
+      "episode": 37,
+      "code": "S2019E37",
+      "episodeId": "9243070",
+      "title": "VOTRE PIRE NOËL ? INTERVIEW CHELOU #8",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243070"
+    },
+    {
+      "season": 2019,
+      "episode": 38,
+      "code": "S2019E38",
+      "episodeId": "9243073",
+      "title": "LE PIRE COACH SPORTIF ! CACHE LA CAM #12",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243073"
+    },
+    {
+      "season": 2019,
+      "episode": 39,
+      "code": "S2019E39",
+      "episodeId": "9243072",
+      "title": "LA NUIT LA PLUS ÉTRANGE DE MA VIE !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243072"
+    },
+    {
+      "season": 2019,
+      "episode": 40,
+      "code": "S2019E40",
+      "episodeId": "9243071",
+      "title": "LE PIRE MEC DANS LE MÉTRO ! CACHE LA CAM #13",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243071"
+    },
+    {
+      "season": 2019,
+      "episode": 41,
+      "code": "S2019E41",
+      "episodeId": "9243075",
+      "title": "LE PIRE DÉPRESSIF DANS LA RUE ! CACHE LA CAM #14",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243075"
+    },
+    {
+      "season": 2019,
+      "episode": 42,
+      "code": "S2019E42",
+      "episodeId": "9243076",
+      "title": "LE PIRE COACH SPORTIF 2 ! CACHE LA CAM #15",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243076"
+    },
+    {
+      "season": 2019,
+      "episode": 43,
+      "code": "S2019E43",
+      "episodeId": "9243077",
+      "title": "LA NUIT OÙ JE SUIS DEVENU FOU !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243077"
+    },
+    {
+      "season": 2019,
+      "episode": 44,
+      "code": "S2019E44",
+      "episodeId": "9243078",
+      "title": "VICTIMES D’UN PICKPOCKET EN ESPAGNE !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243078"
+    },
+    {
+      "season": 2019,
+      "episode": 45,
+      "code": "S2019E45",
+      "episodeId": "9243079",
+      "title": "LE PIRE TATOUEUR DU MONDE ! CACHE LA CAM #16",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243079"
+    },
+    {
+      "season": 2020,
+      "episode": 1,
+      "code": "S2020E01",
+      "episodeId": "9243086",
+      "title": "ON DONNE LES CADEAUX DU LIVE DE MCFLY & CARLITO !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243086"
+    },
+    {
+      "season": 2020,
+      "episode": 2,
+      "code": "S2020E02",
+      "episodeId": "9243081",
+      "title": "POURQUOI J'AI FAIT ÇA...",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243081"
+    },
+    {
+      "season": 2020,
+      "episode": 3,
+      "code": "S2020E03",
+      "episodeId": "9243082",
+      "title": "PARTIR SUR UN POINT GPS AU HASARD ! #OnVaOù3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243082"
+    },
+    {
+      "season": 2020,
+      "episode": 4,
+      "code": "S2020E04",
+      "episodeId": "9243083",
+      "title": "LA SOIRÉE DU CHAOS ! #OnVaOù3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243083"
+    },
+    {
+      "season": 2020,
+      "episode": 5,
+      "code": "S2020E05",
+      "episodeId": "9243084",
+      "title": "DES CONFLITS AU SEIN DU GROUPE !! #OnVaOù3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243084"
+    },
+    {
+      "season": 2020,
+      "episode": 6,
+      "code": "S2020E06",
+      "episodeId": "9243085",
+      "title": "LA CAUTION DOIT SAUTER !! #OnVaOù3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243085"
+    },
+    {
+      "season": 2020,
+      "episode": 7,
+      "code": "S2020E07",
+      "episodeId": "9243130",
+      "title": "ON A FAIT N’IMPORTE QUOI... #OnVaOù3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243130"
+    },
+    {
+      "season": 2020,
+      "episode": 8,
+      "code": "S2020E08",
+      "episodeId": "9243132",
+      "title": "ON A DÉTRUIT L'HOTEL ! (désolé) #OnVaOù3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243132"
+    },
+    {
+      "season": 2020,
+      "episode": 9,
+      "code": "S2020E09",
+      "episodeId": "9243133",
+      "title": "J'AI FAILLI TOUT PERDRE !! #OnVaOù3 (final saison 3)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243133"
+    },
+    {
+      "season": 2020,
+      "episode": 10,
+      "code": "S2020E10",
+      "episodeId": "9243134",
+      "title": "MES MEILLEURES (ou pires) STORIES INSTAGRAM",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243134"
+    },
+    {
+      "season": 2020,
+      "episode": 11,
+      "code": "S2020E11",
+      "episodeId": "9243135",
+      "title": "IL A ABUSÉ !! (en vrai c’est drôle)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243135"
+    },
+    {
+      "season": 2020,
+      "episode": 12,
+      "code": "S2020E12",
+      "episodeId": "9243136",
+      "title": "J'AI INSULTÉ UN PROF !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243136"
+    },
+    {
+      "season": 2020,
+      "episode": 13,
+      "code": "S2020E13",
+      "episodeId": "9243137",
+      "title": "TU PERDS, TU POMPES !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243137"
+    },
+    {
+      "season": 2020,
+      "episode": 14,
+      "code": "S2020E14",
+      "episodeId": "9243138",
+      "title": "J’AI CRAQUÉ AVANT LA FIN...",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243138"
+    },
+    {
+      "season": 2020,
+      "episode": 15,
+      "code": "S2020E15",
+      "episodeId": "9243139",
+      "title": "JE ME SUIS BATTU AVEC UN ENFANT (jai gagné)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243139"
+    },
+    {
+      "season": 2020,
+      "episode": 16,
+      "code": "S2020E16",
+      "episodeId": "9243140",
+      "title": "NOTRE VIE VA CHANGER !!",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243140"
+    },
+    {
+      "season": 2020,
+      "episode": 17,
+      "code": "S2020E17",
+      "episodeId": "9243152",
+      "title": "TRAHI PAR MON AMI ! (cache-cache avec des potes pas fiables)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243152"
+    },
+    {
+      "season": 2020,
+      "episode": 18,
+      "code": "S2020E18",
+      "episodeId": "9243153",
+      "title": "SUR LE TOURNAGE D'UN FILM HOLLYWOODIEN (vous savez que j'abuse)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243153"
+    },
+    {
+      "season": 2020,
+      "episode": 19,
+      "code": "S2020E19",
+      "episodeId": "9243154",
+      "title": "j'ai perdu mes sourcils...",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243154"
+    },
+    {
+      "season": 2020,
+      "episode": 20,
+      "code": "S2020E20",
+      "episodeId": "9243155",
+      "title": "ON A FOUTU UN JACUZZI DANS LE BUREAU (c'est bon ?)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243155"
+    },
+    {
+      "season": 2020,
+      "episode": 21,
+      "code": "S2020E21",
+      "episodeId": "9243156",
+      "title": "UN POINT GPS AU HASARD, UNE CLIO, ET ON Y VA ! #OnVaOù4",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243156"
+    },
+    {
+      "season": 2020,
+      "episode": 22,
+      "code": "S2020E22",
+      "episodeId": "9243157",
+      "title": "MON IPHONE AU FOND DE L'OCEAN... (c'est drôle ?) #OnVaOù4",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243157"
+    },
+    {
+      "season": 2020,
+      "episode": 23,
+      "code": "S2020E23",
+      "episodeId": "9243158",
+      "title": "J'AI DÉFONCÉ MA VOITURE... (ça me fait pas rire) #OnVaOù4",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243158"
+    },
+    {
+      "season": 2020,
+      "episode": 24,
+      "code": "S2020E24",
+      "episodeId": "9243159",
+      "title": "CETTE SOIRÉE EST UN CAUCHEMAR... (tu crois je rigole ?) #OnVaOù4",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243159"
+    },
+    {
+      "season": 2020,
+      "episode": 25,
+      "code": "S2020E25",
+      "episodeId": "9243160",
+      "title": "JE NOUS ENVOIE EN ENFER (ça fait peur hein ?) #OnVaOù4 (final saison 4)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243160"
+    },
+    {
+      "season": 2020,
+      "episode": 26,
+      "code": "S2020E26",
+      "episodeId": "9243161",
+      "title": "SURVIE EN FORÊT AVEC UN MILITAIRE ! feat Mike Horn (bah non)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243161"
+    },
+    {
+      "season": 2020,
+      "episode": 27,
+      "code": "S2020E27",
+      "episodeId": "9243162",
+      "title": "J'AI ÉTÉ BLOQUÉ DANS UNE COURSE POURSUITE EN VOITURE ! (la voiture explose c'est faux)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243162"
+    },
+    {
+      "season": 2020,
+      "episode": 28,
+      "code": "S2020E28",
+      "episodeId": "9243163",
+      "title": "COMMENT RÉCUPÉRER SON EX ? (on teste une technique incroyable)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243163"
+    },
+    {
+      "season": 2020,
+      "episode": 29,
+      "code": "S2020E29",
+      "episodeId": "9243164",
+      "title": "CACHE-CACHE EN SCOOTER DANS TOUTE LA VILLE ! (et 180€ d'amende accessoirement)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243164"
+    },
+    {
+      "season": 2020,
+      "episode": 30,
+      "code": "S2020E30",
+      "episodeId": "9243165",
+      "title": "MA VIE EST UN ECHEC ! (mais tout finit bien comme pour les princesses)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243165"
+    },
+    {
+      "season": 2021,
+      "episode": 1,
+      "code": "S2021E01",
+      "episodeId": "9243166",
+      "title": "J'ai fait un accident qui a causé SA MORT... (pardon)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243166"
+    },
+    {
+      "season": 2021,
+      "episode": 2,
+      "code": "S2021E02",
+      "episodeId": "9243167",
+      "title": "ROULETTE RUSSE À GAGES ! (y'a rien qui va hein)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243167"
+    },
+    {
+      "season": 2021,
+      "episode": 3,
+      "code": "S2021E03",
+      "episodeId": "9243168",
+      "title": "ATTRAPÉ PAR LA DOUANE À UNE FRONTIÈRE...",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243168"
+    },
+    {
+      "season": 2021,
+      "episode": 4,
+      "code": "S2021E04",
+      "episodeId": "9243169",
+      "title": "JE CRÉE DES COUPLES !! (et des malaises, principalement)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243169"
+    },
+    {
+      "season": 2021,
+      "episode": 5,
+      "code": "S2021E05",
+      "episodeId": "9243170",
+      "title": "PERDRE SES AMIS POUR DE L'ARGENT ! (aucune vanne)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243170"
+    },
+    {
+      "season": 2021,
+      "episode": 6,
+      "code": "S2021E06",
+      "episodeId": "9243171",
+      "title": "LE BAN TWITCH N'ETAIT PAS LOIN...",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243171"
+    },
+    {
+      "season": 2021,
+      "episode": 7,
+      "code": "S2021E07",
+      "episodeId": "9243173",
+      "title": "TU PERDS, TU METS TON NUMÉRO DE TÉLÉPHONE EN STORY",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243173"
+    },
+    {
+      "season": 2021,
+      "episode": 8,
+      "code": "S2021E08",
+      "episodeId": "9243174",
+      "title": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243174"
+    },
+    {
+      "season": 2021,
+      "episode": 9,
+      "code": "S2021E09",
+      "episodeId": "9243175",
+      "title": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT (partie 2)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243175"
+    },
+    {
+      "season": 2021,
+      "episode": 10,
+      "code": "S2021E10",
+      "episodeId": "9243176",
+      "title": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT (partie 3)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243176"
+    },
+    {
+      "season": 2021,
+      "episode": 11,
+      "code": "S2021E11",
+      "episodeId": "9243177",
+      "title": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT (partie 4)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243177"
+    },
+    {
+      "season": 2021,
+      "episode": 12,
+      "code": "S2021E12",
+      "episodeId": "9243178",
+      "title": "ON VA QUELQUE PART DANS LE MONDE AU HASARD #OnVaOù5",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243178"
+    },
+    {
+      "season": 2021,
+      "episode": 13,
+      "code": "S2021E13",
+      "episodeId": "9243179",
+      "title": "On saccage un manoir, s'éclate la tête et il mange du c... (oui vous avez bien compris) #OnVaOù5",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243179"
+    },
+    {
+      "season": 2021,
+      "episode": 14,
+      "code": "S2021E14",
+      "episodeId": "9243180",
+      "title": "Un hollandais géant nous gronde et on dort dans une forêt allemande #OnVaOù5",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243180"
+    },
+    {
+      "season": 2021,
+      "episode": 15,
+      "code": "S2021E15",
+      "episodeId": "9243181",
+      "title": "Des gros problèmes aux frontières... (notre niveau de chance est de 0/10) #OnVaOù5",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243181"
+    },
+    {
+      "season": 2021,
+      "episode": 16,
+      "code": "S2021E16",
+      "episodeId": "9243182",
+      "title": "Nus dans une cellule en Suède...#OnVaOù5 (final)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243182"
+    },
+    {
+      "season": 2021,
+      "episode": 17,
+      "code": "S2021E17",
+      "episodeId": "9243183",
+      "title": "PARCOURIR 700km SANS ARGENT (et détester ses potes) - Pékin Hesspress",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243183"
+    },
+    {
+      "season": 2021,
+      "episode": 18,
+      "code": "S2021E18",
+      "episodeId": "9243184",
+      "title": "PARCOURIR 700km SANS ARGENT (on est des génies, objectivement) - Pékin Hesspress partie 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243184"
+    },
+    {
+      "season": 2021,
+      "episode": 19,
+      "code": "S2021E19",
+      "episodeId": "9243185",
+      "title": "Notre plus gros procès... (c'est historique ce qu'on vit)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243185"
+    },
+    {
+      "season": 2021,
+      "episode": 20,
+      "code": "S2021E20",
+      "episodeId": "9243186",
+      "title": "Policiers VS Voleurs : on s'est fait (très) mal et on a éclaté un logis",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243186"
+    },
+    {
+      "season": 2021,
+      "episode": 21,
+      "code": "S2021E21",
+      "episodeId": "9243187",
+      "title": "ROULETTE RUSSE À GAGES 2 (les gages sont clairement abusés on va pas se mentir)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243187"
+    },
+    {
+      "season": 2021,
+      "episode": 22,
+      "code": "S2021E22",
+      "episodeId": "9243188",
+      "title": "ESCALADER LE MONT BLANC, SANS ENTRAÎNEMENT",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243188"
+    },
+    {
+      "season": 2021,
+      "episode": 23,
+      "code": "S2021E23",
+      "episodeId": "9243189",
+      "title": "ESCALADER LE MONT BLANC, SANS ENTRAÎNEMENT (partie 2)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243189"
+    },
+    {
+      "season": 2021,
+      "episode": 24,
+      "code": "S2021E24",
+      "episodeId": "9243190",
+      "title": "ESCALADER LE MONT BLANC, SANS ENTRAÎNEMENT (partie 3, final)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243190"
+    },
+    {
+      "season": 2022,
+      "episode": 1,
+      "code": "S2022E01",
+      "episodeId": "9243197",
+      "title": "Traverser la Laponie en motoneige",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243197"
+    },
+    {
+      "season": 2022,
+      "episode": 2,
+      "code": "S2022E02",
+      "episodeId": "9243198",
+      "title": "Traverser la Laponie en motoneige (partie 2)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243198"
+    },
+    {
+      "season": 2022,
+      "episode": 3,
+      "code": "S2022E03",
+      "episodeId": "9243196",
+      "title": "On saute dans la foule d'un Zénith",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243196"
+    },
+    {
+      "season": 2022,
+      "episode": 4,
+      "code": "S2022E04",
+      "episodeId": "9243192",
+      "title": "Problèmes, burn-out, anecdotes, le futur... on vous dit tout",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243192"
+    },
+    {
+      "season": 2022,
+      "episode": 5,
+      "code": "S2022E05",
+      "episodeId": "9243193",
+      "title": "Chasse à l'homme dans toute la ville - Le Fugitif",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243193"
+    },
+    {
+      "season": 2022,
+      "episode": 6,
+      "code": "S2022E06",
+      "episodeId": "9243194",
+      "title": "Je deviens pilote de F4 (Grand Prix Explorer)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243194"
+    },
+    {
+      "season": 2022,
+      "episode": 7,
+      "code": "S2022E07",
+      "episodeId": "9243195",
+      "title": "On joue à des jeux de société et ça finit forcément mal",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243195"
+    },
+    {
+      "season": 2022,
+      "episode": 8,
+      "code": "S2022E08",
+      "episodeId": "9254620",
+      "title": "On contrôle le date de notre pote",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9254620"
+    },
+    {
+      "season": 2022,
+      "episode": 9,
+      "code": "S2022E09",
+      "episodeId": "9254621",
+      "title": "Je deviens pilote de F4 (Grand Prix Explorer) part 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9254621"
+    },
+    {
+      "season": 2022,
+      "episode": 10,
+      "code": "S2022E10",
+      "episodeId": "9254622",
+      "title": "Parcourir 1000km sans argent - Pekin Hesspress 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9254622"
+    },
+    {
+      "season": 2022,
+      "episode": 11,
+      "code": "S2022E11",
+      "episodeId": "9254623",
+      "title": "Parcourir 1000km sans argent - Pekin Hesspress 2, partie 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9254623"
+    },
+    {
+      "season": 2022,
+      "episode": 12,
+      "code": "S2022E12",
+      "episodeId": "9254624",
+      "title": "Je deviens pilote de F4 (Grand Prix Explorer) part 3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9254624"
+    },
+    {
+      "season": 2022,
+      "episode": 13,
+      "code": "S2022E13",
+      "episodeId": "9275659",
+      "title": "On regarde nos plus gros dossiers",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9275659"
+    },
+    {
+      "season": 2022,
+      "episode": 14,
+      "code": "S2022E14",
+      "episodeId": "9477677",
+      "title": "On traverse les États-Unis en camping car #OnVaOù6 ep1",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477677"
+    },
+    {
+      "season": 2022,
+      "episode": 15,
+      "code": "S2022E15",
+      "episodeId": "9477701",
+      "title": "On traverse les États-Unis en camping car #OnVaOù6 ep2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477701"
+    },
+    {
+      "season": 2022,
+      "episode": 16,
+      "code": "S2022E16",
+      "episodeId": "9477724",
+      "title": "On traverse les États-Unis en camping car #OnVaOù6 ep3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477724"
+    },
+    {
+      "season": 2022,
+      "episode": 17,
+      "code": "S2022E17",
+      "episodeId": "9477725",
+      "title": "On traverse les États-Unis en camping car #OnVaOù6 ep4",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477725"
+    },
+    {
+      "season": 2022,
+      "episode": 18,
+      "code": "S2022E18",
+      "episodeId": "9477727",
+      "title": "On traverse les États-Unis en camping car #OnVaOù6 ep5",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477727"
+    },
+    {
+      "season": 2022,
+      "episode": 19,
+      "code": "S2022E19",
+      "episodeId": "9477728",
+      "title": "On traverse les États-Unis en camping car #OnVaOù ep6 FINAL",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477728"
+    },
+    {
+      "season": 2022,
+      "episode": 20,
+      "code": "S2022E20",
+      "episodeId": "9477729",
+      "title": "On a fait une tournée des cinémas dans toute la France",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477729"
+    },
+    {
+      "season": 2022,
+      "episode": 21,
+      "code": "S2022E21",
+      "episodeId": "9477730",
+      "title": "Je deviens pilote de F4 (Grand Prix Explorer) FINAL",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477730"
+    },
+    {
+      "season": 2022,
+      "episode": 22,
+      "code": "S2022E22",
+      "episodeId": "9477732",
+      "title": "La fois où on est partis au bout de l'Europe... pour rien",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477732"
+    },
+    {
+      "season": 2022,
+      "episode": 23,
+      "code": "S2022E23",
+      "episodeId": "9751664",
+      "title": "À ma recherche du bonheur",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9751664"
+    },
+    {
+      "season": 2023,
+      "episode": 1,
+      "code": "S2023E01",
+      "episodeId": "9751680",
+      "title": "Ma première fois catastrophique au ski",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9751680"
+    },
+    {
+      "season": 2023,
+      "episode": 2,
+      "code": "S2023E02",
+      "episodeId": "9751681",
+      "title": "On traverse le Japon en train ep1",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9751681"
+    },
+    {
+      "season": 2023,
+      "episode": 3,
+      "code": "S2023E03",
+      "episodeId": "9751682",
+      "title": "On traverse le Japon en train ep2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9751682"
+    },
+    {
+      "season": 2023,
+      "episode": 4,
+      "code": "S2023E04",
+      "episodeId": "9751683",
+      "title": "On traverse le Japon en train ep3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9751683"
+    },
+    {
+      "season": 2023,
+      "episode": 5,
+      "code": "S2023E05",
+      "episodeId": "9751684",
+      "title": "On traverse le Japon en train ep4 (final)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9751684"
+    },
+    {
+      "season": 2023,
+      "episode": 6,
+      "code": "S2023E06",
+      "episodeId": "9751685",
+      "title": "MAUVAISE PIOCHE (ft Seb, Billy & Maxime Biaggi)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9751685"
+    },
+    {
+      "season": 2023,
+      "episode": 7,
+      "code": "S2023E07",
+      "episodeId": "9812414",
+      "title": "Je deviens cascadeur",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9812414"
+    },
+    {
+      "season": 2023,
+      "episode": 8,
+      "code": "S2023E08",
+      "episodeId": "9812432",
+      "title": "En route pour le GP Explorer 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9812432"
+    },
+    {
+      "season": 2023,
+      "episode": 9,
+      "code": "S2023E09",
+      "episodeId": "9812433",
+      "title": "4 jours avec des boxeurs Thaïlandais",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9812433"
+    },
+    {
+      "season": 2023,
+      "episode": 10,
+      "code": "S2023E10",
+      "episodeId": "9812434",
+      "title": "En route pour le GP Explorer 2 (part 2)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9812434"
+    },
+    {
+      "season": 2023,
+      "episode": 11,
+      "code": "S2023E11",
+      "episodeId": "11964027",
+      "title": "Parties de pétanque... en voitures (ft Théodort, Billy et Maxime Biaggi)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11964027"
+    },
+    {
+      "season": 2023,
+      "episode": 12,
+      "code": "S2023E12",
+      "episodeId": "9895036",
+      "title": "ROI DU SILENCE (ft Théodort, Maxime Biaggi et Manas)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9895036"
+    },
+    {
+      "season": 2023,
+      "episode": 13,
+      "code": "S2023E13",
+      "episodeId": "10740761",
+      "title": "En route pour le GP Explorer 2 (part 3)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740761"
+    },
+    {
+      "season": 2023,
+      "episode": 14,
+      "code": "S2023E14",
+      "episodeId": "10740762",
+      "title": "J'affronte Pierre Gasly dans une course",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740762"
+    },
+    {
+      "season": 2023,
+      "episode": 15,
+      "code": "S2023E15",
+      "episodeId": "10740763",
+      "title": "Le grand final du GP Explorer 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740763"
+    },
+    {
+      "season": 2023,
+      "episode": 16,
+      "code": "S2023E16",
+      "episodeId": "10740764",
+      "title": "4 jours à travers l'un des plus grands fleuves du Sénégal",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740764"
+    },
+    {
+      "season": 2023,
+      "episode": 17,
+      "code": "S2023E17",
+      "episodeId": "10740765",
+      "title": "On lave notre linge sale en public avec Mister V",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740765"
+    },
+    {
+      "season": 2023,
+      "episode": 18,
+      "code": "S2023E18",
+      "episodeId": "10740766",
+      "title": "Je deviens cascadeur automobile",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740766"
+    },
+    {
+      "season": 2023,
+      "episode": 19,
+      "code": "S2023E19",
+      "episodeId": "10740767",
+      "title": "1h pour s'échapper d'un camion qui roule droit vers l'eau",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740767"
+    },
+    {
+      "season": 2023,
+      "episode": 20,
+      "code": "S2023E20",
+      "episodeId": "10740768",
+      "title": "À la recherche de la chaussure perdue (ft Maxime Biaggi et Elian)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740768"
+    },
+    {
+      "season": 2023,
+      "episode": 21,
+      "code": "S2023E21",
+      "episodeId": "10740769",
+      "title": "MAUVAISE PIOCHE 2 (ft Seb, Billy & Maxime Biaggi)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740769"
+    },
+    {
+      "season": 2024,
+      "episode": 1,
+      "code": "S2024E01",
+      "episodeId": "10824276",
+      "title": "Ma première fois catastrophique en snowboard",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824276"
+    },
+    {
+      "season": 2024,
+      "episode": 2,
+      "code": "S2024E02",
+      "episodeId": "10824277",
+      "title": "LE DÎNER DE C*NS (ft Théodort, Maxime Biaggi, Elian, Ben Haddad et Manas)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824277"
+    },
+    {
+      "season": 2024,
+      "episode": 3,
+      "code": "S2024E03",
+      "episodeId": "10824278",
+      "title": "LE CASSE DU SIÈCLE (ft Joyca, Seb & Sofyan)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824278"
+    },
+    {
+      "season": 2024,
+      "episode": 4,
+      "code": "S2024E04",
+      "episodeId": "10824279",
+      "title": "On lave notre linge sale en public avec Gotaga",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824279"
+    },
+    {
+      "season": 2024,
+      "episode": 5,
+      "code": "S2024E05",
+      "episodeId": "10824280",
+      "title": "Sommes-nous des bons acteurs ? SILENCE PLATEAU (ft Maxime Biaggi, Elian & Ben Haddad)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824280"
+    },
+    {
+      "season": 2024,
+      "episode": 6,
+      "code": "S2024E06",
+      "episodeId": "10824281",
+      "title": "LE GRAND DÉBAT (ft Mcfly & Carlito)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824281"
+    },
+    {
+      "season": 2024,
+      "episode": 7,
+      "code": "S2024E07",
+      "episodeId": "10824282",
+      "title": "7 mois pour devenir boxeur (DTR partie 1)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824282"
+    },
+    {
+      "season": 2024,
+      "episode": 8,
+      "code": "S2024E08",
+      "episodeId": "10824283",
+      "title": "J'anime une colonie de vacances de séniors",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824283"
+    },
+    {
+      "season": 2024,
+      "episode": 9,
+      "code": "S2024E09",
+      "episodeId": "10824289",
+      "title": "Ma première fois catastrophique à cheval",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824289"
+    },
+    {
+      "season": 2024,
+      "episode": 10,
+      "code": "S2024E10",
+      "episodeId": "10824290",
+      "title": "7 mois pour devenir boxeur (DTR partie 2)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824290"
+    },
+    {
+      "season": 2024,
+      "episode": 11,
+      "code": "S2024E11",
+      "episodeId": "10824291",
+      "title": "J’emmène Maxime Biaggi faire des trucs qu’il déteste ! ZONE D’INCONFORT",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824291"
+    },
+    {
+      "season": 2024,
+      "episode": 12,
+      "code": "S2024E12",
+      "episodeId": "10824292",
+      "title": "LE DÎNER DE C*NS 2 (ft Théodort, Maxime Biaggi, Elian, Ben Haddad et Manas)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824292"
+    },
+    {
+      "season": 2024,
+      "episode": 13,
+      "code": "S2024E13",
+      "episodeId": "10824293",
+      "title": "ROI DU SILENCE 2 (ft Squeezie, Gotaga et Billy)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824293"
+    },
+    {
+      "season": 2024,
+      "episode": 14,
+      "code": "S2024E14",
+      "episodeId": "10824294",
+      "title": "3 jeux d'horreur dans les lieux réels ! (ft Billy et Maxime Biaggi)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824294"
+    },
+    {
+      "season": 2024,
+      "episode": 15,
+      "code": "S2024E15",
+      "episodeId": "10824295",
+      "title": "SOIRÉE PYJAMA (ft Mcfly & Carlito et Elian)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824295"
+    },
+    {
+      "season": 2024,
+      "episode": 16,
+      "code": "S2024E16",
+      "episodeId": "10824296",
+      "title": "J'emmène Marcus faire des trucs qu'il déteste ! ZONE D'INCONFORT",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824296"
+    },
+    {
+      "season": 2024,
+      "episode": 17,
+      "code": "S2024E17",
+      "episodeId": "11684475",
+      "title": "MAUVAISE PIOCHE 3 (ft Seb, Billy & Maxime Biaggi)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684475"
+    },
+    {
+      "season": 2024,
+      "episode": 18,
+      "code": "S2024E18",
+      "episodeId": "11684476",
+      "title": "Le grand combat final - DTR",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684476"
+    },
+    {
+      "season": 2024,
+      "episode": 19,
+      "code": "S2024E19",
+      "episodeId": "11684477",
+      "title": "Cette vidéo est pour vous",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684477"
+    },
+    {
+      "season": 2025,
+      "episode": 1,
+      "code": "S2025E01",
+      "episodeId": "11684522",
+      "title": "Envoyé en mission dans un pays étranger ! MISSION INUTILE",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684522"
+    },
+    {
+      "season": 2025,
+      "episode": 2,
+      "code": "S2025E02",
+      "episodeId": "11684523",
+      "title": "Découvrir le Japon en dormant dans des lieux terrifiants... (ft Seb & Maxime Biaggi)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684523"
+    },
+    {
+      "season": 2025,
+      "episode": 3,
+      "code": "S2025E03",
+      "episodeId": "11684524",
+      "title": "À la recherche des bonnes actions ! P'TITE PATROUILLE (ft Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684524"
+    },
+    {
+      "season": 2025,
+      "episode": 4,
+      "code": "S2025E04",
+      "episodeId": "11684525",
+      "title": "UN REPAS TOUT SAUF PARFAIT ! (ft Mcfly & Carlito et Élian)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684525"
+    },
+    {
+      "season": 2025,
+      "episode": 5,
+      "code": "S2025E05",
+      "episodeId": "11684526",
+      "title": "Une journée pour meubler entièrement un appartement (ft Elian)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684526"
+    },
+    {
+      "season": 2025,
+      "episode": 6,
+      "code": "S2025E06",
+      "episodeId": "11684527",
+      "title": "GP EXPLORER 3 : Et si c'était la bonne ?",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684527"
+    },
+    {
+      "season": 2025,
+      "episode": 7,
+      "code": "S2025E07",
+      "episodeId": "11684528",
+      "title": "SOIRÉE PYJAMA 2 (ft Joyca, Mastu & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684528"
+    },
+    {
+      "season": 2025,
+      "episode": 8,
+      "code": "S2025E08",
+      "episodeId": "11684529",
+      "title": "LE DÎNER DE C*NS 3 ! (ft Bigflo & Oli, Joyca, Seb et Léopold)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684529"
+    },
+    {
+      "season": 2025,
+      "episode": 9,
+      "code": "S2025E09",
+      "episodeId": "11684530",
+      "title": "Sommes-nous des bons acteurs ? SILENCE PLATEAU 2 (ft Théodort & Maxime Biaggi)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684530"
+    },
+    {
+      "season": 2025,
+      "episode": 10,
+      "code": "S2025E10",
+      "episodeId": "11684531",
+      "title": "J'emmène Lena Situations faire des trucs qu'elle déteste ! ZONE D'INCONFORT",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684531"
+    },
+    {
+      "season": 2025,
+      "episode": 11,
+      "code": "S2025E11",
+      "episodeId": "11684532",
+      "title": "GP EXPLORER 3 : Plus qu'un mois pour choquer...",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684532"
+    },
+    {
+      "season": 2025,
+      "episode": 12,
+      "code": "S2025E12",
+      "episodeId": "11684533",
+      "title": "DOUBLE JEU (ft Théodort, Maxime Biaggi & Billy)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684533"
+    },
+    {
+      "season": 2025,
+      "episode": 13,
+      "code": "S2025E13",
+      "episodeId": "11684534",
+      "title": "GP EXPLORER 3 : Au final on a choqué pour la dernière",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684534"
+    },
+    {
+      "season": 2025,
+      "episode": 14,
+      "code": "S2025E14",
+      "episodeId": "11684535",
+      "title": "ROI DU SILENCE 3 (ft Mastu, Byilhan & Nico)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684535"
+    },
+    {
+      "season": 2025,
+      "episode": 15,
+      "code": "S2025E15",
+      "episodeId": "11684536",
+      "title": "DANS LA FOULE (ft Joyca, Hugo Décrypte, Maxime Biaggi, Seb & Elian)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684536"
+    },
+    {
+      "season": 2025,
+      "episode": 16,
+      "code": "S2025E16",
+      "episodeId": "11684537",
+      "title": "SOIRÉE PYJAMA 3 (ft Maxime Biaggi, Seb & Etoiles)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684537"
+    },
+    {
+      "season": 2025,
+      "episode": 17,
+      "code": "S2025E17",
+      "episodeId": "11684538",
+      "title": "J'offre des cadeaux de Noël à vos proches !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684538"
+    },
+    {
+      "season": 2026,
+      "episode": 1,
+      "code": "S2026E01",
+      "episodeId": "11684539",
+      "title": "LA COLO DES SÉNIORS 2 au ski (ft Joyca)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684539"
+    },
+    {
+      "season": 2026,
+      "episode": 2,
+      "code": "S2026E02",
+      "episodeId": "11684540",
+      "title": "UN REPAS TOUT SAUF PARFAIT 2 (ft Billy & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684540"
+    },
+    {
+      "season": 2026,
+      "episode": 3,
+      "code": "S2026E03",
+      "episodeId": "11684541",
+      "title": "DOUBLE JEU 2 (ft Joyca, Seb & Sofyan)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684541"
+    },
+    {
+      "season": 2026,
+      "episode": 4,
+      "code": "S2026E04",
+      "episodeId": "11684542",
+      "title": "LA RECONSTITUTION (ft Joyca)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684542"
+    },
+    {
+      "season": 2026,
+      "episode": 5,
+      "code": "S2026E05",
+      "episodeId": "11702344",
+      "title": "J'emmène Amine faire des trucs qu'il déteste ! ZONE D'INCONFORT",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11702344"
+    },
+    {
+      "season": 2026,
+      "episode": 6,
+      "code": "S2026E06",
+      "episodeId": "11962148",
+      "title": "ECRIS MON SKETCH (ft Joyca & Elian)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11962148"
+    },
+    {
+      "season": 2026,
+      "episode": 7,
+      "code": "S2026E07",
+      "episodeId": "11759609",
+      "title": "SOIRÉE PYJAMA 4 (ft Bigflo & Oli et Adèle Castillon)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11759609"
+    },
+    {
+      "season": 2026,
+      "episode": 8,
+      "code": "S2026E08",
+      "episodeId": "11848017",
+      "title": "Sommes-nous des bons acteurs ? SILENCE PLATEAU 3 (ft Joyca & Seb)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11848017"
+    },
+    {
+      "season": 2026,
+      "episode": 9,
+      "code": "S2026E09",
+      "episodeId": "11848018",
+      "title": "DOUBLE JEU 3 (ft Mastu, Hugo Décrypte & Elian)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11848018"
+    },
+    {
+      "season": 2026,
+      "episode": 10,
+      "code": "S2026E10",
+      "episodeId": "11962149",
+      "title": "DANS LA FOULE 2 (ft Maxime Biaggi, Mastu, Théodort, Byilhan & Nico)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11962149"
+    },
+    {
+      "season": 2026,
+      "episode": 11,
+      "code": "S2026E11",
+      "episodeId": "12014131",
+      "title": "RDV LE SAMEDI 5 SEPTEMBRE À 11H... ????????",
+      "url": "https://thetvdb.com/series/djilsi/episodes/12014131"
+    },
+    {
+      "season": 2026,
+      "episode": 12,
+      "code": "S2026E12",
+      "episodeId": "11964028",
+      "title": "On part traverser le Canada en camping car - ON VA OÙ 7 ep1 (ft Maxime Biaggi, Joyca & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11964028"
+    },
+    {
+      "season": 2026,
+      "episode": 13,
+      "code": "S2026E13",
+      "episodeId": "11971086",
+      "title": "Les problèmes commencent… - ON VA OÙ 7 ep2 (ft Maxime Biaggi, Joyca & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11971086"
+    },
+    {
+      "season": 2026,
+      "episode": 14,
+      "code": "S2026E14",
+      "episodeId": "11976892",
+      "title": "Des accidents et une soirée chaotique... - ON VA OÙ 7 ep3 (ft Maxime Biaggi, Joyca & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11976892"
+    },
+    {
+      "season": 2026,
+      "episode": 15,
+      "code": "S2026E15",
+      "episodeId": "11998871",
+      "title": "Tous nos choix sont catastrophiques... - ON VA OÙ 7 ep4 (ft Maxime Biaggi, Joyca & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11998871"
+    },
+    {
+      "season": 2026,
+      "episode": 16,
+      "code": "S2026E16",
+      "episodeId": "11998872",
+      "title": "Au début tout se passait bien... - ON VA OÙ 7 ep5 (ft Maxime Biaggi, Joyca & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11998872"
+    },
+    {
+      "season": 2026,
+      "episode": 17,
+      "code": "S2026E17",
+      "episodeId": "12014132",
+      "title": "Une fin d’aventure pleine de rebondissements… - ON VA OÙ 7 ep6 FINAL",
+      "url": "https://thetvdb.com/series/djilsi/episodes/12014132"
+    }
+  ],
+  "youtube": [
+    {
+      "id": "ersw34RPmZ8",
+      "title": "Une fin d’aventure pleine de rebondissements… - ON VA OÙ 7 ep6 FINAL"
+    },
+    {
+      "id": "ffSyBdcD958",
+      "title": "Au début tout se passait bien... - ON VA OÙ 7 ep5 (ft Maxime Biaggi, Joyca & Théodort)"
+    },
+    {
+      "id": "sIGByUaPZrs",
+      "title": "Tous nos choix sont catastrophiques... - ON VA OÙ 7 ep4 (ft Maxime Biaggi, Joyca & Théodort)"
+    },
+    {
+      "id": "kDwuuudq-Hk",
+      "title": "Des accidents et une soirée chaotique... - ON VA OÙ 7 ep3 (ft Maxime Biaggi, Joyca & Théodort)"
+    },
+    {
+      "id": "LFJkky0MAnA",
+      "title": "Les problèmes commencent… - ON VA OÙ 7 ep2 (ft Maxime Biaggi, Joyca & Théodort)"
+    },
+    {
+      "id": "sJZBUk0nO5E",
+      "title": "On part traverser le Canada en camping car - ON VA OÙ 7 ep1 (ft Maxime Biaggi, Joyca & Théodort)"
+    },
+    {
+      "id": "uMmwt8l0FtM",
+      "title": "RDV LE SAMEDI 5 SEPTEMBRE À 11H... 🫶🏻"
+    },
+    {
+      "id": "EdgwDttPz0k",
+      "title": "DANS LA FOULE 2 (ft Maxime Biaggi, Mastu, Théodort, Byilhan & Nico)"
+    },
+    {
+      "id": "VdZEUz6d_SE",
+      "title": "DOUBLE JEU 3 (ft Mastu, Hugo Décrypte & Elian)"
+    },
+    {
+      "id": "QgRywgnfPDA",
+      "title": "Sommes-nous des bons acteurs ? SILENCE PLATEAU 3 (ft Joyca & Seb)"
+    },
+    {
+      "id": "5R4jqiAlu0g",
+      "title": "SOIRÉE PYJAMA 4 (ft Bigflo & Oli et Adèle Castillon)"
+    },
+    {
+      "id": "U_4yVp1C4V4",
+      "title": "ECRIS MON SKETCH (ft Joyca & Elian)"
+    },
+    {
+      "id": "syuc-7VlGL8",
+      "title": "J'emmène Amine faire des trucs qu'il déteste ! ZONE D'INCONFORT"
+    },
+    {
+      "id": "aZyy3cmAGkM",
+      "title": "LA RECONSTITUTION (ft Joyca)"
+    },
+    {
+      "id": "IuKMKkzfQ3c",
+      "title": "DOUBLE JEU 2 (ft Joyca, Seb & Sofyan)"
+    },
+    {
+      "id": "MNNYpYd33sU",
+      "title": "UN REPAS TOUT SAUF PARFAIT 2 (ft Billy & Théodort)"
+    },
+    {
+      "id": "axpor-X9V40",
+      "title": "LA COLO DES SÉNIORS 2 au ski (ft Joyca)"
+    },
+    {
+      "id": "AcNDNJW0Qv0",
+      "title": "J'offre des cadeaux de Noël à vos proches !"
+    },
+    {
+      "id": "lvrKvXA25qc",
+      "title": "SOIRÉE PYJAMA 3 (ft Maxime Biaggi, Seb & Etoiles)"
+    },
+    {
+      "id": "l1NvZaEviO8",
+      "title": "DANS LA FOULE (ft Joyca, Hugo Décrypte, Maxime Biaggi, Seb & Elian)"
+    },
+    {
+      "id": "RqFUV_rGiEQ",
+      "title": "ROI DU SILENCE 3 (ft Mastu, Byilhan & Nico)"
+    },
+    {
+      "id": "mSEA0MWobZE",
+      "title": "GP EXPLORER 3 : Au final on a choqué pour la dernière"
+    },
+    {
+      "id": "sVM9JnUGSIk",
+      "title": "DOUBLE JEU (ft Théodort, Maxime Biaggi & Billy)"
+    },
+    {
+      "id": "b9pl4QejKk8",
+      "title": "GP EXPLORER 3 : Plus qu'un mois pour choquer..."
+    },
+    {
+      "id": "JWzH7Bj4Uwg",
+      "title": "J'emmène Lena Situations faire des trucs qu'elle déteste ! ZONE D'INCONFORT"
+    },
+    {
+      "id": "HmyQi8eL3yU",
+      "title": "Sommes-nous des bons acteurs ? SILENCE PLATEAU 2 (ft Théodort & Maxime Biaggi)"
+    },
+    {
+      "id": "Flq6GJruznw",
+      "title": "LE DÎNER DE C*NS 3 ! (ft Bigflo & Oli, Joyca, Seb et Léopold)"
+    },
+    {
+      "id": "4rRRHEDdRPI",
+      "title": "SOIRÉE PYJAMA 2 (ft Joyca, Mastu & Théodort)"
+    },
+    {
+      "id": "yMkE-V85DDU",
+      "title": "GP EXPLORER 3 : Et si c'était la bonne ?"
+    },
+    {
+      "id": "SsuHEn-zRqU",
+      "title": "Une journée pour meubler entièrement un appartement (ft Elian)"
+    },
+    {
+      "id": "emhT75_NUDk",
+      "title": "UN REPAS TOUT SAUF PARFAIT ! (ft Mcfly & Carlito et Élian)"
+    },
+    {
+      "id": "0H-YsD6yWYU",
+      "title": "À la recherche des bonnes actions ! P'TITE PATROUILLE (ft Théodort)"
+    },
+    {
+      "id": "qIPdQmzuX9I",
+      "title": "Découvrir le Japon en dormant dans des lieux terrifiants... (ft Seb & Maxime Biaggi)"
+    },
+    {
+      "id": "HvnSxi0ry2Q",
+      "title": "Envoyé en mission dans un pays étranger ! MISSION INUTILE"
+    },
+    {
+      "id": "Uq_kUjRCfC0",
+      "title": "Cette vidéo est pour vous"
+    },
+    {
+      "id": "SlgZpEghuZ4",
+      "title": "Le grand combat final - DTR"
+    },
+    {
+      "id": "HMNxdYybIuY",
+      "title": "MAUVAISE PIOCHE 3 (ft Seb, Billy & Maxime Biaggi)"
+    },
+    {
+      "id": "lc6vXTb5mxI",
+      "title": "J'emmène Marcus faire des trucs qu'il déteste ! ZONE D'INCONFORT"
+    },
+    {
+      "id": "G56R536nKxk",
+      "title": "SOIRÉE PYJAMA (ft Mcfly & Carlito et Elian)"
+    },
+    {
+      "id": "OUBFEtY-5kE",
+      "title": "3 jeux d'horreur dans les lieux réels ! (ft Billy et Maxime Biaggi)"
+    },
+    {
+      "id": "EUIzi0uJDLE",
+      "title": "ROI DU SILENCE 2 (ft Squeezie, Gotaga et Billy)"
+    },
+    {
+      "id": "z7tVboxkS8U",
+      "title": "LE DÎNER DE C*NS 2 (ft Théodort, Maxime Biaggi, Elian, Ben Haddad et Manas)"
+    },
+    {
+      "id": "vGKdH6Al6fQ",
+      "title": "J’emmène Maxime Biaggi faire des trucs qu’il déteste ! ZONE D’INCONFORT"
+    },
+    {
+      "id": "1QRPXHURuX4",
+      "title": "7 mois pour devenir boxeur (DTR partie 2)"
+    },
+    {
+      "id": "Ak3zZdm4LlU",
+      "title": "Ma première fois catastrophique à cheval"
+    },
+    {
+      "id": "WOwgEajEu80",
+      "title": "J'anime une colonie de vacances de séniors"
+    },
+    {
+      "id": "Fjlgeyfwct8",
+      "title": "7 mois pour devenir boxeur (DTR partie 1)"
+    },
+    {
+      "id": "5oRnEryfoHI",
+      "title": "LE GRAND DÉBAT (ft Mcfly & Carlito)"
+    },
+    {
+      "id": "w8coQ5Epjto",
+      "title": "Sommes-nous des bons acteurs ? SILENCE PLATEAU (ft Maxime Biaggi, Elian & Ben Haddad)"
+    },
+    {
+      "id": "3_CF5SSyC70",
+      "title": "On lave notre linge sale en public avec Gotaga"
+    },
+    {
+      "id": "aD_lbT6Bils",
+      "title": "LE CASSE DU SIÈCLE (ft Joyca, Seb & Sofyan)"
+    },
+    {
+      "id": "uNN-rW-pFmQ",
+      "title": "LE DÎNER DE C*NS (ft Théodort, Maxime Biaggi, Elian, Ben Haddad et Manas)"
+    },
+    {
+      "id": "P8s6HV7RBUE",
+      "title": "Ma première fois catastrophique en snowboard"
+    },
+    {
+      "id": "hTpcWUnwq00",
+      "title": "MAUVAISE PIOCHE 2 (ft Seb, Billy & Maxime Biaggi)"
+    },
+    {
+      "id": "IDd6SQdMt44",
+      "title": "À la recherche de la chaussure perdue (ft Maxime Biaggi et Elian)"
+    },
+    {
+      "id": "jpdKQTH-9gA",
+      "title": "1h pour s'échapper d'un camion qui roule droit vers l'eau"
+    },
+    {
+      "id": "HEd5Wz1fsYA",
+      "title": "Je deviens cascadeur automobile"
+    },
+    {
+      "id": "3ZxiIZvw7Ck",
+      "title": "On lave notre linge sale en public avec Mister V"
+    },
+    {
+      "id": "cC6yX1NkX3M",
+      "title": "4 jours à travers l'un des plus grands fleuves du Sénégal"
+    },
+    {
+      "id": "RHPvDguACkA",
+      "title": "Le grand final du GP Explorer 2"
+    },
+    {
+      "id": "2oW7XwiYYmM",
+      "title": "J'affronte Pierre Gasly dans une course"
+    },
+    {
+      "id": "ah4IEnC4IIs",
+      "title": "En route pour le GP Explorer 2 (part 3)"
+    },
+    {
+      "id": "d4mX11eqsIk",
+      "title": "ROI DU SILENCE (ft Théodort, Maxime Biaggi et Manas)"
+    },
+    {
+      "id": "3xn6fm02cMw",
+      "title": "Parties de pétanque... en voitures (ft Théodort, Billy et Maxime Biaggi)"
+    },
+    {
+      "id": "yogxhJrj4V8",
+      "title": "En route pour le GP Explorer 2 (part 2)"
+    },
+    {
+      "id": "JiX2fv3piaw",
+      "title": "4 jours avec des boxeurs Thaïlandais"
+    },
+    {
+      "id": "Ty2qn_9vcrw",
+      "title": "En route pour le GP Explorer 2"
+    },
+    {
+      "id": "bJI2ATANRSQ",
+      "title": "Je deviens cascadeur"
+    },
+    {
+      "id": "kK0QpSs-1U0",
+      "title": "MAUVAISE PIOCHE (ft Seb, Billy & Maxime Biaggi)"
+    },
+    {
+      "id": "ovSK13g-Sjg",
+      "title": "On traverse le Japon en train ep4 (final)"
+    },
+    {
+      "id": "EFa5BVQxQpI",
+      "title": "On traverse le Japon en train ep3"
+    },
+    {
+      "id": "_KNqgnS0nvg",
+      "title": "On traverse le Japon en train ep2"
+    },
+    {
+      "id": "R_-VaozjJU4",
+      "title": "On traverse le Japon en train ep1"
+    },
+    {
+      "id": "wGoRyg5-YMo",
+      "title": "Ma première fois catastrophique au ski"
+    },
+    {
+      "id": "qTRhRqZ8aeg",
+      "title": "À ma recherche du bonheur"
+    },
+    {
+      "id": "uZzmdSWL5ls",
+      "title": "La fois où on est partis au bout de l’Europe… pour rien"
+    },
+    {
+      "id": "6vQbNG9Y_38",
+      "title": "Je deviens pilote de F4 (Grand Prix Explorer) FINAL"
+    },
+    {
+      "id": "m2qzAjNyWaY",
+      "title": "On a fait une tournée des cinémas dans toute la France"
+    },
+    {
+      "id": "g0wg7RwbBws",
+      "title": "On traverse les États-Unis en camping car #OnVaOù ep6 FINAL"
+    },
+    {
+      "id": "xywl9gXlsCc",
+      "title": "On traverse les États-Unis en camping car #OnVaOù6 ep5"
+    },
+    {
+      "id": "rhyvnbhcWZM",
+      "title": "On traverse les États-Unis en camping car #OnVaOù6 ep4"
+    },
+    {
+      "id": "Q_SnmLxzZZw",
+      "title": "On traverse les États-Unis en camping car #OnVaOù6 ep3"
+    },
+    {
+      "id": "sGUVE7lup0k",
+      "title": "On traverse les États-Unis en camping car #OnVaOù6 ep2"
+    },
+    {
+      "id": "JpIShIIrrpM",
+      "title": "On traverse les États-Unis en camping car #OnVaOù6 ep1"
+    },
+    {
+      "id": "JOQ4uQ7PJtw",
+      "title": "On regarde nos plus gros dossiers"
+    },
+    {
+      "id": "0JtVzfnZQbU",
+      "title": "Je deviens pilote de F4 (Grand Prix Explorer) part 3"
+    },
+    {
+      "id": "4MTidWjuVPg",
+      "title": "Parcourir 1000km sans argent - Pekin Hesspress 2, partie 2"
+    },
+    {
+      "id": "g792k-lmUtA",
+      "title": "Parcourir 1000km sans argent - Pekin Hesspress 2"
+    },
+    {
+      "id": "NK8JkKMy-hA",
+      "title": "Je deviens pilote de F4 (Grand Prix Explorer) part 2"
+    },
+    {
+      "id": "31a74Zo2BpU",
+      "title": "On contrôle le date de notre pote"
+    },
+    {
+      "id": "VNvcvHRkRSc",
+      "title": "On saute dans la foule d'un Zénith"
+    },
+    {
+      "id": "nw-sQocR6Yc",
+      "title": "On joue à des jeux de société et ça finit forcément mal"
+    },
+    {
+      "id": "hzRd0hILhYc",
+      "title": "Je deviens pilote de F4 (Grand Prix Explorer)"
+    },
+    {
+      "id": "4zCrvJjQ4ZM",
+      "title": "Chasse à l'homme dans toute la ville - Le Fugitif"
+    },
+    {
+      "id": "NVGQmIbls-w",
+      "title": "Problèmes, burn-out, anecdotes, le futur... on vous dit tout"
+    },
+    {
+      "id": "cj7rmiPMfZc",
+      "title": "Traverser la Laponie en motoneige (partie 2)"
+    },
+    {
+      "id": "JgG7ZYh7zp0",
+      "title": "Traverser la Laponie en motoneige"
+    },
+    {
+      "id": "yxfskD4bkYg",
+      "title": "ESCALADER LE MONT BLANC, SANS ENTRAÎNEMENT (partie 3, final)"
+    },
+    {
+      "id": "aVMDMDbxF84",
+      "title": "ESCALADER LE MONT BLANC, SANS ENTRAÎNEMENT (partie 2)"
+    },
+    {
+      "id": "6HWvfUxbntU",
+      "title": "ESCALADER LE MONT BLANC, SANS ENTRAÎNEMENT"
+    },
+    {
+      "id": "I2WBnKFCUB4",
+      "title": "ROULETTE RUSSE À GAGES 2 (les gages sont clairement abusés on va pas se mentir)"
+    },
+    {
+      "id": "5Gyk9BOUdQw",
+      "title": "Policiers VS Voleurs : on s'est fait (très) mal et on a éclaté un logis"
+    },
+    {
+      "id": "8etu9GpnFhU",
+      "title": "Notre plus gros procès... (c'est historique ce qu'on vit)"
+    },
+    {
+      "id": "7hu-bHMRak0",
+      "title": "PARCOURIR 700km SANS ARGENT (on est des génies, objectivement) - Pékin Hesspress partie 2"
+    },
+    {
+      "id": "R4gPBwDO-GA",
+      "title": "PARCOURIR 700km SANS ARGENT (et détester ses potes) - Pékin Hesspress"
+    },
+    {
+      "id": "s2Jal6gCgK8",
+      "title": "Nus dans une cellule en Suède...#OnVaOù5 (final)"
+    },
+    {
+      "id": "RntkHsHsyBg",
+      "title": "Des gros problèmes aux frontières... (notre niveau de chance est de 0/10) #OnVaOù5"
+    },
+    {
+      "id": "g0o3B3Erzxk",
+      "title": "Un hollandais géant nous gronde et on dort dans une forêt allemande #OnVaOù5"
+    },
+    {
+      "id": "bGaKxigCFjU",
+      "title": "On saccage un manoir, s'éclate la tête et il mange du c... (oui vous avez bien compris) #OnVaOù5"
+    },
+    {
+      "id": "8YS4zTzd5Ag",
+      "title": "ON VA QUELQUE PART DANS LE MONDE AU HASARD #OnVaOù5"
+    },
+    {
+      "id": "v2DUbJZU6tA",
+      "title": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT (partie 4)"
+    },
+    {
+      "id": "tNIpyQ99nCU",
+      "title": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT (partie 3)"
+    },
+    {
+      "id": "jq_ZrXz2DgY",
+      "title": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT (partie 2)"
+    },
+    {
+      "id": "iXrem_ZJgZo",
+      "title": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT"
+    },
+    {
+      "id": "cAPKMK6xGJ8",
+      "title": "TU PERDS, TU METS TON NUMÉRO DE TÉLÉPHONE EN STORY"
+    },
+    {
+      "id": "tYxxwGI44Mk",
+      "title": "LE BAN TWITCH N'ETAIT PAS LOIN..."
+    },
+    {
+      "id": "oI5rTpsjdnM",
+      "title": "PERDRE SES AMIS POUR DE L'ARGENT ! (aucune vanne)"
+    },
+    {
+      "id": "RONpCVrFpAo",
+      "title": "JE CRÉE DES COUPLES !! (et des malaises, principalement)"
+    },
+    {
+      "id": "zW6yWRW-cAI",
+      "title": "ATTRAPÉ PAR LA DOUANE À UNE FRONTIÈRE..."
+    },
+    {
+      "id": "CvTrLLmNVuU",
+      "title": "ROULETTE RUSSE À GAGES ! (y'a rien qui va hein)"
+    },
+    {
+      "id": "qVeXbjAHHYg",
+      "title": "J'ai fait un accident qui a causé SA MORT... (pardon)"
+    },
+    {
+      "id": "keKy3VjxjNM",
+      "title": "MA VIE EST UN ECHEC ! (mais tout finit bien comme pour les princesses)"
+    },
+    {
+      "id": "aUofVWFXvR8",
+      "title": "CACHE-CACHE EN SCOOTER DANS TOUTE LA VILLE ! (et 180€ d'amende accessoirement)"
+    },
+    {
+      "id": "WWHF-HYilGw",
+      "title": "COMMENT RÉCUPÉRER SON EX ? (on teste une technique incroyable)"
+    },
+    {
+      "id": "JW9OxuXSzUI",
+      "title": "J'AI ÉTÉ BLOQUÉ DANS UNE COURSE POURSUITE EN VOITURE ! (la voiture explose c'est faux)"
+    },
+    {
+      "id": "buLidkHMg_U",
+      "title": "SURVIE EN FORÊT AVEC UN MILITAIRE ! feat Mike Horn (bah non)"
+    },
+    {
+      "id": "cmfbNfjvwUQ",
+      "title": "JE NOUS ENVOIE EN ENFER (ça fait peur hein ?) #OnVaOù4 (final saison 4)"
+    },
+    {
+      "id": "4zvUQZuSfJ8",
+      "title": "CETTE SOIRÉE EST UN CAUCHEMAR... (tu crois je rigole ?) #OnVaOù4"
+    },
+    {
+      "id": "dq2BnPPWGyw",
+      "title": "J'AI DÉFONCÉ MA VOITURE... (ça me fait pas rire) #OnVaOù4"
+    },
+    {
+      "id": "aCknk_SosW8",
+      "title": "MON IPHONE AU FOND DE L'OCEAN... (c'est drôle ?) #OnVaOù4"
+    },
+    {
+      "id": "K1-ftVfQAnI",
+      "title": "UN POINT GPS AU HASARD, UNE CLIO, ET ON Y VA ! #OnVaOù4"
+    },
+    {
+      "id": "ZIyVMp-_01w",
+      "title": "ON A FOUTU UN JACUZZI DANS LE BUREAU (c'est bon ?)"
+    },
+    {
+      "id": "EmchIYbD8N8",
+      "title": "j'ai perdu mes sourcils..."
+    },
+    {
+      "id": "yea5bU8Jw_0",
+      "title": "SUR LE TOURNAGE D'UN FILM HOLLYWOODIEN (vous savez que j'abuse)"
+    },
+    {
+      "id": "deo5ncvydrU",
+      "title": "TRAHI PAR MON AMI ! (cache-cache avec des potes pas fiables)"
+    },
+    {
+      "id": "0IX7slwDIHY",
+      "title": "NOTRE VIE VA CHANGER !!"
+    },
+    {
+      "id": "Xp3I1S7ltGQ",
+      "title": "JE ME SUIS BATTU AVEC UN ENFANT (jai gagné)"
+    },
+    {
+      "id": "mYBe6oMWux8",
+      "title": "J’AI CRAQUÉ AVANT LA FIN..."
+    },
+    {
+      "id": "pbSaFUNheN8",
+      "title": "TU PERDS, TU POMPES !"
+    },
+    {
+      "id": "IdUwEcrcJ4Q",
+      "title": "J'AI INSULTÉ UN PROF !"
+    },
+    {
+      "id": "gnXYFtErJOo",
+      "title": "IL A ABUSÉ !! (en vrai c’est drôle)"
+    },
+    {
+      "id": "E4y2HBJf4pA",
+      "title": "MES MEILLEURES (ou pires) STORIES INSTAGRAM"
+    },
+    {
+      "id": "VKYw0KcOo-M",
+      "title": "J'AI FAILLI TOUT PERDRE !! #OnVaOù3 (final saison 3)"
+    },
+    {
+      "id": "rThNTvMl7LY",
+      "title": "ON A DÉTRUIT L'HOTEL ! (désolé) #OnVaOù3"
+    },
+    {
+      "id": "Ca6t_KCHl1I",
+      "title": "ON A FAIT N’IMPORTE QUOI... #OnVaOù3"
+    },
+    {
+      "id": "-UA7eqeMhWE",
+      "title": "LA CAUTION DOIT SAUTER !! #OnVaOù3"
+    },
+    {
+      "id": "z_cL4We9xVY",
+      "title": "DES CONFLITS AU SEIN DU GROUPE !! #OnVaOù3"
+    },
+    {
+      "id": "XJ86fGSf9Ro",
+      "title": "LA SOIRÉE DU CHAOS ! #OnVaOù3"
+    },
+    {
+      "id": "Ip2WndMWyiE",
+      "title": "PARTIR SUR UN POINT GPS AU HASARD ! #OnVaOù3"
+    },
+    {
+      "id": "pz8RiiRKiFs",
+      "title": "POURQUOI J'AI FAIT ÇA..."
+    },
+    {
+      "id": "OHNCCBilaNk",
+      "title": "ON DONNE LES CADEAUX DU LIVE DE MCFLY & CARLITO !"
+    },
+    {
+      "id": "XwAzcWbhl5E",
+      "title": "LE PIRE TATOUEUR DU MONDE ! CACHE LA CAM #16"
+    },
+    {
+      "id": "eK-WYdeiAKI",
+      "title": "VICTIMES D’UN PICKPOCKET EN ESPAGNE !"
+    },
+    {
+      "id": "YNWRyi9aP2o",
+      "title": "LA NUIT OÙ JE SUIS DEVENU FOU !"
+    },
+    {
+      "id": "LEN47zJhgaM",
+      "title": "LE PIRE COACH SPORTIF 2 ! CACHE LA CAM #15"
+    },
+    {
+      "id": "KKPT8Brv0XU",
+      "title": "LE PIRE DÉPRESSIF DANS LA RUE ! CACHE LA CAM #14"
+    },
+    {
+      "id": "h00_ao94SyY",
+      "title": "LE PIRE MEC DANS LE MÉTRO ! CACHE LA CAM #13"
+    },
+    {
+      "id": "5mdiPYFjq3E",
+      "title": "LA NUIT LA PLUS ÉTRANGE  DE MA VIE !"
+    },
+    {
+      "id": "630hmPJd7q8",
+      "title": "LE PIRE COACH SPORTIF ! CACHE LA CAM #12"
+    },
+    {
+      "id": "xz6-LfJ5TBw",
+      "title": "VOTRE PIRE NOËL ? INTERVIEW CHELOU #8"
+    },
+    {
+      "id": "ZLzAMA4cq8Y",
+      "title": "LE PIRE VENDEUR DU MONDE ! CACHE LA CAM #11"
+    },
+    {
+      "id": "MeI3NEs4KiI",
+      "title": "DANS UN CHAMP EN PLEINE NUIT EN SLOVENIE ! #OnVaOù2 (final saison 2)"
+    },
+    {
+      "id": "KTCUV1nykAQ",
+      "title": "LA PIRE SOIRÉE HALLOWEEN ! #OnVaOù2"
+    },
+    {
+      "id": "o0ZDJUwD5sY",
+      "title": "ON VA FINIR PAR METTRE LE FEU... #OnVaOù2"
+    },
+    {
+      "id": "ZGLJSxZVKgM",
+      "title": "UN CACHE-CACHE DANS TOUTE LA VILLE ! #OnVaOù2"
+    },
+    {
+      "id": "xdQT0nbti_M",
+      "title": "ON VA QUELQUE PART AU HASARD EN EUROPE ! #OnVaOù2"
+    },
+    {
+      "id": "oJnW6IoWkKo",
+      "title": "LE PIRE CLIENT AU CENTRE COMMERCIAL ! CACHE LA CAM #10"
+    },
+    {
+      "id": "SOcQiXyvetQ",
+      "title": "LES FRANCAIS SONT-ILS PERVERS ? INTERVIEW CHELOU #7"
+    },
+    {
+      "id": "Gz45233tKJo",
+      "title": "J’AI FAIT LE SAUT À L’ÉLASTIQUE LE PLUS HAUT D'EUROPE ! (je me suis ch*é dessus)"
+    },
+    {
+      "id": "XTQWSKfZAQc",
+      "title": "JE VOUS LE DIS ENFIN...?"
+    },
+    {
+      "id": "ptXUL64YoE0",
+      "title": "J'AI CASSÉ LE NEZ DE MON MEILLEUR AMI..."
+    },
+    {
+      "id": "b4KOiZtzSJE",
+      "title": "LE PIRE MEC DANS LA RUE ! CACHE LA CAM #9"
+    },
+    {
+      "id": "SckHX0ydqLQ",
+      "title": "1 AN SUR YOUTUBE : JE VOUS DIS TOUT !"
+    },
+    {
+      "id": "vWOkXhZdQwA",
+      "title": "LE MOMENT LE PLUS GÊNANT DE NOTRE VIE ! #OnVaOù (final saison 1)"
+    },
+    {
+      "id": "DBI8ps71fk0",
+      "title": "ON S'INCRUSTE CHEZ DES GENS ! #OnVaOù"
+    },
+    {
+      "id": "GpygQnM2aqw",
+      "title": "DES SUPPORTERS DU PSG À MARSEILLE ?! #OnVaOù"
+    },
+    {
+      "id": "JTjm4w-QxjY",
+      "title": "ON VA QUELQUE PART AU HASARD SUR GOOGLE MAPS ! #OnVaOù"
+    },
+    {
+      "id": "BGpuaXpJ04I",
+      "title": "LE PIRE EMPLOYÉ D'UN HOTEL ! CACHE LA CAM #8"
+    },
+    {
+      "id": "vB_cT1jqy94",
+      "title": "UN RACKETTEUR A VOULU ME PLANTER"
+    },
+    {
+      "id": "72APxQkk--I",
+      "title": "MES PROBLEMES AVEC LA POLICE !"
+    },
+    {
+      "id": "ApxDu2Mt6LY",
+      "title": "UNE ACTRICE ME FAIT UN CLIN D'OEIL ! #NosAventuresàCannes Part 2"
+    },
+    {
+      "id": "6zzFo9z3n7I",
+      "title": "UNE FEMME FLIPPANTE AU BORD DE LA ROUTE ! #NosAventuresàCannes Part 1"
+    },
+    {
+      "id": "ujxNdkiEdbU",
+      "title": "LE FESTIVAL DE CANNES, ÇA VAUT LE COUP ? INTERVIEW CHELOU #6"
+    },
+    {
+      "id": "XZDY5H9kgaI",
+      "title": "LES PIRES SERVEURS DU MONDE ! CACHE LA CAM #7"
+    },
+    {
+      "id": "DwdB7MTPeuo",
+      "title": "LE PIRE MEC DANS LE METRO PARISIEN ! CACHE LA CAM #6"
+    },
+    {
+      "id": "zJYz5psu9Ig",
+      "title": "100.000 ABONNES EN UNE SEMAINE ?! ❤️ #FAQ"
+    },
+    {
+      "id": "6qmJVUbWxn4",
+      "title": "LE PIRE MAGICIEN DU MONDE ! CACHE LA CAM #5"
+    },
+    {
+      "id": "eGuLe0vTd1k",
+      "title": "LE PIRE CLIENT A L'HOTEL ! CACHE LA CAM #4"
+    },
+    {
+      "id": "aixfYOLkJ6M",
+      "title": "LE MEC LE PLUS CHELOU DANS LA RUE ! CACHE LA CAM #3"
+    },
+    {
+      "id": "ZG49wY1oexc",
+      "title": "LE PIRE ÉLÈVE À LA FAC ! CACHE LA CAM #2"
+    },
+    {
+      "id": "KWZrzA7S-rc",
+      "title": "ETRE INSUPPORTABLE DANS LE METRO ! CACHE LA CAM #1"
+    },
+    {
+      "id": "mdE-BxC7JT0",
+      "title": "LES PARISIENS SONT-ILS CHIANTS ? INTERVIEW CHELOU #5"
+    },
+    {
+      "id": "4rC7w8bFs2k",
+      "title": "LA SAINT VALENTIN, CA VEUT DIRE QUOI ? INTERVIEW CHELOU #4"
+    },
+    {
+      "id": "HrcmpYKrfw4",
+      "title": "QUEL EST VOTRE FANTASME ? INTERVIEW CHELOU #3"
+    },
+    {
+      "id": "NFYnq_o1j30",
+      "title": "QUELLE EST VOTRE PIRE CONNERIE ? INTERVIEW CHELOU #2"
+    },
+    {
+      "id": "jbtzNL6d37Q",
+      "title": "QUELLES SONT VOS RÉSOLUTIONS 2019 ? INTERVIEW CHELOU #1"
+    },
+    {
+      "id": "vtFnltaWe1s",
+      "title": "LES RETROUVAILLES #JournalDeBord EP6 - FINAL SAISON 1"
+    },
+    {
+      "id": "in4zwbYO75s",
+      "title": "UNE SOLUTION RADICALE #JournalDeBord EP5"
+    },
+    {
+      "id": "Gmdu-9Ya7uk",
+      "title": "BESOIN D'AIDE... #JournalDeBord EP4"
+    },
+    {
+      "id": "5GdqdxQBSbo",
+      "title": "AU MILIEU D'UNE MANIFESTATION DES GILETS JAUNES !"
+    },
+    {
+      "id": "prDN4vO4xgw",
+      "title": "COUP DE POKER #JournalDeBord EP3"
+    },
+    {
+      "id": "uMIm06pHndo",
+      "title": "PROBLEMES D'ARGENT #JournalDeBord EP2"
+    },
+    {
+      "id": "uYMeiGNJSbU",
+      "title": "SE LANCER SUR YOUTUBE #JournalDeBord EP1"
+    },
+    {
+      "id": "fT1E4V5rZ3Q",
+      "title": "CACHÉS DANS LES TOILETTES D'UN TRAIN EN ALLEMAGNE #BourbiersDor 2"
+    },
+    {
+      "id": "EY5N56tDFBk",
+      "title": "J’AI CASSÉ MA CAMÉRA... #BourbiersDor 1"
+    },
+    {
+      "id": "g-lnmYWDcyk",
+      "title": "NOS GALÈRES EN GRÈCE + POSEZ-MOI VOS QUESTIONS"
+    },
+    {
+      "id": "CYATzVRUPFI",
+      "title": "JE VEUX FAIRE DEMI-TOUR SUR L'AUTOROUTE ! #DécouvreTonPays 9 (final saison 1)"
+    },
+    {
+      "id": "GvCuRzh_5UM",
+      "title": "ON N'A PLUS DE CHAUSSURES ! #DécouvreTonPays 8"
+    },
+    {
+      "id": "PanKi2WGWB4",
+      "title": "JE ME FAIS EMBROUILLER EN SORTANT D'UN BAR ! #DécouvreTonPays 7"
+    },
+    {
+      "id": "_qVpzIPYxO0",
+      "title": "UN GENDARME ME MET UNE PRESSION PAR TELEPHONE ! #DécouvreTonPays 6"
+    },
+    {
+      "id": "zbhpYnVsw5g",
+      "title": "RIEN NE S'EST PASSÉ COMME PRÉVU... #DécouvreTonPays 5"
+    },
+    {
+      "id": "2ptVHFhcEPg",
+      "title": "TOUT NU DANS LA LAVANDE ?! #DécouvreTonPays 4"
+    },
+    {
+      "id": "jPgVjTDD9x4",
+      "title": "SUR LA PLUS HAUTE DUNE D'EUROPE ! #DécouvreTonPays 3"
+    },
+    {
+      "id": "k1blyDB6xj4",
+      "title": "DES B*TES PARTOUT ! #DécouvreTonPays 2"
+    },
+    {
+      "id": "tPAFP4QFT6Y",
+      "title": "PARTIR EN TOUR DE FRANCE EN IMPRO TOTALE ! #DécouvreTonPays 1"
+    }
+  ],
+  "planned": [
+    {
+      "season": 2022,
+      "episode": 11,
+      "code": "S2022E11",
+      "episodeId": "9254623",
+      "title": "Parcourir 1000km sans argent - Pekin Hesspress 2, partie 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9254623",
+      "youtubeId": "4MTidWjuVPg",
+      "youtubeTitle": "Parcourir 1000km sans argent - Pekin Hesspress 2, partie 2",
+      "imageUrl": "https://i.ytimg.com/vi/4MTidWjuVPg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2022,
+      "episode": 13,
+      "code": "S2022E13",
+      "episodeId": "9275659",
+      "title": "On regarde nos plus gros dossiers",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9275659",
+      "youtubeId": "JOQ4uQ7PJtw",
+      "youtubeTitle": "On regarde nos plus gros dossiers",
+      "imageUrl": "https://i.ytimg.com/vi/JOQ4uQ7PJtw/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2022,
+      "episode": 21,
+      "code": "S2022E21",
+      "episodeId": "9477730",
+      "title": "Je deviens pilote de F4 (Grand Prix Explorer) FINAL",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477730",
+      "youtubeId": "6vQbNG9Y_38",
+      "youtubeTitle": "Je deviens pilote de F4 (Grand Prix Explorer) FINAL",
+      "imageUrl": "https://i.ytimg.com/vi/6vQbNG9Y_38/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2023,
+      "episode": 6,
+      "code": "S2023E06",
+      "episodeId": "9751685",
+      "title": "MAUVAISE PIOCHE (ft Seb, Billy & Maxime Biaggi)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9751685",
+      "youtubeId": "kK0QpSs-1U0",
+      "youtubeTitle": "MAUVAISE PIOCHE (ft Seb, Billy & Maxime Biaggi)",
+      "imageUrl": "https://i.ytimg.com/vi/kK0QpSs-1U0/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2023,
+      "episode": 8,
+      "code": "S2023E08",
+      "episodeId": "9812432",
+      "title": "En route pour le GP Explorer 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9812432",
+      "youtubeId": "Ty2qn_9vcrw",
+      "youtubeTitle": "En route pour le GP Explorer 2",
+      "imageUrl": "https://i.ytimg.com/vi/Ty2qn_9vcrw/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2023,
+      "episode": 10,
+      "code": "S2023E10",
+      "episodeId": "9812434",
+      "title": "En route pour le GP Explorer 2 (part 2)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9812434",
+      "youtubeId": "yogxhJrj4V8",
+      "youtubeTitle": "En route pour le GP Explorer 2 (part 2)",
+      "imageUrl": "https://i.ytimg.com/vi/yogxhJrj4V8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2023,
+      "episode": 13,
+      "code": "S2023E13",
+      "episodeId": "10740761",
+      "title": "En route pour le GP Explorer 2 (part 3)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740761",
+      "youtubeId": "ah4IEnC4IIs",
+      "youtubeTitle": "En route pour le GP Explorer 2 (part 3)",
+      "imageUrl": "https://i.ytimg.com/vi/ah4IEnC4IIs/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2023,
+      "episode": 17,
+      "code": "S2023E17",
+      "episodeId": "10740765",
+      "title": "On lave notre linge sale en public avec Mister V",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740765",
+      "youtubeId": "3ZxiIZvw7Ck",
+      "youtubeTitle": "On lave notre linge sale en public avec Mister V",
+      "imageUrl": "https://i.ytimg.com/vi/3ZxiIZvw7Ck/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2023,
+      "episode": 21,
+      "code": "S2023E21",
+      "episodeId": "10740769",
+      "title": "MAUVAISE PIOCHE 2 (ft Seb, Billy & Maxime Biaggi)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740769",
+      "youtubeId": "hTpcWUnwq00",
+      "youtubeTitle": "MAUVAISE PIOCHE 2 (ft Seb, Billy & Maxime Biaggi)",
+      "imageUrl": "https://i.ytimg.com/vi/hTpcWUnwq00/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2024,
+      "episode": 4,
+      "code": "S2024E04",
+      "episodeId": "10824279",
+      "title": "On lave notre linge sale en public avec Gotaga",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824279",
+      "youtubeId": "3_CF5SSyC70",
+      "youtubeTitle": "On lave notre linge sale en public avec Gotaga",
+      "imageUrl": "https://i.ytimg.com/vi/3_CF5SSyC70/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2025,
+      "episode": 6,
+      "code": "S2025E06",
+      "episodeId": "11684527",
+      "title": "GP EXPLORER 3 : Et si c'était la bonne ?",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684527",
+      "youtubeId": "yMkE-V85DDU",
+      "youtubeTitle": "GP EXPLORER 3 : Et si c'était la bonne ?",
+      "imageUrl": "https://i.ytimg.com/vi/yMkE-V85DDU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2025,
+      "episode": 11,
+      "code": "S2025E11",
+      "episodeId": "11684532",
+      "title": "GP EXPLORER 3 : Plus qu'un mois pour choquer...",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684532",
+      "youtubeId": "b9pl4QejKk8",
+      "youtubeTitle": "GP EXPLORER 3 : Plus qu'un mois pour choquer...",
+      "imageUrl": "https://i.ytimg.com/vi/b9pl4QejKk8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2025,
+      "episode": 13,
+      "code": "S2025E13",
+      "episodeId": "11684534",
+      "title": "GP EXPLORER 3 : Au final on a choqué pour la dernière",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684534",
+      "youtubeId": "mSEA0MWobZE",
+      "youtubeTitle": "GP EXPLORER 3 : Au final on a choqué pour la dernière",
+      "imageUrl": "https://i.ytimg.com/vi/mSEA0MWobZE/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2026,
+      "episode": 11,
+      "code": "S2026E11",
+      "episodeId": "12014131",
+      "title": "RDV LE SAMEDI 5 SEPTEMBRE À 11H... ????????",
+      "url": "https://thetvdb.com/series/djilsi/episodes/12014131",
+      "youtubeId": "uMmwt8l0FtM",
+      "youtubeTitle": "RDV LE SAMEDI 5 SEPTEMBRE À 11H... 🫶🏻",
+      "imageUrl": "https://i.ytimg.com/vi/uMmwt8l0FtM/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2026,
+      "episode": 12,
+      "code": "S2026E12",
+      "episodeId": "11964028",
+      "title": "On part traverser le Canada en camping car - ON VA OÙ 7 ep1 (ft Maxime Biaggi, Joyca & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11964028",
+      "youtubeId": "sJZBUk0nO5E",
+      "youtubeTitle": "On part traverser le Canada en camping car - ON VA OÙ 7 ep1 (ft Maxime Biaggi, Joyca & Théodort)",
+      "imageUrl": "https://i.ytimg.com/vi/sJZBUk0nO5E/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2026,
+      "episode": 13,
+      "code": "S2026E13",
+      "episodeId": "11971086",
+      "title": "Les problèmes commencent… - ON VA OÙ 7 ep2 (ft Maxime Biaggi, Joyca & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11971086",
+      "youtubeId": "LFJkky0MAnA",
+      "youtubeTitle": "Les problèmes commencent… - ON VA OÙ 7 ep2 (ft Maxime Biaggi, Joyca & Théodort)",
+      "imageUrl": "https://i.ytimg.com/vi/LFJkky0MAnA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2026,
+      "episode": 14,
+      "code": "S2026E14",
+      "episodeId": "11976892",
+      "title": "Des accidents et une soirée chaotique... - ON VA OÙ 7 ep3 (ft Maxime Biaggi, Joyca & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11976892",
+      "youtubeId": "kDwuuudq-Hk",
+      "youtubeTitle": "Des accidents et une soirée chaotique... - ON VA OÙ 7 ep3 (ft Maxime Biaggi, Joyca & Théodort)",
+      "imageUrl": "https://i.ytimg.com/vi/kDwuuudq-Hk/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2026,
+      "episode": 15,
+      "code": "S2026E15",
+      "episodeId": "11998871",
+      "title": "Tous nos choix sont catastrophiques... - ON VA OÙ 7 ep4 (ft Maxime Biaggi, Joyca & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11998871",
+      "youtubeId": "sIGByUaPZrs",
+      "youtubeTitle": "Tous nos choix sont catastrophiques... - ON VA OÙ 7 ep4 (ft Maxime Biaggi, Joyca & Théodort)",
+      "imageUrl": "https://i.ytimg.com/vi/sIGByUaPZrs/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2026,
+      "episode": 16,
+      "code": "S2026E16",
+      "episodeId": "11998872",
+      "title": "Au début tout se passait bien... - ON VA OÙ 7 ep5 (ft Maxime Biaggi, Joyca & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11998872",
+      "youtubeId": "ffSyBdcD958",
+      "youtubeTitle": "Au début tout se passait bien... - ON VA OÙ 7 ep5 (ft Maxime Biaggi, Joyca & Théodort)",
+      "imageUrl": "https://i.ytimg.com/vi/ffSyBdcD958/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    },
+    {
+      "season": 2026,
+      "episode": 17,
+      "code": "S2026E17",
+      "episodeId": "12014132",
+      "title": "Une fin d’aventure pleine de rebondissements… - ON VA OÙ 7 ep6 FINAL",
+      "url": "https://thetvdb.com/series/djilsi/episodes/12014132",
+      "youtubeId": "ersw34RPmZ8",
+      "youtubeTitle": "Une fin d’aventure pleine de rebondissements… - ON VA OÙ 7 ep6 FINAL",
+      "imageUrl": "https://i.ytimg.com/vi/ersw34RPmZ8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993"
+    }
+  ],
+  "checked": [
+    {
+      "season": 2018,
+      "episode": 1,
+      "code": "S2018E01",
+      "episodeId": "9242990",
+      "title": "PARTIR EN TOUR DE FRANCE EN IMPRO TOTALE ! #DécouvreTonPays 1",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9242990",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2018,
+      "episode": 2,
+      "code": "S2018E02",
+      "episodeId": "9242991",
+      "title": "DES B*TES PARTOUT ! #DécouvreTonPays 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9242991",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2018,
+      "episode": 3,
+      "code": "S2018E03",
+      "episodeId": "9242992",
+      "title": "SUR LA PLUS HAUTE DUNE D'EUROPE ! #DécouvreTonPays 3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9242992",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2018,
+      "episode": 4,
+      "code": "S2018E04",
+      "episodeId": "9242993",
+      "title": "TOUT NU DANS LA LAVANDE ?! #DécouvreTonPays 4",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9242993",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2018,
+      "episode": 5,
+      "code": "S2018E05",
+      "episodeId": "9242994",
+      "title": "RIEN NE S'EST PASSÉ COMME PRÉVU... #DécouvreTonPays 5",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9242994",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2018,
+      "episode": 6,
+      "code": "S2018E06",
+      "episodeId": "9242995",
+      "title": "UN GENDARME ME MET UNE PRESSION PAR TELEPHONE ! #DécouvreTonPays 6",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9242995",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2018,
+      "episode": 7,
+      "code": "S2018E07",
+      "episodeId": "9242996",
+      "title": "JE ME FAIS EMBROUILLER EN SORTANT D'UN BAR ! #DécouvreTonPays 7",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9242996",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2018,
+      "episode": 8,
+      "code": "S2018E08",
+      "episodeId": "9242997",
+      "title": "ON N'A PLUS DE CHAUSSURES ! #DécouvreTonPays 8",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9242997",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2018,
+      "episode": 9,
+      "code": "S2018E09",
+      "episodeId": "9242998",
+      "title": "JE VEUX FAIRE DEMI-TOUR SUR L'AUTOROUTE ! #DécouvreTonPays 9 (final saison 1)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9242998",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2018,
+      "episode": 10,
+      "code": "S2018E10",
+      "episodeId": "9243015",
+      "title": "NOS GALÈRES EN GRÈCE + POSEZ-MOI VOS QUESTIONS",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243015",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2018,
+      "episode": 11,
+      "code": "S2018E11",
+      "episodeId": "9243016",
+      "title": "J’AI CASSÉ MA CAMÉRA... #BourbiersDor 1",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243016",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2018,
+      "episode": 12,
+      "code": "S2018E12",
+      "episodeId": "9243017",
+      "title": "CACHÉS DANS LES TOILETTES D'UN TRAIN EN ALLEMAGNE #BourbiersDor 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243017",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2018,
+      "episode": 13,
+      "code": "S2018E13",
+      "episodeId": "9243018",
+      "title": "SE LANCER SUR YOUTUBE #JournalDeBord EP1",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243018",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2018,
+      "episode": 14,
+      "code": "S2018E14",
+      "episodeId": "9243019",
+      "title": "PROBLEMES D'ARGENT #JournalDeBord EP2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243019",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2018,
+      "episode": 15,
+      "code": "S2018E15",
+      "episodeId": "9243020",
+      "title": "COUP DE POKER #JournalDeBord EP3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243020",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2018,
+      "episode": 16,
+      "code": "S2018E16",
+      "episodeId": "9243021",
+      "title": "AU MILIEU D'UNE MANIFESTATION DES GILETS JAUNES !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243021",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2018,
+      "episode": 17,
+      "code": "S2018E17",
+      "episodeId": "9243022",
+      "title": "BESOIN D'AIDE... #JournalDeBord EP4",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243022",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2018,
+      "episode": 18,
+      "code": "S2018E18",
+      "episodeId": "9243023",
+      "title": "UNE SOLUTION RADICALE #JournalDeBord EP5",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243023",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2018,
+      "episode": 19,
+      "code": "S2018E19",
+      "episodeId": "9243024",
+      "title": "LES RETROUVAILLES #JournalDeBord EP6 - FINAL SAISON 1",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243024",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 1,
+      "code": "S2019E01",
+      "episodeId": "9243028",
+      "title": "QUELLES SONT VOS RÉSOLUTIONS 2019 ? INTERVIEW CHELOU #1",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243028",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 2,
+      "code": "S2019E02",
+      "episodeId": "9243029",
+      "title": "QUELLE EST VOTRE PIRE CONNERIE ? INTERVIEW CHELOU #2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243029",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 3,
+      "code": "S2019E03",
+      "episodeId": "9243030",
+      "title": "QUEL EST VOTRE FANTASME ? INTERVIEW CHELOU #3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243030",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 4,
+      "code": "S2019E04",
+      "episodeId": "9243031",
+      "title": "LA SAINT VALENTIN, CA VEUT DIRE QUOI ? INTERVIEW CHELOU #4",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243031",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 5,
+      "code": "S2019E05",
+      "episodeId": "9243032",
+      "title": "LES PARISIENS SONT-ILS CHIANTS ? INTERVIEW CHELOU #5",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243032",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 6,
+      "code": "S2019E06",
+      "episodeId": "9243033",
+      "title": "ETRE INSUPPORTABLE DANS LE METRO ! CACHE LA CAM #1",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243033",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 7,
+      "code": "S2019E07",
+      "episodeId": "9243034",
+      "title": "LE PIRE ÉLÈVE À LA FAC ! CACHE LA CAM #2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243034",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 8,
+      "code": "S2019E08",
+      "episodeId": "9243035",
+      "title": "LE MEC LE PLUS CHELOU DANS LA RUE ! CACHE LA CAM #3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243035",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 9,
+      "code": "S2019E09",
+      "episodeId": "9243036",
+      "title": "LE PIRE CLIENT A L'HOTEL ! CACHE LA CAM #4",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243036",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 10,
+      "code": "S2019E10",
+      "episodeId": "9243037",
+      "title": "LE PIRE MAGICIEN DU MONDE ! CACHE LA CAM #5",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243037",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 11,
+      "code": "S2019E11",
+      "episodeId": "9243038",
+      "title": "100.000 ABONNES EN UNE SEMAINE ?! ❤️ #FAQ",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243038",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 12,
+      "code": "S2019E12",
+      "episodeId": "9243039",
+      "title": "LE PIRE MEC DANS LE METRO PARISIEN ! CACHE LA CAM #6",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243039",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 13,
+      "code": "S2019E13",
+      "episodeId": "9243040",
+      "title": "LES PIRES SERVEURS DU MONDE ! CACHE LA CAM #7",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243040",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 14,
+      "code": "S2019E14",
+      "episodeId": "9243041",
+      "title": "LE FESTIVAL DE CANNES, ÇA VAUT LE COUP ? INTERVIEW CHELOU #6",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243041",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 15,
+      "code": "S2019E15",
+      "episodeId": "9243042",
+      "title": "UNE FEMME FLIPPANTE AU BORD DE LA ROUTE ! #NosAventuresàCannes Part 1",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243042",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 16,
+      "code": "S2019E16",
+      "episodeId": "9243043",
+      "title": "UNE ACTRICE ME FAIT UN CLIN D'OEIL ! #NosAventuresàCannes Part 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243043",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 17,
+      "code": "S2019E17",
+      "episodeId": "9243044",
+      "title": "MES PROBLEMES AVEC LA POLICE !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243044",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 18,
+      "code": "S2019E18",
+      "episodeId": "9243045",
+      "title": "UN RACKETTEUR A VOULU ME PLANTER",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243045",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 19,
+      "code": "S2019E19",
+      "episodeId": "9243046",
+      "title": "LE PIRE EMPLOYÉ D'UN HOTEL ! CACHE LA CAM #8",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243046",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 20,
+      "code": "S2019E20",
+      "episodeId": "9243047",
+      "title": "ON VA QUELQUE PART AU HASARD SUR GOOGLE MAPS ! #OnVaOù",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243047",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 21,
+      "code": "S2019E21",
+      "episodeId": "9243048",
+      "title": "DES SUPPORTERS DU PSG À MARSEILLE ?! #OnVaOù",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243048",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 22,
+      "code": "S2019E22",
+      "episodeId": "9243049",
+      "title": "ON S'INCRUSTE CHEZ DES GENS ! #OnVaOù",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243049",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 23,
+      "code": "S2019E23",
+      "episodeId": "9243050",
+      "title": "LE MOMENT LE PLUS GÊNANT DE NOTRE VIE ! #OnVaOù (final saison 1)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243050",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 24,
+      "code": "S2019E24",
+      "episodeId": "9243051",
+      "title": "1 AN SUR YOUTUBE : JE VOUS DIS TOUT !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243051",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 25,
+      "code": "S2019E25",
+      "episodeId": "9243052",
+      "title": "LE PIRE MEC DANS LA RUE ! CACHE LA CAM #9",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243052",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 26,
+      "code": "S2019E26",
+      "episodeId": "9243053",
+      "title": "J'AI CASSÉ LE NEZ DE MON MEILLEUR AMI...",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243053",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 27,
+      "code": "S2019E27",
+      "episodeId": "9243055",
+      "title": "JE VOUS LE DIS ENFIN...?",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243055",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 28,
+      "code": "S2019E28",
+      "episodeId": "9243056",
+      "title": "J’AI FAIT LE SAUT À L’ÉLASTIQUE LE PLUS HAUT D'EUROPE ! (je me suis ch*é dessus)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243056",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 29,
+      "code": "S2019E29",
+      "episodeId": "9243057",
+      "title": "LES FRANCAIS SONT-ILS PERVERS ? INTERVIEW CHELOU #7",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243057",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 30,
+      "code": "S2019E30",
+      "episodeId": "9243058",
+      "title": "LE PIRE CLIENT AU CENTRE COMMERCIAL ! CACHE LA CAM #10",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243058",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 31,
+      "code": "S2019E31",
+      "episodeId": "9243059",
+      "title": "ON VA QUELQUE PART AU HASARD EN EUROPE ! #OnVaOù2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243059",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 32,
+      "code": "S2019E32",
+      "episodeId": "9243060",
+      "title": "UN CACHE-CACHE DANS TOUTE LA VILLE ! #OnVaOù2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243060",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 33,
+      "code": "S2019E33",
+      "episodeId": "9243061",
+      "title": "ON VA FINIR PAR METTRE LE FEU... #OnVaOù2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243061",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 34,
+      "code": "S2019E34",
+      "episodeId": "9243062",
+      "title": "LA PIRE SOIRÉE HALLOWEEN ! #OnVaOù2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243062",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 35,
+      "code": "S2019E35",
+      "episodeId": "9243063",
+      "title": "DANS UN CHAMP EN PLEINE NUIT EN SLOVENIE ! #OnVaOù2 (final saison 2)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243063",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 36,
+      "code": "S2019E36",
+      "episodeId": "9243064",
+      "title": "LE PIRE VENDEUR DU MONDE ! CACHE LA CAM #11",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243064",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 37,
+      "code": "S2019E37",
+      "episodeId": "9243070",
+      "title": "VOTRE PIRE NOËL ? INTERVIEW CHELOU #8",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243070",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 38,
+      "code": "S2019E38",
+      "episodeId": "9243073",
+      "title": "LE PIRE COACH SPORTIF ! CACHE LA CAM #12",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243073",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 39,
+      "code": "S2019E39",
+      "episodeId": "9243072",
+      "title": "LA NUIT LA PLUS ÉTRANGE DE MA VIE !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243072",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 40,
+      "code": "S2019E40",
+      "episodeId": "9243071",
+      "title": "LE PIRE MEC DANS LE MÉTRO ! CACHE LA CAM #13",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243071",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 41,
+      "code": "S2019E41",
+      "episodeId": "9243075",
+      "title": "LE PIRE DÉPRESSIF DANS LA RUE ! CACHE LA CAM #14",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243075",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 42,
+      "code": "S2019E42",
+      "episodeId": "9243076",
+      "title": "LE PIRE COACH SPORTIF 2 ! CACHE LA CAM #15",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243076",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 43,
+      "code": "S2019E43",
+      "episodeId": "9243077",
+      "title": "LA NUIT OÙ JE SUIS DEVENU FOU !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243077",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 44,
+      "code": "S2019E44",
+      "episodeId": "9243078",
+      "title": "VICTIMES D’UN PICKPOCKET EN ESPAGNE !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243078",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2019,
+      "episode": 45,
+      "code": "S2019E45",
+      "episodeId": "9243079",
+      "title": "LE PIRE TATOUEUR DU MONDE ! CACHE LA CAM #16",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243079",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 1,
+      "code": "S2020E01",
+      "episodeId": "9243086",
+      "title": "ON DONNE LES CADEAUX DU LIVE DE MCFLY & CARLITO !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243086",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 2,
+      "code": "S2020E02",
+      "episodeId": "9243081",
+      "title": "POURQUOI J'AI FAIT ÇA...",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243081",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 3,
+      "code": "S2020E03",
+      "episodeId": "9243082",
+      "title": "PARTIR SUR UN POINT GPS AU HASARD ! #OnVaOù3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243082",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 4,
+      "code": "S2020E04",
+      "episodeId": "9243083",
+      "title": "LA SOIRÉE DU CHAOS ! #OnVaOù3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243083",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 5,
+      "code": "S2020E05",
+      "episodeId": "9243084",
+      "title": "DES CONFLITS AU SEIN DU GROUPE !! #OnVaOù3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243084",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 6,
+      "code": "S2020E06",
+      "episodeId": "9243085",
+      "title": "LA CAUTION DOIT SAUTER !! #OnVaOù3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243085",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 7,
+      "code": "S2020E07",
+      "episodeId": "9243130",
+      "title": "ON A FAIT N’IMPORTE QUOI... #OnVaOù3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243130",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 8,
+      "code": "S2020E08",
+      "episodeId": "9243132",
+      "title": "ON A DÉTRUIT L'HOTEL ! (désolé) #OnVaOù3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243132",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 9,
+      "code": "S2020E09",
+      "episodeId": "9243133",
+      "title": "J'AI FAILLI TOUT PERDRE !! #OnVaOù3 (final saison 3)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243133",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 10,
+      "code": "S2020E10",
+      "episodeId": "9243134",
+      "title": "MES MEILLEURES (ou pires) STORIES INSTAGRAM",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243134",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 11,
+      "code": "S2020E11",
+      "episodeId": "9243135",
+      "title": "IL A ABUSÉ !! (en vrai c’est drôle)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243135",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 12,
+      "code": "S2020E12",
+      "episodeId": "9243136",
+      "title": "J'AI INSULTÉ UN PROF !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243136",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 13,
+      "code": "S2020E13",
+      "episodeId": "9243137",
+      "title": "TU PERDS, TU POMPES !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243137",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 14,
+      "code": "S2020E14",
+      "episodeId": "9243138",
+      "title": "J’AI CRAQUÉ AVANT LA FIN...",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243138",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 15,
+      "code": "S2020E15",
+      "episodeId": "9243139",
+      "title": "JE ME SUIS BATTU AVEC UN ENFANT (jai gagné)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243139",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 16,
+      "code": "S2020E16",
+      "episodeId": "9243140",
+      "title": "NOTRE VIE VA CHANGER !!",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243140",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 17,
+      "code": "S2020E17",
+      "episodeId": "9243152",
+      "title": "TRAHI PAR MON AMI ! (cache-cache avec des potes pas fiables)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243152",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 18,
+      "code": "S2020E18",
+      "episodeId": "9243153",
+      "title": "SUR LE TOURNAGE D'UN FILM HOLLYWOODIEN (vous savez que j'abuse)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243153",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 19,
+      "code": "S2020E19",
+      "episodeId": "9243154",
+      "title": "j'ai perdu mes sourcils...",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243154",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 20,
+      "code": "S2020E20",
+      "episodeId": "9243155",
+      "title": "ON A FOUTU UN JACUZZI DANS LE BUREAU (c'est bon ?)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243155",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 21,
+      "code": "S2020E21",
+      "episodeId": "9243156",
+      "title": "UN POINT GPS AU HASARD, UNE CLIO, ET ON Y VA ! #OnVaOù4",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243156",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 22,
+      "code": "S2020E22",
+      "episodeId": "9243157",
+      "title": "MON IPHONE AU FOND DE L'OCEAN... (c'est drôle ?) #OnVaOù4",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243157",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 23,
+      "code": "S2020E23",
+      "episodeId": "9243158",
+      "title": "J'AI DÉFONCÉ MA VOITURE... (ça me fait pas rire) #OnVaOù4",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243158",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 24,
+      "code": "S2020E24",
+      "episodeId": "9243159",
+      "title": "CETTE SOIRÉE EST UN CAUCHEMAR... (tu crois je rigole ?) #OnVaOù4",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243159",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 25,
+      "code": "S2020E25",
+      "episodeId": "9243160",
+      "title": "JE NOUS ENVOIE EN ENFER (ça fait peur hein ?) #OnVaOù4 (final saison 4)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243160",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 26,
+      "code": "S2020E26",
+      "episodeId": "9243161",
+      "title": "SURVIE EN FORÊT AVEC UN MILITAIRE ! feat Mike Horn (bah non)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243161",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 27,
+      "code": "S2020E27",
+      "episodeId": "9243162",
+      "title": "J'AI ÉTÉ BLOQUÉ DANS UNE COURSE POURSUITE EN VOITURE ! (la voiture explose c'est faux)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243162",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 28,
+      "code": "S2020E28",
+      "episodeId": "9243163",
+      "title": "COMMENT RÉCUPÉRER SON EX ? (on teste une technique incroyable)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243163",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 29,
+      "code": "S2020E29",
+      "episodeId": "9243164",
+      "title": "CACHE-CACHE EN SCOOTER DANS TOUTE LA VILLE ! (et 180€ d'amende accessoirement)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243164",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2020,
+      "episode": 30,
+      "code": "S2020E30",
+      "episodeId": "9243165",
+      "title": "MA VIE EST UN ECHEC ! (mais tout finit bien comme pour les princesses)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243165",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 1,
+      "code": "S2021E01",
+      "episodeId": "9243166",
+      "title": "J'ai fait un accident qui a causé SA MORT... (pardon)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243166",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 2,
+      "code": "S2021E02",
+      "episodeId": "9243167",
+      "title": "ROULETTE RUSSE À GAGES ! (y'a rien qui va hein)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243167",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 3,
+      "code": "S2021E03",
+      "episodeId": "9243168",
+      "title": "ATTRAPÉ PAR LA DOUANE À UNE FRONTIÈRE...",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243168",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 4,
+      "code": "S2021E04",
+      "episodeId": "9243169",
+      "title": "JE CRÉE DES COUPLES !! (et des malaises, principalement)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243169",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 5,
+      "code": "S2021E05",
+      "episodeId": "9243170",
+      "title": "PERDRE SES AMIS POUR DE L'ARGENT ! (aucune vanne)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243170",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 6,
+      "code": "S2021E06",
+      "episodeId": "9243171",
+      "title": "LE BAN TWITCH N'ETAIT PAS LOIN...",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243171",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 7,
+      "code": "S2021E07",
+      "episodeId": "9243173",
+      "title": "TU PERDS, TU METS TON NUMÉRO DE TÉLÉPHONE EN STORY",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243173",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 8,
+      "code": "S2021E08",
+      "episodeId": "9243174",
+      "title": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243174",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 9,
+      "code": "S2021E09",
+      "episodeId": "9243175",
+      "title": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT (partie 2)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243175",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 10,
+      "code": "S2021E10",
+      "episodeId": "9243176",
+      "title": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT (partie 3)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243176",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 11,
+      "code": "S2021E11",
+      "episodeId": "9243177",
+      "title": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT (partie 4)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243177",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 12,
+      "code": "S2021E12",
+      "episodeId": "9243178",
+      "title": "ON VA QUELQUE PART DANS LE MONDE AU HASARD #OnVaOù5",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243178",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 13,
+      "code": "S2021E13",
+      "episodeId": "9243179",
+      "title": "On saccage un manoir, s'éclate la tête et il mange du c... (oui vous avez bien compris) #OnVaOù5",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243179",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 14,
+      "code": "S2021E14",
+      "episodeId": "9243180",
+      "title": "Un hollandais géant nous gronde et on dort dans une forêt allemande #OnVaOù5",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243180",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 15,
+      "code": "S2021E15",
+      "episodeId": "9243181",
+      "title": "Des gros problèmes aux frontières... (notre niveau de chance est de 0/10) #OnVaOù5",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243181",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 16,
+      "code": "S2021E16",
+      "episodeId": "9243182",
+      "title": "Nus dans une cellule en Suède...#OnVaOù5 (final)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243182",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 17,
+      "code": "S2021E17",
+      "episodeId": "9243183",
+      "title": "PARCOURIR 700km SANS ARGENT (et détester ses potes) - Pékin Hesspress",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243183",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 18,
+      "code": "S2021E18",
+      "episodeId": "9243184",
+      "title": "PARCOURIR 700km SANS ARGENT (on est des génies, objectivement) - Pékin Hesspress partie 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243184",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 19,
+      "code": "S2021E19",
+      "episodeId": "9243185",
+      "title": "Notre plus gros procès... (c'est historique ce qu'on vit)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243185",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 20,
+      "code": "S2021E20",
+      "episodeId": "9243186",
+      "title": "Policiers VS Voleurs : on s'est fait (très) mal et on a éclaté un logis",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243186",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 21,
+      "code": "S2021E21",
+      "episodeId": "9243187",
+      "title": "ROULETTE RUSSE À GAGES 2 (les gages sont clairement abusés on va pas se mentir)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243187",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 22,
+      "code": "S2021E22",
+      "episodeId": "9243188",
+      "title": "ESCALADER LE MONT BLANC, SANS ENTRAÎNEMENT",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243188",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 23,
+      "code": "S2021E23",
+      "episodeId": "9243189",
+      "title": "ESCALADER LE MONT BLANC, SANS ENTRAÎNEMENT (partie 2)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243189",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2021,
+      "episode": 24,
+      "code": "S2021E24",
+      "episodeId": "9243190",
+      "title": "ESCALADER LE MONT BLANC, SANS ENTRAÎNEMENT (partie 3, final)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243190",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2022,
+      "episode": 1,
+      "code": "S2022E01",
+      "episodeId": "9243197",
+      "title": "Traverser la Laponie en motoneige",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243197",
+      "youtubeId": "JgG7ZYh7zp0",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9243197/screencap/6aa71d428f5fa.jpg"
+      ]
+    },
+    {
+      "season": 2022,
+      "episode": 2,
+      "code": "S2022E02",
+      "episodeId": "9243198",
+      "title": "Traverser la Laponie en motoneige (partie 2)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243198",
+      "youtubeId": "cj7rmiPMfZc",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9243198/screencap/6aa71d5150992.jpg"
+      ]
+    },
+    {
+      "season": 2022,
+      "episode": 3,
+      "code": "S2022E03",
+      "episodeId": "9243196",
+      "title": "On saute dans la foule d'un Zénith",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243196",
+      "youtubeId": "VNvcvHRkRSc",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9243196/screencap/6aa71d5dc3379.jpg"
+      ]
+    },
+    {
+      "season": 2022,
+      "episode": 4,
+      "code": "S2022E04",
+      "episodeId": "9243192",
+      "title": "Problèmes, burn-out, anecdotes, le futur... on vous dit tout",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243192",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2022,
+      "episode": 5,
+      "code": "S2022E05",
+      "episodeId": "9243193",
+      "title": "Chasse à l'homme dans toute la ville - Le Fugitif",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243193",
+      "youtubeId": "4zCrvJjQ4ZM",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9243193/screencap/6aa71d769637a.jpg"
+      ]
+    },
+    {
+      "season": 2022,
+      "episode": 6,
+      "code": "S2022E06",
+      "episodeId": "9243194",
+      "title": "Je deviens pilote de F4 (Grand Prix Explorer)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243194",
+      "youtubeId": "hzRd0hILhYc",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9243194/screencap/6aa71d8f6ddd4.jpg"
+      ]
+    },
+    {
+      "season": 2022,
+      "episode": 7,
+      "code": "S2022E07",
+      "episodeId": "9243195",
+      "title": "On joue à des jeux de société et ça finit forcément mal",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9243195",
+      "youtubeId": "nw-sQocR6Yc",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9243195/screencap/6aa71d9ba8d1a.jpg"
+      ]
+    },
+    {
+      "season": 2022,
+      "episode": 8,
+      "code": "S2022E08",
+      "episodeId": "9254620",
+      "title": "On contrôle le date de notre pote",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9254620",
+      "youtubeId": "31a74Zo2BpU",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9254620/screencap/6aa71da890698.jpg"
+      ]
+    },
+    {
+      "season": 2022,
+      "episode": 9,
+      "code": "S2022E09",
+      "episodeId": "9254621",
+      "title": "Je deviens pilote de F4 (Grand Prix Explorer) part 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9254621",
+      "youtubeId": "NK8JkKMy-hA",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9254621/screencap/6aa71db5728f2.jpg"
+      ]
+    },
+    {
+      "season": 2022,
+      "episode": 10,
+      "code": "S2022E10",
+      "episodeId": "9254622",
+      "title": "Parcourir 1000km sans argent - Pekin Hesspress 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9254622",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "season": 2022,
+      "episode": 11,
+      "code": "S2022E11",
+      "episodeId": "9254623",
+      "title": "Parcourir 1000km sans argent - Pekin Hesspress 2, partie 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9254623",
+      "youtubeId": "4MTidWjuVPg",
+      "youtubeTitle": "Parcourir 1000km sans argent - Pekin Hesspress 2, partie 2",
+      "imageUrl": "https://i.ytimg.com/vi/4MTidWjuVPg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2022,
+      "episode": 12,
+      "code": "S2022E12",
+      "episodeId": "9254624",
+      "title": "Je deviens pilote de F4 (Grand Prix Explorer) part 3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9254624",
+      "youtubeId": "0JtVzfnZQbU",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9254624/screencap/6aa71dee6a1cf.jpg"
+      ]
+    },
+    {
+      "season": 2022,
+      "episode": 13,
+      "code": "S2022E13",
+      "episodeId": "9275659",
+      "title": "On regarde nos plus gros dossiers",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9275659",
+      "youtubeId": "JOQ4uQ7PJtw",
+      "youtubeTitle": "On regarde nos plus gros dossiers",
+      "imageUrl": "https://i.ytimg.com/vi/JOQ4uQ7PJtw/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2022,
+      "episode": 14,
+      "code": "S2022E14",
+      "episodeId": "9477677",
+      "title": "On traverse les États-Unis en camping car #OnVaOù6 ep1",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477677",
+      "youtubeId": "JpIShIIrrpM",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9477677/screencap/6aa71e17a3dc7.jpg"
+      ]
+    },
+    {
+      "season": 2022,
+      "episode": 15,
+      "code": "S2022E15",
+      "episodeId": "9477701",
+      "title": "On traverse les États-Unis en camping car #OnVaOù6 ep2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477701",
+      "youtubeId": "sGUVE7lup0k",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9477701/screencap/6aa71e252bdca.jpg"
+      ]
+    },
+    {
+      "season": 2022,
+      "episode": 16,
+      "code": "S2022E16",
+      "episodeId": "9477724",
+      "title": "On traverse les États-Unis en camping car #OnVaOù6 ep3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477724",
+      "youtubeId": "Q_SnmLxzZZw",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9477724/screencap/6aa71e3de27db.jpg"
+      ]
+    },
+    {
+      "season": 2022,
+      "episode": 17,
+      "code": "S2022E17",
+      "episodeId": "9477725",
+      "title": "On traverse les États-Unis en camping car #OnVaOù6 ep4",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477725",
+      "youtubeId": "rhyvnbhcWZM",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9477725/screencap/6aa71e4feed3c.jpg"
+      ]
+    },
+    {
+      "season": 2022,
+      "episode": 18,
+      "code": "S2022E18",
+      "episodeId": "9477727",
+      "title": "On traverse les États-Unis en camping car #OnVaOù6 ep5",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477727",
+      "youtubeId": "xywl9gXlsCc",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9477727/screencap/6aa71e635f42d.jpg"
+      ]
+    },
+    {
+      "season": 2022,
+      "episode": 19,
+      "code": "S2022E19",
+      "episodeId": "9477728",
+      "title": "On traverse les États-Unis en camping car #OnVaOù ep6 FINAL",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477728",
+      "youtubeId": "g0wg7RwbBws",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9477728/screencap/6aa71e731d329.jpg"
+      ]
+    },
+    {
+      "season": 2022,
+      "episode": 20,
+      "code": "S2022E20",
+      "episodeId": "9477729",
+      "title": "On a fait une tournée des cinémas dans toute la France",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477729",
+      "youtubeId": "m2qzAjNyWaY",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9477729/screencap/6aa71e832a484.jpg"
+      ]
+    },
+    {
+      "season": 2022,
+      "episode": 21,
+      "code": "S2022E21",
+      "episodeId": "9477730",
+      "title": "Je deviens pilote de F4 (Grand Prix Explorer) FINAL",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477730",
+      "youtubeId": "6vQbNG9Y_38",
+      "youtubeTitle": "Je deviens pilote de F4 (Grand Prix Explorer) FINAL",
+      "imageUrl": "https://i.ytimg.com/vi/6vQbNG9Y_38/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2022,
+      "episode": 22,
+      "code": "S2022E22",
+      "episodeId": "9477732",
+      "title": "La fois où on est partis au bout de l'Europe... pour rien",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9477732",
+      "youtubeId": "uZzmdSWL5ls",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9477732/screencap/6aa71ea85de54.jpg"
+      ]
+    },
+    {
+      "season": 2022,
+      "episode": 23,
+      "code": "S2022E23",
+      "episodeId": "9751664",
+      "title": "À ma recherche du bonheur",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9751664",
+      "youtubeId": "qTRhRqZ8aeg",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9751664/screencap/6aa71eb274ae0.jpg"
+      ]
+    },
+    {
+      "season": 2023,
+      "episode": 1,
+      "code": "S2023E01",
+      "episodeId": "9751680",
+      "title": "Ma première fois catastrophique au ski",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9751680",
+      "youtubeId": "wGoRyg5-YMo",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9751680/screencap/6aa71c53a132d.jpg"
+      ]
+    },
+    {
+      "season": 2023,
+      "episode": 2,
+      "code": "S2023E02",
+      "episodeId": "9751681",
+      "title": "On traverse le Japon en train ep1",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9751681",
+      "youtubeId": "R_-VaozjJU4",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9751681/screencap/6aa71b3683591.jpg"
+      ]
+    },
+    {
+      "season": 2023,
+      "episode": 3,
+      "code": "S2023E03",
+      "episodeId": "9751682",
+      "title": "On traverse le Japon en train ep2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9751682",
+      "youtubeId": "_KNqgnS0nvg",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9751682/screencap/6aa71b40768c4.jpg"
+      ]
+    },
+    {
+      "season": 2023,
+      "episode": 4,
+      "code": "S2023E04",
+      "episodeId": "9751683",
+      "title": "On traverse le Japon en train ep3",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9751683",
+      "youtubeId": "EFa5BVQxQpI",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9751683/screencap/6aa71b4b76aa3.jpg"
+      ]
+    },
+    {
+      "season": 2023,
+      "episode": 5,
+      "code": "S2023E05",
+      "episodeId": "9751684",
+      "title": "On traverse le Japon en train ep4 (final)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9751684",
+      "youtubeId": "ovSK13g-Sjg",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9751684/screencap/6aa71b55af2f7.jpg"
+      ]
+    },
+    {
+      "season": 2023,
+      "episode": 6,
+      "code": "S2023E06",
+      "episodeId": "9751685",
+      "title": "MAUVAISE PIOCHE (ft Seb, Billy & Maxime Biaggi)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9751685",
+      "youtubeId": "kK0QpSs-1U0",
+      "youtubeTitle": "MAUVAISE PIOCHE (ft Seb, Billy & Maxime Biaggi)",
+      "imageUrl": "https://i.ytimg.com/vi/kK0QpSs-1U0/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2023,
+      "episode": 7,
+      "code": "S2023E07",
+      "episodeId": "9812414",
+      "title": "Je deviens cascadeur",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9812414",
+      "youtubeId": "bJI2ATANRSQ",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9812414/screencap/6aa71b77bece0.jpg"
+      ]
+    },
+    {
+      "season": 2023,
+      "episode": 8,
+      "code": "S2023E08",
+      "episodeId": "9812432",
+      "title": "En route pour le GP Explorer 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9812432",
+      "youtubeId": "Ty2qn_9vcrw",
+      "youtubeTitle": "En route pour le GP Explorer 2",
+      "imageUrl": "https://i.ytimg.com/vi/Ty2qn_9vcrw/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2023,
+      "episode": 9,
+      "code": "S2023E09",
+      "episodeId": "9812433",
+      "title": "4 jours avec des boxeurs Thaïlandais",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9812433",
+      "youtubeId": "JiX2fv3piaw",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9812433/screencap/6aa71b8c29a8b.jpg"
+      ]
+    },
+    {
+      "season": 2023,
+      "episode": 10,
+      "code": "S2023E10",
+      "episodeId": "9812434",
+      "title": "En route pour le GP Explorer 2 (part 2)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9812434",
+      "youtubeId": "yogxhJrj4V8",
+      "youtubeTitle": "En route pour le GP Explorer 2 (part 2)",
+      "imageUrl": "https://i.ytimg.com/vi/yogxhJrj4V8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2023,
+      "episode": 11,
+      "code": "S2023E11",
+      "episodeId": "11964027",
+      "title": "Parties de pétanque... en voitures (ft Théodort, Billy et Maxime Biaggi)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11964027",
+      "youtubeId": "3xn6fm02cMw",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11964027/screencap/6aa71bacce53f.jpg"
+      ]
+    },
+    {
+      "season": 2023,
+      "episode": 12,
+      "code": "S2023E12",
+      "episodeId": "9895036",
+      "title": "ROI DU SILENCE (ft Théodort, Maxime Biaggi et Manas)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/9895036",
+      "youtubeId": "d4mX11eqsIk",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/9895036/screencap/6aa71bb8907c9.jpg"
+      ]
+    },
+    {
+      "season": 2023,
+      "episode": 13,
+      "code": "S2023E13",
+      "episodeId": "10740761",
+      "title": "En route pour le GP Explorer 2 (part 3)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740761",
+      "youtubeId": "ah4IEnC4IIs",
+      "youtubeTitle": "En route pour le GP Explorer 2 (part 3)",
+      "imageUrl": "https://i.ytimg.com/vi/ah4IEnC4IIs/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2023,
+      "episode": 14,
+      "code": "S2023E14",
+      "episodeId": "10740762",
+      "title": "J'affronte Pierre Gasly dans une course",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740762",
+      "youtubeId": "2oW7XwiYYmM",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10740762/screencap/6aa71bdb19779.jpg"
+      ]
+    },
+    {
+      "season": 2023,
+      "episode": 15,
+      "code": "S2023E15",
+      "episodeId": "10740763",
+      "title": "Le grand final du GP Explorer 2",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740763",
+      "youtubeId": "RHPvDguACkA",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10740763/screencap/6aa71be7ad353.jpg"
+      ]
+    },
+    {
+      "season": 2023,
+      "episode": 16,
+      "code": "S2023E16",
+      "episodeId": "10740764",
+      "title": "4 jours à travers l'un des plus grands fleuves du Sénégal",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740764",
+      "youtubeId": "cC6yX1NkX3M",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10740764/screencap/6aa71bfca24fe.jpg"
+      ]
+    },
+    {
+      "season": 2023,
+      "episode": 17,
+      "code": "S2023E17",
+      "episodeId": "10740765",
+      "title": "On lave notre linge sale en public avec Mister V",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740765",
+      "youtubeId": "3ZxiIZvw7Ck",
+      "youtubeTitle": "On lave notre linge sale en public avec Mister V",
+      "imageUrl": "https://i.ytimg.com/vi/3ZxiIZvw7Ck/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2023,
+      "episode": 18,
+      "code": "S2023E18",
+      "episodeId": "10740766",
+      "title": "Je deviens cascadeur automobile",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740766",
+      "youtubeId": "HEd5Wz1fsYA",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10740766/screencap/6aa71c167ec09.jpg"
+      ]
+    },
+    {
+      "season": 2023,
+      "episode": 19,
+      "code": "S2023E19",
+      "episodeId": "10740767",
+      "title": "1h pour s'échapper d'un camion qui roule droit vers l'eau",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740767",
+      "youtubeId": "jpdKQTH-9gA",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10740767/screencap/6aa71c23ccbb9.jpg"
+      ]
+    },
+    {
+      "season": 2023,
+      "episode": 20,
+      "code": "S2023E20",
+      "episodeId": "10740768",
+      "title": "À la recherche de la chaussure perdue (ft Maxime Biaggi et Elian)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740768",
+      "youtubeId": "IDd6SQdMt44",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10740768/screencap/6aa71c2d621f7.jpg"
+      ]
+    },
+    {
+      "season": 2023,
+      "episode": 21,
+      "code": "S2023E21",
+      "episodeId": "10740769",
+      "title": "MAUVAISE PIOCHE 2 (ft Seb, Billy & Maxime Biaggi)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10740769",
+      "youtubeId": "hTpcWUnwq00",
+      "youtubeTitle": "MAUVAISE PIOCHE 2 (ft Seb, Billy & Maxime Biaggi)",
+      "imageUrl": "https://i.ytimg.com/vi/hTpcWUnwq00/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2024,
+      "episode": 1,
+      "code": "S2024E01",
+      "episodeId": "10824276",
+      "title": "Ma première fois catastrophique en snowboard",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824276",
+      "youtubeId": "P8s6HV7RBUE",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10824276/screencap/6aa717e285190.jpg"
+      ]
+    },
+    {
+      "season": 2024,
+      "episode": 2,
+      "code": "S2024E02",
+      "episodeId": "10824277",
+      "title": "LE DÎNER DE C*NS (ft Théodort, Maxime Biaggi, Elian, Ben Haddad et Manas)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824277",
+      "youtubeId": "uNN-rW-pFmQ",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10824277/screencap/6aa717f993f88.jpg"
+      ]
+    },
+    {
+      "season": 2024,
+      "episode": 3,
+      "code": "S2024E03",
+      "episodeId": "10824278",
+      "title": "LE CASSE DU SIÈCLE (ft Joyca, Seb & Sofyan)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824278",
+      "youtubeId": "aD_lbT6Bils",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10824278/screencap/6aa71808a4082.jpg"
+      ]
+    },
+    {
+      "season": 2024,
+      "episode": 4,
+      "code": "S2024E04",
+      "episodeId": "10824279",
+      "title": "On lave notre linge sale en public avec Gotaga",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824279",
+      "youtubeId": "3_CF5SSyC70",
+      "youtubeTitle": "On lave notre linge sale en public avec Gotaga",
+      "imageUrl": "https://i.ytimg.com/vi/3_CF5SSyC70/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2024,
+      "episode": 5,
+      "code": "S2024E05",
+      "episodeId": "10824280",
+      "title": "Sommes-nous des bons acteurs ? SILENCE PLATEAU (ft Maxime Biaggi, Elian & Ben Haddad)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824280",
+      "youtubeId": "w8coQ5Epjto",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10824280/screencap/6aa7182e83f2d.jpg"
+      ]
+    },
+    {
+      "season": 2024,
+      "episode": 6,
+      "code": "S2024E06",
+      "episodeId": "10824281",
+      "title": "LE GRAND DÉBAT (ft Mcfly & Carlito)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824281",
+      "youtubeId": "5oRnEryfoHI",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10824281/screencap/6aa7184a06320.jpg"
+      ]
+    },
+    {
+      "season": 2024,
+      "episode": 7,
+      "code": "S2024E07",
+      "episodeId": "10824282",
+      "title": "7 mois pour devenir boxeur (DTR partie 1)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824282",
+      "youtubeId": "Fjlgeyfwct8",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10824282/screencap/6aa718a83c55a.jpg"
+      ]
+    },
+    {
+      "season": 2024,
+      "episode": 8,
+      "code": "S2024E08",
+      "episodeId": "10824283",
+      "title": "J'anime une colonie de vacances de séniors",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824283",
+      "youtubeId": "WOwgEajEu80",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10824283/screencap/6aa7186f591fc.jpg"
+      ]
+    },
+    {
+      "season": 2024,
+      "episode": 9,
+      "code": "S2024E09",
+      "episodeId": "10824289",
+      "title": "Ma première fois catastrophique à cheval",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824289",
+      "youtubeId": "Ak3zZdm4LlU",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10824289/screencap/6aa7187eb7766.jpg"
+      ]
+    },
+    {
+      "season": 2024,
+      "episode": 10,
+      "code": "S2024E10",
+      "episodeId": "10824290",
+      "title": "7 mois pour devenir boxeur (DTR partie 2)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824290",
+      "youtubeId": "1QRPXHURuX4",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10824290/screencap/6aa718b7af5cf.jpg"
+      ]
+    },
+    {
+      "season": 2024,
+      "episode": 11,
+      "code": "S2024E11",
+      "episodeId": "10824291",
+      "title": "J’emmène Maxime Biaggi faire des trucs qu’il déteste ! ZONE D’INCONFORT",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824291",
+      "youtubeId": "vGKdH6Al6fQ",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10824291/screencap/6aa718d662dd5.jpg"
+      ]
+    },
+    {
+      "season": 2024,
+      "episode": 12,
+      "code": "S2024E12",
+      "episodeId": "10824292",
+      "title": "LE DÎNER DE C*NS 2 (ft Théodort, Maxime Biaggi, Elian, Ben Haddad et Manas)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824292",
+      "youtubeId": "z7tVboxkS8U",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10824292/screencap/6aa718e4e092d.jpg"
+      ]
+    },
+    {
+      "season": 2024,
+      "episode": 13,
+      "code": "S2024E13",
+      "episodeId": "10824293",
+      "title": "ROI DU SILENCE 2 (ft Squeezie, Gotaga et Billy)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824293",
+      "youtubeId": "EUIzi0uJDLE",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10824293/screencap/6aa718f8ab9eb.jpg"
+      ]
+    },
+    {
+      "season": 2024,
+      "episode": 14,
+      "code": "S2024E14",
+      "episodeId": "10824294",
+      "title": "3 jeux d'horreur dans les lieux réels ! (ft Billy et Maxime Biaggi)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824294",
+      "youtubeId": "OUBFEtY-5kE",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10824294/screencap/6aa71908ebc57.jpg"
+      ]
+    },
+    {
+      "season": 2024,
+      "episode": 15,
+      "code": "S2024E15",
+      "episodeId": "10824295",
+      "title": "SOIRÉE PYJAMA (ft Mcfly & Carlito et Elian)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824295",
+      "youtubeId": "G56R536nKxk",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10824295/screencap/6aa7191859897.jpg"
+      ]
+    },
+    {
+      "season": 2024,
+      "episode": 16,
+      "code": "S2024E16",
+      "episodeId": "10824296",
+      "title": "J'emmène Marcus faire des trucs qu'il déteste ! ZONE D'INCONFORT",
+      "url": "https://thetvdb.com/series/djilsi/episodes/10824296",
+      "youtubeId": "lc6vXTb5mxI",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/10824296/screencap/6aa7198512bcc.jpg"
+      ]
+    },
+    {
+      "season": 2024,
+      "episode": 17,
+      "code": "S2024E17",
+      "episodeId": "11684475",
+      "title": "MAUVAISE PIOCHE 3 (ft Seb, Billy & Maxime Biaggi)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684475",
+      "youtubeId": "HMNxdYybIuY",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684475/screencap/6aa719a1d47a1.jpg"
+      ]
+    },
+    {
+      "season": 2024,
+      "episode": 18,
+      "code": "S2024E18",
+      "episodeId": "11684476",
+      "title": "Le grand combat final - DTR",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684476",
+      "youtubeId": "SlgZpEghuZ4",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684476/screencap/6aa719aaf1cc0.jpg"
+      ]
+    },
+    {
+      "season": 2024,
+      "episode": 19,
+      "code": "S2024E19",
+      "episodeId": "11684477",
+      "title": "Cette vidéo est pour vous",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684477",
+      "youtubeId": "Uq_kUjRCfC0",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684477/screencap/6aa719b3a55fa.jpg"
+      ]
+    },
+    {
+      "season": 2025,
+      "episode": 1,
+      "code": "S2025E01",
+      "episodeId": "11684522",
+      "title": "Envoyé en mission dans un pays étranger ! MISSION INUTILE",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684522",
+      "youtubeId": "HvnSxi0ry2Q",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684522/screencap/6aa7113ce6e6d.jpg"
+      ]
+    },
+    {
+      "season": 2025,
+      "episode": 2,
+      "code": "S2025E02",
+      "episodeId": "11684523",
+      "title": "Découvrir le Japon en dormant dans des lieux terrifiants... (ft Seb & Maxime Biaggi)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684523",
+      "youtubeId": "qIPdQmzuX9I",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684523/screencap/6aa710aeeef9e.jpg"
+      ]
+    },
+    {
+      "season": 2025,
+      "episode": 3,
+      "code": "S2025E03",
+      "episodeId": "11684524",
+      "title": "À la recherche des bonnes actions ! P'TITE PATROUILLE (ft Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684524",
+      "youtubeId": "0H-YsD6yWYU",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684524/screencap/6aa710b7661d9.jpg"
+      ]
+    },
+    {
+      "season": 2025,
+      "episode": 4,
+      "code": "S2025E04",
+      "episodeId": "11684525",
+      "title": "UN REPAS TOUT SAUF PARFAIT ! (ft Mcfly & Carlito et Élian)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684525",
+      "youtubeId": "emhT75_NUDk",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684525/screencap/6aa710bfe3421.jpg"
+      ]
+    },
+    {
+      "season": 2025,
+      "episode": 5,
+      "code": "S2025E05",
+      "episodeId": "11684526",
+      "title": "Une journée pour meubler entièrement un appartement (ft Elian)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684526",
+      "youtubeId": "SsuHEn-zRqU",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684526/screencap/6aa710c82015a.jpg"
+      ]
+    },
+    {
+      "season": 2025,
+      "episode": 6,
+      "code": "S2025E06",
+      "episodeId": "11684527",
+      "title": "GP EXPLORER 3 : Et si c'était la bonne ?",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684527",
+      "youtubeId": "yMkE-V85DDU",
+      "youtubeTitle": "GP EXPLORER 3 : Et si c'était la bonne ?",
+      "imageUrl": "https://i.ytimg.com/vi/yMkE-V85DDU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2025,
+      "episode": 7,
+      "code": "S2025E07",
+      "episodeId": "11684528",
+      "title": "SOIRÉE PYJAMA 2 (ft Joyca, Mastu & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684528",
+      "youtubeId": "4rRRHEDdRPI",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684528/screencap/6aa7116442518.jpg"
+      ]
+    },
+    {
+      "season": 2025,
+      "episode": 8,
+      "code": "S2025E08",
+      "episodeId": "11684529",
+      "title": "LE DÎNER DE C*NS 3 ! (ft Bigflo & Oli, Joyca, Seb et Léopold)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684529",
+      "youtubeId": "Flq6GJruznw",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684529/screencap/6aa7116d600ab.jpg"
+      ]
+    },
+    {
+      "season": 2025,
+      "episode": 9,
+      "code": "S2025E09",
+      "episodeId": "11684530",
+      "title": "Sommes-nous des bons acteurs ? SILENCE PLATEAU 2 (ft Théodort & Maxime Biaggi)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684530",
+      "youtubeId": "HmyQi8eL3yU",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684530/screencap/6aa711777d228.jpg"
+      ]
+    },
+    {
+      "season": 2025,
+      "episode": 10,
+      "code": "S2025E10",
+      "episodeId": "11684531",
+      "title": "J'emmène Lena Situations faire des trucs qu'elle déteste ! ZONE D'INCONFORT",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684531",
+      "youtubeId": "JWzH7Bj4Uwg",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684531/screencap/6aa7118081860.jpg"
+      ]
+    },
+    {
+      "season": 2025,
+      "episode": 11,
+      "code": "S2025E11",
+      "episodeId": "11684532",
+      "title": "GP EXPLORER 3 : Plus qu'un mois pour choquer...",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684532",
+      "youtubeId": "b9pl4QejKk8",
+      "youtubeTitle": "GP EXPLORER 3 : Plus qu'un mois pour choquer...",
+      "imageUrl": "https://i.ytimg.com/vi/b9pl4QejKk8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2025,
+      "episode": 12,
+      "code": "S2025E12",
+      "episodeId": "11684533",
+      "title": "DOUBLE JEU (ft Théodort, Maxime Biaggi & Billy)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684533",
+      "youtubeId": "sVM9JnUGSIk",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684533/screencap/6aa71198e9d47.jpg"
+      ]
+    },
+    {
+      "season": 2025,
+      "episode": 13,
+      "code": "S2025E13",
+      "episodeId": "11684534",
+      "title": "GP EXPLORER 3 : Au final on a choqué pour la dernière",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684534",
+      "youtubeId": "mSEA0MWobZE",
+      "youtubeTitle": "GP EXPLORER 3 : Au final on a choqué pour la dernière",
+      "imageUrl": "https://i.ytimg.com/vi/mSEA0MWobZE/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2025,
+      "episode": 14,
+      "code": "S2025E14",
+      "episodeId": "11684535",
+      "title": "ROI DU SILENCE 3 (ft Mastu, Byilhan & Nico)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684535",
+      "youtubeId": "RqFUV_rGiEQ",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684535/screencap/6aa7121747872.jpg"
+      ]
+    },
+    {
+      "season": 2025,
+      "episode": 15,
+      "code": "S2025E15",
+      "episodeId": "11684536",
+      "title": "DANS LA FOULE (ft Joyca, Hugo Décrypte, Maxime Biaggi, Seb & Elian)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684536",
+      "youtubeId": "l1NvZaEviO8",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684536/screencap/6aa712282fd61.jpg"
+      ]
+    },
+    {
+      "season": 2025,
+      "episode": 16,
+      "code": "S2025E16",
+      "episodeId": "11684537",
+      "title": "SOIRÉE PYJAMA 3 (ft Maxime Biaggi, Seb & Etoiles)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684537",
+      "youtubeId": "lvrKvXA25qc",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684537/screencap/6aa712a2088c7.jpg"
+      ]
+    },
+    {
+      "season": 2025,
+      "episode": 17,
+      "code": "S2025E17",
+      "episodeId": "11684538",
+      "title": "J'offre des cadeaux de Noël à vos proches !",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684538",
+      "youtubeId": "AcNDNJW0Qv0",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684538/screencap/6aa7128d98f62.jpg"
+      ]
+    },
+    {
+      "season": 2026,
+      "episode": 1,
+      "code": "S2026E01",
+      "episodeId": "11684539",
+      "title": "LA COLO DES SÉNIORS 2 au ski (ft Joyca)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684539",
+      "youtubeId": "axpor-X9V40",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684539/screencap/6aa6ca53bdf38.jpg"
+      ]
+    },
+    {
+      "season": 2026,
+      "episode": 2,
+      "code": "S2026E02",
+      "episodeId": "11684540",
+      "title": "UN REPAS TOUT SAUF PARFAIT 2 (ft Billy & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684540",
+      "youtubeId": "MNNYpYd33sU",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684540/screencap/6aa6ca74adbbc.jpg"
+      ]
+    },
+    {
+      "season": 2026,
+      "episode": 3,
+      "code": "S2026E03",
+      "episodeId": "11684541",
+      "title": "DOUBLE JEU 2 (ft Joyca, Seb & Sofyan)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684541",
+      "youtubeId": "IuKMKkzfQ3c",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684541/screencap/6aa6cb24e5cec.jpg"
+      ]
+    },
+    {
+      "season": 2026,
+      "episode": 4,
+      "code": "S2026E04",
+      "episodeId": "11684542",
+      "title": "LA RECONSTITUTION (ft Joyca)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11684542",
+      "youtubeId": "aZyy3cmAGkM",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11684542/screencap/6aa6cb04ef1ce.jpg"
+      ]
+    },
+    {
+      "season": 2026,
+      "episode": 5,
+      "code": "S2026E05",
+      "episodeId": "11702344",
+      "title": "J'emmène Amine faire des trucs qu'il déteste ! ZONE D'INCONFORT",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11702344",
+      "youtubeId": "syuc-7VlGL8",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11702344/screencap/6aa6cb2f44145.jpg"
+      ]
+    },
+    {
+      "season": 2026,
+      "episode": 6,
+      "code": "S2026E06",
+      "episodeId": "11962148",
+      "title": "ECRIS MON SKETCH (ft Joyca & Elian)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11962148",
+      "youtubeId": "U_4yVp1C4V4",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11962148/screencap/6aa6cb391867d.jpg"
+      ]
+    },
+    {
+      "season": 2026,
+      "episode": 7,
+      "code": "S2026E07",
+      "episodeId": "11759609",
+      "title": "SOIRÉE PYJAMA 4 (ft Bigflo & Oli et Adèle Castillon)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11759609",
+      "youtubeId": "5R4jqiAlu0g",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11759609/screencap/6aa6cb44b75c5.jpg"
+      ]
+    },
+    {
+      "season": 2026,
+      "episode": 8,
+      "code": "S2026E08",
+      "episodeId": "11848017",
+      "title": "Sommes-nous des bons acteurs ? SILENCE PLATEAU 3 (ft Joyca & Seb)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11848017",
+      "youtubeId": "QgRywgnfPDA",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11848017/screencap/6aa6cb6442af2.jpg"
+      ]
+    },
+    {
+      "season": 2026,
+      "episode": 9,
+      "code": "S2026E09",
+      "episodeId": "11848018",
+      "title": "DOUBLE JEU 3 (ft Mastu, Hugo Décrypte & Elian)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11848018",
+      "youtubeId": "VdZEUz6d_SE",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11848018/screencap/6aa6cb719c6b4.jpg"
+      ]
+    },
+    {
+      "season": 2026,
+      "episode": 10,
+      "code": "S2026E10",
+      "episodeId": "11962149",
+      "title": "DANS LA FOULE 2 (ft Maxime Biaggi, Mastu, Théodort, Byilhan & Nico)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11962149",
+      "youtubeId": "EdgwDttPz0k",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11962149/screencap/6aa6cb7ce0361.jpg"
+      ]
+    },
+    {
+      "season": 2026,
+      "episode": 11,
+      "code": "S2026E11",
+      "episodeId": "12014131",
+      "title": "RDV LE SAMEDI 5 SEPTEMBRE À 11H... ????????",
+      "url": "https://thetvdb.com/series/djilsi/episodes/12014131",
+      "youtubeId": "uMmwt8l0FtM",
+      "youtubeTitle": "RDV LE SAMEDI 5 SEPTEMBRE À 11H... 🫶🏻",
+      "imageUrl": "https://i.ytimg.com/vi/uMmwt8l0FtM/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2026,
+      "episode": 12,
+      "code": "S2026E12",
+      "episodeId": "11964028",
+      "title": "On part traverser le Canada en camping car - ON VA OÙ 7 ep1 (ft Maxime Biaggi, Joyca & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11964028",
+      "youtubeId": "sJZBUk0nO5E",
+      "youtubeTitle": "On part traverser le Canada en camping car - ON VA OÙ 7 ep1 (ft Maxime Biaggi, Joyca & Théodort)",
+      "imageUrl": "https://i.ytimg.com/vi/sJZBUk0nO5E/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2026,
+      "episode": 13,
+      "code": "S2026E13",
+      "episodeId": "11971086",
+      "title": "Les problèmes commencent… - ON VA OÙ 7 ep2 (ft Maxime Biaggi, Joyca & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11971086",
+      "youtubeId": "LFJkky0MAnA",
+      "youtubeTitle": "Les problèmes commencent… - ON VA OÙ 7 ep2 (ft Maxime Biaggi, Joyca & Théodort)",
+      "imageUrl": "https://i.ytimg.com/vi/LFJkky0MAnA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2026,
+      "episode": 14,
+      "code": "S2026E14",
+      "episodeId": "11976892",
+      "title": "Des accidents et une soirée chaotique... - ON VA OÙ 7 ep3 (ft Maxime Biaggi, Joyca & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11976892",
+      "youtubeId": "kDwuuudq-Hk",
+      "youtubeTitle": "Des accidents et une soirée chaotique... - ON VA OÙ 7 ep3 (ft Maxime Biaggi, Joyca & Théodort)",
+      "imageUrl": "https://i.ytimg.com/vi/kDwuuudq-Hk/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2026,
+      "episode": 15,
+      "code": "S2026E15",
+      "episodeId": "11998871",
+      "title": "Tous nos choix sont catastrophiques... - ON VA OÙ 7 ep4 (ft Maxime Biaggi, Joyca & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11998871",
+      "youtubeId": "sIGByUaPZrs",
+      "youtubeTitle": "Tous nos choix sont catastrophiques... - ON VA OÙ 7 ep4 (ft Maxime Biaggi, Joyca & Théodort)",
+      "imageUrl": "https://i.ytimg.com/vi/sIGByUaPZrs/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2026,
+      "episode": 16,
+      "code": "S2026E16",
+      "episodeId": "11998872",
+      "title": "Au début tout se passait bien... - ON VA OÙ 7 ep5 (ft Maxime Biaggi, Joyca & Théodort)",
+      "url": "https://thetvdb.com/series/djilsi/episodes/11998872",
+      "youtubeId": "ffSyBdcD958",
+      "youtubeTitle": "Au début tout se passait bien... - ON VA OÙ 7 ep5 (ft Maxime Biaggi, Joyca & Théodort)",
+      "imageUrl": "https://i.ytimg.com/vi/ffSyBdcD958/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "season": 2026,
+      "episode": 17,
+      "code": "S2026E17",
+      "episodeId": "12014132",
+      "title": "Une fin d’aventure pleine de rebondissements… - ON VA OÙ 7 ep6 FINAL",
+      "url": "https://thetvdb.com/series/djilsi/episodes/12014132",
+      "youtubeId": "ersw34RPmZ8",
+      "youtubeTitle": "Une fin d’aventure pleine de rebondissements… - ON VA OÙ 7 ep6 FINAL",
+      "imageUrl": "https://i.ytimg.com/vi/ersw34RPmZ8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "414993",
+      "status": "PREFLIGHT_PASSED"
+    }
+  ],
+  "counters": {
+    "noExactTitle": 0,
+    "multipleExactTitle": 0,
+    "artworkPresent": 75,
+    "imageUnavailable": 0,
+    "imageWrongSize": 0,
+    "uploadFormScopeDrift": 0,
+    "passed": 20
+  },
+  "blocked": [],
+  "result": "PREFLIGHT_READY",
+  "historicalDone": 120
+}
