@@ -1,0 +1,460 @@
+{
+  "generatedAt": "2026-10-07T13:29:35.931Z",
+  "mode": "GUARDED_MAXIME_ARTWORK_BATCH_1",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2019E01",
+    "S2019E02",
+    "S2019E03",
+    "S2019E04",
+    "S2019E05",
+    "S2019E06",
+    "S2019E07",
+    "S2021E01",
+    "S2021E02",
+    "S2022E01"
+  ],
+  "results": [
+    {
+      "code": "S2019E01",
+      "episodeId": "11696580",
+      "title": "Try not to embrasser son pote (nouveau challenge trop dur)",
+      "youtubeId": "3X0piITkOTE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Try not to embrasser son pote (nouveau challenge trop dur)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/3X0piITkOTE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 91144
+        }
+      },
+      "crop": {
+        "id": "2328991",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac649463e92e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696580/screencap/6ac6494b1c107.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E02",
+      "episodeId": "11696581",
+      "title": "J'ai testé le restaurant préféré de Sarkozy",
+      "youtubeId": "7rEsbvpprlw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'ai testé le restaurant préféré de Sarkozy",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/7rEsbvpprlw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 193254
+        }
+      },
+      "crop": {
+        "id": "2328992",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac649503d0f4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696581/screencap/6ac649518778b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E03",
+      "episodeId": "11696582",
+      "title": "Je rencontre mes abonnés ça tourne mal (vidéo spéciale 300 abonnés)",
+      "youtubeId": "6NaIyjBRDNA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Je rencontre mes abonnés ça tourne mal (vidéo spéciale 300 abonnés)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/6NaIyjBRDNA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 98469
+        }
+      },
+      "crop": {
+        "id": "2328993",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64955eb451.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696582/screencap/6ac6495779c7e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E04",
+      "episodeId": "11696583",
+      "title": "J’ai testé le restaurant le moins bien noté de Paris",
+      "youtubeId": "7ghkayTlxiM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J’ai testé le restaurant le moins bien noté de Paris",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/7ghkayTlxiM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 102134
+        }
+      },
+      "crop": {
+        "id": "2328994",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6495c1ec40.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696583/screencap/6ac6495d87df5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E05",
+      "episodeId": "11696584",
+      "title": "J'ai testé le café (à la fiente) le plus cher du monde",
+      "youtubeId": "1OcZ9gWUOjE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'ai testé le café (à la fiente) le plus cher du monde",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/1OcZ9gWUOjE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 155988
+        }
+      },
+      "crop": {
+        "id": "2328995",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6496204c48.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696584/screencap/6ac64963367a0.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E06",
+      "episodeId": "11696585",
+      "title": "Mes anciennes vidéos...........",
+      "youtubeId": "7ZCqR3_XdV8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Mes anciennes vidéos...........",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/7ZCqR3_XdV8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 88129
+        }
+      },
+      "crop": {
+        "id": "2328996",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64967b8958.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696585/screencap/6ac64969085be.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E07",
+      "episodeId": "11696586",
+      "title": "LONDRES : MON REPORTAGE",
+      "youtubeId": "qj0K6DK_NzI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LONDRES : MON REPORTAGE",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/qj0K6DK_NzI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 175786
+        }
+      },
+      "crop": {
+        "id": "2328998",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac649aa3717f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696586/screencap/6ac649ab97675.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E01",
+      "episodeId": "11696587",
+      "title": "Je passe 24H avec un journaliste ca TOURNE MAL....",
+      "youtubeId": "5sssiqLZqvA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Je passe 24H avec un journaliste ca TOURNE MAL....",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/5sssiqLZqvA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 105599
+        }
+      },
+      "crop": {
+        "id": "2328999",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac649b02afc6.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696587/screencap/6ac649b16520b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E02",
+      "episodeId": "11696588",
+      "title": "Tierlist OFFICIELLE des eaux plates avec Terracid et Yassencore",
+      "youtubeId": "ZYWObSj0qnM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Tierlist OFFICIELLE des eaux plates avec Terracid et Yassencore",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ZYWObSj0qnM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 157425
+        }
+      },
+      "crop": {
+        "id": "2329000",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac649b5e4cab.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696588/screencap/6ac649b755431.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2022E01",
+      "episodeId": "11696589",
+      "title": "DRAME DANS MA VILLE : je vous raconte...",
+      "youtubeId": "F0spjhhLCRc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DRAME DANS MA VILLE : je vous raconte...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/F0spjhhLCRc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 77938
+        }
+      },
+      "crop": {
+        "id": "2329001",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac649bc17dd6.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696589/screencap/6ac649bd5abbb.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 10,
+    "processed": 10,
+    "applied": 10,
+    "skipped": 0,
+    "failed": 0
+  }
+}
