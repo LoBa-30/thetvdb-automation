@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T14:20:18.146Z",
+  "mode": "GUARDED_AMIXEM_ARTWORK_BATCH_1",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2012E03",
+    "S2013E06",
+    "S2013E07",
+    "S2013E09",
+    "S2013E19",
+    "S2013E27",
+    "S2013E33",
+    "S2015E03",
+    "S2015E36",
+    "S2015E42",
+    "S2015E48",
+    "S2015E55",
+    "S2015E56",
+    "S2015E57",
+    "S2015E62",
+    "S2015E63",
+    "S2015E64",
+    "S2015E66",
+    "S2015E70",
+    "S2015E73"
+  ],
+  "results": [
+    {
+      "code": "S2012E03",
+      "episodeId": "6081195",
+      "title": "► Les 10 meilleures planques de ZIBA TOWER [Battlefield 3] [FR]",
+      "youtubeId": "5g0j29G2w58",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "► Les 10 meilleures planques de ZIBA TOWER [Battlefield 3] [FR]",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/5g0j29G2w58/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 69723
+        }
+      },
+      "crop": {
+        "id": "2329162",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65525d3df6.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6081195/screencap/6ac65526f222a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E06",
+      "episodeId": "6081205",
+      "title": "► Borderlands 2 : Massacre en Coop !",
+      "youtubeId": "Iu9BZdtH7lY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "► Borderlands 2 : Massacre en Coop !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Iu9BZdtH7lY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 115451
+        }
+      },
+      "crop": {
+        "id": "2329163",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6552c654d8.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6081205/screencap/6ac6552e1d702.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E07",
+      "episodeId": "6081206",
+      "title": "►PlanetSide 2 | Zap : Meilleurs Moments avec JiinZz Gaming",
+      "youtubeId": "_g7z63mOYBs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "►PlanetSide 2 | Zap : Meilleurs Moments avec JiinZz Gaming",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/_g7z63mOYBs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 225730
+        }
+      },
+      "crop": {
+        "id": "2329164",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6553257643.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6081206/screencap/6ac6553383783.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E09",
+      "episodeId": "6081208",
+      "title": "► Meilleurs moments LoL de la CoopGameplays sur Battlefield 3.",
+      "youtubeId": "ahojLtLERDo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "► Meilleurs moments LoL de la CoopGameplays sur Battlefield 3.",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ahojLtLERDo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 94272
+        }
+      },
+      "crop": {
+        "id": "2329165",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac655376c7a4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6081208/screencap/6ac655387c589.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E19",
+      "episodeId": "6081246",
+      "title": "► Un whisky, un ami, un SLENDER. ◄ by Coop Gameplays",
+      "youtubeId": "SCU_cZzuAQs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "► Un whisky, un ami, un SLENDER. ◄ by Coop Gameplays",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/SCU_cZzuAQs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 94569
+        }
+      },
+      "crop": {
+        "id": "2329166",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6553cb37d6.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6081246/screencap/6ac6553dc7102.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E27",
+      "episodeId": "6081254",
+      "title": "► LEGO Seigneur des Anneaux EN MODE POSEY !◄ by CoopGameplays",
+      "youtubeId": "3S7h6QBV4dI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "► LEGO Seigneur des Anneaux EN MODE POSEY !◄ by CoopGameplays",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/3S7h6QBV4dI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 147644
+        }
+      },
+      "crop": {
+        "id": "2329167",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65541bc0d6.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6081254/screencap/6ac65542d7e7a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E33",
+      "episodeId": "6081261",
+      "title": "The GameTrotter #1 - Tokyo Game Show.",
+      "youtubeId": "c4qXoXoiOkA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "The GameTrotter #1 - Tokyo Game Show.",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/c4qXoXoiOkA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 155537
+        }
+      },
+      "crop": {
+        "id": "2329168",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65546a2212.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6081261/screencap/6ac65547caf46.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E03",
+      "episodeId": "6088619",
+      "title": "ZOMBIES Vs. MOI",
+      "youtubeId": "qwm61ZqaeFM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ZOMBIES Vs. MOI",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/qwm61ZqaeFM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 133291
+        }
+      },
+      "crop": {
+        "id": "2329169",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6554bb3171.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088619/screencap/6ac6554cec69c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E36",
+      "episodeId": "6088656",
+      "title": "LE RAID ULTIME SUR TWITCH ! TWERK EN LIVE :O #2",
+      "youtubeId": "gtGfu87luDg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE RAID ULTIME SUR TWITCH ! TWERK EN LIVE :O #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/gtGfu87luDg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 94412
+        }
+      },
+      "crop": {
+        "id": "2329170",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6555091965.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088656/screencap/6ac65551afa67.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E42",
+      "episodeId": "6088662",
+      "title": "NOUVELLE CHAINE GAMING !",
+      "youtubeId": "yxj0EOyCzrQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "NOUVELLE CHAINE GAMING !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/yxj0EOyCzrQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 57835
+        }
+      },
+      "crop": {
+        "id": "2329172",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65555461b5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088662/screencap/6ac6555659663.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E48",
+      "episodeId": "6088667",
+      "title": "LA VIDEO SETUP OMG",
+      "youtubeId": "LwiycISjzmE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA VIDEO SETUP OMG",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/LwiycISjzmE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 116732
+        }
+      },
+      "crop": {
+        "id": "2329173",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6555a15e18.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088667/screencap/6ac6555b27df9.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E55",
+      "episodeId": "6088675",
+      "title": "ALTIS Vs. LIFE - KAVALA IRL ! #1",
+      "youtubeId": "VoZuy7QNQFw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ALTIS Vs. LIFE - KAVALA IRL ! #1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/VoZuy7QNQFw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 125891
+        }
+      },
+      "crop": {
+        "id": "2329174",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6555f67029.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088675/screencap/6ac65560a1710.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E56",
+      "episodeId": "6088676",
+      "title": "MON PIANO EST VIVANT !",
+      "youtubeId": "IpLLonVZW8s",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MON PIANO EST VIVANT !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/IpLLonVZW8s/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 94592
+        }
+      },
+      "crop": {
+        "id": "2329175",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6556461a2f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088676/screencap/6ac655658dfef.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E57",
+      "episodeId": "6088677",
+      "title": "ALTIS Vs LIFE : KAVALA LA SUITE ! #2",
+      "youtubeId": "JjqqBnibIzA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ALTIS Vs LIFE : KAVALA LA SUITE ! #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/JjqqBnibIzA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 127025
+        }
+      },
+      "crop": {
+        "id": "2329176",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6556967554.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088677/screencap/6ac6556a9c2ed.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E62",
+      "episodeId": "6088682",
+      "title": "MES 5 SECRETS HONTEUX !",
+      "youtubeId": "ISP0NS_1Bns",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MES 5 SECRETS HONTEUX !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ISP0NS_1Bns/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 118295
+        }
+      },
+      "crop": {
+        "id": "2329178",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6556e60c36.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088682/screencap/6ac6556f9918d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E63",
+      "episodeId": "6088683",
+      "title": "5 YOUTUBERS SE CHIENT DESSUS ! - Dead Realm",
+      "youtubeId": "Z19QemgTONo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "5 YOUTUBERS SE CHIENT DESSUS ! - Dead Realm",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Z19QemgTONo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 103378
+        }
+      },
+      "crop": {
+        "id": "2329179",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6557359c48.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088683/screencap/6ac655747eca2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E64",
+      "episodeId": "6088684",
+      "title": "MEDLEY YOUTUBE AU PIANO !",
+      "youtubeId": "kCDj3gNHp_s",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MEDLEY YOUTUBE AU PIANO !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/kCDj3gNHp_s/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 77033
+        }
+      },
+      "crop": {
+        "id": "2329180",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac655784a214.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088684/screencap/6ac6557975b70.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E66",
+      "episodeId": "6088688",
+      "title": "IMPRESSION 3D DE ZIZI !",
+      "youtubeId": "JUc8HBtlxUc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "IMPRESSION 3D DE ZIZI !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/JUc8HBtlxUc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 86995
+        }
+      },
+      "crop": {
+        "id": "2329181",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6557d3cf50.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088688/screencap/6ac6557e9248f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E70",
+      "episodeId": "6088692",
+      "title": "MON FOND VERT EST VIVANT !",
+      "youtubeId": "UYcGhbI3x-I",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MON FOND VERT EST VIVANT !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/UYcGhbI3x-I/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 60596
+        }
+      },
+      "crop": {
+        "id": "2329182",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65582785d6.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088692/screencap/6ac655838fa0a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E73",
+      "episodeId": "6088695",
+      "title": "QUEL YOUTUBER EST LE MEURTRIER ? - GMOD Murder",
+      "youtubeId": "cozniGsPcLE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "QUEL YOUTUBER EST LE MEURTRIER ? - GMOD Murder",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/cozniGsPcLE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 127945
+        }
+      },
+      "crop": {
+        "id": "2329183",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65587472ba.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088695/screencap/6ac655886c504.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
