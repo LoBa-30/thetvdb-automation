@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-10-07T20:19:29.733Z",
+  "authenticated": true,
+  "rows": [
+    {
+      "code": "S2019E01",
+      "id": "11696580",
+      "title": "Try not to embrasser son pote (nouveau challenge trop dur)",
+      "heading": "Try not to embrasser son pote (nouveau challenge trop dur)",
+      "screencaps": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696580/screencap/6ac6494b1c107.jpg"
+      ],
+      "uploadLinks": [
+        {
+          "text": "Replace Artwork",
+          "href": "https://thetvdb.com/artwork/upload?type=11&episode=11696580&replace=64848350"
+        }
+      ],
+      "hasAddArtwork": false,
+      "bodyPreview": "Discover Earn Points Support Home / Series / Maxime Biaggi / Aired Order / Season 2019 / Episode 1 Try not to embrasser son pote (nouveau challenge trop dur) français General Cast & Crew ORIGINALLY AIRED February 3, 2019 RUNTIME 4 minutes CREATED March 25, 2026 by rafffff MODIFIED October 7, 2026 by Frata30 ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED."
+    },
+    {
+      "code": "S2025E01",
+      "id": "11696637",
+      "title": "2 jours pour faire une piste noire (j'ai jamais skié)",
+      "heading": "2 jours pour faire une piste noire (j'ai jamais skié)",
+      "screencaps": [],
+      "uploadLinks": [
+        {
+          "text": "Add Artwork",
+          "href": "https://thetvdb.com/artwork/upload?type=11&episode=11696637&series=475945"
+        }
+      ],
+      "hasAddArtwork": false,
+      "bodyPreview": "Discover Earn Points Support Home / Series / Maxime Biaggi / Aired Order / Season 2025 / Episode 1 2 jours pour faire une piste noire (j'ai jamais skié) français General Cast & Crew ORIGINALLY AIRED January 30, 2025 RUNTIME 32 minutes CREATED March 25, 2026 by rafffff MODIFIED March 25, 2026 by rafffff ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED."
+    }
+  ],
+  "result": "CHECK_COMPLETE"
+}
