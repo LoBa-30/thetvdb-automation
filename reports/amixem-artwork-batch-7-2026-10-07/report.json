@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T17:17:13.143Z",
+  "mode": "GUARDED_AMIXEM_ARTWORK_BATCH_7",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2019E26",
+    "S2019E28",
+    "S2019E29",
+    "S2019E33",
+    "S2019E34",
+    "S2019E38",
+    "S2019E39",
+    "S2019E40",
+    "S2019E42",
+    "S2019E46",
+    "S2019E47",
+    "S2019E56",
+    "S2019E59",
+    "S2019E61",
+    "S2019E64",
+    "S2019E69",
+    "S2019E70",
+    "S2019E72",
+    "S2019E73",
+    "S2019E75"
+  ],
+  "results": [
+    {
+      "code": "S2019E26",
+      "episodeId": "7284211",
+      "title": "VOS PIRES MOTS DANS LE CARNET ! #4",
+      "youtubeId": "SxoIFf1gLog",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOS PIRES MOTS DANS LE CARNET ! #4",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/SxoIFf1gLog/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 140208
+        }
+      },
+      "crop": {
+        "id": "2329803",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67e9cc526a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7284211/screencap/6ac67e9e06f1e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E28",
+      "episodeId": "7284218",
+      "title": "FAIRE UN IGLOO ET DORMIR DEDANS ! (24H EN HAUTE MONTAGNE)",
+      "youtubeId": "bAS5RNTms98",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FAIRE UN IGLOO ET DORMIR DEDANS ! (24H EN HAUTE MONTAGNE)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/bAS5RNTms98/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 200488
+        }
+      },
+      "crop": {
+        "id": "2329804",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67ea1b63f9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7284218/screencap/6ac67ea57f34f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E29",
+      "episodeId": "7284220",
+      "title": "DEVINEZ LE BON LOGO ! #2",
+      "youtubeId": "puSBvDQ2GpY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DEVINEZ LE BON LOGO ! #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/puSBvDQ2GpY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 140845
+        }
+      },
+      "crop": {
+        "id": "2329807",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67ea934082.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7284220/screencap/6ac67eaa4ad16.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E33",
+      "episodeId": "10675911",
+      "title": "ESSAYEZ DE NE PAS REGARDER CHALLENGE #4 ft. MASTU",
+      "youtubeId": "7nIGygJskuQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ESSAYEZ DE NE PAS REGARDER CHALLENGE #4 ft. MASTU",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/7nIGygJskuQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 124216
+        }
+      },
+      "crop": {
+        "id": "2329808",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67eadebdd9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10675911/screencap/6ac67eaf15c81.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E34",
+      "episodeId": "10675886",
+      "title": "ENORME BATTLE ROYALE AIRSOFT !",
+      "youtubeId": "NZbCBtJ3YOk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ENORME BATTLE ROYALE AIRSOFT !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/NZbCBtJ3YOk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 259915
+        }
+      },
+      "crop": {
+        "id": "2329809",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67eb2b8f60.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10675886/screencap/6ac67eb3e16f7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E38",
+      "episodeId": "10675916",
+      "title": "DEVINEZ LE PRIX DE CES OBJETS DE LUXE !",
+      "youtubeId": "RngDB8_BBIQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DEVINEZ LE PRIX DE CES OBJETS DE LUXE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/RngDB8_BBIQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 178352
+        }
+      },
+      "crop": {
+        "id": "2329810",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67eb79e5c4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10675916/screencap/6ac67eb8be70e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E39",
+      "episodeId": "10675917",
+      "title": "JE TESTE UN SNIPER AIRSOFT CONTRE DES PROS ! #1",
+      "youtubeId": "c8y--Q197e0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE TESTE UN SNIPER AIRSOFT CONTRE DES PROS ! #1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/c8y--Q197e0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 92964
+        }
+      },
+      "crop": {
+        "id": "2329811",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67ebdab139.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10675917/screencap/6ac67ebec3b5d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E40",
+      "episodeId": "10675918",
+      "title": "JE TESTE LE SNIPER AIRSOFT CONTRE DES PROS ! EP #2",
+      "youtubeId": "M8gISYjQHFk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE TESTE LE SNIPER AIRSOFT CONTRE DES PROS ! EP #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/M8gISYjQHFk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 108764
+        }
+      },
+      "crop": {
+        "id": "2329812",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67ec25ffad.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10675918/screencap/6ac67ec378897.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E42",
+      "episodeId": "10675894",
+      "title": "DEVINEZ LE BON LOGO ! #3",
+      "youtubeId": "MW5wP0b-gCY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DEVINEZ LE BON LOGO ! #3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/MW5wP0b-gCY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 104018
+        }
+      },
+      "crop": {
+        "id": "2329813",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67ec7211d4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10675894/screencap/6ac67ec84b470.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E46",
+      "episodeId": "10675898",
+      "title": "LE PIRE SITE DE PARIS EN LIGNE ! (totalement immoral)",
+      "youtubeId": "fdPqiQxcgLc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PIRE SITE DE PARIS EN LIGNE ! (totalement immoral)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/fdPqiQxcgLc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 165650
+        }
+      },
+      "crop": {
+        "id": "2329814",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67ecbdd6d8.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10675898/screencap/6ac67ecd11334.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E47",
+      "episodeId": "10675925",
+      "title": "MESURE CHALLENGE ! (avec JOYCA)",
+      "youtubeId": "ZU15NdHTL9c",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MESURE CHALLENGE ! (avec JOYCA)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ZU15NdHTL9c/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 168624
+        }
+      },
+      "crop": {
+        "id": "2329815",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67ed0b638c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10675925/screencap/6ac67ed1d7599.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E56",
+      "episodeId": "10675908",
+      "title": "DEVINEZ LE BON LOGO ! #4",
+      "youtubeId": "Ee7vy-wgALY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DEVINEZ LE BON LOGO ! #4",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Ee7vy-wgALY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 116837
+        }
+      },
+      "crop": {
+        "id": "2329816",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67ed577ec3.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10675908/screencap/6ac67ed699d44.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E59",
+      "episodeId": "10676061",
+      "title": "VOS PIRES MOTS DANS LE CARNET ! #5",
+      "youtubeId": "olVVXcN5-q0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOS PIRES MOTS DANS LE CARNET ! #5",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/olVVXcN5-q0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 132080
+        }
+      },
+      "crop": {
+        "id": "2329817",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67eda3152a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10676061/screencap/6ac67edb47ad1.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E61",
+      "episodeId": "10676063",
+      "title": "ESSAYEZ DE NE PAS REGARDER CHALLENGE #5 ft. LINCA",
+      "youtubeId": "C08WBLtta5U",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ESSAYEZ DE NE PAS REGARDER CHALLENGE #5 ft. LINCA",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/C08WBLtta5U/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 167838
+        }
+      },
+      "crop": {
+        "id": "2329818",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67edee24f6.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10676063/screencap/6ac67ee012f6c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E64",
+      "episodeId": "10676066",
+      "title": "LES LIFEHACKS LES PLUS DRÔLES ! (systèmes D en français quoi)",
+      "youtubeId": "r-DBLU9IFMU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES LIFEHACKS LES PLUS DRÔLES ! (systèmes D en français quoi)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/r-DBLU9IFMU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 134630
+        }
+      },
+      "crop": {
+        "id": "2329819",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67ee3e182e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10676066/screencap/6ac67ee508e07.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E69",
+      "episodeId": "10676071",
+      "title": "LE DERNIER QUI RETIRE SA MAIN REMPORTE LA VOITURE !",
+      "youtubeId": "sz4XxAAbXHM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE DERNIER QUI RETIRE SA MAIN REMPORTE LA VOITURE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/sz4XxAAbXHM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 154741
+        }
+      },
+      "crop": {
+        "id": "2329821",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67ee8b3601.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10676071/screencap/6ac67ee9d1327.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E70",
+      "episodeId": "8070790",
+      "title": "ENORME BATTLE ROYALE NERF FORTNITE ! (dans la vraie vie)",
+      "youtubeId": "-QWd4UIZlXM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ENORME BATTLE ROYALE NERF FORTNITE ! (dans la vraie vie)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/-QWd4UIZlXM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 261981
+        }
+      },
+      "crop": {
+        "id": "2329822",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67eee73269.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070790/screencap/6ac67eef8f1cb.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E72",
+      "episodeId": "10676074",
+      "title": "QUI AURA LE MEILLEUR SETUP GAMING ? ft. Julien Lepers",
+      "youtubeId": "ADpzWRTY938",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "QUI AURA LE MEILLEUR SETUP GAMING ? ft. Julien Lepers",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ADpzWRTY938/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 120079
+        }
+      },
+      "crop": {
+        "id": "2329823",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67ef350aba.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10676074/screencap/6ac67ef472dc9.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E73",
+      "episodeId": "10676075",
+      "title": "LES PIRES BOULETTES AU TRAVAIL !",
+      "youtubeId": "sk9-AA9UWpQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES BOULETTES AU TRAVAIL !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/sk9-AA9UWpQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 119405
+        }
+      },
+      "crop": {
+        "id": "2329824",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67ef8205f4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10676075/screencap/6ac67ef948d2c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E75",
+      "episodeId": "10676077",
+      "title": "LES PIRES (et meilleures) INVENTIONS DU FUTUR ! (qui vont vraiment sortir)",
+      "youtubeId": "Nmlz1eG_49c",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES (et meilleures) INVENTIONS DU FUTUR ! (qui vont vraiment sortir)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Nmlz1eG_49c/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 121813
+        }
+      },
+      "crop": {
+        "id": "2329825",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67efceba17.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10676077/screencap/6ac67efe26334.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
