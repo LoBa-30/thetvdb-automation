@@ -5,17 +5,17 @@ const username=process.env.TVDB_USERNAME,password=process.env.TVDB_PASSWORD;
 const armed=String(process.env.TVDB_MAXIME_ARTWORK_GAP_FILL||'').toLowerCase()==='yes';
 if(!armed||!username||!password) throw new Error('Not armed or missing credentials');
 
-const BASE='https://thetvdb.com',SLUG='maxime-biaggi',OUT='reports/maxime-artwork-gap-fill-1-2026-10-07';
+const BASE='https://thetvdb.com',SLUG='maxime-biaggi',OUT='reports/maxime-artwork-gap-fill-2-2026-10-07';
 const source=JSON.parse(await fs.readFile('reports/maxime-artwork-gap-audit-2026-10-07/report.json','utf8'));
 if(!Array.isArray(source.neverWrittenMissing)||source.neverWrittenMissing.length<12) throw new Error('Maxime gap audit not ready');
-const targets=(source.neverWrittenMissing||[]).slice(0,12);
-if(targets.length!==12) throw new Error('Expected 12 targets, got '+targets.length);
+const targets=(source.neverWrittenMissing||[]);
+if(targets.length!==14) throw new Error('Expected 14 targets, got '+targets.length);
 await fs.mkdir(OUT,{recursive:true});
 
 const browser=await chromium.launch({headless:true});
 const context=await browser.newContext({locale:'fr-FR',userAgent:'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/153 Safari/537.36'});
 const page=await context.newPage();
-const report={generatedAt:new Date().toISOString(),mode:'GUARDED_MAXIME_ARTWORK_GAP_FILL_1',armed,authenticated:false,targets:targets.map(x=>x.code),results:[],reauthCount:0,stopped:false,stopReason:null,result:'NOT_STARTED'};
+const report={generatedAt:new Date().toISOString(),mode:'GUARDED_MAXIME_ARTWORK_GAP_FILL_2',armed,authenticated:false,targets:targets.map(x=>x.code),results:[],reauthCount:0,stopped:false,stopReason:null,result:'NOT_STARTED'};
 
 const norm=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[\u200b-\u200f\u2060\ufeff]/g,'').replace(/@[-\w.]+/g,' ').replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim();
 const artUrls=html=>[...new Set([...html.matchAll(/https:\/\/artworks\.thetvdb\.com\/[^"'<>\s]+episode[^"'<>\s]+\/screencap\/[^"'<>\s]+/g)].map(x=>x[0].replace(/&amp;/g,'&')))];
