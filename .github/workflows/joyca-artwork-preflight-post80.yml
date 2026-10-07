@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'triggers/joyca-artwork-preflight-post80.run'
+      - '.github/workflows/joyca-artwork-preflight-post80.yml'
   workflow_dispatch:
 permissions:
   contents: write
