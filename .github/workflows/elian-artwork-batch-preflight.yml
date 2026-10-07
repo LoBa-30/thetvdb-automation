@@ -1,0 +1,43 @@
+name: Elian artwork batch preflight
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/elian-artwork-batch-preflight.yml'
+      - 'src/elian-artwork-batch-preflight.js'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Guarded zero-write artwork preflight
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: node src/elian-artwork-batch-preflight.js
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/elian-artwork-batch-preflight
+          git commit -m "Record Elian artwork batch preflight [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: elian-artwork-batch-preflight
+          path: reports/elian-artwork-batch-preflight/
