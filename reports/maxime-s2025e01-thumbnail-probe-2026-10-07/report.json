@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T17:25:16.909357+00:00",
+  "generatedAt": "2026-10-07T20:32:06.961476+00:00",
   "youtubeId": "EqFLIsSB2hg",
   "variants": [
     {
@@ -40,6 +40,38 @@
       "status": 200,
       "bytes": 20684,
       "contentType": "image/jpeg",
+      "size": [
+        480,
+        360
+      ]
+    },
+    {
+      "name": "maxresdefault.webp",
+      "url": "https://i.ytimg.com/vi_webp/EqFLIsSB2hg/maxresdefault.webp",
+      "status": 404,
+      "bytes": 552,
+      "contentType": "image/webp"
+    },
+    {
+      "name": "hq720.webp",
+      "url": "https://i.ytimg.com/vi_webp/EqFLIsSB2hg/hq720.webp",
+      "status": 404,
+      "bytes": 552,
+      "contentType": "image/webp"
+    },
+    {
+      "name": "sddefault.webp",
+      "url": "https://i.ytimg.com/vi_webp/EqFLIsSB2hg/sddefault.webp",
+      "status": 404,
+      "bytes": 552,
+      "contentType": "image/webp"
+    },
+    {
+      "name": "hqdefault.webp",
+      "url": "https://i.ytimg.com/vi_webp/EqFLIsSB2hg/hqdefault.webp",
+      "status": 200,
+      "bytes": 26596,
+      "contentType": "image/webp",
       "size": [
         480,
         360
