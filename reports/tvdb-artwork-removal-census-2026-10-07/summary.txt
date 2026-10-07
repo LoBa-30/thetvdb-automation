@@ -1,0 +1,10 @@
+notifications=147
+uniqueRefs=146
+reason[Title card or disallowed text]=133
+reason[Poorly framed or cropped]=1
+reason[Poor quality: blurry / soft edges / artificially upscaled]=7
+reason[Watermark or logo]=2
+reason[Incorrect or missing language tag]=2
+reason[Poor quality: stretched or squished]=1
+reason[Poor quality: too dark]=1
+result=CENSUS_COMPLETE_ZERO_WRITES

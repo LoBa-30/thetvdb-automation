@@ -1,0 +1,1965 @@
+{
+  "generatedAt": "2026-10-07T20:39:47.013Z",
+  "mode": "AUTHENTICATED_READ_ONLY_ARTWORK_REMOVAL_CENSUS",
+  "authenticated": true,
+  "pages": [
+    {
+      "page": 1,
+      "url": "https://thetvdb.com/dashboard/notifications",
+      "refs": [
+        "REF-2951795",
+        "REF-2951794",
+        "REF-2951792",
+        "REF-2951791",
+        "REF-2951790",
+        "REF-2951789",
+        "REF-2951788",
+        "REF-2951787",
+        "REF-2951786",
+        "REF-2951785",
+        "REF-2951784",
+        "REF-2951783",
+        "REF-2951782",
+        "REF-2951781",
+        "REF-2951780",
+        "REF-2951779",
+        "REF-2951778",
+        "REF-2951777",
+        "REF-2951776",
+        "REF-2951775"
+      ]
+    },
+    {
+      "page": 2,
+      "url": "https://thetvdb.com/dashboard/notifications?page=2",
+      "refs": [
+        "REF-2951775",
+        "REF-2951774",
+        "REF-2951773",
+        "REF-2951772",
+        "REF-2951771",
+        "REF-2951770",
+        "REF-2951769",
+        "REF-2951767",
+        "REF-2951766",
+        "REF-2951764",
+        "REF-2951763",
+        "REF-2951762",
+        "REF-2951761",
+        "REF-2951760",
+        "REF-2951759",
+        "REF-2951758",
+        "REF-2951757",
+        "REF-2951756",
+        "REF-2951755",
+        "REF-2951754"
+      ]
+    },
+    {
+      "page": 3,
+      "url": "https://thetvdb.com/dashboard/notifications?page=3",
+      "refs": [
+        "REF-2951753",
+        "REF-2951752",
+        "REF-2951751",
+        "REF-2951750",
+        "REF-2951749",
+        "REF-2951748",
+        "REF-2951747",
+        "REF-2951746",
+        "REF-2951745",
+        "REF-2951744",
+        "REF-2951743",
+        "REF-2951742",
+        "REF-2951741",
+        "REF-2951739",
+        "REF-2951738",
+        "REF-2951737",
+        "REF-2951736",
+        "REF-2951735",
+        "REF-2951734",
+        "REF-2951733"
+      ]
+    },
+    {
+      "page": 4,
+      "url": "https://thetvdb.com/dashboard/notifications?page=4",
+      "refs": [
+        "REF-2951732",
+        "REF-2951731",
+        "REF-2951730",
+        "REF-2951729",
+        "REF-2951728",
+        "REF-2951727",
+        "REF-2951726",
+        "REF-2951725",
+        "REF-2951724",
+        "REF-2951723",
+        "REF-2951722",
+        "REF-2951721",
+        "REF-2951720",
+        "REF-2951719",
+        "REF-2951718",
+        "REF-2951717",
+        "REF-2951716",
+        "REF-2951715",
+        "REF-2951714",
+        "REF-2951713"
+      ]
+    },
+    {
+      "page": 5,
+      "url": "https://thetvdb.com/dashboard/notifications?page=5",
+      "refs": [
+        "REF-2951712",
+        "REF-2951711",
+        "REF-2951710",
+        "REF-2951709",
+        "REF-2951708",
+        "REF-2951707",
+        "REF-2951706",
+        "REF-2951705",
+        "REF-2951704",
+        "REF-2951703",
+        "REF-2951702",
+        "REF-2951700",
+        "REF-2951699",
+        "REF-2951697",
+        "REF-2951696",
+        "REF-2951695",
+        "REF-2951694",
+        "REF-2951692",
+        "REF-2951691",
+        "REF-2951690"
+      ]
+    },
+    {
+      "page": 6,
+      "url": "https://thetvdb.com/dashboard/notifications?page=6",
+      "refs": [
+        "REF-2951689",
+        "REF-2951688",
+        "REF-2951687",
+        "REF-2951686",
+        "REF-2951685",
+        "REF-2951684",
+        "REF-2951683",
+        "REF-2951682",
+        "REF-2951681",
+        "REF-2951680",
+        "REF-2951679",
+        "REF-2951678",
+        "REF-2935012",
+        "REF-2935010",
+        "REF-2935009",
+        "REF-2935008",
+        "REF-2935007",
+        "REF-2935006",
+        "REF-2935005",
+        "REF-2935004"
+      ]
+    },
+    {
+      "page": 7,
+      "url": "https://thetvdb.com/dashboard/notifications?page=7",
+      "refs": [
+        "REF-2935004",
+        "REF-2935003",
+        "REF-2935002",
+        "REF-2935001",
+        "REF-2935000",
+        "REF-2934999",
+        "REF-2934998",
+        "REF-2934997",
+        "REF-2934996",
+        "REF-2934993",
+        "REF-2932307",
+        "REF-2932306",
+        "REF-2932305",
+        "REF-2932304",
+        "REF-2932303",
+        "REF-2932302",
+        "REF-2932301",
+        "REF-2932300",
+        "REF-2932239",
+        "REF-2932167"
+      ]
+    },
+    {
+      "page": 8,
+      "url": "https://thetvdb.com/dashboard/notifications?page=8",
+      "refs": [
+        "REF-2932161",
+        "REF-2932154",
+        "REF-2932153",
+        "REF-2932152",
+        "REF-2932151",
+        "REF-2932150",
+        "REF-2932117",
+        "REF-2932116",
+        "REF-2932115",
+        "REF-2932114",
+        "REF-2868810",
+        "REF-2862798",
+        "REF-2861462"
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:39PM UTC",
+      "ref": "REF-2951795",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:39PM UTC",
+      "ref": "REF-2951794",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:39PM UTC",
+      "ref": "REF-2951792",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:39PM UTC",
+      "ref": "REF-2951791",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:39PM UTC",
+      "ref": "REF-2951790",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:39PM UTC",
+      "ref": "REF-2951789",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:39PM UTC",
+      "ref": "REF-2951788",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:39PM UTC",
+      "ref": "REF-2951787",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:39PM UTC",
+      "ref": "REF-2951786",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:39PM UTC",
+      "ref": "REF-2951785",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:39PM UTC",
+      "ref": "REF-2951784",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:38PM UTC",
+      "ref": "REF-2951783",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:38PM UTC",
+      "ref": "REF-2951782",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:38PM UTC",
+      "ref": "REF-2951781",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:38PM UTC",
+      "ref": "REF-2951780",
+      "reason": "Poorly framed or cropped"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:38PM UTC",
+      "ref": "REF-2951779",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:38PM UTC",
+      "ref": "REF-2951778",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:38PM UTC",
+      "ref": "REF-2951777",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:38PM UTC",
+      "ref": "REF-2951776",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 1,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:38PM UTC",
+      "ref": "REF-2951775",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:38PM UTC",
+      "ref": "REF-2951775",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:38PM UTC",
+      "ref": "REF-2951774",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:38PM UTC",
+      "ref": "REF-2951773",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:38PM UTC",
+      "ref": "REF-2951772",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:38PM UTC",
+      "ref": "REF-2951771",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:38PM UTC",
+      "ref": "REF-2951770",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:38PM UTC",
+      "ref": "REF-2951769",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:38PM UTC",
+      "ref": "REF-2951767",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:37PM UTC",
+      "ref": "REF-2951766",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:37PM UTC",
+      "ref": "REF-2951764",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:37PM UTC",
+      "ref": "REF-2951763",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:37PM UTC",
+      "ref": "REF-2951762",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:37PM UTC",
+      "ref": "REF-2951761",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:37PM UTC",
+      "ref": "REF-2951760",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:37PM UTC",
+      "ref": "REF-2951759",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:37PM UTC",
+      "ref": "REF-2951758",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:37PM UTC",
+      "ref": "REF-2951757",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:36PM UTC",
+      "ref": "REF-2951756",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:36PM UTC",
+      "ref": "REF-2951755",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 2,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:36PM UTC",
+      "ref": "REF-2951754",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:36PM UTC",
+      "ref": "REF-2951753",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:36PM UTC",
+      "ref": "REF-2951752",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:36PM UTC",
+      "ref": "REF-2951751",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:36PM UTC",
+      "ref": "REF-2951750",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:36PM UTC",
+      "ref": "REF-2951749",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:36PM UTC",
+      "ref": "REF-2951748",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:36PM UTC",
+      "ref": "REF-2951747",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:36PM UTC",
+      "ref": "REF-2951746",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:36PM UTC",
+      "ref": "REF-2951745",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:36PM UTC",
+      "ref": "REF-2951744",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:35PM UTC",
+      "ref": "REF-2951743",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:35PM UTC",
+      "ref": "REF-2951742",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:35PM UTC",
+      "ref": "REF-2951741",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:35PM UTC",
+      "ref": "REF-2951739",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:35PM UTC",
+      "ref": "REF-2951738",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:35PM UTC",
+      "ref": "REF-2951737",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:35PM UTC",
+      "ref": "REF-2951736",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:35PM UTC",
+      "ref": "REF-2951735",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:35PM UTC",
+      "ref": "REF-2951734",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 3,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:35PM UTC",
+      "ref": "REF-2951733",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:34PM UTC",
+      "ref": "REF-2951732",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:34PM UTC",
+      "ref": "REF-2951731",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:34PM UTC",
+      "ref": "REF-2951730",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:34PM UTC",
+      "ref": "REF-2951729",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:34PM UTC",
+      "ref": "REF-2951728",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:34PM UTC",
+      "ref": "REF-2951727",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:34PM UTC",
+      "ref": "REF-2951726",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:34PM UTC",
+      "ref": "REF-2951725",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:34PM UTC",
+      "ref": "REF-2951724",
+      "reason": "Poor quality: blurry / soft edges / artificially upscaled"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:34PM UTC",
+      "ref": "REF-2951723",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:34PM UTC",
+      "ref": "REF-2951722",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:33PM UTC",
+      "ref": "REF-2951721",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:33PM UTC",
+      "ref": "REF-2951720",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:33PM UTC",
+      "ref": "REF-2951719",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:33PM UTC",
+      "ref": "REF-2951718",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:33PM UTC",
+      "ref": "REF-2951717",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:33PM UTC",
+      "ref": "REF-2951716",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:33PM UTC",
+      "ref": "REF-2951715",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:32PM UTC",
+      "ref": "REF-2951714",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 4,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:32PM UTC",
+      "ref": "REF-2951713",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:32PM UTC",
+      "ref": "REF-2951712",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:32PM UTC",
+      "ref": "REF-2951711",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:32PM UTC",
+      "ref": "REF-2951710",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:32PM UTC",
+      "ref": "REF-2951709",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:32PM UTC",
+      "ref": "REF-2951708",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:32PM UTC",
+      "ref": "REF-2951707",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:32PM UTC",
+      "ref": "REF-2951706",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:32PM UTC",
+      "ref": "REF-2951705",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:32PM UTC",
+      "ref": "REF-2951704",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:32PM UTC",
+      "ref": "REF-2951703",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:31PM UTC",
+      "ref": "REF-2951702",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:31PM UTC",
+      "ref": "REF-2951700",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:31PM UTC",
+      "ref": "REF-2951699",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:31PM UTC",
+      "ref": "REF-2951697",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:31PM UTC",
+      "ref": "REF-2951696",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:31PM UTC",
+      "ref": "REF-2951695",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:31PM UTC",
+      "ref": "REF-2951694",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:31PM UTC",
+      "ref": "REF-2951692",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:31PM UTC",
+      "ref": "REF-2951691",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 5,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:30PM UTC",
+      "ref": "REF-2951690",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 6,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:30PM UTC",
+      "ref": "REF-2951689",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 6,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:30PM UTC",
+      "ref": "REF-2951688",
+      "reason": "Watermark or logo"
+    },
+    {
+      "page": 6,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:30PM UTC",
+      "ref": "REF-2951687",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 6,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:30PM UTC",
+      "ref": "REF-2951686",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 6,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:30PM UTC",
+      "ref": "REF-2951685",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 6,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:30PM UTC",
+      "ref": "REF-2951684",
+      "reason": "Watermark or logo"
+    },
+    {
+      "page": 6,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:30PM UTC",
+      "ref": "REF-2951683",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 6,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:30PM UTC",
+      "ref": "REF-2951682",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 6,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:30PM UTC",
+      "ref": "REF-2951681",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 6,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:30PM UTC",
+      "ref": "REF-2951680",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 6,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:30PM UTC",
+      "ref": "REF-2951679",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 6,
+      "moderator": "Mark As Read PolarGeek",
+      "time": "8:30PM UTC",
+      "ref": "REF-2951678",
+      "reason": "Title card or disallowed text"
+    },
+    {
+      "page": 6,
+      "ref": "REF-2935012",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 14, 2026 2:22AM UTC REF-2935012 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 6,
+      "ref": "REF-2935010",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 14, 2026 2:22AM UTC REF-2935010 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 6,
+      "ref": "REF-2935009",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 14, 2026 2:22AM UTC REF-2935009 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 6,
+      "ref": "REF-2935008",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 14, 2026 2:22AM UTC REF-2935008 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 6,
+      "ref": "REF-2935007",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 14, 2026 2:22AM UTC REF-2935007 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 6,
+      "ref": "REF-2935006",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 14, 2026 2:22AM UTC REF-2935006 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 6,
+      "ref": "REF-2935005",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 14, 2026 2:21AM UTC REF-2935005 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 6,
+      "ref": "REF-2935004",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 14, 2026 2:21AM UTC REF-2935004 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 7,
+      "ref": "REF-2935003",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 14, 2026 2:21AM UTC REF-2935003 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 7,
+      "ref": "REF-2935002",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 14, 2026 2:21AM UTC REF-2935002 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 7,
+      "ref": "REF-2935001",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 14, 2026 2:21AM UTC REF-2935001 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 7,
+      "ref": "REF-2935000",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 14, 2026 2:20AM UTC REF-2935000 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 7,
+      "ref": "REF-2934999",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 14, 2026 2:20AM UTC REF-2934999 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 7,
+      "ref": "REF-2934998",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 14, 2026 2:20AM UTC REF-2934998 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 7,
+      "ref": "REF-2934997",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 14, 2026 2:20AM UTC REF-2934997 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 7,
+      "ref": "REF-2934996",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 14, 2026 2:18AM UTC REF-2934996 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 7,
+      "ref": "REF-2932307",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 7, 2026 6:12PM UTC REF-2932307 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 7,
+      "ref": "REF-2932306",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 7, 2026 6:11PM UTC REF-2932306 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 7,
+      "ref": "REF-2932305",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 7, 2026 6:10PM UTC REF-2932305 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 7,
+      "ref": "REF-2932304",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 7, 2026 6:10PM UTC REF-2932304 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 7,
+      "ref": "REF-2932303",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 7, 2026 6:09PM UTC REF-2932303 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 7,
+      "ref": "REF-2932302",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 7, 2026 6:08PM UTC REF-2932302 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 7,
+      "ref": "REF-2932301",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 7, 2026 6:08PM UTC REF-2932301 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 7,
+      "ref": "REF-2932300",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 7, 2026 6:08PM UTC REF-2932300 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 7,
+      "ref": "REF-2932239",
+      "reason": "Title card or disallowed text",
+      "text": "PolarGeek September 6, 2026 9:32PM UTC REF-2932239 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 7,
+      "ref": "REF-2932167",
+      "reason": "Incorrect or missing language tag",
+      "text": "PolarGeek September 5, 2026 2:25PM UTC REF-2932167 This artwork has been removed by a moderator as it was found to violate a site rule: Incorrect or missing language tag. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 8,
+      "ref": "REF-2932161",
+      "reason": "Incorrect or missing language tag",
+      "text": "PolarGeek September 5, 2026 2:21PM UTC REF-2932161 This artwork has been removed by a moderator as it was found to violate a site rule: Incorrect or missing language tag. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 8,
+      "ref": "REF-2932154",
+      "reason": "Poor quality: stretched or squished",
+      "text": "PolarGeek September 5, 2026 2:16PM UTC REF-2932154 This artwork has been removed by a moderator as it was found to violate a site rule: Poor quality: stretched or squished. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 8,
+      "ref": "REF-2932153",
+      "reason": "Poor quality: blurry / soft edges / artificially upscaled",
+      "text": "PolarGeek September 5, 2026 2:15PM UTC REF-2932153 This artwork has been removed by a moderator as it was found to violate a site rule: Poor quality: blurry / soft edges / artificially upscaled. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 8,
+      "ref": "REF-2932152",
+      "reason": "Poor quality: blurry / soft edges / artificially upscaled",
+      "text": "PolarGeek September 5, 2026 2:15PM UTC REF-2932152 This artwork has been removed by a moderator as it was found to violate a site rule: Poor quality: blurry / soft edges / artificially upscaled. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 8,
+      "ref": "REF-2932151",
+      "reason": "Poor quality: blurry / soft edges / artificially upscaled",
+      "text": "PolarGeek September 5, 2026 2:15PM UTC REF-2932151 This artwork has been removed by a moderator as it was found to violate a site rule: Poor quality: blurry / soft edges / artificially upscaled. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 8,
+      "ref": "REF-2932117",
+      "reason": "Poor quality: blurry / soft edges / artificially upscaled",
+      "text": "PolarGeek September 5, 2026 5:05AM UTC REF-2932117 This artwork has been removed by a moderator as it was found to violate a site rule: Poor quality: blurry / soft edges / artificially upscaled. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 8,
+      "ref": "REF-2932116",
+      "reason": "Poor quality: blurry / soft edges / artificially upscaled",
+      "text": "PolarGeek September 5, 2026 5:04AM UTC REF-2932116 This artwork has been removed by a moderator as it was found to violate a site rule: Poor quality: blurry / soft edges / artificially upscaled. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 8,
+      "ref": "REF-2932115",
+      "reason": "Poor quality: blurry / soft edges / artificially upscaled",
+      "text": "PolarGeek September 5, 2026 5:04AM UTC REF-2932115 This artwork has been removed by a moderator as it was found to violate a site rule: Poor quality: blurry / soft edges / artificially upscaled. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    },
+    {
+      "page": 8,
+      "ref": "REF-2932114",
+      "reason": "Poor quality: too dark",
+      "text": "PolarGeek September 5, 2026 5:04AM UTC REF-2932114 This artwork has been removed by a moderator as it was found to violate a site rule: Poor quality: too dark. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket.",
+      "hrefs": [
+        "https://support.thetvdb.com/kb/faq.php?cid=1",
+        "https://support.thetvdb.com"
+      ]
+    }
+  ],
+  "reasonCounts": {
+    "Title card or disallowed text": 133,
+    "Poorly framed or cropped": 1,
+    "Poor quality: blurry / soft edges / artificially upscaled": 7,
+    "Watermark or logo": 2,
+    "Incorrect or missing language tag": 2,
+    "Poor quality: stretched or squished": 1,
+    "Poor quality: too dark": 1
+  },
+  "refs": [
+    "REF-2951795",
+    "REF-2951794",
+    "REF-2951792",
+    "REF-2951791",
+    "REF-2951790",
+    "REF-2951789",
+    "REF-2951788",
+    "REF-2951787",
+    "REF-2951786",
+    "REF-2951785",
+    "REF-2951784",
+    "REF-2951783",
+    "REF-2951782",
+    "REF-2951781",
+    "REF-2951780",
+    "REF-2951779",
+    "REF-2951778",
+    "REF-2951777",
+    "REF-2951776",
+    "REF-2951775",
+    "REF-2951774",
+    "REF-2951773",
+    "REF-2951772",
+    "REF-2951771",
+    "REF-2951770",
+    "REF-2951769",
+    "REF-2951767",
+    "REF-2951766",
+    "REF-2951764",
+    "REF-2951763",
+    "REF-2951762",
+    "REF-2951761",
+    "REF-2951760",
+    "REF-2951759",
+    "REF-2951758",
+    "REF-2951757",
+    "REF-2951756",
+    "REF-2951755",
+    "REF-2951754",
+    "REF-2951753",
+    "REF-2951752",
+    "REF-2951751",
+    "REF-2951750",
+    "REF-2951749",
+    "REF-2951748",
+    "REF-2951747",
+    "REF-2951746",
+    "REF-2951745",
+    "REF-2951744",
+    "REF-2951743",
+    "REF-2951742",
+    "REF-2951741",
+    "REF-2951739",
+    "REF-2951738",
+    "REF-2951737",
+    "REF-2951736",
+    "REF-2951735",
+    "REF-2951734",
+    "REF-2951733",
+    "REF-2951732",
+    "REF-2951731",
+    "REF-2951730",
+    "REF-2951729",
+    "REF-2951728",
+    "REF-2951727",
+    "REF-2951726",
+    "REF-2951725",
+    "REF-2951724",
+    "REF-2951723",
+    "REF-2951722",
+    "REF-2951721",
+    "REF-2951720",
+    "REF-2951719",
+    "REF-2951718",
+    "REF-2951717",
+    "REF-2951716",
+    "REF-2951715",
+    "REF-2951714",
+    "REF-2951713",
+    "REF-2951712",
+    "REF-2951711",
+    "REF-2951710",
+    "REF-2951709",
+    "REF-2951708",
+    "REF-2951707",
+    "REF-2951706",
+    "REF-2951705",
+    "REF-2951704",
+    "REF-2951703",
+    "REF-2951702",
+    "REF-2951700",
+    "REF-2951699",
+    "REF-2951697",
+    "REF-2951696",
+    "REF-2951695",
+    "REF-2951694",
+    "REF-2951692",
+    "REF-2951691",
+    "REF-2951690",
+    "REF-2951689",
+    "REF-2951688",
+    "REF-2951687",
+    "REF-2951686",
+    "REF-2951685",
+    "REF-2951684",
+    "REF-2951683",
+    "REF-2951682",
+    "REF-2951681",
+    "REF-2951680",
+    "REF-2951679",
+    "REF-2951678",
+    "REF-2935012",
+    "REF-2935010",
+    "REF-2935009",
+    "REF-2935008",
+    "REF-2935007",
+    "REF-2935006",
+    "REF-2935005",
+    "REF-2935004",
+    "REF-2935003",
+    "REF-2935002",
+    "REF-2935001",
+    "REF-2935000",
+    "REF-2934999",
+    "REF-2934998",
+    "REF-2934997",
+    "REF-2934996",
+    "REF-2932307",
+    "REF-2932306",
+    "REF-2932305",
+    "REF-2932304",
+    "REF-2932303",
+    "REF-2932302",
+    "REF-2932301",
+    "REF-2932300",
+    "REF-2932239",
+    "REF-2932167",
+    "REF-2932161",
+    "REF-2932154",
+    "REF-2932153",
+    "REF-2932152",
+    "REF-2932151",
+    "REF-2932117",
+    "REF-2932116",
+    "REF-2932115",
+    "REF-2932114"
+  ],
+  "episodeArtworkDashboard": {
+    "url": "https://thetvdb.com/dashboard/artwork/11",
+    "title": "Dashboard - TheTVDB.com",
+    "body": "TheTVDB Toggle navigation lois.basse@etu.univ-poitiers.fr Dashboard Home Account Notifications 114 Your Artwork Movie Banner Movie Poster Movie Background Movie Icon Movie Cinemagraph Movie Clearart Movie Clearlogo Series Banner Series Poster Series Background Series Icon Series Cinemagraph Series Clearart Series Clearlogo Season Banner Season Poster Season Background Season Icon Episode 16:9 Episode 4:3 Person Headshot Character Photo Company Icon Award Icon List Poster Favorites Lists Son couple, ses projets, sa vie ft @Mastu Added: 2026-10-07 8:09pm Added By: Frata30 Delete RAP CONTENDERS ZEN ÉMISSION Added: 2026-10-07 8:09pm Added By: Frata30 Delete Les PIRES objets TIKTOK (genre un enfileur de chaussettes) Added: 2026-10-07 5:30pm Added By: Frata30 Delete LA BATAILLE DES STYLISTES (qui fera le meilleur look ?) Added: 2026-10-07 5:30pm Added By: Frata30 Delete LES PIRES ANNONCES SUR LEBONCOIN ! #10 Added: 2026-10-07 5:30pm Added By: Frata30 Delete LES PIRES ENTREPRISES (genre de location de poules) Added: 2026-10-07 5:30pm Added By: Frata30 Delete LES PIRES VOLEURS #3 (ils sont toujours aussi NULS) Added: 2026-10-07 5:29pm Added By: Frata30 Delete ON SUIT DES GENS AU HASARD EN VOITURE (et on les rince) Added: 2026-10-07 5:29pm Added By: Frata30 Delete LA CHANSON DES COMMENTAIRES - AMIXEM (Clip Officiel) Added: 2026-10-07 5:29pm Added By: Frata30 Delete LES PIRES MOTS DANS LE CARNET ! #7 Added: 2026-10-07 5:29pm Added By: Frata30 Delete Une semaine avec le plus grand explorateur du monde (Mike Ho... Added: 2026-10-07 5:29pm Added By: Frata30 Delete LES PIRES CHAMPIONNATS DU MONDE ! #2 Added: 2026-10-07 5:29pm Added By: Frata30 Delete LES PIRES PHOTOS DE RADAR ROUTIER ! #1 Added: 2026-10-07 5:29pm Added By: Frata30 Delete MARIO KART DANS LA VRAIE VIE (du futur avec des robots) ! Added: 2026-10-07 5:29pm Added By: Frata30 Delete DEVINEZ LE BON LOGO ! #5 Added: 2026-10-07 5:29pm Added By: Frata30 Delete « 1 2 3 4 5 6 7 8 ... 60 61 »",
+    "links": [
+      {
+        "text": "TheTVDB",
+        "href": "https://thetvdb.com/home"
+      },
+      {
+        "text": "Toggle navigation",
+        "href": "https://thetvdb.com/dashboard/artwork/11#"
+      },
+      {
+        "text": "lois.basse@etu.univ-poitiers.fr",
+        "href": "https://thetvdb.com/dashboard/artwork/11#"
+      },
+      {
+        "text": "Sign out",
+        "href": "https://thetvdb.com/auth/logout"
+      },
+      {
+        "text": "Dashboard Home",
+        "href": "https://thetvdb.com/dashboard"
+      },
+      {
+        "text": "Account",
+        "href": "https://thetvdb.com/dashboard/artwork/11#"
+      },
+      {
+        "text": "Edit Information",
+        "href": "https://thetvdb.com/dashboard/account/editinfo"
+      },
+      {
+        "text": "Change password",
+        "href": "https://thetvdb.com/dashboard/account/changepass"
+      },
+      {
+        "text": "Subscription",
+        "href": "https://thetvdb.com/dashboard/account/subscription"
+      },
+      {
+        "text": "API keys",
+        "href": "https://thetvdb.com/dashboard/account/apikey"
+      },
+      {
+        "text": "Notifications 114",
+        "href": "https://thetvdb.com/dashboard/notifications"
+      },
+      {
+        "text": "Your Artwork",
+        "href": "https://thetvdb.com/dashboard/artwork/11#"
+      },
+      {
+        "text": "Movie Banner",
+        "href": "https://thetvdb.com/dashboard/artwork/16"
+      },
+      {
+        "text": "Movie Poster",
+        "href": "https://thetvdb.com/dashboard/artwork/14"
+      },
+      {
+        "text": "Movie Background",
+        "href": "https://thetvdb.com/dashboard/artwork/15"
+      },
+      {
+        "text": "Movie Icon",
+        "href": "https://thetvdb.com/dashboard/artwork/18"
+      },
+      {
+        "text": "Movie Cinemagraph",
+        "href": "https://thetvdb.com/dashboard/artwork/21"
+      },
+      {
+        "text": "Movie Clearart",
+        "href": "https://thetvdb.com/dashboard/artwork/24"
+      },
+      {
+        "text": "Movie Clearlogo",
+        "href": "https://thetvdb.com/dashboard/artwork/25"
+      },
+      {
+        "text": "Series Banner",
+        "href": "https://thetvdb.com/dashboard/artwork/1"
+      },
+      {
+        "text": "Series Poster",
+        "href": "https://thetvdb.com/dashboard/artwork/2"
+      },
+      {
+        "text": "Series Background",
+        "href": "https://thetvdb.com/dashboard/artwork/3"
+      },
+      {
+        "text": "Series Icon",
+        "href": "https://thetvdb.com/dashboard/artwork/5"
+      },
+      {
+        "text": "Series Cinemagraph",
+        "href": "https://thetvdb.com/dashboard/artwork/20"
+      },
+      {
+        "text": "Series Clearart",
+        "href": "https://thetvdb.com/dashboard/artwork/22"
+      },
+      {
+        "text": "Series Clearlogo",
+        "href": "https://thetvdb.com/dashboard/artwork/23"
+      },
+      {
+        "text": "Season Banner",
+        "href": "https://thetvdb.com/dashboard/artwork/6"
+      },
+      {
+        "text": "Season Poster",
+        "href": "https://thetvdb.com/dashboard/artwork/7"
+      },
+      {
+        "text": "Season Background",
+        "href": "https://thetvdb.com/dashboard/artwork/8"
+      },
+      {
+        "text": "Season Icon",
+        "href": "https://thetvdb.com/dashboard/artwork/10"
+      },
+      {
+        "text": "Episode 16:9",
+        "href": "https://thetvdb.com/dashboard/artwork/11"
+      },
+      {
+        "text": "Episode 4:3",
+        "href": "https://thetvdb.com/dashboard/artwork/12"
+      },
+      {
+        "text": "Person Headshot",
+        "href": "https://thetvdb.com/dashboard/artwork/13a"
+      },
+      {
+        "text": "Character Photo",
+        "href": "https://thetvdb.com/dashboard/artwork/13c"
+      },
+      {
+        "text": "Company Icon",
+        "href": "https://thetvdb.com/dashboard/artwork/19"
+      },
+      {
+        "text": "Award Icon",
+        "href": "https://thetvdb.com/dashboard/artwork/26"
+      },
+      {
+        "text": "List Poster",
+        "href": "https://thetvdb.com/dashboard/artwork/27"
+      },
+      {
+        "text": "Favorites",
+        "href": "https://thetvdb.com/dashboard/artwork/11#"
+      },
+      {
+        "text": "Series",
+        "href": "https://thetvdb.com/dashboard/favorites/series"
+      },
+      {
+        "text": "Movies",
+        "href": "https://thetvdb.com/dashboard/favorites/movies"
+      },
+      {
+        "text": "Artwork",
+        "href": "https://thetvdb.com/dashboard/favorites/artworks"
+      },
+      {
+        "text": "Lists",
+        "href": "https://thetvdb.com/dashboard/artwork/11#"
+      },
+      {
+        "text": "Official",
+        "href": "https://thetvdb.com/dashboard/artwork/11#"
+      },
+      {
+        "text": "Personal",
+        "href": "https://thetvdb.com/dashboard/artwork/11#"
+      },
+      {
+        "text": "",
+        "href": "https://thetvdb.com/artwork/64849312"
+      },
+      {
+        "text": "Son couple, ses projets, sa vie ft @Mastu",
+        "href": "https://thetvdb.com/series/elian-ventre-462729/episodes/11665002"
+      },
+      {
+        "text": "Frata30",
+        "href": "https://thetvdb.com/dashboard/reports/users/detail/3045498"
+      },
+      {
+        "text": "Delete",
+        "href": "https://thetvdb.com/dashboard/artwork/remove/64849312"
+      },
+      {
+        "text": "",
+        "href": "https://thetvdb.com/artwork/64849311"
+      },
+      {
+        "text": "RAP CONTENDERS ZEN ÉMISSION",
+        "href": "https://thetvdb.com/series/elian-ventre-462729/episodes/11092249"
+      },
+      {
+        "text": "Frata30",
+        "href": "https://thetvdb.com/dashboard/reports/users/detail/3045498"
+      },
+      {
+        "text": "Delete",
+        "href": "https://thetvdb.com/dashboard/artwork/remove/64849311"
+      },
+      {
+        "text": "",
+        "href": "https://thetvdb.com/artwork/64849222"
+      },
+      {
+        "text": "Les PIRES objets TIKTOK (genre un enfileur de chaussettes)",
+        "href": "https://thetvdb.com/series/328213-show/episodes/9046845"
+      },
+      {
+        "text": "Frata30",
+        "href": "https://thetvdb.com/dashboard/reports/users/detail/3045498"
+      },
+      {
+        "text": "Delete",
+        "href": "https://thetvdb.com/dashboard/artwork/remove/64849222"
+      },
+      {
+        "text": "",
+        "href": "https://thetvdb.com/artwork/64849221"
+      },
+      {
+        "text": "LA BATAILLE DES STYLISTES (qui fera le meilleur look ?)",
+        "href": "https://thetvdb.com/series/328213-show/episodes/9046843"
+      },
+      {
+        "text": "Frata30",
+        "href": "https://thetvdb.com/dashboard/reports/users/detail/3045498"
+      },
+      {
+        "text": "Delete",
+        "href": "https://thetvdb.com/dashboard/artwork/remove/64849221"
+      },
+      {
+        "text": "",
+        "href": "https://thetvdb.com/artwork/64849220"
+      },
+      {
+        "text": "LES PIRES ANNONCES SUR LEBONCOIN ! #10",
+        "href": "https://thetvdb.com/series/328213-show/episodes/9046805"
+      },
+      {
+        "text": "Frata30",
+        "href": "https://thetvdb.com/dashboard/reports/users/detail/3045498"
+      },
+      {
+        "text": "Delete",
+        "href": "https://thetvdb.com/dashboard/artwork/remove/64849220"
+      },
+      {
+        "text": "",
+        "href": "https://thetvdb.com/artwork/64849219"
+      },
+      {
+        "text": "LES PIRES ENTREPRISES (genre de location de poules)",
+        "href": "https://thetvdb.com/series/328213-show/episodes/8355508"
+      },
+      {
+        "text": "Frata30",
+        "href": "https://thetvdb.com/dashboard/reports/users/detail/3045498"
+      },
+      {
+        "text": "Delete",
+        "href": "https://thetvdb.com/dashboard/artwork/remove/64849219"
+      },
+      {
+        "text": "",
+        "href": "https://thetvdb.com/artwork/64849218"
+      },
+      {
+        "text": "LES PIRES VOLEURS #3 (ils sont toujours aussi NULS)",
+        "href": "https://thetvdb.com/series/328213-show/episodes/8155935"
+      },
+      {
+        "text": "Frata30",
+        "href": "https://thetvdb.com/dashboard/reports/users/detail/3045498"
+      },
+      {
+        "text": "Delete",
+        "href": "https://thetvdb.com/dashboard/artwork/remove/64849218"
+      },
+      {
+        "text": "",
+        "href": "https://thetvdb.com/artwork/64849217"
+      },
+      {
+        "text": "ON SUIT DES GENS AU HASARD EN VOITURE (et on les rince)",
+        "href": "https://thetvdb.com/series/328213-show/episodes/8132461"
+      },
+      {
+        "text": "Frata30",
+        "href": "https://thetvdb.com/dashboard/reports/users/detail/3045498"
+      },
+      {
+        "text": "Delete",
+        "href": "https://thetvdb.com/dashboard/artwork/remove/64849217"
+      },
+      {
+        "text": "",
+        "href": "https://thetvdb.com/artwork/64849216"
+      },
+      {
+        "text": "LA CHANSON DES COMMENTAIRES - AMIXEM (Clip Officiel)",
+        "href": "https://thetvdb.com/series/328213-show/episodes/8107829"
+      },
+      {
+        "text": "Frata30",
+        "href": "https://thetvdb.com/dashboard/reports/users/detail/3045498"
+      },
+      {
+        "text": "Delete",
+        "href": "https://thetvdb.com/dashboard/artwork/remove/64849216"
+      },
+      {
+        "text": "",
+        "href": "https://thetvdb.com/artwork/64849215"
+      },
+      {
+        "text": "LES PIRES MOTS DANS LE CARNET ! #7",
+        "href": "https://thetvdb.com/series/328213-show/episodes/8107807"
+      },
+      {
+        "text": "Frata30",
+        "href": "https://thetvdb.com/dashboard/reports/users/detail/3045498"
+      },
+      {
+        "text": "Delete",
+        "href": "https://thetvdb.com/dashboard/artwork/remove/64849215"
+      },
+      {
+        "text": "",
+        "href": "https://thetvdb.com/artwork/64849214"
+      },
+      {
+        "text": "Une semaine avec le plus grand explorateur du monde (Mike Ho...",
+        "href": "https://thetvdb.com/series/328213-show/episodes/8107799"
+      },
+      {
+        "text": "Frata30",
+        "href": "https://thetvdb.com/dashboard/reports/users/detail/3045498"
+      },
+      {
+        "text": "Delete",
+        "href": "https://thetvdb.com/dashboard/artwork/remove/64849214"
+      },
+      {
+        "text": "",
+        "href": "https://thetvdb.com/artwork/64849213"
+      },
+      {
+        "text": "LES PIRES CHAMPIONNATS DU MONDE ! #2",
+        "href": "https://thetvdb.com/series/328213-show/episodes/8107792"
+      },
+      {
+        "text": "Frata30",
+        "href": "https://thetvdb.com/dashboard/reports/users/detail/3045498"
+      },
+      {
+        "text": "Delete",
+        "href": "https://thetvdb.com/dashboard/artwork/remove/64849213"
+      },
+      {
+        "text": "",
+        "href": "https://thetvdb.com/artwork/64849212"
+      },
+      {
+        "text": "LES PIRES PHOTOS DE RADAR ROUTIER ! #1",
+        "href": "https://thetvdb.com/series/328213-show/episodes/8107790"
+      },
+      {
+        "text": "Frata30",
+        "href": "https://thetvdb.com/dashboard/reports/users/detail/3045498"
+      },
+      {
+        "text": "Delete",
+        "href": "https://thetvdb.com/dashboard/artwork/remove/64849212"
+      },
+      {
+        "text": "",
+        "href": "https://thetvdb.com/artwork/64849211"
+      },
+      {
+        "text": "MARIO KART DANS LA VRAIE VIE (du futur avec des robots) !",
+        "href": "https://thetvdb.com/series/328213-show/episodes/8107780"
+      },
+      {
+        "text": "Frata30",
+        "href": "https://thetvdb.com/dashboard/reports/users/detail/3045498"
+      },
+      {
+        "text": "Delete",
+        "href": "https://thetvdb.com/dashboard/artwork/remove/64849211"
+      },
+      {
+        "text": "",
+        "href": "https://thetvdb.com/artwork/64849210"
+      },
+      {
+        "text": "DEVINEZ LE BON LOGO ! #5",
+        "href": "https://thetvdb.com/series/328213-show/episodes/8107772"
+      },
+      {
+        "text": "Frata30",
+        "href": "https://thetvdb.com/dashboard/reports/users/detail/3045498"
+      },
+      {
+        "text": "Delete",
+        "href": "https://thetvdb.com/dashboard/artwork/remove/64849210"
+      },
+      {
+        "text": "2",
+        "href": "https://thetvdb.com/dashboard/artwork/11?page=2"
+      },
+      {
+        "text": "3",
+        "href": "https://thetvdb.com/dashboard/artwork/11?page=3"
+      },
+      {
+        "text": "4",
+        "href": "https://thetvdb.com/dashboard/artwork/11?page=4"
+      },
+      {
+        "text": "5",
+        "href": "https://thetvdb.com/dashboard/artwork/11?page=5"
+      },
+      {
+        "text": "6",
+        "href": "https://thetvdb.com/dashboard/artwork/11?page=6"
+      },
+      {
+        "text": "7",
+        "href": "https://thetvdb.com/dashboard/artwork/11?page=7"
+      },
+      {
+        "text": "8",
+        "href": "https://thetvdb.com/dashboard/artwork/11?page=8"
+      },
+      {
+        "text": "60",
+        "href": "https://thetvdb.com/dashboard/artwork/11?page=60"
+      },
+      {
+        "text": "61",
+        "href": "https://thetvdb.com/dashboard/artwork/11?page=61"
+      },
+      {
+        "text": "»",
+        "href": "https://thetvdb.com/dashboard/artwork/11?page=2"
+      }
+    ]
+  },
+  "result": "CENSUS_COMPLETE_ZERO_WRITES"
+}
