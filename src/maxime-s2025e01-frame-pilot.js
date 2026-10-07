@@ -13,7 +13,7 @@ const context=await browser.newContext({
 const page=await context.newPage();
 const report={generatedAt:new Date().toISOString(),mode:'READ_ONLY_YOUTUBE_VIDEO_FRAME_PILOT',videoId:VIDEO_ID,frames:[],blocked:[],result:'NOT_STARTED'};
 try{
-  const url='https://www.youtube-nocookie.com/embed/'+VIDEO_ID+'?autoplay=1&mute=1&controls=0&rel=0&playsinline=1&cc_load_policy=0';
+  const url='https://www.youtube.com/watch?v='+VIDEO_ID;
   const r=await page.goto(url,{waitUntil:'domcontentloaded',timeout:60000});
   report.http=r?.status()??null;
   await page.waitForTimeout(2500);
@@ -24,6 +24,12 @@ try{
   if(await consent.count()){
     await consent.click().catch(()=>{});
     await page.waitForTimeout(1500);
+  }
+  const blockedText=(await page.locator('body').innerText()).replace(/\s+/g,' ');
+  if(/confirm you're not a bot|confirmer que vous n.?êtes pas un robot|unusual traffic|trafic inhabituel|captcha/i.test(blockedText)){
+    report.body=blockedText.slice(0,5000);
+    await page.screenshot({path:OUT+'/page-debug.png',fullPage:true}).catch(()=>{});
+    throw new Error('HUMAN_VERIFICATION_REQUIRED');
   }
   const play=page.locator('.ytp-large-play-button,button[aria-label*="Play"],button[aria-label*="Lire"]').first();
   if(await play.count()){
