@@ -1,6 +1,6 @@
 authenticated=true
 stage1Status=200
-cropFormFound=false
+cropFormFound=true
 stage2Status=n/a
 artworkPresent=false
 blocked=1
