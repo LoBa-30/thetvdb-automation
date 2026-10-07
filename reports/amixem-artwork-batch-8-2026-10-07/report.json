@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T17:28:36.911Z",
+  "mode": "GUARDED_AMIXEM_ARTWORK_BATCH_8",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2019E77",
+    "S2019E78",
+    "S2019E79",
+    "S2020E21",
+    "S2020E25",
+    "S2020E33",
+    "S2020E34",
+    "S2020E37",
+    "S2020E43",
+    "S2020E45",
+    "S2020E47",
+    "S2020E53",
+    "S2020E60",
+    "S2020E79",
+    "S2021E03",
+    "S2021E06",
+    "S2021E23",
+    "S2021E43",
+    "S2021E76",
+    "S2021E78"
+  ],
+  "results": [
+    {
+      "code": "S2019E77",
+      "episodeId": "10676079",
+      "title": "1000 KM SANS CARTE NI GPS ! (EN ALLEMAGNE) - RedBoxTrip2 #1",
+      "youtubeId": "Jqetm0gXPQY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "1000 KM SANS CARTE NI GPS ! (EN ALLEMAGNE) - RedBoxTrip2 #1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Jqetm0gXPQY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 162304
+        }
+      },
+      "crop": {
+        "id": "2329862",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac68149bd1ec.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10676079/screencap/6ac6814b02340.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E78",
+      "episodeId": "10676080",
+      "title": "TOTALEMENT PERDUS EN ALLEMAGNE ! (les ennuis commencent..) - RedboxTrip2 #2",
+      "youtubeId": "Bn02knC726s",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "TOTALEMENT PERDUS EN ALLEMAGNE ! (les ennuis commencent..) - RedboxTrip2 #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Bn02knC726s/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 176109
+        }
+      },
+      "crop": {
+        "id": "2329863",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6814f1ab23.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10676080/screencap/6ac6815044db9.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E79",
+      "episodeId": "10676081",
+      "title": "ON RENTRERA JAMAIS CHEZ NOUS ! - RedBoxTrip2 #3",
+      "youtubeId": "4KAFw4kd4pk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON RENTRERA JAMAIS CHEZ NOUS ! - RedBoxTrip2 #3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/4KAFw4kd4pk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 181828
+        }
+      },
+      "crop": {
+        "id": "2329864",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac68154105d3.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10676081/screencap/6ac68155351c6.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E21",
+      "episodeId": "8107748",
+      "title": "Les PIRES (et meilleurs) loisirs de riches !",
+      "youtubeId": "GFnzjrGh3Yc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Les PIRES (et meilleurs) loisirs de riches !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/GFnzjrGh3Yc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 121732
+        }
+      },
+      "crop": {
+        "id": "2329865",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6815905ecf.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8107748/screencap/6ac6815a26e8f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E25",
+      "episodeId": "8107755",
+      "title": "LES PIRES MOTS DANS LE CARNET ! #6",
+      "youtubeId": "NJbQRFiVbD4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES MOTS DANS LE CARNET ! #6",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/NJbQRFiVbD4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 121021
+        }
+      },
+      "crop": {
+        "id": "2329867",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6815ddc889.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8107755/screencap/6ac6815f14268.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E33",
+      "episodeId": "8107767",
+      "title": "LES PIRES PUBS DANS LA RUE !",
+      "youtubeId": "YyO92jjh-f4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES PUBS DANS LA RUE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/YyO92jjh-f4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 111126
+        }
+      },
+      "crop": {
+        "id": "2329868",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac681632efc7.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8107767/screencap/6ac68164b0d24.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E34",
+      "episodeId": "8107768",
+      "title": "LES GENS LES PLUS CHANCEUX DU MONDE ! (enfin pas tous)",
+      "youtubeId": "eBH5fc26Bl8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES GENS LES PLUS CHANCEUX DU MONDE ! (enfin pas tous)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/eBH5fc26Bl8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 121343
+        }
+      },
+      "crop": {
+        "id": "2329869",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac681686a7a2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8107768/screencap/6ac6816985a0c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E37",
+      "episodeId": "8107772",
+      "title": "DEVINEZ LE BON LOGO ! #5",
+      "youtubeId": "5IQUILGHktI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DEVINEZ LE BON LOGO ! #5",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/5IQUILGHktI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 103652
+        }
+      },
+      "crop": {
+        "id": "2329870",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6816d646a0.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8107772/screencap/6ac6816ea5c38.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E43",
+      "episodeId": "8107780",
+      "title": "MARIO KART DANS LA VRAIE VIE (du futur avec des robots) !",
+      "youtubeId": "oU6dsY0bJEg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MARIO KART DANS LA VRAIE VIE (du futur avec des robots) !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/oU6dsY0bJEg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 138749
+        }
+      },
+      "crop": {
+        "id": "2329871",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6817273e4a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8107780/screencap/6ac68173dbe82.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E45",
+      "episodeId": "8107790",
+      "title": "LES PIRES PHOTOS DE RADAR ROUTIER ! #1",
+      "youtubeId": "-p3GevlP4RQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES PHOTOS DE RADAR ROUTIER ! #1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/-p3GevlP4RQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 89810
+        }
+      },
+      "crop": {
+        "id": "2329872",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6817804685.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8107790/screencap/6ac681792be5e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E47",
+      "episodeId": "8107792",
+      "title": "LES PIRES CHAMPIONNATS DU MONDE ! #2",
+      "youtubeId": "bvr21333j0c",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES CHAMPIONNATS DU MONDE ! #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/bvr21333j0c/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 121089
+        }
+      },
+      "crop": {
+        "id": "2329873",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6817cc9e45.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8107792/screencap/6ac6817df0f41.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E53",
+      "episodeId": "8107799",
+      "title": "Une semaine avec le plus grand explorateur du monde (Mike Horn)",
+      "youtubeId": "-BGq9_roUhY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Une semaine avec le plus grand explorateur du monde (Mike Horn)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/-BGq9_roUhY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 178968
+        }
+      },
+      "crop": {
+        "id": "2329874",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6818199b36.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8107799/screencap/6ac68182c1a75.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E60",
+      "episodeId": "8107807",
+      "title": "LES PIRES MOTS DANS LE CARNET ! #7",
+      "youtubeId": "3N-GilQSQBQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES MOTS DANS LE CARNET ! #7",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/3N-GilQSQBQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 101782
+        }
+      },
+      "crop": {
+        "id": "2329875",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac68186647e7.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8107807/screencap/6ac681878f875.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E79",
+      "episodeId": "8107829",
+      "title": "LA CHANSON DES COMMENTAIRES - AMIXEM (Clip Officiel)",
+      "youtubeId": "sjOZtB16NF0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA CHANSON DES COMMENTAIRES - AMIXEM (Clip Officiel)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/sjOZtB16NF0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 121584
+        }
+      },
+      "crop": {
+        "id": "2329876",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6818b3b825.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8107829/screencap/6ac6818c66404.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E03",
+      "episodeId": "8132461",
+      "title": "ON SUIT DES GENS AU HASARD EN VOITURE (et on les rince)",
+      "youtubeId": "ybadhoHjH4Q",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON SUIT DES GENS AU HASARD EN VOITURE (et on les rince)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ybadhoHjH4Q/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 129036
+        }
+      },
+      "crop": {
+        "id": "2329877",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac681902d3ba.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8132461/screencap/6ac6819147018.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E06",
+      "episodeId": "8155935",
+      "title": "LES PIRES VOLEURS #3 (ils sont toujours aussi NULS)",
+      "youtubeId": "Cao0ZEvY4sw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES VOLEURS #3 (ils sont toujours aussi NULS)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Cao0ZEvY4sw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 100266
+        }
+      },
+      "crop": {
+        "id": "2329878",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6819520fa4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8155935/screencap/6ac681963bd2e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E23",
+      "episodeId": "8355508",
+      "title": "LES PIRES ENTREPRISES (genre de location de poules)",
+      "youtubeId": "Qbk_at5fZqc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES ENTREPRISES (genre de location de poules)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Qbk_at5fZqc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 113615
+        }
+      },
+      "crop": {
+        "id": "2329879",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6819a532f9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8355508/screencap/6ac6819b81037.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E43",
+      "episodeId": "9046805",
+      "title": "LES PIRES ANNONCES SUR LEBONCOIN ! #10",
+      "youtubeId": "OMWcvqk_Ff0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES ANNONCES SUR LEBONCOIN ! #10",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/OMWcvqk_Ff0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 112822
+        }
+      },
+      "crop": {
+        "id": "2329880",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6819f384c1.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9046805/screencap/6ac681a0713bf.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E76",
+      "episodeId": "9046843",
+      "title": "LA BATAILLE DES STYLISTES (qui fera le meilleur look ?)",
+      "youtubeId": "Xx5v7IY1sDA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA BATAILLE DES STYLISTES (qui fera le meilleur look ?)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Xx5v7IY1sDA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 163128
+        }
+      },
+      "crop": {
+        "id": "2329881",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac681a4de1f5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9046843/screencap/6ac681a6149f9.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E78",
+      "episodeId": "9046845",
+      "title": "Les PIRES objets TIKTOK (genre un enfileur de chaussettes)",
+      "youtubeId": "3EsosCwELN8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Les PIRES objets TIKTOK (genre un enfileur de chaussettes)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/3EsosCwELN8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 135523
+        }
+      },
+      "crop": {
+        "id": "2329882",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac681a9dd2ce.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9046845/screencap/6ac681ab1766d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
