@@ -1,0 +1,8 @@
+authenticated=true
+requested=1
+processed=1
+applied=1
+skipped=0
+failed=0
+stopped=false
+result=BATCH_COMPLETE

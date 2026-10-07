@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-10-07T13:40:50.381Z",
+  "mode": "GUARDED_SQUEEZIE_E55_RECOVERY",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2011E55"
+  ],
+  "results": [
+    {
+      "code": "S2011E55",
+      "episodeId": "5313816",
+      "title": "Top 5 de la connerie | Episode 2",
+      "youtubeId": "ZoyM8b_CgxI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Top 5 de la connerie | Episode 2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ZoyM8b_CgxI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 80675
+        }
+      },
+      "crop": {
+        "id": "2329018",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64c272379e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313816/screencap/6ac64c28810a8.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 1,
+    "processed": 1,
+    "applied": 1,
+    "skipped": 0,
+    "failed": 0
+  }
+}
