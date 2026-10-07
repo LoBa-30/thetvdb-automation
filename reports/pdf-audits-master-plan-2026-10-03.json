@@ -17,7 +17,7 @@
       "pdf": "AUDIT THETVDB — DJILSI.pdf",
       "status": "IN_PROGRESS_ARTWORK_ONLY",
       "pdfOpenWork": [
-        "79 missing artworks remain versus the original 139-missing PDF snapshot after 60 newly applied+verified artworks; continue only from fresh rescans because the snapshot is stale.",
+        "59 missing artworks remain versus the original 139-missing PDF snapshot after 80 newly applied+verified artworks; continue only from fresh live rescans.",
         "75 existing artworks provenance checks"
       ],
       "resolvedSincePlan": [
@@ -25,7 +25,8 @@
         "Final authenticated verifier checked 31 metadata targets: 31/31 passed, including 30 runtimes and 2 dates; series First Aired confirmed 2018-08-09.",
         "2026 announcement E11 preserved by explicit project decision; E13/E14 verified; no renumbering. Metadata scope is closed.",
         "2026-10-07 artwork rollout: 40 Djilsi missing artworks applied and individually post-write verified in two guarded serial batches (20/20 + 20/20), 0 skips, 0 blocks, 0 failed-after-write.",
-        "2026-10-07 continuation: Djilsi artwork batch 3 applied and individually post-write verified 20/20 (S2019E22-S2019E41), 0 skips, 0 safe blocks, 0 failed-after-write."
+        "2026-10-07 continuation: Djilsi artwork batch 3 applied and individually post-write verified 20/20 (S2019E22-S2019E41), 0 skips, 0 safe blocks, 0 failed-after-write.",
+        "2026-10-07 continuation: Djilsi artwork batch 4 applied and individually post-write verified 20/20, 0 skips, 0 safe blocks, 0 failed-after-write. Total newly applied+verified artwork count through batch 4 is 80."
       ]
     },
     {
@@ -98,7 +99,7 @@
         "5 certain Unassigned duplicates still need successful delete/merge",
         "165 metadata-blocked videos in PDF snapshot",
         "114 existing artwork provenance checks",
-        "Large missing-artwork backlog remains; the original 1484-missing PDF snapshot is stale. At least 80 codes are now protected by verified artwork history; continue through fresh rescans only."
+        "Large missing-artwork backlog remains; original PDF count is stale. At least 100 Squeezie artwork codes are now protected by verified/recovered batch history; continue through fresh live rescans only."
       ],
       "resolvedSincePlan": [
         "Current structural/historical backlog re-audited: 1586 current YouTube videos, 1660 TVDB assigned, 1585 current matches.",
@@ -107,7 +108,8 @@
         "Fresh runtime recheck found exactly 8 >1-minute mismatches in 2016/2017/2019/2021; all 8 titles matched official YouTube exactly.",
         "All 8 runtimes corrected with authenticated fresh preflight and post-write verification: 2016 E144 10→8, E216 1→9; 2017 E17 10→7, E44 10→8; 2019 E22 20→23, E34 70→68; 2021 E28 13→19, E56 28→24.",
         "2026-10-07 continued artwork rollout: 40 additional Squeezie artworks applied and individually post-write verified in guarded batches 3 and 4 (20/20 + 20/20), 0 skips and 0 failures. Fresh rescans automatically skipped artwork already present.",
-        "2026-10-07 continuation: Squeezie artwork batch 5 applied and individually post-write verified 20/20, 0 skips, 0 failures; hardened preflight explicitly excluded 60 previously verified codes before selecting this batch."
+        "2026-10-07 continuation: Squeezie artwork batch 5 applied and individually post-write verified 20/20, 0 skips, 0 failures; hardened preflight explicitly excluded 60 previously verified codes before selecting this batch.",
+        "2026-10-07 Squeezie artwork batch 6 recovered checkpoint: the write step completed 20/20 with 0 skips/0 failures and BATCH_COMPLETE. The workflow-level failure was only the GitHub report-persist step; artifact upload succeeded. Do not repeat these 20 writes."
       ]
     },
     {
@@ -135,7 +137,7 @@
       "status": "IN_PROGRESS_DATES_ARTWORK",
       "pdfOpenWork": [
         "Exact publication dates remain independently unverified in the fresh audit",
-        "729 missing artworks remain versus the original 769-missing PDF snapshot after 40 newly applied+verified artworks; continue only from fresh live rescans.",
+        "709 missing artworks remain versus the original 769-missing PDF snapshot after 60 newly applied+verified artworks; continue only from fresh live rescans.",
         "2 artwork provenance tickets"
       ],
       "resolvedSincePlan": [
@@ -149,7 +151,8 @@
         "After matcher repairs and S2016 runtime correction, fresh audit reports 0 substantive title mismatches and 0 runtime mismatches.",
         "Fresh title exactness backlog closed without writes: 54 remaining differences = 26 punctuation/emoji + 28 cosmetic; 0 substantive mismatches.",
         "2026-10-07 artwork rollout started: 20 Amixem missing artworks applied and individually post-write verified in guarded batch 1, 20/20 success, 0 skips, 0 failures.",
-        "2026-10-07 continuation: Amixem artwork batch 2 applied and individually post-write verified 20/20, 0 skips, 0 failures; hardened preflight explicitly excluded 20 previously verified codes before selecting this batch."
+        "2026-10-07 continuation: Amixem artwork batch 2 applied and individually post-write verified 20/20, 0 skips, 0 failures; hardened preflight explicitly excluded 20 previously verified codes before selecting this batch.",
+        "2026-10-07 continuation: Amixem artwork batch 3 applied and individually post-write verified 20/20, 0 skips, 0 failures. Total newly applied+verified artwork count from batches 1-3 is 60."
       ]
     },
     {
@@ -158,7 +161,7 @@
       "status": "IN_PROGRESS_DATES_ARTWORK",
       "pdfOpenWork": [
         "Exact publication dates remain independently unverified in the fresh audit",
-        "339 missing artworks remain versus the original 379-missing PDF snapshot after 40 newly applied+verified artworks; continue only from fresh live rescans."
+        "319 missing artworks remain versus the original 379-missing PDF snapshot after 60 newly applied+verified artworks; continue only from fresh live rescans."
       ],
       "resolvedSincePlan": [
         "TROUVE LE GÂTEAU repeated-title discrepancy resolved as matcher false positive; four checked entries correct.",
@@ -168,7 +171,8 @@
         "Fresh exhaustive title audit closed the title backlog: 0 substantive mismatches; 38 emoji/symbol-only and 12 whitespace/invisible/punctuation-only differences require no write.",
         "Exhaustive runtime repair completed: 211 additional in-scope runtime corrections preflighted, written and 211/211 post-write verified. Together with the earlier 3 corrections, the 214-runtime PDF backlog is closed.",
         "2026-10-07 artwork rollout started: 20 Joyca missing artworks applied and individually post-write verified in guarded batch 1, 20/20 success, 0 skips, 0 failures.",
-        "2026-10-07 continuation: Joyca artwork batch 2 applied and individually post-write verified 20/20, 0 skips, 0 failures."
+        "2026-10-07 continuation: Joyca artwork batch 2 applied and individually post-write verified 20/20, 0 skips, 0 failures.",
+        "2026-10-07 continuation: Joyca artwork batch 3 applied and individually post-write verified 20/20, 0 skips, 0 failures. Total newly applied+verified artwork count from batches 1-3 is 60."
       ]
     },
     {
@@ -230,7 +234,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T15:00:00Z",
+  "lastUpdatedAt": "2026-10-07T15:26:00Z",
   "latestContinuationCommits": [
     "38c1bbafe19bfbe54c91072ab9419ec91d7715d7",
     "68bb95cb01a3f49ceb6f7e29ee530daac5e07696",
@@ -341,6 +345,9 @@
     "88cccc136367fadefe4a74e258e7c52cd1186c9a",
     "7a0bac2835dc0ad072afef0dd9ad0e414f5bc6ae",
     "a3905d9ed664f5b956fc9d779ad81b8cda6ff634",
-    "24f94787e77b1622f107ce963a95e772bffa900a"
+    "24f94787e77b1622f107ce963a95e772bffa900a",
+    "ad3029b9a4e4839fdb9a399b0c123705affecb5a",
+    "98e8890adec1547947a509ae8c0523dd6b95ef92",
+    "8de927c7599397c9b25b21f8b26dd3026a518900"
   ]
 }
