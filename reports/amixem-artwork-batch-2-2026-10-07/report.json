@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T14:54:37.237Z",
+  "mode": "GUARDED_AMIXEM_ARTWORK_BATCH_2",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2015E74",
+    "S2015E77",
+    "S2015E78",
+    "S2015E79",
+    "S2015E82",
+    "S2015E83",
+    "S2015E92",
+    "S2015E95",
+    "S2015E98",
+    "S2015E99",
+    "S2016E01",
+    "S2016E02",
+    "S2016E03",
+    "S2016E04",
+    "S2016E05",
+    "S2016E09",
+    "S2016E11",
+    "S2016E13",
+    "S2016E14",
+    "S2016E15"
+  ],
+  "results": [
+    {
+      "code": "S2015E74",
+      "episodeId": "6088696",
+      "title": "UNE PROMENADE DE 8000 KM !",
+      "youtubeId": "ixIEXBLjkEw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UNE PROMENADE DE 8000 KM !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ixIEXBLjkEw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 103933
+        }
+      },
+      "crop": {
+        "id": "2329260",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d3187d54.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088696/screencap/6ac65d32a9360.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E77",
+      "episodeId": "6088701",
+      "title": "JE FAIS DU eSPORT SUR ADIBOU !",
+      "youtubeId": "XJZI1AdeBYE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE FAIS DU eSPORT SUR ADIBOU !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/XJZI1AdeBYE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 144827
+        }
+      },
+      "crop": {
+        "id": "2329261",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d36e8cd8.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088701/screencap/6ac65d3836236.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E78",
+      "episodeId": "6088702",
+      "title": "MON PIANO EST LE MEILLEUR !",
+      "youtubeId": "7yzzXvbQpm8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MON PIANO EST LE MEILLEUR !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/7yzzXvbQpm8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 104519
+        }
+      },
+      "crop": {
+        "id": "2329262",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d3c5ade8.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088702/screencap/6ac65d3db3d0f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E79",
+      "episodeId": "6088703",
+      "title": "LA GUERRE DES CARTONS ! - METAL GEAR ONLINE",
+      "youtubeId": "fHHCJa_aw9A",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA GUERRE DES CARTONS ! - METAL GEAR ONLINE",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/fHHCJa_aw9A/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 160607
+        }
+      },
+      "crop": {
+        "id": "2329263",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d41af229.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088703/screencap/6ac65d4303eb3.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E82",
+      "episodeId": "6088708",
+      "title": "COMMENT INFILTRER UN AVION ? (Infiltrating The Airship)",
+      "youtubeId": "JgJyVIbnBDo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COMMENT INFILTRER UN AVION ? (Infiltrating The Airship)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/JgJyVIbnBDo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 77518
+        }
+      },
+      "crop": {
+        "id": "2329264",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d46f331d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088708/screencap/6ac65d482c669.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E83",
+      "episodeId": "6088709",
+      "title": "COULISSES DE LA PARIS GAMES WEEK 2015 ! - Amixem",
+      "youtubeId": "cpXaxw0p2Wo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COULISSES DE LA PARIS GAMES WEEK 2015 ! - Amixem",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/cpXaxw0p2Wo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 143789
+        }
+      },
+      "crop": {
+        "id": "2329265",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d4c1db22.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088709/screencap/6ac65d4d4a956.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E92",
+      "episodeId": "6088728",
+      "title": "CHEVAUCHER UN MAMMOUTH ?! Far Cry Primal",
+      "youtubeId": "AlTyhXeKClA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CHEVAUCHER UN MAMMOUTH ?! Far Cry Primal",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/AlTyhXeKClA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 108270
+        }
+      },
+      "crop": {
+        "id": "2329266",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d5153491.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088728/screencap/6ac65d5275d42.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E95",
+      "episodeId": "6088732",
+      "title": "COMMENT COURIR SANS JAMBES ? Ben and Ed",
+      "youtubeId": "zU0bFmxfZms",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COMMENT COURIR SANS JAMBES ? Ben and Ed",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/zU0bFmxfZms/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 80233
+        }
+      },
+      "crop": {
+        "id": "2329267",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d5657735.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088732/screencap/6ac65d57829cd.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E98",
+      "episodeId": "6088736",
+      "title": "LES PIRES ANNONCES SUR LEBONCOIN !",
+      "youtubeId": "ASZekCHzguU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES ANNONCES SUR LEBONCOIN !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ASZekCHzguU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 100950
+        }
+      },
+      "crop": {
+        "id": "2329269",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d5b6df1e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088736/screencap/6ac65d5c9cbc5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E99",
+      "episodeId": "6088737",
+      "title": "VIE NULLE SIMULATOR - Life: The Game",
+      "youtubeId": "ifB2nECqxI4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VIE NULLE SIMULATOR - Life: The Game",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ifB2nECqxI4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 57832
+        }
+      },
+      "crop": {
+        "id": "2329270",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d612ba73.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088737/screencap/6ac65d6245a68.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E01",
+      "episodeId": "6088738",
+      "title": "PIANO Vs. GUITARE !",
+      "youtubeId": "55f48mljek8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PIANO Vs. GUITARE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/55f48mljek8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 106678
+        }
+      },
+      "crop": {
+        "id": "2329271",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d66583e0.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088738/screencap/6ac65d678005c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E02",
+      "episodeId": "6088739",
+      "title": "JE SUIS LE ROI OMG ! - Sort The Court",
+      "youtubeId": "Z0u7mxREtr8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE SUIS LE ROI OMG ! - Sort The Court",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Z0u7mxREtr8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 79927
+        }
+      },
+      "crop": {
+        "id": "2329272",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d6b656b3.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088739/screencap/6ac65d6c83337.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E03",
+      "episodeId": "6088740",
+      "title": "LES PIRES DILEMMES ! - Would You Rather",
+      "youtubeId": "8F96ePxXTyM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES DILEMMES ! - Would You Rather",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/8F96ePxXTyM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 102363
+        }
+      },
+      "crop": {
+        "id": "2329273",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d705b898.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088740/screencap/6ac65d71982e2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E04",
+      "episodeId": "6088741",
+      "title": "QUE FONT LES GENS SUR PERISCOPE ? #1",
+      "youtubeId": "_ZRTr2Md4ys",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "QUE FONT LES GENS SUR PERISCOPE ? #1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/_ZRTr2Md4ys/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 84175
+        }
+      },
+      "crop": {
+        "id": "2329274",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d759cf33.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088741/screencap/6ac65d76c593c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E05",
+      "episodeId": "6088742",
+      "title": "FAIRE DE LA GYM EN PLEINE GUERRE - The Division",
+      "youtubeId": "a23EetdA7x4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FAIRE DE LA GYM EN PLEINE GUERRE - The Division",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/a23EetdA7x4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 203021
+        }
+      },
+      "crop": {
+        "id": "2329275",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d7ad6d1f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088742/screencap/6ac65d7c0457b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E09",
+      "episodeId": "6088747",
+      "title": "QUE FONT LES GENS SUR PERISCOPE ? #2",
+      "youtubeId": "E-pSjWYAPu8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "QUE FONT LES GENS SUR PERISCOPE ? #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/E-pSjWYAPu8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 87717
+        }
+      },
+      "crop": {
+        "id": "2329277",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d80343dc.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088747/screencap/6ac65d816d345.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E11",
+      "episodeId": "6088750",
+      "title": "LES PIRES ANNONCES SUR LEBONCOIN ! #2",
+      "youtubeId": "wltzKCCH0d8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES ANNONCES SUR LEBONCOIN ! #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/wltzKCCH0d8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 93012
+        }
+      },
+      "crop": {
+        "id": "2329280",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d85794d4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088750/screencap/6ac65d869d971.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E13",
+      "episodeId": "6088753",
+      "title": "JE SUIS BONNE OU PAS ? - Face Swap Live",
+      "youtubeId": "Psmv8DzcJ94",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE SUIS BONNE OU PAS ? - Face Swap Live",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Psmv8DzcJ94/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 76909
+        }
+      },
+      "crop": {
+        "id": "2329281",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d8a7d6ce.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088753/screencap/6ac65d8bb7950.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E14",
+      "episodeId": "6088755",
+      "title": "TROP DE TROLL ET DE BUZZ DANS CE JEU !",
+      "youtubeId": "zT1eGE5FAvA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "TROP DE TROLL ET DE BUZZ DANS CE JEU !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/zT1eGE5FAvA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 91703
+        }
+      },
+      "crop": {
+        "id": "2329282",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d9073425.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088755/screencap/6ac65d919639b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E15",
+      "episodeId": "6088756",
+      "title": "COMMENT SURVIVRE DANS LA NATURE ?",
+      "youtubeId": "0OSGta7WEoY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COMMENT SURVIVRE DANS LA NATURE ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/0OSGta7WEoY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 140938
+        }
+      },
+      "crop": {
+        "id": "2329283",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65d95d7858.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088756/screencap/6ac65d970436b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
