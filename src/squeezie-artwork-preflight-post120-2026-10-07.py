@@ -40,6 +40,15 @@ for rp in Path('reports').glob('squeezie-artwork*/report.json'):
                 done.add(row['code'])
     except Exception:
         pass
+recovered=Path('reports/squeezie-artwork-batch-6-recovered-checkpoint-2026-10-07.json')
+if recovered.exists():
+    try:
+        hist=json.loads(recovered.read_text(encoding='utf-8'))
+        for row in hist.get('targets',[]) or []:
+            if row.get('code'):
+                done.add(row['code'])
+    except Exception:
+        pass
 report['historicalDone']=len(done)
 
 for p in pairs:
