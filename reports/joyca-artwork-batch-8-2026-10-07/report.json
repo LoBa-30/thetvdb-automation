@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T17:13:54.694Z",
+  "mode": "GUARDED_JOYCA_ARTWORK_BATCH_8",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2020E37",
+    "S2020E38",
+    "S2020E40",
+    "S2020E42",
+    "S2020E43",
+    "S2020E48",
+    "S2020E49",
+    "S2020E50",
+    "S2020E51",
+    "S2020E52",
+    "S2020E53",
+    "S2021E26",
+    "S2021E36",
+    "S2021E48",
+    "S2021E49",
+    "S2021E51",
+    "S2021E52",
+    "S2021E54",
+    "S2021E56",
+    "S2021E57"
+  ],
+  "results": [
+    {
+      "code": "S2020E37",
+      "episodeId": "8070799",
+      "title": "FAKE NEWS OU VRAIES NEWS ? (c'est abusé) Feat @Mastu",
+      "youtubeId": "I025aivigOs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FAKE NEWS OU VRAIES NEWS ? (c'est abusé) Feat @Mastu",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/I025aivigOs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 88951
+        }
+      },
+      "crop": {
+        "id": "2329778",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67dd70d606.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070799/screencap/6ac67dd849295.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E38",
+      "episodeId": "8070800",
+      "title": "ON PART SUR UNE ÎLE DESERTE ! (Avec @Mastu, @Ne0xi et @R4SK4)",
+      "youtubeId": "9KfufWEy4kM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON PART SUR UNE ÎLE DESERTE ! (Avec @Mastu, @Ne0xi et @R4SK4)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/9KfufWEy4kM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 145928
+        }
+      },
+      "crop": {
+        "id": "2329780",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67ddc8a000.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070800/screencap/6ac67dddc615c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E40",
+      "episodeId": "8070801",
+      "title": "ILS SONT PIRES QUE MOI... (ça me rassure)",
+      "youtubeId": "riyLW9ZsDl8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ILS SONT PIRES QUE MOI... (ça me rassure)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/riyLW9ZsDl8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 111860
+        }
+      },
+      "crop": {
+        "id": "2329781",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67de231aa7.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070801/screencap/6ac67de3bb746.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E42",
+      "episodeId": "8070803",
+      "title": "FAUT QU'ON PARLE DE ÇA... (La tecktonik)",
+      "youtubeId": "9xuZ_l9bXxA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FAUT QU'ON PARLE DE ÇA... (La tecktonik)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/9xuZ_l9bXxA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 94829
+        }
+      },
+      "crop": {
+        "id": "2329782",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67de7cc901.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070803/screencap/6ac67de90fe0f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E43",
+      "episodeId": "8070804",
+      "title": "J'AI PAYÉ POUR ÇA !? (et je regrette pas)",
+      "youtubeId": "f68JKy5PH8o",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'AI PAYÉ POUR ÇA !? (et je regrette pas)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/f68JKy5PH8o/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 119051
+        }
+      },
+      "crop": {
+        "id": "2329783",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67decec15e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070804/screencap/6ac67dee232b5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E48",
+      "episodeId": "8070809",
+      "title": "VOUS ÊTES VRAIMENT DES ALIENS (Vos particularités physiques #2)",
+      "youtubeId": "xuFQidDfmEc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOUS ÊTES VRAIMENT DES ALIENS (Vos particularités physiques #2)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/xuFQidDfmEc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 97170
+        }
+      },
+      "crop": {
+        "id": "2329784",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67df225013.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070809/screencap/6ac67df360b27.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E49",
+      "episodeId": "8070810",
+      "title": "JUSTE PRIX (On devine, on achète) Ft. @Mastu",
+      "youtubeId": "834_wXbY3Aw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JUSTE PRIX (On devine, on achète) Ft. @Mastu",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/834_wXbY3Aw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 102670
+        }
+      },
+      "crop": {
+        "id": "2329785",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67df776b42.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070810/screencap/6ac67df8a3d74.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E50",
+      "episodeId": "8082836",
+      "title": "J'AI TATOUÉ MON FRÈRE ! (et Il m'a tatoué aussi)",
+      "youtubeId": "MZf8hrstW3s",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'AI TATOUÉ MON FRÈRE ! (et Il m'a tatoué aussi)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/MZf8hrstW3s/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 90824
+        }
+      },
+      "crop": {
+        "id": "2329786",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67dfd24321.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8082836/screencap/6ac67dfe534c2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E51",
+      "episodeId": "8107702",
+      "title": "LÀ ÇA VA TROP LOIN !",
+      "youtubeId": "VhKQ_PVPRLw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LÀ ÇA VA TROP LOIN !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/VhKQ_PVPRLw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 83125
+        }
+      },
+      "crop": {
+        "id": "2329787",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67e02357d1.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8107702/screencap/6ac67e03682e0.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E52",
+      "episodeId": "8107703",
+      "title": "IL Y AURA ÇA DANS NOTRE TÊTE !?",
+      "youtubeId": "TJb2qDUaxxA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "IL Y AURA ÇA DANS NOTRE TÊTE !?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/TJb2qDUaxxA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 96797
+        }
+      },
+      "crop": {
+        "id": "2329788",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67e0769dcd.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8107703/screencap/6ac67e0895be3.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E53",
+      "episodeId": "8107704",
+      "title": "AVANT DE FINIR L’ANNÉE...",
+      "youtubeId": "OsqQATxhzVA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "AVANT DE FINIR L’ANNÉE...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/OsqQATxhzVA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 94252
+        }
+      },
+      "crop": {
+        "id": "2329789",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67e0d149c9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8107704/screencap/6ac67e0e358d4.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E26",
+      "episodeId": "8582900",
+      "title": "EST CE QUE C'EST DÉJÀ ARRIVÉ ?",
+      "youtubeId": "a_jKqpF9cwU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "EST CE QUE C'EST DÉJÀ ARRIVÉ ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/a_jKqpF9cwU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 104022
+        }
+      },
+      "crop": {
+        "id": "2329790",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67e12645db.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8582900/screencap/6ac67e138936e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E36",
+      "episodeId": "8762467",
+      "title": "IL FALLAIT BIEN QUE J’EN PARLE ! (La Redbox, tout ça)",
+      "youtubeId": "B1tvlvBCYM8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "IL FALLAIT BIEN QUE J’EN PARLE ! (La Redbox, tout ça)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/B1tvlvBCYM8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 206181
+        }
+      },
+      "crop": {
+        "id": "2329791",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67e17b5a49.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8762467/screencap/6ac67e18ef9b2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E48",
+      "episodeId": "11362391",
+      "title": "TU RÉUSSIS, ON TE PAYE LE PLEIN ! #VLOAT 10",
+      "youtubeId": "yLl3naaLuRA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "TU RÉUSSIS, ON TE PAYE LE PLEIN ! #VLOAT 10",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/yLl3naaLuRA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 102478
+        }
+      },
+      "crop": {
+        "id": "2329792",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67e1d62f64.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11362391/screencap/6ac67e1eb302a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E49",
+      "episodeId": "11847090",
+      "title": "FAUT QU'ON ARRÊTE AVEC ÇA... #VLOAT 11",
+      "youtubeId": "szgi6jcziQo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FAUT QU'ON ARRÊTE AVEC ÇA... #VLOAT 11",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/szgi6jcziQo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 127024
+        }
+      },
+      "crop": {
+        "id": "2329793",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67e23049ea.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11847090/screencap/6ac67e243777d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E51",
+      "episodeId": "11847091",
+      "title": "LE LOAT EST HANTÉ #VLOAT 12",
+      "youtubeId": "2Qg9GCD0pPk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE LOAT EST HANTÉ #VLOAT 12",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/2Qg9GCD0pPk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 131604
+        }
+      },
+      "crop": {
+        "id": "2329794",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67e2880d41.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11847091/screencap/6ac67e29c18bc.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E52",
+      "episodeId": "11847092",
+      "title": "PÊCHER UN THON À LA MAIN !",
+      "youtubeId": "3zveGm9Hul8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PÊCHER UN THON À LA MAIN !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/3zveGm9Hul8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 88077
+        }
+      },
+      "crop": {
+        "id": "2329795",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67e2e1e66a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11847092/screencap/6ac67e2f694ba.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E54",
+      "episodeId": "11847094",
+      "title": "NE VOUS ENDORMEZ JAMAIS DEVANT YOUTUBE…",
+      "youtubeId": "h8PwKII04mk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "NE VOUS ENDORMEZ JAMAIS DEVANT YOUTUBE…",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/h8PwKII04mk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 174949
+        }
+      },
+      "crop": {
+        "id": "2329796",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67e33d8449.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11847094/screencap/6ac67e35205ac.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E56",
+      "episodeId": "11847096",
+      "title": "J'AI ACHETÉ DES FAUX MUSCLES ULTRA RÉALISTES ! (Et un masque horrible)",
+      "youtubeId": "mVhTeHDNNbQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'AI ACHETÉ DES FAUX MUSCLES ULTRA RÉALISTES ! (Et un masque horrible)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/mVhTeHDNNbQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 95336
+        }
+      },
+      "crop": {
+        "id": "2329799",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67e396dfbb.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11847096/screencap/6ac67e3ab227c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E57",
+      "episodeId": "11847097",
+      "title": "ON A CRÉÉ LE BURGER ULTIME ! (KFC, Mcdo, Burger King)",
+      "youtubeId": "ETU87txKJ3Y",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON A CRÉÉ LE BURGER ULTIME ! (KFC, Mcdo, Burger King)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ETU87txKJ3Y/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 125519
+        }
+      },
+      "crop": {
+        "id": "2329800",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67e3f220d8.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11847097/screencap/6ac67e4051334.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
