@@ -2,6 +2,36 @@ import fs from 'node:fs/promises';
 
 const audit = JSON.parse(await fs.readFile('reports/audit.json', 'utf8'));
 
+let resolutionCheckpoint = null;
+try {
+  resolutionCheckpoint = JSON.parse(await fs.readFile('reports/fresh-planner-ticket-resolution-2026-10-07.json', 'utf8'));
+} catch {
+  // The planner remains usable before the checkpoint exists.
+}
+
+const resolvedYoutubeIds = new Map();
+const resolvedDuplicateTitles = new Map();
+for (const item of resolutionCheckpoint?.resolvedTickets || []) {
+  if (item.target && item.youtubeId) {
+    resolvedYoutubeIds.set(`${item.target}\u0000${item.youtubeId}`, item);
+  }
+  if (item.target && item.normalizedTitle) {
+    resolvedDuplicateTitles.set(
+      `${item.target}\u0000${String(item.normalizedTitle).normalize('NFC').trim().toLowerCase()}`,
+      item
+    );
+  }
+}
+
+function checkpointResolutionForYoutube(targetName, video) {
+  return resolvedYoutubeIds.get(`${targetName}\u0000${video?.id || ''}`) || null;
+}
+
+function checkpointResolutionForDuplicateTitle(targetName, duplicateTitle) {
+  const key = `${targetName}\u0000${String(duplicateTitle?.normalizedTitle || '').normalize('NFC').trim().toLowerCase()}`;
+  return resolvedDuplicateTitles.get(key) || null;
+}
+
 const USER_APPROVED_ADDITIONS = [
   {
     target: 'Djilsi',
@@ -19,7 +49,7 @@ function getUserApproval(targetName, video) {
 
 const plan = {
   generatedAt: new Date().toISOString(),
-  mode: 'PLAN_ONLY_NO_TVDB_WRITES',
+  mode: 'PLAN_ONLY_NO_TVDB_WRITES_RESOLUTION_AWARE',
   rules: {
     autoEligible: [
       'TVDB_DUPLICATE_CODE',
@@ -35,8 +65,15 @@ const plan = {
   summary: {
     autoEligible: 0,
     reviewRequired: 0,
-    informational: 0
-  }
+    informational: 0,
+    resolvedByCheckpoint: 0
+  },
+  resolutionCheckpoint: resolutionCheckpoint ? {
+    generatedAt: resolutionCheckpoint.generatedAt || null,
+    sourceRun: resolutionCheckpoint.sourceRun || null,
+    resolvedTickets: resolutionCheckpoint.resolvedTickets?.length || 0,
+    remainingTickets: resolutionCheckpoint.remainingTickets?.length || 0
+  } : null
 };
 
 for (const target of audit.targets || []) {
@@ -44,7 +81,8 @@ for (const target of audit.targets || []) {
     name: target.name,
     autoEligible: [],
     reviewRequired: [],
-    informational: []
+    informational: [],
+    resolvedByCheckpoint: []
   };
 
   for (const duplicate of target.tvdbDuplicateCodes || []) {
@@ -60,6 +98,24 @@ for (const target of audit.targets || []) {
   }
 
   for (const video of target.youtubeWithoutConfidentTvdbMatch || []) {
+    const resolved = checkpointResolutionForYoutube(target.name, video);
+    if (resolved) {
+      targetPlan.resolvedByCheckpoint.push({
+        type: 'RESOLVED_CHECKPOINT_SUPPRESSED',
+        sourceType: video.classification || 'YOUTUBE_WITHOUT_MATCH',
+        youtube: video,
+        resolution: {
+          decision: resolved.decision || null,
+          tvdb: resolved.tvdb || null,
+          tvdbEpisodeId: resolved.tvdbEpisodeId || null,
+          reason: resolved.reason || null,
+          applyResult: resolved.applyResult || null
+        },
+        note: 'Suppressed from reviewRequired because a persisted, explicit resolution checkpoint already closed this exact YouTube ID. This protects against public TheTVDB cache lag and matcher false positives.'
+      });
+      continue;
+    }
+
     const approval = getUserApproval(target.name, video);
     if (approval) {
       targetPlan.autoEligible.push({
@@ -94,6 +150,22 @@ for (const target of audit.targets || []) {
   }
 
   for (const duplicateTitle of target.tvdbDuplicateTitles || []) {
+    const resolved = checkpointResolutionForDuplicateTitle(target.name, duplicateTitle);
+    if (resolved) {
+      targetPlan.resolvedByCheckpoint.push({
+        type: 'RESOLVED_CHECKPOINT_SUPPRESSED',
+        sourceType: 'TVDB_DUPLICATE_TITLE',
+        normalizedTitle: duplicateTitle.normalizedTitle,
+        episodes: duplicateTitle.episodes,
+        resolution: {
+          decision: resolved.decision || null,
+          reason: resolved.reason || null
+        },
+        note: 'Suppressed from reviewRequired because this exact repeated-title group was already researched and explicitly resolved.'
+      });
+      continue;
+    }
+
     targetPlan.reviewRequired.push({
       type: 'TVDB_DUPLICATE_TITLE',
       confidence: 'LOW_TO_MEDIUM',
@@ -107,6 +179,7 @@ for (const target of audit.targets || []) {
   plan.summary.autoEligible += targetPlan.autoEligible.length;
   plan.summary.reviewRequired += targetPlan.reviewRequired.length;
   plan.summary.informational += targetPlan.informational.length;
+  plan.summary.resolvedByCheckpoint += targetPlan.resolvedByCheckpoint.length;
   plan.targets.push(targetPlan);
 }
 
@@ -117,6 +190,7 @@ const lines = [
   `Auto-éligibles (forte confiance ou validation utilisateur): ${plan.summary.autoEligible}`,
   `À vérifier: ${plan.summary.reviewRequired}`,
   `Informatifs / ne pas modifier automatiquement: ${plan.summary.informational}`,
+  `Déjà résolus par checkpoint et supprimés du backlog: ${plan.summary.resolvedByCheckpoint}`,
   ''
 ];
 
@@ -136,6 +210,11 @@ for (const target of plan.targets) {
     else lines.push(`- ${item.type}: ${item.normalizedTitle || ''}`);
   }
   lines.push(`Informatifs: ${target.informational.length}`);
+  lines.push(`Déjà résolus par checkpoint: ${target.resolvedByCheckpoint.length}`);
+  for (const item of target.resolvedByCheckpoint.slice(0, 20)) {
+    if (item.youtube) lines.push(`- RESOLVED: ${item.youtube.title} — ${item.resolution?.decision || ''}`);
+    else lines.push(`- RESOLVED: ${item.normalizedTitle || ''} — ${item.resolution?.decision || ''}`);
+  }
   lines.push('');
 }
 
