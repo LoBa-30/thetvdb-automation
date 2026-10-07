@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T14:35:10.179879+00:00",
+  "generatedAt": "2026-10-07T14:36:17.548148+00:00",
   "mode": "READ_ONLY_JOYCA_ARTWORK_PREFLIGHT_POST20",
   "sourceRows": 381,
   "checked": [
@@ -24,10 +24,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342669",
       "imageUrl": "https://i.ytimg.com/vi/qyfTF1UHX3M/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342669/screencap/6ac6540374076.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E03",
@@ -38,10 +35,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342670",
       "imageUrl": "https://i.ytimg.com/vi/NIKPZS3ji8M/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342670/screencap/6ac654093f46a.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E04",
@@ -64,10 +58,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342683",
       "imageUrl": "https://i.ytimg.com/vi/BexGaGbXB4Q/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342683/screencap/6ac6540e960d7.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E06",
@@ -78,10 +69,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342687",
       "imageUrl": "https://i.ytimg.com/vi/Ck7cT5t0I68/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342687/screencap/6ac65413e3372.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E07",
@@ -92,10 +80,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342694",
       "imageUrl": "https://i.ytimg.com/vi/cfTjxh5J6qU/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342694/screencap/6ac65419574ee.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E08",
@@ -106,10 +91,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342702",
       "imageUrl": "https://i.ytimg.com/vi/Iox5y3Ry0Gg/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342702/screencap/6ac6541ed3f6c.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E09",
@@ -132,10 +114,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342711",
       "imageUrl": "https://i.ytimg.com/vi/bNxPJav5NfY/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342711/screencap/6ac65423ef67a.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E11",
@@ -146,10 +125,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342716",
       "imageUrl": "https://i.ytimg.com/vi/iyRbE0ZLxMA/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342716/screencap/6ac65429395b2.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E12",
@@ -160,10 +136,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342719",
       "imageUrl": "https://i.ytimg.com/vi/In5MNx1sicc/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342719/screencap/6ac6542e7d2be.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E13",
@@ -174,10 +147,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342723",
       "imageUrl": "https://i.ytimg.com/vi/Vi8U9TQ_Ab4/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342723/screencap/6ac65433a335b.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E14",
@@ -188,10 +158,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342724",
       "imageUrl": "https://i.ytimg.com/vi/mCy_QUWfadI/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342724/screencap/6ac6543926ca2.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E15",
@@ -202,10 +169,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342725",
       "imageUrl": "https://i.ytimg.com/vi/t3CYIm1JjLw/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342725/screencap/6ac6543e91762.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E16",
@@ -216,10 +180,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342727",
       "imageUrl": "https://i.ytimg.com/vi/1MlwYaH5OYg/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342727/screencap/6ac65443de15c.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E17",
@@ -230,10 +191,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342726",
       "imageUrl": "https://i.ytimg.com/vi/-UKCyiM6EAg/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342726/screencap/6ac654499d9f1.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E18",
@@ -244,10 +202,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342728",
       "imageUrl": "https://i.ytimg.com/vi/XU8Ea7luoV8/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342728/screencap/6ac6544f047e4.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E19",
@@ -282,10 +237,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342736",
       "imageUrl": "https://i.ytimg.com/vi/aJcv8Pe_9rg/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342736/screencap/6ac6545453b75.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E22",
@@ -296,10 +248,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342741",
       "imageUrl": "https://i.ytimg.com/vi/zH3rXQM_1Pg/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342741/screencap/6ac65459b09a4.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E23",
@@ -310,10 +259,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342740",
       "imageUrl": "https://i.ytimg.com/vi/xrrX4qBIQ1o/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342740/screencap/6ac6545f0f159.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E24",
@@ -324,10 +270,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342743",
       "imageUrl": "https://i.ytimg.com/vi/MEz9XuHBPV4/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342743/screencap/6ac65464a6e21.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E25",
@@ -338,10 +281,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342746",
       "imageUrl": "https://i.ytimg.com/vi/HouKo4qk1tA/maxresdefault.jpg",
       "series": "335805",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6342746/screencap/6ac6546a0ba2c.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E26",
@@ -979,7 +919,7 @@
     }
   ],
   "counters": {
-    "artworkPresent": 20,
+    "artworkPresent": 0,
     "titleDrift": 16,
     "imageUnavailable": 0,
     "imageWrongSize": 0,
@@ -987,5 +927,6 @@
     "passed": 20
   },
   "blocked": [],
-  "result": "PREFLIGHT_READY"
+  "result": "PREFLIGHT_READY",
+  "historicalDone": 20
 }
