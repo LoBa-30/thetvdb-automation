@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T15:29:30.478Z",
+  "mode": "GUARDED_SQUEEZIE_ARTWORK_BATCH_7",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2014E93",
+    "S2014E96",
+    "S2014E103",
+    "S2014E104",
+    "S2014E105",
+    "S2014E106",
+    "S2014E112",
+    "S2014E114",
+    "S2014E119",
+    "S2014E120",
+    "S2014E124",
+    "S2014E127",
+    "S2014E128",
+    "S2014E131",
+    "S2014E132",
+    "S2014E134",
+    "S2014E137",
+    "S2014E139",
+    "S2014E142",
+    "S2014E143"
+  ],
+  "results": [
+    {
+      "code": "S2014E93",
+      "episodeId": "5314473",
+      "title": "DAT-EPIC-WIN ! - Shi No Mori",
+      "youtubeId": "U0oJ10DW8es",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DAT-EPIC-WIN ! - Shi No Mori",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/U0oJ10DW8es/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 68622
+        }
+      },
+      "crop": {
+        "id": "2329421",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6655eb64ac.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314473/screencap/6ac6656005a60.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E96",
+      "episodeId": "5314476",
+      "title": "DEVINEZ QUI EST DE RETOUR ?!",
+      "youtubeId": "GEXClo80Au0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DEVINEZ QUI EST DE RETOUR ?!",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/GEXClo80Au0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 31044
+        }
+      },
+      "crop": {
+        "id": "2329423",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac665655183b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314476/screencap/6ac66566a166d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E103",
+      "episodeId": "5314483",
+      "title": "NE LE REGARDEZ PAS DANS LES YEUX ! - The Unknown",
+      "youtubeId": "Jvq8X0ETOrw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "NE LE REGARDEZ PAS DANS LES YEUX ! - The Unknown",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Jvq8X0ETOrw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 120530
+        }
+      },
+      "crop": {
+        "id": "2329424",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6656a92104.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314483/screencap/6ac6656bc89ae.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E104",
+      "episodeId": "5314484",
+      "title": "WASSUP GOAT ?!",
+      "youtubeId": "SxBU92WrFZI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "WASSUP GOAT ?!",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/SxBU92WrFZI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 122569
+        }
+      },
+      "crop": {
+        "id": "2329425",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6656fe3bdb.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314484/screencap/6ac665711fadc.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E105",
+      "episodeId": "5314485",
+      "title": "BIENVENUE SUR MA MAISON FLOTTANTE ! - The Forest 5",
+      "youtubeId": "TzXYPritK0E",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "BIENVENUE SUR MA MAISON FLOTTANTE ! - The Forest 5",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/TzXYPritK0E/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 154503
+        }
+      },
+      "crop": {
+        "id": "2329426",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac665758aadd.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314485/screencap/6ac66576b72c4.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E106",
+      "episodeId": "5314486",
+      "title": "QUELLE HORREUR SE CACHE DANS CE SEAU ? - The Cursed Forest",
+      "youtubeId": "SQV_Ez0LOKs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "QUELLE HORREUR SE CACHE DANS CE SEAU ? - The Cursed Forest",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/SQV_Ez0LOKs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 128958
+        }
+      },
+      "crop": {
+        "id": "2329427",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6657b1b3c3.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314486/screencap/6ac6657c523ee.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E112",
+      "episodeId": "5314492",
+      "title": "BIENVENUE DANS LA MATRICE ! - The Forest (6)",
+      "youtubeId": "qS9wpddroLs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "BIENVENUE DANS LA MATRICE ! - The Forest (6)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/qS9wpddroLs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 125054
+        }
+      },
+      "crop": {
+        "id": "2329428",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac665802f2db.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314492/screencap/6ac665815ddbf.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E114",
+      "episodeId": "5314494",
+      "title": "ENTREZ DANS MA GROTTE... (Setup)",
+      "youtubeId": "QmeDqbWqAeI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ENTREZ DANS MA GROTTE... (Setup)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/QmeDqbWqAeI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 69938
+        }
+      },
+      "crop": {
+        "id": "2329429",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6658555aaf.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314494/screencap/6ac6658699b55.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E119",
+      "episodeId": "5314499",
+      "title": "THE ZOO RACE !",
+      "youtubeId": "UC3p1WD5PCg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "THE ZOO RACE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/UC3p1WD5PCg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 140119
+        }
+      },
+      "crop": {
+        "id": "2329430",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6658aa3930.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314499/screencap/6ac6658bc3143.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E120",
+      "episodeId": "5314500",
+      "title": "LE MEILLEUR MONTAGE PHOTOSHOP !",
+      "youtubeId": "YE1mfWlmWxg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE MEILLEUR MONTAGE PHOTOSHOP !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/YE1mfWlmWxg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 107516
+        }
+      },
+      "crop": {
+        "id": "2329431",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6658fc70c1.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314500/screencap/6ac665910f331.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E124",
+      "episodeId": "5314504",
+      "title": "LE ICE BAGUETTE CHALLENGE ?! - Question Time 11",
+      "youtubeId": "Ne87QAqUGW4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE ICE BAGUETTE CHALLENGE ?! - Question Time 11",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Ne87QAqUGW4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 60170
+        }
+      },
+      "crop": {
+        "id": "2329432",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66594f094c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314504/screencap/6ac665962585e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E127",
+      "episodeId": "5314507",
+      "title": "ILS SONT VOTRE PIRE CAUCHEMAR ! - Dark Deception",
+      "youtubeId": "__mMp0CXRFw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ILS SONT VOTRE PIRE CAUCHEMAR ! - Dark Deception",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/__mMp0CXRFw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 114263
+        }
+      },
+      "crop": {
+        "id": "2329433",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6659a3daad.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314507/screencap/6ac6659b8420b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E128",
+      "episodeId": "5314508",
+      "title": "LORD BURGOR ! (FaceRig)",
+      "youtubeId": "L214dlYBEas",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LORD BURGOR ! (FaceRig)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/L214dlYBEas/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 134993
+        }
+      },
+      "crop": {
+        "id": "2329434",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6659fe1cbe.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314508/screencap/6ac665a1b0467.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E131",
+      "episodeId": "5314522",
+      "title": "TRANSFORMONS-NOUS EN HOMME VIRIL ! - Chivalry: Deadliest Warrior",
+      "youtubeId": "KbKNHlKjlJw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "TRANSFORMONS-NOUS EN HOMME VIRIL ! - Chivalry: Deadliest Warrior",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/KbKNHlKjlJw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 80510
+        }
+      },
+      "crop": {
+        "id": "2329435",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac665a5ca942.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314522/screencap/6ac665a70e29d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E132",
+      "episodeId": "5314523",
+      "title": "MANGER DES VOITURES GRATUITEMENT ! - Road Redemption",
+      "youtubeId": "rhIeMylewRs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MANGER DES VOITURES GRATUITEMENT ! - Road Redemption",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/rhIeMylewRs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 166660
+        }
+      },
+      "crop": {
+        "id": "2329436",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac665ab5c9c4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314523/screencap/6ac665ac8e35d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E134",
+      "episodeId": "5314525",
+      "title": "NE PAS TOUCHER MON RATON LAVEUR ! - The Forest (7)",
+      "youtubeId": "Y9a3auVgK-Y",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "NE PAS TOUCHER MON RATON LAVEUR ! - The Forest (7)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Y9a3auVgK-Y/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 166469
+        }
+      },
+      "crop": {
+        "id": "2329437",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac665b0ad103.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314525/screencap/6ac665b1d4340.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E137",
+      "episodeId": "5314529",
+      "title": "PLUS RARE QUE LE DIAMANT, LES... (The Midnight Game)",
+      "youtubeId": "eB0yTQ_DMx8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PLUS RARE QUE LE DIAMANT, LES... (The Midnight Game)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/eB0yTQ_DMx8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 85510
+        }
+      },
+      "crop": {
+        "id": "2329438",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac665b618258.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314529/screencap/6ac665b747172.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E139",
+      "episodeId": "5314531",
+      "title": "DOUBLE RAT BURGER ! - Citizen Burger Disorder",
+      "youtubeId": "Vu9IO8Y_LmE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DOUBLE RAT BURGER ! - Citizen Burger Disorder",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Vu9IO8Y_LmE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 124822
+        }
+      },
+      "crop": {
+        "id": "2329439",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac665bb946f9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314531/screencap/6ac665bcdbb25.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E142",
+      "episodeId": "5314534",
+      "title": "BOTTER DES C*LS AVEC STYLE ! - Double Action: Boogaloo",
+      "youtubeId": "hMwottj-Grg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "BOTTER DES C*LS AVEC STYLE ! - Double Action: Boogaloo",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/hMwottj-Grg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 109452
+        }
+      },
+      "crop": {
+        "id": "2329440",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac665c0f30d5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314534/screencap/6ac665c22d81a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E143",
+      "episodeId": "5314536",
+      "title": "ON EMBARQUE POUR ALIEN ISOLATION !",
+      "youtubeId": "xiEGN8ieVDM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON EMBARQUE POUR ALIEN ISOLATION !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/xiEGN8ieVDM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 112577
+        }
+      },
+      "crop": {
+        "id": "2329441",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac665c688d16.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314536/screencap/6ac665c7aa561.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
