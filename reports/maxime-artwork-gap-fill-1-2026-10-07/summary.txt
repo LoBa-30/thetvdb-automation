@@ -1,0 +1,10 @@
+authenticated=true
+reauthCount=1
+requested=12
+processed=10
+applied=9
+skipped=0
+safeBlocked=0
+failedAfterWrite=1
+stopped=true
+result=BATCH_STOPPED_ON_GUARD

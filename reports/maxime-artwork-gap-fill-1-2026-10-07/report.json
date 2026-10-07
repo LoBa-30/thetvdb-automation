@@ -1,0 +1,459 @@
+{
+  "generatedAt": "2026-10-07T16:48:22.326Z",
+  "mode": "GUARDED_MAXIME_ARTWORK_GAP_FILL_1",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2025E09",
+    "S2025E10",
+    "S2025E11",
+    "S2025E12",
+    "S2025E13",
+    "S2025E14",
+    "S2025E15",
+    "S2025E16",
+    "S2025E17",
+    "S2025E18",
+    "S2025E19",
+    "S2025E20"
+  ],
+  "results": [
+    {
+      "code": "S2025E09",
+      "episodeId": "11696645",
+      "title": "On a INFILTRÉ la cuisine d’un hôtel de luxe",
+      "youtubeId": "fX1pfcbpTks",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "On a INFILTRÉ la cuisine d’un hôtel de luxe",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/fX1pfcbpTks/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 131581
+        }
+      },
+      "crop": {
+        "id": "2329741",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac677da97126.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696645/screencap/6ac677dbbfbc5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E10",
+      "episodeId": "11696646",
+      "title": "La face cachée de vos Youtubeurs…",
+      "youtubeId": "spDicfn4k-E",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "La face cachée de vos Youtubeurs…",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/spDicfn4k-E/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 177854
+        }
+      },
+      "crop": {
+        "id": "2329742",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac677dfeac11.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696646/screencap/6ac677e116577.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E11",
+      "episodeId": "11696647",
+      "title": "On a organisé la meilleure soirée de Cannes (Biaggi Party)",
+      "youtubeId": "JoXfZw7Dm4Q",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "On a organisé la meilleure soirée de Cannes (Biaggi Party)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/JoXfZw7Dm4Q/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 177116
+        }
+      },
+      "crop": {
+        "id": "2329743",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac677e499af7.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696647/screencap/6ac677e5b496d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E12",
+      "episodeId": "11696648",
+      "title": "On présente notre PREMIER FILM",
+      "youtubeId": "9kKbos2_fdQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "On présente notre PREMIER FILM",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/9kKbos2_fdQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 156505
+        }
+      },
+      "crop": {
+        "id": "2329744",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac677e93173f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696648/screencap/6ac677ea37b80.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E13",
+      "episodeId": "11696649",
+      "title": "Ces youtubeurs vont m’en vouloir… (Parodie YouTube / Twitch)",
+      "youtubeId": "Gjz3RRKOaGA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Ces youtubeurs vont m’en vouloir… (Parodie YouTube / Twitch)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Gjz3RRKOaGA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 170684
+        }
+      },
+      "crop": {
+        "id": "2329745",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac677ed8a7c5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696649/screencap/6ac677ee9dc49.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E14",
+      "episodeId": "11696650",
+      "title": "Est ce qu'on est d'accord avec ANTOINE ? Ft @Djilsi",
+      "youtubeId": "usuY9elT-a8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Est ce qu'on est d'accord avec ANTOINE ? Ft @Djilsi",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/usuY9elT-a8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 337260
+        }
+      },
+      "crop": {
+        "id": "2329746",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac677f24229a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696650/screencap/6ac677f3469b5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E15",
+      "episodeId": "11696651",
+      "title": "Les américains veulent ma peau au GP Explorer....",
+      "youtubeId": "FKFWom482ow",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Les américains veulent ma peau au GP Explorer....",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/FKFWom482ow/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 138975
+        }
+      },
+      "crop": {
+        "id": "2329747",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac677f6a981b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696651/screencap/6ac677f7c0463.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E16",
+      "episodeId": "11696652",
+      "title": "Qui aura la scène piégée ? (ft. Mister V, Théodort)",
+      "youtubeId": "8DFp8UyELEY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Qui aura la scène piégée ? (ft. Mister V, Théodort)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/8DFp8UyELEY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 156294
+        }
+      },
+      "crop": {
+        "id": "2329748",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac677fbbff6c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696652/screencap/6ac677fcd7b7a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E17",
+      "episodeId": "11696653",
+      "title": "A FOND OU AU FOND (Le dernier vlog GP Explorer)",
+      "youtubeId": "AJT5YeOUupM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "A FOND OU AU FOND (Le dernier vlog GP Explorer)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/AJT5YeOUupM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 302554
+        }
+      },
+      "crop": {
+        "id": "2329749",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6780091ffe.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696653/screencap/6ac67801b6175.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E18",
+      "episodeId": "11696654",
+      "title": "LE JEU DE LA NOTE (ft Billy, Grim, Elian, Djilsi)",
+      "youtubeId": "B-rznspUMDw",
+      "status": "STAGE1_ONLY_STOP_DO_NOT_RETRY",
+      "preflight": {
+        "heading": "LE JEU DE LA NOTE (ft Billy, Grim, Elian, Djilsi)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/B-rznspUMDw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 264947
+        }
+      },
+      "crop": {
+        "id": "2329750",
+        "x": "",
+        "y": "",
+        "width": "",
+        "height": "",
+        "scaleX": "",
+        "scaleY": "",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6780519205.jpeg"
+      },
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "CROP_SCOPE_INVALID {\"id\":\"2329750\",\"x\":\"\",\"y\":\"\",\"width\":\"\",\"height\":\"\",\"scaleX\":\"\",\"scaleY\":\"\"}"
+        }
+      ],
+      "stage1": {
+        "status": 200
+      }
+    }
+  ],
+  "reauthCount": 1,
+  "stopped": true,
+  "stopReason": "S2025E18: CROP_SCOPE_INVALID {\"id\":\"2329750\",\"x\":\"\",\"y\":\"\",\"width\":\"\",\"height\":\"\",\"scaleX\":\"\",\"scaleY\":\"\"}",
+  "result": "BATCH_STOPPED_ON_GUARD",
+  "summary": {
+    "requested": 12,
+    "processed": 10,
+    "applied": 9,
+    "skipped": 0,
+    "safeBlocked": 0,
+    "failedAfterWrite": 1
+  }
+}
