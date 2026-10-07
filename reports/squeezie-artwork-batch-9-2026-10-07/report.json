@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T16:09:36.026Z",
+  "mode": "GUARDED_SQUEEZIE_ARTWORK_BATCH_9",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2014E190",
+    "S2014E192",
+    "S2014E193",
+    "S2014E195",
+    "S2014E196",
+    "S2014E197",
+    "S2014E198",
+    "S2014E199",
+    "S2014E200",
+    "S2014E207",
+    "S2015E01",
+    "S2015E02",
+    "S2015E03",
+    "S2015E04",
+    "S2015E05",
+    "S2015E07",
+    "S2015E08",
+    "S2015E09",
+    "S2015E11",
+    "S2015E12"
+  ],
+  "results": [
+    {
+      "code": "S2014E190",
+      "episodeId": "5314600",
+      "title": "LA TARTINE QUI TE TEND ! (I am Bread)",
+      "youtubeId": "grx5qsPrbkk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA TARTINE QUI TE TEND ! (I am Bread)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/grx5qsPrbkk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 142025
+        }
+      },
+      "crop": {
+        "id": "2329557",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66ec3796c0.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314600/screencap/6ac66ec4a1427.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E192",
+      "episodeId": "5314602",
+      "title": "MEILLEUR POLICIER DU MOND...RAGERAGE (Deputy Dangle)",
+      "youtubeId": "YarMkkRc39Q",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MEILLEUR POLICIER DU MOND...RAGERAGE (Deputy Dangle)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/YarMkkRc39Q/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 144923
+        }
+      },
+      "crop": {
+        "id": "2329558",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66ec83a403.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314602/screencap/6ac66ec9ea092.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E193",
+      "episodeId": "5314603",
+      "title": "STARWHAL !",
+      "youtubeId": "lWIDDOZzpCQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "STARWHAL !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/lWIDDOZzpCQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 136163
+        }
+      },
+      "crop": {
+        "id": "2329559",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66ecd71924.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314603/screencap/6ac66ece95eab.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E195",
+      "episodeId": "5314605",
+      "title": "SAVEZ-VOUS DANSER ? MOI NON",
+      "youtubeId": "Ku4__zuIzsg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SAVEZ-VOUS DANSER ? MOI NON",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Ku4__zuIzsg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 101787
+        }
+      },
+      "crop": {
+        "id": "2329560",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66ed225a5e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314605/screencap/6ac66ed34fcd9.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E196",
+      "episodeId": "5314606",
+      "title": "SHREK MADNESS !",
+      "youtubeId": "JdC_cQZjbfc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SHREK MADNESS !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/JdC_cQZjbfc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 119038
+        }
+      },
+      "crop": {
+        "id": "2329561",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66ed6b2f76.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314606/screencap/6ac66ed7c5bce.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E197",
+      "episodeId": "5314607",
+      "title": "NON, JE NE RAGERAI PAS. (Wizard Wizard)",
+      "youtubeId": "CayXNc03dM0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "NON, JE NE RAGERAI PAS. (Wizard Wizard)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/CayXNc03dM0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 136117
+        }
+      },
+      "crop": {
+        "id": "2329562",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66edb4b91b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314607/screencap/6ac66edc59b70.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E198",
+      "episodeId": "5314608",
+      "title": "COMMENT SE FAIRE DES AMIS ? (Road Redemption #3)",
+      "youtubeId": "lC0cb7XwNTY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COMMENT SE FAIRE DES AMIS ? (Road Redemption #3)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/lC0cb7XwNTY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 113874
+        }
+      },
+      "crop": {
+        "id": "2329563",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66ee0199eb.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314608/screencap/6ac66ee145788.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E199",
+      "episodeId": "5314610",
+      "title": "JE SUIS DEVENU UN MONSTRE !",
+      "youtubeId": "drLlXOZbXuE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE SUIS DEVENU UN MONSTRE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/drLlXOZbXuE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 70616
+        }
+      },
+      "crop": {
+        "id": "2329564",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66ee4c59e9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314610/screencap/6ac66ee5dc39f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E200",
+      "episodeId": "5314611",
+      "title": "QUAND MINECRAFT RENCONTRE COUNTER-STRIKE !",
+      "youtubeId": "pXD9QWO4SGs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "QUAND MINECRAFT RENCONTRE COUNTER-STRIKE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/pXD9QWO4SGs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 215051
+        }
+      },
+      "crop": {
+        "id": "2329565",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66ee9cc388.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314611/screencap/6ac66eeaf365b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E207",
+      "episodeId": "5314618",
+      "title": "NAZIS, CRAIGNEZ-NOUS ! (Super Wolfenstein HD)",
+      "youtubeId": "Wd0ODGKEPhU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "NAZIS, CRAIGNEZ-NOUS ! (Super Wolfenstein HD)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Wd0ODGKEPhU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 74252
+        }
+      },
+      "crop": {
+        "id": "2329566",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66eee682d5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314618/screencap/6ac66eef7a436.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E01",
+      "episodeId": "5314621",
+      "title": "JUMBO VS POLICE (Turbo Dismount)",
+      "youtubeId": "t2Dzww9_vxI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JUMBO VS POLICE (Turbo Dismount)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/t2Dzww9_vxI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 102930
+        }
+      },
+      "crop": {
+        "id": "2329567",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66ef2ee2ed.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314621/screencap/6ac66ef416a9c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E02",
+      "episodeId": "5314622",
+      "title": "CE JEU PEUT VOIR VOTRE AVENIR... (Compilation de jeux)",
+      "youtubeId": "pQ9ExxEtPyo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CE JEU PEUT VOIR VOTRE AVENIR... (Compilation de jeux)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/pQ9ExxEtPyo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 95471
+        }
+      },
+      "crop": {
+        "id": "2329568",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66ef76fca9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314622/screencap/6ac66ef89a812.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E03",
+      "episodeId": "5314627",
+      "title": "TRICHER POUR GAGNER ! (ScreenCheat)",
+      "youtubeId": "cfAT9kf-Y-o",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "TRICHER POUR GAGNER ! (ScreenCheat)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/cfAT9kf-Y-o/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 85183
+        }
+      },
+      "crop": {
+        "id": "2329569",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66efbe2414.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314627/screencap/6ac66efd02959.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E04",
+      "episodeId": "5314628",
+      "title": "BUGBUGBUGBUGBUG (Haunted Memories)",
+      "youtubeId": "h2wYOdDgDeE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "BUGBUGBUGBUGBUG (Haunted Memories)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/h2wYOdDgDeE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 121811
+        }
+      },
+      "crop": {
+        "id": "2329570",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66f0068e1b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314628/screencap/6ac66f01991e9.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E05",
+      "episodeId": "5314629",
+      "title": "90 SECONDES POUR DESSINER (MAL) !",
+      "youtubeId": "eEijHOLEODw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "90 SECONDES POUR DESSINER (MAL) !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/eEijHOLEODw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 115932
+        }
+      },
+      "crop": {
+        "id": "2329571",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66f0534ac2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314629/screencap/6ac66f065c227.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E07",
+      "episodeId": "5314631",
+      "title": "BLAGUE TERRIFIANTE POUR YOUTUBER..! (Compilation de jeux tablettes)",
+      "youtubeId": "HISKjj1egIc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "BLAGUE TERRIFIANTE POUR YOUTUBER..! (Compilation de jeux tablettes)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/HISKjj1egIc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 151658
+        }
+      },
+      "crop": {
+        "id": "2329572",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66f09ac043.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314631/screencap/6ac66f0ac4428.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E08",
+      "episodeId": "5314632",
+      "title": "THIEF TOWN !",
+      "youtubeId": "7A0zMiiRMyk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "THIEF TOWN !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/7A0zMiiRMyk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 142075
+        }
+      },
+      "crop": {
+        "id": "2329573",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66f0e36ad1.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314632/screencap/6ac66f0f4dffd.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E09",
+      "episodeId": "5314633",
+      "title": "LE JEU QUI TESTE TA PATIENCE !",
+      "youtubeId": "tD_qHYRbtfU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE JEU QUI TESTE TA PATIENCE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/tD_qHYRbtfU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 131147
+        }
+      },
+      "crop": {
+        "id": "2329574",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66f12c7054.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314633/screencap/6ac66f13ef54a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E11",
+      "episodeId": "5314635",
+      "title": "SQUEEZIE RENDU FOU PAR UN JEU. (Wooden Floor)",
+      "youtubeId": "DBbjLrqMgMo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SQUEEZIE RENDU FOU PAR UN JEU. (Wooden Floor)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/DBbjLrqMgMo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 85261
+        }
+      },
+      "crop": {
+        "id": "2329575",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66f176ab6f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314635/screencap/6ac66f188d51f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E12",
+      "episodeId": "5314636",
+      "title": "QUEL EST LE F#CK ?! (Compilation de jeux)",
+      "youtubeId": "SGvuRsCogVM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "QUEL EST LE F#CK ?! (Compilation de jeux)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/SGvuRsCogVM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 63326
+        }
+      },
+      "crop": {
+        "id": "2329576",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66f1bce14c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314636/screencap/6ac66f1ce3db5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
