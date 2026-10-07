@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T15:20:21.998Z",
+  "mode": "GUARDED_AMIXEM_ARTWORK_BATCH_3",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2016E16",
+    "S2016E18",
+    "S2016E22",
+    "S2016E23",
+    "S2016E24",
+    "S2016E25",
+    "S2016E26",
+    "S2016E30",
+    "S2016E31",
+    "S2016E32",
+    "S2016E33",
+    "S2016E36",
+    "S2016E43",
+    "S2016E47",
+    "S2016E50",
+    "S2016E51",
+    "S2016E52",
+    "S2016E53",
+    "S2016E56",
+    "S2016E57"
+  ],
+  "results": [
+    {
+      "code": "S2016E16",
+      "episodeId": "6088757",
+      "title": "COMMENT INFILTRER UN BATEAU ? Hitman",
+      "youtubeId": "Uk-WJgtqfyE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COMMENT INFILTRER UN BATEAU ? Hitman",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Uk-WJgtqfyE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 110541
+        }
+      },
+      "crop": {
+        "id": "2329351",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6633acd35e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088757/screencap/6ac6633c51f4f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E18",
+      "episodeId": "6088759",
+      "title": "TOUT DOUX MINOU ! Far Cry Primal",
+      "youtubeId": "3gysB3x5wKY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "TOUT DOUX MINOU ! Far Cry Primal",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/3gysB3x5wKY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 128317
+        }
+      },
+      "crop": {
+        "id": "2329352",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac663412ab9b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088759/screencap/6ac66342ad970.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E22",
+      "episodeId": "6088763",
+      "title": "COMMENT TUER AVEC UN LUSTRE ?",
+      "youtubeId": "ldUG7fLcupo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COMMENT TUER AVEC UN LUSTRE ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ldUG7fLcupo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 130039
+        }
+      },
+      "crop": {
+        "id": "2329353",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac663473c35b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088763/screencap/6ac6634859a28.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E23",
+      "episodeId": "6088764",
+      "title": "LES PIRES ANNONCES SUR LEBONCOIN ! #3",
+      "youtubeId": "vVSuMdKzmgQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES ANNONCES SUR LEBONCOIN ! #3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/vVSuMdKzmgQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 97910
+        }
+      },
+      "crop": {
+        "id": "2329354",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6634caaff0.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088764/screencap/6ac6634dec757.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E24",
+      "episodeId": "6088765",
+      "title": "YOUTUBE SIMULATOR",
+      "youtubeId": "EV0wtvGGUcg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "YOUTUBE SIMULATOR",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/EV0wtvGGUcg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 43177
+        }
+      },
+      "crop": {
+        "id": "2329355",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6635259c04.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088765/screencap/6ac663537803b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E25",
+      "episodeId": "6088766",
+      "title": "CETTE CHOSE EST ULTRA VIOLENTE.",
+      "youtubeId": "5-ljOT36JX4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CETTE CHOSE EST ULTRA VIOLENTE.",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/5-ljOT36JX4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 45278
+        }
+      },
+      "crop": {
+        "id": "2329356",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6635797dfe.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088766/screencap/6ac66358c425c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E26",
+      "episodeId": "6088767",
+      "title": "UN PLATEAU DE TOURNAGE POUR MOI TOUT SEUL",
+      "youtubeId": "5yvsv-tmCtY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UN PLATEAU DE TOURNAGE POUR MOI TOUT SEUL",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/5yvsv-tmCtY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 102303
+        }
+      },
+      "crop": {
+        "id": "2329357",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6635d3620e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6088767/screencap/6ac6635e5de4f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E30",
+      "episodeId": "6093849",
+      "title": "ME CONNAISSEZ VOUS BIEN ? - Miitomo",
+      "youtubeId": "GHGybQzfNvI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ME CONNAISSEZ VOUS BIEN ? - Miitomo",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/GHGybQzfNvI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 68631
+        }
+      },
+      "crop": {
+        "id": "2329358",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66362b0dc1.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6093849/screencap/6ac66363db11f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E31",
+      "episodeId": "6093851",
+      "title": "CRASHER SON DRONE EN ISLANDE",
+      "youtubeId": "9XIg4cxdtgQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CRASHER SON DRONE EN ISLANDE",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/9XIg4cxdtgQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 106911
+        }
+      },
+      "crop": {
+        "id": "2329360",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6636834f10.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6093851/screencap/6ac6636957cc1.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E32",
+      "episodeId": "6093852",
+      "title": "CET HOMME SE PREND POUR UN CERF.",
+      "youtubeId": "SzOufQbjP9I",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CET HOMME SE PREND POUR UN CERF.",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/SzOufQbjP9I/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 120827
+        }
+      },
+      "crop": {
+        "id": "2329361",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6636da31cd.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6093852/screencap/6ac6636ec4db3.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E33",
+      "episodeId": "6093853",
+      "title": "COMMENT PILOTER UN PORTE AVION ?",
+      "youtubeId": "Qr6Cqljb7pU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COMMENT PILOTER UN PORTE AVION ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Qr6Cqljb7pU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 184866
+        }
+      },
+      "crop": {
+        "id": "2329362",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac663731b12c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6093853/screencap/6ac663745d90c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E36",
+      "episodeId": "6093856",
+      "title": "MES PIRES DESSINS DE MATERNELLE !",
+      "youtubeId": "DxIcoePTU_w",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MES PIRES DESSINS DE MATERNELLE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/DxIcoePTU_w/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 142129
+        }
+      },
+      "crop": {
+        "id": "2329363",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66378d3549.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6093856/screencap/6ac6637a14c26.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E43",
+      "episodeId": "6095580",
+      "title": "CE JEU EST SCANDALEUX.",
+      "youtubeId": "COQMOyVq_P0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CE JEU EST SCANDALEUX.",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/COQMOyVq_P0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 86610
+        }
+      },
+      "crop": {
+        "id": "2329364",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6637ea3080.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6095580/screencap/6ac6637fd99d4.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E47",
+      "episodeId": "6095584",
+      "title": "AMIXEM DIE PIE - REMIX",
+      "youtubeId": "FavD5n9cIng",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "AMIXEM DIE PIE - REMIX",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/FavD5n9cIng/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 122267
+        }
+      },
+      "crop": {
+        "id": "2329365",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6638442ead.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6095584/screencap/6ac6638574083.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E50",
+      "episodeId": "6095587",
+      "title": "COMMENT PILOTER UN DRONE ?",
+      "youtubeId": "tHEpv1-vx-M",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COMMENT PILOTER UN DRONE ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/tHEpv1-vx-M/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 69831
+        }
+      },
+      "crop": {
+        "id": "2329366",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66389f29ed.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6095587/screencap/6ac6638b35e36.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E51",
+      "episodeId": "6095588",
+      "title": "ELLE TUE UN ORC AVEC SES SEINS",
+      "youtubeId": "p2Mt1rom6i0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ELLE TUE UN ORC AVEC SES SEINS",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/p2Mt1rom6i0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 109550
+        }
+      },
+      "crop": {
+        "id": "2329368",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6638f7ea9c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6095588/screencap/6ac66390cc8ca.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E52",
+      "episodeId": "6095589",
+      "title": "LES PIRES ANNONCES SUR LEBONCOIN ! #4",
+      "youtubeId": "8EeRCDqXDJk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES ANNONCES SUR LEBONCOIN ! #4",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/8EeRCDqXDJk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 91224
+        }
+      },
+      "crop": {
+        "id": "2329369",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac663956861c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6095589/screencap/6ac663969a1b3.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E53",
+      "episodeId": "6095590",
+      "title": "DEVINEZ DANS QUEL PAYS JE SUIS ? - GeoGuessr",
+      "youtubeId": "UoGndt_MBho",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DEVINEZ DANS QUEL PAYS JE SUIS ? - GeoGuessr",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/UoGndt_MBho/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 194913
+        }
+      },
+      "crop": {
+        "id": "2329370",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6639b4c21f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6095590/screencap/6ac6639c7d0fe.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E56",
+      "episodeId": "6095593",
+      "title": "UN PASSAGE SECRET DANS MON IMMEUBLE !",
+      "youtubeId": "RK6MfXGZF7E",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UN PASSAGE SECRET DANS MON IMMEUBLE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/RK6MfXGZF7E/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 106815
+        }
+      },
+      "crop": {
+        "id": "2329371",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac663a0dd8d1.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6095593/screencap/6ac663a22b0d8.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E57",
+      "episodeId": "6095595",
+      "title": "LA FIN DE MON FOND VERT...",
+      "youtubeId": "KpO0YgXBMVU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA FIN DE MON FOND VERT...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/KpO0YgXBMVU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 36200
+        }
+      },
+      "crop": {
+        "id": "2329372",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac663a6c3000.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6095595/screencap/6ac663a7ed0db.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
