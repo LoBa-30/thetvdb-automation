@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-10-07T13:38:22.340Z",
+  "mode": "READ_ONLY_POST_TIMEOUT_ARTWORK_RECHECK",
+  "target": {
+    "slug": "279758-show",
+    "episodeId": "5313816",
+    "code": "S2011E55",
+    "title": "Top 5 de la connerie | Episode 2"
+  },
+  "reads": [
+    {
+      "at": "2026-10-07T13:38:23.552Z",
+      "http": 200,
+      "heading": "Top 5 de la connerie | Episode 2",
+      "artwork": []
+    },
+    {
+      "at": "2026-10-07T13:38:27.269Z",
+      "http": 200,
+      "heading": "Top 5 de la connerie | Episode 2",
+      "artwork": []
+    },
+    {
+      "at": "2026-10-07T13:38:38.044Z",
+      "http": 200,
+      "heading": "Top 5 de la connerie | Episode 2",
+      "artwork": []
+    }
+  ],
+  "result": "STILL_MISSING_STAGE1_ONLY_SAFE_FOR_FRESH_FULL_RETRY",
+  "blocked": []
+}
