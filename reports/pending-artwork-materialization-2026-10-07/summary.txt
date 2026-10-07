@@ -1,0 +1,7 @@
+authenticated=true
+checkedArtworkSubmissions=3
+materialized=0
+stillPending=3
+titleDriftStatus=CURRENT_TITLE_PRESENT_NO_WRITE
+blocked=0
+result=READ_ONLY_CHECK_COMPLETE
