@@ -1,0 +1,36 @@
+name: Squeezie next artwork preflight
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/squeezie-artwork-preflight-next.yml'
+      - 'src/squeezie-artwork-preflight-next-2026-10-07.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests pillow
+      - name: Run read-only next Squeezie artwork preflight
+        run: python src/squeezie-artwork-preflight-next-2026-10-07.py
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/squeezie-artwork-preflight-next-2026-10-07
+          git commit -m "Record next Squeezie artwork preflight [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: squeezie-artwork-preflight-next
+          path: reports/squeezie-artwork-preflight-next-2026-10-07/
