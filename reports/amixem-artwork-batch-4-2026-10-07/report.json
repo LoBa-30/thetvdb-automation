@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T15:40:27.488Z",
+  "mode": "GUARDED_AMIXEM_ARTWORK_BATCH_4",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2016E58",
+    "S2016E59",
+    "S2016E60",
+    "S2016E62",
+    "S2016E63",
+    "S2016E64",
+    "S2016E70",
+    "S2016E71",
+    "S2016E77",
+    "S2016E80",
+    "S2016E81",
+    "S2016E82",
+    "S2016E85",
+    "S2016E91",
+    "S2016E93",
+    "S2016E97",
+    "S2016E100",
+    "S2017E03",
+    "S2017E07",
+    "S2017E11"
+  ],
+  "results": [
+    {
+      "code": "S2016E58",
+      "episodeId": "6095596",
+      "title": "LA BRIGADE POKEMON GO",
+      "youtubeId": "dpUg4wO9umo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA BRIGADE POKEMON GO",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/dpUg4wO9umo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 243413
+        }
+      },
+      "crop": {
+        "id": "2329447",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac667fac19a4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6095596/screencap/6ac667fe358c4.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E59",
+      "episodeId": "6095597",
+      "title": "CE QUE LES GENS CHERCHENT LE PLUS SUR GOOGLE.",
+      "youtubeId": "keLXvIs7Ym0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CE QUE LES GENS CHERCHENT LE PLUS SUR GOOGLE.",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/keLXvIs7Ym0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 145758
+        }
+      },
+      "crop": {
+        "id": "2329448",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66802746b0.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6095597/screencap/6ac668039e025.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E60",
+      "episodeId": "6095598",
+      "title": "JE REGARDE VOS VIDEOS FOND VERT !",
+      "youtubeId": "fRuG2q600pk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE REGARDE VOS VIDEOS FOND VERT !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/fRuG2q600pk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 86943
+        }
+      },
+      "crop": {
+        "id": "2329449",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66807daf90.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6095598/screencap/6ac6680913a1c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E62",
+      "episodeId": "6095600",
+      "title": "CET ENFANT NOUS A RENDU FOUS. - The Hidden",
+      "youtubeId": "FKqC6EM-feY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CET ENFANT NOUS A RENDU FOUS. - The Hidden",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/FKqC6EM-feY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 47234
+        }
+      },
+      "crop": {
+        "id": "2329450",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6680d6db64.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6095600/screencap/6ac6680e96b0e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E63",
+      "episodeId": "6095601",
+      "title": "DEVINEZ DANS QUEL PAYS JE SUIS ? GeoGuessr #2",
+      "youtubeId": "MYEfU4hCXKU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DEVINEZ DANS QUEL PAYS JE SUIS ? GeoGuessr #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/MYEfU4hCXKU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 151654
+        }
+      },
+      "crop": {
+        "id": "2329451",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66812e8f75.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6095601/screencap/6ac6681416035.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E64",
+      "episodeId": "6095603",
+      "title": "LES PIRES ANNONCES SUR LEBONCOIN ! #5",
+      "youtubeId": "mE03yFsnyZM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES ANNONCES SUR LEBONCOIN ! #5",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/mE03yFsnyZM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 95537
+        }
+      },
+      "crop": {
+        "id": "2329452",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6681895c51.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6095603/screencap/6ac66819d9da4.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E70",
+      "episodeId": "6095609",
+      "title": "JE ME SUIS FAIT FRIENDZONER...",
+      "youtubeId": "Iq37eRcjn24",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE ME SUIS FAIT FRIENDZONER...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Iq37eRcjn24/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 104172
+        }
+      },
+      "crop": {
+        "id": "2329453",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6681e2f01e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6095609/screencap/6ac6681f4f4ac.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E71",
+      "episodeId": "6095610",
+      "title": "LE DIEU DE YOUTUBE",
+      "youtubeId": "-wXtD8EpciY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE DIEU DE YOUTUBE",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/-wXtD8EpciY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 83138
+        }
+      },
+      "crop": {
+        "id": "2329454",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6682388af2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6095610/screencap/6ac66824b7c49.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E77",
+      "episodeId": "6095616",
+      "title": "VOS PIRES TOP COMMENTAIRES...",
+      "youtubeId": "1GSF2Qo-sRU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOS PIRES TOP COMMENTAIRES...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/1GSF2Qo-sRU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 78588
+        }
+      },
+      "crop": {
+        "id": "2329455",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6682944f26.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6095616/screencap/6ac6682a82e68.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E80",
+      "episodeId": "6102745",
+      "title": "JE VLOG EN APESANTEUR !",
+      "youtubeId": "qIHLmjnFiug",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE VLOG EN APESANTEUR !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/qIHLmjnFiug/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 123831
+        }
+      },
+      "crop": {
+        "id": "2329456",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6682ed9a6f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6102745/screencap/6ac668300fd56.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E81",
+      "episodeId": "6102749",
+      "title": "JE ME SUIS FAIT ATTAQUER PAR UN REQUIN !",
+      "youtubeId": "Fl_CyUw2Vuo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE ME SUIS FAIT ATTAQUER PAR UN REQUIN !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Fl_CyUw2Vuo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 74659
+        }
+      },
+      "crop": {
+        "id": "2329457",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6683432a0f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6102749/screencap/6ac668355fe29.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E82",
+      "episodeId": "6102750",
+      "title": "MON PIRE SOUVENIR DU JAPON !",
+      "youtubeId": "CxxOtztpFFU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MON PIRE SOUVENIR DU JAPON !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/CxxOtztpFFU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 130690
+        }
+      },
+      "crop": {
+        "id": "2329458",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66839d155e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6102750/screencap/6ac6683b0bf8d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E85",
+      "episodeId": "6102757",
+      "title": "BIENVENUE CHEZ MOI ! (SETUP)",
+      "youtubeId": "5XmXYW5IjNM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "BIENVENUE CHEZ MOI ! (SETUP)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/5XmXYW5IjNM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 132359
+        }
+      },
+      "crop": {
+        "id": "2329459",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6683f8ec1a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6102757/screencap/6ac66840c358f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E91",
+      "episodeId": "6102774",
+      "title": "JE JOUE AU JEU LE PLUS ATTENDU DU MONDE !",
+      "youtubeId": "oaUZry-Hz6g",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE JOUE AU JEU LE PLUS ATTENDU DU MONDE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/oaUZry-Hz6g/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 123882
+        }
+      },
+      "crop": {
+        "id": "2329460",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac668460950e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6102774/screencap/6ac6684744347.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E93",
+      "episodeId": "6102778",
+      "title": "JE VOUS DONNE MON ADRESSE !",
+      "youtubeId": "L-DIDqBPK1I",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE VOUS DONNE MON ADRESSE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/L-DIDqBPK1I/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 82144
+        }
+      },
+      "crop": {
+        "id": "2329461",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6684b929c1.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6102778/screencap/6ac6684cd91ab.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E97",
+      "episodeId": "6102789",
+      "title": "JE JUGE LES YOUTUBERS !",
+      "youtubeId": "Tu0tDXPx_4k",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE JUGE LES YOUTUBERS !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Tu0tDXPx_4k/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 103818
+        }
+      },
+      "crop": {
+        "id": "2329462",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6685147d22.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6102789/screencap/6ac6685280e17.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E100",
+      "episodeId": "6102794",
+      "title": "JE REGARDE VOS VIDEOS FOND VERT ! #2",
+      "youtubeId": "n10h-B-XKkw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE REGARDE VOS VIDEOS FOND VERT ! #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/n10h-B-XKkw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 95316
+        }
+      },
+      "crop": {
+        "id": "2329463",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66856e7b47.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6102794/screencap/6ac668582e39d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E03",
+      "episodeId": "6102801",
+      "title": "IL DEVINE MON MOT DE PASSE YOUTUBE !",
+      "youtubeId": "zBs6al8-gCw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "IL DEVINE MON MOT DE PASSE YOUTUBE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/zBs6al8-gCw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 89694
+        }
+      },
+      "crop": {
+        "id": "2329464",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6685d029ed.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6102801/screencap/6ac6685e2c643.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E07",
+      "episodeId": "6102805",
+      "title": "LES PIRES ANNONCES SUR LEBONCOIN ! #6",
+      "youtubeId": "o6DA3H_eoxc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES ANNONCES SUR LEBONCOIN ! #6",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/o6DA3H_eoxc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 106430
+        }
+      },
+      "crop": {
+        "id": "2329465",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac668628f575.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6102805/screencap/6ac66863c3c17.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E11",
+      "episodeId": "6102809",
+      "title": "QUELS YOUTUBERS REGARDENT MA CHAINE ?",
+      "youtubeId": "6hyWorMg0DQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "QUELS YOUTUBERS REGARDENT MA CHAINE ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/6hyWorMg0DQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 261821
+        }
+      },
+      "crop": {
+        "id": "2329466",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66868978df.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6102809/screencap/6ac66869d1caa.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
