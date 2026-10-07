@@ -96,3 +96,5 @@ report['summary']={
 print((OUT/'summary.txt').read_text())
 
 # rerun after gap-fill-1 and S2025E18 recovery
+
+# final rerun after 14/14 Maxime gap fill 2
