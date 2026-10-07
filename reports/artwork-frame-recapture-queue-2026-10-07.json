@@ -1,0 +1,404 @@
+{
+  "generatedAt": "2026-10-07T20:47:08.625Z",
+  "mode": "POST_MODERATION_TEXT_FREE_FRAME_RECAPTURE_QUEUE",
+  "policy": "No YouTube-style thumbnails with text. Use genuine text-free video screencaps only. Do not upload while TheTVDB artwork restriction is active.",
+  "targets": {
+    "Maxime Biaggi": [
+      {
+        "code": "S2019E01",
+        "episodeId": "11696580",
+        "title": "Try not to embrasser son pote (nouveau challenge trop dur)",
+        "youtubeId": "3X0piITkOTE"
+      },
+      {
+        "code": "S2019E02",
+        "episodeId": "11696581",
+        "title": "J'ai testé le restaurant préféré de Sarkozy",
+        "youtubeId": "7rEsbvpprlw"
+      },
+      {
+        "code": "S2019E03",
+        "episodeId": "11696582",
+        "title": "Je rencontre mes abonnés ça tourne mal (vidéo spéciale 300 abonnés)",
+        "youtubeId": "6NaIyjBRDNA"
+      },
+      {
+        "code": "S2019E04",
+        "episodeId": "11696583",
+        "title": "J’ai testé le restaurant le moins bien noté de Paris",
+        "youtubeId": "7ghkayTlxiM"
+      },
+      {
+        "code": "S2019E05",
+        "episodeId": "11696584",
+        "title": "J'ai testé le café (à la fiente) le plus cher du monde",
+        "youtubeId": "1OcZ9gWUOjE"
+      },
+      {
+        "code": "S2019E06",
+        "episodeId": "11696585",
+        "title": "Mes anciennes vidéos...........",
+        "youtubeId": "7ZCqR3_XdV8"
+      },
+      {
+        "code": "S2019E07",
+        "episodeId": "11696586",
+        "title": "LONDRES : MON REPORTAGE",
+        "youtubeId": "qj0K6DK_NzI"
+      },
+      {
+        "code": "S2021E01",
+        "episodeId": "11696587",
+        "title": "Je passe 24H avec un journaliste ca TOURNE MAL....",
+        "youtubeId": "5sssiqLZqvA"
+      },
+      {
+        "code": "S2022E02",
+        "episodeId": "11696590",
+        "title": "UNE SEMAINE POUR FAIRE UNE CHORÉE KPOP EN LIVE (très dur)",
+        "youtubeId": "kJNa_dwN3Lc"
+      },
+      {
+        "code": "S2022E04",
+        "episodeId": "11696592",
+        "title": "IL DÉPASSE LES LIMITES AVEC SON AMI !! (Pour faire rire la galerie...)",
+        "youtubeId": "0T5ovr0gWOU"
+      },
+      {
+        "code": "S2022E07",
+        "episodeId": "11696597",
+        "title": "Mo7cine : la pépite de Twitch et du Football...",
+        "youtubeId": "DJagWkMzPOY"
+      },
+      {
+        "code": "S2023E01",
+        "episodeId": "11696603",
+        "title": "J'ai retrouvé mon passage dans les 12 coups de midi...",
+        "youtubeId": "e6e8LeU_REQ"
+      },
+      {
+        "code": "S2023E05",
+        "episodeId": "11696607",
+        "title": "Ils auraient jamais dû m'inviter... (GP Explorer 2)",
+        "youtubeId": "SbBVZNt1Vmk"
+      },
+      {
+        "code": "S2023E06",
+        "episodeId": "11696608",
+        "title": "Le gâcheur du GP Explorer 2 ?",
+        "youtubeId": "oPP03kTg0aU"
+      },
+      {
+        "code": "S2023E08",
+        "episodeId": "11696610",
+        "title": "Miam miam je suis un gros gourmand j’ai bien mangé",
+        "youtubeId": "Ako-aLACYPE"
+      },
+      {
+        "code": "S2023E09",
+        "episodeId": "11696611",
+        "title": "On offre des cadeaux à 3 abonnés (y’en a une qui chiale)",
+        "youtubeId": "PaTyxBnzfSM"
+      },
+      {
+        "code": "S2024E01",
+        "episodeId": "11696620",
+        "title": "Est-ce que je suis d'accord avec Audrey ?",
+        "youtubeId": "oPqUT9AtyY4"
+      },
+      {
+        "code": "S2024E02",
+        "episodeId": "11696621",
+        "title": "On vous a rendu service pendant une journée (poney, déménagement, peinture…)",
+        "youtubeId": "6csK8iek7PU"
+      },
+      {
+        "code": "S2024E04",
+        "episodeId": "11696623",
+        "title": "Qui fera le meilleur film en 1h avec des inconnus ?",
+        "youtubeId": "ZOpLlT0vRxQ"
+      },
+      {
+        "code": "S2024E06",
+        "episodeId": "11696625",
+        "title": "Diner de Noël avec des gros gourmands !! (Secret Santa et rigolade)",
+        "youtubeId": "_oLISqPGXMg"
+      },
+      {
+        "code": "S2025E01",
+        "episodeId": "11696637",
+        "title": "2 jours pour faire une piste noire (j'ai jamais skié)",
+        "youtubeId": "EqFLIsSB2hg"
+      },
+      {
+        "code": "S2025E05",
+        "episodeId": "11696641",
+        "title": "De retour pour vous jouer un mauvais tour - GP Explorer 3",
+        "youtubeId": "FvtoTtKm0gE"
+      },
+      {
+        "code": "S2025E08",
+        "episodeId": "11696644",
+        "title": "QUI est le TRAÎTRE parmi nous ?",
+        "youtubeId": "4kDYChbVMvw"
+      }
+    ],
+    "Djilsi": [
+      {
+        "code": "S2018E01",
+        "episodeId": "9242990",
+        "title": "PARTIR EN TOUR DE FRANCE EN IMPRO TOTALE ! #DécouvreTonPays 1",
+        "youtubeId": "tPAFP4QFT6Y"
+      },
+      {
+        "code": "S2018E02",
+        "episodeId": "9242991",
+        "title": "DES B*TES PARTOUT ! #DécouvreTonPays 2",
+        "youtubeId": "k1blyDB6xj4"
+      },
+      {
+        "code": "S2018E03",
+        "episodeId": "9242992",
+        "title": "SUR LA PLUS HAUTE DUNE D'EUROPE ! #DécouvreTonPays 3",
+        "youtubeId": "jPgVjTDD9x4"
+      },
+      {
+        "code": "S2018E04",
+        "episodeId": "9242993",
+        "title": "TOUT NU DANS LA LAVANDE ?! #DécouvreTonPays 4",
+        "youtubeId": "2ptVHFhcEPg"
+      },
+      {
+        "code": "S2018E05",
+        "episodeId": "9242994",
+        "title": "RIEN NE S'EST PASSÉ COMME PRÉVU... #DécouvreTonPays 5",
+        "youtubeId": "zbhpYnVsw5g"
+      },
+      {
+        "code": "S2018E06",
+        "episodeId": "9242995",
+        "title": "UN GENDARME ME MET UNE PRESSION PAR TELEPHONE ! #DécouvreTonPays 6",
+        "youtubeId": "_qVpzIPYxO0"
+      },
+      {
+        "code": "S2018E07",
+        "episodeId": "9242996",
+        "title": "JE ME FAIS EMBROUILLER EN SORTANT D'UN BAR ! #DécouvreTonPays 7",
+        "youtubeId": "PanKi2WGWB4"
+      },
+      {
+        "code": "S2018E08",
+        "episodeId": "9242997",
+        "title": "ON N'A PLUS DE CHAUSSURES ! #DécouvreTonPays 8",
+        "youtubeId": "GvCuRzh_5UM"
+      },
+      {
+        "code": "S2018E09",
+        "episodeId": "9242998",
+        "title": "JE VEUX FAIRE DEMI-TOUR SUR L'AUTOROUTE ! #DécouvreTonPays 9 (final saison 1)",
+        "youtubeId": "CYATzVRUPFI"
+      },
+      {
+        "code": "S2018E10",
+        "episodeId": "9243015",
+        "title": "NOS GALÈRES EN GRÈCE + POSEZ-MOI VOS QUESTIONS",
+        "youtubeId": "g-lnmYWDcyk"
+      },
+      {
+        "code": "S2018E11",
+        "episodeId": "9243016",
+        "title": "J’AI CASSÉ MA CAMÉRA... #BourbiersDor 1",
+        "youtubeId": "EY5N56tDFBk"
+      },
+      {
+        "code": "S2018E12",
+        "episodeId": "9243017",
+        "title": "CACHÉS DANS LES TOILETTES D'UN TRAIN EN ALLEMAGNE #BourbiersDor 2",
+        "youtubeId": "fT1E4V5rZ3Q"
+      },
+      {
+        "code": "S2018E13",
+        "episodeId": "9243018",
+        "title": "SE LANCER SUR YOUTUBE #JournalDeBord EP1",
+        "youtubeId": "uYMeiGNJSbU"
+      },
+      {
+        "code": "S2018E14",
+        "episodeId": "9243019",
+        "title": "PROBLEMES D'ARGENT #JournalDeBord EP2",
+        "youtubeId": "uMIm06pHndo"
+      },
+      {
+        "code": "S2018E15",
+        "episodeId": "9243020",
+        "title": "COUP DE POKER #JournalDeBord EP3",
+        "youtubeId": "prDN4vO4xgw"
+      },
+      {
+        "code": "S2018E16",
+        "episodeId": "9243021",
+        "title": "AU MILIEU D'UNE MANIFESTATION DES GILETS JAUNES !",
+        "youtubeId": "5GdqdxQBSbo"
+      },
+      {
+        "code": "S2018E17",
+        "episodeId": "9243022",
+        "title": "BESOIN D'AIDE... #JournalDeBord EP4",
+        "youtubeId": "Gmdu-9Ya7uk"
+      },
+      {
+        "code": "S2018E18",
+        "episodeId": "9243023",
+        "title": "UNE SOLUTION RADICALE #JournalDeBord EP5",
+        "youtubeId": "in4zwbYO75s"
+      },
+      {
+        "code": "S2018E19",
+        "episodeId": "9243024",
+        "title": "LES RETROUVAILLES #JournalDeBord EP6 - FINAL SAISON 1",
+        "youtubeId": "vtFnltaWe1s"
+      },
+      {
+        "code": "S2019E01",
+        "episodeId": "9243028",
+        "title": "QUELLES SONT VOS RÉSOLUTIONS 2019 ? INTERVIEW CHELOU #1",
+        "youtubeId": "jbtzNL6d37Q"
+      },
+      {
+        "code": "S2019E02",
+        "episodeId": "9243029",
+        "title": "QUELLE EST VOTRE PIRE CONNERIE ? INTERVIEW CHELOU #2",
+        "youtubeId": "NFYnq_o1j30"
+      },
+      {
+        "code": "S2019E03",
+        "episodeId": "9243030",
+        "title": "QUEL EST VOTRE FANTASME ? INTERVIEW CHELOU #3",
+        "youtubeId": "HrcmpYKrfw4"
+      },
+      {
+        "code": "S2019E04",
+        "episodeId": "9243031",
+        "title": "LA SAINT VALENTIN, CA VEUT DIRE QUOI ? INTERVIEW CHELOU #4",
+        "youtubeId": "4rC7w8bFs2k"
+      },
+      {
+        "code": "S2019E05",
+        "episodeId": "9243032",
+        "title": "LES PARISIENS SONT-ILS CHIANTS ? INTERVIEW CHELOU #5",
+        "youtubeId": "mdE-BxC7JT0"
+      },
+      {
+        "code": "S2019E06",
+        "episodeId": "9243033",
+        "title": "ETRE INSUPPORTABLE DANS LE METRO ! CACHE LA CAM #1",
+        "youtubeId": "KWZrzA7S-rc"
+      },
+      {
+        "code": "S2019E07",
+        "episodeId": "9243034",
+        "title": "LE PIRE ÉLÈVE À LA FAC ! CACHE LA CAM #2",
+        "youtubeId": "ZG49wY1oexc"
+      },
+      {
+        "code": "S2019E08",
+        "episodeId": "9243035",
+        "title": "LE MEC LE PLUS CHELOU DANS LA RUE ! CACHE LA CAM #3",
+        "youtubeId": "aixfYOLkJ6M"
+      },
+      {
+        "code": "S2019E09",
+        "episodeId": "9243036",
+        "title": "LE PIRE CLIENT A L'HOTEL ! CACHE LA CAM #4",
+        "youtubeId": "eGuLe0vTd1k"
+      },
+      {
+        "code": "S2019E10",
+        "episodeId": "9243037",
+        "title": "LE PIRE MAGICIEN DU MONDE ! CACHE LA CAM #5",
+        "youtubeId": "6qmJVUbWxn4"
+      },
+      {
+        "code": "S2019E11",
+        "episodeId": "9243038",
+        "title": "100.000 ABONNES EN UNE SEMAINE ?! ❤️ #FAQ",
+        "youtubeId": "zJYz5psu9Ig"
+      },
+      {
+        "code": "S2019E12",
+        "episodeId": "9243039",
+        "title": "LE PIRE MEC DANS LE METRO PARISIEN ! CACHE LA CAM #6",
+        "youtubeId": "DwdB7MTPeuo"
+      },
+      {
+        "code": "S2019E13",
+        "episodeId": "9243040",
+        "title": "LES PIRES SERVEURS DU MONDE ! CACHE LA CAM #7",
+        "youtubeId": "XZDY5H9kgaI"
+      },
+      {
+        "code": "S2019E14",
+        "episodeId": "9243041",
+        "title": "LE FESTIVAL DE CANNES, ÇA VAUT LE COUP ? INTERVIEW CHELOU #6",
+        "youtubeId": "ujxNdkiEdbU"
+      },
+      {
+        "code": "S2019E17",
+        "episodeId": "9243044",
+        "title": "MES PROBLEMES AVEC LA POLICE !",
+        "youtubeId": "72APxQkk--I"
+      },
+      {
+        "code": "S2019E18",
+        "episodeId": "9243045",
+        "title": "UN RACKETTEUR A VOULU ME PLANTER",
+        "youtubeId": "vB_cT1jqy94"
+      },
+      {
+        "code": "S2019E19",
+        "episodeId": "9243046",
+        "title": "LE PIRE EMPLOYÉ D'UN HOTEL ! CACHE LA CAM #8",
+        "youtubeId": "BGpuaXpJ04I"
+      },
+      {
+        "code": "S2019E21",
+        "episodeId": "9243048",
+        "title": "DES SUPPORTERS DU PSG À MARSEILLE ?! #OnVaOù",
+        "youtubeId": "GpygQnM2aqw"
+      }
+    ],
+    "Elian Ventre": []
+  },
+  "elianState": {
+    "episodes": [
+      {
+        "code": "S2023E02",
+        "episodeId": "11092249",
+        "title": "RAP CONTENDERS ZEN ÉMISSION",
+        "artworkPresent": true,
+        "artworks": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11092249/screencap/6ac6a6f6a86d2.jpg"
+        ]
+      },
+      {
+        "code": "S2026E02",
+        "episodeId": "11665002",
+        "title": "Son couple, ses projets, sa vie ft @Mastu",
+        "artworkPresent": true,
+        "artworks": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11665002/screencap/6ac6a6fcb5ef9.jpg"
+        ]
+      }
+    ],
+    "series": {
+      "posterCount": 0,
+      "iconCount": 1,
+      "bannerCount": 1
+    }
+  },
+  "counts": {
+    "maximeMissing": 23,
+    "djilsiMissing": 37,
+    "elianEpisodeGaps": 0
+  }
+}
