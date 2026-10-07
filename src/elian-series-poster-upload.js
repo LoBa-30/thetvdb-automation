@@ -34,7 +34,7 @@ try{
  if(st.size<10000||st.size>10_000_000) throw new Error('POSTER_FILE_SIZE_INVALID '+st.size);
 
  await go(BASE+'/artwork/upload?type=2&series='+SERIES);
- const form=page.locator('form[action="/artwork/upload_handler"]').first();
+ const form=page.locator('form[action*="/artwork/upload_handler"]').first();
  if(!(await form.count())) throw new Error('POSTER_UPLOAD_FORM_MISSING');
  const cc=await ctrls(form),cv=n=>cc.find(c=>c.name===n)?.value??null;
  if(cv('type')!=='2'||cv('series')!==SERIES) throw new Error('POSTER_SCOPE_DRIFT');
