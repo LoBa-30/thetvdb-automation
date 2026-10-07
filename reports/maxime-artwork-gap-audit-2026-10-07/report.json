@@ -1,197 +1,7 @@
 {
-  "generatedAt": "2026-10-07T16:44:52.285332+00:00",
+  "generatedAt": "2026-10-07T16:52:17.809323+00:00",
   "mode": "READ_ONLY_MAXIME_ARTWORK_GAP_AUDIT",
   "neverWrittenMissing": [
-    {
-      "code": "S2025E09",
-      "episodeId": "11696645",
-      "title": "On a INFILTRÉ la cuisine d’un hôtel de luxe",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696645",
-      "youtubeId": "fX1pfcbpTks",
-      "youtubeTitle": "On a INFILTRÉ la cuisine d’un hôtel de luxe",
-      "imageUrl": "https://i.ytimg.com/vi/fX1pfcbpTks/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 131581,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "7f81979e596e1ad6bb730e162843277d1c909b0a63eb826d4fd5c1b202c2c422"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2025E10",
-      "episodeId": "11696646",
-      "title": "La face cachée de vos Youtubeurs…",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696646",
-      "youtubeId": "spDicfn4k-E",
-      "youtubeTitle": "La face cachée de vos Youtubeurs…",
-      "imageUrl": "https://i.ytimg.com/vi/spDicfn4k-E/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 177854,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "2be3a33714ac27f98a09de1d262ebb91fdebddb71ea71dd6ecc90a69eb22e18e"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2025E11",
-      "episodeId": "11696647",
-      "title": "On a organisé la meilleure soirée de Cannes (Biaggi Party)",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696647",
-      "youtubeId": "JoXfZw7Dm4Q",
-      "youtubeTitle": "On a organisé la meilleure soirée de Cannes (Biaggi Party)",
-      "imageUrl": "https://i.ytimg.com/vi/JoXfZw7Dm4Q/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 177116,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "0f643fcbc448b70600e8c2cd2372a63d7f30745df12ea7ccce8b20ba7b97ed7c"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2025E12",
-      "episodeId": "11696648",
-      "title": "On présente notre PREMIER FILM",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696648",
-      "youtubeId": "9kKbos2_fdQ",
-      "youtubeTitle": "On présente notre PREMIER FILM",
-      "imageUrl": "https://i.ytimg.com/vi/9kKbos2_fdQ/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 156505,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "7947e8e4180a2214ed78bc8400a24ce0b082390e9330d3d95300182f6e709d41"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2025E13",
-      "episodeId": "11696649",
-      "title": "Ces youtubeurs vont m’en vouloir… (Parodie YouTube / Twitch)",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696649",
-      "youtubeId": "Gjz3RRKOaGA",
-      "youtubeTitle": "Ces youtubeurs vont m’en vouloir… (Parodie YouTube / Twitch)",
-      "imageUrl": "https://i.ytimg.com/vi/Gjz3RRKOaGA/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 170684,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "80eeca30d2bdf22c26d0addc6b660d2a30a7dd2aa147ba9973025db9809a269e"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2025E14",
-      "episodeId": "11696650",
-      "title": "Est ce qu'on est d'accord avec ANTOINE ? Ft @Djilsi",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696650",
-      "youtubeId": "usuY9elT-a8",
-      "youtubeTitle": "Est ce qu'on est d'accord avec ANTOINE ? Ft @Djilsi",
-      "imageUrl": "https://i.ytimg.com/vi/usuY9elT-a8/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 337260,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "f01b1517b80e2726c1228fc9a7b7eefcf93429e8369deba5a20322dafd0dccf6"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2025E15",
-      "episodeId": "11696651",
-      "title": "Les américains veulent ma peau au GP Explorer....",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696651",
-      "youtubeId": "FKFWom482ow",
-      "youtubeTitle": "Les américains veulent ma peau au GP Explorer....",
-      "imageUrl": "https://i.ytimg.com/vi/FKFWom482ow/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 138975,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "92766fbe383c45f869e77b9f74fa30e3ba3b47fc9d75014e80b74073a0ad7829"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2025E16",
-      "episodeId": "11696652",
-      "title": "Qui aura la scène piégée ? (ft. Mister V, Théodort)",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696652",
-      "youtubeId": "8DFp8UyELEY",
-      "youtubeTitle": "Qui aura la scène piégée ? (ft. Mister V, Théodort)",
-      "imageUrl": "https://i.ytimg.com/vi/8DFp8UyELEY/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 156294,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "c4fdc83ca21a0f287113f253de736afbdf8d6148e2332f0b92b89786832ac5f1"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2025E17",
-      "episodeId": "11696653",
-      "title": "A FOND OU AU FOND (Le dernier vlog GP Explorer)",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696653",
-      "youtubeId": "AJT5YeOUupM",
-      "youtubeTitle": "A FOND OU AU FOND 😎 (Le dernier vlog GP Explorer)",
-      "imageUrl": "https://i.ytimg.com/vi/AJT5YeOUupM/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 302554,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "cf8eb8102070d98befe3735e2da72d45c9bf02f389609d963070a350660f2b38"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2025E18",
-      "episodeId": "11696654",
-      "title": "LE JEU DE LA NOTE (ft Billy, Grim, Elian, Djilsi)",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696654",
-      "youtubeId": "B-rznspUMDw",
-      "youtubeTitle": "LE JEU DE LA NOTE (ft Billy, Grim, Elian, Djilsi)",
-      "imageUrl": "https://i.ytimg.com/vi/B-rznspUMDw/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 264947,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "6ae745a014387e576daafccbb8d02370787b59dc7380a82cc3d951eee652448a"
-      },
-      "series": "475945"
-    },
     {
       "code": "S2025E19",
       "episodeId": "11696655",
@@ -479,389 +289,180 @@
         ],
         "sha256": "03b5e3202ff713a20864bd2d604728b5c68d488dd5f52f67d062537a1f80361c"
       }
-    },
+    }
+  ],
+  "currentlyPresent": [
     {
       "code": "S2019E02",
       "episodeId": "11696581",
       "title": "J'ai testé le restaurant préféré de Sarkozy",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696581",
-      "history": {
-        "report": "reports/maxime-artwork-batch-1-2026-10-07/report.json",
-        "youtubeId": "7rEsbvpprlw",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696581/screencap/6ac649518778b.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 81333,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "a7c7d1d059e6ed4dc80d75edb3d9210c93a3ea2a84c210b934eebf239efdfa77"
-      }
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696581/screencap/6ac649518778b.jpg"
+      ]
     },
     {
       "code": "S2019E03",
       "episodeId": "11696582",
       "title": "Je rencontre mes abonnés ça tourne mal (vidéo spéciale 300 abonnés)",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696582",
-      "history": {
-        "report": "reports/maxime-artwork-batch-1-2026-10-07/report.json",
-        "youtubeId": "6NaIyjBRDNA",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696582/screencap/6ac6495779c7e.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 52693,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "281e9c40d30b822c7caedec0644624f8944e353609ab3b789caa2ce304a041c1"
-      }
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696582/screencap/6ac6495779c7e.jpg"
+      ]
     },
     {
       "code": "S2019E04",
       "episodeId": "11696583",
       "title": "J’ai testé le restaurant le moins bien noté de Paris",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696583",
-      "history": {
-        "report": "reports/maxime-artwork-batch-1-2026-10-07/report.json",
-        "youtubeId": "7ghkayTlxiM",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696583/screencap/6ac6495d87df5.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 53533,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "3404bfe3396911214258f93422c38aad4aec7efbdb4fb2c4006aff021a56151a"
-      }
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696583/screencap/6ac6495d87df5.jpg"
+      ]
     },
     {
       "code": "S2019E05",
       "episodeId": "11696584",
       "title": "J'ai testé le café (à la fiente) le plus cher du monde",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696584",
-      "history": {
-        "report": "reports/maxime-artwork-batch-1-2026-10-07/report.json",
-        "youtubeId": "1OcZ9gWUOjE",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696584/screencap/6ac64963367a0.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 76518,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "fa8be278ebfa12d9e9b7b7ff0f1d4c1e8a53f7910d9d717eaae95db40ed738ac"
-      }
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696584/screencap/6ac64963367a0.jpg"
+      ]
     },
     {
       "code": "S2019E06",
       "episodeId": "11696585",
       "title": "Mes anciennes vidéos...........",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696585",
-      "history": {
-        "report": "reports/maxime-artwork-batch-1-2026-10-07/report.json",
-        "youtubeId": "7ZCqR3_XdV8",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696585/screencap/6ac64969085be.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 45426,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "1c011f69990295e57920a7f8d5b39bec8637d670128c735fe31615d6b7befb3f"
-      }
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696585/screencap/6ac64969085be.jpg"
+      ]
     },
     {
       "code": "S2019E07",
       "episodeId": "11696586",
       "title": "LONDRES : MON REPORTAGE",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696586",
-      "history": {
-        "report": "reports/maxime-artwork-batch-1-2026-10-07/report.json",
-        "youtubeId": "qj0K6DK_NzI",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696586/screencap/6ac649ab97675.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 70868,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "7249d5da48ad8cbb04cde9cbd444f1827b0342561b968b3c11cf7ca19c13ac6f"
-      }
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696586/screencap/6ac649ab97675.jpg"
+      ]
     },
     {
       "code": "S2021E01",
       "episodeId": "11696587",
       "title": "Je passe 24H avec un journaliste ca TOURNE MAL....",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696587",
-      "history": {
-        "report": "reports/maxime-artwork-batch-1-2026-10-07/report.json",
-        "youtubeId": "5sssiqLZqvA",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696587/screencap/6ac649b16520b.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 58466,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "cd89e5f23a678c14c1d02a08c4ab71324232bafdfce6b0d52f6b9795f63821e7"
-      }
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696587/screencap/6ac649b16520b.jpg"
+      ]
     },
     {
       "code": "S2021E02",
       "episodeId": "11696588",
       "title": "Tierlist OFFICIELLE des eaux plates avec Terracid et Yassencore",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696588",
-      "history": {
-        "report": "reports/maxime-artwork-batch-1-2026-10-07/report.json",
-        "youtubeId": "ZYWObSj0qnM",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696588/screencap/6ac649b755431.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 70171,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "47d2d6f57837083acde0eb2e02ecba00be255c078502a7ae34e5fa9d40ef5494"
-      }
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696588/screencap/6ac649b755431.jpg"
+      ]
     },
     {
       "code": "S2022E01",
       "episodeId": "11696589",
       "title": "DRAME DANS MA VILLE : je vous raconte...",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696589",
-      "history": {
-        "report": "reports/maxime-artwork-batch-1-2026-10-07/report.json",
-        "youtubeId": "F0spjhhLCRc",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696589/screencap/6ac649bd5abbb.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 47583,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "220e8422735d448f43dc5a87e8e161b79b722d6b9446aeb087daed754aef4bc8"
-      }
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696589/screencap/6ac649bd5abbb.jpg"
+      ]
     },
     {
       "code": "S2022E02",
       "episodeId": "11696590",
       "title": "UNE SEMAINE POUR FAIRE UNE CHORÉE KPOP EN LIVE (très dur)",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696590",
-      "history": {
-        "report": "reports/maxime-artwork-batch-2-2026-10-07/report.json",
-        "youtubeId": "kJNa_dwN3Lc",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696590/screencap/6ac64aa438c51.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 64717,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "82eb821d342dc70d9fa17aa92d0a3898bdfaf6d8126c9b129a03ccacbfe67585"
-      }
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696590/screencap/6ac64aa438c51.jpg"
+      ]
     },
     {
       "code": "S2022E03",
       "episodeId": "11696591",
       "title": "On APPELLE des gens sans les entendre, avec Terracid et Monsieur Poulpe",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696591",
-      "history": {
-        "report": "reports/maxime-artwork-batch-2-2026-10-07/report.json",
-        "youtubeId": "X78I-6b1Nkg",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696591/screencap/6ac64aa9b3486.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 70026,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "b05417676bc633818e77f92ba4132efdc121b3f491b82b1a711458f2a71d4379"
-      }
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696591/screencap/6ac64aa9b3486.jpg"
+      ]
     },
     {
       "code": "S2022E04",
       "episodeId": "11696592",
       "title": "IL DÉPASSE LES LIMITES AVEC SON AMI !! (Pour faire rire la galerie...)",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696592",
-      "history": {
-        "report": "reports/maxime-artwork-batch-2-2026-10-07/report.json",
-        "youtubeId": "0T5ovr0gWOU",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696592/screencap/6ac64aaf30324.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 80398,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "f34c9951dba8432c32401f494870f308106042ec2b2764a069a77ca67ab5fa54"
-      }
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696592/screencap/6ac64aaf30324.jpg"
+      ]
     },
     {
       "code": "S2022E05",
       "episodeId": "11696593",
       "title": "J'ai stream 1 an sur Twitch : résultat",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696593",
-      "history": {
-        "report": "reports/maxime-artwork-batch-2-2026-10-07/report.json",
-        "youtubeId": "e1DFgRkxwTU",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696593/screencap/6ac64ab4b6399.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 102113,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "e3ffb9e2ec5b33af755435f38e76f5ac630baa2457e9cef19765fb025ddfd6dd"
-      }
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696593/screencap/6ac64ab4b6399.jpg"
+      ]
     },
     {
       "code": "S2022E06",
       "episodeId": "11696595",
       "title": "On casse un vase et on le refait...",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696595",
-      "history": {
-        "report": "reports/maxime-artwork-batch-2-2026-10-07/report.json",
-        "youtubeId": "647ItVaoFPk",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696595/screencap/6ac64af8b8eb2.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 67253,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "5466395ae1c82b482e57004a7961aa02930faf438091556e8a87edb93a53371b"
-      }
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696595/screencap/6ac64af8b8eb2.jpg"
+      ]
     },
     {
       "code": "S2022E07",
       "episodeId": "11696597",
       "title": "Mo7cine : la pépite de Twitch et du Football...",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696597",
-      "history": {
-        "report": "reports/maxime-artwork-batch-2-2026-10-07/report.json",
-        "youtubeId": "DJagWkMzPOY",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696597/screencap/6ac64afe391cf.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 69515,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "653b5107d3e4d206cebad1ac44bc821c83361d35afd505060e2d1d8492315ab5"
-      }
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696597/screencap/6ac64afe391cf.jpg"
+      ]
     },
     {
       "code": "S2022E08",
       "episodeId": "11696599",
       "title": "On fête Noël dans un Hôtel de luxe ⭐(ft Terracid, Maghla, Sefy, Bezigue, Grimkujow, Luciole)",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696599",
-      "history": {
-        "report": "reports/maxime-artwork-batch-2-2026-10-07/report.json",
-        "youtubeId": "HDtC6jtO160",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696599/screencap/6ac64b0392e85.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 93969,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "f5c8eac7a70a46fae24a629a91aba5d488809310b7afd8a28ba011bbdd69996b"
-      }
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696599/screencap/6ac64b0392e85.jpg"
+      ]
     },
     {
       "code": "S2023E01",
       "episodeId": "11696603",
       "title": "J'ai retrouvé mon passage dans les 12 coups de midi...",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696603",
-      "history": {
-        "report": "reports/maxime-artwork-batch-2-2026-10-07/report.json",
-        "youtubeId": "e6e8LeU_REQ",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696603/screencap/6ac64b092394f.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 82754,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "2e6e182ba18c38fa297f79db637b3675e15026a48c2875af7c56924ce9df1561"
-      }
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696603/screencap/6ac64b092394f.jpg"
+      ]
     },
     {
       "code": "S2023E02",
       "episodeId": "11696604",
       "title": "Survivre 20 heures dans un hôtel de luxe (challenge impossible)",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696604",
-      "history": {
-        "report": "reports/maxime-artwork-batch-2-2026-10-07/report.json",
-        "youtubeId": "7FcgSYvsb7o",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696604/screencap/6ac64b0e9112e.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 54347,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "be60c3ca3c2427f5fe6ac3763b9e1fd26d9b0aaf2bd19d2cf5ca26d872160447"
-      }
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696604/screencap/6ac64b0e9112e.jpg"
+      ]
     },
     {
       "code": "S2023E03",
       "episodeId": "11696605",
       "title": "On pourchasse une voiture, ça tourne mal (Elian devient breton)",
       "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696605",
-      "history": {
-        "report": "reports/maxime-artwork-batch-2-2026-10-07/report.json",
-        "youtubeId": "hX7ivh6LjVQ",
-        "artwork": "https://artworks.thetvdb.com/banners/v4/episode/11696605/screencap/6ac64b13f104f.jpg"
-      },
-      "oldArtworkProbe": {
-        "status": 200,
-        "bytes": 57147,
-        "size": [
-          640,
-          360
-        ],
-        "sha256": "f2ef495dd29e15c496c6c32602563b3da1b38a4d140a0e971d3e7fa72a748e00"
-      }
-    }
-  ],
-  "currentlyPresent": [
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696605/screencap/6ac64b13f104f.jpg"
+      ]
+    },
     {
       "code": "S2023E04",
       "episodeId": "11696606",
@@ -1032,6 +633,96 @@
       "artworks": [
         "https://artworks.thetvdb.com/banners/v4/episode/11696644/screencap/6ac64e7dd1307.jpg"
       ]
+    },
+    {
+      "code": "S2025E09",
+      "episodeId": "11696645",
+      "title": "On a INFILTRÉ la cuisine d’un hôtel de luxe",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696645",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696645/screencap/6ac677dbbfbc5.jpg"
+      ]
+    },
+    {
+      "code": "S2025E10",
+      "episodeId": "11696646",
+      "title": "La face cachée de vos Youtubeurs…",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696646",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696646/screencap/6ac677e116577.jpg"
+      ]
+    },
+    {
+      "code": "S2025E11",
+      "episodeId": "11696647",
+      "title": "On a organisé la meilleure soirée de Cannes (Biaggi Party)",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696647",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696647/screencap/6ac677e5b496d.jpg"
+      ]
+    },
+    {
+      "code": "S2025E12",
+      "episodeId": "11696648",
+      "title": "On présente notre PREMIER FILM",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696648",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696648/screencap/6ac677ea37b80.jpg"
+      ]
+    },
+    {
+      "code": "S2025E13",
+      "episodeId": "11696649",
+      "title": "Ces youtubeurs vont m’en vouloir… (Parodie YouTube / Twitch)",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696649",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696649/screencap/6ac677ee9dc49.jpg"
+      ]
+    },
+    {
+      "code": "S2025E14",
+      "episodeId": "11696650",
+      "title": "Est ce qu'on est d'accord avec ANTOINE ? Ft @Djilsi",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696650",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696650/screencap/6ac677f3469b5.jpg"
+      ]
+    },
+    {
+      "code": "S2025E15",
+      "episodeId": "11696651",
+      "title": "Les américains veulent ma peau au GP Explorer....",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696651",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696651/screencap/6ac677f7c0463.jpg"
+      ]
+    },
+    {
+      "code": "S2025E16",
+      "episodeId": "11696652",
+      "title": "Qui aura la scène piégée ? (ft. Mister V, Théodort)",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696652",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696652/screencap/6ac677fcd7b7a.jpg"
+      ]
+    },
+    {
+      "code": "S2025E17",
+      "episodeId": "11696653",
+      "title": "A FOND OU AU FOND (Le dernier vlog GP Explorer)",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696653",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696653/screencap/6ac67801b6175.jpg"
+      ]
+    },
+    {
+      "code": "S2025E18",
+      "episodeId": "11696654",
+      "title": "LE JEU DE LA NOTE (ft Billy, Grim, Elian, Djilsi)",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696654",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696654/screencap/6ac6789052b7f.jpg"
+      ]
     }
   ],
   "blocked": [
@@ -1054,11 +745,11 @@
   "summary": {
     "tvdbEpisodes": 64,
     "youtubeVideos": 64,
-    "writtenHistory": 39,
-    "currentlyPresent": 19,
-    "neverWrittenMissing": 24,
-    "detachedPreviouslyVerified": 20,
-    "detachedOldArtworkStillHTTP200": 20,
+    "writtenHistory": 48,
+    "currentlyPresent": 48,
+    "neverWrittenMissing": 14,
+    "detachedPreviouslyVerified": 1,
+    "detachedOldArtworkStillHTTP200": 1,
     "blocked": 1
   }
 }
