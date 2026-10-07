@@ -6,11 +6,11 @@ from pathlib import Path
 
 OUT=Path('reports/maxime-s2025e01-thumbnail-probe-2026-10-07');OUT.mkdir(parents=True,exist_ok=True)
 vid='EqFLIsSB2hg'
-variants=['maxresdefault.jpg','hq720.jpg','sddefault.jpg','hqdefault.jpg','0.jpg']
+variants=['maxresdefault.jpg','hq720.jpg','sddefault.jpg','hqdefault.jpg','0.jpg','maxresdefault.webp','hq720.webp','sddefault.webp','hqdefault.webp']
 S=requests.Session();S.headers.update({'User-Agent':'Mozilla/5.0'})
 rows=[]
 for name in variants:
- url=f'https://i.ytimg.com/vi/{vid}/{name}'
+ url=(f'https://i.ytimg.com/vi_webp/{vid}/{name}' if name.endswith('.webp') else f'https://i.ytimg.com/vi/{vid}/{name}')
  try:
   r=S.get(url,timeout=20)
   row={'name':name,'url':url,'status':r.status_code,'bytes':len(r.content),'contentType':r.headers.get('content-type')}
