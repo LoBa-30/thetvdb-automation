@@ -1,0 +1,216 @@
+{
+  "generatedAt": "2026-10-07T13:48:36.687Z",
+  "mode": "READ_ONLY_MAXIME_AUTH_V2",
+  "target": {
+    "episodeId": "11696606",
+    "code": "S2023E04",
+    "title": "J'organise une chasse à l'homme dans Paris !!!"
+  },
+  "login": {
+    "postStatus": 302,
+    "postHeaders": {
+      "content-type": "text/html; charset=UTF-8",
+      "transfer-encoding": "chunked",
+      "connection": "keep-alive",
+      "date": "Wed, 07 Oct 2026 13:48:38 GMT",
+      "location": "https://thetvdb.com",
+      "set-cookie": "tvdb_5ce3823a428dc=eyJpdiI6IlZyT1ltcHVPTGJ6V2d4eWo4a1BmNGc9PSIsInZhbHVlIjoiZWpzREVmc2dXYWl1cTNlRUIrUkZJNU4wMWlicElrRFdLRWdIS3Y4ZGZjYnpFMjFoZVkrRFp4djFKZmxTWmZuV0JxZVI1TmlBMzdrdk55bStUeTlEV0E9PSIsIm1hYyI6IjE2YTdjN2MyZWNhZTEyOWE4MDk5NjNkMGQzZDZiOGVlNzcwODljMDM2Yzk2ODdkYWU0YTNmNGU2ZjNmMDVjYWYifQ%3D%3D; expires=Sun, 22-Sep-2086 13:48:38 GMT; Max-Age=1892160000; path=/; domain=thetvdb.com; secure; HttpOnly\nTVDB_AUTHENTICATED=eyJpdiI6IlwvOHdQUmV6elZMK0hrUWJsSUlmTXBBPT0iLCJ2YWx1ZSI6IkUxcG1TcTRlbFhLS2crSzE2OUF0V0E9PSIsIm1hYyI6IjIwY2FiYzJjZDFjNmQxMzZlMGNjZTYxZDUzMWQ2MGFkYTEyN2M3MDJjOTI5NjAwNmUwMDI3OGY5MmM1MTg0MmUifQ%3D%3D; expires=Thu, 08-Oct-2026 06:28:38 GMT; Max-Age=60000; path=/; domain=thetvdb.com; secure; HttpOnly",
+      "server": "nginx",
+      "cache-control": "must-revalidate, no-cache, private",
+      "x-cache": "Miss from cloudfront",
+      "via": "1.1 58e5a0ee8f665c3cee2df5b8285c5964.cloudfront.net (CloudFront)",
+      "x-amz-cf-pop": "PHX50-P2",
+      "x-amz-cf-id": "Dpl0ts6NVPvsQGIBpplO38JJoDCWUU37ew4QB4k2SoSn3Os8B5uXpg=="
+    },
+    "cookiesAfter": [
+      {
+        "name": "_iiq_fdata",
+        "domain": "thetvdb.com",
+        "path": "/",
+        "expires": 1825940917.281949,
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "_ga_E35MMLRF5R",
+        "domain": ".thetvdb.com",
+        "path": "/",
+        "expires": 1825940917.16655,
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "_ga",
+        "domain": ".thetvdb.com",
+        "path": "/",
+        "expires": 1825940918.146163,
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "_lr_retry_request",
+        "domain": "thetvdb.com",
+        "path": "/",
+        "expires": 1791384517,
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "_lr_env_src_ats",
+        "domain": "thetvdb.com",
+        "path": "/",
+        "expires": 1793972917,
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "_cc_id",
+        "domain": ".thetvdb.com",
+        "path": "/",
+        "expires": 1814708917,
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "panoramaId_expiry",
+        "domain": ".thetvdb.com",
+        "path": "/",
+        "expires": 1791467317,
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "__gads",
+        "domain": ".thetvdb.com",
+        "path": "/",
+        "expires": 1825076917,
+        "httpOnly": false,
+        "secure": true
+      },
+      {
+        "name": "__gpi",
+        "domain": ".thetvdb.com",
+        "path": "/",
+        "expires": 1825076917,
+        "httpOnly": false,
+        "secure": true
+      },
+      {
+        "name": "__eoi",
+        "domain": ".thetvdb.com",
+        "path": "/",
+        "expires": 1806932917,
+        "httpOnly": false,
+        "secure": true
+      },
+      {
+        "name": "_ga_CSH06VNRK2",
+        "domain": ".thetvdb.com",
+        "path": "/",
+        "expires": 1825940918.151514,
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "FCCDCF",
+        "domain": ".thetvdb.com",
+        "path": "/",
+        "expires": 1825076918,
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "FCNEC",
+        "domain": ".thetvdb.com",
+        "path": "/",
+        "expires": 1822916918,
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "tvdb_5ce3823a428dc",
+        "domain": ".thetvdb.com",
+        "path": "/",
+        "expires": 1825940918.781238,
+        "httpOnly": true,
+        "secure": true
+      },
+      {
+        "name": "TVDB_AUTHENTICATED",
+        "domain": ".thetvdb.com",
+        "path": "/",
+        "expires": 1791440918.78,
+        "httpOnly": true,
+        "secure": true
+      }
+    ]
+  },
+  "episode": {
+    "http": 200,
+    "pageUrl": "https://thetvdb.com/series/maxime-biaggi/episodes/11696606",
+    "heading": "J'organise une chasse à l'homme dans Paris !!!",
+    "showsLoginLink": false,
+    "body": "Discover Earn Points Support Home / Series / Maxime Biaggi / Aired Order / Season 2023 / Episode 4 J'organise une chasse à l'homme dans Paris !!! français General Cast & Crew ORIGINALLY AIRED March 11, 2023 RUNTIME 25 minutes CREATED March 25, 2026 by rafffff MODIFIED March 25, 2026 by rafffff ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED."
+  },
+  "upload": {
+    "http": 200,
+    "pageUrl": "https://thetvdb.com/artwork/upload?type=11&episode=11696606&series=475945",
+    "title": "Artwork Upload - TheTVDB.com",
+    "forms": [
+      {
+        "action": "/search",
+        "method": "get",
+        "controls": [
+          {
+            "name": "query",
+            "type": "text",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "action": "/artwork/upload_handler",
+        "method": "post",
+        "controls": [
+          {
+            "name": "_token",
+            "type": "hidden",
+            "value": "eaqQFlnWvgK60U0WkB57kgRpDfnHL2U42G7gw6dH"
+          },
+          {
+            "name": "type",
+            "type": "hidden",
+            "value": "11"
+          },
+          {
+            "name": "episode",
+            "type": "hidden",
+            "value": "11696606"
+          },
+          {
+            "name": "series",
+            "type": "hidden",
+            "value": "475945"
+          },
+          {
+            "name": "redirect",
+            "type": "hidden",
+            "value": "/series/maxime-biaggi/episodes/11696606"
+          },
+          {
+            "name": "file",
+            "type": "file",
+            "value": ""
+          },
+          {
+            "name": "url",
+            "type": "text",
+            "value": ""
+          }
+        ]
+      }
+    ],
+    "body": "Discover Earn Points Support Home / Artwork / Upload Episode 16:9 Screencap EPISODE J'organise une chasse à l'homme dans Paris !!! SERIES Maxime Biaggi Instructions Select a file to upload or provide a URL to an image. Once uploaded, you'll be able to crop and resize images to fit our exact requirements (640x360 JPG). Artwork must: Not contain spoilers. Not include nudity, vulgarity, or gore. Not include watermarks or unrelated logos. Not be visibly stretched. Be of high quality (original upload must be at least 640x360). Initial upload must be less than 10M. Additionally, for this artwork type: Episode images should be uploaded in their original aired aspect ratio. If this series has been incorrectly flagged do not adjust the images to match. Please create a support ticket and a moderator will adjust the series for you. Use an official episode image when available. The image should be indicative of the content of the episode without revealing any spoilers. Official images must still follow the text and logo rules above. Wherever possible, especially for newer series, the image should not contain the network watermark/logo. The image should not be a title card and ideally will have no writing on it whatsoever. This allows episode images are supposed to be language-agnostic, and applicable for all translations. Images shouldn't just be a title shot from the episode. We already know the episode's name, we don't need to see it again. Do not just use the same image for every episode. Once again the image should reflect the content of that specific episode. For examples, plus details specific to web series and podcasts, please review our knowledgebase. Select a file: Browse … Or enter a URL (overrides file upload): Continue ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED."
+  },
+  "result": "AUTH_AND_UPLOAD_FORM_PROVEN"
+}
