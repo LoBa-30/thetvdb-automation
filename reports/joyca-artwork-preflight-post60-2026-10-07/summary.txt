@@ -1,0 +1,4 @@
+sourceRows=381
+checked=226
+planned=20
+result=PREFLIGHT_READY
