@@ -31,9 +31,8 @@
       "pdf": "AUDIT THETVDB — ELIAN VENTRE.pdf",
       "status": "IN_PROGRESS_ARTWORK_EDGE_CASES_ONLY",
       "pdfOpenWork": [
-        "All 7 clean official-YouTube 1280x720 missing-artwork candidates identified so far are now applied and post-write verified: S2023E04, S2023E06, S2024E02, S2024E04, S2024E07, S2025E03, S2025E07.",
+        "All 8 clean official-YouTube 1280x720 missing-artwork candidates identified so far are now applied and post-write verified, including S2026E08.",
         "S2023E02 and S2026E02 lack a usable official 16:9 >=640x360 thumbnail; keep artwork Ticket.",
-        "S2026E08 missing artwork still requires exact current YouTube identity/provenance handling alongside the title drift.",
         "1 existing artwork provenance strong-candidate ticket remains: S2026E03."
       ],
       "resolvedSincePlan": [
@@ -47,7 +46,8 @@
         "2026-10-07 12:23Z read-only recheck confirmed S2026E08 currently exposes the exact official YouTube title again. The prior regression self-resolved; no repeat write was made.",
         "2026-10-07 S2024E04 two-stage artwork canary succeeded: stage1 /artwork/upload_handler -> cropper -> Finish /artwork/upload_cropper_handler -> 'Artwork successfully added' -> persistent screencap verified on episode 11092257.",
         "2026-10-07 guarded six-artwork pilot batch added Elian S2024E07 and S2025E03; both returned 'Artwork successfully added' and persistent episode screencaps were verified. Together with the earlier S2024E04 canary, 3 Elian artworks are now fully applied+verified.",
-        "2026-10-07 Elian artwork recovery completed: S2023E04, S2023E06, S2024E02 and S2025E07 all passed fresh live preflight, full two-stage upload/crop/Finish, and persistent post-write verification. Combined with S2024E04/S2024E07/S2025E03, 7 clean candidates are now complete."
+        "2026-10-07 Elian artwork recovery completed: S2023E04, S2023E06, S2024E02 and S2025E07 all passed fresh live preflight, full two-stage upload/crop/Finish, and persistent post-write verification. Combined with S2024E04/S2024E07/S2025E03, 7 clean candidates are now complete.",
+        "2026-10-07 S2026E08 artwork applied after fresh exact-title/identity preflight: official YouTube maxres 1280x720, full two-stage crop/Finish, persistent screencap verified. Elian now has 8 clean missing-artwork candidates fully completed."
       ]
     },
     {
@@ -56,7 +56,7 @@
       "status": "IN_PROGRESS_DATES_EXISTING_ARTWORK_PROVENANCE",
       "pdfOpenWork": [
         "148 in-scope exact YouTube publication dates remain independently unverified; current GitHub runner is blocked by YouTube LOGIN_REQUIRED on all tested public player profiles. Keep as blocked/Ticket; do not bypass.",
-        "All 28 current-video missing artworks from the preflight set are now applied and post-write verified. S2023E19 remains the sole missing-image historical TVDB-only episode and is intentionally left without speculative artwork.",
+        "All 28 current-video missing artworks from the preflight set are applied and post-write verified. S2023E19 is the sole intentionally missing historical TVDB-only artwork.",
         "S2023E19 remains the sole missing-image historical TVDB-only episode with no current public YouTube counterpart; keep/no speculative artwork.",
         "Existing image provenance: 6 strong same-video candidates + 115 origin-unproven; no evidence supporting removal."
       ],
@@ -168,7 +168,7 @@
       "pdf": "AUDIT THETVDB — MCFLY & CARLITO.pdf",
       "status": "IN_PROGRESS_DATES_ARTWORK_HISTORICAL",
       "pdfOpenWork": [
-        "Artwork provenance/completeness remains generally open; GROSSE ANNONCE S2015E01 artwork is now fully applied and verified.",
+        "Artwork provenance/completeness remains generally open; S2015E01 GROSSE ANNONCE artwork is fully applied and verified.",
         "Exact YouTube publication dates remain independently unverified"
       ],
       "resolvedSincePlan": [
@@ -222,7 +222,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T12:59:00Z",
+  "lastUpdatedAt": "2026-10-07T13:00:00Z",
   "latestContinuationCommits": [
     "38c1bbafe19bfbe54c91072ab9419ec91d7715d7",
     "68bb95cb01a3f49ceb6f7e29ee530daac5e07696",
@@ -278,6 +278,10 @@
     "4917e4290e0d08dace48175bbe64a6d5f669dbad",
     "bc8bb2915fce451c4228fc1de058fd4a12beb945",
     "809c954de9acd961f635f934765ebbeaa7b54dd0",
-    "52e53e596ee8f9749a1b1cbd217adb302b815f64"
+    "52e53e596ee8f9749a1b1cbd217adb302b815f64",
+    "bde181e5c39fad844355fb969a901bd9fde0247e",
+    "d243b34fa74236c526e770b4b3211f292373e14b",
+    "926900d8d38141f2ecdf01b4b0b2ec0159446c2e",
+    "2a483c3bcd966424cb36de61552e809d95408650"
   ]
 }
