@@ -30,7 +30,21 @@ rows.sort(key=lambda x:[int(n) if n.isdigit() else n for n in re.split(r'(\d+)',
 
 S=requests.Session();S.headers.update({'User-Agent':'Mozilla/5.0'})
 report={'generatedAt':datetime.now(timezone.utc).isoformat(),'mode':'READ_ONLY_JOYCA_ARTWORK_PREFLIGHT_POST20','sourceRows':len(rows),'checked':[],'planned':[],'counters':{'artworkPresent':0,'titleDrift':0,'imageUnavailable':0,'imageWrongSize':0,'uploadFormScopeDrift':0,'passed':0},'blocked':[],'result':'NOT_STARTED'}
+done=set()
+for rp in Path('reports').glob('joyca-artwork*/report.json'):
+    try:
+        hist=json.loads(rp.read_text(encoding='utf-8'))
+        for row in hist.get('results',[]) or []:
+            if row.get('status') in ('APPLIED_AND_VERIFIED','ALREADY_PRESENT_SKIP') and row.get('code'):
+                done.add(row['code'])
+    except Exception:
+        pass
+report['historicalDone']=len(done)
+
 for p in rows:
+    if p['code'] in done:
+        report['checked'].append({**p,'status':'HISTORY_ALREADY_VERIFIED'})
+        continue
     if len(report['planned'])>=20: break
     try:
         r=S.get(p['url'],timeout=20)
