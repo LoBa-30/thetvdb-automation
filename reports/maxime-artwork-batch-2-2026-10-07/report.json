@@ -1,0 +1,460 @@
+{
+  "generatedAt": "2026-10-07T13:35:23.939Z",
+  "mode": "GUARDED_MAXIME_ARTWORK_BATCH_2",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2022E02",
+    "S2022E03",
+    "S2022E04",
+    "S2022E05",
+    "S2022E06",
+    "S2022E07",
+    "S2022E08",
+    "S2023E01",
+    "S2023E02",
+    "S2023E03"
+  ],
+  "results": [
+    {
+      "code": "S2022E02",
+      "episodeId": "11696590",
+      "title": "UNE SEMAINE POUR FAIRE UNE CHORÉE KPOP EN LIVE (très dur)",
+      "youtubeId": "kJNa_dwN3Lc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UNE SEMAINE POUR FAIRE UNE CHORÉE KPOP EN LIVE (très dur)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/kJNa_dwN3Lc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 134052
+        }
+      },
+      "crop": {
+        "id": "2329004",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64aa2ea1fd.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696590/screencap/6ac64aa438c51.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2022E03",
+      "episodeId": "11696591",
+      "title": "On APPELLE des gens sans les entendre, avec Terracid et Monsieur Poulpe",
+      "youtubeId": "X78I-6b1Nkg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "On APPELLE des gens sans les entendre, avec Terracid et Monsieur Poulpe",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/X78I-6b1Nkg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 119180
+        }
+      },
+      "crop": {
+        "id": "2329006",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64aa87a50c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696591/screencap/6ac64aa9b3486.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2022E04",
+      "episodeId": "11696592",
+      "title": "IL DÉPASSE LES LIMITES AVEC SON AMI !! (Pour faire rire la galerie...)",
+      "youtubeId": "0T5ovr0gWOU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "IL DÉPASSE LES LIMITES AVEC SON AMI !! (Pour faire rire la galerie...)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/0T5ovr0gWOU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 166846
+        }
+      },
+      "crop": {
+        "id": "2329008",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64aade545a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696592/screencap/6ac64aaf30324.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2022E05",
+      "episodeId": "11696593",
+      "title": "J'ai stream 1 an sur Twitch : résultat",
+      "youtubeId": "e1DFgRkxwTU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'ai stream 1 an sur Twitch : résultat",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/e1DFgRkxwTU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 299763
+        }
+      },
+      "crop": {
+        "id": "2329010",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64ab339f85.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696593/screencap/6ac64ab4b6399.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2022E06",
+      "episodeId": "11696595",
+      "title": "On casse un vase et on le refait...",
+      "youtubeId": "647ItVaoFPk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "On casse un vase et on le refait...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/647ItVaoFPk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 149366
+        }
+      },
+      "crop": {
+        "id": "2329012",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64af76788c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696595/screencap/6ac64af8b8eb2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2022E07",
+      "episodeId": "11696597",
+      "title": "Mo7cine : la pépite de Twitch et du Football...",
+      "youtubeId": "DJagWkMzPOY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Mo7cine : la pépite de Twitch et du Football...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/DJagWkMzPOY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 131782
+        }
+      },
+      "crop": {
+        "id": "2329013",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64afcf0e7a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696597/screencap/6ac64afe391cf.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2022E08",
+      "episodeId": "11696599",
+      "title": "On fête Noël dans un Hôtel de luxe ⭐(ft Terracid, Maghla, Sefy, Bezigue, Grimkujow, Luciole)",
+      "youtubeId": "HDtC6jtO160",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "On fête Noël dans un Hôtel de luxe ⭐(ft Terracid, Maghla, Sefy, Bezigue, Grimkujow, Luciole)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/HDtC6jtO160/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 205886
+        }
+      },
+      "crop": {
+        "id": "2329014",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64b026a839.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696599/screencap/6ac64b0392e85.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2023E01",
+      "episodeId": "11696603",
+      "title": "J'ai retrouvé mon passage dans les 12 coups de midi...",
+      "youtubeId": "e6e8LeU_REQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'ai retrouvé mon passage dans les 12 coups de midi...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/e6e8LeU_REQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 183550
+        }
+      },
+      "crop": {
+        "id": "2329015",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64b07d4c9f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696603/screencap/6ac64b092394f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2023E02",
+      "episodeId": "11696604",
+      "title": "Survivre 20 heures dans un hôtel de luxe (challenge impossible)",
+      "youtubeId": "7FcgSYvsb7o",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Survivre 20 heures dans un hôtel de luxe (challenge impossible)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/7FcgSYvsb7o/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 92003
+        }
+      },
+      "crop": {
+        "id": "2329016",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64b0d6014d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696604/screencap/6ac64b0e9112e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2023E03",
+      "episodeId": "11696605",
+      "title": "On pourchasse une voiture, ça tourne mal (Elian devient breton)",
+      "youtubeId": "hX7ivh6LjVQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "On pourchasse une voiture, ça tourne mal (Elian devient breton)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/hX7ivh6LjVQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 115649
+        }
+      },
+      "crop": {
+        "id": "2329017",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64b12c0a3d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696605/screencap/6ac64b13f104f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 10,
+    "processed": 10,
+    "applied": 10,
+    "skipped": 0,
+    "failed": 0
+  }
+}
