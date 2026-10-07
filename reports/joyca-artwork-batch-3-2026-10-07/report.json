@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T15:03:12.791Z",
+  "mode": "GUARDED_JOYCA_ARTWORK_BATCH_3",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2018E05",
+    "S2018E22",
+    "S2018E25",
+    "S2018E28",
+    "S2018E30",
+    "S2018E35",
+    "S2018E37",
+    "S2018E51",
+    "S2018E54",
+    "S2019E06",
+    "S2019E09",
+    "S2019E11",
+    "S2019E12",
+    "S2019E17",
+    "S2019E20",
+    "S2019E28",
+    "S2019E29",
+    "S2019E32",
+    "S2019E37",
+    "S2019E41"
+  ],
+  "results": [
+    {
+      "code": "S2018E05",
+      "episodeId": "6548418",
+      "title": "LES MEILLEURES HALLUCINATIONS AUDITIVES !",
+      "youtubeId": "FUn_9zDAYlU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES MEILLEURES HALLUCINATIONS AUDITIVES !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/FUn_9zDAYlU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 97371
+        }
+      },
+      "crop": {
+        "id": "2329306",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f348c04f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6548418/screencap/6ac65f35af4f3.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E22",
+      "episodeId": "6707167",
+      "title": "LA MEILLEURE HALLUCINATION AUDITIVE !",
+      "youtubeId": "m82fNSMjERE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA MEILLEURE HALLUCINATION AUDITIVE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/m82fNSMjERE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 110015
+        }
+      },
+      "crop": {
+        "id": "2329307",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f3a4edf2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6707167/screencap/6ac65f3b7126a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E25",
+      "episodeId": "6730148",
+      "title": "ON PARODIE DES CLIPS ! (Feat Amixem)",
+      "youtubeId": "_EU-uU1ZvTY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON PARODIE DES CLIPS ! (Feat Amixem)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/_EU-uU1ZvTY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 124039
+        }
+      },
+      "crop": {
+        "id": "2329308",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f3f36eb5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6730148/screencap/6ac65f404d6db.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E28",
+      "episodeId": "6761588",
+      "title": "NOS PIRES ANECDOTES ! (Ft. Vodk, Mahdi ba, Neoxi, Mastu)",
+      "youtubeId": "jtyu7RzqLBo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "NOS PIRES ANECDOTES ! (Ft. Vodk, Mahdi ba, Neoxi, Mastu)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/jtyu7RzqLBo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 117572
+        }
+      },
+      "crop": {
+        "id": "2329309",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f440dba1.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6761588/screencap/6ac65f45231bf.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E30",
+      "episodeId": "6771973",
+      "title": "COMBIEN COUTE MON STUDIO ?",
+      "youtubeId": "NenDnWKwlmw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COMBIEN COUTE MON STUDIO ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/NenDnWKwlmw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 149291
+        }
+      },
+      "crop": {
+        "id": "2329310",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f48b31db.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6771973/screencap/6ac65f49cd4ff.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E35",
+      "episodeId": "6802864",
+      "title": "ON ANIME VOS TWEETS ! (Ft MyFuckinMess)",
+      "youtubeId": "P4X9aSw1_bg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON ANIME VOS TWEETS ! (Ft MyFuckinMess)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/P4X9aSw1_bg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 124436
+        }
+      },
+      "crop": {
+        "id": "2329311",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f4d6dff9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6802864/screencap/6ac65f4eac1a1.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E37",
+      "episodeId": "6820508",
+      "title": "PRODUIT DE LUXE OU COMMUN ? (Ft Amixem)",
+      "youtubeId": "8zo2SXEsPtU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PRODUIT DE LUXE OU COMMUN ? (Ft Amixem)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/8zo2SXEsPtU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 116402
+        }
+      },
+      "crop": {
+        "id": "2329312",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f5298803.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6820508/screencap/6ac65f53b360b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E51",
+      "episodeId": "6942217",
+      "title": "LES PIRES REPRISES MUSICALES ! Feat. Amixem",
+      "youtubeId": "tmD-xZPYSmA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES REPRISES MUSICALES ! Feat. Amixem",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/tmD-xZPYSmA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 116196
+        }
+      },
+      "crop": {
+        "id": "2329313",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f57823ec.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6942217/screencap/6ac65f589e039.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E54",
+      "episodeId": "6984403",
+      "title": "BEST OF 2018 !",
+      "youtubeId": "hS-qVsj-AGI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "BEST OF 2018 !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/hS-qVsj-AGI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 129949
+        }
+      },
+      "crop": {
+        "id": "2329314",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f5c83384.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6984403/screencap/6ac65f5daf1ef.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E06",
+      "episodeId": "7051439",
+      "title": "VOS QUESTIONS SUR LA REDBOX ! (Et sur moi aussi)",
+      "youtubeId": "GPa5JO-i-dI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOS QUESTIONS SUR LA REDBOX ! (Et sur moi aussi)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/GPa5JO-i-dI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 127439
+        }
+      },
+      "crop": {
+        "id": "2329316",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f6173bec.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7051439/screencap/6ac65f628ae75.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E09",
+      "episodeId": "7194745",
+      "title": "LES MEILLEURES HALLUCINATIONS AUDITIVES ! #2",
+      "youtubeId": "qpZ9Un_mBnA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES MEILLEURES HALLUCINATIONS AUDITIVES ! #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/qpZ9Un_mBnA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 142134
+        }
+      },
+      "crop": {
+        "id": "2329317",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f665add2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7194745/screencap/6ac65f676f37b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E11",
+      "episodeId": "7194759",
+      "title": "ON PARODIE NOTRE CLIP ! (Feat Amixem)",
+      "youtubeId": "cVZGDg1M3Fg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON PARODIE NOTRE CLIP ! (Feat Amixem)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/cVZGDg1M3Fg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 140864
+        }
+      },
+      "crop": {
+        "id": "2329318",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f6b47c28.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7194759/screencap/6ac65f6c775e7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E12",
+      "episodeId": "7194769",
+      "title": "JOYCA - PARTY END",
+      "youtubeId": "ar4UwBAlLo0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JOYCA - PARTY END",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ar4UwBAlLo0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 66004
+        }
+      },
+      "crop": {
+        "id": "2329319",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f70448de.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7194769/screencap/6ac65f7162d2b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E17",
+      "episodeId": "7255034",
+      "title": "CES STYLES MUSICAUX SONT IMPROBABLES...",
+      "youtubeId": "HSeWUgQ-2vA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CES STYLES MUSICAUX SONT IMPROBABLES...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/HSeWUgQ-2vA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 125529
+        }
+      },
+      "crop": {
+        "id": "2329320",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f751c8ce.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7255034/screencap/6ac65f7641208.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E20",
+      "episodeId": "7255050",
+      "title": "CES QUESTIONS QUI NOUS RENDENT FOUS !",
+      "youtubeId": "NA3OKQ1YxoE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CES QUESTIONS QUI NOUS RENDENT FOUS !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/NA3OKQ1YxoE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 118444
+        }
+      },
+      "crop": {
+        "id": "2329321",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f7a1fc15.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7255050/screencap/6ac65f7b50876.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E28",
+      "episodeId": "8371680",
+      "title": "JE PARODIE BYE BYE ET MIRADOR ! (Without Music)",
+      "youtubeId": "s1AON2lU5A8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE PARODIE BYE BYE ET MIRADOR ! (Without Music)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/s1AON2lU5A8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 127304
+        }
+      },
+      "crop": {
+        "id": "2329322",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f7fa269c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371680/screencap/6ac65f80c0ba7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E29",
+      "episodeId": "8371681",
+      "title": "Joyca - Haut de Gamme (Feat. Boostee)",
+      "youtubeId": "7HIu0U1wlwk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Joyca - Haut de Gamme (Feat. Boostee)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/7HIu0U1wlwk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 68627
+        }
+      },
+      "crop": {
+        "id": "2329323",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f845f949.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371681/screencap/6ac65f8586833.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E32",
+      "episodeId": "8371684",
+      "title": "PRODUIT DE LUXE OU COMMUN ? #2 (Ft Amixem)",
+      "youtubeId": "53qnZSIr_pk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PRODUIT DE LUXE OU COMMUN ? #2 (Ft Amixem)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/53qnZSIr_pk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 101503
+        }
+      },
+      "crop": {
+        "id": "2329324",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f8926bea.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371684/screencap/6ac65f8a4cf47.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E37",
+      "episodeId": "8371689",
+      "title": "LE MEILLEUR BLIND TEST ! (Le perdant compte des trous)",
+      "youtubeId": "oeVE4Simacs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE MEILLEUR BLIND TEST ! (Le perdant compte des trous)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/oeVE4Simacs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 107736
+        }
+      },
+      "crop": {
+        "id": "2329325",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f8de472c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371689/screencap/6ac65f8f49de1.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E41",
+      "episodeId": "8371693",
+      "title": "LE MEILLEUR SETUP GAMING ! (ft. Julien Lepers)",
+      "youtubeId": "J5tAek2_5Go",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE MEILLEUR SETUP GAMING ! (ft. Julien Lepers)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/J5tAek2_5Go/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 137171
+        }
+      },
+      "crop": {
+        "id": "2329327",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65f932103c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371693/screencap/6ac65f943a86c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
