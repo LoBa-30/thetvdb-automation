@@ -1,0 +1,8 @@
+armed=true
+authenticated=true
+writes=0
+verifications=0
+rollbacks=0
+blocked=1
+newEpisodeId=
+result=BLOCKED_BEFORE_WRITES

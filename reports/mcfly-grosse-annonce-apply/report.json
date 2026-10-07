@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-10-07T09:31:49.394Z",
+  "mode": "GROSSE_ANNONCE_GUARDED_CHRONOLOGICAL_INSERT",
+  "armed": true,
+  "authenticated": true,
+  "target": {
+    "youtubeId": "fttKpTYRdMs",
+    "title": "GROSSE ANNONCE",
+    "date": "2015-04-12",
+    "durationSeconds": 78,
+    "runtimeMinutes": 1,
+    "season": 2015,
+    "number": 1
+  },
+  "checks": [
+    {
+      "type": "PERSISTED_DATE_PROOF",
+      "ok": true,
+      "source": "reports/mcfly-grosse-annonce-date-proof-2026-10-07.json"
+    },
+    {
+      "type": "PERSISTED_RUNTIME_IDENTITY_PROOF",
+      "ok": true,
+      "durationSeconds": 78,
+      "duration": "1:18"
+    },
+    {
+      "type": "PRIOR_ZERO_WRITE_PREFLIGHT",
+      "ok": true,
+      "generatedAt": "2026-10-07T09:29:19.898Z"
+    },
+    {
+      "type": "FRESH_SEASON_STATE",
+      "ok": true,
+      "rows": [
+        {
+          "internalId": "7933117",
+          "publicId": "10752678",
+          "title": "LE FAT SHOW S3E1 Feat. CYPRIEN",
+          "number": 1
+        },
+        {
+          "internalId": "7933154",
+          "publicId": "10752715",
+          "title": "LE FAT SHOW S3E2 Feat. NATOO",
+          "number": 2
+        },
+        {
+          "internalId": "7933155",
+          "publicId": "10752716",
+          "title": "LE FAT SHOW S3E3 Feat. BUN HAY MEAN",
+          "number": 3
+        },
+        {
+          "internalId": "7933156",
+          "publicId": "10752717",
+          "title": "LE FAT SHOW S3E4 Feat. SLIM BERHOUN",
+          "number": 4
+        }
+      ]
+    },
+    {
+      "type": "NO_ASSIGNED_EXACT_TITLE",
+      "ok": true
+    },
+    {
+      "type": "NO_UNASSIGNED_COLLISION",
+      "ok": true
+    }
+  ],
+  "writes": [],
+  "verifications": [],
+  "rollbackAttempts": [],
+  "blocked": [
+    {
+      "reason": "Error: Unexpected season save action /series/338282-show/official/2151840/saveseason\n    at renumber (file:///home/runner/work/thetvdb-automation/thetvdb-automation/src/mcfly-grosse-annonce-apply.js:183:31)\n    at async file:///home/runner/work/thetvdb-automation/thetvdb-automation/src/mcfly-grosse-annonce-apply.js:263:3"
+    }
+  ],
+  "result": "BLOCKED_BEFORE_WRITES"
+}
