@@ -1,0 +1,902 @@
+{
+  "generatedAt": "2026-10-07T15:00:13.549Z",
+  "mode": "GUARDED_DJILSI_ARTWORK_BATCH_4_SERIAL",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2019E42",
+    "S2019E43",
+    "S2019E44",
+    "S2019E45",
+    "S2020E01",
+    "S2020E02",
+    "S2020E03",
+    "S2020E04",
+    "S2020E05",
+    "S2020E06",
+    "S2020E07",
+    "S2020E08",
+    "S2020E09",
+    "S2020E10",
+    "S2020E11",
+    "S2020E12",
+    "S2020E13",
+    "S2020E14",
+    "S2020E15",
+    "S2020E16"
+  ],
+  "results": [
+    {
+      "code": "S2019E42",
+      "episodeId": "9243076",
+      "title": "LE PIRE COACH SPORTIF 2 ! CACHE LA CAM #15",
+      "youtubeId": "LEN47zJhgaM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PIRE COACH SPORTIF 2 ! CACHE LA CAM #15",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/LEN47zJhgaM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 144395
+        }
+      },
+      "crop": {
+        "id": "2329285",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65e817123c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243076/screencap/6ac65e82769e4.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E43",
+      "episodeId": "9243077",
+      "title": "LA NUIT OÙ JE SUIS DEVENU FOU !",
+      "youtubeId": "YNWRyi9aP2o",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA NUIT OÙ JE SUIS DEVENU FOU !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/YNWRyi9aP2o/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 105803
+        }
+      },
+      "crop": {
+        "id": "2329286",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65e8616b12.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243077/screencap/6ac65e88238d1.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E44",
+      "episodeId": "9243078",
+      "title": "VICTIMES D’UN PICKPOCKET EN ESPAGNE !",
+      "youtubeId": "eK-WYdeiAKI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VICTIMES D’UN PICKPOCKET EN ESPAGNE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/eK-WYdeiAKI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 125247
+        }
+      },
+      "crop": {
+        "id": "2329287",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65e8bec646.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243078/screencap/6ac65e8d160ae.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E45",
+      "episodeId": "9243079",
+      "title": "LE PIRE TATOUEUR DU MONDE ! CACHE LA CAM #16",
+      "youtubeId": "XwAzcWbhl5E",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PIRE TATOUEUR DU MONDE ! CACHE LA CAM #16",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/XwAzcWbhl5E/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 138112
+        }
+      },
+      "crop": {
+        "id": "2329288",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65e90ac0f2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243079/screencap/6ac65e91d1a8a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E01",
+      "episodeId": "9243086",
+      "title": "ON DONNE LES CADEAUX DU LIVE DE MCFLY & CARLITO !",
+      "youtubeId": "OHNCCBilaNk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON DONNE LES CADEAUX DU LIVE DE MCFLY & CARLITO !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/OHNCCBilaNk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 144131
+        }
+      },
+      "crop": {
+        "id": "2329289",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65e9524a1b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243086/screencap/6ac65e9674514.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E02",
+      "episodeId": "9243081",
+      "title": "POURQUOI J'AI FAIT ÇA...",
+      "youtubeId": "pz8RiiRKiFs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "POURQUOI J'AI FAIT ÇA...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/pz8RiiRKiFs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 146202
+        }
+      },
+      "crop": {
+        "id": "2329290",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65e99de519.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243081/screencap/6ac65e9ae5bec.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E03",
+      "episodeId": "9243082",
+      "title": "PARTIR SUR UN POINT GPS AU HASARD ! #OnVaOù3",
+      "youtubeId": "Ip2WndMWyiE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PARTIR SUR UN POINT GPS AU HASARD ! #OnVaOù3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Ip2WndMWyiE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 110599
+        }
+      },
+      "crop": {
+        "id": "2329291",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65e9ed38a3.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243082/screencap/6ac65e9fed4c8.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E04",
+      "episodeId": "9243083",
+      "title": "LA SOIRÉE DU CHAOS ! #OnVaOù3",
+      "youtubeId": "XJ86fGSf9Ro",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA SOIRÉE DU CHAOS ! #OnVaOù3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/XJ86fGSf9Ro/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 152898
+        }
+      },
+      "crop": {
+        "id": "2329292",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65ea376517.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243083/screencap/6ac65ea480a2d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E05",
+      "episodeId": "9243084",
+      "title": "DES CONFLITS AU SEIN DU GROUPE !! #OnVaOù3",
+      "youtubeId": "z_cL4We9xVY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DES CONFLITS AU SEIN DU GROUPE !! #OnVaOù3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/z_cL4We9xVY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 151386
+        }
+      },
+      "crop": {
+        "id": "2329293",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65ea807ae5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243084/screencap/6ac65ea9157e3.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E06",
+      "episodeId": "9243085",
+      "title": "LA CAUTION DOIT SAUTER !! #OnVaOù3",
+      "youtubeId": "-UA7eqeMhWE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA CAUTION DOIT SAUTER !! #OnVaOù3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/-UA7eqeMhWE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 98855
+        }
+      },
+      "crop": {
+        "id": "2329294",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65eac7970a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243085/screencap/6ac65ead9951d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E07",
+      "episodeId": "9243130",
+      "title": "ON A FAIT N’IMPORTE QUOI... #OnVaOù3",
+      "youtubeId": "Ca6t_KCHl1I",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON A FAIT N’IMPORTE QUOI... #OnVaOù3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Ca6t_KCHl1I/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 112037
+        }
+      },
+      "crop": {
+        "id": "2329295",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65eb118633.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243130/screencap/6ac65eb22a62c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E08",
+      "episodeId": "9243132",
+      "title": "ON A DÉTRUIT L'HOTEL ! (désolé) #OnVaOù3",
+      "youtubeId": "rThNTvMl7LY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON A DÉTRUIT L'HOTEL ! (désolé) #OnVaOù3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/rThNTvMl7LY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 74258
+        }
+      },
+      "crop": {
+        "id": "2329296",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65eb57af45.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243132/screencap/6ac65eb690ab2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E09",
+      "episodeId": "9243133",
+      "title": "J'AI FAILLI TOUT PERDRE !! #OnVaOù3 (final saison 3)",
+      "youtubeId": "VKYw0KcOo-M",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'AI FAILLI TOUT PERDRE !! #OnVaOù3 (final saison 3)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/VKYw0KcOo-M/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 102572
+        }
+      },
+      "crop": {
+        "id": "2329297",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65eba205d9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243133/screencap/6ac65ebb3c53c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E10",
+      "episodeId": "9243134",
+      "title": "MES MEILLEURES (ou pires) STORIES INSTAGRAM",
+      "youtubeId": "E4y2HBJf4pA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MES MEILLEURES (ou pires) STORIES INSTAGRAM",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/E4y2HBJf4pA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 111836
+        }
+      },
+      "crop": {
+        "id": "2329298",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65ebeb1110.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243134/screencap/6ac65ebfbd431.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E11",
+      "episodeId": "9243135",
+      "title": "IL A ABUSÉ !! (en vrai c’est drôle)",
+      "youtubeId": "gnXYFtErJOo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "IL A ABUSÉ !! (en vrai c’est drôle)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/gnXYFtErJOo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 79269
+        }
+      },
+      "crop": {
+        "id": "2329299",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65ec36102b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243135/screencap/6ac65ec485ef0.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E12",
+      "episodeId": "9243136",
+      "title": "J'AI INSULTÉ UN PROF !",
+      "youtubeId": "IdUwEcrcJ4Q",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'AI INSULTÉ UN PROF !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/IdUwEcrcJ4Q/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 132426
+        }
+      },
+      "crop": {
+        "id": "2329300",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65ec7df19c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243136/screencap/6ac65ec902585.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E13",
+      "episodeId": "9243137",
+      "title": "TU PERDS, TU POMPES !",
+      "youtubeId": "pbSaFUNheN8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "TU PERDS, TU POMPES !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/pbSaFUNheN8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 195145
+        }
+      },
+      "crop": {
+        "id": "2329301",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65ecc9fa8a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243137/screencap/6ac65ecdc7b80.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E14",
+      "episodeId": "9243138",
+      "title": "J’AI CRAQUÉ AVANT LA FIN...",
+      "youtubeId": "mYBe6oMWux8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J’AI CRAQUÉ AVANT LA FIN...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/mYBe6oMWux8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 120234
+        }
+      },
+      "crop": {
+        "id": "2329302",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65ed1486e9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243138/screencap/6ac65ed268d45.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E15",
+      "episodeId": "9243139",
+      "title": "JE ME SUIS BATTU AVEC UN ENFANT (jai gagné)",
+      "youtubeId": "Xp3I1S7ltGQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE ME SUIS BATTU AVEC UN ENFANT (jai gagné)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Xp3I1S7ltGQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 88415
+        }
+      },
+      "crop": {
+        "id": "2329303",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65ed5ce7eb.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243139/screencap/6ac65ed6dfcf5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E16",
+      "episodeId": "9243140",
+      "title": "NOTRE VIE VA CHANGER !!",
+      "youtubeId": "0IX7slwDIHY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "NOTRE VIE VA CHANGER !!",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/0IX7slwDIHY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 146843
+        }
+      },
+      "crop": {
+        "id": "2329304",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65eda4ab2e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243140/screencap/6ac65edb630d7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "reauthCount": 1,
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "safeBlocked": 0,
+    "failedAfterWrite": 0
+  }
+}
