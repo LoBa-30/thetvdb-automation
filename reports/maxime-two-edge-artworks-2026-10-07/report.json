@@ -1,0 +1,150 @@
+{
+  "generatedAt": "2026-10-07T17:08:56.323159+00:00",
+  "mode": "READ_ONLY_MAXIME_TWO_EDGE_ARTWORKS",
+  "probes": {
+    "S2025E01": [
+      {
+        "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/maxresdefault.jpg",
+        "status": 404,
+        "bytes": 1097,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/maxresdefault.webp",
+        "status": 404,
+        "bytes": 1097,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/hq720.jpg",
+        "status": 404,
+        "bytes": 1097,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/sddefault.jpg",
+        "status": 404,
+        "bytes": 1097,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/hqdefault.jpg",
+        "status": 200,
+        "bytes": 20684,
+        "contentType": "image/jpeg",
+        "size": [
+          480,
+          360
+        ],
+        "sha256": "b2b30a52b1bb4c08d3195f3c8cb09ce2a18c654f7e2d1b56b8791ec2b906464c"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/mqdefault.jpg",
+        "status": 200,
+        "bytes": 13540,
+        "contentType": "image/jpeg",
+        "size": [
+          320,
+          180
+        ],
+        "sha256": "ed5bdc9a8721e76269990c87b41da74ee758b54e7bd272bc7cb1485c80665c89"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/0.jpg",
+        "status": 200,
+        "bytes": 20684,
+        "contentType": "image/jpeg",
+        "size": [
+          480,
+          360
+        ],
+        "sha256": "b2b30a52b1bb4c08d3195f3c8cb09ce2a18c654f7e2d1b56b8791ec2b906464c"
+      }
+    ],
+    "S2019E01": [
+      {
+        "url": "https://i.ytimg.com/vi/3X0piITkOTE/maxresdefault.jpg",
+        "status": 200,
+        "bytes": 91144,
+        "contentType": "image/jpeg",
+        "size": [
+          1280,
+          720
+        ],
+        "sha256": "9246fa127d2d2e5c3b11b694ef4bfac797f7d05fbca1f25738c7c85aacfdebae"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/3X0piITkOTE/maxresdefault.webp",
+        "status": 404,
+        "bytes": 1097,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/3X0piITkOTE/hq720.jpg",
+        "status": 200,
+        "bytes": 91144,
+        "contentType": "image/jpeg",
+        "size": [
+          1280,
+          720
+        ],
+        "sha256": "9246fa127d2d2e5c3b11b694ef4bfac797f7d05fbca1f25738c7c85aacfdebae"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/3X0piITkOTE/sddefault.jpg",
+        "status": 200,
+        "bytes": 40119,
+        "contentType": "image/jpeg",
+        "size": [
+          640,
+          480
+        ],
+        "sha256": "93409d076eb73ca658d358ebe042d1250ce3d14c8ea64d77bc6366cc84edf074"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/3X0piITkOTE/hqdefault.jpg",
+        "status": 200,
+        "bytes": 27025,
+        "contentType": "image/jpeg",
+        "size": [
+          480,
+          360
+        ],
+        "sha256": "4820afb04a4111baf47c42165082a1c9697cf7dd986a1126bfd7286de14f3b95"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/3X0piITkOTE/mqdefault.jpg",
+        "status": 200,
+        "bytes": 14285,
+        "contentType": "image/jpeg",
+        "size": [
+          320,
+          180
+        ],
+        "sha256": "21d2a0b23261232a62516e5bea4f94d8cab2610f77b5d9ba065e28e63dd67c7c"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/3X0piITkOTE/0.jpg",
+        "status": 200,
+        "bytes": 27025,
+        "contentType": "image/jpeg",
+        "size": [
+          480,
+          360
+        ],
+        "sha256": "4820afb04a4111baf47c42165082a1c9697cf7dd986a1126bfd7286de14f3b95"
+      }
+    ]
+  },
+  "s2019OldArtwork": {
+    "url": "https://artworks.thetvdb.com/banners/v4/episode/11696580/screencap/6ac6494b1c107.jpg",
+    "status": 200,
+    "bytes": 46673,
+    "contentType": "image/jpeg",
+    "size": [
+      640,
+      360
+    ],
+    "sha256": "03b5e3202ff713a20864bd2d604728b5c68d488dd5f52f67d062537a1f80361c"
+  }
+}
