@@ -1,0 +1,766 @@
+{
+  "generatedAt": "2026-10-07T15:47:50.132Z",
+  "mode": "GUARDED_JOYCA_ARTWORK_BATCH_5",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2016E01",
+    "S2016E04",
+    "S2016E09",
+    "S2016E19",
+    "S2016E20",
+    "S2016E29",
+    "S2016E31",
+    "S2016E34",
+    "S2017E08",
+    "S2017E13",
+    "S2017E17",
+    "S2017E18",
+    "S2017E21",
+    "S2017E30",
+    "S2017E33",
+    "S2017E36",
+    "S2018E08",
+    "S2018E20",
+    "S2018E32",
+    "S2018E45"
+  ],
+  "results": [
+    {
+      "code": "S2016E01",
+      "episodeId": "6342668",
+      "title": "MANUEL VALLS - NOUS L'ASSUMONS // LOI TRAVAIL (REMIX)",
+      "youtubeId": "wM3jVu71SXk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MANUEL VALLS - NOUS L'ASSUMONS // LOI TRAVAIL (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/wM3jVu71SXk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 158363
+        }
+      },
+      "crop": {
+        "id": "2329491",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669aa19c4a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342668/screencap/6ac669ab3a0e7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E04",
+      "episodeId": "6342671",
+      "title": "PASCAL & RICHARD - MAMAN (REMIX)",
+      "youtubeId": "we3r6hO0Lqw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PASCAL & RICHARD - MAMAN (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/we3r6hO0Lqw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 133570
+        }
+      },
+      "crop": {
+        "id": "2329492",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669b12f218.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342671/screencap/6ac669b252c3b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E09",
+      "episodeId": "6342696",
+      "title": "LE BLED'ART - LA MERGUEZ ACADEMY (REMIX)",
+      "youtubeId": "T3gSMb16do8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE BLED'ART - LA MERGUEZ ACADEMY (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/T3gSMb16do8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 146881
+        }
+      },
+      "crop": {
+        "id": "2329493",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669b633f31.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342696/screencap/6ac669b754ef5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E19",
+      "episodeId": "6342730",
+      "title": "YOUTUNES - J'AIME LES CHATS (MUSIQUE)",
+      "youtubeId": "JOfqoq3_mEE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "YOUTUNES - J'AIME LES CHATS (MUSIQUE)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/JOfqoq3_mEE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 127110
+        }
+      },
+      "crop": {
+        "id": "2329494",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669bb26e32.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342730/screencap/6ac669bc4115f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E20",
+      "episodeId": "6342731",
+      "title": "NORMAN - J'AURAI DES MUSCLES (REMIX)",
+      "youtubeId": "st7NoAenjqM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "NORMAN - J'AURAI DES MUSCLES (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/st7NoAenjqM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 146531
+        }
+      },
+      "crop": {
+        "id": "2329495",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669c022758.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342731/screencap/6ac669c14758c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E29",
+      "episodeId": "6342761",
+      "title": "CBGAMES - OH BÉBÉ (REMIX)",
+      "youtubeId": "b65vzV698os",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CBGAMES - OH BÉBÉ (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/b65vzV698os/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 121259
+        }
+      },
+      "crop": {
+        "id": "2329496",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669c513150.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342761/screencap/6ac669c62f555.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E31",
+      "episodeId": "6342778",
+      "title": "SOPRANO - T'ES UN BEAUF (PARODIE)",
+      "youtubeId": "LAfLD0GPBXM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SOPRANO - T'ES UN BEAUF (PARODIE)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/LAfLD0GPBXM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 81941
+        }
+      },
+      "crop": {
+        "id": "2329497",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669c9e95fe.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342778/screencap/6ac669cb18e6a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E34",
+      "episodeId": "6342795",
+      "title": "PNL & SCH - GESTES DE PREMIERS SECOURS ( PARODIE )",
+      "youtubeId": "aIHPx6GjEo4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PNL & SCH - GESTES DE PREMIERS SECOURS ( PARODIE )",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/aIHPx6GjEo4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 144839
+        }
+      },
+      "crop": {
+        "id": "2329498",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669cf17dfe.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342795/screencap/6ac669d09b06f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E08",
+      "episodeId": "6342879",
+      "title": "FAROD - LE JEU A PLANTÉ ! (REMIX)",
+      "youtubeId": "zPUW-V677lw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FAROD - LE JEU A PLANTÉ ! (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/zPUW-V677lw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 336621
+        }
+      },
+      "crop": {
+        "id": "2329499",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669d55a51f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342879/screencap/6ac669d671e5f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E13",
+      "episodeId": "6342905",
+      "title": "KEBLACK - MAQUILLÉE (PARODIE)",
+      "youtubeId": "GayXNrb-TK4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "KEBLACK - MAQUILLÉE (PARODIE)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/GayXNrb-TK4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 116832
+        }
+      },
+      "crop": {
+        "id": "2329500",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669da47479.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342905/screencap/6ac669db5d3e0.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E17",
+      "episodeId": "6342910",
+      "title": "ON CHANTE EN IMPRO AVEC DE L'AUTOTUNE !",
+      "youtubeId": "jEwsneWOOuM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON CHANTE EN IMPRO AVEC DE L'AUTOTUNE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/jEwsneWOOuM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 181647
+        }
+      },
+      "crop": {
+        "id": "2329501",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669df49fcf.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342910/screencap/6ac669e063fde.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E18",
+      "episodeId": "6342911",
+      "title": "MC FLY & CARLITO Ft FLOBER - CA M'INTERESSE PAS ! (REMIX)",
+      "youtubeId": "5XUzzH7Io3Y",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MC FLY & CARLITO Ft FLOBER - CA M'INTERESSE PAS ! (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/5XUzzH7Io3Y/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 142627
+        }
+      },
+      "crop": {
+        "id": "2329502",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669e45b532.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342911/screencap/6ac669e574e4a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E21",
+      "episodeId": "6342916",
+      "title": "J'AI RENCONTRÉ YOUSSOUPHA !",
+      "youtubeId": "I98ru7UIRqI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'AI RENCONTRÉ YOUSSOUPHA !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/I98ru7UIRqI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 122355
+        }
+      },
+      "crop": {
+        "id": "2329503",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669e9655a9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342916/screencap/6ac669ea94475.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E30",
+      "episodeId": "6342940",
+      "title": "LUIS FONSI - J'VAIS VOUS PECHO (PARODIE)",
+      "youtubeId": "rBPrIwwMYAw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LUIS FONSI - J'VAIS VOUS PECHO (PARODIE)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/rBPrIwwMYAw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 63296
+        }
+      },
+      "crop": {
+        "id": "2329504",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669ee5c6af.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342940/screencap/6ac669ef865ab.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E33",
+      "episodeId": "6342943",
+      "title": "AMIXEM ME PRANK ! (JE DECIDE DE CONTINUER À VIVRE)",
+      "youtubeId": "jNkdJJhouso",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "AMIXEM ME PRANK ! (JE DECIDE DE CONTINUER À VIVRE)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/jNkdJJhouso/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 78569
+        }
+      },
+      "crop": {
+        "id": "2329505",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669f360281.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342943/screencap/6ac669f488087.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E36",
+      "episodeId": "6342946",
+      "title": "J'AI FAIT RAPPER PEWDIEPIE !",
+      "youtubeId": "xX0iR550jLM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'AI FAIT RAPPER PEWDIEPIE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/xX0iR550jLM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 159649
+        }
+      },
+      "crop": {
+        "id": "2329506",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669f868a37.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342946/screencap/6ac669f98ce22.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E08",
+      "episodeId": "6596770",
+      "title": "J'AI JOUÉ DANS UN FILM !",
+      "youtubeId": "JN_rfagFBhI",
+      "status": "STAGE1_ONLY_STOP_DO_NOT_RETRY",
+      "preflight": {
+        "heading": "J'AI JOUÉ DANS UN FILM !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/JN_rfagFBhI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 87777
+        }
+      },
+      "crop": {
+        "id": "2329507",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669fd8dd11.jpeg"
+      },
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "locator.innerText: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('body')\n"
+        }
+      ],
+      "stage1": {
+        "status": 200
+      }
+    }
+  ],
+  "stopped": true,
+  "stopReason": "S2018E08: locator.innerText: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('body')\n",
+  "result": "BATCH_STOPPED_ON_GUARD",
+  "summary": {
+    "requested": 20,
+    "processed": 17,
+    "applied": 16,
+    "skipped": 0,
+    "failed": 1
+  }
+}

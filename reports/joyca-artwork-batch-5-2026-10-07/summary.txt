@@ -1,0 +1,8 @@
+authenticated=true
+requested=20
+processed=17
+applied=16
+skipped=0
+failed=1
+stopped=true
+result=BATCH_STOPPED_ON_GUARD
