@@ -1,0 +1,36 @@
+name: Djilsi text-free frame candidates
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/djilsi-textfree-frame-candidates.yml'
+      - 'src/djilsi-textfree-frame-candidates.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests pillow
+      - name: Build Djilsi text-free frame candidates
+        run: python src/djilsi-textfree-frame-candidates.py
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/djilsi-textfree-frame-candidates-2026-10-07/report.json reports/djilsi-textfree-frame-candidates-2026-10-07/summary.txt
+          git commit -m "Record Djilsi text-free frame candidate report [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: djilsi-textfree-frame-candidates
+          path: reports/djilsi-textfree-frame-candidates-2026-10-07/
