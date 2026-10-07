@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T13:58:34.624Z",
+  "mode": "GUARDED_SQUEEZIE_ARTWORK_BATCH_3",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2011E122",
+    "S2011E123",
+    "S2012E07",
+    "S2012E08",
+    "S2012E10",
+    "S2012E11",
+    "S2012E16",
+    "S2012E24",
+    "S2012E25",
+    "S2012E28",
+    "S2012E29",
+    "S2012E30",
+    "S2012E31",
+    "S2012E33",
+    "S2012E35",
+    "S2012E37",
+    "S2012E38",
+    "S2012E39",
+    "S2012E44",
+    "S2012E50"
+  ],
+  "results": [
+    {
+      "code": "S2011E122",
+      "episodeId": "5313891",
+      "title": "Best of intros !",
+      "youtubeId": "JDZHgAWNU6I",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Best of intros !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/JDZHgAWNU6I/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 74514
+        }
+      },
+      "crop": {
+        "id": "2329056",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6500e28a65.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313891/screencap/6ac650112dca5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2011E123",
+      "episodeId": "5313892",
+      "title": "Le fanboy le plus marrant du monde !",
+      "youtubeId": "dNZqi7tk6vA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Le fanboy le plus marrant du monde !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/dNZqi7tk6vA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 90778
+        }
+      },
+      "crop": {
+        "id": "2329057",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65014e1886.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313892/screencap/6ac6501614530.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E07",
+      "episodeId": "5313923",
+      "title": "Battlefield 3 : Nos plus belles conneries !",
+      "youtubeId": "kgx7tnmhA-w",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Battlefield 3 : Nos plus belles conneries !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/kgx7tnmhA-w/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 193696
+        }
+      },
+      "crop": {
+        "id": "2329058",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6501997222.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313923/screencap/6ac6501ac68c3.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E08",
+      "episodeId": "5313924",
+      "title": "Black Ops | Toilettary | Les reportages bidons !",
+      "youtubeId": "g1P0W7fzsPs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Black Ops | Toilettary | Les reportages bidons !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/g1P0W7fzsPs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 140861
+        }
+      },
+      "crop": {
+        "id": "2329059",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6501e70042.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313924/screencap/6ac6501f9be99.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E10",
+      "episodeId": "5313927",
+      "title": "Rayman Origins avec FeZzo | Que de fou rire ! Jeu EPIC",
+      "youtubeId": "swMyw7zsSoU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Rayman Origins avec FeZzo | Que de fou rire ! Jeu EPIC",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/swMyw7zsSoU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 73671
+        }
+      },
+      "crop": {
+        "id": "2329060",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6502391512.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313927/screencap/6ac65024abd65.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E11",
+      "episodeId": "5313928",
+      "title": "Mode zombie, nous voulons notre revanche !",
+      "youtubeId": "8OcxUPnZ8LU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Mode zombie, nous voulons notre revanche !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/8OcxUPnZ8LU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 87601
+        }
+      },
+      "crop": {
+        "id": "2329061",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6502831e7e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313928/screencap/6ac65029578ea.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E16",
+      "episodeId": "5313933",
+      "title": "Hello Riche : 40.000 P*TAIN DE F*CKING ABONN*S !",
+      "youtubeId": "2a25GnSVDoM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Hello Riche : 40.000 P*TAIN DE F*CKING ABONN*S !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/2a25GnSVDoM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 109093
+        }
+      },
+      "crop": {
+        "id": "2329062",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6502ce7cf3.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313933/screencap/6ac6502e10e9c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E24",
+      "episodeId": "5313941",
+      "title": "Mode relax avec Gillowel : Apprenez beaucoup de choses !",
+      "youtubeId": "7eZIOnl1L3w",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Mode relax avec Gillowel : Apprenez beaucoup de choses !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/7eZIOnl1L3w/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 124119
+        }
+      },
+      "crop": {
+        "id": "2329063",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650319d108.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313941/screencap/6ac65032ce303.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E25",
+      "episodeId": "5313942",
+      "title": "SSX | TRICKYYY !",
+      "youtubeId": "KqWlXJl9Xw8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SSX | TRICKYYY !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/KqWlXJl9Xw8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 114250
+        }
+      },
+      "crop": {
+        "id": "2329064",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650364cd3f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313942/screencap/6ac6503768a6d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E28",
+      "episodeId": "5313945",
+      "title": "Black Ops | LA BLAGUE INTERNATIONALE DU PROF !",
+      "youtubeId": "G6RTrTduoPE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Black Ops | LA BLAGUE INTERNATIONALE DU PROF !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/G6RTrTduoPE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 142824
+        }
+      },
+      "crop": {
+        "id": "2329065",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6503ac22a4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313945/screencap/6ac6503bee7d0.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E29",
+      "episodeId": "5313946",
+      "title": "Happy Wheels | Le bug de la rue !",
+      "youtubeId": "j7y_dtQxqFM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Happy Wheels | Le bug de la rue !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/j7y_dtQxqFM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 108243
+        }
+      },
+      "crop": {
+        "id": "2329066",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6503f6663d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313946/screencap/6ac6504096d2d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E30",
+      "episodeId": "5313947",
+      "title": "COD 4 | Seul dans la classe !",
+      "youtubeId": "RRFURQITXYY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COD 4 | Seul dans la classe !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/RRFURQITXYY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 211900
+        }
+      },
+      "crop": {
+        "id": "2329067",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65044bc666.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313947/screencap/6ac65045d67fc.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E31",
+      "episodeId": "5313948",
+      "title": "Killing floor | Le blanc fatal | Extermination de zombies avec MrBboy45 et DarkFuneral97two !",
+      "youtubeId": "C4ybD7sIza4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Killing floor | Le blanc fatal | Extermination de zombies avec MrBboy45 et DarkFuneral97two !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/C4ybD7sIza4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 111032
+        }
+      },
+      "crop": {
+        "id": "2329069",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6504973dd8.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313948/screencap/6ac6504a902b0.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E33",
+      "episodeId": "5313950",
+      "title": "SQUEEZIE - CALL OF DUTY",
+      "youtubeId": "acblDww0DQo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SQUEEZIE - CALL OF DUTY",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/acblDww0DQo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 138780
+        }
+      },
+      "crop": {
+        "id": "2329070",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6504e39f29.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313950/screencap/6ac6504f6b30e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E35",
+      "episodeId": "5313952",
+      "title": "SQUEEZIE - LES MAUVAISES HALEINES",
+      "youtubeId": "fx_qL3S8DwQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SQUEEZIE - LES MAUVAISES HALEINES",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/fx_qL3S8DwQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 148801
+        }
+      },
+      "crop": {
+        "id": "2329071",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6505316dd5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313952/screencap/6ac6505447b3e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E37",
+      "episodeId": "5313955",
+      "title": "Amnesia: Dark Room | PEDOBEARLANDS ! Dual Face Commentary avec Sounsoun !",
+      "youtubeId": "urDTENroWjo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Amnesia: Dark Room | PEDOBEARLANDS ! Dual Face Commentary avec Sounsoun !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/urDTENroWjo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 122504
+        }
+      },
+      "crop": {
+        "id": "2329072",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65057cab30.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313955/screencap/6ac6505909fba.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E38",
+      "episodeId": "5313956",
+      "title": "SQUEEZIE - LE ZAPPING DU FAUX PLAGIAT",
+      "youtubeId": "ehGosUiklwk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SQUEEZIE - LE ZAPPING DU FAUX PLAGIAT",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ehGosUiklwk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 126144
+        }
+      },
+      "crop": {
+        "id": "2329073",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6505ca5830.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313956/screencap/6ac6505dcbc1e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E39",
+      "episodeId": "5313957",
+      "title": "Black ops | Je suis Voldemort | Mon aventure Youtube !",
+      "youtubeId": "D9r7dAk824Q",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Black ops | Je suis Voldemort | Mon aventure Youtube !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/D9r7dAk824Q/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 62215
+        }
+      },
+      "crop": {
+        "id": "2329074",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650614f19d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313957/screencap/6ac65062737dd.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E44",
+      "episodeId": "5313962",
+      "title": "Trials Evolution | Du fun en MASSE avec CodJordan23, MrBboy45 et DarkFuneral97two !",
+      "youtubeId": "_WYBDpGyBHM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Trials Evolution | Du fun en MASSE avec CodJordan23, MrBboy45 et DarkFuneral97two !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/_WYBDpGyBHM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 171070
+        }
+      },
+      "crop": {
+        "id": "2329075",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65065f1051.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313962/screencap/6ac6506728a94.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E50",
+      "episodeId": "5313968",
+      "title": "MW3 | Justin Bieber challenge avec FeZzo et T4ze !",
+      "youtubeId": "Eqc2lreL1Ts",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MW3 | Justin Bieber challenge avec FeZzo et T4ze !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Eqc2lreL1Ts/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 147077
+        }
+      },
+      "crop": {
+        "id": "2329076",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6506ad7e83.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313968/screencap/6ac6506c0f5b7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
