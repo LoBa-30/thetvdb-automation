@@ -1,0 +1,43 @@
+name: Raska missing artwork preflight
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/raska-missing-artwork-preflight.yml'
+      - 'src/raska-missing-artwork-preflight.js'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Guarded zero-write Raska artwork preflight
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: node src/raska-missing-artwork-preflight.js
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/raska-missing-artwork-preflight
+          git commit -m "Record Raska missing artwork preflight [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: raska-missing-artwork-preflight
+          path: reports/raska-missing-artwork-preflight/
