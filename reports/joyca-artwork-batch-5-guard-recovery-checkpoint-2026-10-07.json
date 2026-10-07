@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-10-07T15:55:00Z",
+  "target": "Joyca",
+  "incident": "Artwork batch 5 guard at S2018E08",
+  "originalRunId": 37646789572,
+  "originalHeadSha": "4caa17e649c01f10bdc877fb8e034af4d61dc4c0",
+  "originalResult": {
+    "requested": 20,
+    "processed": 17,
+    "appliedVerified": 16,
+    "stopped": true,
+    "stopAt": "S2018E08",
+    "reportedStatus": "STAGE1_ONLY_STOP_DO_NOT_RETRY",
+    "reason": "locator('body').innerText timeout after crop/finalization path"
+  },
+  "liveRecoveryProof": {
+    "code": "S2018E08",
+    "episodeId": "6596770",
+    "youtubeId": "JN_rfagFBhI",
+    "temporaryCropId": "2329507",
+    "incomingImage": "https://artworks.thetvdb.com/incoming/6ac669fd8dd11.jpeg",
+    "persistentArtwork": "https://artworks.thetvdb.com/banners/v4/episode/6596770/screencap/6ac669feb1f02.jpg",
+    "decision": "FINALIZE_SUCCEEDED_DO_NOT_RETRY"
+  },
+  "effectiveCompletedFromOriginalBatch": 17,
+  "unprocessedOriginalTargets": [
+    "S2018E20",
+    "S2018E32",
+    "S2018E45"
+  ],
+  "recoveryPreflight": {
+    "historicalDoneFromStandardReports": 96,
+    "liveArtworkDetectedForS2018E08": true,
+    "plannedCount": 20,
+    "firstThreeAreOriginalUnprocessed": true
+  },
+  "safeguards": [
+    "Do not retry S2018E08",
+    "Do not repeat the 16 APPLIED_AND_VERIFIED rows",
+    "Use the refreshed post80 preflight for recovery",
+    "Stop on first post-write ambiguity"
+  ]
+}
