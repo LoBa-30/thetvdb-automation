@@ -29,16 +29,23 @@
     {
       "target": "Elian Ventre",
       "pdf": "AUDIT THETVDB — ELIAN VENTRE.pdf",
-      "status": "IN_PROGRESS_ARTWORK_ONLY",
+      "status": "IN_PROGRESS_ARTWORK_WITH_STATE_DRIFT_TICKET",
       "pdfOpenWork": [
-        "10 missing artworks (9 in 09/09 scope + current S2026E08)",
-        "1 existing artwork provenance strong-candidate ticket: S2026E03"
+        "S2026E08 title state regression: current TheTVDB reverted to the old title after the exact current-title write had already been post-write verified. Do not repeat the verified write; keep Ticket.",
+        "Artwork submissions S2023E04 and S2023E06 remain absent/pending after one guarded submission each; do not retry blindly.",
+        "6 missing artworks have clean 1280x720 official-YouTube preflights but are intentionally not submitted until TheTVDB proves that the upload path materializes successfully.",
+        "S2023E02 and S2026E02 lack a usable official 16:9 >=640x360 thumbnail; keep artwork Ticket.",
+        "S2026E08 missing artwork still requires exact current YouTube identity/provenance handling alongside the title drift.",
+        "1 existing artwork provenance strong-candidate ticket remains: S2026E03."
       ],
       "resolvedSincePlan": [
         "S2026E08 title refreshed to current official YouTube title and verified with date/runtime.",
         "Artwork pilot for S2023E04 submitted but post-write verification failed; no blind retry.",
         "S2024E01 exact-title ticket resolved NO_WRITE: current TVDB differs from official YouTube only by emojis 🐶🥺🥵🦴; project no-emoji-retry safeguard applies.",
-        "Existing artwork provenance audited: 19/19 checked, 16 exact YouTube-reference matches on first pass; strict second pass promoted 2 of the 3 remaining to confirmed. Only S2026E03 remains a strong same-video candidate rather than fully confirmed."
+        "Existing artwork provenance audited: 19/19 checked, 16 exact YouTube-reference matches on first pass; strict second pass promoted 2 of the 3 remaining to confirmed. Only S2026E03 remains a strong same-video candidate rather than fully confirmed.",
+        "2026-10-07 batch artwork preflight: 6 exact missing-image candidates passed title/form/1280x720 checks; S2023E02 and S2026E02 blocked because no usable official 16:9 >=640x360 thumbnail exists.",
+        "S2023E06 guarded multipart file upload returned HTTP 200 but remained absent through repeated verification and current public-page check; marked SUBMITTED_PENDING_NO_RETRY.",
+        "Fresh current-state audit found S2026E08 title reverted to the prior TVDB title after the Oct-06 exact current-title write was APPLIED_AND_VERIFIED. Per no-repeat rule, no second write was attempted."
       ]
     },
     {
@@ -201,7 +208,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T11:10:00Z",
+  "lastUpdatedAt": "2026-10-07T11:19:00Z",
   "latestContinuationCommits": [
     "38c1bbafe19bfbe54c91072ab9419ec91d7715d7",
     "68bb95cb01a3f49ceb6f7e29ee530daac5e07696",
@@ -234,6 +241,9 @@
     "f4671c9a774bda4fd346c457647941337c3eb27e",
     "983a46ca8d836ecd4e316853d2d62707e8325ccb",
     "bdd5b78d19e008bf2bba5ac7cd410bbf15c628aa",
-    "e718b0c01838ac2899e1867d97e6ff4a3127dc26"
+    "e718b0c01838ac2899e1867d97e6ff4a3127dc26",
+    "be02aac3fe6fa2a76991c7602b9647bd1cfadfaf",
+    "b5503581395a4e0239f07dc51758fac921bb192b",
+    "5a7731049955ad71a594271ed4798eb90e45ba55"
   ]
 }
