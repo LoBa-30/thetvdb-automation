@@ -10,8 +10,9 @@ const source=JSON.parse(await fs.readFile('reports/squeezie-artwork-preflight-fa
 if(source.result!=='PREFLIGHT_READY') throw new Error('Squeezie preflight not ready');
 const priorA=JSON.parse(await fs.readFile('reports/squeezie-artwork-batch-1-2026-10-07/report.json','utf8'));
 const priorB=JSON.parse(await fs.readFile('reports/squeezie-artwork-batch-1b-2026-10-07/report.json','utf8'));
+const priorC=JSON.parse(await fs.readFile('reports/squeezie-artwork-batch-1c-2026-10-07/report.json','utf8'));
 const priorE55=JSON.parse(await fs.readFile('reports/squeezie-artwork-e55-recovery-2026-10-07/report.json','utf8'));
-const priorRows=[...(priorA.results||[]),...(priorB.results||[]),...(priorE55.results||[])];
+const priorRows=[...(priorA.results||[]),...(priorB.results||[]),...(priorC.results||[]),...(priorE55.results||[])];
 const done=new Set(priorRows.filter(x=>['APPLIED_AND_VERIFIED','ALREADY_PRESENT_SKIP'].includes(x.status)).map(x=>x.code));
 const safeBlocked=new Set(priorRows.filter(x=>x.status==='BLOCKED_BEFORE_WRITE').map(x=>x.code));
 const targets=(source.planned||[]).filter(x=>!done.has(x.code)&&!safeBlocked.has(x.code)).slice(0,10);
@@ -63,8 +64,10 @@ try{
       await upload.locator('input[name="file"]').setInputFiles({name:t.youtubeId+'.jpg',mimeType:'image/jpeg',buffer:buf});
 
       const p1=page.waitForResponse(r=>new URL(r.url()).origin===BASE&&new URL(r.url()).pathname==='/artwork/upload_handler'&&r.request().method()==='POST',{timeout:60000}).catch(()=>null);
-      await Promise.all([page.waitForLoadState('domcontentloaded').catch(()=>{}),upload.locator('#artwork-continue-button,button[type="submit"]').first().click()]);
-      const r1=await p1;await page.waitForTimeout(700);row.stage1={status:r1?.status()??null};if(!r1||r1.status()>=400)throw new Error('STAGE1_FAILED');
+      await upload.evaluate(form=>form.requestSubmit()).catch(()=>{});
+      const r1=await p1;
+      await page.waitForLoadState('domcontentloaded').catch(()=>{});
+      await page.waitForTimeout(700);row.stage1={status:r1?.status()??null};if(!r1||r1.status()>=400)throw new Error('STAGE1_FAILED');
 
       const crop=page.locator('form[action="/artwork/upload_cropper_handler"]').first();
       if(!(await crop.count()))throw new Error('CROP_FORM_MISSING');
@@ -77,8 +80,10 @@ try{
       const finish=crop.locator('button[type="submit"]').filter({hasText:'Finish'}).first();
       if(!(await finish.count())||await finish.isDisabled())throw new Error('FINISH_UNAVAILABLE');
       const p2=page.waitForResponse(r=>new URL(r.url()).origin===BASE&&new URL(r.url()).pathname==='/artwork/upload_cropper_handler'&&r.request().method()==='POST',{timeout:60000}).catch(()=>null);
-      await Promise.all([page.waitForLoadState('domcontentloaded').catch(()=>{}),finish.click()]);
-      const r2=await p2;await page.waitForTimeout(700);
+      await crop.evaluate(form=>form.requestSubmit()).catch(()=>{});
+      const r2=await p2;
+      await page.waitForLoadState('domcontentloaded').catch(()=>{});
+      await page.waitForTimeout(700);
       const body=(await page.locator('body').innerText()).replace(/\s+/g,' ');
       row.stage2={status:r2?.status()??null,successMessage:/Artwork successfully added\./i.test(body)};
       if(!r2||![200,302].includes(r2.status())||!row.stage2.successMessage)throw new Error('STAGE2_NOT_CONFIRMED');
@@ -115,4 +120,4 @@ await fs.writeFile(OUT+'/summary.txt',[
   'result='+report.result
 ].join('\n')+'\n');
 console.log(await fs.readFile(OUT+'/summary.txt','utf8'));
-if(report.result!=='BATCH_COMPLETE')process.exitCode=2;
+if(!['BATCH_COMPLETE','BATCH_COMPLETE_WITH_SAFE_BLOCKS'].includes(report.result))process.exitCode=2;
