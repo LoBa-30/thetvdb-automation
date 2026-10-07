@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-10-07T15:25:00Z",
+  "sourceRunId": 37642267329,
+  "sourceWorkflow": "Squeezie artwork batch 6",
+  "sourceHeadSha": "dfcfd4a797b7eefd9872755a9b37d45c79b81274",
+  "workflowConclusion": "failure",
+  "writeStepConclusion": "success",
+  "persistenceStepConclusion": "failure",
+  "artifactUploadConclusion": "success",
+  "recoveredFromJobLogs": {
+    "authenticated": true,
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0,
+    "stopped": false,
+    "result": "BATCH_COMPLETE"
+  },
+  "targets": [
+    {
+      "code": "S2014E20",
+      "episodeId": "5314389",
+      "youtubeId": "f-MMcq4oOFw"
+    },
+    {
+      "code": "S2014E23",
+      "episodeId": "5314392",
+      "youtubeId": "dI97vWeDtik"
+    },
+    {
+      "code": "S2014E31",
+      "episodeId": "5314403",
+      "youtubeId": "zNO2xJhEgd0"
+    },
+    {
+      "code": "S2014E32",
+      "episodeId": "5314404",
+      "youtubeId": "KOA_A1A1vi0"
+    },
+    {
+      "code": "S2014E34",
+      "episodeId": "5314406",
+      "youtubeId": "W4r77GItK6k"
+    },
+    {
+      "code": "S2014E44",
+      "episodeId": "5314416",
+      "youtubeId": "7qftjQSTtWY"
+    },
+    {
+      "code": "S2014E52",
+      "episodeId": "5314431",
+      "youtubeId": "Q2szNQuGnOc"
+    },
+    {
+      "code": "S2014E53",
+      "episodeId": "5314432",
+      "youtubeId": "zUtsgmSyUgQ"
+    },
+    {
+      "code": "S2014E54",
+      "episodeId": "5314433",
+      "youtubeId": "vfDOHJ1j8Oc"
+    },
+    {
+      "code": "S2014E61",
+      "episodeId": "5314440",
+      "youtubeId": "ovgAOysGNH8"
+    },
+    {
+      "code": "S2014E63",
+      "episodeId": "5314442",
+      "youtubeId": "fLDXeH8VXvY"
+    },
+    {
+      "code": "S2014E67",
+      "episodeId": "5314446",
+      "youtubeId": "6yDKrzKu_ZY"
+    },
+    {
+      "code": "S2014E68",
+      "episodeId": "5314447",
+      "youtubeId": "sY3wYyYxWg0"
+    },
+    {
+      "code": "S2014E71",
+      "episodeId": "5314450",
+      "youtubeId": "xICeUFqWM48"
+    },
+    {
+      "code": "S2014E72",
+      "episodeId": "5314451",
+      "youtubeId": "OrIWFfg73uo"
+    },
+    {
+      "code": "S2014E81",
+      "episodeId": "5314460",
+      "youtubeId": "OBgkJNzxEek"
+    },
+    {
+      "code": "S2014E82",
+      "episodeId": "5314461",
+      "youtubeId": "Cp15otxd_Uw"
+    },
+    {
+      "code": "S2014E85",
+      "episodeId": "5314464",
+      "youtubeId": "3ZZ4hI7LtGc"
+    },
+    {
+      "code": "S2014E86",
+      "episodeId": "5314465",
+      "youtubeId": "EDmVI0Zk-ZA"
+    },
+    {
+      "code": "S2014E87",
+      "episodeId": "5314466",
+      "youtubeId": "DoYc2mZ0Csk"
+    }
+  ],
+  "interpretation": "TheTVDB artwork writes completed successfully for all 20 targets. The workflow-level failure occurred only while persisting the report back to GitHub; the artifact upload succeeded.",
+  "safeguards": [
+    "Do not repeat these 20 writes",
+    "Treat targets as applied and verified",
+    "Use fresh live rescan before any later artwork write"
+  ]
+}
