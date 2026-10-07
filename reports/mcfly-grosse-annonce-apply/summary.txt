@@ -1,8 +1,8 @@
 armed=true
 authenticated=true
-writes=0
-verifications=0
+writes=2
+verifications=2
 rollbacks=0
-blocked=1
-newEpisodeId=
-result=BLOCKED_BEFORE_WRITES
+blocked=0
+newEpisodeId=12023296
+result=APPLIED_AND_VERIFIED

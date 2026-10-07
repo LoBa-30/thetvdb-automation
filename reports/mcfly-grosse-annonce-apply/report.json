@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T09:31:49.394Z",
+  "generatedAt": "2026-10-07T09:33:33.214Z",
   "mode": "GROSSE_ANNONCE_GUARDED_CHRONOLOGICAL_INSERT",
   "armed": true,
   "authenticated": true,
@@ -68,13 +68,62 @@
       "ok": true
     }
   ],
-  "writes": [],
-  "verifications": [],
-  "rollbackAttempts": [],
-  "blocked": [
+  "writes": [
     {
-      "reason": "Error: Unexpected season save action /series/338282-show/official/2151840/saveseason\n    at renumber (file:///home/runner/work/thetvdb-automation/thetvdb-automation/src/mcfly-grosse-annonce-apply.js:183:31)\n    at async file:///home/runner/work/thetvdb-automation/thetvdb-automation/src/mcfly-grosse-annonce-apply.js:263:3"
+      "type": "RENUMBER_EXISTING_2015",
+      "changes": [
+        {
+          "id": "10752678",
+          "from": 1,
+          "to": 2
+        },
+        {
+          "id": "10752715",
+          "from": 2,
+          "to": 3
+        },
+        {
+          "id": "10752716",
+          "from": 3,
+          "to": 4
+        },
+        {
+          "id": "10752717",
+          "from": 4,
+          "to": 5
+        }
+      ]
+    },
+    {
+      "type": "ADD_EPISODE",
+      "season": 2015,
+      "number": 1,
+      "title": "GROSSE ANNONCE",
+      "date": "2015-04-12",
+      "runtimeMinutes": 1,
+      "youtubeId": "fttKpTYRdMs"
     }
   ],
-  "result": "BLOCKED_BEFORE_WRITES"
+  "verifications": [
+    {
+      "type": "SEASON_RENUMBER",
+      "direction": "forward",
+      "ok": true
+    },
+    {
+      "type": "FINAL_EPISODE_AND_ORDER",
+      "ok": true,
+      "newEpisodeId": "12023296",
+      "code": "S2015E01",
+      "title": "GROSSE ANNONCE",
+      "date": "2015-04-12",
+      "runtimeMinutes": 1,
+      "exactAssignedTitleHits": 1,
+      "unassignedCollisions": 0
+    }
+  ],
+  "rollbackAttempts": [],
+  "blocked": [],
+  "result": "APPLIED_AND_VERIFIED",
+  "newEpisodeId": "12023296"
 }
