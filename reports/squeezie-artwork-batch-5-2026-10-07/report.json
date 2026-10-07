@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T14:51:11.755Z",
+  "mode": "GUARDED_SQUEEZIE_ARTWORK_BATCH_5",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2013E43",
+    "S2013E84",
+    "S2013E102",
+    "S2013E111",
+    "S2013E115",
+    "S2013E118",
+    "S2013E131",
+    "S2013E132",
+    "S2013E141",
+    "S2013E142",
+    "S2013E149",
+    "S2014E05",
+    "S2014E09",
+    "S2014E11",
+    "S2014E12",
+    "S2014E13",
+    "S2014E14",
+    "S2014E15",
+    "S2014E16",
+    "S2014E19"
+  ],
+  "results": [
+    {
+      "code": "S2013E43",
+      "episodeId": "5314251",
+      "title": "RESULTATS CONCOURS ET... SURPRISE !",
+      "youtubeId": "SE62VvFC60c",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "RESULTATS CONCOURS ET... SURPRISE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/SE62VvFC60c/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 153803
+        }
+      },
+      "crop": {
+        "id": "2329239",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65c63eb5e3.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314251/screencap/6ac65c691160e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E84",
+      "episodeId": "5314301",
+      "title": "SQUEEZIE - LES VACANCES",
+      "youtubeId": "SsssJs6SlsY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SQUEEZIE - LES VACANCES",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/SsssJs6SlsY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 136717
+        }
+      },
+      "crop": {
+        "id": "2329240",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65c6d7cc71.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314301/screencap/6ac65c6eb5bba.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E102",
+      "episodeId": "5314319",
+      "title": "PAS LE TEMPS DE VOUS EXPLIQUER ! (No time to Explain)",
+      "youtubeId": "RtxB7N073p4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PAS LE TEMPS DE VOUS EXPLIQUER ! (No time to Explain)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/RtxB7N073p4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 89760
+        }
+      },
+      "crop": {
+        "id": "2329241",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65c729128f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314319/screencap/6ac65c73b1f70.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E111",
+      "episodeId": "5314328",
+      "title": "FOUTU CLOWN PERVERS ! - Bewilder House",
+      "youtubeId": "KuYM1zdPw_I",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FOUTU CLOWN PERVERS ! - Bewilder House",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/KuYM1zdPw_I/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 88350
+        }
+      },
+      "crop": {
+        "id": "2329242",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65c77922c0.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314328/screencap/6ac65c78b1e0c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E115",
+      "episodeId": "5314332",
+      "title": "LA FILLE LA PLUS BIZARRE DU MONDE ! - DreadOut",
+      "youtubeId": "Id9K_pQzz4g",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA FILLE LA PLUS BIZARRE DU MONDE ! - DreadOut",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Id9K_pQzz4g/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 86053
+        }
+      },
+      "crop": {
+        "id": "2329243",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65c7ccc28c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314332/screencap/6ac65c7de5560.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E118",
+      "episodeId": "5314335",
+      "title": "SQUEEZIE PETIT ?! - Question Time 3",
+      "youtubeId": "Mh7O2WjtJJ4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SQUEEZIE PETIT ?! - Question Time 3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Mh7O2WjtJJ4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 62302
+        }
+      },
+      "crop": {
+        "id": "2329244",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65c81e0896.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314335/screencap/6ac65c832b865.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E131",
+      "episodeId": "5314349",
+      "title": "LE PIRE VOLEUR DE TOUS LES TEMPS - The Very Organized Thief",
+      "youtubeId": "simTvKaAGBI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PIRE VOLEUR DE TOUS LES TEMPS - The Very Organized Thief",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/simTvKaAGBI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 59005
+        }
+      },
+      "crop": {
+        "id": "2329245",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65c870fda9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314349/screencap/6ac65c882ac4c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E132",
+      "episodeId": "5314350",
+      "title": "FOUTUS SCIENTIFIQUES ! - DeadLab",
+      "youtubeId": "KsEMx2hR7NY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FOUTUS SCIENTIFIQUES ! - DeadLab",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/KsEMx2hR7NY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 78419
+        }
+      },
+      "crop": {
+        "id": "2329246",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65c8c6f76a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314350/screencap/6ac65c8d8fd78.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E141",
+      "episodeId": "5314360",
+      "title": "PARTY ROCK HARDCORE \\m/ - HitOthers",
+      "youtubeId": "vwJ3xnGaNeo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PARTY ROCK HARDCORE \\m/ - HitOthers",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/vwJ3xnGaNeo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 122459
+        }
+      },
+      "crop": {
+        "id": "2329247",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65c9179b06.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314360/screencap/6ac65c92a5357.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E142",
+      "episodeId": "5314361",
+      "title": "COMMENT SE FAIRE EXPLOSER PAR RAMBO - Wrestling Revolution",
+      "youtubeId": "qaoDaLoXlC4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COMMENT SE FAIRE EXPLOSER PAR RAMBO - Wrestling Revolution",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/qaoDaLoXlC4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 90709
+        }
+      },
+      "crop": {
+        "id": "2329248",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65c9688ff4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314361/screencap/6ac65c97bbf14.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E149",
+      "episodeId": "5314368",
+      "title": "LE PLUS MAUVAIS WORMS JAMAIS VU ! - Worms Reloaded",
+      "youtubeId": "H_fKew6mZLo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PLUS MAUVAIS WORMS JAMAIS VU ! - Worms Reloaded",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/H_fKew6mZLo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 74976
+        }
+      },
+      "crop": {
+        "id": "2329249",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65c9b98267.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314368/screencap/6ac65c9cafe85.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E05",
+      "episodeId": "5314374",
+      "title": "SQUEEZIE VERSION FILLE ?! - Question Time 6",
+      "youtubeId": "CxL0wg4XRy0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SQUEEZIE VERSION FILLE ?! - Question Time 6",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/CxL0wg4XRy0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 96941
+        }
+      },
+      "crop": {
+        "id": "2329250",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65ca096f52.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314374/screencap/6ac65ca1b6790.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E09",
+      "episodeId": "5314378",
+      "title": "LA GUERRE DES LAPINS ! - Overgrowth",
+      "youtubeId": "uNEwN5NkVqE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA GUERRE DES LAPINS ! - Overgrowth",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/uNEwN5NkVqE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 102832
+        }
+      },
+      "crop": {
+        "id": "2329251",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65ca5beedc.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314378/screencap/6ac65ca6dd65a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E11",
+      "episodeId": "5314380",
+      "title": "SI JE CASSAIS UN OBJET IMPORTANT ?! - Question Time 7",
+      "youtubeId": "nXh2C9lBl6o",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SI JE CASSAIS UN OBJET IMPORTANT ?! - Question Time 7",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/nXh2C9lBl6o/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 111836
+        }
+      },
+      "crop": {
+        "id": "2329252",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65cab19503.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314380/screencap/6ac65cac4e8d6.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E12",
+      "episodeId": "5314381",
+      "title": "METTRE DES TOILETTES SUR SLENDER ! - Lost in a Forest",
+      "youtubeId": "fzSNmWP1uck",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "METTRE DES TOILETTES SUR SLENDER ! - Lost in a Forest",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/fzSNmWP1uck/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 90416
+        }
+      },
+      "crop": {
+        "id": "2329253",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65cb042a2a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314381/screencap/6ac65cb175198.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E13",
+      "episodeId": "5314382",
+      "title": "LE PEDOBEAR DE LOS SANTOS ! - GTA V",
+      "youtubeId": "MuTTT7awE_E",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PEDOBEAR DE LOS SANTOS ! - GTA V",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/MuTTT7awE_E/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 91267
+        }
+      },
+      "crop": {
+        "id": "2329254",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65cb5776ba.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314382/screencap/6ac65cb69a330.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E14",
+      "episodeId": "5314383",
+      "title": "LA PIEUVRE LA PLUS COOL - Octodad: Dadliest Catch (1)",
+      "youtubeId": "5qqbgNEMMqA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA PIEUVRE LA PLUS COOL - Octodad: Dadliest Catch (1)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/5qqbgNEMMqA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 97959
+        }
+      },
+      "crop": {
+        "id": "2329255",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65cba8eb63.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314383/screencap/6ac65cbbba3c9.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E15",
+      "episodeId": "5314384",
+      "title": "UNE PIEUVRE DANS UNE ATTRACTION ! - Octodad: Dadliest Catch (2)",
+      "youtubeId": "kF5pHeaVkXQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UNE PIEUVRE DANS UNE ATTRACTION ! - Octodad: Dadliest Catch (2)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/kF5pHeaVkXQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 107447
+        }
+      },
+      "crop": {
+        "id": "2329256",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65cbfe1eac.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314384/screencap/6ac65cc1198c4.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E16",
+      "episodeId": "5314385",
+      "title": "BOB LE BRICOLEUR VS ZOMBIES - Dying Light",
+      "youtubeId": "fcSLWkpWAuw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "BOB LE BRICOLEUR VS ZOMBIES - Dying Light",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/fcSLWkpWAuw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 105259
+        }
+      },
+      "crop": {
+        "id": "2329257",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65cc5b36ea.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314385/screencap/6ac65cc701e6c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E19",
+      "episodeId": "5314388",
+      "title": "UN PETIT MASSAGE DES PIEDS ? - Happy Wheels 3",
+      "youtubeId": "dNf4v5Uklco",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UN PETIT MASSAGE DES PIEDS ? - Happy Wheels 3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/dNf4v5Uklco/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 111515
+        }
+      },
+      "crop": {
+        "id": "2329258",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65ccb1c4d9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314388/screencap/6ac65ccc5f118.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
