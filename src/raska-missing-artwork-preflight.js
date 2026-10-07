@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 
 const username=process.env.TVDB_USERNAME,password=process.env.TVDB_PASSWORD;
 if(!username||!password)throw new Error('Missing credentials');
-const BASE='https://thetvdb.com',SLUG='raska',SERIES='453041',OUT='reports/raska-missing-artwork-preflight';
+const BASE='https://thetvdb.com',SLUG='raska',SERIES='479597',OUT='reports/raska-missing-artwork-preflight';
 await fs.mkdir(OUT,{recursive:true});
 const source=JSON.parse(await fs.readFile('reports/raska-images/image-audit.json','utf8'));
 const TARGETS=Object.values(source).filter(x=>x.provenance==='MISSING_IMAGE'&&x.youtube_id);
