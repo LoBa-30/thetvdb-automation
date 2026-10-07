@@ -1,0 +1,902 @@
+{
+  "generatedAt": "2026-10-07T15:23:12.293Z",
+  "mode": "GUARDED_DJILSI_ARTWORK_BATCH_5_SERIAL",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2020E17",
+    "S2020E18",
+    "S2020E19",
+    "S2020E20",
+    "S2020E21",
+    "S2020E22",
+    "S2020E23",
+    "S2020E24",
+    "S2020E25",
+    "S2020E26",
+    "S2020E27",
+    "S2020E28",
+    "S2020E29",
+    "S2020E30",
+    "S2021E01",
+    "S2021E02",
+    "S2021E03",
+    "S2021E04",
+    "S2021E05",
+    "S2021E06"
+  ],
+  "results": [
+    {
+      "code": "S2020E17",
+      "episodeId": "9243152",
+      "title": "TRAHI PAR MON AMI ! (cache-cache avec des potes pas fiables)",
+      "youtubeId": "deo5ncvydrU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "TRAHI PAR MON AMI ! (cache-cache avec des potes pas fiables)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/deo5ncvydrU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 102415
+        }
+      },
+      "crop": {
+        "id": "2329373",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac663ea33bb8.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243152/screencap/6ac663ebee640.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E18",
+      "episodeId": "9243153",
+      "title": "SUR LE TOURNAGE D'UN FILM HOLLYWOODIEN (vous savez que j'abuse)",
+      "youtubeId": "yea5bU8Jw_0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SUR LE TOURNAGE D'UN FILM HOLLYWOODIEN (vous savez que j'abuse)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/yea5bU8Jw_0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 85154
+        }
+      },
+      "crop": {
+        "id": "2329374",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac663f020e31.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243153/screencap/6ac663f12ee27.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E19",
+      "episodeId": "9243154",
+      "title": "j'ai perdu mes sourcils...",
+      "youtubeId": "EmchIYbD8N8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "j'ai perdu mes sourcils...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/EmchIYbD8N8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 109280
+        }
+      },
+      "crop": {
+        "id": "2329375",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac663f563ded.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243154/screencap/6ac663f694e05.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E20",
+      "episodeId": "9243155",
+      "title": "ON A FOUTU UN JACUZZI DANS LE BUREAU (c'est bon ?)",
+      "youtubeId": "ZIyVMp-_01w",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON A FOUTU UN JACUZZI DANS LE BUREAU (c'est bon ?)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ZIyVMp-_01w/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 102965
+        }
+      },
+      "crop": {
+        "id": "2329376",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac663fac8de5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243155/screencap/6ac663fbe4613.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E21",
+      "episodeId": "9243156",
+      "title": "UN POINT GPS AU HASARD, UNE CLIO, ET ON Y VA ! #OnVaOù4",
+      "youtubeId": "K1-ftVfQAnI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UN POINT GPS AU HASARD, UNE CLIO, ET ON Y VA ! #OnVaOù4",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/K1-ftVfQAnI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 142205
+        }
+      },
+      "crop": {
+        "id": "2329377",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac664000f543.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243156/screencap/6ac66401306df.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E22",
+      "episodeId": "9243157",
+      "title": "MON IPHONE AU FOND DE L'OCEAN... (c'est drôle ?) #OnVaOù4",
+      "youtubeId": "aCknk_SosW8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MON IPHONE AU FOND DE L'OCEAN... (c'est drôle ?) #OnVaOù4",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/aCknk_SosW8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 120399
+        }
+      },
+      "crop": {
+        "id": "2329378",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66405a8fb6.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243157/screencap/6ac66406c3ddd.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E23",
+      "episodeId": "9243158",
+      "title": "J'AI DÉFONCÉ MA VOITURE... (ça me fait pas rire) #OnVaOù4",
+      "youtubeId": "dq2BnPPWGyw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'AI DÉFONCÉ MA VOITURE... (ça me fait pas rire) #OnVaOù4",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/dq2BnPPWGyw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 138080
+        }
+      },
+      "crop": {
+        "id": "2329380",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6640ad4081.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243158/screencap/6ac6640be9c91.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E24",
+      "episodeId": "9243159",
+      "title": "CETTE SOIRÉE EST UN CAUCHEMAR... (tu crois je rigole ?) #OnVaOù4",
+      "youtubeId": "4zvUQZuSfJ8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CETTE SOIRÉE EST UN CAUCHEMAR... (tu crois je rigole ?) #OnVaOù4",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/4zvUQZuSfJ8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 107382
+        }
+      },
+      "crop": {
+        "id": "2329381",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6641057f23.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243159/screencap/6ac6641174ad4.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E25",
+      "episodeId": "9243160",
+      "title": "JE NOUS ENVOIE EN ENFER (ça fait peur hein ?) #OnVaOù4 (final saison 4)",
+      "youtubeId": "cmfbNfjvwUQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE NOUS ENVOIE EN ENFER (ça fait peur hein ?) #OnVaOù4 (final saison 4)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/cmfbNfjvwUQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 110714
+        }
+      },
+      "crop": {
+        "id": "2329382",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac664156d018.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243160/screencap/6ac6641684b51.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E26",
+      "episodeId": "9243161",
+      "title": "SURVIE EN FORÊT AVEC UN MILITAIRE ! feat Mike Horn (bah non)",
+      "youtubeId": "buLidkHMg_U",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SURVIE EN FORÊT AVEC UN MILITAIRE ! feat Mike Horn (bah non)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/buLidkHMg_U/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 135156
+        }
+      },
+      "crop": {
+        "id": "2329383",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6641a9bfbb.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243161/screencap/6ac6641ba9a22.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E27",
+      "episodeId": "9243162",
+      "title": "J'AI ÉTÉ BLOQUÉ DANS UNE COURSE POURSUITE EN VOITURE ! (la voiture explose c'est faux)",
+      "youtubeId": "JW9OxuXSzUI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'AI ÉTÉ BLOQUÉ DANS UNE COURSE POURSUITE EN VOITURE ! (la voiture explose c'est faux)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/JW9OxuXSzUI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 107631
+        }
+      },
+      "crop": {
+        "id": "2329384",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6641fab0bc.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243162/screencap/6ac66420bebce.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E28",
+      "episodeId": "9243163",
+      "title": "COMMENT RÉCUPÉRER SON EX ? (on teste une technique incroyable)",
+      "youtubeId": "WWHF-HYilGw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COMMENT RÉCUPÉRER SON EX ? (on teste une technique incroyable)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/WWHF-HYilGw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 89634
+        }
+      },
+      "crop": {
+        "id": "2329385",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66424eff23.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243163/screencap/6ac6642616179.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E29",
+      "episodeId": "9243164",
+      "title": "CACHE-CACHE EN SCOOTER DANS TOUTE LA VILLE ! (et 180€ d'amende accessoirement)",
+      "youtubeId": "aUofVWFXvR8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CACHE-CACHE EN SCOOTER DANS TOUTE LA VILLE ! (et 180€ d'amende accessoirement)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/aUofVWFXvR8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 137315
+        }
+      },
+      "crop": {
+        "id": "2329386",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6642a55908.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243164/screencap/6ac6642b73ec5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E30",
+      "episodeId": "9243165",
+      "title": "MA VIE EST UN ECHEC ! (mais tout finit bien comme pour les princesses)",
+      "youtubeId": "keKy3VjxjNM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MA VIE EST UN ECHEC ! (mais tout finit bien comme pour les princesses)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/keKy3VjxjNM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 124284
+        }
+      },
+      "crop": {
+        "id": "2329387",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6642fbc557.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243165/screencap/6ac66430d8f73.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E01",
+      "episodeId": "9243166",
+      "title": "J'ai fait un accident qui a causé SA MORT... (pardon)",
+      "youtubeId": "qVeXbjAHHYg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'ai fait un accident qui a causé SA MORT... (pardon)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/qVeXbjAHHYg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 132022
+        }
+      },
+      "crop": {
+        "id": "2329388",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66434d1ce6.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243166/screencap/6ac66435f21fb.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E02",
+      "episodeId": "9243167",
+      "title": "ROULETTE RUSSE À GAGES ! (y'a rien qui va hein)",
+      "youtubeId": "CvTrLLmNVuU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ROULETTE RUSSE À GAGES ! (y'a rien qui va hein)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/CvTrLLmNVuU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 151385
+        }
+      },
+      "crop": {
+        "id": "2329389",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6643a3b85a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243167/screencap/6ac6643b69c1d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E03",
+      "episodeId": "9243168",
+      "title": "ATTRAPÉ PAR LA DOUANE À UNE FRONTIÈRE...",
+      "youtubeId": "zW6yWRW-cAI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ATTRAPÉ PAR LA DOUANE À UNE FRONTIÈRE...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/zW6yWRW-cAI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 102984
+        }
+      },
+      "crop": {
+        "id": "2329390",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66440200d6.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243168/screencap/6ac664415053d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E04",
+      "episodeId": "9243169",
+      "title": "JE CRÉE DES COUPLES !! (et des malaises, principalement)",
+      "youtubeId": "RONpCVrFpAo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE CRÉE DES COUPLES !! (et des malaises, principalement)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/RONpCVrFpAo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 95289
+        }
+      },
+      "crop": {
+        "id": "2329392",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6644577ebc.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243169/screencap/6ac6644690bdb.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E05",
+      "episodeId": "9243170",
+      "title": "PERDRE SES AMIS POUR DE L'ARGENT ! (aucune vanne)",
+      "youtubeId": "oI5rTpsjdnM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PERDRE SES AMIS POUR DE L'ARGENT ! (aucune vanne)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/oI5rTpsjdnM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 121150
+        }
+      },
+      "crop": {
+        "id": "2329393",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6644ad9d28.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243170/screencap/6ac6644c0c222.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E06",
+      "episodeId": "9243171",
+      "title": "LE BAN TWITCH N'ETAIT PAS LOIN...",
+      "youtubeId": "tYxxwGI44Mk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE BAN TWITCH N'ETAIT PAS LOIN...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/tYxxwGI44Mk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 97252
+        }
+      },
+      "crop": {
+        "id": "2329394",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6645063ac6.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243171/screencap/6ac664518baab.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "reauthCount": 1,
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "safeBlocked": 0,
+    "failedAfterWrite": 0
+  }
+}
