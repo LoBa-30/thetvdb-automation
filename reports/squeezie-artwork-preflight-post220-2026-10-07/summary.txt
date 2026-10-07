@@ -1,0 +1,5 @@
+sourcePairs=1394
+checked=1394
+alreadyPresent=0
+planned=0
+result=PREFLIGHT_INSUFFICIENT_CANDIDATES
