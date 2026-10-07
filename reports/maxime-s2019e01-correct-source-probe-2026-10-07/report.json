@@ -1,0 +1,50 @@
+{
+  "generatedAt": "2026-10-07T17:28:40.795687+00:00",
+  "youtubeId": "3X0piITkOTE",
+  "variants": [
+    {
+      "name": "maxresdefault.jpg",
+      "url": "https://i.ytimg.com/vi/3X0piITkOTE/maxresdefault.jpg",
+      "status": 200,
+      "bytes": 91144,
+      "contentType": "image/jpeg",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "name": "hq720.jpg",
+      "url": "https://i.ytimg.com/vi/3X0piITkOTE/hq720.jpg",
+      "status": 200,
+      "bytes": 91144,
+      "contentType": "image/jpeg",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "name": "sddefault.jpg",
+      "url": "https://i.ytimg.com/vi/3X0piITkOTE/sddefault.jpg",
+      "status": 200,
+      "bytes": 40119,
+      "contentType": "image/jpeg",
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "name": "hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/3X0piITkOTE/hqdefault.jpg",
+      "status": 200,
+      "bytes": 27025,
+      "contentType": "image/jpeg",
+      "size": [
+        480,
+        360
+      ]
+    }
+  ]
+}
