@@ -22,7 +22,7 @@ def norm(s):
 def art_urls(html):
     return sorted(set(re.findall(r'https://artworks\.thetvdb\.com/[^"\'<>\s]+episode[^"\'<>\s]+/screencap/[^"\'<>\s]+',html)))
 
-report={'generatedAt':None,'mode':'READ_ONLY_MAXIME_MISSING_ARTWORK_PREFLIGHT','tvdb':[],'youtube':[],'planned':[],'blocked':[],'result':'NOT_STARTED'}
+report={'generatedAt':None,'mode':'READ_ONLY_MAXIME_MISSING_ARTWORK_PREFLIGHT_V2','tvdb':[],'youtube':[],'planned':[],'checked':[],'counters':{'noExactTitle':0,'multipleExactTitle':0,'artworkPresent':0,'imageUnavailable':0,'imageWrongSize':0,'uploadFormBlocked':0,'uploadFormScopeDrift':0,'passed':0},'blocked':[],'result':'NOT_STARTED'}
 try:
     raw=subprocess.check_output(['yt-dlp','--flat-playlist','--dump-single-json','--no-warnings','--extractor-args','youtube:lang=fr',YT],text=True)
     cat=json.loads(raw)
@@ -64,25 +64,33 @@ for ep in episodes:
     if len(report['planned'])>=20: break
     key=norm(ep['title'])
     matches=by_norm.get(key,[])
-    if len(matches)!=1: continue
+    if len(matches)==0:
+        report['counters']['noExactTitle']+=1; report['checked'].append({**ep,'status':'NO_EXACT_TITLE'}); continue
+    if len(matches)>1:
+        report['counters']['multipleExactTitle']+=1; report['checked'].append({**ep,'status':'MULTIPLE_EXACT_TITLE','matchCount':len(matches)}); continue
     v=matches[0]
     try:
         d=S.get(ep['url'],timeout=30)
         if d.status_code!=200: continue
-        if art_urls(d.text): continue
+        arts=art_urls(d.text)
+        if arts:
+            report['counters']['artworkPresent']+=1; report['checked'].append({**ep,'youtubeId':v['id'],'status':'ARTWORK_PRESENT','artwork':arts[:3]}); continue
         img=f"https://i.ytimg.com/vi/{v['id']}/maxresdefault.jpg"
         rr=S.get(img,timeout=30)
-        if rr.status_code!=200 or len(rr.content)<10000: continue
+        if rr.status_code!=200 or len(rr.content)<10000:
+            report['counters']['imageUnavailable']+=1; report['checked'].append({**ep,'youtubeId':v['id'],'status':'IMAGE_UNAVAILABLE','imageStatus':rr.status_code,'bytes':len(rr.content)}); continue
         im=Image.open(BytesIO(rr.content))
-        if im.size!=(1280,720): continue
+        if im.size!=(1280,720):
+            report['counters']['imageWrongSize']+=1; report['checked'].append({**ep,'youtubeId':v['id'],'status':'IMAGE_WRONG_SIZE','size':list(im.size)}); continue
         up=S.get(f'{BASE}/artwork/upload?type=11&episode={ep["episodeId"]}&series={SERIES}',timeout=30)
-        if up.status_code!=200: continue
-        if f'name="episode" value="{ep["episodeId"]}"' not in up.text: continue
-        if f'name="series" value="{SERIES}"' not in up.text: continue
-        if 'name="type" value="11"' not in up.text: continue
+        if up.status_code!=200:
+            report['counters']['uploadFormBlocked']+=1; report['checked'].append({**ep,'youtubeId':v['id'],'status':'UPLOAD_FORM_BLOCKED','http':up.status_code}); continue
+        scope_ok=(f'name="episode" value="{ep["episodeId"]}"' in up.text and f'name="series" value="{SERIES}"' in up.text and 'name="type" value="11"' in up.text)
+        if not scope_ok:
+            report['counters']['uploadFormScopeDrift']+=1; report['checked'].append({**ep,'youtubeId':v['id'],'status':'UPLOAD_FORM_SCOPE_DRIFT','seriesExpected':SERIES}); continue
         row={**ep,'youtubeId':v['id'],'youtubeTitle':v['title'],'imageUrl':img,'width':1280,'height':720,'series':SERIES}
         if ep['code'] not in seen:
-            seen.add(ep['code']);report['planned'].append(row)
+            seen.add(ep['code']);report['planned'].append(row);report['checked'].append({**row,'status':'PREFLIGHT_PASSED'});report['counters']['passed']+=1
     except Exception as e:
         report['blocked'].append({'code':ep['code'],'reason':'PREFLIGHT_ERROR','error':str(e)})
 
