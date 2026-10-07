@@ -36,7 +36,7 @@ if(!username||!password){
 // Evidence guards from already-persisted project reports.
 try{
   const dateProof=JSON.parse(await fs.readFile('reports/mcfly-grosse-annonce-date-proof-2026-10-07.json','utf8'));
-  if(dateProof.youtubeId!==TARGET.youtubeId || dateProof.youtubeTitle!==TARGET.title || dateProof.exactPublicationDate!==TARGET.date){
+  if(dateProof.youtubeId!==TARGET.youtubeId || dateProof.title!==TARGET.title || dateProof.evidence?.published!==TARGET.date){
     throw new Error('Persisted exact-date proof drift');
   }
   report.checks.push({type:'PERSISTED_DATE_PROOF',ok:true,source:'reports/mcfly-grosse-annonce-date-proof-2026-10-07.json'});
