@@ -1,0 +1,36 @@
+name: Amixem artwork preflight
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/amixem-artwork-preflight.yml'
+      - 'src/amixem-artwork-preflight-2026-10-07.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests pillow
+      - name: Run Amixem artwork preflight
+        run: python src/amixem-artwork-preflight-2026-10-07.py
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/amixem-artwork-preflight-2026-10-07
+          git commit -m "Record Amixem artwork preflight [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: amixem-artwork-preflight
+          path: reports/amixem-artwork-preflight-2026-10-07/
