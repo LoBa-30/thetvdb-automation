@@ -1,8 +1,8 @@
 episodes=215
-withArtwork=215
-withoutArtwork=0
+withArtwork=178
+withoutArtwork=37
 withYoutubeMatch=215
-matchesOwn=215
+matchesOwn=178
 similarOwn=0
 visualMismatchOwn=0
 exactDuplicateGroups=0
