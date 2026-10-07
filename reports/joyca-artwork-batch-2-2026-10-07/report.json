@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T14:48:05.910Z",
+  "mode": "GUARDED_JOYCA_ARTWORK_BATCH_2",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2016E26",
+    "S2016E27",
+    "S2016E28",
+    "S2016E30",
+    "S2016E32",
+    "S2016E38",
+    "S2017E03",
+    "S2017E05",
+    "S2017E06",
+    "S2017E09",
+    "S2017E15",
+    "S2017E16",
+    "S2017E20",
+    "S2017E23",
+    "S2017E29",
+    "S2017E31",
+    "S2017E37",
+    "S2017E47",
+    "S2017E50",
+    "S2017E53"
+  ],
+  "results": [
+    {
+      "code": "S2016E26",
+      "episodeId": "6342747",
+      "title": "MATHIEU SOMMET - ILS SONT COOLS (INSTRUMENTAL)",
+      "youtubeId": "xXbwja9LI5g",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MATHIEU SOMMET - ILS SONT COOLS (INSTRUMENTAL)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/xXbwja9LI5g/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 158356
+        }
+      },
+      "crop": {
+        "id": "2329217",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65baa020fe.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342747/screencap/6ac65bab3a57c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E27",
+      "episodeId": "6342750",
+      "title": "JE FAIS DU YOUTUBE DRAMA !",
+      "youtubeId": "Yu092kgt8pE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE FAIS DU YOUTUBE DRAMA !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Yu092kgt8pE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 79674
+        }
+      },
+      "crop": {
+        "id": "2329218",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65baf255c7.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342750/screencap/6ac65bb04ed3c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E28",
+      "episodeId": "6342759",
+      "title": "YOUTUNES - MY LITTLE WORLD (NO COPYRIGHT)",
+      "youtubeId": "fKKD5G8Blvo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "YOUTUNES - MY LITTLE WORLD (NO COPYRIGHT)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/fKKD5G8Blvo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 110009
+        }
+      },
+      "crop": {
+        "id": "2329219",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65bb42074e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342759/screencap/6ac65bb534213.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E30",
+      "episodeId": "6342769",
+      "title": "CBGAMES - OH BEBE (INSTRUMENTAL NO COPYRIGHT)",
+      "youtubeId": "XXfCTdtKDJk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CBGAMES - OH BEBE (INSTRUMENTAL NO COPYRIGHT)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/XXfCTdtKDJk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 183390
+        }
+      },
+      "crop": {
+        "id": "2329220",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65bb8cf437.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342769/screencap/6ac65bb9e8027.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E32",
+      "episodeId": "6342785",
+      "title": "ON VISITE UNE SPA !",
+      "youtubeId": "p7NiIzO8Maw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON VISITE UNE SPA !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/p7NiIzO8Maw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 127564
+        }
+      },
+      "crop": {
+        "id": "2329221",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65bbdb62bd.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342785/screencap/6ac65bbeca4ba.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2016E38",
+      "episodeId": "6342809",
+      "title": "JE FAIS DANSER 100.000 PERSONNES !",
+      "youtubeId": "XefPEgQBZLA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE FAIS DANSER 100.000 PERSONNES !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/XefPEgQBZLA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 135958
+        }
+      },
+      "crop": {
+        "id": "2329222",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65bc2678e9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342809/screencap/6ac65bc38717a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E03",
+      "episodeId": "6342816",
+      "title": "PANORMAL - HEWEW (REMIX)",
+      "youtubeId": "N7IkGehW6eE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PANORMAL - HEWEW (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/N7IkGehW6eE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 156515
+        }
+      },
+      "crop": {
+        "id": "2329223",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65bc74857c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342816/screencap/6ac65bc863a5c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E05",
+      "episodeId": "6342842",
+      "title": "FAIRE UN BEAT AVEC... UN VERRE !",
+      "youtubeId": "7n0e-2vjvVk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FAIRE UN BEAT AVEC... UN VERRE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/7n0e-2vjvVk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 123492
+        }
+      },
+      "crop": {
+        "id": "2329224",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65bcc0e9b0.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342842/screencap/6ac65bcd27544.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E06",
+      "episodeId": "6342850",
+      "title": "FAIRE UN BEAT AVEC... YOUTUBE !",
+      "youtubeId": "6ClPXK2k-gU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FAIRE UN BEAT AVEC... YOUTUBE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/6ClPXK2k-gU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 142891
+        }
+      },
+      "crop": {
+        "id": "2329225",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65bd0b3f90.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342850/screencap/6ac65bd1c4dff.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E09",
+      "episodeId": "6342885",
+      "title": "FAIRE UN BEAT AVEC... UNE GUITARE !",
+      "youtubeId": "DEPgLb0WW6Y",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FAIRE UN BEAT AVEC... UNE GUITARE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/DEPgLb0WW6Y/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 353121
+        }
+      },
+      "crop": {
+        "id": "2329226",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65bd5929bb.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342885/screencap/6ac65bd6b7e8a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E15",
+      "episodeId": "6342908",
+      "title": "AMIXEM - LES PIRES INSTRUMENTS (REMIX)",
+      "youtubeId": "UIBBXjmdMew",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "AMIXEM - LES PIRES INSTRUMENTS (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/UIBBXjmdMew/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 139359
+        }
+      },
+      "crop": {
+        "id": "2329227",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65bda79066.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342908/screencap/6ac65bdb943c6.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E16",
+      "episodeId": "6342909",
+      "title": "FAIRE UN BEAT AVEC... DU PAPIER",
+      "youtubeId": "UiVBadwjci4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FAIRE UN BEAT AVEC... DU PAPIER",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/UiVBadwjci4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 142913
+        }
+      },
+      "crop": {
+        "id": "2329228",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65bdf8b693.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342909/screencap/6ac65be0a7614.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E20",
+      "episodeId": "6342914",
+      "title": "ILS JUGENT MES VIDEOS !",
+      "youtubeId": "HOmd4mYroig",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ILS JUGENT MES VIDEOS !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/HOmd4mYroig/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 150613
+        }
+      },
+      "crop": {
+        "id": "2329229",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65be451a05.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342914/screencap/6ac65be563747.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E23",
+      "episodeId": "6342919",
+      "title": "JE FAIS CHANTER 13 YOUTUBEURS ! (REMIX)",
+      "youtubeId": "tGufW8H-Nk0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE FAIS CHANTER 13 YOUTUBEURS ! (REMIX)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/tGufW8H-Nk0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 164354
+        }
+      },
+      "crop": {
+        "id": "2329230",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65be91002d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342919/screencap/6ac65bea3f053.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E29",
+      "episodeId": "6342938",
+      "title": "YOUTUNES - DOUBLE CIAO Ft BONEZI (CLIP)",
+      "youtubeId": "H95GSdCZWCE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "YOUTUNES - DOUBLE CIAO Ft BONEZI (CLIP)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/H95GSdCZWCE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 98654
+        }
+      },
+      "crop": {
+        "id": "2329231",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65bede658b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342938/screencap/6ac65bef16330.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E31",
+      "episodeId": "6342941",
+      "title": "FAIRE UN BEAT AVEC... UN HAND SPINNER !",
+      "youtubeId": "X8USGzRRhfw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FAIRE UN BEAT AVEC... UN HAND SPINNER !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/X8USGzRRhfw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 149987
+        }
+      },
+      "crop": {
+        "id": "2329232",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65bf2eb076.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342941/screencap/6ac65bf4252b9.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E37",
+      "episodeId": "6342947",
+      "title": "YOUTUNES - Y FAIT CHAUD DANS LE CIEL (CLIP)",
+      "youtubeId": "jVXsSqKFRkY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "YOUTUNES - Y FAIT CHAUD DANS LE CIEL (CLIP)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/jVXsSqKFRkY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 121957
+        }
+      },
+      "crop": {
+        "id": "2329233",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65bf810b4e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342947/screencap/6ac65bf936395.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E47",
+      "episodeId": "6342957",
+      "title": "NISKA - BOBO (PARODIE)",
+      "youtubeId": "Xc8g-XELrFY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "NISKA - BOBO (PARODIE)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Xc8g-XELrFY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 164492
+        }
+      },
+      "crop": {
+        "id": "2329234",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65bfcec121.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6342957/screencap/6ac65bfe11882.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E50",
+      "episodeId": "6373945",
+      "title": "JE FAIS CHANTER GOOGLE TRADUCTION !",
+      "youtubeId": "iLLx7Fj5RBM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE FAIS CHANTER GOOGLE TRADUCTION !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/iLLx7Fj5RBM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 116221
+        }
+      },
+      "crop": {
+        "id": "2329235",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65c01c8f7a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6373945/screencap/6ac65c0301652.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E53",
+      "episodeId": "6410396",
+      "title": "CE JEU TE REND FOU !",
+      "youtubeId": "mpQ0KZe_S5I",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CE JEU TE REND FOU !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/mpQ0KZe_S5I/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 117895
+        }
+      },
+      "crop": {
+        "id": "2329236",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65c06cdde2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6410396/screencap/6ac65c08060e6.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
