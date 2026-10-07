@@ -133,7 +133,7 @@
       "status": "IN_PROGRESS_DATES_ARTWORK",
       "pdfOpenWork": [
         "Exact publication dates remain independently unverified in the fresh audit",
-        "769 missing artworks in PDF snapshot",
+        "Large missing-artwork backlog remains; original 769-missing PDF snapshot is now stale after 20 newly applied+verified artworks. Continue from fresh live rescans only.",
         "2 artwork provenance tickets"
       ],
       "resolvedSincePlan": [
@@ -145,7 +145,8 @@
         "All 5 current Unassigned entries individually classified: 10857946 is a legitimate official Amixem making-of dated 2024-12-12 and kept Unassigned; four Unknown 2026-01-18 entries remain À vérifier with no destructive action.",
         "Fresh exhaustive audit now has 890 current public YouTube videos / 975 TVDB episodes / 890 aligned pairs / 85 historical TVDB-only.",
         "After matcher repairs and S2016 runtime correction, fresh audit reports 0 substantive title mismatches and 0 runtime mismatches.",
-        "Fresh title exactness backlog closed without writes: 54 remaining differences = 26 punctuation/emoji + 28 cosmetic; 0 substantive mismatches."
+        "Fresh title exactness backlog closed without writes: 54 remaining differences = 26 punctuation/emoji + 28 cosmetic; 0 substantive mismatches.",
+        "2026-10-07 artwork rollout started: 20 Amixem missing artworks applied and individually post-write verified in guarded batch 1, 20/20 success, 0 skips, 0 failures."
       ]
     },
     {
@@ -225,7 +226,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T14:20:00Z",
+  "lastUpdatedAt": "2026-10-07T14:25:00Z",
   "latestContinuationCommits": [
     "38c1bbafe19bfbe54c91072ab9419ec91d7715d7",
     "68bb95cb01a3f49ceb6f7e29ee530daac5e07696",
@@ -304,6 +305,13 @@
     "a431024fd16d4b29034d3f57addf0db93625b127",
     "e9a9a4d33469dabbec1a288bf3b3b49eaa3872bf",
     "ed778b6240e9c2e86729f6c7811224ea730d14e7",
-    "6722a22ba0653df9e9a3b88d8226459011843b1a"
+    "6722a22ba0653df9e9a3b88d8226459011843b1a",
+    "726fa0eebbd886b74338614bc4e00bf7d09950a0",
+    "550544a99aca23bfa0f1c9b5c00ca2b01e100527",
+    "b787d1ed83c33069eaf37d1fc9c1213f5da7e107",
+    "b64f8f6276a1eee410f3a1aec534b88135733e7e",
+    "3a5e275acf49bd8f9874df9b77a412cc2031d327",
+    "299e5b6bb30a03d07cee700c245870f90ce5cc6b",
+    "eb12c3eaad92932b492f919e326ac1c74025cee1"
   ]
 }
