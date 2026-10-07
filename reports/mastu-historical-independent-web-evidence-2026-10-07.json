@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-10-07T12:25:00Z",
+  "target": "Mastu",
+  "mode": "INDEPENDENT_WEB_EVIDENCE_HISTORICAL_TVDB_ONLY_FOLLOWUP",
+  "newlyProven": [
+    {
+      "code": "S2020E34",
+      "episodeId": "8070766",
+      "tvdbTitle": "JE VOUS FAIS VISITER MA MAISON (6 mois après, j'ai un nouveau chaton)",
+      "tvdbDate": "2020-11-21",
+      "youtubeId": "_YZeqxoPK18",
+      "officialYouTubeTitle": "JE VOUS FAIS VISITER MA MAISON (6 mois après, j'ai un nouveau chaton)",
+      "officialYouTubeDate": "2020-11-21",
+      "channel": "Mastu",
+      "channelVerified": true,
+      "decision": "OFFICIAL_YOUTUBE_PROVEN_KEEP_NO_WRITE"
+    },
+    {
+      "code": "S2019E32",
+      "episodeId": "11467845",
+      "tvdbTitle": "JE SUIS UN MAUVAIS CITOYEN (La clé de bras m'a fait mal)",
+      "tvdbDate": "2019-11-02",
+      "youtubeId": "kUuEzvQaP6E",
+      "officialYouTubeTitle": "JE SUIS UN MAUVAIS CITOYEN (La clé de bras m'a fait mal)",
+      "officialYouTubeDate": "2019-11-02",
+      "channel": "Mastu",
+      "channelVerified": true,
+      "decision": "OFFICIAL_YOUTUBE_PROVEN_KEEP_NO_WRITE"
+    },
+    {
+      "code": "S2016E09",
+      "episodeId": "9195596",
+      "tvdbTitle": "JE RÉPONDS À VOS QUESTIONS ÉTRANGES...",
+      "tvdbDate": "2016-08-02",
+      "youtubeId": "IETntwf8F-w",
+      "officialYouTubeTitle": "JE RÉPONDS À VOS QUESTIONS ÉTRANGES...",
+      "officialYouTubeDate": "2016-08-02",
+      "channel": "Mastu",
+      "channelVerified": true,
+      "decision": "OFFICIAL_YOUTUBE_PROVEN_KEEP_NO_WRITE"
+    }
+  ],
+  "alreadyResolvedCrossCheck": {
+    "code": "S2017E31",
+    "youtubeId": "XT-M3Z-wnVE",
+    "officialYouTubeDate": "2017-05-27",
+    "note": "Independent web result reconfirms the exact official YouTube date already corrected and post-write verified; do not repeat."
+  },
+  "safeguards": [
+    "NO_DELETE_ON_CURRENT_YOUTUBE_ABSENCE",
+    "NO_RECREATE",
+    "NO_REPEAT_VERIFIED_WRITE",
+    "NO_SECURITY_BYPASS"
+  ]
+}
