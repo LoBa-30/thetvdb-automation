@@ -1,0 +1,30 @@
+name: Maxime S2019E01 stability check
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/maxime-s2019e01-stability-check.yml'
+      - 'src/maxime-s2019e01-stability-check.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - run: python src/maxime-s2019e01-stability-check.py
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/maxime-s2019e01-stability-check-2026-10-07
+          git commit -m "Record Maxime S2019E01 stability check [skip ci]" || true
+          git pull --rebase
+          git push
