@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-10-07T17:32:58.096199+00:00",
+  "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696580",
+  "reads": [
+    {
+      "i": 0,
+      "status": 200,
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696580/screencap/6ac6494b1c107.jpg"
+      ]
+    },
+    {
+      "i": 1,
+      "status": 200,
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696580/screencap/6ac6494b1c107.jpg"
+      ]
+    },
+    {
+      "i": 2,
+      "status": 200,
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696580/screencap/6ac6494b1c107.jpg"
+      ]
+    },
+    {
+      "i": 3,
+      "status": 200,
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696580/screencap/6ac6494b1c107.jpg"
+      ]
+    },
+    {
+      "i": 4,
+      "status": 200,
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696580/screencap/6ac6494b1c107.jpg"
+      ]
+    },
+    {
+      "i": 5,
+      "status": 200,
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696580/screencap/6ac6494b1c107.jpg"
+      ]
+    }
+  ],
+  "presentCount": 6,
+  "stablePresent": true,
+  "stableAbsent": false
+}
