@@ -1,0 +1,416 @@
+{
+  "generatedAt": "2026-10-07T17:25:34.562Z",
+  "mode": "GUARDED_JOYCA_ARTWORK_BATCH_9",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2021E58",
+    "S2021E59",
+    "S2021E60",
+    "S2021E62",
+    "S2021E63",
+    "S2022E36",
+    "S2024E26",
+    "S2025E03",
+    "S2025E18"
+  ],
+  "results": [
+    {
+      "code": "S2021E58",
+      "episodeId": "11847098",
+      "title": "J'AI DÉPENSÉ 200€ À LA FOIRE (Voilà ce qu'on a gagné)",
+      "youtubeId": "eL2Fj-CyPPY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'AI DÉPENSÉ 200€ À LA FOIRE (Voilà ce qu'on a gagné)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/eL2Fj-CyPPY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 130741
+        }
+      },
+      "crop": {
+        "id": "2329850",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac680958ff5f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11847098/screencap/6ac68096cca17.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E59",
+      "episodeId": "11847099",
+      "title": "LA PLUS BELLE TRANSFORMATION ! (107m2 de détente)",
+      "youtubeId": "1Tuhcv5QS0s",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA PLUS BELLE TRANSFORMATION ! (107m2 de détente)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/1Tuhcv5QS0s/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 103174
+        }
+      },
+      "crop": {
+        "id": "2329851",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6809ac4bbe.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11847099/screencap/6ac6809be465c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E60",
+      "episodeId": "11847100",
+      "title": "L'UN D'ENTRE EUX A TENTÉ DE ME SÉDUIRE",
+      "youtubeId": "zMHdir_ea38",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "L'UN D'ENTRE EUX A TENTÉ DE ME SÉDUIRE",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/zMHdir_ea38/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 82835
+        }
+      },
+      "crop": {
+        "id": "2329852",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6809fbf691.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11847100/screencap/6ac680a0ed4a1.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E62",
+      "episodeId": "11847102",
+      "title": "LE PREMIER QUI ME TROUVE GAGNE UN CADEAU ! (8000€)",
+      "youtubeId": "PG3z3MiDRog",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PREMIER QUI ME TROUVE GAGNE UN CADEAU ! (8000€)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/PG3z3MiDRog/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 162154
+        }
+      },
+      "crop": {
+        "id": "2329854",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac680a4b20b2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11847102/screencap/6ac680a5d86d2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E63",
+      "episodeId": "11847103",
+      "title": "L'ENQUÊTE QUI A FAILLI RUINER NOËL...",
+      "youtubeId": "Nn0hw9RwXWw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "L'ENQUÊTE QUI A FAILLI RUINER NOËL...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Nn0hw9RwXWw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 119788
+        }
+      },
+      "crop": {
+        "id": "2329855",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac680a9af1ae.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11847103/screencap/6ac680aacbcd8.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2022E36",
+      "episodeId": "9275886",
+      "title": "ÇA M'A RENDU FOU ! (Mais vraiment)",
+      "youtubeId": "xPyxvWmh05I",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ÇA M'A RENDU FOU ! (Mais vraiment)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/xPyxvWmh05I/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 216028
+        }
+      },
+      "crop": {
+        "id": "2329856",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac680aec684c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9275886/screencap/6ac680b001fab.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2024E26",
+      "episodeId": "10841571",
+      "title": "On teste des lieux notés 1 étoile ! (En Pologne) ★☆☆☆☆",
+      "youtubeId": "h4fwCvsFE8Y",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "On teste des lieux notés 1 étoile ! (En Pologne) ★☆☆☆☆",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/h4fwCvsFE8Y/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 249396
+        }
+      },
+      "crop": {
+        "id": "2329857",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac680b3eff16.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10841571/screencap/6ac680b51a98f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E03",
+      "episodeId": "11967272",
+      "title": "Faire disque d'or avec MrBeast !",
+      "youtubeId": "yW8SqDwk0Sg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Faire disque d'or avec MrBeast !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/yW8SqDwk0Sg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 161128
+        }
+      },
+      "crop": {
+        "id": "2329858",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac680b92d5ff.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11967272/screencap/6ac680ba505cc.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E18",
+      "episodeId": "11423327",
+      "title": "24H DANS LE NOIR TOTAL ! (Version horreur)",
+      "youtubeId": "xzlb9hbp9iI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "24H DANS LE NOIR TOTAL ! (Version horreur)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/xzlb9hbp9iI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 426441
+        }
+      },
+      "crop": {
+        "id": "2329859",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac680be584f5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11423327/screencap/6ac680bf8e8f2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 9,
+    "processed": 9,
+    "applied": 9,
+    "skipped": 0,
+    "failed": 0
+  }
+}
