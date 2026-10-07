@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-10-07T20:15:43.848229+00:00",
+  "tvdbIcon": {
+    "url": "https://artworks.thetvdb.com/banners/v4/series/462729/icons/6a9dc58561428.png",
+    "status": 200,
+    "bytes": 1585853,
+    "sha256": "eeeae8664eae9465ceb89b72a66d302cc01950ea70c30c6d6b04c3f0bd64ed31",
+    "dhash": "cccc96343c3a5bfb",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  "youtubeAvatar": {
+    "url": "https://yt3.googleusercontent.com/uOw2e6SJwIsvq2j8rVi3vaTzGXAsgaOcnN2ixb3Sb6TKSOU3LbGhEt_glNOQJE7XHrvIsdOdCb8=s800-c-k-c0x00ffffff-no-rj",
+    "status": 200,
+    "bytes": 138461,
+    "sha256": "e24072bd4540b6fe28b6471a215ecafdfb67c1eb94e43f4a171ff0a6fba64d5c",
+    "dhash": "ecce9634343a5beb",
+    "size": [
+      800,
+      800
+    ]
+  },
+  "dhashDistance": 4,
+  "sameExact": false,
+  "needsUpdate": false
+}
