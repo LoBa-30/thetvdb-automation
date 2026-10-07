@@ -158,3 +158,5 @@ report['summary']={
 print((OUT/'summary.txt').read_text())
 
 # final rerun after Maxime gap repair
+
+# rerun after 62/64 live coverage 2026-10-07T19:24+02:00
