@@ -1,0 +1,109 @@
+{
+  "generatedAt": "2026-10-07T09:50:00Z",
+  "target": "Mcfly & Carlito",
+  "mode": "HISTORICAL_TVDB_ONLY_PROVENANCE_RESOLUTION_NO_WRITE",
+  "sourceFreshAuditRun": 37601616173,
+  "policy": [
+    "NO_DELETE_ON_CURRENT_VIDEOS_TAB_ABSENCE",
+    "LIVE_ONLY_OR_LIVE_REDISTRIBUTIONS_ARE_OUT_OF_SCOPE_FOR_CURRENT_VIDEOS_TAB_MATCHING_BUT MAY REMAIN VALID HISTORICAL_TVDB_ENTRIES",
+    "NO_SECURITY_BYPASS",
+    "NO_TVDB_WRITE"
+  ],
+  "items": [
+    {
+      "code": "S2018E08",
+      "title": "ON APPELLE DES GENS AU HASARD DANS NOS TÉLÉPHONES #7 feat. PATRICK BRUEL",
+      "date": "2018-02-18",
+      "decision": "KEEP_HISTORICALLY_PROVEN_OFFICIAL_UPLOAD",
+      "evidence": {
+        "officialYoutubeId": "1MRSPhU3ewg",
+        "officialChannel": "Mcfly et Carlito",
+        "exactTitle": true,
+        "exactPublishedDate": "2018-02-18"
+      },
+      "note": "Exact official YouTube upload remains independently indexed. Absence from the current Videos-tab inventory is not a deletion criterion."
+    },
+    {
+      "code": "S2018E19",
+      "title": "ON RENCONTRE NOTRE EQUIPE #vlogàtouteberzingue",
+      "date": "2018-05-16",
+      "decision": "KEEP_HISTORICALLY_CORROBORATED",
+      "evidence": {
+        "exactTitleAndDateCorroboratedByHistoricalYoutubeCalendars": true,
+        "externalEpisodeDescription": "On a enfin rencontré les 4 candidats de notre team FantaXYou2."
+      },
+      "note": "Historical publication is independently corroborated. Exact current direct-video identity was not recovered in this pass; retain, no deletion."
+    },
+    {
+      "code": "S2020E07",
+      "title": "LE MARADON : une journée en live pour les hôpitaux de France",
+      "date": "2020-04-02",
+      "decision": "KEEP_PROVEN_LIVE_ONLY_HISTORICAL",
+      "evidence": {
+        "officialYoutubeId": "hLq-DMPwHy8",
+        "eventDate": "2020-04-02",
+        "independentlyCorroboratedCharityLive": true,
+        "description": "Day-long charity livestream for French hospitals during the first COVID-19 lockdown."
+      },
+      "note": "Explicit livestream. It is outside the user's Videos-tab long-form scope but is historically valid; keep."
+    },
+    {
+      "code": "S2020E20",
+      "title": "On annonce le Gage de YOUTUBE WARRIOR #5 ! (Bonne chance mdr)",
+      "date": "2020-09-30",
+      "decision": "KEEP_HISTORICALLY_PROVEN",
+      "evidence": {
+        "historicalYoutubeId": "VcFfRoTGhIg",
+        "exactTitle": true,
+        "exactPublishedDate": "2020-09-30",
+        "historicalTranscriptIndex": true
+      },
+      "note": "Exact historical YouTube title/date are independently indexed. Keep; no destructive action."
+    },
+    {
+      "code": "S2021E17",
+      "title": "La Traversée : Le départ",
+      "date": "2021-09-11",
+      "decision": "KEEP_HISTORICAL_EVENT_STREAM",
+      "evidence": {
+        "exactTitleAndDateCorroborated": true,
+        "historicalRuntimeMinutes": 206,
+        "crossingEventIndependentlyCorroborated": true
+      },
+      "note": "Long event/live-style publication tied to the independently documented Mediterranean rowing crossing. Keep even though absent from current Videos-tab inventory."
+    },
+    {
+      "code": "S2021E18",
+      "title": "La Traversée : L'arrivée",
+      "date": "2021-09-13",
+      "decision": "KEEP_HISTORICAL_EVENT_STREAM",
+      "evidence": {
+        "exactTitleAndDateCorroborated": true,
+        "historicalRuntimeMinutes": 342,
+        "crossingEventIndependentlyCorroborated": true
+      },
+      "note": "Long event/live-style publication tied to the independently documented crossing. Keep; no deletion."
+    },
+    {
+      "code": "S2025E58",
+      "title": "3 heures de défis LEGO, Thomas, @Amixem, @Maghla et @Cocottee_ et Camille Combal",
+      "date": "2025-09-21",
+      "decision": "KEEP_PROVEN_LIVE_REDISTRIBUTION_OUT_OF_VIDEOS_SCOPE",
+      "evidence": {
+        "officialYoutubeId": "lyJ7uM4l3ME",
+        "officialChannel": "Mcfly et Carlito",
+        "exactPublishedDate": "2025-09-21",
+        "officialDescriptionExplicitlySays": "Rediffusion du live du 21 septembre"
+      },
+      "note": "Official upload is explicitly a live replay. User scope excludes live-only items from Videos-tab matching, but that does not invalidate the TVDB historical entry."
+    }
+  ],
+  "summary": {
+    "checked": 7,
+    "keep": 7,
+    "deleteCandidates": 0,
+    "unresolvedForDeletion": 0,
+    "tvdbWrites": 0
+  },
+  "conclusion": "The seven fresh TVDB-only Mcfly & Carlito rows are all retain/no-delete cases. The historical deletion-research backlog is closed; no destructive action is justified."
+}
