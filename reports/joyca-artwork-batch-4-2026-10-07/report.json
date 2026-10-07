@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T15:26:46.357Z",
+  "mode": "GUARDED_JOYCA_ARTWORK_BATCH_4",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2019E45",
+    "S2019E47",
+    "S2020E02",
+    "S2020E04",
+    "S2020E11",
+    "S2020E12",
+    "S2020E21",
+    "S2020E30",
+    "S2020E32",
+    "S2020E34",
+    "S2020E35",
+    "S2020E39",
+    "S2020E41",
+    "S2020E44",
+    "S2020E46",
+    "S2020E47",
+    "S2021E50",
+    "S2021E53",
+    "S2021E55",
+    "S2021E61"
+  ],
+  "results": [
+    {
+      "code": "S2019E45",
+      "episodeId": "8371697",
+      "title": "DEVINEZ LA SUITE DE CES PUBS !",
+      "youtubeId": "6zg_1iG3HSA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DEVINEZ LA SUITE DE CES PUBS !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/6zg_1iG3HSA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 74927
+        }
+      },
+      "crop": {
+        "id": "2329396",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac664ba52e80.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371697/screencap/6ac664bb7bd8c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E47",
+      "episodeId": "8371699",
+      "title": "INDEX CHALLENGE (Ft. @Mastu)",
+      "youtubeId": "hdSAKpyK048",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "INDEX CHALLENGE (Ft. @Mastu)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/hdSAKpyK048/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 137754
+        }
+      },
+      "crop": {
+        "id": "2329398",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac664bfa608c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371699/screencap/6ac664c0c0102.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E02",
+      "episodeId": "8070769",
+      "title": "LES PIRES REPRISES MUSICALES #2 (Feat. Amixem)",
+      "youtubeId": "5AGvdR0Wu-w",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES REPRISES MUSICALES #2 (Feat. Amixem)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/5AGvdR0Wu-w/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 106343
+        }
+      },
+      "crop": {
+        "id": "2329399",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac664c4658fd.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070769/screencap/6ac664c587357.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E04",
+      "episodeId": "8070771",
+      "title": "VOUS PARLEZ PENDANT QUE VOUS DORMEZ !?",
+      "youtubeId": "1THZSfIziuY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOUS PARLEZ PENDANT QUE VOUS DORMEZ !?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/1THZSfIziuY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 107933
+        }
+      },
+      "crop": {
+        "id": "2329400",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac664c936e0c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070771/screencap/6ac664ca5c023.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E11",
+      "episodeId": "7626721",
+      "title": "JOYCA - Millionaire",
+      "youtubeId": "kaMeEfffXL0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JOYCA - Millionaire",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/kaMeEfffXL0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 50333
+        }
+      },
+      "crop": {
+        "id": "2329401",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac664cdc8b17.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7626721/screencap/6ac664ceda027.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E12",
+      "episodeId": "8070778",
+      "title": "PRODUIT DE LUXE OU COMMUN ? #3 (Ft @Amixem)",
+      "youtubeId": "Fk4Kk2m4ans",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PRODUIT DE LUXE OU COMMUN ? #3 (Ft @Amixem)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Fk4Kk2m4ans/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 157204
+        }
+      },
+      "crop": {
+        "id": "2329403",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac664d27d847.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070778/screencap/6ac664d394a93.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E21",
+      "episodeId": "7751121",
+      "title": "JOYCA - NEED U",
+      "youtubeId": "8rRL7R3f-Jk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JOYCA - NEED U",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/8rRL7R3f-Jk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 91709
+        }
+      },
+      "crop": {
+        "id": "2329404",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac664d734182.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7751121/screencap/6ac664d84a4b4.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E30",
+      "episodeId": "8070794",
+      "title": "BATTLE DE RECHERCHES GOOGLE ! (Avec @Mastu)",
+      "youtubeId": "iP4FJbqZylQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "BATTLE DE RECHERCHES GOOGLE ! (Avec @Mastu)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/iP4FJbqZylQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 91024
+        }
+      },
+      "crop": {
+        "id": "2329405",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac664dbc66dc.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070794/screencap/6ac664dcd4644.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E32",
+      "episodeId": "8070795",
+      "title": "JE TENTE DE FAIRE DES GLACES INSOLITES (Genre Big Mac)",
+      "youtubeId": "hGDDKVkrb5c",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE TENTE DE FAIRE DES GLACES INSOLITES (Genre Big Mac)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/hGDDKVkrb5c/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 122137
+        }
+      },
+      "crop": {
+        "id": "2329406",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac664e0686db.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070795/screencap/6ac664e176587.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E34",
+      "episodeId": "8070797",
+      "title": "LES HUMAINS VONT TROP LOIN !",
+      "youtubeId": "SGg-AW7Sgzw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES HUMAINS VONT TROP LOIN !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/SGg-AW7Sgzw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 117384
+        }
+      },
+      "crop": {
+        "id": "2329407",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac664e4f272d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070797/screencap/6ac664e622c3c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E35",
+      "episodeId": "7907338",
+      "title": "MON NOUVEL APPARTEMENT ! (House tour)",
+      "youtubeId": "TD9mOPz1Aeg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MON NOUVEL APPARTEMENT ! (House tour)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/TD9mOPz1Aeg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 64802
+        }
+      },
+      "crop": {
+        "id": "2329408",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac664e994d18.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7907338/screencap/6ac664eab5595.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E39",
+      "episodeId": "7963954",
+      "title": "MA NOUVELLE MEILLEURE AMIE ! (elle me fait peur)",
+      "youtubeId": "mlZnRWBQCtw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MA NOUVELLE MEILLEURE AMIE ! (elle me fait peur)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/mlZnRWBQCtw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 96604
+        }
+      },
+      "crop": {
+        "id": "2329410",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac664ee77fcb.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7963954/screencap/6ac664ef8904c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E41",
+      "episodeId": "8070802",
+      "title": "JE VOULAIS JUSTE RIRE AVEC VOS TIK TOK",
+      "youtubeId": "2ub7qzFwR2o",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE VOULAIS JUSTE RIRE AVEC VOS TIK TOK",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/2ub7qzFwR2o/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 94846
+        }
+      },
+      "crop": {
+        "id": "2329411",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac664f314120.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070802/screencap/6ac664f42dd9e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E44",
+      "episodeId": "8070805",
+      "title": "VOS MEILLEURS DIY !",
+      "youtubeId": "0zmGFL_ZUyw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOS MEILLEURS DIY !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/0zmGFL_ZUyw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 107239
+        }
+      },
+      "crop": {
+        "id": "2329412",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac664f7b64a5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070805/screencap/6ac664f8ce119.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E46",
+      "episodeId": "8070807",
+      "title": "JOYCA - CLASH ASSASSINS (Feat Mastu)",
+      "youtubeId": "n12P2nzoUkQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JOYCA - CLASH ASSASSINS (Feat Mastu)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/n12P2nzoUkQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 97095
+        }
+      },
+      "crop": {
+        "id": "2329414",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac664fcee71e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070807/screencap/6ac664fe1dfb3.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E47",
+      "episodeId": "8070808",
+      "title": "FAIRE UN SON EN 3 JOURS (Avec @Mastu)",
+      "youtubeId": "MuK5LVC_C10",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FAIRE UN SON EN 3 JOURS (Avec @Mastu)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/MuK5LVC_C10/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 104046
+        }
+      },
+      "crop": {
+        "id": "2329415",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66501a153d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070808/screencap/6ac66502dc36b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E50",
+      "episodeId": "11967271",
+      "title": "ESSAYEZ DE NE PAS RIRE ! (Version Tik Tok)",
+      "youtubeId": "Fp3g5K1u7So",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ESSAYEZ DE NE PAS RIRE ! (Version Tik Tok)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Fp3g5K1u7So/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 150489
+        }
+      },
+      "crop": {
+        "id": "2329416",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6650685c90.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11967271/screencap/6ac66507aaa5c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E53",
+      "episodeId": "11847093",
+      "title": "CE POISSON EST DANGEREUX #VLOAT 13",
+      "youtubeId": "Sd6hNjirkhs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CE POISSON EST DANGEREUX #VLOAT 13",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Sd6hNjirkhs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 117946
+        }
+      },
+      "crop": {
+        "id": "2329417",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6650b76419.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11847093/screencap/6ac6650c95bb9.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E55",
+      "episodeId": "11847095",
+      "title": "ON A FAIT UNE DINGUERIE (avec DJ Bens) #VLOAT 14",
+      "youtubeId": "Bsnk1m0SPsw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON A FAIT UNE DINGUERIE (avec DJ Bens) #VLOAT 14",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Bsnk1m0SPsw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 121600
+        }
+      },
+      "crop": {
+        "id": "2329418",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66510317b9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11847095/screencap/6ac6651168344.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E61",
+      "episodeId": "11847101",
+      "title": "VOS PARTICULARITES PHYSIQUES #3 (Ultimate edition)",
+      "youtubeId": "tSwnQWW_8BE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOS PARTICULARITES PHYSIQUES #3 (Ultimate edition)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/tSwnQWW_8BE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 96873
+        }
+      },
+      "crop": {
+        "id": "2329419",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66514e3cb5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11847101/screencap/6ac6651613ed0.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
