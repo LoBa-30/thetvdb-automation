@@ -180,7 +180,7 @@ try{
   const cropImageSrc=await page.locator('img#cropper').first().getAttribute('src').catch(()=>null);
   report.cropForm={found:true,...cropSnap,resolvedAction:actionUrl.pathname,cropScope,cropImageSrc,provenance:'TEMP_CROP_PAGE_CREATED_BY_STAGE1_IN_SAME_AUTHENTICATED_SESSION'};
   if(actionUrl.origin!==BASE||actionUrl.pathname!=='/artwork/upload_cropper_handler') throw new Error('Unexpected second-stage action '+actionUrl.pathname);
-  if(!/^\\d+$/.test(String(cropId||''))) throw new Error('Missing numeric temporary artwork id');
+  if(!/^\d+$/.test(String(cropId||''))) throw new Error('Missing numeric temporary artwork id');
   if(cropScope.x!=='0'||cropScope.y!=='0'||cropScope.width!=='1280'||cropScope.height!=='720'||cropScope.scaleX!=='1'||cropScope.scaleY!=='1'){
     throw new Error('Unexpected crop scope '+JSON.stringify(cropScope));
   }
