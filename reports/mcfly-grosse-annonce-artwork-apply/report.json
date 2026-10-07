@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-10-07T09:38:56.894Z",
+  "target": "Mcfly & Carlito S2015E01",
+  "mode": "GUARDED_SINGLE_OFFICIAL_YOUTUBE_ARTWORK_UPLOAD",
+  "armed": true,
+  "authenticated": true,
+  "preflight": {
+    "heading": "GROSSE ANNONCE",
+    "beforeArtwork": [],
+    "imageUrl": "https://i.ytimg.com/vi/fttKpTYRdMs/maxresdefault.jpg"
+  },
+  "write": {
+    "episodeId": "12023296",
+    "imageUrl": "https://i.ytimg.com/vi/fttKpTYRdMs/maxresdefault.jpg",
+    "submitted": true,
+    "submittedAt": "2026-10-07T09:39:03.535Z"
+  },
+  "verification": {
+    "reads": [
+      {
+        "attempt": 1,
+        "artworkCount": 0,
+        "artwork": []
+      },
+      {
+        "attempt": 2,
+        "artworkCount": 0,
+        "artwork": []
+      },
+      {
+        "attempt": 3,
+        "artworkCount": 0,
+        "artwork": []
+      },
+      {
+        "attempt": 4,
+        "artworkCount": 0,
+        "artwork": []
+      },
+      {
+        "attempt": 5,
+        "artworkCount": 0,
+        "artwork": []
+      },
+      {
+        "attempt": 6,
+        "artworkCount": 0,
+        "artwork": []
+      }
+    ],
+    "afterArtwork": [],
+    "artworkPresent": false,
+    "writeRetried": false
+  },
+  "blocked": [],
+  "result": "SUBMITTED_VERIFICATION_PENDING_DO_NOT_RETRY"
+}
