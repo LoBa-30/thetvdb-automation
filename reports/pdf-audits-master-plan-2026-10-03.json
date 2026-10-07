@@ -144,7 +144,7 @@
       "status": "IN_PROGRESS_DATES_ARTWORK",
       "pdfOpenWork": [
         "Exact publication dates remain independently unverified in the fresh audit",
-        "668 missing artworks remain versus the original 769-missing PDF snapshot after 101 newly secured artworks; continue only from fresh live rescans.",
+        "648 missing artworks remain versus the original 769-missing PDF snapshot after 121 newly secured artworks; continue only from fresh live rescans.",
         "2 artwork provenance tickets"
       ],
       "resolvedSincePlan": [
@@ -162,7 +162,8 @@
         "2026-10-07 continuation: Amixem artwork batch 3 applied and individually post-write verified 20/20, 0 skips, 0 failures. Total newly applied+verified artwork count from batches 1-3 is 60.",
         "2026-10-07 continuation: Amixem artwork batch 4 applied and individually post-write verified 20/20 (S2016E58-S2017E11), 0 skips, 0 failures. Total newly applied+verified artwork count through batch 4 is 80.",
         "2026-10-07 Amixem batch 5 guard case S2017E16 was stage1-only with temporary artwork id 2329553; targeted temp-finalize recovery completed and persistent artwork verification passed. Do not retry.",
-        "2026-10-07 Amixem artwork batch 5 recovery completed 20/20 on the post80 clean set (S2017E18-S2018E01), 0 skips, 0 failures. Combined with S2017E16 recovery, 101 newly secured Amixem artworks are protected by history."
+        "2026-10-07 Amixem artwork batch 5 recovery completed 20/20 on the post80 clean set (S2017E18-S2018E01), 0 skips, 0 failures. Combined with S2017E16 recovery, 101 newly secured Amixem artworks are protected by history.",
+        "2026-10-07 continuation: Amixem artwork batch 6 applied and individually post-write verified 20/20 (S2018E04-S2019E25), 0 skips, 0 failures. Combined secured count is now 121."
       ]
     },
     {
@@ -171,7 +172,7 @@
       "status": "IN_PROGRESS_DATES_ARTWORK",
       "pdfOpenWork": [
         "Exact publication dates remain independently unverified in the fresh audit",
-        "242 missing artworks remain versus the original 379-missing PDF snapshot after 137 newly secured artworks; continue only from fresh live rescans."
+        "222 missing artworks remain versus the original 379-missing PDF snapshot after 157 newly secured artworks; continue only from fresh live rescans."
       ],
       "resolvedSincePlan": [
         "TROUVE LE GÂTEAU repeated-title discrepancy resolved as matcher false positive; four checked entries correct.",
@@ -186,7 +187,8 @@
         "2026-10-07 continuation: Joyca artwork batch 4 applied and individually post-write verified 20/20 (S2019E45-S2021E61), 0 skips, 0 failures. Total newly applied+verified artwork count through batch 4 is 80.",
         "2026-10-07 Joyca batch 5 partial guard: 16 rows completed APPLIED_AND_VERIFIED, then S2018E08 hit a post-submit body timeout. Fresh read-only rescan proved S2018E08 has a persistent TheTVDB screencap, so effective completion from the original batch is 17/20 and S2018E08 is DO_NOT_RETRY. Three original targets remained unprocessed before recovery.",
         "2026-10-07 Joyca batch 5 recovery completed 20/20 with 0 skips and 0 failures. Combined with the original batch 5's 16 APPLIED_AND_VERIFIED rows plus S2018E08 independently confirmed persistent, Joyca has 117 newly secured artworks across batches 1-5/recovery.",
-        "2026-10-07 continuation: Joyca artwork batch 6 applied and individually post-write verified 20/20 (S2019E30-S2020E09), 0 skips, 0 failures. Joyca has 137 newly secured artworks after batches 1-6/recovery history."
+        "2026-10-07 continuation: Joyca artwork batch 6 applied and individually post-write verified 20/20 (S2019E30-S2020E09), 0 skips, 0 failures. Joyca has 137 newly secured artworks after batches 1-6/recovery history.",
+        "2026-10-07 continuation: Joyca artwork batch 7 applied and individually post-write verified 20/20 (S2020E10-S2020E36), 0 skips, 0 failures. Joyca now has 157 newly secured artworks."
       ]
     },
     {
@@ -248,7 +250,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T16:33:00Z",
+  "lastUpdatedAt": "2026-10-07T16:34:00Z",
   "latestContinuationCommits": [
     "38c1bbafe19bfbe54c91072ab9419ec91d7715d7",
     "68bb95cb01a3f49ceb6f7e29ee530daac5e07696",
@@ -376,6 +378,8 @@
     "d122fe0fe8a404e29f8a30b9fee5ce155139c0dd",
     "b02e37135446d632dd914ceae4267100ffbef0ce",
     "e3f6a5b04ed8addb572aca2feacb43a6a8adcf13",
-    "36d43949a61142b77d3c064d3d2fa1c14941dccc"
+    "36d43949a61142b77d3c064d3d2fa1c14941dccc",
+    "599a4a28e65c8220e73c4563194aeaf1af6a2155",
+    "5fddd285da00aa9f53dd4e430aa00198ed48c1c1"
   ]
 }
