@@ -1,0 +1,4 @@
+authenticated=true
+blocked=0
+nonReadRequestsBlocked=20
+result=PREFLIGHT_PASSED_ZERO_WRITES

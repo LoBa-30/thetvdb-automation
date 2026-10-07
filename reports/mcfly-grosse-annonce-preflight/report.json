@@ -1,0 +1,172 @@
+{
+  "generatedAt": "2026-10-07T09:29:19.898Z",
+  "target": "Mcfly & Carlito",
+  "mode": "GROSSE_ANNONCE_CHRONOLOGICAL_INSERT_PREFLIGHT_READ_ONLY",
+  "targetEpisode": {
+    "youtubeId": "fttKpTYRdMs",
+    "title": "GROSSE ANNONCE",
+    "date": "2015-04-12",
+    "durationSeconds": 78,
+    "runtimeMinutes": 1,
+    "season": 2015,
+    "number": 1
+  },
+  "authenticated": true,
+  "checks": [
+    {
+      "type": "SEASON_EDIT_ROWS",
+      "rows": [
+        {
+          "internalId": "7933117",
+          "publicId": "10752678",
+          "title": "LE FAT SHOW S3E1 Feat. CYPRIEN",
+          "number": 1
+        },
+        {
+          "internalId": "7933154",
+          "publicId": "10752715",
+          "title": "LE FAT SHOW S3E2 Feat. NATOO",
+          "number": 2
+        },
+        {
+          "internalId": "7933155",
+          "publicId": "10752716",
+          "title": "LE FAT SHOW S3E3 Feat. BUN HAY MEAN",
+          "number": 3
+        },
+        {
+          "internalId": "7933156",
+          "publicId": "10752717",
+          "title": "LE FAT SHOW S3E4 Feat. SLIM BERHOUN",
+          "number": 4
+        }
+      ]
+    },
+    {
+      "type": "EXISTING_2015_METADATA",
+      "episodes": [
+        {
+          "id": "10752678",
+          "firstAired": "June 7, 2015",
+          "runtimeMinutes": 45
+        },
+        {
+          "id": "10752715",
+          "firstAired": "June 14, 2015",
+          "runtimeMinutes": 38
+        },
+        {
+          "id": "10752716",
+          "firstAired": "June 21, 2015",
+          "runtimeMinutes": 49
+        },
+        {
+          "id": "10752717",
+          "firstAired": "June 29, 2015",
+          "runtimeMinutes": 50
+        }
+      ]
+    },
+    {
+      "type": "BULKADD_FORM",
+      "present": true,
+      "action": "/series/338282-show/seasons/official/2015/savebulkadd",
+      "fields": {
+        "number": 1,
+        "name": 1,
+        "date": 1,
+        "runtime": 1
+      }
+    },
+    {
+      "type": "UNASSIGNED_COLLISION_CHECK",
+      "count": 64,
+      "collisions": []
+    }
+  ],
+  "blocked": [],
+  "result": "PREFLIGHT_PASSED_ZERO_WRITES",
+  "readOnlyNetworkLock": true,
+  "blockedNonReadRequests": [
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791365364487&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F338282-show%2Fseasons%2Fofficial%2F2015%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fseasons%2Fofficial%2F2015%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791365364487&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F338282-show%2Fseasons%2Fofficial%2F2015%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fseasons%2Fofficial%2F2015%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791365365488&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F338282-show%2Fepisodes%2F10752678&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fepisodes%2F10752678&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791365365488&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F338282-show%2Fepisodes%2F10752678&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fepisodes%2F10752678&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791365364303&gcd=13l3l3l3l1l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2144621386.1791365360&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&sid=1791365361&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fseasons%2Fofficial%2F2015%2Fedit&dt=Edit%20Season%20-%20Mcfly%20%26%20Carlito%20-%20Aired%20Order%20-%202015%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=1771"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791365364303&gcd=13l3l3l3l1l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2144621386.1791365360&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&sid=1791365361&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fseasons%2Fofficial%2F2015%2Fedit&dt=Edit%20Season%20-%20Mcfly%20%26%20Carlito%20-%20Aired%20Order%20-%202015%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=1771&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791365367108&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F338282-show%2Fepisodes%2F10752715&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fepisodes%2F10752715&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791365367108&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F338282-show%2Fepisodes%2F10752715&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fepisodes%2F10752715&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791365368326&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F338282-show%2Fepisodes%2F10752716&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fepisodes%2F10752716&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791365368326&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F338282-show%2Fepisodes%2F10752716&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fepisodes%2F10752716&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-E35MMLRF5R&gtm=45je6a51v9102496370za200zb9171404918zd9171404918xf1&_p=1791365364303&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQ&cid=2144621386.1791365360&frm=0&pscdl=noapi&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120420414~120469145~120469153~121046263~121046271~121280970~121427142&sid=1791365360&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fseasons%2Fofficial%2F2015%2Fedit&dt=Edit%20Season%20-%20Mcfly%20%26%20Carlito%20-%20Aired%20Order%20-%202015%20-%20TheTVDB.com&en=page_view&_ee=1&tfd=5763"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-E35MMLRF5R&gtm=45je6a51v9102496370za200zb9171404918zd9171404918xf1&_p=1791365364303&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQ&cid=2144621386.1791365360&frm=0&pscdl=noapi&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=3&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120420414~120469145~120469153~121046263~121046271~121280970~121427142&sid=1791365360&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fseasons%2Fofficial%2F2015%2Fedit&dt=Edit%20Season%20-%20Mcfly%20%26%20Carlito%20-%20Aired%20Order%20-%202015%20-%20TheTVDB.com&en=page_view&_ee=1&tfd=5763"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791365364303&gcd=13l3l3l3l1l1&npa=0&dma=0&tcfd=10000&_eu=AEIAAAQ&cid=2144621386.1791365360&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&sid=1791365361&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fseasons%2Fofficial%2F2015%2Fedit&dt=Edit%20Season%20-%20Mcfly%20%26%20Carlito%20-%20Aired%20Order%20-%202015%20-%20TheTVDB.com&_s=2&tfd=6821"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791365364303&gcd=13l3l3l3l1l1&npa=0&dma=0&tcfd=10000&_eu=AEIAAAQ&cid=2144621386.1791365360&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&sid=1791365361&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fseasons%2Fofficial%2F2015%2Fedit&dt=Edit%20Season%20-%20Mcfly%20%26%20Carlito%20-%20Aired%20Order%20-%202015%20-%20TheTVDB.com&_s=2&tfd=6821&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791365371022&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F338282-show%2Fepisodes%2F10752717&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fepisodes%2F10752717&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791365371022&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F338282-show%2Fepisodes%2F10752717&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fepisodes%2F10752717&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791365371717&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F338282-show%2Fseasons%2Fofficial%2F2015%2Fbulkadd&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fseasons%2Fofficial%2F2015%2Fbulkadd&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791365371717&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F338282-show%2Fseasons%2Fofficial%2F2015%2Fbulkadd&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fseasons%2Fofficial%2F2015%2Fbulkadd&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791365373042&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F338282-show%2Fseasons%2Fofficial%2Funassigned%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fseasons%2Fofficial%2Funassigned%2Fedit&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791365373042&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F338282-show%2Fseasons%2Fofficial%2Funassigned%2Fedit&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fseasons%2Fofficial%2Funassigned%2Fedit&beacon=1"
+    }
+  ]
+}
