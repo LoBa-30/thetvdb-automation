@@ -1,0 +1,7 @@
+authenticated=true
+requested=1
+processed=1
+applied=0
+skipped=0
+failed=1
+result=RECOVERY_STOPPED_ON_GUARD

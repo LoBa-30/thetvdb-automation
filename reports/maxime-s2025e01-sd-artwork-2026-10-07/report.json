@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-10-07T20:29:03.270Z",
+  "mode": "GUARDED_MAXIME_S2025E01_SD_ARTWORK",
+  "authenticated": true,
+  "results": [
+    {
+      "code": "S2025E01",
+      "episodeId": "11696637",
+      "title": "2 jours pour faire une piste noire (j'ai jamais skié)",
+      "youtubeId": "EqFLIsSB2hg",
+      "status": "BLOCKED_BEFORE_WRITE",
+      "preflight": {
+        "heading": "2 jours pour faire une piste noire (j'ai jamais skié)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/sddefault.jpg",
+          "status": 404,
+          "width": 120,
+          "height": 90,
+          "contentType": "image/jpeg",
+          "bytes": 1097
+        }
+      },
+      "crop": null,
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "SOURCE_SD_THUMBNAIL_NOT_EXACT_640X480"
+        }
+      ]
+    }
+  ],
+  "stopped": true,
+  "stopReason": "S2025E01: SOURCE_SD_THUMBNAIL_NOT_EXACT_640X480",
+  "result": "RECOVERY_STOPPED_ON_GUARD",
+  "summary": {
+    "requested": 1,
+    "processed": 1,
+    "applied": 0,
+    "skipped": 0,
+    "failed": 1
+  }
+}
