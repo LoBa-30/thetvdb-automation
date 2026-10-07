@@ -1,0 +1,196 @@
+{
+  "generatedAt": "2026-10-07T13:41:58.809Z",
+  "mode": "GUARDED_SQUEEZIE_ARTWORK_BATCH_1C",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2011E59",
+    "S2011E71",
+    "S2011E79",
+    "S2011E81"
+  ],
+  "results": [
+    {
+      "code": "S2011E59",
+      "episodeId": "5313820",
+      "title": "Un zombie sur Moon et Der Riese avec TheGame57360 !",
+      "youtubeId": "WkBEompW7Ho",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Un zombie sur Moon et Der Riese avec TheGame57360 !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/WkBEompW7Ho/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 104143
+        }
+      },
+      "crop": {
+        "id": "2329019",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64c2c158a2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313820/screencap/6ac64c2d61e24.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2011E71",
+      "episodeId": "5313832",
+      "title": "[IRL] UNE VIDEO BONUS QUI TOURNE AU FOU RIRE !",
+      "youtubeId": "1QxslsL423M",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "[IRL] UNE VIDEO BONUS QUI TOURNE AU FOU RIRE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/1QxslsL423M/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 58010
+        }
+      },
+      "crop": {
+        "id": "2329020",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64c3183ce4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313832/screencap/6ac64c32d9917.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2011E79",
+      "episodeId": "5313841",
+      "title": "NGZ joue sur Xbox 360 ! Son premier commentary sur Xbox !",
+      "youtubeId": "THNL9maJIKs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "NGZ joue sur Xbox 360 ! Son premier commentary sur Xbox !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/THNL9maJIKs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 144802
+        }
+      },
+      "crop": {
+        "id": "2329021",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64c37ceba4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313841/screencap/6ac64c392a2bb.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2011E81",
+      "episodeId": "5313843",
+      "title": "SQUEEZIE - LES TOILETTES",
+      "youtubeId": "RevuP03RC_U",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SQUEEZIE - LES TOILETTES",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/RevuP03RC_U/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 64337
+        }
+      },
+      "crop": {
+        "id": "2329022",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64c3d6ca3c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313843/screencap/6ac64c3e91ab5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 4,
+    "processed": 4,
+    "applied": 4,
+    "skipped": 0,
+    "failed": 0
+  }
+}
