@@ -1,7 +1,7 @@
 authenticated=true
 stage1Status=200
 cropFormFound=true
-stage2Status=n/a
-artworkPresent=false
-blocked=1
-result=STAGE1_COMPLETE_STAGE2_BLOCKED_NO_RETRY
+stage2Status=302
+artworkPresent=true
+blocked=0
+result=APPLIED_AND_VERIFIED_TWO_STAGE
