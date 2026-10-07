@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T16:26:53.908Z",
+  "mode": "GUARDED_AMIXEM_ARTWORK_BATCH_6",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2018E04",
+    "S2018E14",
+    "S2018E32",
+    "S2018E40",
+    "S2018E51",
+    "S2018E52",
+    "S2018E54",
+    "S2018E56",
+    "S2018E76",
+    "S2018E85",
+    "S2018E88",
+    "S2018E91",
+    "S2019E13",
+    "S2019E14",
+    "S2019E15",
+    "S2019E16",
+    "S2019E20",
+    "S2019E22",
+    "S2019E23",
+    "S2019E25"
+  ],
+  "results": [
+    {
+      "code": "S2018E04",
+      "episodeId": "6515441",
+      "title": "ON PARODIE DES CLIPS ! (feat. Joyca) #1",
+      "youtubeId": "HyuvbaEDSlo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON PARODIE DES CLIPS ! (feat. Joyca) #1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/HyuvbaEDSlo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 111190
+        }
+      },
+      "crop": {
+        "id": "2329662",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac672d243bfb.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6515441/screencap/6ac672d6d1e2b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E14",
+      "episodeId": "6568307",
+      "title": "LES PIRES OBJETS SUR LES SITES CHINOIS ! #3",
+      "youtubeId": "TITlnMA7bH8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES OBJETS SUR LES SITES CHINOIS ! #3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/TITlnMA7bH8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 130321
+        }
+      },
+      "crop": {
+        "id": "2329663",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac672db4bb67.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6568307/screencap/6ac672dc96793.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E32",
+      "episodeId": "6677145",
+      "title": "5 SECONDES CHALLENGE",
+      "youtubeId": "ieI61ZxGe28",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "5 SECONDES CHALLENGE",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ieI61ZxGe28/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 158276
+        }
+      },
+      "crop": {
+        "id": "2329664",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac672e0b8211.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6677145/screencap/6ac672e1d9cd9.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E40",
+      "episodeId": "6712720",
+      "title": "LA MEILLEURE AVENTURE EN VOITURE ! - RedboxTrip #3",
+      "youtubeId": "lBxp9Cv-Zcg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA MEILLEURE AVENTURE EN VOITURE ! - RedboxTrip #3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/lBxp9Cv-Zcg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 123003
+        }
+      },
+      "crop": {
+        "id": "2329665",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac672e5d267a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6712720/screencap/6ac672e702f8b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E51",
+      "episodeId": "6761585",
+      "title": "LES PIRES DOUBLAGES DE TABLEAUX ! EPISODE #1",
+      "youtubeId": "ndBIFpFRkS8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES DOUBLAGES DE TABLEAUX ! EPISODE #1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ndBIFpFRkS8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 147603
+        }
+      },
+      "crop": {
+        "id": "2329666",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac672eb00205.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6761585/screencap/6ac672ec1c782.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E52",
+      "episodeId": "6771903",
+      "title": "CETTE TECHNOLOGIE EST INCROYABLE ! (Drone Sous-Marin #2)",
+      "youtubeId": "g8Qp_F4IADY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CETTE TECHNOLOGIE EST INCROYABLE ! (Drone Sous-Marin #2)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/g8Qp_F4IADY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 105112
+        }
+      },
+      "crop": {
+        "id": "2329667",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac672f0378a9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6771903/screencap/6ac672f15a290.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E54",
+      "episodeId": "6771914",
+      "title": "JE NE DEVRAIS PAS ETRE ICI...",
+      "youtubeId": "raMLsam2e78",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE NE DEVRAIS PAS ETRE ICI...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/raMLsam2e78/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 121798
+        }
+      },
+      "crop": {
+        "id": "2329669",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac672f5d9871.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6771914/screencap/6ac672f72d230.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E56",
+      "episodeId": "6791193",
+      "title": "POUR COMBIEN TU... ? (ft. Vodk, Mastu, Neoxi)",
+      "youtubeId": "4sLMo9YJpDQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "POUR COMBIEN TU... ? (ft. Vodk, Mastu, Neoxi)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/4sLMo9YJpDQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 184129
+        }
+      },
+      "crop": {
+        "id": "2329670",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac672fb4b6d1.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6791193/screencap/6ac672fc6e58a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E76",
+      "episodeId": "6882734",
+      "title": "99,5% DE MALAISE ! (TIK TOK)",
+      "youtubeId": "G4oDm9TvFVs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "99,5% DE MALAISE ! (TIK TOK)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/G4oDm9TvFVs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 142045
+        }
+      },
+      "crop": {
+        "id": "2329671",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67300818b9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6882734/screencap/6ac673019d4d6.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E85",
+      "episodeId": "6924694",
+      "title": "LES PIRES ANNONCES SUR LEBONCOIN ! #9",
+      "youtubeId": "tJ-DjWCEID8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES ANNONCES SUR LEBONCOIN ! #9",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/tJ-DjWCEID8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 103845
+        }
+      },
+      "crop": {
+        "id": "2329672",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67305a1de0.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6924694/screencap/6ac67306cfc6f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E88",
+      "episodeId": "6940546",
+      "title": "ON PARODIE DES CLIPS ! #3 feat. Joyca",
+      "youtubeId": "SOH-wva28Dg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON PARODIE DES CLIPS ! #3 feat. Joyca",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/SOH-wva28Dg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 145396
+        }
+      },
+      "crop": {
+        "id": "2329673",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6730ae593f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6940546/screencap/6ac6730c130f0.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E91",
+      "episodeId": "6957728",
+      "title": "SI VOUS ME FAITES RIRE, JE VOUS PAYE !",
+      "youtubeId": "bq85M2gRcPo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SI VOUS ME FAITES RIRE, JE VOUS PAYE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/bq85M2gRcPo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 141513
+        }
+      },
+      "crop": {
+        "id": "2329674",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6731050706.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6957728/screencap/6ac673118d178.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E13",
+      "episodeId": "7284180",
+      "title": "REJOIGNEZ MON EQUIPE !",
+      "youtubeId": "loJ0v8ZRKYI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "REJOIGNEZ MON EQUIPE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/loJ0v8ZRKYI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 102558
+        }
+      },
+      "crop": {
+        "id": "2329676",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67315ad75a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7284180/screencap/6ac67316d5653.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E14",
+      "episodeId": "7284183",
+      "title": "LES COMPTES INSTAGRAM LES PLUS DRÔLES ! #1",
+      "youtubeId": "DlLHfpgcRVY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES COMPTES INSTAGRAM LES PLUS DRÔLES ! #1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/DlLHfpgcRVY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 120592
+        }
+      },
+      "crop": {
+        "id": "2329677",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6731b34db8.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7284183/screencap/6ac6731c5f94a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E15",
+      "episodeId": "7284185",
+      "title": "VOS PIRES RECHERCHES GOOGLE SUR MOI",
+      "youtubeId": "FoO9Q9c46HM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOS PIRES RECHERCHES GOOGLE SUR MOI",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/FoO9Q9c46HM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 118888
+        }
+      },
+      "crop": {
+        "id": "2329678",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67320541ac.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7284185/screencap/6ac673216dee7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E16",
+      "episodeId": "7284190",
+      "title": "PRODUIT DE LUXE OU COMMUN ? (avec JOYCA)",
+      "youtubeId": "dozjycfpRW8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PRODUIT DE LUXE OU COMMUN ? (avec JOYCA)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/dozjycfpRW8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 112991
+        }
+      },
+      "crop": {
+        "id": "2329679",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac673258fa2d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7284190/screencap/6ac67326ba331.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E20",
+      "episodeId": "7284200",
+      "title": "DEVINEZ LE BON LOGO !",
+      "youtubeId": "bKtYdyGrlyY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DEVINEZ LE BON LOGO !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/bKtYdyGrlyY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 95886
+        }
+      },
+      "crop": {
+        "id": "2329682",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6732af249c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7284200/screencap/6ac6732c36002.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E22",
+      "episodeId": "7284205",
+      "title": "MES PIRES MOMENTS DE MALAISE SUR YOUTUBE !",
+      "youtubeId": "y-ynt7MEdUc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MES PIRES MOMENTS DE MALAISE SUR YOUTUBE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/y-ynt7MEdUc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 94466
+        }
+      },
+      "crop": {
+        "id": "2329683",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6733071f4c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7284205/screencap/6ac673318fad3.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E23",
+      "episodeId": "7284206",
+      "title": "ESSAYEZ DE NE PAS REGARDER CHALLENGE #3 ft. JOYCA",
+      "youtubeId": "lg6x1RnyILs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ESSAYEZ DE NE PAS REGARDER CHALLENGE #3 ft. JOYCA",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/lg6x1RnyILs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 133487
+        }
+      },
+      "crop": {
+        "id": "2329684",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67335a4fb4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7284206/screencap/6ac67336e25ec.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E25",
+      "episodeId": "7284207",
+      "title": "LES PIRES OBJETS (CHOQUANTS) SUR AMAZON !",
+      "youtubeId": "CTaT4CkKEA8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES OBJETS (CHOQUANTS) SUR AMAZON !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/CTaT4CkKEA8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 120173
+        }
+      },
+      "crop": {
+        "id": "2329685",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6733b25db9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7284207/screencap/6ac6733c49190.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
