@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T16:20:02.186Z",
+  "mode": "GUARDED_SQUEEZIE_ARTWORK_BATCH_10",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2015E15",
+    "S2015E16",
+    "S2015E18",
+    "S2015E21",
+    "S2015E25",
+    "S2015E29",
+    "S2015E32",
+    "S2015E40",
+    "S2015E41",
+    "S2015E43",
+    "S2015E44",
+    "S2015E51",
+    "S2015E53",
+    "S2015E55",
+    "S2015E56",
+    "S2015E57",
+    "S2015E62",
+    "S2015E63",
+    "S2015E67",
+    "S2015E68"
+  ],
+  "results": [
+    {
+      "code": "S2015E15",
+      "episodeId": "5314639",
+      "title": "COMMENT NE PAS SURVIVRE DANS UN SURVIVAL ?",
+      "youtubeId": "gYGm3w1Z4Js",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COMMENT NE PAS SURVIVRE DANS UN SURVIVAL ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/gYGm3w1Z4Js/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 116867
+        }
+      },
+      "crop": {
+        "id": "2329619",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac671367963e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314639/screencap/6ac6713a87b5a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E16",
+      "episodeId": "5314640",
+      "title": "DES CRABES, DES CRABES PARTOUT ! (Stranded Deep)",
+      "youtubeId": "8epK-g9Ofvc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DES CRABES, DES CRABES PARTOUT ! (Stranded Deep)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/8epK-g9Ofvc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 173116
+        }
+      },
+      "crop": {
+        "id": "2329621",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6713e936aa.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314640/screencap/6ac6713fb4728.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E18",
+      "episodeId": "5314642",
+      "title": "LES VILAINS COMMENTAIRES...",
+      "youtubeId": "6djASMi2B8k",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES VILAINS COMMENTAIRES...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/6djASMi2B8k/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 103902
+        }
+      },
+      "crop": {
+        "id": "2329622",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67143b2806.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314642/screencap/6ac67144da076.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E21",
+      "episodeId": "5314645",
+      "title": "HATERS GONNA NUS ! (First Person Lover)",
+      "youtubeId": "oaYvSFXMa80",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "HATERS GONNA NUS ! (First Person Lover)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/oaYvSFXMa80/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 79631
+        }
+      },
+      "crop": {
+        "id": "2329623",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67148924a1.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314645/screencap/6ac67149b3db8.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E25",
+      "episodeId": "5314651",
+      "title": "POUVONS-NOUS SORTIR AVEC ELLE ? (Saint-Valentin)",
+      "youtubeId": "8kjlWlAzIUg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "POUVONS-NOUS SORTIR AVEC ELLE ? (Saint-Valentin)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/8kjlWlAzIUg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 85121
+        }
+      },
+      "crop": {
+        "id": "2329624",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6714dbef99.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314651/screencap/6ac6714f10919.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E29",
+      "episodeId": "5314656",
+      "title": "DESSINONS DES STARS !",
+      "youtubeId": "rIMtx7U2USk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DESSINONS DES STARS !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/rIMtx7U2USk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 119640
+        }
+      },
+      "crop": {
+        "id": "2329625",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67152dfa59.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314656/screencap/6ac671540caad.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E32",
+      "episodeId": "5314660",
+      "title": "UN AMOUR IMPOSSIBLE... (Stranded Deep)",
+      "youtubeId": "sDExdYefmBE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UN AMOUR IMPOSSIBLE... (Stranded Deep)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/sDExdYefmBE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 140780
+        }
+      },
+      "crop": {
+        "id": "2329626",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67157cef85.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314660/screencap/6ac6715909785.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E40",
+      "episodeId": "5314685",
+      "title": "MEILLEUR SELFIE DU MONDE 10/10 (DreadOut #2)",
+      "youtubeId": "KlEMvbIR_cg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MEILLEUR SELFIE DU MONDE 10/10 (DreadOut #2)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/KlEMvbIR_cg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 84396
+        }
+      },
+      "crop": {
+        "id": "2329627",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6715ccd1b0.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314685/screencap/6ac6715debd2a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E41",
+      "episodeId": "5314686",
+      "title": "LE SECRET DE JUMBO... (Evie #2)",
+      "youtubeId": "A3k4bV4OncQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE SECRET DE JUMBO... (Evie #2)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/A3k4bV4OncQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 164301
+        }
+      },
+      "crop": {
+        "id": "2329628",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67161c12e2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314686/screencap/6ac67162dc652.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E43",
+      "episodeId": "5314689",
+      "title": "10 MINUTES DE SOUFFRANCE. (The Impossible Quiz)",
+      "youtubeId": "dDb1oXh1o4g",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "10 MINUTES DE SOUFFRANCE. (The Impossible Quiz)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/dDb1oXh1o4g/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 130963
+        }
+      },
+      "crop": {
+        "id": "2329630",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67166d3fff.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314689/screencap/6ac6716814054.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E44",
+      "episodeId": "5314690",
+      "title": "ESCALIERS ! (DAT TITRE) - Stairs",
+      "youtubeId": "oPX4vAPgL6o",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ESCALIERS ! (DAT TITRE) - Stairs",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/oPX4vAPgL6o/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 60698
+        }
+      },
+      "crop": {
+        "id": "2329631",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6716c0ba83.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314690/screencap/6ac6716d56246.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E51",
+      "episodeId": "5314697",
+      "title": "IL PREND LE TRAIN, PUIS... (The Train)",
+      "youtubeId": "7xi_bmxBxK0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "IL PREND LE TRAIN, PUIS... (The Train)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/7xi_bmxBxK0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 140738
+        }
+      },
+      "crop": {
+        "id": "2329632",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67170ef39c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314697/screencap/6ac6717217a37.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E53",
+      "episodeId": "5314699",
+      "title": "CET ENFANT VA VOUS FAIRE CRAQUER. (Happy Wheels)",
+      "youtubeId": "k3WRZshAFdU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CET ENFANT VA VOUS FAIRE CRAQUER. (Happy Wheels)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/k3WRZshAFdU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 93287
+        }
+      },
+      "crop": {
+        "id": "2329633",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6717601f13.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314699/screencap/6ac671771bbef.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E55",
+      "episodeId": "5314701",
+      "title": "STOP CHEAT MONSIEUR LE CERF (Alpages: The Five Books)",
+      "youtubeId": "KSAWbf-8nVc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "STOP CHEAT MONSIEUR LE CERF (Alpages: The Five Books)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/KSAWbf-8nVc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 124880
+        }
+      },
+      "crop": {
+        "id": "2329634",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6717ae9c00.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314701/screencap/6ac6717c14f28.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E56",
+      "episodeId": "5314702",
+      "title": "TU ME VEUX SENPAI ? :$ (Compilation de jeux)",
+      "youtubeId": "aBBLYj1-oeE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "TU ME VEUX SENPAI ? :$ (Compilation de jeux)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/aBBLYj1-oeE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 125363
+        }
+      },
+      "crop": {
+        "id": "2329635",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6717fdde46.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314702/screencap/6ac671811275b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E57",
+      "episodeId": "5314703",
+      "title": "4 BEAUFS EN VACANCES FINISSENT MAL... (Lakeview Cabin)",
+      "youtubeId": "F67Wvh5yDss",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "4 BEAUFS EN VACANCES FINISSENT MAL... (Lakeview Cabin)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/F67Wvh5yDss/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 84412
+        }
+      },
+      "crop": {
+        "id": "2329636",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67184df855.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314703/screencap/6ac6718616b5a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E62",
+      "episodeId": "5314736",
+      "title": "UNE INCROYABLE GRENOUILLE",
+      "youtubeId": "sFYDUagD_2Q",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UNE INCROYABLE GRENOUILLE",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/sFYDUagD_2Q/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 76513
+        }
+      },
+      "crop": {
+        "id": "2329637",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67189f1c8e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314736/screencap/6ac6718b372c0.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E63",
+      "episodeId": "5314737",
+      "title": "LE PROJET TITAN. (Besiege #2)",
+      "youtubeId": "0StqAFOxpTo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PROJET TITAN. (Besiege #2)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/0StqAFOxpTo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 106099
+        }
+      },
+      "crop": {
+        "id": "2329638",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6718f2ce88.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314737/screencap/6ac671905a9c7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E67",
+      "episodeId": "5314742",
+      "title": "COMMENT (NE PAS) SOIGNER SON MAL DE GORGE ?",
+      "youtubeId": "iY1ULhxJcT4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COMMENT (NE PAS) SOIGNER SON MAL DE GORGE ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/iY1ULhxJcT4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 47714
+        }
+      },
+      "crop": {
+        "id": "2329639",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac671942e4ad.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314742/screencap/6ac6719544291.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E68",
+      "episodeId": "5314744",
+      "title": "JE SUIS SQUEEZIE SENSEI ! (Toribash)",
+      "youtubeId": "oDrC1l57fwU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE SUIS SQUEEZIE SENSEI ! (Toribash)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/oDrC1l57fwU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 86813
+        }
+      },
+      "crop": {
+        "id": "2329640",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6719907e04.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314744/screencap/6ac6719a22e44.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
