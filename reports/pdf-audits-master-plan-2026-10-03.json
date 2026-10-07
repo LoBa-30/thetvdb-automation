@@ -162,7 +162,7 @@
       "status": "IN_PROGRESS_DATES_ARTWORK",
       "pdfOpenWork": [
         "Exact publication dates remain independently unverified in the fresh audit",
-        "319 missing artworks remain versus the original 379-missing PDF snapshot after 60 newly applied+verified artworks; continue only from fresh live rescans."
+        "299 missing artworks remain versus the original 379-missing PDF snapshot after 80 newly applied+verified artworks; continue only from fresh live rescans."
       ],
       "resolvedSincePlan": [
         "TROUVE LE GÂTEAU repeated-title discrepancy resolved as matcher false positive; four checked entries correct.",
@@ -173,7 +173,8 @@
         "Exhaustive runtime repair completed: 211 additional in-scope runtime corrections preflighted, written and 211/211 post-write verified. Together with the earlier 3 corrections, the 214-runtime PDF backlog is closed.",
         "2026-10-07 artwork rollout started: 20 Joyca missing artworks applied and individually post-write verified in guarded batch 1, 20/20 success, 0 skips, 0 failures.",
         "2026-10-07 continuation: Joyca artwork batch 2 applied and individually post-write verified 20/20, 0 skips, 0 failures.",
-        "2026-10-07 continuation: Joyca artwork batch 3 applied and individually post-write verified 20/20, 0 skips, 0 failures. Total newly applied+verified artwork count from batches 1-3 is 60."
+        "2026-10-07 continuation: Joyca artwork batch 3 applied and individually post-write verified 20/20, 0 skips, 0 failures. Total newly applied+verified artwork count from batches 1-3 is 60.",
+        "2026-10-07 continuation: Joyca artwork batch 4 applied and individually post-write verified 20/20 (S2019E45-S2021E61), 0 skips, 0 failures. Total newly applied+verified artwork count through batch 4 is 80."
       ]
     },
     {
@@ -235,7 +236,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T15:28:00Z",
+  "lastUpdatedAt": "2026-10-07T15:30:00Z",
   "latestContinuationCommits": [
     "38c1bbafe19bfbe54c91072ab9419ec91d7715d7",
     "68bb95cb01a3f49ceb6f7e29ee530daac5e07696",
@@ -349,6 +350,7 @@
     "24f94787e77b1622f107ce963a95e772bffa900a",
     "ad3029b9a4e4839fdb9a399b0c123705affecb5a",
     "98e8890adec1547947a509ae8c0523dd6b95ef92",
-    "8de927c7599397c9b25b21f8b26dd3026a518900"
+    "8de927c7599397c9b25b21f8b26dd3026a518900",
+    "91d884a690dd3ceef8f61e57a6f780fc803adb51"
   ]
 }
