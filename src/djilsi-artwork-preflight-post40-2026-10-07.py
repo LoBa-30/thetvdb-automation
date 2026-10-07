@@ -81,7 +81,21 @@ for v in vids:
     by_norm.setdefault(norm(v['title']),[]).append(v)
 
 seen=set()
+done=set()
+for rp in Path('reports').glob('djilsi-artwork*/report.json'):
+    try:
+        hist=json.loads(rp.read_text(encoding='utf-8'))
+        for row in hist.get('results',[]) or []:
+            if row.get('status') in ('APPLIED_AND_VERIFIED','ALREADY_PRESENT_SKIP') and row.get('code'):
+                done.add(row['code'])
+    except Exception:
+        pass
+report['historicalDone']=len(done)
+
 for ep in sorted(episodes,key=lambda x:(x['season'],x['episode'])):
+    if ep['code'] in done:
+        report['checked'].append({**ep,'status':'HISTORY_ALREADY_VERIFIED'})
+        continue
     if len(report['planned'])>=20: break
     matches=by_norm.get(norm(ep['title']),[])
     if len(matches)==0:
