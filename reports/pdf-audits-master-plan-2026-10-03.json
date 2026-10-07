@@ -164,7 +164,9 @@
         "108 remaining non-substantive runtime corrections are running under all-or-nothing fresh preflight.",
         "Final two runtimes excluded from bulk due title-parser ambiguity were independently preflighted, corrected and verified: S2025E54 99→109 min, S2023E06 64→65 min.",
         "Bulk runtime correction closed: 108/108 targets passed fresh preflight, 108 writes succeeded, and 108/108 post-write verifications passed; 0 skips and 0 blocks. Do not repeat these writes.",
-        "GROSSE ANNONCE closed with guarded chronological insertion: official YouTube ID fttKpTYRdMs, exact date 2015-04-12, duration 1:18 -> 1 min TVDB. Authenticated Unassigned audit read 64/64 with 0 errors and no collision; zero-write preflight passed; existing 2015 E01-E04 were renumbered to E02-E05; new TheTVDB episode 12023296 created as S2015E01 and post-write verified with exact title/date/runtime, one assigned exact-title hit, and zero Unassigned collision."
+        "GROSSE ANNONCE closed with guarded chronological insertion: official YouTube ID fttKpTYRdMs, exact date 2015-04-12, duration 1:18 -> 1 min TVDB. Authenticated Unassigned audit read 64/64 with 0 errors and no collision; zero-write preflight passed; existing 2015 E01-E04 were renumbered to E02-E05; new TheTVDB episode 12023296 created as S2015E01 and post-write verified with exact title/date/runtime, one assigned exact-title hit, and zero Unassigned collision.",
+        "S2015E01 GROSSE ANNONCE artwork preflight passed: no existing artwork; exact official YouTube maxres thumbnail is 1280x720 16:9 and upload form scope matched episode 12023296/type 11.",
+        "Official maxres thumbnail for S2015E01 was submitted exactly once through the guarded artwork form. Six immediate read-only post-write checks still showed no artwork, so status is SUBMITTED_VERIFICATION_PENDING_DO_NOT_RETRY. No second upload is permitted until a later read-only check proves whether TheTVDB accepted/processed the first submission."
       ]
     }
   ],
@@ -198,8 +200,11 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T11:34:00+02:00",
+  "lastUpdatedAt": "2026-10-07T11:40:00+02:00",
   "latestContinuationCommits": [
+    "9e29dc5",
+    "5037971e2cf301ee2b855914024077df44ceacd7",
+    "cfe592b9ed6cc25239d64aaf28b6946e774e57d3",
     "c00264998d22acf42c25c2f0cf16cbe0d8b4176e",
     "a0106f7f612aacd66238f44a9b4bccd1029ccf28",
     "c7a4afe476c3236e674ee4fb4babc2bb0fd681b9",
