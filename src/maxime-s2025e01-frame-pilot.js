@@ -16,15 +16,33 @@ try{
   const url='https://www.youtube-nocookie.com/embed/'+VIDEO_ID+'?autoplay=1&mute=1&controls=0&rel=0&playsinline=1&cc_load_policy=0';
   const r=await page.goto(url,{waitUntil:'domcontentloaded',timeout:60000});
   report.http=r?.status()??null;
-  await page.waitForTimeout(5000);
+  await page.waitForTimeout(2500);
+  const body0=(await page.locator('body').innerText()).replace(/\s+/g,' ').slice(0,5000);
+  report.initialBody=body0;
+  report.buttons=await page.locator('button').evaluateAll(bs=>bs.map(b=>({text:(b.innerText||'').replace(/\s+/g,' ').trim(),title:b.getAttribute('title'),aria:b.getAttribute('aria-label')})).filter(x=>x.text||x.title||x.aria).slice(0,100));
+  const consent=page.getByRole('button',{name:/Reject all|Accept all|Tout refuser|Tout accepter/i}).first();
+  if(await consent.count()){
+    await consent.click().catch(()=>{});
+    await page.waitForTimeout(1500);
+  }
+  const play=page.locator('.ytp-large-play-button,button[aria-label*="Play"],button[aria-label*="Lire"]').first();
+  if(await play.count()){
+    await play.click().catch(()=>{});
+    await page.waitForTimeout(4000);
+  }
   const video=page.locator('video').first();
   if(!(await video.count())){
     report.body=(await page.locator('body').innerText()).replace(/\s+/g,' ').slice(0,4000);
+    await page.screenshot({path:OUT+'/page-debug.png',fullPage:true}).catch(()=>{});
     throw new Error('VIDEO_ELEMENT_MISSING');
   }
   const meta=await video.evaluate(v=>({duration:v.duration,videoWidth:v.videoWidth,videoHeight:v.videoHeight,readyState:v.readyState,currentTime:v.currentTime,paused:v.paused}));
   report.meta=meta;
-  if(!Number.isFinite(meta.duration)||meta.duration<30)throw new Error('VIDEO_DURATION_INVALID');
+  if(!Number.isFinite(meta.duration)||meta.duration<30){
+    report.body=(await page.locator('body').innerText()).replace(/\s+/g,' ').slice(0,5000);
+    await page.screenshot({path:OUT+'/page-debug.png',fullPage:true}).catch(()=>{});
+    throw new Error('VIDEO_DURATION_INVALID');
+  }
   const times=[Math.min(30,meta.duration*0.15),Math.min(90,meta.duration*0.35),Math.min(180,meta.duration*0.6)];
   for(let i=0;i<times.length;i++){
     const t=Math.min(times[i],Math.max(1,meta.duration-5));
