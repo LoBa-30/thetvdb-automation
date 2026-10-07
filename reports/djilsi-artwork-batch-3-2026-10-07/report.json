@@ -1,0 +1,902 @@
+{
+  "generatedAt": "2026-10-07T14:45:23.238Z",
+  "mode": "GUARDED_DJILSI_ARTWORK_BATCH_3_SERIAL",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2019E22",
+    "S2019E23",
+    "S2019E24",
+    "S2019E25",
+    "S2019E26",
+    "S2019E27",
+    "S2019E28",
+    "S2019E29",
+    "S2019E30",
+    "S2019E31",
+    "S2019E32",
+    "S2019E33",
+    "S2019E34",
+    "S2019E35",
+    "S2019E36",
+    "S2019E37",
+    "S2019E38",
+    "S2019E39",
+    "S2019E40",
+    "S2019E41"
+  ],
+  "results": [
+    {
+      "code": "S2019E22",
+      "episodeId": "9243049",
+      "title": "ON S'INCRUSTE CHEZ DES GENS ! #OnVaOù",
+      "youtubeId": "DBI8ps71fk0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON S'INCRUSTE CHEZ DES GENS ! #OnVaOù",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/DBI8ps71fk0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 98194
+        }
+      },
+      "crop": {
+        "id": "2329196",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b070be1a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243049/screencap/6ac65b0829986.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E23",
+      "episodeId": "9243050",
+      "title": "LE MOMENT LE PLUS GÊNANT DE NOTRE VIE ! #OnVaOù (final saison 1)",
+      "youtubeId": "vWOkXhZdQwA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE MOMENT LE PLUS GÊNANT DE NOTRE VIE ! #OnVaOù (final saison 1)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/vWOkXhZdQwA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 110854
+        }
+      },
+      "crop": {
+        "id": "2329197",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b0bc8c10.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243050/screencap/6ac65b0cdf0c7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E24",
+      "episodeId": "9243051",
+      "title": "1 AN SUR YOUTUBE : JE VOUS DIS TOUT !",
+      "youtubeId": "SckHX0ydqLQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "1 AN SUR YOUTUBE : JE VOUS DIS TOUT !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/SckHX0ydqLQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 148685
+        }
+      },
+      "crop": {
+        "id": "2329198",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b109f420.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243051/screencap/6ac65b11acc9d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E25",
+      "episodeId": "9243052",
+      "title": "LE PIRE MEC DANS LA RUE ! CACHE LA CAM #9",
+      "youtubeId": "b4KOiZtzSJE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PIRE MEC DANS LA RUE ! CACHE LA CAM #9",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/b4KOiZtzSJE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 111551
+        }
+      },
+      "crop": {
+        "id": "2329199",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b1538761.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243052/screencap/6ac65b163b4af.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E26",
+      "episodeId": "9243053",
+      "title": "J'AI CASSÉ LE NEZ DE MON MEILLEUR AMI...",
+      "youtubeId": "ptXUL64YoE0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'AI CASSÉ LE NEZ DE MON MEILLEUR AMI...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ptXUL64YoE0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 127288
+        }
+      },
+      "crop": {
+        "id": "2329200",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b19b65d7.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243053/screencap/6ac65b1b6791a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E27",
+      "episodeId": "9243055",
+      "title": "JE VOUS LE DIS ENFIN...?",
+      "youtubeId": "XTQWSKfZAQc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE VOUS LE DIS ENFIN...?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/XTQWSKfZAQc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 97713
+        }
+      },
+      "crop": {
+        "id": "2329201",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b1f0b075.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243055/screencap/6ac65b2019485.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E28",
+      "episodeId": "9243056",
+      "title": "J’AI FAIT LE SAUT À L’ÉLASTIQUE LE PLUS HAUT D'EUROPE ! (je me suis ch*é dessus)",
+      "youtubeId": "Gz45233tKJo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J’AI FAIT LE SAUT À L’ÉLASTIQUE LE PLUS HAUT D'EUROPE ! (je me suis ch*é dessus)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Gz45233tKJo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 103434
+        }
+      },
+      "crop": {
+        "id": "2329202",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b2394684.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243056/screencap/6ac65b249b0a7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E29",
+      "episodeId": "9243057",
+      "title": "LES FRANCAIS SONT-ILS PERVERS ? INTERVIEW CHELOU #7",
+      "youtubeId": "SOcQiXyvetQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES FRANCAIS SONT-ILS PERVERS ? INTERVIEW CHELOU #7",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/SOcQiXyvetQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 135754
+        }
+      },
+      "crop": {
+        "id": "2329203",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b282cf51.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243057/screencap/6ac65b2939719.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E30",
+      "episodeId": "9243058",
+      "title": "LE PIRE CLIENT AU CENTRE COMMERCIAL ! CACHE LA CAM #10",
+      "youtubeId": "oJnW6IoWkKo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PIRE CLIENT AU CENTRE COMMERCIAL ! CACHE LA CAM #10",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/oJnW6IoWkKo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 152024
+        }
+      },
+      "crop": {
+        "id": "2329204",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b2cbb60d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243058/screencap/6ac65b2dcd246.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E31",
+      "episodeId": "9243059",
+      "title": "ON VA QUELQUE PART AU HASARD EN EUROPE ! #OnVaOù2",
+      "youtubeId": "xdQT0nbti_M",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON VA QUELQUE PART AU HASARD EN EUROPE ! #OnVaOù2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/xdQT0nbti_M/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 153587
+        }
+      },
+      "crop": {
+        "id": "2329205",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b31788cf.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243059/screencap/6ac65b329a4d5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E32",
+      "episodeId": "9243060",
+      "title": "UN CACHE-CACHE DANS TOUTE LA VILLE ! #OnVaOù2",
+      "youtubeId": "ZGLJSxZVKgM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UN CACHE-CACHE DANS TOUTE LA VILLE ! #OnVaOù2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ZGLJSxZVKgM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 94128
+        }
+      },
+      "crop": {
+        "id": "2329206",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b3622eab.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243060/screencap/6ac65b372b7b0.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E33",
+      "episodeId": "9243061",
+      "title": "ON VA FINIR PAR METTRE LE FEU... #OnVaOù2",
+      "youtubeId": "o0ZDJUwD5sY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON VA FINIR PAR METTRE LE FEU... #OnVaOù2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/o0ZDJUwD5sY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 165794
+        }
+      },
+      "crop": {
+        "id": "2329207",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b3aa21fd.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243061/screencap/6ac65b3bafe6e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E34",
+      "episodeId": "9243062",
+      "title": "LA PIRE SOIRÉE HALLOWEEN ! #OnVaOù2",
+      "youtubeId": "KTCUV1nykAQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA PIRE SOIRÉE HALLOWEEN ! #OnVaOù2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/KTCUV1nykAQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 108545
+        }
+      },
+      "crop": {
+        "id": "2329208",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b3f54487.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243062/screencap/6ac65b40630f0.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E35",
+      "episodeId": "9243063",
+      "title": "DANS UN CHAMP EN PLEINE NUIT EN SLOVENIE ! #OnVaOù2 (final saison 2)",
+      "youtubeId": "MeI3NEs4KiI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DANS UN CHAMP EN PLEINE NUIT EN SLOVENIE ! #OnVaOù2 (final saison 2)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/MeI3NEs4KiI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 73303
+        }
+      },
+      "crop": {
+        "id": "2329209",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b44121b2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243063/screencap/6ac65b453ffe2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E36",
+      "episodeId": "9243064",
+      "title": "LE PIRE VENDEUR DU MONDE ! CACHE LA CAM #11",
+      "youtubeId": "ZLzAMA4cq8Y",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PIRE VENDEUR DU MONDE ! CACHE LA CAM #11",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ZLzAMA4cq8Y/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 107200
+        }
+      },
+      "crop": {
+        "id": "2329210",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b48b7dd6.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243064/screencap/6ac65b49db693.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E37",
+      "episodeId": "9243070",
+      "title": "VOTRE PIRE NOËL ? INTERVIEW CHELOU #8",
+      "youtubeId": "xz6-LfJ5TBw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOTRE PIRE NOËL ? INTERVIEW CHELOU #8",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/xz6-LfJ5TBw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 75855
+        }
+      },
+      "crop": {
+        "id": "2329211",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b4d7df79.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243070/screencap/6ac65b4e8bff7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E38",
+      "episodeId": "9243073",
+      "title": "LE PIRE COACH SPORTIF ! CACHE LA CAM #12",
+      "youtubeId": "630hmPJd7q8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PIRE COACH SPORTIF ! CACHE LA CAM #12",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/630hmPJd7q8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 166865
+        }
+      },
+      "crop": {
+        "id": "2329212",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b5252b98.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243073/screencap/6ac65b536522e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E39",
+      "episodeId": "9243072",
+      "title": "LA NUIT LA PLUS ÉTRANGE DE MA VIE !",
+      "youtubeId": "5mdiPYFjq3E",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA NUIT LA PLUS ÉTRANGE  DE MA VIE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/5mdiPYFjq3E/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 90806
+        }
+      },
+      "crop": {
+        "id": "2329213",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b57c0848.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243072/screencap/6ac65b58e70c5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E40",
+      "episodeId": "9243071",
+      "title": "LE PIRE MEC DANS LE MÉTRO ! CACHE LA CAM #13",
+      "youtubeId": "h00_ao94SyY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PIRE MEC DANS LE MÉTRO ! CACHE LA CAM #13",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/h00_ao94SyY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 131340
+        }
+      },
+      "crop": {
+        "id": "2329214",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b5c90f4e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243071/screencap/6ac65b5dabc22.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E41",
+      "episodeId": "9243075",
+      "title": "LE PIRE DÉPRESSIF DANS LA RUE ! CACHE LA CAM #14",
+      "youtubeId": "KKPT8Brv0XU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PIRE DÉPRESSIF DANS LA RUE ! CACHE LA CAM #14",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/KKPT8Brv0XU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 188326
+        }
+      },
+      "crop": {
+        "id": "2329215",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65b61453de.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243075/screencap/6ac65b6258e46.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "reauthCount": 1,
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "safeBlocked": 0,
+    "failedAfterWrite": 0
+  }
+}
