@@ -26,7 +26,8 @@ try{
   await go(BASE+'/auth/login');
   const lf=page.locator('form').filter({has:page.locator('input[name="password"]')}).first();
   await lf.locator('input[name="email"]').fill(username);await lf.locator('input[name="password"]').fill(password);
-  await Promise.all([page.waitForLoadState('domcontentloaded').catch(()=>{}),lf.locator('button[type="submit"],input[type="submit"]').first().click()]);
+  await lf.evaluate(form=>form.requestSubmit()).catch(()=>{});
+  await page.waitForLoadState('domcontentloaded').catch(()=>{});
   await page.waitForTimeout(650);
   report.authenticated=(await context.request.get(BASE+'/auth/getuser')).ok();
   if(!report.authenticated) throw new Error('Auth not proven');
