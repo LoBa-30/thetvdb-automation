@@ -1,0 +1,7 @@
+authenticated=true
+requested=2
+processed=2
+applied=2
+skipped=0
+failed=0
+result=RECOVERY_COMPLETE

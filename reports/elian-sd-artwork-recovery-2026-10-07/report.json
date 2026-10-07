@@ -1,0 +1,105 @@
+{
+  "generatedAt": "2026-10-07T20:09:18.689Z",
+  "mode": "GUARDED_ELIAN_SD_ARTWORK_RECOVERY",
+  "authenticated": true,
+  "results": [
+    {
+      "code": "S2023E02",
+      "episodeId": "11092249",
+      "title": "RAP CONTENDERS ZEN ÉMISSION",
+      "youtubeId": "rDlPlsjuWXw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "RAP CONTENDERS ZEN ÉMISSION",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/rDlPlsjuWXw/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "contentType": "image/jpeg",
+          "bytes": 64144
+        }
+      },
+      "crop": {
+        "id": "2329977",
+        "x": "0",
+        "y": "60",
+        "width": "640",
+        "height": "360",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6a6f505a8e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11092249/screencap/6ac6a6f6a86d2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200,
+        "pageUrl": "https://thetvdb.com/artwork/upload_handler"
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2026E02",
+      "episodeId": "11665002",
+      "title": "Son couple, ses projets, sa vie ft @Mastu",
+      "youtubeId": "jRU3jVvS8Wg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Son couple, ses projets, sa vie ft @Mastu",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/jRU3jVvS8Wg/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "contentType": "image/jpeg",
+          "bytes": 86388
+        }
+      },
+      "crop": {
+        "id": "2329979",
+        "x": "0",
+        "y": "60",
+        "width": "640",
+        "height": "360",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6a6fb54b45.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11665002/screencap/6ac6a6fcb5ef9.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200,
+        "pageUrl": "https://thetvdb.com/artwork/upload_handler"
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "RECOVERY_COMPLETE",
+  "summary": {
+    "requested": 2,
+    "processed": 2,
+    "applied": 2,
+    "skipped": 0,
+    "failed": 0
+  }
+}
