@@ -1,0 +1,3 @@
+sourcePairs=1394
+planned=20
+result=PREFLIGHT_READY
