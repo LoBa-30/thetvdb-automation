@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T16:14:11.958Z",
+  "mode": "GUARDED_JOYCA_ARTWORK_BATCH_6",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2019E30",
+    "S2019E31",
+    "S2019E33",
+    "S2019E34",
+    "S2019E35",
+    "S2019E36",
+    "S2019E38",
+    "S2019E39",
+    "S2019E40",
+    "S2019E42",
+    "S2019E43",
+    "S2019E44",
+    "S2019E46",
+    "S2020E01",
+    "S2020E03",
+    "S2020E05",
+    "S2020E06",
+    "S2020E07",
+    "S2020E08",
+    "S2020E09"
+  ],
+  "results": [
+    {
+      "code": "S2019E30",
+      "episodeId": "8371682",
+      "title": "COMMENT FÊTER SON ANNIVERSAIRE SEUL ?",
+      "youtubeId": "gWmmmYRimdw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COMMENT FÊTER SON ANNIVERSAIRE SEUL ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/gWmmmYRimdw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 92531
+        }
+      },
+      "crop": {
+        "id": "2329577",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66fd7da3d7.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371682/screencap/6ac66fd92586d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E31",
+      "episodeId": "8371683",
+      "title": "CES TUTOS N'ONT AUCUN SENS ! #3",
+      "youtubeId": "zwTq1L6iFpk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CES TUTOS N'ONT AUCUN SENS ! #3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/zwTq1L6iFpk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 126084
+        }
+      },
+      "crop": {
+        "id": "2329578",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66fdd99e7f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371683/screencap/6ac66fdedd5ff.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E33",
+      "episodeId": "8371685",
+      "title": "C'ÉTAIT MIEUX AVANT ? (Pas vraiment non)",
+      "youtubeId": "WtUv0CpnkX8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "C'ÉTAIT MIEUX AVANT ? (Pas vraiment non)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/WtUv0CpnkX8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 105485
+        }
+      },
+      "crop": {
+        "id": "2329579",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66fe2c67f3.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371685/screencap/6ac66fe41f627.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E34",
+      "episodeId": "8371686",
+      "title": "J'APPELLE DES VOYANTES ! #2",
+      "youtubeId": "530-y8ociDg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'APPELLE DES VOYANTES ! #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/530-y8ociDg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 112119
+        }
+      },
+      "crop": {
+        "id": "2329580",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66fe7d3fe4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371686/screencap/6ac66fe903f51.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E35",
+      "episodeId": "8371687",
+      "title": "CETTE VIDÉO VA VOUS FAIRE DU BIEN ! (100% positivité)",
+      "youtubeId": "mJJ3TdCQ_I4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CETTE VIDÉO VA VOUS FAIRE DU BIEN ! (100% positivité)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/mJJ3TdCQ_I4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 82551
+        }
+      },
+      "crop": {
+        "id": "2329581",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66fec8f62e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371687/screencap/6ac66fedaeaf6.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E36",
+      "episodeId": "8371688",
+      "title": "J'AI FAIT DU PORTE À PORTE AVANT YOUTUBE (et d'autres trucs pas ouf)",
+      "youtubeId": "_1pBxfwkuKM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'AI FAIT DU PORTE À PORTE AVANT YOUTUBE (et d'autres trucs pas ouf)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/_1pBxfwkuKM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 62758
+        }
+      },
+      "crop": {
+        "id": "2329582",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66ff140751.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371688/screencap/6ac66ff25e9c6.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E38",
+      "episodeId": "8371690",
+      "title": "DUEL DE MOTS ! Ft. Mastu (Lequel est le plus recherché ?)",
+      "youtubeId": "b8Dq5Tasw4M",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DUEL DE MOTS ! Ft. Mastu (Lequel est le plus recherché ?)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/b8Dq5Tasw4M/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 108300
+        }
+      },
+      "crop": {
+        "id": "2329583",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66ff638c18.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371690/screencap/6ac66ff74f4f9.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E39",
+      "episodeId": "8371691",
+      "title": "CETTE VIDEO EST PEU INTÉRESSANTE (mais divertissante)",
+      "youtubeId": "YlpCvcNADlw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CETTE VIDEO EST PEU INTÉRESSANTE (mais divertissante)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/YlpCvcNADlw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 70401
+        }
+      },
+      "crop": {
+        "id": "2329584",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66ffae0927.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371691/screencap/6ac66ffc07339.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E40",
+      "episodeId": "8371692",
+      "title": "VOUS ÊTES DES ALIENS ! (Vos particularités physiques)",
+      "youtubeId": "evkES9DyxSk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOUS ÊTES DES ALIENS ! (Vos particularités physiques)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/evkES9DyxSk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 77602
+        }
+      },
+      "crop": {
+        "id": "2329585",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66fff94115.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371692/screencap/6ac67000cd4d7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E42",
+      "episodeId": "8371694",
+      "title": "J'AI GALÉRÉ PENDANT 3 HEURES ! (Mais le résultat est cool)",
+      "youtubeId": "RGNzIqqKvtM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'AI GALÉRÉ PENDANT 3 HEURES ! (Mais le résultat est cool)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/RGNzIqqKvtM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 75949
+        }
+      },
+      "crop": {
+        "id": "2329586",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670046cc08.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371694/screencap/6ac670059ecb2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E43",
+      "episodeId": "8371695",
+      "title": "ENCORE PLUS DE POSITIVITÉ ! (on en a besoin)",
+      "youtubeId": "_9641wPJIrc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ENCORE PLUS DE POSITIVITÉ ! (on en a besoin)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/_9641wPJIrc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 92595
+        }
+      },
+      "crop": {
+        "id": "2329587",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670096d8b4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371695/screencap/6ac6700a89306.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E44",
+      "episodeId": "8371696",
+      "title": "JE RÉPONDS A VOS QUESTIONS !",
+      "youtubeId": "Jz0nUrB69E0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE RÉPONDS A VOS QUESTIONS !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Jz0nUrB69E0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 134670
+        }
+      },
+      "crop": {
+        "id": "2329588",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6700e3b9a4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371696/screencap/6ac6700f5c98e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E46",
+      "episodeId": "8371698",
+      "title": "CES TUTOS N'ONT AUCUN SENS ! #4",
+      "youtubeId": "m4qQfVKztNU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CES TUTOS N'ONT AUCUN SENS ! #4",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/m4qQfVKztNU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 101306
+        }
+      },
+      "crop": {
+        "id": "2329589",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670131de79.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371698/screencap/6ac67014412d2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E01",
+      "episodeId": "8070768",
+      "title": "CE RÉSEAU M'A EU... (Tik Tok)",
+      "youtubeId": "Iq6pUEUDUzM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CE RÉSEAU M'A EU... (Tik Tok)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Iq6pUEUDUzM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 83423
+        }
+      },
+      "crop": {
+        "id": "2329590",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67017d448e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070768/screencap/6ac6701902268.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E03",
+      "episodeId": "8070770",
+      "title": "VOUS LE SAVIEZ ÇA ?",
+      "youtubeId": "YsaFUMd89ug",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOUS LE SAVIEZ ÇA ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/YsaFUMd89ug/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 110173
+        }
+      },
+      "crop": {
+        "id": "2329591",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6701cab3b6.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070770/screencap/6ac6701ddf181.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E05",
+      "episodeId": "8070772",
+      "title": "BATTLE DE JINGLE ! (Avec vos thèmes imposés) Ft. @Mastu",
+      "youtubeId": "REweKmw8lmg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "BATTLE DE JINGLE ! (Avec vos thèmes imposés) Ft. @Mastu",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/REweKmw8lmg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 98145
+        }
+      },
+      "crop": {
+        "id": "2329592",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6702198fe7.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070772/screencap/6ac67022b7875.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E06",
+      "episodeId": "8070773",
+      "title": "VOUS ÊTES BIZARRES... (pas toujours, mais quand même)",
+      "youtubeId": "4SoRvwVVHEo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOUS ÊTES BIZARRES... (pas toujours, mais quand même)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/4SoRvwVVHEo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 66342
+        }
+      },
+      "crop": {
+        "id": "2329593",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670265aba6.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070773/screencap/6ac670277e6a2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E07",
+      "episodeId": "8070774",
+      "title": "CETTE VIDEO TE DONNERA LE SOURIRE (100% positivité)",
+      "youtubeId": "cqNnglMXFvQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CETTE VIDEO TE DONNERA LE SOURIRE (100% positivité)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/cqNnglMXFvQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 71473
+        }
+      },
+      "crop": {
+        "id": "2329594",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6702b1685b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070774/screencap/6ac6702c52eb5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E08",
+      "episodeId": "8070775",
+      "title": "JE VOUS PRÉSENTE MON CHAT (il est un peu spécial)",
+      "youtubeId": "g-uEDP6-_gM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE VOUS PRÉSENTE MON CHAT (il est un peu spécial)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/g-uEDP6-_gM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 80988
+        }
+      },
+      "crop": {
+        "id": "2329595",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6702ff01e2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070775/screencap/6ac67031133fa.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E09",
+      "episodeId": "8070776",
+      "title": "CES SITUATIONS N'ARRIVERONT JAMAIS ! (Troom troom)",
+      "youtubeId": "in5UqXw_W3Q",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CES SITUATIONS N'ARRIVERONT JAMAIS ! (Troom troom)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/in5UqXw_W3Q/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 123100
+        }
+      },
+      "crop": {
+        "id": "2329596",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67034e6e0c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8070776/screencap/6ac670361afa4.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
