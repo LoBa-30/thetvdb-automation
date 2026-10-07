@@ -35,7 +35,15 @@ try{
 
  await go(BASE+'/artwork/upload?type=2&series='+SERIES);
  const form=page.locator('form[action*="/artwork/upload_handler"]').first();
- if(!(await form.count())) throw new Error('POSTER_UPLOAD_FORM_MISSING');
+ if(!(await form.count())){
+   report.uploadPage={
+     url:page.url(),
+     title:await page.title(),
+     body:(await page.locator('body').innerText()).replace(/\s+/g,' ').slice(0,5000),
+     forms:await page.locator('form').evaluateAll(fs=>fs.map(x=>({action:x.getAttribute('action'),method:x.getAttribute('method'),text:(x.innerText||'').replace(/\s+/g,' ').slice(0,600)})))
+   };
+   throw new Error('POSTER_UPLOAD_FORM_MISSING');
+ }
  const cc=await ctrls(form),cv=n=>cc.find(c=>c.name===n)?.value??null;
  if(cv('type')!=='2'||cv('series')!==SERIES) throw new Error('POSTER_SCOPE_DRIFT');
  await form.locator('select[name="language"]').selectOption('fra');
