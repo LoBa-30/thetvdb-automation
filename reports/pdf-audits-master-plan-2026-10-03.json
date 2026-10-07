@@ -165,7 +165,7 @@
       "status": "IN_PROGRESS_DATES_ARTWORK",
       "pdfOpenWork": [
         "Exact publication dates remain independently unverified in the fresh audit",
-        "299 missing artworks remain versus the original 379-missing PDF snapshot after 80 newly applied+verified artworks; continue only from fresh live rescans."
+        "262 missing artworks remain versus the original 379-missing PDF snapshot after 117 newly secured artworks; continue only from fresh live rescans."
       ],
       "resolvedSincePlan": [
         "TROUVE LE GÂTEAU repeated-title discrepancy resolved as matcher false positive; four checked entries correct.",
@@ -178,7 +178,8 @@
         "2026-10-07 continuation: Joyca artwork batch 2 applied and individually post-write verified 20/20, 0 skips, 0 failures.",
         "2026-10-07 continuation: Joyca artwork batch 3 applied and individually post-write verified 20/20, 0 skips, 0 failures. Total newly applied+verified artwork count from batches 1-3 is 60.",
         "2026-10-07 continuation: Joyca artwork batch 4 applied and individually post-write verified 20/20 (S2019E45-S2021E61), 0 skips, 0 failures. Total newly applied+verified artwork count through batch 4 is 80.",
-        "2026-10-07 Joyca batch 5 partial guard: 16 rows completed APPLIED_AND_VERIFIED, then S2018E08 hit a post-submit body timeout. Fresh read-only rescan proved S2018E08 has a persistent TheTVDB screencap, so effective completion from the original batch is 17/20 and S2018E08 is DO_NOT_RETRY. Three original targets remained unprocessed before recovery."
+        "2026-10-07 Joyca batch 5 partial guard: 16 rows completed APPLIED_AND_VERIFIED, then S2018E08 hit a post-submit body timeout. Fresh read-only rescan proved S2018E08 has a persistent TheTVDB screencap, so effective completion from the original batch is 17/20 and S2018E08 is DO_NOT_RETRY. Three original targets remained unprocessed before recovery.",
+        "2026-10-07 Joyca batch 5 recovery completed 20/20 with 0 skips and 0 failures. Combined with the original batch 5's 16 APPLIED_AND_VERIFIED rows plus S2018E08 independently confirmed persistent, Joyca has 117 newly secured artworks across batches 1-5/recovery."
       ]
     },
     {
@@ -240,7 +241,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T16:00:00Z",
+  "lastUpdatedAt": "2026-10-07T16:01:30Z",
   "latestContinuationCommits": [
     "38c1bbafe19bfbe54c91072ab9419ec91d7715d7",
     "68bb95cb01a3f49ceb6f7e29ee530daac5e07696",
@@ -360,6 +361,8 @@
     "93ec4a7617ef8cc556739e5b2d9db014a2885961",
     "8efaeefe49f435ec6a15226208b1b2626eb9c129",
     "4caa17e649c01f10bdc877fb8e034af4d61dc4c0",
-    "829f49f4288afad39701f9893a0319bc048c5eb6"
+    "829f49f4288afad39701f9893a0319bc048c5eb6",
+    "f0dde098f8e83a12d55e654e69dd37fcb7656310",
+    "7becc96567347945bf0fe86cdcd5eea4edd5c2b8"
   ]
 }
