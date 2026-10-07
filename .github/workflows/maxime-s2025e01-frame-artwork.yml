@@ -1,0 +1,43 @@
+name: Maxime S2025E01 frame artwork
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/maxime-s2025e01-frame-artwork.yml'
+      - 'src/maxime-s2025e01-frame-artwork.js'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npm install -g yt-dlp-wrap || true
+      - run: pipx install yt-dlp || pip install yt-dlp
+      - run: npx playwright install --with-deps chromium
+      - name: Guarded Maxime S2025E01 frame artwork
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+          TVDB_MAXIME_FRAME_ARTWORK: 'yes'
+        run: node src/maxime-s2025e01-frame-artwork.js
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/maxime-s2025e01-frame-artwork-2026-10-07
+          git commit -m "Record Maxime S2025E01 frame artwork [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: maxime-s2025e01-frame-artwork
+          path: reports/maxime-s2025e01-frame-artwork-2026-10-07/
