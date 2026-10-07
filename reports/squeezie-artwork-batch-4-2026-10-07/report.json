@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T14:08:58.919Z",
+  "mode": "GUARDED_SQUEEZIE_ARTWORK_BATCH_4",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2012E56",
+    "S2012E57",
+    "S2012E58",
+    "S2012E59",
+    "S2012E60",
+    "S2012E74",
+    "S2012E76",
+    "S2012E78",
+    "S2012E81",
+    "S2012E99",
+    "S2012E100",
+    "S2013E01",
+    "S2013E03",
+    "S2013E11",
+    "S2013E13",
+    "S2013E16",
+    "S2013E17",
+    "S2013E18",
+    "S2013E19",
+    "S2013E22"
+  ],
+  "results": [
+    {
+      "code": "S2012E56",
+      "episodeId": "5314023",
+      "title": "Japan Expo 2012",
+      "youtubeId": "aN0c6v10PDo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Japan Expo 2012",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/aN0c6v10PDo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 159241
+        }
+      },
+      "crop": {
+        "id": "2329118",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6527f16787.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314023/screencap/6ac65280f38f7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E57",
+      "episodeId": "5313974",
+      "title": "MW3 | LA CHASSE AUX SANGLIERS ! Avec IngloriousJojo !",
+      "youtubeId": "VXoFlw2ddXY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MW3 | LA CHASSE AUX SANGLIERS ! Avec IngloriousJojo !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/VXoFlw2ddXY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 98826
+        }
+      },
+      "crop": {
+        "id": "2329119",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6528544037.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313974/screencap/6ac6528676972.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E58",
+      "episodeId": "5313975",
+      "title": "MES VACANCES | De retour !",
+      "youtubeId": "BxROWjOPRFw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MES VACANCES | De retour !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/BxROWjOPRFw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 73715
+        }
+      },
+      "crop": {
+        "id": "2329120",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6528a55c32.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313975/screencap/6ac6528b7ee59.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E59",
+      "episodeId": "5313976",
+      "title": "SqueeZie ft FeZzo - Mashup",
+      "youtubeId": "g67zC6m6vd0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SqueeZie ft FeZzo - Mashup",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/g67zC6m6vd0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 138291
+        }
+      },
+      "crop": {
+        "id": "2329121",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6528f6036e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313976/screencap/6ac652908342d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E60",
+      "episodeId": "5313977",
+      "title": "Remerciements 150k | Bonne grosse rage sur MW2 ! | Programme des vacances !",
+      "youtubeId": "uF6ZUmlqDjQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Remerciements 150k | Bonne grosse rage sur MW2 ! | Programme des vacances !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/uF6ZUmlqDjQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 107387
+        }
+      },
+      "crop": {
+        "id": "2329122",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac652946c447.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313977/screencap/6ac6529585297.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E74",
+      "episodeId": "5313991",
+      "title": "Slender Elementary | SLENDER IS MINE ! Episode 3",
+      "youtubeId": "DGqW0Zywek8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Slender Elementary | SLENDER IS MINE ! Episode 3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/DGqW0Zywek8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 115962
+        }
+      },
+      "crop": {
+        "id": "2329123",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6529984abd.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313991/screencap/6ac6529b201a6.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E76",
+      "episodeId": "5313993",
+      "title": "PSY - GANGNAM STYLE - FRENCH VERSION by TheGreenGuys",
+      "youtubeId": "uqzkigDrEsQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PSY - GANGNAM STYLE - FRENCH VERSION by TheGreenGuys",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/uqzkigDrEsQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 151154
+        }
+      },
+      "crop": {
+        "id": "2329124",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6529f1bce3.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313993/screencap/6ac652a03a24f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E78",
+      "episodeId": "5313995",
+      "title": "SQUEEZIE - LE JEU LE PLUS NUL DU MONDE",
+      "youtubeId": "jSknOqbncwU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SQUEEZIE - LE JEU LE PLUS NUL DU MONDE",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/jSknOqbncwU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 109351
+        }
+      },
+      "crop": {
+        "id": "2329125",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac652a443807.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313995/screencap/6ac652a56590b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E81",
+      "episodeId": "5313998",
+      "title": "Medal of Honor : Warfighter - Partie en multijoueur | Mon avis sur le jeu !",
+      "youtubeId": "Al80opG8tPs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Medal of Honor : Warfighter - Partie en multijoueur | Mon avis sur le jeu !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Al80opG8tPs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 170157
+        }
+      },
+      "crop": {
+        "id": "2329126",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac652a982e6e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313998/screencap/6ac652aaab1a0.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E99",
+      "episodeId": "5314017",
+      "title": "ZombiU sur Wii U - Gameplay, Gamepad, mes impressions ! Part 2",
+      "youtubeId": "ArWpGCCd7fs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ZombiU sur Wii U - Gameplay, Gamepad, mes impressions ! Part 2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ArWpGCCd7fs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 128628
+        }
+      },
+      "crop": {
+        "id": "2329127",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac652ae8c772.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314017/screencap/6ac652afbde70.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2012E100",
+      "episodeId": "5314018",
+      "title": "Gangnam Style en COUPLE sur Just Dance 4 - Fufu et sa Mme contre SqueeZie et sa Mme !",
+      "youtubeId": "_u2IKM9aU3M",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Gangnam Style en COUPLE sur Just Dance 4 - Fufu et sa Mme contre SqueeZie et sa Mme !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/_u2IKM9aU3M/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 194453
+        }
+      },
+      "crop": {
+        "id": "2329128",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac652b3d7f78.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314018/screencap/6ac652b5089a7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E01",
+      "episodeId": "5314026",
+      "title": "Slender Multiplayer (Survivers) - Grosse frayeur avec la LaZy ! DOWNLOAD LINK",
+      "youtubeId": "EQ_SnNh3YUs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Slender Multiplayer (Survivers) - Grosse frayeur avec la LaZy ! DOWNLOAD LINK",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/EQ_SnNh3YUs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 139464
+        }
+      },
+      "crop": {
+        "id": "2329129",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac652b8dd3f5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314026/screencap/6ac652ba0e2d9.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E03",
+      "episodeId": "5314027",
+      "title": "LE VIRUS LICORNE - Robot unicorn attack - Un jeu WTF",
+      "youtubeId": "9xP8x-2j5j0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE VIRUS LICORNE - Robot unicorn attack - Un jeu WTF",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/9xP8x-2j5j0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 115504
+        }
+      },
+      "crop": {
+        "id": "2329130",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac652bdc5106.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314027/screencap/6ac652bee6a15.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E11",
+      "episodeId": "5314217",
+      "title": "SQUEEZIE - TOMORROWLAND 2013 DREAM",
+      "youtubeId": "Zt8P6B_Uvlc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SQUEEZIE - TOMORROWLAND 2013 DREAM",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Zt8P6B_Uvlc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 127272
+        }
+      },
+      "crop": {
+        "id": "2329131",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac652c2dbff3.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314217/screencap/6ac652c41e283.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E13",
+      "episodeId": "5314219",
+      "title": "LES JEUNES/VIEUX ET LES PORTABLES - ANECDOTE INUTILE DU JOUR #1",
+      "youtubeId": "q_MmHMvwcAg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES JEUNES/VIEUX ET LES PORTABLES - ANECDOTE INUTILE DU JOUR #1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/q_MmHMvwcAg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 116686
+        }
+      },
+      "crop": {
+        "id": "2329132",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac652c88af58.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314219/screencap/6ac652c9c10f7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E16",
+      "episodeId": "5314222",
+      "title": "Harlem Shake (Original WTF Version)",
+      "youtubeId": "sOnVIG43CnQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Harlem Shake (Original WTF Version)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/sOnVIG43CnQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 176783
+        }
+      },
+      "crop": {
+        "id": "2329133",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac652cdca822.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314222/screencap/6ac652cf0cde5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E17",
+      "episodeId": "5314223",
+      "title": "SQUEEZIE - PLOUF (parodie Splash)",
+      "youtubeId": "D4MOYB5gEwo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SQUEEZIE - PLOUF (parodie Splash)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/D4MOYB5gEwo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 60127
+        }
+      },
+      "crop": {
+        "id": "2329134",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac652d2d2a42.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314223/screencap/6ac652d3ee3fd.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E18",
+      "episodeId": "5314224",
+      "title": "SLENDER ARRIVAL (Beta) - Le nouveau Slender ultra beau !",
+      "youtubeId": "HIPJWh5Nefs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SLENDER ARRIVAL (Beta) - Le nouveau Slender ultra beau !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/HIPJWh5Nefs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 111044
+        }
+      },
+      "crop": {
+        "id": "2329135",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac652d7f0dcc.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314224/screencap/6ac652d9207c3.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E19",
+      "episodeId": "5314225",
+      "title": "LA CLASSE PUPUTE ! - En mode perruque rose sur Black Ops 2",
+      "youtubeId": "RfmpQl9KCn8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA CLASSE PUPUTE ! - En mode perruque rose sur Black Ops 2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/RfmpQl9KCn8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 124960
+        }
+      },
+      "crop": {
+        "id": "2329136",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac652dd1ba07.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314225/screencap/6ac652de5298e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2013E22",
+      "episodeId": "5314230",
+      "title": "ILLUSION - LE HOBBIT PERVERS ! T.T",
+      "youtubeId": "xzEPq9oOsNs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ILLUSION - LE HOBBIT PERVERS ! T.T",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/xzEPq9oOsNs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 130065
+        }
+      },
+      "crop": {
+        "id": "2329137",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac652e26eaa0.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314230/screencap/6ac652e399d6c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
