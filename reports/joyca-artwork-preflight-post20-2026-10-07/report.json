@@ -1,0 +1,991 @@
+{
+  "generatedAt": "2026-10-07T14:35:10.179879+00:00",
+  "mode": "READ_ONLY_JOYCA_ARTWORK_PREFLIGHT_POST20",
+  "sourceRows": 381,
+  "checked": [
+    {
+      "code": "S2016E01",
+      "episodeId": "6342668",
+      "title": "MANUEL VALLS - NOUS L'ASSUMONS // LOI TRAVAIL (REMIX)",
+      "youtubeId": "wM3jVu71SXk",
+      "youtubeTitle": "MANUEL VALLS - NOUS L'ASSUMONS // LOI TRAVAIL (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342668",
+      "imageUrl": "https://i.ytimg.com/vi/wM3jVu71SXk/maxresdefault.jpg",
+      "series": "335805",
+      "status": "TITLE_DRIFT",
+      "heading": "MANUEL VALLS - NOUS L&#039;ASSUMONS // LOI TRAVAIL (REMIX)"
+    },
+    {
+      "code": "S2016E02",
+      "episodeId": "6342669",
+      "title": "CYPRIEN - WILLIAM EST GENTIL (REMIX)",
+      "youtubeId": "qyfTF1UHX3M",
+      "youtubeTitle": "CYPRIEN - WILLIAM EST GENTIL (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342669",
+      "imageUrl": "https://i.ytimg.com/vi/qyfTF1UHX3M/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342669/screencap/6ac6540374076.jpg"
+      ]
+    },
+    {
+      "code": "S2016E03",
+      "episodeId": "6342670",
+      "title": "SQUEEZIE - CE PETIT COTE KAWAII (REMIX)",
+      "youtubeId": "NIKPZS3ji8M",
+      "youtubeTitle": "SQUEEZIE  - CE PETIT COTE KAWAII (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342670",
+      "imageUrl": "https://i.ytimg.com/vi/NIKPZS3ji8M/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342670/screencap/6ac654093f46a.jpg"
+      ]
+    },
+    {
+      "code": "S2016E04",
+      "episodeId": "6342671",
+      "title": "PASCAL & RICHARD - MAMAN (REMIX)",
+      "youtubeId": "we3r6hO0Lqw",
+      "youtubeTitle": "PASCAL & RICHARD - MAMAN (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342671",
+      "imageUrl": "https://i.ytimg.com/vi/we3r6hO0Lqw/maxresdefault.jpg",
+      "series": "335805",
+      "status": "TITLE_DRIFT",
+      "heading": "PASCAL &amp; RICHARD - MAMAN (REMIX)"
+    },
+    {
+      "code": "S2016E05",
+      "episodeId": "6342683",
+      "title": "YOUTUNES - MA PREMIERE FAQ + REACTION",
+      "youtubeId": "BexGaGbXB4Q",
+      "youtubeTitle": "YOUTUNES - MA PREMIERE FAQ + REACTION",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342683",
+      "imageUrl": "https://i.ytimg.com/vi/BexGaGbXB4Q/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342683/screencap/6ac6540e960d7.jpg"
+      ]
+    },
+    {
+      "code": "S2016E06",
+      "episodeId": "6342687",
+      "title": "AMIXEM - AMIXEM DIE PIE (REMIX)",
+      "youtubeId": "Ck7cT5t0I68",
+      "youtubeTitle": "AMIXEM - AMIXEM DIE PIE (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342687",
+      "imageUrl": "https://i.ytimg.com/vi/Ck7cT5t0I68/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342687/screencap/6ac65413e3372.jpg"
+      ]
+    },
+    {
+      "code": "S2016E07",
+      "episodeId": "6342694",
+      "title": "ANTOINE DANIEL - LE BOSS FINAL DES INTERNETS (REMIX)",
+      "youtubeId": "cfTjxh5J6qU",
+      "youtubeTitle": "ANTOINE DANIEL - LE BOSS FINAL DES INTERNETS (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342694",
+      "imageUrl": "https://i.ytimg.com/vi/cfTjxh5J6qU/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342694/screencap/6ac65419574ee.jpg"
+      ]
+    },
+    {
+      "code": "S2016E08",
+      "episodeId": "6342702",
+      "title": "FAQ #2 - QUESTIONS + ANNONCE VIDEO SPECIALE",
+      "youtubeId": "Iox5y3Ry0Gg",
+      "youtubeTitle": "FAQ #2 - QUESTIONS + ANNONCE VIDEO SPECIALE",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342702",
+      "imageUrl": "https://i.ytimg.com/vi/Iox5y3Ry0Gg/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342702/screencap/6ac6541ed3f6c.jpg"
+      ]
+    },
+    {
+      "code": "S2016E09",
+      "episodeId": "6342696",
+      "title": "LE BLED'ART - LA MERGUEZ ACADEMY (REMIX)",
+      "youtubeId": "T3gSMb16do8",
+      "youtubeTitle": "LE BLED'ART - LA MERGUEZ ACADEMY (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342696",
+      "imageUrl": "https://i.ytimg.com/vi/T3gSMb16do8/maxresdefault.jpg",
+      "series": "335805",
+      "status": "TITLE_DRIFT",
+      "heading": "LE BLED&#039;ART - LA MERGUEZ ACADEMY (REMIX)"
+    },
+    {
+      "code": "S2016E10",
+      "episodeId": "6342711",
+      "title": "YOUTUNES - 100.000 ABONNES ! (REMIX)",
+      "youtubeId": "bNxPJav5NfY",
+      "youtubeTitle": "YOUTUNES - 100.000 ABONNES ! (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342711",
+      "imageUrl": "https://i.ytimg.com/vi/bNxPJav5NfY/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342711/screencap/6ac65423ef67a.jpg"
+      ]
+    },
+    {
+      "code": "S2016E11",
+      "episodeId": "6342716",
+      "title": "YOUTUNES - QUAND TU PARS PAS EN VACANCES (MUSIQUE)",
+      "youtubeId": "iyRbE0ZLxMA",
+      "youtubeTitle": "YOUTUNES - QUAND TU PARS PAS EN VACANCES (MUSIQUE)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342716",
+      "imageUrl": "https://i.ytimg.com/vi/iyRbE0ZLxMA/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342716/screencap/6ac65429395b2.jpg"
+      ]
+    },
+    {
+      "code": "S2016E12",
+      "episodeId": "6342719",
+      "title": "TIBO INSHAPE - ENORME ET SECHE ! (REMIX)",
+      "youtubeId": "In5MNx1sicc",
+      "youtubeTitle": "TIBO INSHAPE - ENORME ET SECHE ! (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342719",
+      "imageUrl": "https://i.ytimg.com/vi/In5MNx1sicc/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342719/screencap/6ac6542e7d2be.jpg"
+      ]
+    },
+    {
+      "code": "S2016E13",
+      "episodeId": "6342723",
+      "title": "SUP3RKONAR - MON HOMME IDEAL (REMIX)",
+      "youtubeId": "Vi8U9TQ_Ab4",
+      "youtubeTitle": "SUP3RKONAR - MON HOMME IDEAL (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342723",
+      "imageUrl": "https://i.ytimg.com/vi/Vi8U9TQ_Ab4/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342723/screencap/6ac65433a335b.jpg"
+      ]
+    },
+    {
+      "code": "S2016E14",
+      "episodeId": "6342724",
+      "title": "YOUTUNES - RAP POKEMON GO (MUSIQUE)",
+      "youtubeId": "mCy_QUWfadI",
+      "youtubeTitle": "YOUTUNES - RAP POKEMON GO (MUSIQUE)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342724",
+      "imageUrl": "https://i.ytimg.com/vi/mCy_QUWfadI/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342724/screencap/6ac6543926ca2.jpg"
+      ]
+    },
+    {
+      "code": "S2016E15",
+      "episodeId": "6342725",
+      "title": "FULL METAL JACKET - MON CUL (REMIX)",
+      "youtubeId": "t3CYIm1JjLw",
+      "youtubeTitle": "FULL METAL JACKET - MON CUL (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342725",
+      "imageUrl": "https://i.ytimg.com/vi/t3CYIm1JjLw/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342725/screencap/6ac6543e91762.jpg"
+      ]
+    },
+    {
+      "code": "S2016E16",
+      "episodeId": "6342727",
+      "title": "QUI EST YOUTUNES ?",
+      "youtubeId": "1MlwYaH5OYg",
+      "youtubeTitle": "QUI EST YOUTUNES ?",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342727",
+      "imageUrl": "https://i.ytimg.com/vi/1MlwYaH5OYg/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342727/screencap/6ac65443de15c.jpg"
+      ]
+    },
+    {
+      "code": "S2016E17",
+      "episodeId": "6342726",
+      "title": "WANKIL STUDIO - CORENTIN (REMIX)",
+      "youtubeId": "-UKCyiM6EAg",
+      "youtubeTitle": "WANKIL STUDIO - CORENTIN (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342726",
+      "imageUrl": "https://i.ytimg.com/vi/-UKCyiM6EAg/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342726/screencap/6ac654499d9f1.jpg"
+      ]
+    },
+    {
+      "code": "S2016E18",
+      "episodeId": "6342728",
+      "title": "WANKIL STUDIO - CORENTIN (INSTRUMENTAL)",
+      "youtubeId": "XU8Ea7luoV8",
+      "youtubeTitle": "WANKIL STUDIO - CORENTIN (INSTRUMENTAL)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342728",
+      "imageUrl": "https://i.ytimg.com/vi/XU8Ea7luoV8/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342728/screencap/6ac6544f047e4.jpg"
+      ]
+    },
+    {
+      "code": "S2016E19",
+      "episodeId": "6342730",
+      "title": "YOUTUNES - J'AIME LES CHATS (MUSIQUE)",
+      "youtubeId": "JOfqoq3_mEE",
+      "youtubeTitle": "YOUTUNES - J'AIME LES CHATS (MUSIQUE)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342730",
+      "imageUrl": "https://i.ytimg.com/vi/JOfqoq3_mEE/maxresdefault.jpg",
+      "series": "335805",
+      "status": "TITLE_DRIFT",
+      "heading": "YOUTUNES - J&#039;AIME LES CHATS (MUSIQUE)"
+    },
+    {
+      "code": "S2016E20",
+      "episodeId": "6342731",
+      "title": "NORMAN - J'AURAI DES MUSCLES (REMIX)",
+      "youtubeId": "st7NoAenjqM",
+      "youtubeTitle": "NORMAN - J'AURAI DES MUSCLES (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342731",
+      "imageUrl": "https://i.ytimg.com/vi/st7NoAenjqM/maxresdefault.jpg",
+      "series": "335805",
+      "status": "TITLE_DRIFT",
+      "heading": "NORMAN - J&#039;AURAI DES MUSCLES (REMIX)"
+    },
+    {
+      "code": "S2016E21",
+      "episodeId": "6342736",
+      "title": "YOUTUNES FEAT NOU - JE VOUS ECLATE LES BITES (REMIX)",
+      "youtubeId": "aJcv8Pe_9rg",
+      "youtubeTitle": "YOUTUNES FEAT NOU - JE VOUS ECLATE LES BITES (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342736",
+      "imageUrl": "https://i.ytimg.com/vi/aJcv8Pe_9rg/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342736/screencap/6ac6545453b75.jpg"
+      ]
+    },
+    {
+      "code": "S2016E22",
+      "episodeId": "6342741",
+      "title": "DE LA MUSIQUE NO COPYRIGHT ? (+ ANNONCE FAQ)",
+      "youtubeId": "zH3rXQM_1Pg",
+      "youtubeTitle": "DE LA MUSIQUE NO COPYRIGHT ? (+ ANNONCE FAQ)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342741",
+      "imageUrl": "https://i.ytimg.com/vi/zH3rXQM_1Pg/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342741/screencap/6ac65459b09a4.jpg"
+      ]
+    },
+    {
+      "code": "S2016E23",
+      "episodeId": "6342740",
+      "title": "MATHIEU SOMMET - ILS SONT COOLS (REMIX)",
+      "youtubeId": "xrrX4qBIQ1o",
+      "youtubeTitle": "MATHIEU SOMMET  - ILS SONT COOLS (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342740",
+      "imageUrl": "https://i.ytimg.com/vi/xrrX4qBIQ1o/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342740/screencap/6ac6545f0f159.jpg"
+      ]
+    },
+    {
+      "code": "S2016E24",
+      "episodeId": "6342743",
+      "title": "Pen Pineapple Apple Pen PPAP (YOUTUNES REMIX)",
+      "youtubeId": "MEz9XuHBPV4",
+      "youtubeTitle": "Pen Pineapple Apple Pen PPAP (YOUTUNES REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342743",
+      "imageUrl": "https://i.ytimg.com/vi/MEz9XuHBPV4/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342743/screencap/6ac65464a6e21.jpg"
+      ]
+    },
+    {
+      "code": "S2016E25",
+      "episodeId": "6342746",
+      "title": "YOUTUNES - ANUBIS (MUSIQUE NO COPYRIGHT)",
+      "youtubeId": "HouKo4qk1tA",
+      "youtubeTitle": "YOUTUNES - ANUBIS (MUSIQUE NO COPYRIGHT)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342746",
+      "imageUrl": "https://i.ytimg.com/vi/HouKo4qk1tA/maxresdefault.jpg",
+      "series": "335805",
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6342746/screencap/6ac6546a0ba2c.jpg"
+      ]
+    },
+    {
+      "code": "S2016E26",
+      "episodeId": "6342747",
+      "title": "MATHIEU SOMMET - ILS SONT COOLS (INSTRUMENTAL)",
+      "youtubeId": "xXbwja9LI5g",
+      "youtubeTitle": "MATHIEU SOMMET - ILS SONT COOLS (INSTRUMENTAL)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342747",
+      "imageUrl": "https://i.ytimg.com/vi/xXbwja9LI5g/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2016E27",
+      "episodeId": "6342750",
+      "title": "JE FAIS DU YOUTUBE DRAMA !",
+      "youtubeId": "Yu092kgt8pE",
+      "youtubeTitle": "JE FAIS DU YOUTUBE DRAMA !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342750",
+      "imageUrl": "https://i.ytimg.com/vi/Yu092kgt8pE/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2016E28",
+      "episodeId": "6342759",
+      "title": "YOUTUNES - MY LITTLE WORLD (NO COPYRIGHT)",
+      "youtubeId": "fKKD5G8Blvo",
+      "youtubeTitle": "YOUTUNES - MY LITTLE WORLD (NO COPYRIGHT)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342759",
+      "imageUrl": "https://i.ytimg.com/vi/fKKD5G8Blvo/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2016E29",
+      "episodeId": "6342761",
+      "title": "CBGAMES - OH BÉBÉ (REMIX)",
+      "youtubeId": "b65vzV698os",
+      "youtubeTitle": "CBGAMES - OH BÉBÉ (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342761",
+      "imageUrl": "https://i.ytimg.com/vi/b65vzV698os/maxresdefault.jpg",
+      "series": "335805",
+      "status": "TITLE_DRIFT",
+      "heading": "CBGAMES - OH B&Eacute;B&Eacute; (REMIX)"
+    },
+    {
+      "code": "S2016E30",
+      "episodeId": "6342769",
+      "title": "CBGAMES - OH BEBE (INSTRUMENTAL NO COPYRIGHT)",
+      "youtubeId": "XXfCTdtKDJk",
+      "youtubeTitle": "CBGAMES - OH BEBE (INSTRUMENTAL NO COPYRIGHT)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342769",
+      "imageUrl": "https://i.ytimg.com/vi/XXfCTdtKDJk/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2016E31",
+      "episodeId": "6342778",
+      "title": "SOPRANO - T'ES UN BEAUF (PARODIE)",
+      "youtubeId": "LAfLD0GPBXM",
+      "youtubeTitle": "SOPRANO - T'ES UN BEAUF (PARODIE)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342778",
+      "imageUrl": "https://i.ytimg.com/vi/LAfLD0GPBXM/maxresdefault.jpg",
+      "series": "335805",
+      "status": "TITLE_DRIFT",
+      "heading": "SOPRANO - T&#039;ES UN BEAUF (PARODIE)"
+    },
+    {
+      "code": "S2016E32",
+      "episodeId": "6342785",
+      "title": "ON VISITE UNE SPA !",
+      "youtubeId": "p7NiIzO8Maw",
+      "youtubeTitle": "ON VISITE UNE SPA !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342785",
+      "imageUrl": "https://i.ytimg.com/vi/p7NiIzO8Maw/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2016E34",
+      "episodeId": "6342795",
+      "title": "PNL & SCH - GESTES DE PREMIERS SECOURS ( PARODIE )",
+      "youtubeId": "aIHPx6GjEo4",
+      "youtubeTitle": "PNL & SCH - GESTES DE PREMIERS SECOURS ( PARODIE )",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342795",
+      "imageUrl": "https://i.ytimg.com/vi/aIHPx6GjEo4/maxresdefault.jpg",
+      "series": "335805",
+      "status": "TITLE_DRIFT",
+      "heading": "PNL &amp; SCH - GESTES DE PREMIERS SECOURS ( PARODIE )"
+    },
+    {
+      "code": "S2016E38",
+      "episodeId": "6342809",
+      "title": "JE FAIS DANSER 100.000 PERSONNES !",
+      "youtubeId": "XefPEgQBZLA",
+      "youtubeTitle": "JE FAIS DANSER 100.000 PERSONNES !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342809",
+      "imageUrl": "https://i.ytimg.com/vi/XefPEgQBZLA/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2017E03",
+      "episodeId": "6342816",
+      "title": "PANORMAL - HEWEW (REMIX)",
+      "youtubeId": "N7IkGehW6eE",
+      "youtubeTitle": "PANORMAL - HEWEW (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342816",
+      "imageUrl": "https://i.ytimg.com/vi/N7IkGehW6eE/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2017E05",
+      "episodeId": "6342842",
+      "title": "FAIRE UN BEAT AVEC... UN VERRE !",
+      "youtubeId": "7n0e-2vjvVk",
+      "youtubeTitle": "FAIRE UN BEAT AVEC... UN VERRE !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342842",
+      "imageUrl": "https://i.ytimg.com/vi/7n0e-2vjvVk/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2017E06",
+      "episodeId": "6342850",
+      "title": "FAIRE UN BEAT AVEC... YOUTUBE !",
+      "youtubeId": "6ClPXK2k-gU",
+      "youtubeTitle": "FAIRE UN BEAT AVEC... YOUTUBE !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342850",
+      "imageUrl": "https://i.ytimg.com/vi/6ClPXK2k-gU/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2017E08",
+      "episodeId": "6342879",
+      "title": "FAROD - LE JEU A PLANTÉ ! (REMIX)",
+      "youtubeId": "zPUW-V677lw",
+      "youtubeTitle": "FAROD - LE JEU A PLANTÉ ! (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342879",
+      "imageUrl": "https://i.ytimg.com/vi/zPUW-V677lw/maxresdefault.jpg",
+      "series": "335805",
+      "status": "TITLE_DRIFT",
+      "heading": "FAROD - LE JEU A PLANT&Eacute; ! (REMIX)"
+    },
+    {
+      "code": "S2017E09",
+      "episodeId": "6342885",
+      "title": "FAIRE UN BEAT AVEC... UNE GUITARE !",
+      "youtubeId": "DEPgLb0WW6Y",
+      "youtubeTitle": "FAIRE UN BEAT AVEC... UNE GUITARE !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342885",
+      "imageUrl": "https://i.ytimg.com/vi/DEPgLb0WW6Y/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2017E13",
+      "episodeId": "6342905",
+      "title": "KEBLACK - MAQUILLÉE (PARODIE)",
+      "youtubeId": "GayXNrb-TK4",
+      "youtubeTitle": "KEBLACK - MAQUILLÉE (PARODIE)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342905",
+      "imageUrl": "https://i.ytimg.com/vi/GayXNrb-TK4/maxresdefault.jpg",
+      "series": "335805",
+      "status": "TITLE_DRIFT",
+      "heading": "KEBLACK - MAQUILL&Eacute;E (PARODIE)"
+    },
+    {
+      "code": "S2017E15",
+      "episodeId": "6342908",
+      "title": "AMIXEM - LES PIRES INSTRUMENTS (REMIX)",
+      "youtubeId": "UIBBXjmdMew",
+      "youtubeTitle": "AMIXEM - LES PIRES INSTRUMENTS (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342908",
+      "imageUrl": "https://i.ytimg.com/vi/UIBBXjmdMew/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2017E16",
+      "episodeId": "6342909",
+      "title": "FAIRE UN BEAT AVEC... DU PAPIER",
+      "youtubeId": "UiVBadwjci4",
+      "youtubeTitle": "FAIRE UN BEAT AVEC... DU PAPIER",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342909",
+      "imageUrl": "https://i.ytimg.com/vi/UiVBadwjci4/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2017E17",
+      "episodeId": "6342910",
+      "title": "ON CHANTE EN IMPRO AVEC DE L'AUTOTUNE !",
+      "youtubeId": "jEwsneWOOuM",
+      "youtubeTitle": "ON CHANTE EN IMPRO AVEC DE L'AUTOTUNE !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342910",
+      "imageUrl": "https://i.ytimg.com/vi/jEwsneWOOuM/maxresdefault.jpg",
+      "series": "335805",
+      "status": "TITLE_DRIFT",
+      "heading": "ON CHANTE EN IMPRO AVEC DE L&#039;AUTOTUNE !"
+    },
+    {
+      "code": "S2017E18",
+      "episodeId": "6342911",
+      "title": "MC FLY & CARLITO Ft FLOBER - CA M'INTERESSE PAS ! (REMIX)",
+      "youtubeId": "5XUzzH7Io3Y",
+      "youtubeTitle": "MC FLY & CARLITO Ft FLOBER - CA M'INTERESSE PAS ! (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342911",
+      "imageUrl": "https://i.ytimg.com/vi/5XUzzH7Io3Y/maxresdefault.jpg",
+      "series": "335805",
+      "status": "TITLE_DRIFT",
+      "heading": "MC FLY &amp; CARLITO Ft FLOBER - CA M&#039;INTERESSE PAS ! (REMIX)"
+    },
+    {
+      "code": "S2017E20",
+      "episodeId": "6342914",
+      "title": "ILS JUGENT MES VIDEOS !",
+      "youtubeId": "HOmd4mYroig",
+      "youtubeTitle": "ILS JUGENT MES VIDEOS !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342914",
+      "imageUrl": "https://i.ytimg.com/vi/HOmd4mYroig/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2017E21",
+      "episodeId": "6342916",
+      "title": "J'AI RENCONTRÉ YOUSSOUPHA !",
+      "youtubeId": "I98ru7UIRqI",
+      "youtubeTitle": "J'AI RENCONTRÉ YOUSSOUPHA !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342916",
+      "imageUrl": "https://i.ytimg.com/vi/I98ru7UIRqI/maxresdefault.jpg",
+      "series": "335805",
+      "status": "TITLE_DRIFT",
+      "heading": "J&#039;AI RENCONTR&Eacute; YOUSSOUPHA !"
+    },
+    {
+      "code": "S2017E23",
+      "episodeId": "6342919",
+      "title": "JE FAIS CHANTER 13 YOUTUBEURS ! (REMIX)",
+      "youtubeId": "tGufW8H-Nk0",
+      "youtubeTitle": "JE FAIS CHANTER 13 YOUTUBEURS ! (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342919",
+      "imageUrl": "https://i.ytimg.com/vi/tGufW8H-Nk0/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2017E29",
+      "episodeId": "6342938",
+      "title": "YOUTUNES - DOUBLE CIAO Ft BONEZI (CLIP)",
+      "youtubeId": "H95GSdCZWCE",
+      "youtubeTitle": "YOUTUNES - DOUBLE CIAO Ft  BONEZI (CLIP)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342938",
+      "imageUrl": "https://i.ytimg.com/vi/H95GSdCZWCE/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2017E30",
+      "episodeId": "6342940",
+      "title": "LUIS FONSI - J'VAIS VOUS PECHO (PARODIE)",
+      "youtubeId": "rBPrIwwMYAw",
+      "youtubeTitle": "LUIS FONSI - J'VAIS VOUS PECHO (PARODIE)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342940",
+      "imageUrl": "https://i.ytimg.com/vi/rBPrIwwMYAw/maxresdefault.jpg",
+      "series": "335805",
+      "status": "TITLE_DRIFT",
+      "heading": "LUIS FONSI - J&#039;VAIS VOUS PECHO (PARODIE)"
+    },
+    {
+      "code": "S2017E31",
+      "episodeId": "6342941",
+      "title": "FAIRE UN BEAT AVEC... UN HAND SPINNER !",
+      "youtubeId": "X8USGzRRhfw",
+      "youtubeTitle": "FAIRE UN BEAT AVEC... UN HAND SPINNER !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342941",
+      "imageUrl": "https://i.ytimg.com/vi/X8USGzRRhfw/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2017E33",
+      "episodeId": "6342943",
+      "title": "AMIXEM ME PRANK ! (JE DECIDE DE CONTINUER À VIVRE)",
+      "youtubeId": "jNkdJJhouso",
+      "youtubeTitle": "AMIXEM ME PRANK ! (JE DECIDE DE CONTINUER À VIVRE)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342943",
+      "imageUrl": "https://i.ytimg.com/vi/jNkdJJhouso/maxresdefault.jpg",
+      "series": "335805",
+      "status": "TITLE_DRIFT",
+      "heading": "AMIXEM ME PRANK ! (JE DECIDE DE CONTINUER &Agrave; VIVRE)"
+    },
+    {
+      "code": "S2017E36",
+      "episodeId": "6342946",
+      "title": "J'AI FAIT RAPPER PEWDIEPIE !",
+      "youtubeId": "xX0iR550jLM",
+      "youtubeTitle": "J'AI FAIT RAPPER PEWDIEPIE !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342946",
+      "imageUrl": "https://i.ytimg.com/vi/xX0iR550jLM/maxresdefault.jpg",
+      "series": "335805",
+      "status": "TITLE_DRIFT",
+      "heading": "J&#039;AI FAIT RAPPER PEWDIEPIE !"
+    },
+    {
+      "code": "S2017E37",
+      "episodeId": "6342947",
+      "title": "YOUTUNES - Y FAIT CHAUD DANS LE CIEL (CLIP)",
+      "youtubeId": "jVXsSqKFRkY",
+      "youtubeTitle": "YOUTUNES - Y FAIT CHAUD DANS LE CIEL (CLIP)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342947",
+      "imageUrl": "https://i.ytimg.com/vi/jVXsSqKFRkY/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2017E47",
+      "episodeId": "6342957",
+      "title": "NISKA - BOBO (PARODIE)",
+      "youtubeId": "Xc8g-XELrFY",
+      "youtubeTitle": "NISKA - BOBO (PARODIE)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342957",
+      "imageUrl": "https://i.ytimg.com/vi/Xc8g-XELrFY/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2017E50",
+      "episodeId": "6373945",
+      "title": "JE FAIS CHANTER GOOGLE TRADUCTION !",
+      "youtubeId": "iLLx7Fj5RBM",
+      "youtubeTitle": "JE FAIS CHANTER GOOGLE TRADUCTION !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6373945",
+      "imageUrl": "https://i.ytimg.com/vi/iLLx7Fj5RBM/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2017E53",
+      "episodeId": "6410396",
+      "title": "CE JEU TE REND FOU !",
+      "youtubeId": "mpQ0KZe_S5I",
+      "youtubeTitle": "CE JEU TE REND FOU !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6410396",
+      "imageUrl": "https://i.ytimg.com/vi/mpQ0KZe_S5I/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    }
+  ],
+  "planned": [
+    {
+      "code": "S2016E26",
+      "episodeId": "6342747",
+      "title": "MATHIEU SOMMET - ILS SONT COOLS (INSTRUMENTAL)",
+      "youtubeId": "xXbwja9LI5g",
+      "youtubeTitle": "MATHIEU SOMMET - ILS SONT COOLS (INSTRUMENTAL)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342747",
+      "imageUrl": "https://i.ytimg.com/vi/xXbwja9LI5g/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2016E27",
+      "episodeId": "6342750",
+      "title": "JE FAIS DU YOUTUBE DRAMA !",
+      "youtubeId": "Yu092kgt8pE",
+      "youtubeTitle": "JE FAIS DU YOUTUBE DRAMA !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342750",
+      "imageUrl": "https://i.ytimg.com/vi/Yu092kgt8pE/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2016E28",
+      "episodeId": "6342759",
+      "title": "YOUTUNES - MY LITTLE WORLD (NO COPYRIGHT)",
+      "youtubeId": "fKKD5G8Blvo",
+      "youtubeTitle": "YOUTUNES - MY LITTLE WORLD (NO COPYRIGHT)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342759",
+      "imageUrl": "https://i.ytimg.com/vi/fKKD5G8Blvo/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2016E30",
+      "episodeId": "6342769",
+      "title": "CBGAMES - OH BEBE (INSTRUMENTAL NO COPYRIGHT)",
+      "youtubeId": "XXfCTdtKDJk",
+      "youtubeTitle": "CBGAMES - OH BEBE (INSTRUMENTAL NO COPYRIGHT)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342769",
+      "imageUrl": "https://i.ytimg.com/vi/XXfCTdtKDJk/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2016E32",
+      "episodeId": "6342785",
+      "title": "ON VISITE UNE SPA !",
+      "youtubeId": "p7NiIzO8Maw",
+      "youtubeTitle": "ON VISITE UNE SPA !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342785",
+      "imageUrl": "https://i.ytimg.com/vi/p7NiIzO8Maw/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2016E38",
+      "episodeId": "6342809",
+      "title": "JE FAIS DANSER 100.000 PERSONNES !",
+      "youtubeId": "XefPEgQBZLA",
+      "youtubeTitle": "JE FAIS DANSER 100.000 PERSONNES !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342809",
+      "imageUrl": "https://i.ytimg.com/vi/XefPEgQBZLA/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2017E03",
+      "episodeId": "6342816",
+      "title": "PANORMAL - HEWEW (REMIX)",
+      "youtubeId": "N7IkGehW6eE",
+      "youtubeTitle": "PANORMAL - HEWEW (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342816",
+      "imageUrl": "https://i.ytimg.com/vi/N7IkGehW6eE/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2017E05",
+      "episodeId": "6342842",
+      "title": "FAIRE UN BEAT AVEC... UN VERRE !",
+      "youtubeId": "7n0e-2vjvVk",
+      "youtubeTitle": "FAIRE UN BEAT AVEC... UN VERRE !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342842",
+      "imageUrl": "https://i.ytimg.com/vi/7n0e-2vjvVk/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2017E06",
+      "episodeId": "6342850",
+      "title": "FAIRE UN BEAT AVEC... YOUTUBE !",
+      "youtubeId": "6ClPXK2k-gU",
+      "youtubeTitle": "FAIRE UN BEAT AVEC... YOUTUBE !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342850",
+      "imageUrl": "https://i.ytimg.com/vi/6ClPXK2k-gU/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2017E09",
+      "episodeId": "6342885",
+      "title": "FAIRE UN BEAT AVEC... UNE GUITARE !",
+      "youtubeId": "DEPgLb0WW6Y",
+      "youtubeTitle": "FAIRE UN BEAT AVEC... UNE GUITARE !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342885",
+      "imageUrl": "https://i.ytimg.com/vi/DEPgLb0WW6Y/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2017E15",
+      "episodeId": "6342908",
+      "title": "AMIXEM - LES PIRES INSTRUMENTS (REMIX)",
+      "youtubeId": "UIBBXjmdMew",
+      "youtubeTitle": "AMIXEM - LES PIRES INSTRUMENTS (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342908",
+      "imageUrl": "https://i.ytimg.com/vi/UIBBXjmdMew/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2017E16",
+      "episodeId": "6342909",
+      "title": "FAIRE UN BEAT AVEC... DU PAPIER",
+      "youtubeId": "UiVBadwjci4",
+      "youtubeTitle": "FAIRE UN BEAT AVEC... DU PAPIER",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342909",
+      "imageUrl": "https://i.ytimg.com/vi/UiVBadwjci4/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2017E20",
+      "episodeId": "6342914",
+      "title": "ILS JUGENT MES VIDEOS !",
+      "youtubeId": "HOmd4mYroig",
+      "youtubeTitle": "ILS JUGENT MES VIDEOS !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342914",
+      "imageUrl": "https://i.ytimg.com/vi/HOmd4mYroig/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2017E23",
+      "episodeId": "6342919",
+      "title": "JE FAIS CHANTER 13 YOUTUBEURS ! (REMIX)",
+      "youtubeId": "tGufW8H-Nk0",
+      "youtubeTitle": "JE FAIS CHANTER 13 YOUTUBEURS ! (REMIX)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342919",
+      "imageUrl": "https://i.ytimg.com/vi/tGufW8H-Nk0/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2017E29",
+      "episodeId": "6342938",
+      "title": "YOUTUNES - DOUBLE CIAO Ft BONEZI (CLIP)",
+      "youtubeId": "H95GSdCZWCE",
+      "youtubeTitle": "YOUTUNES - DOUBLE CIAO Ft  BONEZI (CLIP)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342938",
+      "imageUrl": "https://i.ytimg.com/vi/H95GSdCZWCE/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2017E31",
+      "episodeId": "6342941",
+      "title": "FAIRE UN BEAT AVEC... UN HAND SPINNER !",
+      "youtubeId": "X8USGzRRhfw",
+      "youtubeTitle": "FAIRE UN BEAT AVEC... UN HAND SPINNER !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342941",
+      "imageUrl": "https://i.ytimg.com/vi/X8USGzRRhfw/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2017E37",
+      "episodeId": "6342947",
+      "title": "YOUTUNES - Y FAIT CHAUD DANS LE CIEL (CLIP)",
+      "youtubeId": "jVXsSqKFRkY",
+      "youtubeTitle": "YOUTUNES - Y FAIT CHAUD DANS LE CIEL (CLIP)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342947",
+      "imageUrl": "https://i.ytimg.com/vi/jVXsSqKFRkY/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2017E47",
+      "episodeId": "6342957",
+      "title": "NISKA - BOBO (PARODIE)",
+      "youtubeId": "Xc8g-XELrFY",
+      "youtubeTitle": "NISKA - BOBO (PARODIE)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6342957",
+      "imageUrl": "https://i.ytimg.com/vi/Xc8g-XELrFY/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2017E50",
+      "episodeId": "6373945",
+      "title": "JE FAIS CHANTER GOOGLE TRADUCTION !",
+      "youtubeId": "iLLx7Fj5RBM",
+      "youtubeTitle": "JE FAIS CHANTER GOOGLE TRADUCTION !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6373945",
+      "imageUrl": "https://i.ytimg.com/vi/iLLx7Fj5RBM/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2017E53",
+      "episodeId": "6410396",
+      "title": "CE JEU TE REND FOU !",
+      "youtubeId": "mpQ0KZe_S5I",
+      "youtubeTitle": "CE JEU TE REND FOU !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6410396",
+      "imageUrl": "https://i.ytimg.com/vi/mpQ0KZe_S5I/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "counters": {
+    "artworkPresent": 20,
+    "titleDrift": 16,
+    "imageUnavailable": 0,
+    "imageWrongSize": 0,
+    "uploadFormScopeDrift": 0,
+    "passed": 20
+  },
+  "blocked": [],
+  "result": "PREFLIGHT_READY"
+}
