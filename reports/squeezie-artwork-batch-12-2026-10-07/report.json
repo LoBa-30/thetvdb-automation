@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T17:20:23.645Z",
+  "mode": "GUARDED_SQUEEZIE_ARTWORK_BATCH_12",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2015E121",
+    "S2015E122",
+    "S2015E124",
+    "S2015E127",
+    "S2015E128",
+    "S2015E129",
+    "S2015E131",
+    "S2015E136",
+    "S2015E140",
+    "S2015E141",
+    "S2015E146",
+    "S2015E149",
+    "S2015E150",
+    "S2015E158",
+    "S2015E159",
+    "S2015E161",
+    "S2015E162",
+    "S2015E163",
+    "S2015E166",
+    "S2015E167"
+  ],
+  "results": [
+    {
+      "code": "S2015E121",
+      "episodeId": "5314806",
+      "title": "WORLD OF SQUEEZIE #2",
+      "youtubeId": "k3mLU7B9WZw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "WORLD OF SQUEEZIE #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/k3mLU7B9WZw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 103731
+        }
+      },
+      "crop": {
+        "id": "2329826",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67f5bd657c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314806/screencap/6ac67f5d0feb3.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E122",
+      "episodeId": "5314807",
+      "title": "SURVIVREZ-VOUS ?...",
+      "youtubeId": "gouuuBZYwFc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SURVIVREZ-VOUS ?...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/gouuuBZYwFc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 95620
+        }
+      },
+      "crop": {
+        "id": "2329827",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67f615e1eb.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314807/screencap/6ac67f628c9e1.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E124",
+      "episodeId": "5314809",
+      "title": "DANS LES VESTIAIRES SENPAI... (Yandere Simulator #4)",
+      "youtubeId": "Aj1LAwIsLyc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DANS LES VESTIAIRES SENPAI... (Yandere Simulator #4)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Aj1LAwIsLyc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 75885
+        }
+      },
+      "crop": {
+        "id": "2329828",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67f66c3a2d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314809/screencap/6ac67f67f3f91.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E127",
+      "episodeId": "5315378",
+      "title": "UNTIL DAWN #1 - LA PSYCHOSE COMMENCE !",
+      "youtubeId": "oJqUcYSlA2E",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UNTIL DAWN #1 - LA PSYCHOSE COMMENCE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/oJqUcYSlA2E/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 85314
+        }
+      },
+      "crop": {
+        "id": "2329829",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67f6bc3792.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5315378/screencap/6ac67f6d19ec5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E128",
+      "episodeId": "5316298",
+      "title": "VENEZ PERDRE VOTRE TEMPS",
+      "youtubeId": "FqWtWv9Ee_M",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VENEZ PERDRE VOTRE TEMPS",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/FqWtWv9Ee_M/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 80706
+        }
+      },
+      "crop": {
+        "id": "2329830",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67f70da383.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5316298/screencap/6ac67f7211b3b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E129",
+      "episodeId": "5316898",
+      "title": "LE VRAI VISAGE DE JUMBO",
+      "youtubeId": "xxJ5f2_ELXE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE VRAI VISAGE DE JUMBO",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/xxJ5f2_ELXE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 84228
+        }
+      },
+      "crop": {
+        "id": "2329831",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67f75d444e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5316898/screencap/6ac67f7725e6c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E131",
+      "episodeId": "5318376",
+      "title": "VOS AMIS FERONT UNE CRISE CARDIAQUE (Dead Realm)",
+      "youtubeId": "5ZGLYLGAdxU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOS AMIS FERONT UNE CRISE CARDIAQUE (Dead Realm)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/5ZGLYLGAdxU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 105497
+        }
+      },
+      "crop": {
+        "id": "2329832",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67f7aec989.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5318376/screencap/6ac67f7c1a940.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E136",
+      "episodeId": "5324261",
+      "title": "LE CHOIX LE PLUS HARDCORE ! (Until Dawn #5)",
+      "youtubeId": "RFNhMcXA-r0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE CHOIX LE PLUS HARDCORE ! (Until Dawn #5)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/RFNhMcXA-r0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 120328
+        }
+      },
+      "crop": {
+        "id": "2329833",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67f800ce5f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5324261/screencap/6ac67f812e7be.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E140",
+      "episodeId": "5330844",
+      "title": "LE VISAGE DU TUEUR... (Until Dawn #7)",
+      "youtubeId": "BrZ81SDPrw0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE VISAGE DU TUEUR... (Until Dawn #7)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/BrZ81SDPrw0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 104199
+        }
+      },
+      "crop": {
+        "id": "2329834",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67f8519743.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5330844/screencap/6ac67f863842c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E141",
+      "episodeId": "5330847",
+      "title": "QUE FAIRE SI... ?",
+      "youtubeId": "pdNt0RnM8AQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "QUE FAIRE SI... ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/pdNt0RnM8AQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 65570
+        }
+      },
+      "crop": {
+        "id": "2329835",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67f8a06318.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5330847/screencap/6ac67f8b25618.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E146",
+      "episodeId": "5335993",
+      "title": "PRENEZ-VOUS VOTRE DOUCHE AVEC PAPA ? (Compilation)",
+      "youtubeId": "0Fl0-9q-PBI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PRENEZ-VOUS VOTRE DOUCHE AVEC PAPA ? (Compilation)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/0Fl0-9q-PBI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 68622
+        }
+      },
+      "crop": {
+        "id": "2329836",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67f8eedd9e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5335993/screencap/6ac67f9025c16.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E149",
+      "episodeId": "5344312",
+      "title": "QUI PEUT STOPPER FOUINY SQUEEZIE ?!",
+      "youtubeId": "_t4L5XbQU-M",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "QUI PEUT STOPPER FOUINY SQUEEZIE ?!",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/_t4L5XbQU-M/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 105078
+        }
+      },
+      "crop": {
+        "id": "2329837",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67f94301d9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5344312/screencap/6ac67f9570598.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E150",
+      "episodeId": "5345123",
+      "title": "PARTOUT. DES RATS PARTOUT. (Layers of Fear #1)",
+      "youtubeId": "H4YfpqZ08Dg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PARTOUT. DES RATS PARTOUT. (Layers of Fear #1)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/H4YfpqZ08Dg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 165309
+        }
+      },
+      "crop": {
+        "id": "2329838",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67f997ff89.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5345123/screencap/6ac67f9b52e46.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E158",
+      "episodeId": "5361248",
+      "title": "ULTRA HARDCORE AGARIO",
+      "youtubeId": "qBbrnS08zmU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ULTRA HARDCORE AGARIO",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/qBbrnS08zmU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 80868
+        }
+      },
+      "crop": {
+        "id": "2329839",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67f9f3bff8.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5361248/screencap/6ac67fa0678de.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E159",
+      "episodeId": "5363968",
+      "title": "CERVEAU EN SURCHAUFFE ! (Brain Dots)",
+      "youtubeId": "ESxXJIdA2oI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CERVEAU EN SURCHAUFFE ! (Brain Dots)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ESxXJIdA2oI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 123960
+        }
+      },
+      "crop": {
+        "id": "2329840",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67fa46d4b0.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5363968/screencap/6ac67fa599075.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E161",
+      "episodeId": "5375057",
+      "title": "JE PHOTOGRAPHIE POUR TOI SENPAI ! (Yandere Simulator #5)",
+      "youtubeId": "dlaZTw-U1JM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE PHOTOGRAPHIE POUR TOI SENPAI ! (Yandere Simulator #5)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/dlaZTw-U1JM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 97945
+        }
+      },
+      "crop": {
+        "id": "2329841",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67fa993883.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5375057/screencap/6ac67faacc8db.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E162",
+      "episodeId": "5375836",
+      "title": "UNE AVENTURE FACILE :D (MENSONGE)",
+      "youtubeId": "2SoTBP3jp8M",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UNE AVENTURE FACILE :D (MENSONGE)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/2SoTBP3jp8M/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 86572
+        }
+      },
+      "crop": {
+        "id": "2329842",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67faeb1b6b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5375836/screencap/6ac67fafdec01.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E163",
+      "episodeId": "5377948",
+      "title": "YOUTUBER SIMULATOR ! (Fan Fright)",
+      "youtubeId": "IpPX11CnHS4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "YOUTUBER SIMULATOR ! (Fan Fright)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/IpPX11CnHS4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 55376
+        }
+      },
+      "crop": {
+        "id": "2329843",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67fb3d566c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5377948/screencap/6ac67fb5061e2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E166",
+      "episodeId": "5383560",
+      "title": "SUPER STAR WARS KART ! (Disney Infinity 3.0)",
+      "youtubeId": "iosu2xg91b0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SUPER STAR WARS KART ! (Disney Infinity 3.0)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/iosu2xg91b0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 131877
+        }
+      },
+      "crop": {
+        "id": "2329844",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67fb912228.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5383560/screencap/6ac67fba4dac0.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E167",
+      "episodeId": "5385129",
+      "title": "QUAND TU ENTRES DANS UN BAR RUSSE. (PTR)",
+      "youtubeId": "Mh7M4FOw9jI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "QUAND TU ENTRES DANS UN BAR RUSSE. (PTR)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Mh7M4FOw9jI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 49526
+        }
+      },
+      "crop": {
+        "id": "2329846",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67fbe423cc.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5385129/screencap/6ac67fbf706bf.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
