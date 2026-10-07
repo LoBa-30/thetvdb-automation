@@ -17,13 +17,14 @@
       "pdf": "AUDIT THETVDB — DJILSI.pdf",
       "status": "IN_PROGRESS_ARTWORK_ONLY",
       "pdfOpenWork": [
-        "139 missing artworks in PDF snapshot",
+        "99 missing artworks remain versus the original PDF snapshot after 40 newly applied+verified artworks; continue only from fresh rescans because the snapshot is now stale.",
         "75 existing artworks provenance checks"
       ],
       "resolvedSincePlan": [
         "Metadata corrections applied and final verification closed; do not repeat verified writes.",
         "Final authenticated verifier checked 31 metadata targets: 31/31 passed, including 30 runtimes and 2 dates; series First Aired confirmed 2018-08-09.",
-        "2026 announcement E11 preserved by explicit project decision; E13/E14 verified; no renumbering. Metadata scope is closed."
+        "2026 announcement E11 preserved by explicit project decision; E13/E14 verified; no renumbering. Metadata scope is closed.",
+        "2026-10-07 artwork rollout: 40 Djilsi missing artworks applied and individually post-write verified in two guarded serial batches (20/20 + 20/20), 0 skips, 0 blocks, 0 failed-after-write."
       ]
     },
     {
@@ -96,14 +97,15 @@
         "5 certain Unassigned duplicates still need successful delete/merge",
         "165 metadata-blocked videos in PDF snapshot",
         "114 existing artwork provenance checks",
-        "1484 missing artworks in PDF snapshot"
+        "Large missing-artwork backlog remains; original 1484-missing PDF count is now stale. Continue via fresh 20-item rescans and guarded two-stage verified batches."
       ],
       "resolvedSincePlan": [
         "Current structural/historical backlog re-audited: 1586 current YouTube videos, 1660 TVDB assigned, 1585 current matches.",
         "Single YouTube unmatched resolved as existing/reupload false positive; no create.",
         "75 TVDB-only rows individually read: 74 historical keep, 1 live-only out of scope, 0 delete candidates.",
         "Fresh runtime recheck found exactly 8 >1-minute mismatches in 2016/2017/2019/2021; all 8 titles matched official YouTube exactly.",
-        "All 8 runtimes corrected with authenticated fresh preflight and post-write verification: 2016 E144 10→8, E216 1→9; 2017 E17 10→7, E44 10→8; 2019 E22 20→23, E34 70→68; 2021 E28 13→19, E56 28→24."
+        "All 8 runtimes corrected with authenticated fresh preflight and post-write verification: 2016 E144 10→8, E216 1→9; 2017 E17 10→7, E44 10→8; 2019 E22 20→23, E34 70→68; 2021 E28 13→19, E56 28→24.",
+        "2026-10-07 continued artwork rollout: 40 additional Squeezie artworks applied and individually post-write verified in guarded batches 3 and 4 (20/20 + 20/20), 0 skips and 0 failures. Fresh rescans automatically skipped artwork already present."
       ]
     },
     {
@@ -222,7 +224,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T13:00:00Z",
+  "lastUpdatedAt": "2026-10-07T14:12:00Z",
   "latestContinuationCommits": [
     "38c1bbafe19bfbe54c91072ab9419ec91d7715d7",
     "68bb95cb01a3f49ceb6f7e29ee530daac5e07696",
@@ -282,6 +284,18 @@
     "bde181e5c39fad844355fb969a901bd9fde0247e",
     "d243b34fa74236c526e770b4b3211f292373e14b",
     "926900d8d38141f2ecdf01b4b0b2ec0159446c2e",
-    "2a483c3bcd966424cb36de61552e809d95408650"
+    "2a483c3bcd966424cb36de61552e809d95408650",
+    "c030c53f1e358dbd4a9e6ebf15e568c81f50381a",
+    "8c19fff087e4dc92c8716a9d9578180fdc78807b",
+    "5d6a4c4cbff1bc049fce52f2a73fdf4e0275a411",
+    "17cc1498c7b4db030ff034196069ad654371891d",
+    "2052186d9dad5d6a975046dcb42bf633f11e05ce",
+    "7848b85bf31f3aebebd97fcbeed811f78c2e22c7",
+    "b4de9454a9ab9dd8f35000edc3eced53745f7f15",
+    "3500c18db1df962c21fa4ba1f1e6bc0546926a35",
+    "3417ac25ef177d5ddc327338ed690b27dd52fe18",
+    "114226c8de0f42168b53357562dac869c2c722bc",
+    "772dd10b8e478a0448250358077a1972f1f616e0",
+    "47049cd67a36b0b761e655ec6e83a30398c0db00"
   ]
 }
