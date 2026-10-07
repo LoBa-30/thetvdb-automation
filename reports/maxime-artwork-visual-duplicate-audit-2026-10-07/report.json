@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T20:17:22.740538+00:00",
+  "generatedAt": "2026-10-07T20:38:05.161233+00:00",
   "mode": "READ_ONLY_MAXIME_VISUAL_ARTWORK_DUPLICATE_AUDIT",
   "episodes": [
     {
@@ -45,18 +45,10 @@
           "id": "7rEsbvpprlw"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696581/screencap/6ac649518778b.jpg",
-          "bytes": 81333,
-          "sha256": "a7c7d1d059e6ed4dc80d75edb3d9210c93a3ea2a84c210b934eebf239efdfa77",
-          "dhash": "cc4a283c2d2d3824"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 0
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2019,
@@ -77,18 +69,10 @@
           "id": "6NaIyjBRDNA"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696582/screencap/6ac6495779c7e.jpg",
-          "bytes": 52693,
-          "sha256": "281e9c40d30b822c7caedec0644624f8944e353609ab3b789caa2ce304a041c1",
-          "dhash": "394454ddcccec2cb"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 0
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2019,
@@ -109,18 +93,10 @@
           "id": "7ghkayTlxiM"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696583/screencap/6ac6495d87df5.jpg",
-          "bytes": 53533,
-          "sha256": "3404bfe3396911214258f93422c38aad4aec7efbdb4fb2c4006aff021a56151a",
-          "dhash": "652b69191a300787"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 1
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2019,
@@ -141,18 +117,10 @@
           "id": "1OcZ9gWUOjE"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696584/screencap/6ac64963367a0.jpg",
-          "bytes": 76518,
-          "sha256": "fa8be278ebfa12d9e9b7b7ff0f1d4c1e8a53f7910d9d717eaae95db40ed738ac",
-          "dhash": "cc8cdb6e6e9a1373"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 0
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2019,
@@ -173,18 +141,10 @@
           "id": "7ZCqR3_XdV8"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696585/screencap/6ac64969085be.jpg",
-          "bytes": 45426,
-          "sha256": "1c011f69990295e57920a7f8d5b39bec8637d670128c735fe31615d6b7befb3f",
-          "dhash": "26369b565b5d1a39"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 0
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2019,
@@ -205,18 +165,10 @@
           "id": "qj0K6DK_NzI"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696586/screencap/6ac649ab97675.jpg",
-          "bytes": 70868,
-          "sha256": "7249d5da48ad8cbb04cde9cbd444f1827b0342561b968b3c11cf7ca19c13ac6f",
-          "dhash": "8d4d2900008088c2"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 0
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2021,
@@ -237,18 +189,10 @@
           "id": "5sssiqLZqvA"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696587/screencap/6ac649b16520b.jpg",
-          "bytes": 58466,
-          "sha256": "cd89e5f23a678c14c1d02a08c4ab71324232bafdfce6b0d52f6b9795f63821e7",
-          "dhash": "cdaca8ad894bf363"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 0
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2021,
@@ -333,18 +277,10 @@
           "id": "kJNa_dwN3Lc"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696590/screencap/6ac64aa438c51.jpg",
-          "bytes": 64717,
-          "sha256": "82eb821d342dc70d9fa17aa92d0a3898bdfaf6d8126c9b129a03ccacbfe67585",
-          "dhash": "9e261c4d67325aae"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 0
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2022,
@@ -397,18 +333,10 @@
           "id": "0T5ovr0gWOU"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696592/screencap/6ac64aaf30324.jpg",
-          "bytes": 80398,
-          "sha256": "f34c9951dba8432c32401f494870f308106042ec2b2764a069a77ca67ab5fa54",
-          "dhash": "d5c5d1d898b2946d"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 1
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2022,
@@ -493,18 +421,10 @@
           "id": "DJagWkMzPOY"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696597/screencap/6ac64afe391cf.jpg",
-          "bytes": 69515,
-          "sha256": "653b5107d3e4d206cebad1ac44bc821c83361d35afd505060e2d1d8492315ab5",
-          "dhash": "9d8d4e4e4e0e23a3"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 1
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2022,
@@ -557,18 +477,10 @@
           "id": "e6e8LeU_REQ"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696603/screencap/6ac64b092394f.jpg",
-          "bytes": 82754,
-          "sha256": "2e6e182ba18c38fa297f79db637b3675e15026a48c2875af7c56924ce9df1561",
-          "dhash": "fa1db131697b3377"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 0
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2023,
@@ -685,18 +597,10 @@
           "id": "SbBVZNt1Vmk"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696607/screencap/6ac64e2db9ddb.jpg",
-          "bytes": 65678,
-          "sha256": "7a70c043a17f4cff8fdf6fc4431fdcef43771f6d595e892bc7dbb5ece2927232",
-          "dhash": "70c8cec4999d0f8e"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 1
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2023,
@@ -717,18 +621,10 @@
           "id": "oPP03kTg0aU"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696608/screencap/6ac64e32892cb.jpg",
-          "bytes": 78014,
-          "sha256": "2c8b3596d938857b91bcc09d26a28f6183b4dadae8200ce56ed945f9dcb20dc0",
-          "dhash": "494dcd8d9fbe3e26"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 1
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2023,
@@ -781,18 +677,10 @@
           "id": "Ako-aLACYPE"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696610/screencap/6ac64e3c30485.jpg",
-          "bytes": 99783,
-          "sha256": "afae7598be20a66473aee78241d3427d5e216b4374834837a0acd69baacc3fdb",
-          "dhash": "03072d6d0d0f0707"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 0
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2023,
@@ -813,18 +701,10 @@
           "id": "PaTyxBnzfSM"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696611/screencap/6ac64e40abec2.jpg",
-          "bytes": 77666,
-          "sha256": "6d36754869888c99332968c1d46adefee986d094ac64bbb91a9a72be6f0b3cc2",
-          "dhash": "8b97b3e3b2ea8a92"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 0
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2024,
@@ -845,18 +725,10 @@
           "id": "oPqUT9AtyY4"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696620/screencap/6ac64e455475f.jpg",
-          "bytes": 100982,
-          "sha256": "a1bfaf9082b22813cdae63c6841833dbf008aca56720797c42acd8d332e5e4cd",
-          "dhash": "9b33333733070707"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 2
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2024,
@@ -877,18 +749,10 @@
           "id": "6csK8iek7PU"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696621/screencap/6ac64e49cd069.jpg",
-          "bytes": 82637,
-          "sha256": "4241f65046fced7e81ded55ce0947d150ca136b21f345dd7c331272e4b76960d",
-          "dhash": "2f694b2d4dc1a19b"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 0
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2024,
@@ -941,18 +805,10 @@
           "id": "ZOpLlT0vRxQ"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696623/screencap/6ac64e5306c7a.jpg",
-          "bytes": 66974,
-          "sha256": "80fb29af6092feae1813c6c9d489d9ada0f49f8acf3084430d144706aeee6b95",
-          "dhash": "0eb2b625293529a9"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 2
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2024,
@@ -1005,18 +861,10 @@
           "id": "_oLISqPGXMg"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696625/screencap/6ac64e5cc15a0.jpg",
-          "bytes": 109490,
-          "sha256": "68c1944e29f7bc72bde4e6c5b48170ecc473736209339f8e2ce55fd91b6cebdd",
-          "dhash": "97372d2b6c9c9e9b"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 0
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2025,
@@ -1150,18 +998,10 @@
           "id": "FvtoTtKm0gE"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696641/screencap/6ac64e6fd8457.jpg",
-          "bytes": 93735,
-          "sha256": "5f1bce7976e8e143e39384e2370a961dbed45acf2d2ff3b41e6bfdaf7d011fbf",
-          "dhash": "4e4e0e23e785cb7b"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 0
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2025,
@@ -1246,18 +1086,10 @@
           "id": "4kDYChbVMvw"
         }
       },
-      "artworks": [
-        {
-          "url": "https://artworks.thetvdb.com/banners/v4/episode/11696644/screencap/6ac64e7dd1307.jpg",
-          "bytes": 81399,
-          "sha256": "2f8db0f385307f2b7b6da33b8721125392909c046f32cf733c994e541df30eed",
-          "dhash": "75f71967313c8ecc"
-        }
-      ],
+      "artworks": [],
       "status": [
-        "MATCHES_OWN_YOUTUBE"
-      ],
-      "ownYoutubeDhashDistance": 0
+        "NO_ARTWORK"
+      ]
     },
     {
       "season": 2025,
@@ -2034,9 +1866,9 @@
   "summary": {
     "tvdbEpisodes": 64,
     "youtubeVideos": 64,
-    "episodesWithArtwork": 62,
+    "episodesWithArtwork": 41,
     "episodesWithYoutubeMatch": 64,
-    "ownMatchesStrong": 62,
+    "ownMatchesStrong": 41,
     "ownMatchesSimilar": 0,
     "ownVisualMismatch": 0,
     "exactDuplicateGroups": 0,
