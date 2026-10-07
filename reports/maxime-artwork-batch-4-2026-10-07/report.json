@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-10-07T13:43:51.510Z",
+  "mode": "GUARDED_MAXIME_ARTWORK_BATCH_4",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2024E05",
+    "S2024E06",
+    "S2025E02",
+    "S2025E03",
+    "S2025E04",
+    "S2025E05",
+    "S2025E06",
+    "S2025E07",
+    "S2025E08"
+  ],
+  "results": [
+    {
+      "code": "S2024E05",
+      "episodeId": "11696624",
+      "title": "ON A FAIT BERCY (documentaire sur l’aventure de notre vie)",
+      "youtubeId": "OjWGpzy6u6o",
+      "status": "BLOCKED_BEFORE_WRITE",
+      "preflight": {
+        "heading": "ON A FAIT BERCY (documentaire sur l’aventure de notre vie)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/OjWGpzy6u6o/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 116867
+        }
+      },
+      "crop": null,
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "UPLOAD_FORM_MISSING"
+        }
+      ]
+    }
+  ],
+  "stopped": true,
+  "stopReason": "S2024E05: UPLOAD_FORM_MISSING",
+  "result": "BATCH_STOPPED_ON_GUARD",
+  "summary": {
+    "requested": 9,
+    "processed": 1,
+    "applied": 0,
+    "skipped": 0,
+    "failed": 1
+  }
+}
