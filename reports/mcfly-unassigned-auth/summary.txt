@@ -1,0 +1,7 @@
+Mcfly & Carlito authenticated Unassigned read-only
+Authenticated: true
+Found: 64
+Read: 64
+Errors: 0
+Read-only network lock: true
+Blocked non-read requests: 152
