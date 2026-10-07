@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-10-07T16:51:23.916Z",
+  "mode": "GUARDED_TEMP_ARTWORK_FINALIZE_NO_REUPLOAD",
+  "authenticated": true,
+  "target": {
+    "slug": "maxime-biaggi",
+    "series": "475945",
+    "episodeId": "11696654",
+    "code": "S2025E18",
+    "title": "LE JEU DE LA NOTE (ft Billy, Grim, Elian, Djilsi)",
+    "tempId": "2329750",
+    "incoming": "https://artworks.thetvdb.com/incoming/6ac6780519205.jpeg"
+  },
+  "preflight": {
+    "heading": "LE JEU DE LA NOTE (ft Billy, Grim, Elian, Djilsi)",
+    "beforeArtwork": [],
+    "tempImage": {
+      "url": "https://artworks.thetvdb.com/incoming/6ac6780519205.jpeg",
+      "status": 200,
+      "width": 1280,
+      "height": 720
+    },
+    "scope": {
+      "episode": "11696654",
+      "series": "475945",
+      "type": "11",
+      "tokenPresent": true
+    }
+  },
+  "post": {
+    "status": 302,
+    "location": "https://thetvdb.com/series/maxime-biaggi/episodes/11696654"
+  },
+  "verification": {
+    "artworkPresent": true,
+    "artwork": [
+      "https://artworks.thetvdb.com/banners/v4/episode/11696654/screencap/6ac6789052b7f.jpg"
+    ],
+    "successMessage": true
+  },
+  "blocked": [],
+  "result": "TEMP_FINALIZED_AND_VERIFIED"
+}
