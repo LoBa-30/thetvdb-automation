@@ -1,0 +1,169 @@
+{
+  "generatedAt": "2026-10-07T09:20:00Z",
+  "sourceRun": 37569999952,
+  "sourceArtifact": 11460124133,
+  "mode": "FRESH_PLANNER_TICKET_RESOLUTION_NO_WRITE",
+  "startingPlannerToVerify": 15,
+  "resolvedTickets": [
+    {
+      "target": "Squeezie",
+      "ticket": "POSSIBLE_TITLE_VARIANT",
+      "youtubeId": "Gx5JhyUwvWo",
+      "title": "Squeezie - Tout (Clip Officiel)",
+      "decision": "RESOLVED_EXISTING_TVDB_ENTRY_NO_WRITE",
+      "tvdb": "S2020E57",
+      "reason": "Existing TVDB episode already carries the same title; planner similarity ticket is not a missing episode."
+    },
+    {
+      "target": "Squeezie",
+      "ticket": "POSSIBLE_TITLE_VARIANT",
+      "youtubeId": "3A4RAbWnvVM",
+      "title": "UNE AFFREUSE DÉCOUVERTE...",
+      "decision": "RESOLVED_COSMETIC_VARIANT_NO_WRITE",
+      "tvdb": "S2018E71",
+      "reason": "Same episode/date; only case and terminal punctuation/ellipsis differ."
+    },
+    {
+      "target": "Squeezie",
+      "ticket": "POSSIBLE_TITLE_VARIANT",
+      "youtubeId": "1wfEHHSz6L4",
+      "title": "LA MALÉDICTION DE SQUEEZIE.",
+      "decision": "RESOLVED_TRAILING_PUNCTUATION_ONLY_NO_WRITE",
+      "tvdb": "S2015E147",
+      "reason": "Same official upload identity/date; trailing period is not a substantive mismatch."
+    },
+    {
+      "target": "Squeezie",
+      "ticket": "POSSIBLE_TITLE_VARIANT",
+      "youtubeId": "pqhmaWy2Il4",
+      "title": "UNE VIDÉO PASSIONNANTE.",
+      "decision": "RESOLVED_TRAILING_PUNCTUATION_ONLY_NO_WRITE",
+      "tvdb": "S2015E89",
+      "reason": "Existing TVDB episode; punctuation-only difference."
+    },
+    {
+      "target": "Squeezie",
+      "ticket": "POSSIBLE_TITLE_VARIANT",
+      "youtubeId": "sFYDUagD_2Q",
+      "title": "UNE INCROYABLE GRENOUILLE.",
+      "decision": "RESOLVED_TRAILING_PUNCTUATION_ONLY_NO_WRITE",
+      "tvdb": "S2015E62",
+      "reason": "Existing TVDB episode on 2015-04-17; punctuation-only difference."
+    },
+    {
+      "target": "Squeezie",
+      "ticket": "POSSIBLE_TITLE_VARIANT",
+      "youtubeId": "cVgWHy5qzxQ",
+      "title": "L’ÉPREUVE FINALE.",
+      "decision": "RESOLVED_TRAILING_PUNCTUATION_ONLY_NO_WRITE",
+      "tvdb": "S2014E174",
+      "reason": "Existing TVDB episode on 2014-11-09; punctuation-only difference."
+    },
+    {
+      "target": "Squeezie",
+      "ticket": "LIKELY_MISSING_FROM_TVDB_OR_NON_EPISODE",
+      "youtubeId": "aN0c6v10PDo",
+      "title": "Japan Expo 2012",
+      "decision": "RESOLVED_MATCHER_FALSE_POSITIVE_NO_CREATE",
+      "tvdb": "S2012E56",
+      "reason": "Fresh artifact contains the exact official YouTube ID/title/date/duration and TVDB already contains S2012E56 on 2012-07-10 with 3 min runtime."
+    },
+    {
+      "target": "Squeezie",
+      "ticket": "TVDB_DUPLICATE_TITLE",
+      "normalizedTitle": "j ai completement craque...",
+      "decision": "RESOLVED_LEGITIMATE_REPEATED_TITLE_KEEP_BOTH",
+      "episodes": [
+        "S2017E170 — 2017-12-20",
+        "S2018E36 — 2018-04-23"
+      ],
+      "reason": "Two distinct chronology slots and publication dates; title reuse is not evidence of duplicate identity."
+    },
+    {
+      "target": "Mastu",
+      "ticket": "LIKELY_MISSING_FROM_TVDB_OR_NON_EPISODE",
+      "youtubeId": "5IC69WoRYQ8",
+      "title": "LE JEU DE LA FRAUDE (Avec @theodortytb)",
+      "decision": "RESOLVED_MATCHER_FALSE_POSITIVE_NO_CREATE",
+      "tvdb": "S2022E15",
+      "reason": "TVDB already contains the same episode on 2022-03-19; previous checkpoint already protected against recreation."
+    },
+    {
+      "target": "Mastu",
+      "ticket": "TVDB_DUPLICATE_TITLE",
+      "normalizedTitle": "je peux tout vous expliquer...",
+      "decision": "RESOLVED_LEGITIMATE_REPEATED_TITLE_KEEP_BOTH",
+      "episodes": [
+        "S2020E27 — 2020-09-05 — official YouTube zrq-izHjEqI",
+        "S2022E13 — 2022-03-02 — official YouTube aLN3UukAkxU"
+      ],
+      "reason": "Official Mastu uploads are distinct videos published 18 months apart; same title was deliberately reused."
+    },
+    {
+      "target": "Mastu",
+      "ticket": "TVDB_DUPLICATE_TITLE",
+      "normalizedTitle": "on accoste gens en voiture joyca",
+      "decision": "RESOLVED_RECURRING_CONCEPT_KEEP_BOTH",
+      "episodes": [
+        "S2021E07 — 2021-03-13",
+        "S2022E39 — 2022-08-13"
+      ],
+      "reason": "Distinct episodes/dates in a recurring concept; no duplicate deletion."
+    },
+    {
+      "target": "Mastu",
+      "ticket": "TVDB_DUPLICATE_TITLE",
+      "normalizedTitle": "on accoste gens en voiture theodort",
+      "decision": "RESOLVED_RECURRING_CONCEPT_KEEP_ALL",
+      "episodes": [
+        "S2023E07 — 2023-05-06 — 36 min",
+        "S2024E11 — 2024-08-04 — 40 min",
+        "S2026E13 — 2026-07-18"
+      ],
+      "reason": "Repeated concept across separate years; distinct dates and runtimes."
+    },
+    {
+      "target": "Mastu",
+      "ticket": "TVDB_DUPLICATE_TITLE",
+      "normalizedTitle": "on a passe 24h en enfer... michou zafeel hctuan",
+      "decision": "RESOLVED_RECURRING_CONCEPT_KEEP_BOTH",
+      "episodes": [
+        "S2023E20 — 2023-12-17 — 76 min",
+        "S2025E19 — 2025-11-29 — 95 min"
+      ],
+      "reason": "Distinct productions separated by nearly two years and different runtimes."
+    },
+    {
+      "target": "Mcfly & Carlito",
+      "ticket": "LIKELY_MISSING_FROM_TVDB_OR_NON_EPISODE",
+      "youtubeId": "QG1WcEWOF4g",
+      "title": "PRIORITIES : vous êtes plus d’accord avec David ou Raf ? (Moi avec Raf)",
+      "decision": "RESOLVED_OUT_OF_REFERENCE_SCOPE_NO_CREATE",
+      "reason": "Already classified by prior checkpoint as published after the project reference cutoff 2026-09-09."
+    }
+  ],
+  "remainingTickets": [
+    {
+      "target": "Mcfly & Carlito",
+      "youtubeId": "fttKpTYRdMs",
+      "title": "GROSSE ANNONCE",
+      "decision": "A_VERIFIER_NO_CREATE",
+      "known": "Exact publication date 2015-04-12 proven; known historical Unknown groups do not date-collide.",
+      "missingProof": [
+        "reliable runtime",
+        "exclusion of an assigned historical entry under another title"
+      ],
+      "safeguard": "NO_CREATE_UNTIL_IDENTITY_AND_RUNTIME_ARE_SUFFICIENTLY_PROVEN"
+    }
+  ],
+  "resultingPlannerToVerify": 1,
+  "tvdbWrites": 0,
+  "destructiveActions": 0,
+  "safeguards": [
+    "NO_SPECULATIVE_CREATE",
+    "NO_DELETE_ON_TITLE_REUSE",
+    "NO_DELETE_ON_YOUTUBE_ABSENCE",
+    "NO_SECURITY_BYPASS",
+    "NO_REPEAT_VERIFIED_WRITES"
+  ]
+}
