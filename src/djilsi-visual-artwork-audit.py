@@ -90,3 +90,5 @@ report={'generatedAt':datetime.now(timezone.utc).isoformat(),'mode':'READ_ONLY_D
 (OUT/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 (OUT/'summary.txt').write_text('\n'.join(f'{k}={v}' for k,v in report['summary'].items())+'\n',encoding='utf-8')
 print((OUT/'summary.txt').read_text())
+
+# live rerun after moderator removals 2026-10-07
