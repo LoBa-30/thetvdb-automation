@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-10-07T20:41:53.535Z",
+  "mode": "READ_ONLY_ELIAN_LIVE_ARTWORK_CHECK_AFTER_REMOVALS",
+  "authenticated": true,
+  "episodes": [
+    {
+      "code": "S2023E02",
+      "id": "11092249",
+      "title": "RAP CONTENDERS ZEN ÉMISSION",
+      "heading": "RAP CONTENDERS ZEN ÉMISSION",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11092249/screencap/6ac6a6f6a86d2.jpg"
+      ],
+      "body": "Discover Earn Points Support Home / Series / Elian Ventre / Aired Order / Season 2023 / Episode 2 RAP CONTENDERS ZEN ÉMISSION Elian partage un vlog tourné en région parisienne autour de l’émission Rap Contenders, en compagnie de plusieurs créateurs dont Grim. français General Cast & Crew ORIGINALLY AIRED March 16, 2023 RUNTIME 15 minutes NETWORK YouTube CREATED April 18, 2025 by Modoloris MODIFIED October 7, 2026 by Frata30 ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information"
+    },
+    {
+      "code": "S2026E02",
+      "id": "11665002",
+      "title": "Son couple, ses projets, sa vie ft @Mastu",
+      "heading": "Son couple, ses projets, sa vie ft @Mastu",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11665002/screencap/6ac6a6fcb5ef9.jpg"
+      ],
+      "body": "Discover Earn Points Support Home / Series / Elian Ventre / Aired Order / Season 2026 / Episode 2 Son couple, ses projets, sa vie ft @Mastu Elian échange avec Mastu sur YouTube, son couple avec Bloom, ses projets et son avenir. français General Cast & Crew ORIGINALLY AIRED February 27, 2026 RUNTIME 56 minutes NETWORK YouTube CREATED March 8, 2026 by Modoloris MODIFIED October 7, 2026 by Frata30 ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information"
+    }
+  ],
+  "series": {
+    "posters": [],
+    "icons": [
+      "https://artworks.thetvdb.com/banners/v4/series/462729/icons/6a9dc58561428.png"
+    ],
+    "banners": [
+      "https://artworks.thetvdb.com/banners/v4/series/462729/banners/6a9dc52732ad3.jpg"
+    ],
+    "body": "Discover Earn Points Support Elian Ventre Chaîne YouTube d’Elian Ventre consacrée au divertissement, aux vlogs, aux défis, aux expériences et aux émissions réalisées seul ou avec d’autres créateurs français. français General Seasons Cast & Crew Artwork Lists Notes THETVDB.COM SERIES ID 462729 STATUS Continuing FIRST AIRED January 17, 2023 RECENT September 30, 2026 NETWORK YouTube AVERAGE RUNTIME 26 minutes GENRES Comedy ORIGINAL COUNTRY France ORIGINAL LANGUAGE French ON OTHER SITES TheMovieDB.com Youtube EPISODE SCREENSHOT FORMAT 16:9 Screencap FAVORITED This series has been favorited by 0 people. CREATED April 18, 2025 by Modoloris MODIFIED October 7, 2026 by PolarGeek admin ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information"
+  },
+  "result": "CHECK_COMPLETE_ZERO_WRITES"
+}
