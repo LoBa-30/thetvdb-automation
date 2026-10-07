@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T16:01:24.062Z",
+  "mode": "GUARDED_SQUEEZIE_ARTWORK_BATCH_8",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2014E159",
+    "S2014E160",
+    "S2014E161",
+    "S2014E163",
+    "S2014E164",
+    "S2014E166",
+    "S2014E167",
+    "S2014E168",
+    "S2014E169",
+    "S2014E170",
+    "S2014E172",
+    "S2014E176",
+    "S2014E178",
+    "S2014E180",
+    "S2014E181",
+    "S2014E183",
+    "S2014E184",
+    "S2014E186",
+    "S2014E187",
+    "S2014E188"
+  ],
+  "results": [
+    {
+      "code": "S2014E159",
+      "episodeId": "5314556",
+      "title": "CET HOMME EST JOSEPH, IL EST DANGEREUX. (The Evil Within)",
+      "youtubeId": "152NcXaiJCg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CET HOMME EST JOSEPH, IL EST DANGEREUX. (The Evil Within)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/152NcXaiJCg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 99792
+        }
+      },
+      "crop": {
+        "id": "2329531",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66cd8de93b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314556/screencap/6ac66cda57f65.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E160",
+      "episodeId": "5314557",
+      "title": "NU COMME UN VER ;_; - Alien: Isolation gameplay FR - #9",
+      "youtubeId": "O3vXp3cjs4E",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "NU COMME UN VER ;_; - Alien: Isolation gameplay FR - #9",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/O3vXp3cjs4E/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 79625
+        }
+      },
+      "crop": {
+        "id": "2329532",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66cdf29c7e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314557/screencap/6ac66ce0ef263.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E161",
+      "episodeId": "5314558",
+      "title": "HUMAINS VS REQUINS!",
+      "youtubeId": "F_JYcZ0FSeY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "HUMAINS VS REQUINS!",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/F_JYcZ0FSeY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 103333
+        }
+      },
+      "crop": {
+        "id": "2329533",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66ce55213a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314558/screencap/6ac66ce6a71a8.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E163",
+      "episodeId": "5314560",
+      "title": "ILS ONT DES ENFANTS... DES AFFREUX ENFANTS. - Alien: Isolation gameplay FR - #10",
+      "youtubeId": "2IsWH5CiCq4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ILS ONT DES ENFANTS... DES AFFREUX ENFANTS. - Alien: Isolation gameplay FR - #10",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/2IsWH5CiCq4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 148159
+        }
+      },
+      "crop": {
+        "id": "2329534",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66ceae00f5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314560/screencap/6ac66cec56c1c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E164",
+      "episodeId": "5314561",
+      "title": "COIFFONS DES YOUTUBERS!",
+      "youtubeId": "U4bEprFhZa8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COIFFONS DES YOUTUBERS!",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/U4bEprFhZa8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 114817
+        }
+      },
+      "crop": {
+        "id": "2329535",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66cf0bbf53.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314561/screencap/6ac66cf1f2d0c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E166",
+      "episodeId": "5314563",
+      "title": "ANIMALS GONNA HATE ! (Far Cry 4)",
+      "youtubeId": "1YEPCuUhjUU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ANIMALS GONNA HATE ! (Far Cry 4)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/1YEPCuUhjUU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 180641
+        }
+      },
+      "crop": {
+        "id": "2329536",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66cf646e03.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314563/screencap/6ac66cf77d9f5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E167",
+      "episodeId": "5314564",
+      "title": "SOCCER PHYSICS !",
+      "youtubeId": "DCOxtK4eiAA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SOCCER PHYSICS !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/DCOxtK4eiAA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 228682
+        }
+      },
+      "crop": {
+        "id": "2329537",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66cfc053cc.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314564/screencap/6ac66cfd63c03.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E168",
+      "episodeId": "5314565",
+      "title": "COUPER DES FRUITS TU FERAS ! (Compilation de jeux)",
+      "youtubeId": "Z4y3IWzEMQE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COUPER DES FRUITS TU FERAS ! (Compilation de jeux)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Z4y3IWzEMQE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 116241
+        }
+      },
+      "crop": {
+        "id": "2329538",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66d0194801.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314565/screencap/6ac66d02e6ac7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E169",
+      "episodeId": "5314566",
+      "title": "PILOTE OU PAS PILOTE ? (Air Brawl)",
+      "youtubeId": "EG-83Cgnqoo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PILOTE OU PAS PILOTE ? (Air Brawl)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/EG-83Cgnqoo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 132616
+        }
+      },
+      "crop": {
+        "id": "2329539",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66d073fad6.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314566/screencap/6ac66d0885373.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E170",
+      "episodeId": "5314567",
+      "title": "IL CAMBRIOLE LA MAUVAISE MAISON...",
+      "youtubeId": "6l8lobKhHBo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "IL CAMBRIOLE LA MAUVAISE MAISON...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/6l8lobKhHBo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 109252
+        }
+      },
+      "crop": {
+        "id": "2329540",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66d0ca9718.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314567/screencap/6ac66d0de87c8.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E172",
+      "episodeId": "5314569",
+      "title": "PLEURER DE RAGE... (The Impossible Game)",
+      "youtubeId": "zbpcAaeys1s",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PLEURER DE RAGE... (The Impossible Game)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/zbpcAaeys1s/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 80027
+        }
+      },
+      "crop": {
+        "id": "2329542",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66d12c5d6b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314569/screencap/6ac66d1438d69.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E176",
+      "episodeId": "5314573",
+      "title": "THE FOREST COOP",
+      "youtubeId": "82CWR9BRAlU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "THE FOREST COOP",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/82CWR9BRAlU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 92129
+        }
+      },
+      "crop": {
+        "id": "2329543",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66d185679f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314573/screencap/6ac66d19bd8a6.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E178",
+      "episodeId": "5314575",
+      "title": "DUNGEON NIGHTMARES 2",
+      "youtubeId": "3VWXU9ZbhG4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DUNGEON NIGHTMARES 2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/3VWXU9ZbhG4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 62348
+        }
+      },
+      "crop": {
+        "id": "2329544",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66d1e0bbb4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314575/screencap/6ac66d1f651fb.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E180",
+      "episodeId": "5314577",
+      "title": "ALIEN FRENCH KISS (Alien: Isolation Oculus)",
+      "youtubeId": "ldwjQVlKTVg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ALIEN FRENCH KISS (Alien: Isolation Oculus)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ldwjQVlKTVg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 125497
+        }
+      },
+      "crop": {
+        "id": "2329545",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66d23932de.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314577/screencap/6ac66d2530e72.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E181",
+      "episodeId": "5314578",
+      "title": "GOA... MICRO-ONDES SIMULATOR ?! (Goat MMO #1)",
+      "youtubeId": "DiRwl-CIVAs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "GOA... MICRO-ONDES SIMULATOR ?! (Goat MMO #1)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/DiRwl-CIVAs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 79017
+        }
+      },
+      "crop": {
+        "id": "2329546",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66d299340e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314578/screencap/6ac66d2aeb09d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E183",
+      "episodeId": "5314593",
+      "title": "SUPER SMASH BRAWLHALLA !",
+      "youtubeId": "uDjAJ8tw178",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SUPER SMASH BRAWLHALLA !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/uDjAJ8tw178/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 131305
+        }
+      },
+      "crop": {
+        "id": "2329547",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66d2f5b892.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314593/screencap/6ac66d30bb404.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E184",
+      "episodeId": "5314594",
+      "title": "LE NIVEAU SECRET DES VACHES ! (Goat MMO #2)",
+      "youtubeId": "l2sn9UjPtfc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE NIVEAU SECRET DES VACHES ! (Goat MMO #2)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/l2sn9UjPtfc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 217205
+        }
+      },
+      "crop": {
+        "id": "2329549",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66d35b5dde.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314594/screencap/6ac66d3724103.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E186",
+      "episodeId": "5314596",
+      "title": "UN VOYAGE DANS LE TEMPS?!",
+      "youtubeId": "em5cpFv05aE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UN VOYAGE DANS LE TEMPS?!",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/em5cpFv05aE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 112841
+        }
+      },
+      "crop": {
+        "id": "2329550",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66d3b9d469.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314596/screencap/6ac66d3d1dc50.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E187",
+      "episodeId": "5314597",
+      "title": "MERCI",
+      "youtubeId": "kEen5TK_R4s",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MERCI",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/kEen5TK_R4s/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 84718
+        }
+      },
+      "crop": {
+        "id": "2329551",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66d41a4677.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314597/screencap/6ac66d43143d2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2014E188",
+      "episodeId": "5314598",
+      "title": "QUAND LES TRAINS NE BLAGUENT PAS. (Compilation de jeux)",
+      "youtubeId": "Cyw4vjaGmFE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "QUAND LES TRAINS NE BLAGUENT PAS. (Compilation de jeux)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Cyw4vjaGmFE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 68713
+        }
+      },
+      "crop": {
+        "id": "2329552",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66d4768409.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314598/screencap/6ac66d48dc076.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
