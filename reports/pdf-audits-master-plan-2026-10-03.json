@@ -100,7 +100,7 @@
         "5 certain Unassigned duplicates still need successful delete/merge",
         "165 metadata-blocked videos in PDF snapshot",
         "114 existing artwork provenance checks",
-        "Large missing-artwork backlog remains; original PDF count is stale. At least 100 Squeezie artwork codes are now protected by verified/recovered batch history; continue through fresh live rescans only."
+        "Large missing-artwork backlog remains; original PDF count is stale. At least 120 Squeezie artwork codes are now protected by verified/recovered batch history; continue through fresh live rescans only."
       ],
       "resolvedSincePlan": [
         "Current structural/historical backlog re-audited: 1586 current YouTube videos, 1660 TVDB assigned, 1585 current matches.",
@@ -110,7 +110,8 @@
         "All 8 runtimes corrected with authenticated fresh preflight and post-write verification: 2016 E144 10→8, E216 1→9; 2017 E17 10→7, E44 10→8; 2019 E22 20→23, E34 70→68; 2021 E28 13→19, E56 28→24.",
         "2026-10-07 continued artwork rollout: 40 additional Squeezie artworks applied and individually post-write verified in guarded batches 3 and 4 (20/20 + 20/20), 0 skips and 0 failures. Fresh rescans automatically skipped artwork already present.",
         "2026-10-07 continuation: Squeezie artwork batch 5 applied and individually post-write verified 20/20, 0 skips, 0 failures; hardened preflight explicitly excluded 60 previously verified codes before selecting this batch.",
-        "2026-10-07 Squeezie artwork batch 6 recovered checkpoint: the write step completed 20/20 with 0 skips/0 failures and BATCH_COMPLETE. The workflow-level failure was only the GitHub report-persist step; artifact upload succeeded. Do not repeat these 20 writes."
+        "2026-10-07 Squeezie artwork batch 6 recovered checkpoint: the write step completed 20/20 with 0 skips/0 failures and BATCH_COMPLETE. The workflow-level failure was only the GitHub report-persist step; artifact upload succeeded. Do not repeat these 20 writes.",
+        "2026-10-07 continuation: Squeezie artwork batch 7 applied and individually post-write verified 20/20 (S2014E93-S2014E143), 0 skips, 0 failures. Total newly protected artwork codes through batches 1-7/recovered batch 6 is at least 120."
       ]
     },
     {
@@ -236,7 +237,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T15:30:00Z",
+  "lastUpdatedAt": "2026-10-07T15:41:00Z",
   "latestContinuationCommits": [
     "38c1bbafe19bfbe54c91072ab9419ec91d7715d7",
     "68bb95cb01a3f49ceb6f7e29ee530daac5e07696",
@@ -351,6 +352,7 @@
     "ad3029b9a4e4839fdb9a399b0c123705affecb5a",
     "98e8890adec1547947a509ae8c0523dd6b95ef92",
     "8de927c7599397c9b25b21f8b26dd3026a518900",
-    "91d884a690dd3ceef8f61e57a6f780fc803adb51"
+    "91d884a690dd3ceef8f61e57a6f780fc803adb51",
+    "35ce57ab7be4688b83eb222343ce3555186d085c"
   ]
 }
