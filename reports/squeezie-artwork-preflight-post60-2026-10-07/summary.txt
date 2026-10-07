@@ -1,5 +1,5 @@
 sourcePairs=1394
-checked=172
-alreadyPresent=20
+checked=386
+alreadyPresent=0
 planned=20
 result=PREFLIGHT_READY
