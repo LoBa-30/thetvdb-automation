@@ -1,0 +1,175 @@
+{
+  "generatedAt": "2026-10-07T12:33:24.461Z",
+  "mode": "AUTHENTICATED_READ_ONLY_ARTWORK_FORM_DIAGNOSTIC",
+  "authenticated": true,
+  "target": {
+    "slug": "elian-ventre-462729",
+    "series": "462729",
+    "episodeId": "11092255",
+    "code": "S2023E08"
+  },
+  "form": {
+    "action": "/artwork/upload_handler",
+    "method": "post",
+    "enctype": "multipart/form-data",
+    "acceptCharset": null,
+    "id": null,
+    "className": null,
+    "outerHTML": "<form action=\"/artwork/upload_handler\" method=\"post\" enctype=\"multipart/form-data\">\n                    <input type=\"hidden\" name=\"_token\" value=\"PAqEiwbMR2bNpcRsZP3wsgu9LDxAQIQ8Ry33pY2X\">\n                                            <input type=\"hidden\" name=\"type\" value=\"11\">\n                                            <input type=\"hidden\" name=\"episode\" value=\"11092255\">\n                                            <input type=\"hidden\" name=\"series\" value=\"462729\">\n                                            <input type=\"hidden\" name=\"redirect\" value=\"/series/elian-ventre-462729/episodes/11092255\">\n                                        <div class=\"form-group\">\n                        <field for=\"file\">Select a file:</field>\n                        <div class=\"file-input file-input-new\"><div class=\"file-preview \">\n        <div class=\"file-drop-disabled\">\n    <div class=\"file-preview-thumbnails\">\n    </div>\n    <div class=\"clearfix\"></div>    <div class=\"file-preview-status text-center text-success\"></div>\n    <div class=\"kv-fileinput-error file-error-message\" style=\"display: none;\"></div>\n    </div>\n</div>\n<div class=\"kv-upload-progress hide\"><div class=\"progress\">\n    <div class=\"progress-bar progress-bar-success progress-bar-striped active\" role=\"progressbar\" aria-valuenow=\"0\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width:0%;\">\n        0%\n     </div>\n</div></div>\n<div class=\"input-group file-caption-main\">\n   <div tabindex=\"500\" class=\"form-control file-caption  kv-fileinput-caption\">\n   <div class=\"file-caption-name\"></div>\n</div>\n\n   <div class=\"input-group-btn\">\n       <button type=\"button\" tabindex=\"500\" title=\"Clear selected files\" class=\"btn btn-default fileinput-remove fileinput-remove-button\"><i class=\"fa fa-times\"></i>&nbsp;  <span class=\"hidden-xs\">Clear Selected</span></button>\n       <button type=\"button\" tabindex=\"500\" title=\"Abort ongoing upload\" class=\"btn btn-default hide fileinput-cancel fileinput-cancel-button\"><i class=\"glyphicon glyphicon-ban-circle\"></i>  <span class=\"hidden-xs\">Cancel</span></button>\n       \n       <div tabindex=\"500\" class=\"btn btn-primary btn-file\"><i class=\"fa fa-file\"></i>&nbsp;  <span class=\"hidden-xs\">Browse …</span><input type=\"file\" name=\"file\" id=\"file\"></div>\n   </div>\n</div></div><div id=\"kvFileinputModal\" class=\"file-zoom-dialog modal fade\" tabindex=\"-1\" aria-labelledby=\"kvFileinputModalLabel\"><div class=\"modal-dialog modal-lg\" role=\"document\">\n  <div class=\"modal-content\">\n    <div class=\"modal-header\">\n      <div class=\"kv-zoom-actions pull-right\"><button type=\"button\" class=\"btn btn-default btn-header-toggle btn-toggleheader\" title=\"Toggle header\" data-toggle=\"button\" aria-pressed=\"false\" autocomplete=\"off\"><i class=\"glyphicon glyphicon-resize-vertical\"></i></button><button type=\"button\" class=\"btn btn-default btn-fullscreen\" title=\"Toggle full screen\" data-toggle=\"button\" aria-pressed=\"false\" autocomplete=\"off\"><i class=\"glyphicon glyphicon-fullscreen\"></i></button><button type=\"button\" class=\"btn btn-default btn-borderless\" title=\"Toggle borderless mode\" data-toggle=\"button\" aria-pressed=\"false\" autocomplete=\"off\"><i class=\"glyphicon glyphicon-resize-full\"></i></button><button type=\"button\" class=\"btn btn-default btn-close\" title=\"Close detailed preview\" data-dismiss=\"modal\" aria-hidden=\"true\"><i class=\"glyphicon glyphicon-remove\"></i></button></div>\n      <h3 class=\"modal-title\">Detailed Preview <small><span class=\"kv-zoom-title\"></span></small></h3>\n    </div>\n    <div class=\"modal-body\">\n      <div class=\"floating-buttons\"></div>\n      <div class=\"kv-zoom-body file-zoom-content\"></div>\n<button type=\"button\" class=\"btn btn-navigate btn-prev\" title=\"View previous file\"><i class=\"glyphicon glyphicon-triangle-left\"></i></button> <button type=\"button\" class=\"btn btn-navigate btn-next\" title=\"View next file\"><i class=\"glyphicon glyphicon-triangle-right\"></i></button>\n    </div>\n  </div>\n</div>\n</div>\n                    </div>\n                    <div class=\"form-group\">\n                        <field for=\"file\">Or enter a URL (overrides file upload):</field>\n                        <input type=\"text\" name=\"url\" id=\"url\" class=\"form-control\" value=\"\">\n                    </div>\n                                        <button type=\"submit\" id=\"artwork-continue-button\" class=\"btn btn-default\">Continue</button>\n                </form>"
+  },
+  "controls": [
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "_token",
+      "value": "PAqEiwbMR2bNpcRsZP3wsgu9LDxAQIQ8Ry33pY2X",
+      "required": false,
+      "accept": null,
+      "checked": false
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "type",
+      "value": "11",
+      "required": false,
+      "accept": null,
+      "checked": false
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "episode",
+      "value": "11092255",
+      "required": false,
+      "accept": null,
+      "checked": false
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "series",
+      "value": "462729",
+      "required": false,
+      "accept": null,
+      "checked": false
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "redirect",
+      "value": "/series/elian-ventre-462729/episodes/11092255",
+      "required": false,
+      "accept": null,
+      "checked": false
+    },
+    {
+      "tag": "input",
+      "type": "file",
+      "name": "file",
+      "value": null,
+      "required": false,
+      "accept": null,
+      "checked": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "url",
+      "value": "",
+      "required": false,
+      "accept": null,
+      "checked": false
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "button",
+      "type": "button",
+      "name": null,
+      "value": null,
+      "text": "Clear Selected",
+      "disabled": false
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": null,
+      "value": null,
+      "text": "Cancel",
+      "disabled": false
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": null,
+      "value": null,
+      "text": null,
+      "disabled": false
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": null,
+      "value": null,
+      "text": null,
+      "disabled": false
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": null,
+      "value": null,
+      "text": null,
+      "disabled": false
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": null,
+      "value": null,
+      "text": null,
+      "disabled": false
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": null,
+      "value": null,
+      "text": null,
+      "disabled": false
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": null,
+      "value": null,
+      "text": null,
+      "disabled": false
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": null,
+      "value": null,
+      "text": "Continue",
+      "disabled": false
+    }
+  ],
+  "scripts": [
+    "\n        // Point InstantSearch at our OpenSearch-backed search API (see algolia.js).\n        window.TVDB_SEARCH_URL = 'https://api4.thetvdb.com/web/search/queries';\n        window.auth = '1';\n                    window.auth_language = 'fra';\n            window.user_unique = '2066dc6573b91a8fec67bfbb1649a371cad55a78';\n            ",
+    "\n        $(document).ready(function() {\n            if ($(\"SELECT#language\").length) {\n                $(\"BUTTON#artwork-continue-button\").prop(\"disabled\", true);\n            }\n            $(\"SELECT#language\").on(\"change\", function(e) {\n                if ($(this).val() != -1) {\n                    $(\"BUTTON#artwork-continue-button\").prop(\"disabled\", false);\n                } else {\n                    $(\"BUTTON#artwork-continue-button\").prop(\"disabled\", true);\n                }\n            })\n        });\n    "
+  ],
+  "bodyText": "Discover Earn Points Support Home / Artwork / Upload Episode 16:9 Screencap EPISODE 3000 BALLONS DANS MON APPARTEMENT ! SERIES Elian Ventre Instructions Select a file to upload or provide a URL to an image. Once uploaded, you'll be able to crop and resize images to fit our exact requirements (640x360 JPG). Artwork must: Not contain spoilers. Not include nudity, vulgarity, or gore. Not include watermarks or unrelated logos. Not be visibly stretched. Be of high quality (original upload must be at least 640x360). Initial upload must be less than 10M. Additionally, for this artwork type: Episode images should be uploaded in their original aired aspect ratio. If this series has been incorrectly flagged do not adjust the images to match. Please create a support ticket and a moderator will adjust the series for you. Use an official episode image when available. The image should be indicative of the content of the episode without revealing any spoilers. Official images must still follow the text and logo rules above. Wherever possible, especially for newer series, the image should not contain the network watermark/logo. The image should not be a title card and ideally will have no writing on it whatsoever. This allows episode images are supposed to be language-agnostic, and applicable for all translations. Images shouldn't just be a title shot from the episode. We already know the episode's name, we don't need to see it again. Do not just use the same image for every episode. Once again the image should reflect the content of that specific episode. For examples, plus details specific to web series and podcasts, please review our knowledgebase. Select a file: Browse … Or enter a URL (overrides file upload): Continue ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information",
+  "blockedNonReadRequests": [
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791376408847&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11092255%26series%3D462729&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791376408847&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11092255%26series%3D462729&beacon=1"
+    }
+  ],
+  "result": "DIAGNOSTIC_COMPLETE_ZERO_WRITES"
+}
