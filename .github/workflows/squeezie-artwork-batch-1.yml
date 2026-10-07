@@ -1,0 +1,44 @@
+name: Squeezie artwork batch 1
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/squeezie-artwork-batch-1.yml'
+      - 'src/squeezie-artwork-batch-1.js'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  batch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Guarded Squeezie artwork batch 1
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+          TVDB_SQUEEZIE_ARTWORK_BATCH: 'yes'
+        run: node src/squeezie-artwork-batch-1.js
+      - name: Persist batch report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/squeezie-artwork-batch-1-2026-10-07
+          git commit -m "Record Squeezie artwork batch 1 [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: squeezie-artwork-batch-1
+          path: reports/squeezie-artwork-batch-1-2026-10-07/
