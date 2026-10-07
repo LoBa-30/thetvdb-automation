@@ -1,0 +1,50 @@
+{
+  "generatedAt": "2026-10-07T17:27:23.091685+00:00",
+  "s2019e01": {
+    "oldArtwork": {
+      "url": "https://artworks.thetvdb.com/banners/v4/episode/11696580/screencap/6ac6494b1c107.jpg",
+      "status": 200,
+      "bytes": 46673,
+      "contentType": "image/jpeg",
+      "size": [
+        640,
+        360
+      ],
+      "sha256": "03b5e3202ff713a20864bd2d604728b5c68d488dd5f52f67d062537a1f80361c"
+    },
+    "youtubeVariants": [
+      {
+        "url": "https://i.ytimg.com/vi/YC1gtcw9kE8/maxresdefault.jpg",
+        "status": 404,
+        "bytes": 1097,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/YC1gtcw9kE8/hq720.jpg",
+        "status": 404,
+        "bytes": 1097,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/YC1gtcw9kE8/sddefault.jpg",
+        "status": 404,
+        "bytes": 1097,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/YC1gtcw9kE8/hqdefault.jpg",
+        "status": 404,
+        "bytes": 1097,
+        "contentType": "image/jpeg"
+      }
+    ]
+  },
+  "s2025e01": {
+    "youtubeId": "EqFLIsSB2hg",
+    "download": {
+      "returncode": 1,
+      "stderrTail": "ERROR: [youtube] EqFLIsSB2hg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+    }
+  },
+  "result": "READ_ONLY"
+}
