@@ -139,7 +139,7 @@
       "status": "IN_PROGRESS_DATES_ARTWORK",
       "pdfOpenWork": [
         "Exact publication dates remain independently unverified in the fresh audit",
-        "709 missing artworks remain versus the original 769-missing PDF snapshot after 60 newly applied+verified artworks; continue only from fresh live rescans.",
+        "689 missing artworks remain versus the original 769-missing PDF snapshot after 80 newly applied+verified artworks; continue only from fresh live rescans.",
         "2 artwork provenance tickets"
       ],
       "resolvedSincePlan": [
@@ -154,7 +154,8 @@
         "Fresh title exactness backlog closed without writes: 54 remaining differences = 26 punctuation/emoji + 28 cosmetic; 0 substantive mismatches.",
         "2026-10-07 artwork rollout started: 20 Amixem missing artworks applied and individually post-write verified in guarded batch 1, 20/20 success, 0 skips, 0 failures.",
         "2026-10-07 continuation: Amixem artwork batch 2 applied and individually post-write verified 20/20, 0 skips, 0 failures; hardened preflight explicitly excluded 20 previously verified codes before selecting this batch.",
-        "2026-10-07 continuation: Amixem artwork batch 3 applied and individually post-write verified 20/20, 0 skips, 0 failures. Total newly applied+verified artwork count from batches 1-3 is 60."
+        "2026-10-07 continuation: Amixem artwork batch 3 applied and individually post-write verified 20/20, 0 skips, 0 failures. Total newly applied+verified artwork count from batches 1-3 is 60.",
+        "2026-10-07 continuation: Amixem artwork batch 4 applied and individually post-write verified 20/20 (S2016E58-S2017E11), 0 skips, 0 failures. Total newly applied+verified artwork count through batch 4 is 80."
       ]
     },
     {
@@ -237,7 +238,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T15:41:00Z",
+  "lastUpdatedAt": "2026-10-07T15:45:00Z",
   "latestContinuationCommits": [
     "38c1bbafe19bfbe54c91072ab9419ec91d7715d7",
     "68bb95cb01a3f49ceb6f7e29ee530daac5e07696",
@@ -353,6 +354,7 @@
     "98e8890adec1547947a509ae8c0523dd6b95ef92",
     "8de927c7599397c9b25b21f8b26dd3026a518900",
     "91d884a690dd3ceef8f61e57a6f780fc803adb51",
-    "35ce57ab7be4688b83eb222343ce3555186d085c"
+    "35ce57ab7be4688b83eb222343ce3555186d085c",
+    "93ec4a7617ef8cc556739e5b2d9db014a2885961"
   ]
 }
