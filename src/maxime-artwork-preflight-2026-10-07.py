@@ -89,9 +89,16 @@ for ep in episodes:
         up=S.get(f'{BASE}/artwork/upload?type=11&episode={ep["episodeId"]}&series={derived_series}',timeout=30)
         if up.status_code!=200:
             report['counters']['uploadFormBlocked']+=1; report['checked'].append({**ep,'youtubeId':v['id'],'status':'UPLOAD_FORM_BLOCKED','http':up.status_code}); continue
-        scope_ok=(f'name="episode" value="{ep["episodeId"]}"' in up.text and f'name="series" value="{derived_series}"' in up.text and 'name="type" value="11"' in up.text)
+        usoup=BeautifulSoup(up.text,'html.parser')
+        form=usoup.find('form',action='/artwork/upload_handler')
+        vals={}
+        if form:
+            for inp in form.find_all('input'):
+                name=inp.get('name')
+                if name: vals[name]=inp.get('value','')
+        scope_ok=(vals.get('episode')==ep['episodeId'] and vals.get('series')==derived_series and vals.get('type')=='11')
         if not scope_ok:
-            report['counters']['uploadFormScopeDrift']+=1; report['checked'].append({**ep,'youtubeId':v['id'],'status':'UPLOAD_FORM_SCOPE_DRIFT','seriesExpected':derived_series}); continue
+            report['counters']['uploadFormScopeDrift']+=1; report['checked'].append({**ep,'youtubeId':v['id'],'status':'UPLOAD_FORM_SCOPE_DRIFT','seriesExpected':derived_series,'formValues':vals}); continue
         row={**ep,'youtubeId':v['id'],'youtubeTitle':v['title'],'imageUrl':img,'width':1280,'height':720,'series':derived_series}
         if ep['code'] not in seen:
             seen.add(ep['code']);report['planned'].append(row);report['checked'].append({**row,'status':'PREFLIGHT_PASSED'});report['counters']['passed']+=1
