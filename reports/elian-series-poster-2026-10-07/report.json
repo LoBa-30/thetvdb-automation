@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T20:32:53.550Z",
+  "generatedAt": "2026-10-07T20:34:33.179Z",
   "mode": "GUARDED_ELIAN_SERIES_POSTER",
   "authenticated": true,
   "preflight": {
@@ -12,8 +12,20 @@
   "verification": null,
   "blocked": [
     {
-      "reason": "Error: POSTER_UPLOAD_FORM_MISSING\n    at file:///home/runner/work/thetvdb-automation/thetvdb-automation/src/elian-series-poster-upload.js:38:34"
+      "reason": "Error: POSTER_UPLOAD_FORM_MISSING\n    at file:///home/runner/work/thetvdb-automation/thetvdb-automation/src/elian-series-poster-upload.js:45:10\n    at runNextTicks (node:internal/process/task_queues:64:5)\n    at process.processImmediate (node:internal/timers:452:9)\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)"
     }
   ],
-  "result": "BLOCKED_BEFORE_WRITE"
+  "result": "BLOCKED_BEFORE_WRITE",
+  "uploadPage": {
+    "url": "https://thetvdb.com/artwork/upload?type=2&series=462729",
+    "title": "Artwork Upload - TheTVDB.com",
+    "body": "Discover Earn Points Support Home / Artwork / Upload Series Poster SERIES Elian Ventre Instructions Select a file to upload or provide a URL to an image. Once uploaded, you'll be able to crop and resize images to fit our exact requirements (680x1000 JPG). Artwork must: Not contain spoilers. Not include nudity, vulgarity, or gore. Not include watermarks or unrelated logos. Not be visibly stretched. Be of high quality (original upload must be at least 680x1000). Initial upload must be less than 10M. Additionally, for this artwork type: Series posters should include the series name. Series posters should be representative of the entire series and not be season- or episode-specific. Each poster should be unique. Please do not upload minor variations of the same image. DVD covers are allowed as posters, as long as they are the official DVD cover. More poster guidelines can be found in our Knowledgebase. Due to a number of artwork removals within the past day or week, your account has been temporarily restricted from uploading. Please review your notifications for details and take this opportunity to review our artwork rules. ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information",
+    "forms": [
+      {
+        "action": "/search",
+        "method": "get",
+        "text": ""
+      }
+    ]
+  }
 }
