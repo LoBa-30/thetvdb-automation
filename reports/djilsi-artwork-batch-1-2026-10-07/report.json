@@ -1,0 +1,902 @@
+{
+  "generatedAt": "2026-10-07T14:01:08.255Z",
+  "mode": "GUARDED_DJILSI_ARTWORK_BATCH_1_SERIAL",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2018E01",
+    "S2018E02",
+    "S2018E03",
+    "S2018E04",
+    "S2018E05",
+    "S2018E06",
+    "S2018E07",
+    "S2018E08",
+    "S2018E09",
+    "S2018E10",
+    "S2018E11",
+    "S2018E12",
+    "S2018E13",
+    "S2018E14",
+    "S2018E15",
+    "S2018E16",
+    "S2018E17",
+    "S2018E18",
+    "S2018E19",
+    "S2019E01"
+  ],
+  "results": [
+    {
+      "code": "S2018E01",
+      "episodeId": "9242990",
+      "title": "PARTIR EN TOUR DE FRANCE EN IMPRO TOTALE ! #DécouvreTonPays 1",
+      "youtubeId": "tPAFP4QFT6Y",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PARTIR EN TOUR DE FRANCE EN IMPRO TOTALE ! #DécouvreTonPays 1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/tPAFP4QFT6Y/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 106163
+        }
+      },
+      "crop": {
+        "id": "2329077",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650a8469e4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9242990/screencap/6ac650a97bf01.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E02",
+      "episodeId": "9242991",
+      "title": "DES B*TES PARTOUT ! #DécouvreTonPays 2",
+      "youtubeId": "k1blyDB6xj4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DES B*TES PARTOUT ! #DécouvreTonPays 2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/k1blyDB6xj4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 112772
+        }
+      },
+      "crop": {
+        "id": "2329078",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650ad7ea98.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9242991/screencap/6ac650ae883b7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E03",
+      "episodeId": "9242992",
+      "title": "SUR LA PLUS HAUTE DUNE D'EUROPE ! #DécouvreTonPays 3",
+      "youtubeId": "jPgVjTDD9x4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SUR LA PLUS HAUTE DUNE D'EUROPE ! #DécouvreTonPays 3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/jPgVjTDD9x4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 83179
+        }
+      },
+      "crop": {
+        "id": "2329079",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650b1eda72.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9242992/screencap/6ac650b30646b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E04",
+      "episodeId": "9242993",
+      "title": "TOUT NU DANS LA LAVANDE ?! #DécouvreTonPays 4",
+      "youtubeId": "2ptVHFhcEPg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "TOUT NU DANS LA LAVANDE ?! #DécouvreTonPays 4",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/2ptVHFhcEPg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 114869
+        }
+      },
+      "crop": {
+        "id": "2329080",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650b68ed44.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9242993/screencap/6ac650b7a18a2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E05",
+      "episodeId": "9242994",
+      "title": "RIEN NE S'EST PASSÉ COMME PRÉVU... #DécouvreTonPays 5",
+      "youtubeId": "zbhpYnVsw5g",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "RIEN NE S'EST PASSÉ COMME PRÉVU... #DécouvreTonPays 5",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/zbhpYnVsw5g/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 105910
+        }
+      },
+      "crop": {
+        "id": "2329081",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650bb35780.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9242994/screencap/6ac650bc3fb5d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E06",
+      "episodeId": "9242995",
+      "title": "UN GENDARME ME MET UNE PRESSION PAR TELEPHONE ! #DécouvreTonPays 6",
+      "youtubeId": "_qVpzIPYxO0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UN GENDARME ME MET UNE PRESSION PAR TELEPHONE ! #DécouvreTonPays 6",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/_qVpzIPYxO0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 197482
+        }
+      },
+      "crop": {
+        "id": "2329082",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650bfd574a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9242995/screencap/6ac650c134580.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E07",
+      "episodeId": "9242996",
+      "title": "JE ME FAIS EMBROUILLER EN SORTANT D'UN BAR ! #DécouvreTonPays 7",
+      "youtubeId": "PanKi2WGWB4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE ME FAIS EMBROUILLER EN SORTANT D'UN BAR ! #DécouvreTonPays 7",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/PanKi2WGWB4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 108573
+        }
+      },
+      "crop": {
+        "id": "2329083",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650c4d877f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9242996/screencap/6ac650c5f184a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E08",
+      "episodeId": "9242997",
+      "title": "ON N'A PLUS DE CHAUSSURES ! #DécouvreTonPays 8",
+      "youtubeId": "GvCuRzh_5UM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON N'A PLUS DE CHAUSSURES ! #DécouvreTonPays 8",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/GvCuRzh_5UM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 144391
+        }
+      },
+      "crop": {
+        "id": "2329084",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650c9889d0.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9242997/screencap/6ac650ca94362.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E09",
+      "episodeId": "9242998",
+      "title": "JE VEUX FAIRE DEMI-TOUR SUR L'AUTOROUTE ! #DécouvreTonPays 9 (final saison 1)",
+      "youtubeId": "CYATzVRUPFI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE VEUX FAIRE DEMI-TOUR SUR L'AUTOROUTE ! #DécouvreTonPays 9 (final saison 1)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/CYATzVRUPFI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 94126
+        }
+      },
+      "crop": {
+        "id": "2329085",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650ce28466.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9242998/screencap/6ac650cf3727d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E10",
+      "episodeId": "9243015",
+      "title": "NOS GALÈRES EN GRÈCE + POSEZ-MOI VOS QUESTIONS",
+      "youtubeId": "g-lnmYWDcyk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "NOS GALÈRES EN GRÈCE + POSEZ-MOI VOS QUESTIONS",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/g-lnmYWDcyk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 115535
+        }
+      },
+      "crop": {
+        "id": "2329086",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650d2c16fb.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243015/screencap/6ac650d3d10cb.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E11",
+      "episodeId": "9243016",
+      "title": "J’AI CASSÉ MA CAMÉRA... #BourbiersDor 1",
+      "youtubeId": "EY5N56tDFBk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J’AI CASSÉ MA CAMÉRA... #BourbiersDor 1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/EY5N56tDFBk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 99431
+        }
+      },
+      "crop": {
+        "id": "2329087",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650d74f60c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243016/screencap/6ac650d868315.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E12",
+      "episodeId": "9243017",
+      "title": "CACHÉS DANS LES TOILETTES D'UN TRAIN EN ALLEMAGNE #BourbiersDor 2",
+      "youtubeId": "fT1E4V5rZ3Q",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CACHÉS DANS LES TOILETTES D'UN TRAIN EN ALLEMAGNE #BourbiersDor 2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/fT1E4V5rZ3Q/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 88226
+        }
+      },
+      "crop": {
+        "id": "2329088",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650dc0e543.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243017/screencap/6ac650dd257aa.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E13",
+      "episodeId": "9243018",
+      "title": "SE LANCER SUR YOUTUBE #JournalDeBord EP1",
+      "youtubeId": "uYMeiGNJSbU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SE LANCER SUR YOUTUBE #JournalDeBord EP1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/uYMeiGNJSbU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 107409
+        }
+      },
+      "crop": {
+        "id": "2329089",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650e151078.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243018/screencap/6ac650e265d46.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E14",
+      "episodeId": "9243019",
+      "title": "PROBLEMES D'ARGENT #JournalDeBord EP2",
+      "youtubeId": "uMIm06pHndo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PROBLEMES D'ARGENT #JournalDeBord EP2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/uMIm06pHndo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 69242
+        }
+      },
+      "crop": {
+        "id": "2329090",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650e60bb0f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243019/screencap/6ac650e724407.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E15",
+      "episodeId": "9243020",
+      "title": "COUP DE POKER #JournalDeBord EP3",
+      "youtubeId": "prDN4vO4xgw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COUP DE POKER #JournalDeBord EP3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/prDN4vO4xgw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 140788
+        }
+      },
+      "crop": {
+        "id": "2329091",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650eab59a3.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243020/screencap/6ac650ebcf720.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E16",
+      "episodeId": "9243021",
+      "title": "AU MILIEU D'UNE MANIFESTATION DES GILETS JAUNES !",
+      "youtubeId": "5GdqdxQBSbo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "AU MILIEU D'UNE MANIFESTATION DES GILETS JAUNES !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/5GdqdxQBSbo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 88626
+        }
+      },
+      "crop": {
+        "id": "2329092",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650ef783ac.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243021/screencap/6ac650f0ab1b4.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E17",
+      "episodeId": "9243022",
+      "title": "BESOIN D'AIDE... #JournalDeBord EP4",
+      "youtubeId": "Gmdu-9Ya7uk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "BESOIN D'AIDE... #JournalDeBord EP4",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Gmdu-9Ya7uk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 97859
+        }
+      },
+      "crop": {
+        "id": "2329093",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650f45e933.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243022/screencap/6ac650f569b19.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E18",
+      "episodeId": "9243023",
+      "title": "UNE SOLUTION RADICALE #JournalDeBord EP5",
+      "youtubeId": "in4zwbYO75s",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UNE SOLUTION RADICALE #JournalDeBord EP5",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/in4zwbYO75s/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 81794
+        }
+      },
+      "crop": {
+        "id": "2329094",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650f8e716c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243023/screencap/6ac650fa09725.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E19",
+      "episodeId": "9243024",
+      "title": "LES RETROUVAILLES #JournalDeBord EP6 - FINAL SAISON 1",
+      "youtubeId": "vtFnltaWe1s",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES RETROUVAILLES #JournalDeBord EP6 - FINAL SAISON 1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/vtFnltaWe1s/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 99096
+        }
+      },
+      "crop": {
+        "id": "2329095",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac650fdbe607.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243024/screencap/6ac650fee27f1.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E01",
+      "episodeId": "9243028",
+      "title": "QUELLES SONT VOS RÉSOLUTIONS 2019 ? INTERVIEW CHELOU #1",
+      "youtubeId": "jbtzNL6d37Q",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "QUELLES SONT VOS RÉSOLUTIONS 2019 ? INTERVIEW CHELOU #1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/jbtzNL6d37Q/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 222127
+        }
+      },
+      "crop": {
+        "id": "2329096",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac651029b57b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243028/screencap/6ac65103cc29d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "reauthCount": 1,
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "safeBlocked": 0,
+    "failedAfterWrite": 0
+  }
+}
