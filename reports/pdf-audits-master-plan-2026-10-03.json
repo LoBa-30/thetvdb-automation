@@ -177,7 +177,8 @@
         "2026-10-07 artwork rollout started: 20 Joyca missing artworks applied and individually post-write verified in guarded batch 1, 20/20 success, 0 skips, 0 failures.",
         "2026-10-07 continuation: Joyca artwork batch 2 applied and individually post-write verified 20/20, 0 skips, 0 failures.",
         "2026-10-07 continuation: Joyca artwork batch 3 applied and individually post-write verified 20/20, 0 skips, 0 failures. Total newly applied+verified artwork count from batches 1-3 is 60.",
-        "2026-10-07 continuation: Joyca artwork batch 4 applied and individually post-write verified 20/20 (S2019E45-S2021E61), 0 skips, 0 failures. Total newly applied+verified artwork count through batch 4 is 80."
+        "2026-10-07 continuation: Joyca artwork batch 4 applied and individually post-write verified 20/20 (S2019E45-S2021E61), 0 skips, 0 failures. Total newly applied+verified artwork count through batch 4 is 80.",
+        "2026-10-07 Joyca batch 5 partial guard: 16 rows completed APPLIED_AND_VERIFIED, then S2018E08 hit a post-submit body timeout. Fresh read-only rescan proved S2018E08 has a persistent TheTVDB screencap, so effective completion from the original batch is 17/20 and S2018E08 is DO_NOT_RETRY. Three original targets remained unprocessed before recovery."
       ]
     },
     {
@@ -239,7 +240,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T15:48:00Z",
+  "lastUpdatedAt": "2026-10-07T16:00:00Z",
   "latestContinuationCommits": [
     "38c1bbafe19bfbe54c91072ab9419ec91d7715d7",
     "68bb95cb01a3f49ceb6f7e29ee530daac5e07696",
@@ -357,6 +358,8 @@
     "91d884a690dd3ceef8f61e57a6f780fc803adb51",
     "35ce57ab7be4688b83eb222343ce3555186d085c",
     "93ec4a7617ef8cc556739e5b2d9db014a2885961",
-    "8efaeefe49f435ec6a15226208b1b2626eb9c129"
+    "8efaeefe49f435ec6a15226208b1b2626eb9c129",
+    "4caa17e649c01f10bdc877fb8e034af4d61dc4c0",
+    "829f49f4288afad39701f9893a0319bc048c5eb6"
   ]
 }
