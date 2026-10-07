@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-10-07T17:30:23.042Z",
+  "target": {
+    "slug": "maxime-biaggi",
+    "series": "475945",
+    "episodeId": "11696580",
+    "code": "S2019E01",
+    "title": "Try not to embrasser son pote (nouveau challenge trop dur)",
+    "youtubeId": "3X0piITkOTE",
+    "imageUrl": "https://i.ytimg.com/vi/3X0piITkOTE/maxresdefault.jpg"
+  },
+  "authenticated": true,
+  "preflight": {
+    "heading": "Try not to embrasser son pote (nouveau challenge trop dur)",
+    "beforeArtwork": [
+      "https://artworks.thetvdb.com/banners/v4/episode/11696580/screencap/6ac6494b1c107.jpg"
+    ]
+  },
+  "stage1": null,
+  "crop": null,
+  "stage2": null,
+  "verification": {
+    "artworkPresent": true,
+    "artwork": [
+      "https://artworks.thetvdb.com/banners/v4/episode/11696580/screencap/6ac6494b1c107.jpg"
+    ]
+  },
+  "blocked": [],
+  "result": "ALREADY_PRESENT_NO_WRITE"
+}
