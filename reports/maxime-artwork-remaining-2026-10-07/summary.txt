@@ -1,0 +1,10 @@
+authenticated=true
+reauthCount=1
+requested=19
+processed=19
+applied=19
+skipped=0
+safeBlocked=0
+failedAfterWrite=0
+stopped=false
+result=BATCH_COMPLETE

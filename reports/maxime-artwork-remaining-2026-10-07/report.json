@@ -1,0 +1,858 @@
+{
+  "generatedAt": "2026-10-07T13:50:26.650Z",
+  "mode": "GUARDED_MAXIME_ARTWORK_REMAINING_SERIAL",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2023E04",
+    "S2023E05",
+    "S2023E06",
+    "S2023E07",
+    "S2023E08",
+    "S2023E09",
+    "S2024E01",
+    "S2024E02",
+    "S2024E03",
+    "S2024E04",
+    "S2024E05",
+    "S2024E06",
+    "S2025E02",
+    "S2025E03",
+    "S2025E04",
+    "S2025E05",
+    "S2025E06",
+    "S2025E07",
+    "S2025E08"
+  ],
+  "results": [
+    {
+      "code": "S2023E04",
+      "episodeId": "11696606",
+      "title": "J'organise une chasse à l'homme dans Paris !!!",
+      "youtubeId": "A2bUPQpm3SQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'organise une chasse à l'homme dans Paris !!!",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/A2bUPQpm3SQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 147577
+        }
+      },
+      "crop": {
+        "id": "2329024",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e267fb51.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696606/screencap/6ac64e290071b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2023E05",
+      "episodeId": "11696607",
+      "title": "Ils auraient jamais dû m'inviter... (GP Explorer 2)",
+      "youtubeId": "SbBVZNt1Vmk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Ils auraient jamais dû m'inviter... (GP Explorer 2)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/SbBVZNt1Vmk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 128045
+        }
+      },
+      "crop": {
+        "id": "2329025",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e2c99cc2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696607/screencap/6ac64e2db9ddb.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2023E06",
+      "episodeId": "11696608",
+      "title": "Le gâcheur du GP Explorer 2 ?",
+      "youtubeId": "oPP03kTg0aU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Le gâcheur du GP Explorer 2 ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/oPP03kTg0aU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 177183
+        }
+      },
+      "crop": {
+        "id": "2329026",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e31669ff.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696608/screencap/6ac64e32892cb.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2023E07",
+      "episodeId": "11696609",
+      "title": "Il est où le truc ?",
+      "youtubeId": "Zv3JXECFO6I",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Il est où le truc ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Zv3JXECFO6I/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 172413
+        }
+      },
+      "crop": {
+        "id": "2329027",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e361385d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696609/screencap/6ac64e377f3c2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2023E08",
+      "episodeId": "11696610",
+      "title": "Miam miam je suis un gros gourmand j’ai bien mangé",
+      "youtubeId": "Ako-aLACYPE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Miam miam je suis un gros gourmand j’ai bien mangé",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Ako-aLACYPE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 216588
+        }
+      },
+      "crop": {
+        "id": "2329028",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e3b15bf5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696610/screencap/6ac64e3c30485.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2023E09",
+      "episodeId": "11696611",
+      "title": "On offre des cadeaux à 3 abonnés (y’en a une qui chiale)",
+      "youtubeId": "PaTyxBnzfSM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "On offre des cadeaux à 3 abonnés (y’en a une qui chiale)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/PaTyxBnzfSM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 143943
+        }
+      },
+      "crop": {
+        "id": "2329029",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e3f8a5bc.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696611/screencap/6ac64e40abec2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2024E01",
+      "episodeId": "11696620",
+      "title": "Est-ce que je suis d'accord avec Audrey ?",
+      "youtubeId": "oPqUT9AtyY4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Est-ce que je suis d'accord avec Audrey ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/oPqUT9AtyY4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 226699
+        }
+      },
+      "crop": {
+        "id": "2329030",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e4445e1a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696620/screencap/6ac64e455475f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2024E02",
+      "episodeId": "11696621",
+      "title": "On vous a rendu service pendant une journée (poney, déménagement, peinture…)",
+      "youtubeId": "6csK8iek7PU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "On vous a rendu service pendant une journée (poney, déménagement, peinture…)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/6csK8iek7PU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 194500
+        }
+      },
+      "crop": {
+        "id": "2329031",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e48c3400.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696621/screencap/6ac64e49cd069.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2024E03",
+      "episodeId": "11696622",
+      "title": "Je découvre les Etats-Unis en exclusivité mondiale",
+      "youtubeId": "YUf4IYxHgBo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Je découvre les Etats-Unis en exclusivité mondiale",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/YUf4IYxHgBo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 228093
+        }
+      },
+      "crop": {
+        "id": "2329032",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e4d6ad3e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696622/screencap/6ac64e4e7b451.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2024E04",
+      "episodeId": "11696623",
+      "title": "Qui fera le meilleur film en 1h avec des inconnus ?",
+      "youtubeId": "ZOpLlT0vRxQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Qui fera le meilleur film en 1h avec des inconnus ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ZOpLlT0vRxQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 139286
+        }
+      },
+      "crop": {
+        "id": "2329033",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e51ee261.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696623/screencap/6ac64e5306c7a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2024E05",
+      "episodeId": "11696624",
+      "title": "ON A FAIT BERCY (documentaire sur l’aventure de notre vie)",
+      "youtubeId": "OjWGpzy6u6o",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON A FAIT BERCY (documentaire sur l’aventure de notre vie)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/OjWGpzy6u6o/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 116867
+        }
+      },
+      "crop": {
+        "id": "2329034",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e569a116.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696624/screencap/6ac64e57b7269.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2024E06",
+      "episodeId": "11696625",
+      "title": "Diner de Noël avec des gros gourmands !! (Secret Santa et rigolade)",
+      "youtubeId": "_oLISqPGXMg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Diner de Noël avec des gros gourmands !! (Secret Santa et rigolade)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/_oLISqPGXMg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 268613
+        }
+      },
+      "crop": {
+        "id": "2329035",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e5b423cd.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696625/screencap/6ac64e5cc15a0.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E02",
+      "episodeId": "11696638",
+      "title": "J’ai date la mère de mon meilleur ami et il a tout organisé sans le savoir",
+      "youtubeId": "6o3sF3NFVAE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J’ai date la mère de mon meilleur ami et il a tout organisé sans le savoir",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/6o3sF3NFVAE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 139289
+        }
+      },
+      "crop": {
+        "id": "2329036",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e60564e0.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696638/screencap/6ac64e6194ccd.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E03",
+      "episodeId": "11696639",
+      "title": "Je deviens routier pendant 24 heures (les problèmes...)",
+      "youtubeId": "4ax_-uJb5as",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Je deviens routier pendant 24 heures (les problèmes...)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/4ax_-uJb5as/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 199767
+        }
+      },
+      "crop": {
+        "id": "2329037",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e6532912.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696639/screencap/6ac64e665b43c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E04",
+      "episodeId": "11696640",
+      "title": "Qui fera le meilleur film d'action avec des inconnus ?",
+      "youtubeId": "84w2g4biNkc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Qui fera le meilleur film d'action avec des inconnus ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/84w2g4biNkc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 227601
+        }
+      },
+      "crop": {
+        "id": "2329038",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e69d75a5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696640/screencap/6ac64e6ae826d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E05",
+      "episodeId": "11696641",
+      "title": "De retour pour vous jouer un mauvais tour - GP Explorer 3",
+      "youtubeId": "FvtoTtKm0gE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "De retour pour vous jouer un mauvais tour - GP Explorer 3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/FvtoTtKm0gE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 243476
+        }
+      },
+      "crop": {
+        "id": "2329039",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e6e9c2f4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696641/screencap/6ac64e6fd8457.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E06",
+      "episodeId": "11696642",
+      "title": "7 jours pour devenir une star de cinéma",
+      "youtubeId": "96F5_3F0GOM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "7 jours pour devenir une star de cinéma",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/96F5_3F0GOM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 262544
+        }
+      },
+      "crop": {
+        "id": "2329040",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e7367523.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696642/screencap/6ac64e747f104.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E07",
+      "episodeId": "11696643",
+      "title": "J'ai 5 MINUTES pour tous les CHOQUER",
+      "youtubeId": "6BSAbvs27b0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'ai 5 MINUTES pour tous les CHOQUER",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/6BSAbvs27b0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 161835
+        }
+      },
+      "crop": {
+        "id": "2329041",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e7811f11.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696643/screencap/6ac64e79211fd.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E08",
+      "episodeId": "11696644",
+      "title": "QUI est le TRAÎTRE parmi nous ?",
+      "youtubeId": "4kDYChbVMvw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "QUI est le TRAÎTRE parmi nous ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/4kDYChbVMvw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 181046
+        }
+      },
+      "crop": {
+        "id": "2329042",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64e7cbbd71.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11696644/screencap/6ac64e7dd1307.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "reauthCount": 1,
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 19,
+    "processed": 19,
+    "applied": 19,
+    "skipped": 0,
+    "safeBlocked": 0,
+    "failedAfterWrite": 0
+  }
+}
