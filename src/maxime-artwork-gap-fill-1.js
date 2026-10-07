@@ -7,7 +7,7 @@ if(!armed||!username||!password) throw new Error('Not armed or missing credentia
 
 const BASE='https://thetvdb.com',SLUG='maxime-biaggi',OUT='reports/maxime-artwork-gap-fill-1-2026-10-07';
 const source=JSON.parse(await fs.readFile('reports/maxime-artwork-gap-audit-2026-10-07/report.json','utf8'));
-if(source.result!=='PREFLIGHT_READY') throw new Error('Maxime preflight not ready');
+if(!Array.isArray(source.neverWrittenMissing)||source.neverWrittenMissing.length<12) throw new Error('Maxime gap audit not ready');
 const targets=(source.neverWrittenMissing||[]).slice(0,12);
 if(targets.length!==12) throw new Error('Expected 12 targets, got '+targets.length);
 await fs.mkdir(OUT,{recursive:true});
