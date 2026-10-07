@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-10-07T12:42:00Z",
+  "purpose": "Artwork upload pipeline root-cause and verified canary checkpoint",
+  "rootCause": {
+    "finding": "TheTVDB artwork upload is a two-stage flow. POST /artwork/upload_handler only creates a temporary incoming image and returns an Adjust Image page. A second POST to /artwork/upload_cropper_handler via the Finish button is required to create the persistent episode artwork.",
+    "priorImpact": "Earlier Elian and Mcfly artwork canaries stopped after stage 1, explaining HTTP 200 responses with no materialized artwork.",
+    "officialRequirements": "Episode image upload requires at least 640x360 for HD 16:9 and <=10MB; canary used 1280x720 JPEG."
+  },
+  "verifiedCanary": {
+    "target": "Elian Ventre",
+    "code": "S2024E04",
+    "episodeId": "11092257",
+    "title": "4 anecdotes FOLLES sur mon parcours à l’ARMÉE !",
+    "youtubeId": "U6DoBQQk4OE",
+    "sourceImage": "https://i.ytimg.com/vi/U6DoBQQk4OE/maxresdefault.jpg",
+    "stage1Status": 200,
+    "cropTempId": "2328920",
+    "cropScope": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 720,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "stage2Status": 302,
+    "finalPageMessage": "Artwork successfully added.",
+    "finalArtwork": "https://artworks.thetvdb.com/banners/v4/episode/11092257/screencap/6ac63de4e4222.jpg",
+    "postWriteVerification": "PASSED",
+    "result": "APPLIED_AND_VERIFIED_TWO_STAGE"
+  },
+  "safeguards": [
+    "Fresh episode/title/artwork preflight before each write",
+    "Only exact official YouTube-matched artwork candidates",
+    "Two-stage upload plus Finish required",
+    "Verify persistent episode artwork after Finish",
+    "Do not upload historical/no-current-video artwork speculatively",
+    "Do not overwrite episodes that already have artwork",
+    "Use guarded batches rather than unverified bulk submission"
+  ],
+  "nextEligibleWork": [
+    "Raska: 28 preflight-passed current-video missing artworks now technically eligible for guarded batched two-stage submission.",
+    "Elian: remaining missing artworks can be revisited using the proven two-stage path; reconcile prior stage-1-only submissions before retry.",
+    "Mcfly & Carlito S2015E01 GROSSE ANNONCE: prior attempt was stage-1-only; can be safely re-preflighted for one full two-stage submission."
+  ]
+}
