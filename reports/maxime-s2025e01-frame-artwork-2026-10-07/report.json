@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-10-07T20:22:18.965Z",
+  "mode": "GUARDED_MAXIME_FRAME_ARTWORK",
+  "target": {
+    "episodeId": "11696637",
+    "code": "S2025E01",
+    "title": "2 jours pour faire une piste noire (j'ai jamais skié)",
+    "youtubeId": "EqFLIsSB2hg",
+    "url": "https://www.youtube.com/watch?v=EqFLIsSB2hg"
+  },
+  "authenticated": false,
+  "frame": null,
+  "preflight": null,
+  "crop": null,
+  "verification": null,
+  "blocked": [
+    {
+      "reason": "Error: Command failed: yt-dlp --no-warnings -f best[height<=720][ext=mp4]/best[height<=720] -o /tmp/maxime-s2025e01.mp4 https://www.youtube.com/watch?v=EqFLIsSB2hg\n    at genericNodeError (node:internal/errors:983:15)\n    at wrappedFn (node:internal/errors:537:14)\n    at checkExecSyncError (node:child_process:916:11)\n    at execFileSync (node:child_process:952:15)\n    at file:///home/runner/work/thetvdb-automation/thetvdb-automation/src/maxime-s2025e01-frame-artwork.js:22:3"
+    }
+  ],
+  "result": "BLOCKED_BEFORE_WRITE"
+}
