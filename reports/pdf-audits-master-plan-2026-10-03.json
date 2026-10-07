@@ -17,7 +17,7 @@
       "pdf": "AUDIT THETVDB — DJILSI.pdf",
       "status": "IN_PROGRESS_ARTWORK_ONLY",
       "pdfOpenWork": [
-        "39 missing artworks remain versus the original 139-missing PDF snapshot after 100 newly applied+verified artworks; continue only from fresh live rescans.",
+        "19 missing artworks remain versus the original 139-missing PDF snapshot after 120 newly applied+verified artworks; continue only from fresh live rescans.",
         "75 existing artworks provenance checks"
       ],
       "resolvedSincePlan": [
@@ -27,7 +27,8 @@
         "2026-10-07 artwork rollout: 40 Djilsi missing artworks applied and individually post-write verified in two guarded serial batches (20/20 + 20/20), 0 skips, 0 blocks, 0 failed-after-write.",
         "2026-10-07 continuation: Djilsi artwork batch 3 applied and individually post-write verified 20/20 (S2019E22-S2019E41), 0 skips, 0 safe blocks, 0 failed-after-write.",
         "2026-10-07 continuation: Djilsi artwork batch 4 applied and individually post-write verified 20/20, 0 skips, 0 safe blocks, 0 failed-after-write. Total newly applied+verified artwork count through batch 4 is 80.",
-        "2026-10-07 continuation: Djilsi artwork batch 5 applied and individually post-write verified 20/20 (S2020E17-S2021E06), 0 skips, 0 safe blocks, 0 failed-after-write. Total newly applied+verified artwork count through batch 5 is 100."
+        "2026-10-07 continuation: Djilsi artwork batch 5 applied and individually post-write verified 20/20 (S2020E17-S2021E06), 0 skips, 0 safe blocks, 0 failed-after-write. Total newly applied+verified artwork count through batch 5 is 100.",
+        "2026-10-07 continuation: Djilsi artwork batch 6 applied and individually post-write verified 20/20 (S2021E07-S2022E10), 0 skips, 0 safe blocks, 0 failed-after-write. Total newly applied+verified artwork count through batch 6 is 120."
       ]
     },
     {
@@ -238,7 +239,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T15:45:00Z",
+  "lastUpdatedAt": "2026-10-07T15:48:00Z",
   "latestContinuationCommits": [
     "38c1bbafe19bfbe54c91072ab9419ec91d7715d7",
     "68bb95cb01a3f49ceb6f7e29ee530daac5e07696",
@@ -355,6 +356,7 @@
     "8de927c7599397c9b25b21f8b26dd3026a518900",
     "91d884a690dd3ceef8f61e57a6f780fc803adb51",
     "35ce57ab7be4688b83eb222343ce3555186d085c",
-    "93ec4a7617ef8cc556739e5b2d9db014a2885961"
+    "93ec4a7617ef8cc556739e5b2d9db014a2885961",
+    "8efaeefe49f435ec6a15226208b1b2626eb9c129"
   ]
 }
