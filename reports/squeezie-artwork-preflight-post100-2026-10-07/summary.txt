@@ -1,0 +1,5 @@
+sourcePairs=1394
+checked=509
+alreadyPresent=20
+planned=20
+result=PREFLIGHT_READY
