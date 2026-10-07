@@ -1,0 +1,44 @@
+name: Artwork guarded pilot batch
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/artwork-pilot-batch.yml'
+      - 'src/artwork-pilot-batch.js'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Guarded six-artwork pilot batch
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+          TVDB_ARTWORK_PILOT_BATCH: 'yes'
+        run: node src/artwork-pilot-batch.js
+      - name: Persist pilot report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/artwork-pilot-batch-2026-10-07
+          git commit -m "Record guarded artwork pilot batch [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: artwork-pilot-batch
+          path: reports/artwork-pilot-batch-2026-10-07/
