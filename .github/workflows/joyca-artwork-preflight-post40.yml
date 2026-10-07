@@ -1,0 +1,38 @@
+name: Joyca artwork post40 preflight
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'triggers/joyca-artwork-preflight-post40.run'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests pillow
+      - name: Run preflight
+        run: python src/joyca-artwork-preflight-post40-2026-10-07.py
+      - name: Persist report with retry
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/joyca-artwork-preflight-post40-2026-10-07
+          git commit -m "Record Joyca artwork post40 preflight [skip ci]" || true
+          for i in 1 2 3 4; do
+            git pull --rebase && git push && exit 0
+            sleep $((i*2))
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: joyca-artwork-preflight-post40
+          path: reports/joyca-artwork-preflight-post40-2026-10-07/
