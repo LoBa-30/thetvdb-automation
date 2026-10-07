@@ -1,0 +1,78 @@
+{
+  "generatedAt": "2026-10-07T16:04:32.549Z",
+  "mode": "GUARDED_AMIXEM_ARTWORK_BATCH_5",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2017E16",
+    "S2017E18",
+    "S2017E20",
+    "S2017E24",
+    "S2017E44",
+    "S2017E49",
+    "S2017E51",
+    "S2017E57",
+    "S2017E72",
+    "S2017E73",
+    "S2017E74",
+    "S2017E77",
+    "S2017E88",
+    "S2017E89",
+    "S2017E92",
+    "S2017E93",
+    "S2017E94",
+    "S2017E96",
+    "S2017E99",
+    "S2017E101"
+  ],
+  "results": [
+    {
+      "code": "S2017E16",
+      "episodeId": "6102822",
+      "title": "JE TESTE LES PIRES INSTRUMENTS DE MUSIQUES !",
+      "youtubeId": "Fv5YnxVsik8",
+      "status": "STAGE1_ONLY_STOP_DO_NOT_RETRY",
+      "preflight": {
+        "heading": "JE TESTE LES PIRES INSTRUMENTS DE MUSIQUES !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Fv5YnxVsik8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 127442
+        }
+      },
+      "crop": {
+        "id": "2329553",
+        "x": "",
+        "y": "",
+        "width": "",
+        "height": "",
+        "scaleX": "",
+        "scaleY": "",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66d98f3719.jpeg"
+      },
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "CROP_SCOPE_INVALID {\"id\":\"2329553\",\"x\":\"\",\"y\":\"\",\"width\":\"\",\"height\":\"\",\"scaleX\":\"\",\"scaleY\":\"\"}"
+        }
+      ],
+      "stage1": {
+        "status": 200
+      }
+    }
+  ],
+  "stopped": true,
+  "stopReason": "S2017E16: CROP_SCOPE_INVALID {\"id\":\"2329553\",\"x\":\"\",\"y\":\"\",\"width\":\"\",\"height\":\"\",\"scaleX\":\"\",\"scaleY\":\"\"}",
+  "result": "BATCH_STOPPED_ON_GUARD",
+  "summary": {
+    "requested": 20,
+    "processed": 1,
+    "applied": 0,
+    "skipped": 0,
+    "failed": 1
+  }
+}
