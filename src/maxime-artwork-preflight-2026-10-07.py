@@ -8,7 +8,7 @@ OUT=Path('reports/maxime-artwork-preflight-2026-10-07')
 OUT.mkdir(parents=True,exist_ok=True)
 BASE='https://thetvdb.com'
 SLUG='maxime-biaggi'
-SERIES='432072'
+SERIES=None
 SEASONS=[2019,2021,2022,2023,2024,2025,2026]
 YT='https://www.youtube.com/c/MaximeBiaggi/videos'
 
@@ -73,6 +73,8 @@ for ep in episodes:
         d=S.get(ep['url'],timeout=30)
         if d.status_code!=200: continue
         arts=art_urls(d.text)
+        sm=re.search(r'artwork/upload\?type=11&episode='+re.escape(ep['episodeId'])+r'&series=(\d+)',d.text)
+        derived_series=sm.group(1) if sm else None
         if arts:
             report['counters']['artworkPresent']+=1; report['checked'].append({**ep,'youtubeId':v['id'],'status':'ARTWORK_PRESENT','artwork':arts[:3]}); continue
         img=f"https://i.ytimg.com/vi/{v['id']}/maxresdefault.jpg"
@@ -82,13 +84,15 @@ for ep in episodes:
         im=Image.open(BytesIO(rr.content))
         if im.size!=(1280,720):
             report['counters']['imageWrongSize']+=1; report['checked'].append({**ep,'youtubeId':v['id'],'status':'IMAGE_WRONG_SIZE','size':list(im.size)}); continue
-        up=S.get(f'{BASE}/artwork/upload?type=11&episode={ep["episodeId"]}&series={SERIES}',timeout=30)
+        if not derived_series:
+            report['counters']['uploadFormScopeDrift']+=1; report['checked'].append({**ep,'youtubeId':v['id'],'status':'NO_SERIES_ID_ON_EPISODE_PAGE'}); continue
+        up=S.get(f'{BASE}/artwork/upload?type=11&episode={ep["episodeId"]}&series={derived_series}',timeout=30)
         if up.status_code!=200:
             report['counters']['uploadFormBlocked']+=1; report['checked'].append({**ep,'youtubeId':v['id'],'status':'UPLOAD_FORM_BLOCKED','http':up.status_code}); continue
-        scope_ok=(f'name="episode" value="{ep["episodeId"]}"' in up.text and f'name="series" value="{SERIES}"' in up.text and 'name="type" value="11"' in up.text)
+        scope_ok=(f'name="episode" value="{ep["episodeId"]}"' in up.text and f'name="series" value="{derived_series}"' in up.text and 'name="type" value="11"' in up.text)
         if not scope_ok:
-            report['counters']['uploadFormScopeDrift']+=1; report['checked'].append({**ep,'youtubeId':v['id'],'status':'UPLOAD_FORM_SCOPE_DRIFT','seriesExpected':SERIES}); continue
-        row={**ep,'youtubeId':v['id'],'youtubeTitle':v['title'],'imageUrl':img,'width':1280,'height':720,'series':SERIES}
+            report['counters']['uploadFormScopeDrift']+=1; report['checked'].append({**ep,'youtubeId':v['id'],'status':'UPLOAD_FORM_SCOPE_DRIFT','seriesExpected':derived_series}); continue
+        row={**ep,'youtubeId':v['id'],'youtubeTitle':v['title'],'imageUrl':img,'width':1280,'height':720,'series':derived_series}
         if ep['code'] not in seen:
             seen.add(ep['code']);report['planned'].append(row);report['checked'].append({**row,'status':'PREFLIGHT_PASSED'});report['counters']['passed']+=1
     except Exception as e:
