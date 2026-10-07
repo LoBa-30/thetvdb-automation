@@ -1,0 +1,8 @@
+authenticated=true
+requested=10
+processed=10
+applied=0
+skipped=0
+failed=10
+stopped=false
+result=BATCH_COMPLETE_WITH_SAFE_BLOCKS

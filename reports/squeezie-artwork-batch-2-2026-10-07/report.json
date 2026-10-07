@@ -1,0 +1,290 @@
+{
+  "generatedAt": "2026-10-07T13:46:44.352Z",
+  "mode": "GUARDED_SQUEEZIE_ARTWORK_BATCH_2",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2011E82",
+    "S2011E86",
+    "S2011E88",
+    "S2011E96",
+    "S2011E98",
+    "S2011E99",
+    "S2011E107",
+    "S2011E108",
+    "S2011E111",
+    "S2011E121"
+  ],
+  "results": [
+    {
+      "code": "S2011E82",
+      "episodeId": "5313853",
+      "title": "10.000 ABONNES ! UN GRAND MERCI !",
+      "youtubeId": "putvF_EAEvc",
+      "status": "BLOCKED_BEFORE_WRITE",
+      "preflight": {
+        "heading": "10.000 ABONNES ! UN GRAND MERCI !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/putvF_EAEvc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 73842
+        }
+      },
+      "crop": null,
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "UPLOAD_FORM_MISSING"
+        }
+      ]
+    },
+    {
+      "code": "S2011E86",
+      "episodeId": "5313856",
+      "title": "Trailer Best of Paris Games Week",
+      "youtubeId": "kNT8ZGv9LZs",
+      "status": "BLOCKED_BEFORE_WRITE",
+      "preflight": {
+        "heading": "Trailer Best of Paris Games Week",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/kNT8ZGv9LZs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 101532
+        }
+      },
+      "crop": null,
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "UPLOAD_FORM_MISSING"
+        }
+      ]
+    },
+    {
+      "code": "S2011E88",
+      "episodeId": "5313858",
+      "title": "Best of Paris Games Week 2 : Dansons avec Tizho et la PlayComedyClub !",
+      "youtubeId": "hHdwVAg8198",
+      "status": "BLOCKED_BEFORE_WRITE",
+      "preflight": {
+        "heading": "Best of Paris Games Week 2 : Dansons avec Tizho et la PlayComedyClub !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/hHdwVAg8198/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 116319
+        }
+      },
+      "crop": null,
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "UPLOAD_FORM_MISSING"
+        }
+      ]
+    },
+    {
+      "code": "S2011E96",
+      "episodeId": "5313865",
+      "title": "Domination sur Modern Warfare 3 en compagnie de 3 membres de la LaZy !",
+      "youtubeId": "rmRWKVr8Xjo",
+      "status": "BLOCKED_BEFORE_WRITE",
+      "preflight": {
+        "heading": "Domination sur Modern Warfare 3 en compagnie de 3 membres de la LaZy !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/rmRWKVr8Xjo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 106653
+        }
+      },
+      "crop": null,
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "UPLOAD_FORM_MISSING"
+        }
+      ]
+    },
+    {
+      "code": "S2011E98",
+      "episodeId": "5313867",
+      "title": "Modern Warfare 3 : COMMON !",
+      "youtubeId": "4Oko98Cwl-Q",
+      "status": "BLOCKED_BEFORE_WRITE",
+      "preflight": {
+        "heading": "Modern Warfare 3 : COMMON !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/4Oko98Cwl-Q/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 114769
+        }
+      },
+      "crop": null,
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "UPLOAD_FORM_MISSING"
+        }
+      ]
+    },
+    {
+      "code": "S2011E99",
+      "episodeId": "5313868",
+      "title": "Mode survival sur MW3 en compagnie de LaZy Flay !",
+      "youtubeId": "EW0dBuI8sCM",
+      "status": "BLOCKED_BEFORE_WRITE",
+      "preflight": {
+        "heading": "Mode survival sur MW3 en compagnie de LaZy Flay !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/EW0dBuI8sCM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 95594
+        }
+      },
+      "crop": null,
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "UPLOAD_FORM_MISSING"
+        }
+      ]
+    },
+    {
+      "code": "S2011E107",
+      "episodeId": "5313876",
+      "title": "XBOX 360 A GAGNER ! [CLOSE, RESULTATS LUNDI]",
+      "youtubeId": "MZ0l6JbbJ9o",
+      "status": "BLOCKED_BEFORE_WRITE",
+      "preflight": {
+        "heading": "XBOX 360 A GAGNER ! [CLOSE, RESULTATS LUNDI]",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/MZ0l6JbbJ9o/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 123354
+        }
+      },
+      "crop": null,
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "UPLOAD_FORM_MISSING"
+        }
+      ]
+    },
+    {
+      "code": "S2011E108",
+      "episodeId": "5313877",
+      "title": "BEST OF SKYPE | Episode 1",
+      "youtubeId": "EFGJj5THh3I",
+      "status": "BLOCKED_BEFORE_WRITE",
+      "preflight": {
+        "heading": "BEST OF SKYPE | Episode 1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/EFGJj5THh3I/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 231673
+        }
+      },
+      "crop": null,
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "UPLOAD_FORM_MISSING"
+        }
+      ]
+    },
+    {
+      "code": "S2011E111",
+      "episodeId": "5313880",
+      "title": "Modern Warfare 3 : Dual Live Commentary avec WaRTeK !",
+      "youtubeId": "PdguSvbPP2I",
+      "status": "BLOCKED_BEFORE_WRITE",
+      "preflight": {
+        "heading": "Modern Warfare 3 : Dual Live Commentary avec WaRTeK !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/PdguSvbPP2I/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 138508
+        }
+      },
+      "crop": null,
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "UPLOAD_FORM_MISSING"
+        }
+      ]
+    },
+    {
+      "code": "S2011E121",
+      "episodeId": "5313890",
+      "title": "MW3 | Zone de largage en mode James Bond !",
+      "youtubeId": "8g85Fb4Z14M",
+      "status": "BLOCKED_BEFORE_WRITE",
+      "preflight": {
+        "heading": "MW3 | Zone de largage en mode James Bond !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/8g85Fb4Z14M/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 108179
+        }
+      },
+      "crop": null,
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "UPLOAD_FORM_MISSING"
+        }
+      ]
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE_WITH_SAFE_BLOCKS",
+  "summary": {
+    "requested": 10,
+    "processed": 10,
+    "applied": 0,
+    "skipped": 0,
+    "failed": 10
+  }
+}
