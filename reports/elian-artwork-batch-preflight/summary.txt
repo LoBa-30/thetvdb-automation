@@ -1,0 +1,5 @@
+authenticated=true
+planned=6
+skips=0
+blocked=2
+result=BLOCKED

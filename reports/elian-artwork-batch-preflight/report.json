@@ -1,0 +1,597 @@
+{
+  "generatedAt": "2026-10-07T11:10:20.024Z",
+  "target": "Elian Ventre",
+  "mode": "BATCH_ARTWORK_PREFLIGHT_READ_ONLY",
+  "authenticated": true,
+  "targets": [
+    {
+      "id": "11092249",
+      "code": "S2023E02",
+      "title": "RAP CONTENDERS ZEN ÉMISSION",
+      "youtubeId": "rDlPlsjuWXw",
+      "artwork": [],
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/rDlPlsjuWXw/maxresdefault.jpg",
+          "status": 404,
+          "width": 120,
+          "height": 90,
+          "usable": false
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/rDlPlsjuWXw/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/rDlPlsjuWXw/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "form": null,
+      "status": "BLOCKED_NO_USABLE_16X9",
+      "heading": "RAP CONTENDERS ZEN ÉMISSION",
+      "chosen": null
+    },
+    {
+      "id": "11092253",
+      "code": "S2023E06",
+      "title": "13m2 dans PARIS ???",
+      "youtubeId": "lBYtMPlWRq4",
+      "artwork": [],
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/lBYtMPlWRq4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/lBYtMPlWRq4/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/lBYtMPlWRq4/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11092253",
+        "series": "462729",
+        "type": "11",
+        "hasUrl": true
+      },
+      "status": "PREFLIGHT_PASSED",
+      "heading": "13m2 dans PARIS ???",
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/lBYtMPlWRq4/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      }
+    },
+    {
+      "id": "11092255",
+      "code": "S2024E02",
+      "title": "3000 BALLONS DANS MON APPARTEMENT !",
+      "youtubeId": "IKWScHFW_Mk",
+      "artwork": [],
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/IKWScHFW_Mk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/IKWScHFW_Mk/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/IKWScHFW_Mk/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11092255",
+        "series": "462729",
+        "type": "11",
+        "hasUrl": true
+      },
+      "status": "PREFLIGHT_PASSED",
+      "heading": "3000 BALLONS DANS MON APPARTEMENT !",
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/IKWScHFW_Mk/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      }
+    },
+    {
+      "id": "11092257",
+      "code": "S2024E04",
+      "title": "4 anecdotes FOLLES sur mon parcours à l’ARMÉE !",
+      "youtubeId": "U6DoBQQk4OE",
+      "artwork": [],
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/U6DoBQQk4OE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/U6DoBQQk4OE/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/U6DoBQQk4OE/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11092257",
+        "series": "462729",
+        "type": "11",
+        "hasUrl": true
+      },
+      "status": "PREFLIGHT_PASSED",
+      "heading": "4 anecdotes FOLLES sur mon parcours à l’ARMÉE  !",
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/U6DoBQQk4OE/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      }
+    },
+    {
+      "id": "11092260",
+      "code": "S2024E07",
+      "title": "C'est l'heure des travaux (on décore mon 13m2)",
+      "youtubeId": "DmXahVPYCbc",
+      "artwork": [],
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/DmXahVPYCbc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/DmXahVPYCbc/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/DmXahVPYCbc/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11092260",
+        "series": "462729",
+        "type": "11",
+        "hasUrl": true
+      },
+      "status": "PREFLIGHT_PASSED",
+      "heading": "C'est l'heure des travaux (on décore mon 13m2)",
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/DmXahVPYCbc/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      }
+    },
+    {
+      "id": "11205952",
+      "code": "S2025E03",
+      "title": "TIKTOK CHALLENGERS #1 ! Ft @Djilsi",
+      "youtubeId": "UjZkmAczOI8",
+      "artwork": [],
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/UjZkmAczOI8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/UjZkmAczOI8/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/UjZkmAczOI8/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11205952",
+        "series": "462729",
+        "type": "11",
+        "hasUrl": true
+      },
+      "status": "PREFLIGHT_PASSED",
+      "heading": "TIKTOK CHALLENGERS #1 ! Ft @Djilsi",
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/UjZkmAczOI8/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      }
+    },
+    {
+      "id": "11567244",
+      "code": "S2025E07",
+      "title": "Je TRANSFORME mon appartement !",
+      "youtubeId": "F3NCaUo25Ys",
+      "artwork": [],
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/F3NCaUo25Ys/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/F3NCaUo25Ys/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/F3NCaUo25Ys/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11567244",
+        "series": "462729",
+        "type": "11",
+        "hasUrl": true
+      },
+      "status": "PREFLIGHT_PASSED",
+      "heading": "Je TRANSFORME mon appartement !",
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/F3NCaUo25Ys/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      }
+    },
+    {
+      "id": "11665002",
+      "code": "S2026E02",
+      "title": "Son couple, ses projets, sa vie ft @Mastu",
+      "youtubeId": "jRU3jVvS8Wg",
+      "artwork": [],
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/jRU3jVvS8Wg/maxresdefault.jpg",
+          "status": 404,
+          "width": 120,
+          "height": 90,
+          "usable": false
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/jRU3jVvS8Wg/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/jRU3jVvS8Wg/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "form": null,
+      "status": "BLOCKED_NO_USABLE_16X9",
+      "heading": "Son couple, ses projets, sa vie ft @Mastu",
+      "chosen": null
+    }
+  ],
+  "planned": [
+    {
+      "id": "11092253",
+      "code": "S2023E06",
+      "title": "13m2 dans PARIS ???",
+      "youtubeId": "lBYtMPlWRq4",
+      "imageUrl": "https://i.ytimg.com/vi/lBYtMPlWRq4/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "11092255",
+      "code": "S2024E02",
+      "title": "3000 BALLONS DANS MON APPARTEMENT !",
+      "youtubeId": "IKWScHFW_Mk",
+      "imageUrl": "https://i.ytimg.com/vi/IKWScHFW_Mk/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "11092257",
+      "code": "S2024E04",
+      "title": "4 anecdotes FOLLES sur mon parcours à l’ARMÉE !",
+      "youtubeId": "U6DoBQQk4OE",
+      "imageUrl": "https://i.ytimg.com/vi/U6DoBQQk4OE/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "11092260",
+      "code": "S2024E07",
+      "title": "C'est l'heure des travaux (on décore mon 13m2)",
+      "youtubeId": "DmXahVPYCbc",
+      "imageUrl": "https://i.ytimg.com/vi/DmXahVPYCbc/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "11205952",
+      "code": "S2025E03",
+      "title": "TIKTOK CHALLENGERS #1 ! Ft @Djilsi",
+      "youtubeId": "UjZkmAczOI8",
+      "imageUrl": "https://i.ytimg.com/vi/UjZkmAczOI8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "11567244",
+      "code": "S2025E07",
+      "title": "Je TRANSFORME mon appartement !",
+      "youtubeId": "F3NCaUo25Ys",
+      "imageUrl": "https://i.ytimg.com/vi/F3NCaUo25Ys/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "skips": [],
+  "blocked": [
+    {
+      "code": "S2023E02",
+      "reason": "NO_USABLE_16X9"
+    },
+    {
+      "code": "S2026E02",
+      "reason": "NO_USABLE_16X9"
+    }
+  ],
+  "result": "BLOCKED",
+  "readOnlyNetworkLock": true,
+  "blockedNonReadRequests": [
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za208zd9171404918xf1&_p=1791371423721&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=1010306814.1791371421&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121280971~121427141&sid=1791371421&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2F&dr=https%3A%2F%2Fthetvdb.com%2Fauth%2Flogin&dt=Welcome%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=3947"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za208zd9171404918xf1&_p=1791371423721&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=1010306814.1791371421&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121280971~121427141&sid=1791371421&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2F&dr=https%3A%2F%2Fthetvdb.com%2Fauth%2Flogin&dt=Welcome%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=3947&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791371425576&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092249&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092249&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791371425576&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092249&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092249&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-E35MMLRF5R&gtm=45je6a51v9102496370za208zb9206038736zd9206038736xf1&_p=1791371423721&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAGQ&cid=1010306814.1791371421&frm=0&pscdl=noapi&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&gaf=2&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121280971&sid=1791371420&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2F&dr=https%3A%2F%2Fthetvdb.com%2Fauth%2Flogin&dt=Welcome%20-%20TheTVDB.com&en=page_view&_ee=1&tfd=8038"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-E35MMLRF5R&gtm=45je6a51v9102496370za208zb9206038736zd9206038736xf1&_p=1791371423721&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAGQ&cid=1010306814.1791371421&frm=0&pscdl=noapi&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&gaf=3&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121280971&sid=1791371420&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2F&dr=https%3A%2F%2Fthetvdb.com%2Fauth%2Flogin&dt=Welcome%20-%20TheTVDB.com&en=page_view&_ee=1&tfd=8038"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791371423721&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AEIAAAQ&cid=1010306814.1791371421&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121280971~121427141&sid=1791371421&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2F&dr=https%3A%2F%2Fthetvdb.com%2Fauth%2Flogin&dt=Welcome%20-%20TheTVDB.com&_s=2&tfd=8949"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791371423721&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AEIAAAQ&cid=1010306814.1791371421&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121280971~121427141&sid=1791371421&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2F&dr=https%3A%2F%2Fthetvdb.com%2Fauth%2Flogin&dt=Welcome%20-%20TheTVDB.com&_s=2&tfd=8949&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791371432569&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092253&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092253&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791371432569&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092253&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092253&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791371434900&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11092253%26series%3D462729&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791371434900&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11092253%26series%3D462729&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791371436059&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092255&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092255&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791371436059&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092255&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092255&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791371438238&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11092255%26series%3D462729&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791371438238&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11092255%26series%3D462729&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791371439654&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092257&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092257&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791371439654&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092257&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092257&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a60h2v9171404918za208zd9171404918xf1&_p=1791371439413&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=1010306814.1791371421&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121125487~121280971&sid=1791371421&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092257&dt=Elian%20Ventre%20-%204%20anecdotes%20FOLLES%20sur%20mon%20parcours%20%C3%A0%20l%E2%80%99ARM%C3%89E%20!%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=2127"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a60h2v9171404918za208zd9171404918xf1&_p=1791371439413&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=1010306814.1791371421&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121125487~121280971&sid=1791371421&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092257&dt=Elian%20Ventre%20-%204%20anecdotes%20FOLLES%20sur%20mon%20parcours%20%C3%A0%20l%E2%80%99ARM%C3%89E%20!%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=2127&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791371441922&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11092257%26series%3D462729&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791371441922&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11092257%26series%3D462729&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791371443419&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092260&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092260&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791371443419&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092260&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11092260&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791371445556&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11092260%26series%3D462729&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791371445556&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11092260%26series%3D462729&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791371446780&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11205952&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11205952&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791371446780&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11205952&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11205952&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791371448630&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11205952%26series%3D462729&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791371448630&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11205952%26series%3D462729&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791371449810&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11567244&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11567244&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791371449810&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11567244&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11567244&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791371451634&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11567244%26series%3D462729&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791371451634&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11567244%26series%3D462729&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791371452835&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11665002&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11665002&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791371452835&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11665002&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Felian-ventre-462729%2Fepisodes%2F11665002&beacon=1"
+    }
+  ]
+}
