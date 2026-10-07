@@ -1,0 +1,1055 @@
+{
+  "generatedAt": "2026-10-07T20:27:25.472Z",
+  "mode": "READ_ONLY_ELIAN_POSTER_FORM_INSPECTION",
+  "authenticated": true,
+  "form": {
+    "action": "/artwork/upload_handler",
+    "method": "post",
+    "enctype": "multipart/form-data",
+    "html": "<form action=\"/artwork/upload_handler\" method=\"post\" enctype=\"multipart/form-data\">\n                    <input type=\"hidden\" name=\"_token\" value=\"NYHIzOFuHWTiEuO9cLa8Rcmj6CM7Xfk1AuIpcgJR\">\n                                            <input type=\"hidden\" name=\"type\" value=\"2\">\n                                            <input type=\"hidden\" name=\"series\" value=\"462729\">\n                                            <input type=\"hidden\" name=\"redirect\" value=\"/series/elian-ventre-462729\">\n                                        <div class=\"form-group\">\n                        <field for=\"file\">Select a file:</field>\n                        <div class=\"file-input file-input-new\"><div class=\"file-preview \">\n        <div class=\"file-drop-disabled\">\n    <div class=\"file-preview-thumbnails\">\n    </div>\n    <div class=\"clearfix\"></div>    <div class=\"file-preview-status text-center text-success\"></div>\n    <div class=\"kv-fileinput-error file-error-message\" style=\"display: none;\"></div>\n    </div>\n</div>\n<div class=\"kv-upload-progress hide\"><div class=\"progress\">\n    <div class=\"progress-bar progress-bar-success progress-bar-striped active\" role=\"progressbar\" aria-valuenow=\"0\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width:0%;\">\n        0%\n     </div>\n</div></div>\n<div class=\"input-group file-caption-main\">\n   <div tabindex=\"500\" class=\"form-control file-caption  kv-fileinput-caption\">\n   <div class=\"file-caption-name\"></div>\n</div>\n\n   <div class=\"input-group-btn\">\n       <button type=\"button\" tabindex=\"500\" title=\"Clear selected files\" class=\"btn btn-default fileinput-remove fileinput-remove-button\"><i class=\"fa fa-times\"></i>&nbsp;  <span class=\"hidden-xs\">Clear Selected</span></button>\n       <button type=\"button\" tabindex=\"500\" title=\"Abort ongoing upload\" class=\"btn btn-default hide fileinput-cancel fileinput-cancel-button\"><i class=\"glyphicon glyphicon-ban-circle\"></i>  <span class=\"hidden-xs\">Cancel</span></button>\n       \n       <div tabindex=\"500\" class=\"btn btn-primary btn-file\"><i class=\"fa fa-file\"></i>&nbsp;  <span class=\"hidden-xs\">Browse …</span><input type=\"file\" name=\"file\" id=\"file\"></div>\n   </div>\n</div></div><div id=\"kvFileinputModal\" class=\"file-zoom-dialog modal fade\" tabindex=\"-1\" aria-labelledby=\"kvFileinputModalLabel\"><div class=\"modal-dialog modal-lg\" role=\"document\">\n  <div class=\"modal-content\">\n    <div class=\"modal-header\">\n      <div class=\"kv-zoom-actions pull-right\"><button type=\"button\" class=\"btn btn-default btn-header-toggle btn-toggleheader\" title=\"Toggle header\" data-toggle=\"button\" aria-pressed=\"false\" autocomplete=\"off\"><i class=\"glyphicon glyphicon-resize-vertical\"></i></button><button type=\"button\" class=\"btn btn-default btn-fullscreen\" title=\"Toggle full screen\" data-toggle=\"button\" aria-pressed=\"false\" autocomplete=\"off\"><i class=\"glyphicon glyphicon-fullscreen\"></i></button><button type=\"button\" class=\"btn btn-default btn-borderless\" title=\"Toggle borderless mode\" data-toggle=\"button\" aria-pressed=\"false\" autocomplete=\"off\"><i class=\"glyphicon glyphicon-resize-full\"></i></button><button type=\"button\" class=\"btn btn-default btn-close\" title=\"Close detailed preview\" data-dismiss=\"modal\" aria-hidden=\"true\"><i class=\"glyphicon glyphicon-remove\"></i></button></div>\n      <h3 class=\"modal-title\">Detailed Preview <small><span class=\"kv-zoom-title\"></span></small></h3>\n    </div>\n    <div class=\"modal-body\">\n      <div class=\"floating-buttons\"></div>\n      <div class=\"kv-zoom-body file-zoom-content\"></div>\n<button type=\"button\" class=\"btn btn-navigate btn-prev\" title=\"View previous file\"><i class=\"glyphicon glyphicon-triangle-left\"></i></button> <button type=\"button\" class=\"btn btn-navigate btn-next\" title=\"View next file\"><i class=\"glyphicon glyphicon-triangle-right\"></i></button>\n    </div>\n  </div>\n</div>\n</div>\n                    </div>\n                    <div class=\"form-group\">\n                        <field for=\"file\">Or enter a URL (overrides file upload):</field>\n                        <input type=\"text\" name=\"url\" id=\"url\" class=\"form-control\" value=\"\">\n                    </div>\n                                            <div class=\"form-group\">\n                            <field for=\"language\">Language (required):</field>\n                            <select class=\"form-control\" name=\"language\" id=\"language\">\n                                <option value=\"-1\" selected=\"\"></option>\n                                <option value=\"\">- No Text on Image -</option>\n                                                                    <option value=\"abk\">Abkhaz</option>\n                                                                    <option value=\"aar\">Afar</option>\n                                                                    <option value=\"afr\">Afrikaans</option>\n                                                                    <option value=\"aka\">Akan</option>\n                                                                    <option value=\"sqi\">Albanian</option>\n                                                                    <option value=\"amh\">Amharic</option>\n                                                                    <option value=\"ara\">Arabic</option>\n                                                                    <option value=\"arg\">Aragonese</option>\n                                                                    <option value=\"hye\">Armenian</option>\n                                                                    <option value=\"asm\">Assamese</option>\n                                                                    <option value=\"ava\">Avaric</option>\n                                                                    <option value=\"ave\">Avestan</option>\n                                                                    <option value=\"aym\">Aymara</option>\n                                                                    <option value=\"aze\">Azerbaijani</option>\n                                                                    <option value=\"bam\">Bambara</option>\n                                                                    <option value=\"bak\">Bashkir</option>\n                                                                    <option value=\"eus\">Basque</option>\n                                                                    <option value=\"bel\">Belarusian</option>\n                                                                    <option value=\"ben\">Bengali</option>\n                                                                    <option value=\"bih\">Bihari</option>\n                                                                    <option value=\"bis\">Bislama</option>\n                                                                    <option value=\"bos\">Bosnian</option>\n                                                                    <option value=\"bre\">Breton</option>\n                                                                    <option value=\"bul\">Bulgarian</option>\n                                                                    <option value=\"mya\">Burmese</option>\n                                                                    <option value=\"cat\">Catalan</option>\n                                                                    <option value=\"cha\">Chamorro</option>\n                                                                    <option value=\"che\">Chechen</option>\n                                                                    <option value=\"nya\">Chewa</option>\n                                                                    <option value=\"yue\">Chinese - Cantonese</option>\n                                                                    <option value=\"zho\">Chinese - China</option>\n                                                                    <option value=\"zhtw\">Chinese - Taiwan</option>\n                                                                    <option value=\"chv\">Chuvash</option>\n                                                                    <option value=\"cor\">Cornish</option>\n                                                                    <option value=\"cos\">Corsican</option>\n                                                                    <option value=\"cre\">Cree</option>\n                                                                    <option value=\"hrv\">Croatian</option>\n                                                                    <option value=\"ces\">Czech</option>\n                                                                    <option value=\"dan\">Danish</option>\n                                                                    <option value=\"div\">Divehi</option>\n                                                                    <option value=\"nld\">Dutch</option>\n                                                                    <option value=\"dzo\">Dzongkha</option>\n                                                                    <option value=\"eng\">English</option>\n                                                                    <option value=\"epo\">Esperanto</option>\n                                                                    <option value=\"est\">Estonian</option>\n                                                                    <option value=\"ewe\">Ewe</option>\n                                                                    <option value=\"fao\">Faroese</option>\n                                                                    <option value=\"fij\">Fijian</option>\n                                                                    <option value=\"fin\">Finnish</option>\n                                                                    <option value=\"fra\">French</option>\n                                                                    <option value=\"ful\">Fula</option>\n                                                                    <option value=\"glg\">Galician</option>\n                                                                    <option value=\"kat\">Georgian</option>\n                                                                    <option value=\"deu\">German</option>\n                                                                    <option value=\"ell\">Greek</option>\n                                                                    <option value=\"grn\">Guaraní</option>\n                                                                    <option value=\"guj\">Gujarati</option>\n                                                                    <option value=\"hat\">Haitian</option>\n                                                                    <option value=\"hau\">Hausa</option>\n                                                                    <option value=\"heb\">Hebrew</option>\n                                                                    <option value=\"her\">Herero</option>\n                                                                    <option value=\"hin\">Hindi</option>\n                                                                    <option value=\"hmo\">Hiri Motu</option>\n                                                                    <option value=\"hun\">Hungarian</option>\n                                                                    <option value=\"isl\">Icelandic</option>\n                                                                    <option value=\"ido\">Ido</option>\n                                                                    <option value=\"ibo\">Igbo</option>\n                                                                    <option value=\"ind\">Indonesian</option>\n                                                                    <option value=\"ina\">Interlingua</option>\n                                                                    <option value=\"ile\">Interlingue</option>\n                                                                    <option value=\"iku\">Inuktitut</option>\n                                                                    <option value=\"ipk\">Inupiaq</option>\n                                                                    <option value=\"gle\">Irish</option>\n                                                                    <option value=\"ita\">Italian</option>\n                                                                    <option value=\"jpn\">Japanese</option>\n                                                                    <option value=\"jav\">Javanese</option>\n                                                                    <option value=\"kal\">Kalaallisut</option>\n                                                                    <option value=\"kan\">Kannada</option>\n                                                                    <option value=\"kau\">Kanuri</option>\n                                                                    <option value=\"kas\">Kashmiri</option>\n                                                                    <option value=\"kaz\">Kazakh</option>\n                                                                    <option value=\"khm\">Khmer</option>\n                                                                    <option value=\"kik\">Kikuyu</option>\n                                                                    <option value=\"kin\">Kinyarwanda</option>\n                                                                    <option value=\"kir\">Kirghiz</option>\n                                                                    <option value=\"run\">Kirundi</option>\n                                                                    <option value=\"kom\">Komi</option>\n                                                                    <option value=\"kon\">Kongo</option>\n                                                                    <option value=\"kor\">Korean</option>\n                                                                    <option value=\"kur\">Kurdish</option>\n                                                                    <option value=\"kua\">Kwanyama</option>\n                                                                    <option value=\"lao\">Lao</option>\n                                                                    <option value=\"lat\">Latin</option>\n                                                                    <option value=\"lav\">Latvian</option>\n                                                                    <option value=\"lim\">Limburgish</option>\n                                                                    <option value=\"lin\">Lingala</option>\n                                                                    <option value=\"lit\">Lithuanian</option>\n                                                                    <option value=\"lub\">Luba-Katanga</option>\n                                                                    <option value=\"lug\">Luganda</option>\n                                                                    <option value=\"ltz\">Luxembourgish</option>\n                                                                    <option value=\"mkd\">Macedonian</option>\n                                                                    <option value=\"mlg\">Malagasy</option>\n                                                                    <option value=\"msa\">Malay</option>\n                                                                    <option value=\"mal\">Malayalam</option>\n                                                                    <option value=\"mlt\">Maltese</option>\n                                                                    <option value=\"glv\">Manx</option>\n                                                                    <option value=\"mri\">Māori</option>\n                                                                    <option value=\"mar\">Marathi</option>\n                                                                    <option value=\"mah\">Marshallese</option>\n                                                                    <option value=\"mon\">Mongolian</option>\n                                                                    <option value=\"nau\">Nauru</option>\n                                                                    <option value=\"nav\">Navajo</option>\n                                                                    <option value=\"ndo\">Ndonga</option>\n                                                                    <option value=\"nep\">Nepali</option>\n                                                                    <option value=\"nde\">North Ndebele</option>\n                                                                    <option value=\"sme\">Northern Sami</option>\n                                                                    <option value=\"nor\">Norwegian</option>\n                                                                    <option value=\"iii\">Nuosu</option>\n                                                                    <option value=\"oci\">Occitan</option>\n                                                                    <option value=\"oji\">Ojibwe</option>\n                                                                    <option value=\"chu\">Old Church Slavonic</option>\n                                                                    <option value=\"ori\">Oriya</option>\n                                                                    <option value=\"orm\">Oromo</option>\n                                                                    <option value=\"oss\">Ossetian</option>\n                                                                    <option value=\"pli\">Pāli</option>\n                                                                    <option value=\"pan\">Panjabi</option>\n                                                                    <option value=\"pus\">Pashto</option>\n                                                                    <option value=\"fas\">Persian</option>\n                                                                    <option value=\"pol\">Polish</option>\n                                                                    <option value=\"pt\">Portuguese - Brazil</option>\n                                                                    <option value=\"por\">Portuguese - Portugal</option>\n                                                                    <option value=\"que\">Quechua</option>\n                                                                    <option value=\"ron\">Romanian</option>\n                                                                    <option value=\"roh\">Romansh</option>\n                                                                    <option value=\"rus\">Russian</option>\n                                                                    <option value=\"smo\">Samoan</option>\n                                                                    <option value=\"sag\">Sango</option>\n                                                                    <option value=\"san\">Sanskrit</option>\n                                                                    <option value=\"srd\">Sardinian</option>\n                                                                    <option value=\"gla\">Scottish Gaelic</option>\n                                                                    <option value=\"srp\">Serbian</option>\n                                                                    <option value=\"sna\">Shona</option>\n                                                                    <option value=\"snd\">Sindhi</option>\n                                                                    <option value=\"sin\">Sinhala</option>\n                                                                    <option value=\"slk\">Slovak</option>\n                                                                    <option value=\"slv\">Slovene</option>\n                                                                    <option value=\"som\">Somali</option>\n                                                                    <option value=\"nbl\">South Ndebele</option>\n                                                                    <option value=\"sot\">Southern Sotho</option>\n                                                                    <option value=\"spa\">Spanish</option>\n                                                                    <option value=\"sun\">Sundanese</option>\n                                                                    <option value=\"swa\">Swahili</option>\n                                                                    <option value=\"ssw\">Swati</option>\n                                                                    <option value=\"swe\">Swedish</option>\n                                                                    <option value=\"tgl\">Tagalog</option>\n                                                                    <option value=\"tah\">Tahitian</option>\n                                                                    <option value=\"tgk\">Tajik</option>\n                                                                    <option value=\"tam\">Tamil</option>\n                                                                    <option value=\"tat\">Tatar</option>\n                                                                    <option value=\"tel\">Telugu</option>\n                                                                    <option value=\"tha\">Thai</option>\n                                                                    <option value=\"bod\">Tibetan Standard</option>\n                                                                    <option value=\"tir\">Tigrinya</option>\n                                                                    <option value=\"ton\">Tonga</option>\n                                                                    <option value=\"tso\">Tsonga</option>\n                                                                    <option value=\"tsn\">Tswana</option>\n                                                                    <option value=\"tur\">Turkish</option>\n                                                                    <option value=\"tuk\">Turkmen</option>\n                                                                    <option value=\"twi\">Twi</option>\n                                                                    <option value=\"uig\">Uighur</option>\n                                                                    <option value=\"ukr\">Ukrainian</option>\n                                                                    <option value=\"urd\">Urdu</option>\n                                                                    <option value=\"uzb\">Uzbek</option>\n                                                                    <option value=\"ven\">Venda</option>\n                                                                    <option value=\"vie\">Vietnamese</option>\n                                                                    <option value=\"vol\">Volapük</option>\n                                                                    <option value=\"wln\">Walloon</option>\n                                                                    <option value=\"cym\">Welsh</option>\n                                                                    <option value=\"fry\">Western Frisian</option>\n                                                                    <option value=\"wol\">Wolof</option>\n                                                                    <option value=\"xho\">Xhosa</option>\n                                                                    <option value=\"yid\">Yiddish</option>\n                                                                    <option value=\"yor\">Yoruba</option>\n                                                                    <option value=\"zha\">Zhuang</option>\n                                                                    <option value=\"zul\">Zulu</option>\n                                                            </select>\n                            <div class=\"help-block small\">If text appears on this image, you must select the primary language of that text.  Otherwise, select the \"No Text on Image\" option.</div>\n                        </div>\n                                        <button type=\"submit\" id=\"artwork-continue-button\" class=\"btn btn-default\" disabled=\"\">Continue</button>\n                </form>",
+    "controls": [
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "_token",
+        "value": "NYHIzOFuHWTiEuO9cLa8Rcmj6CM7Xfk1AuIpcgJR",
+        "required": false,
+        "accept": null
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "type",
+        "value": "2",
+        "required": false,
+        "accept": null
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "series",
+        "value": "462729",
+        "required": false,
+        "accept": null
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "redirect",
+        "value": "/series/elian-ventre-462729",
+        "required": false,
+        "accept": null
+      },
+      {
+        "tag": "input",
+        "type": "file",
+        "name": "file",
+        "value": "",
+        "required": false,
+        "accept": null
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "url",
+        "value": "",
+        "required": false,
+        "accept": null
+      },
+      {
+        "tag": "select",
+        "type": null,
+        "name": "language",
+        "value": "-1",
+        "required": false,
+        "accept": null,
+        "options": [
+          {
+            "value": "-1",
+            "text": "",
+            "selected": true
+          },
+          {
+            "value": "",
+            "text": "- No Text on Image -",
+            "selected": false
+          },
+          {
+            "value": "abk",
+            "text": "Abkhaz",
+            "selected": false
+          },
+          {
+            "value": "aar",
+            "text": "Afar",
+            "selected": false
+          },
+          {
+            "value": "afr",
+            "text": "Afrikaans",
+            "selected": false
+          },
+          {
+            "value": "aka",
+            "text": "Akan",
+            "selected": false
+          },
+          {
+            "value": "sqi",
+            "text": "Albanian",
+            "selected": false
+          },
+          {
+            "value": "amh",
+            "text": "Amharic",
+            "selected": false
+          },
+          {
+            "value": "ara",
+            "text": "Arabic",
+            "selected": false
+          },
+          {
+            "value": "arg",
+            "text": "Aragonese",
+            "selected": false
+          },
+          {
+            "value": "hye",
+            "text": "Armenian",
+            "selected": false
+          },
+          {
+            "value": "asm",
+            "text": "Assamese",
+            "selected": false
+          },
+          {
+            "value": "ava",
+            "text": "Avaric",
+            "selected": false
+          },
+          {
+            "value": "ave",
+            "text": "Avestan",
+            "selected": false
+          },
+          {
+            "value": "aym",
+            "text": "Aymara",
+            "selected": false
+          },
+          {
+            "value": "aze",
+            "text": "Azerbaijani",
+            "selected": false
+          },
+          {
+            "value": "bam",
+            "text": "Bambara",
+            "selected": false
+          },
+          {
+            "value": "bak",
+            "text": "Bashkir",
+            "selected": false
+          },
+          {
+            "value": "eus",
+            "text": "Basque",
+            "selected": false
+          },
+          {
+            "value": "bel",
+            "text": "Belarusian",
+            "selected": false
+          },
+          {
+            "value": "ben",
+            "text": "Bengali",
+            "selected": false
+          },
+          {
+            "value": "bih",
+            "text": "Bihari",
+            "selected": false
+          },
+          {
+            "value": "bis",
+            "text": "Bislama",
+            "selected": false
+          },
+          {
+            "value": "bos",
+            "text": "Bosnian",
+            "selected": false
+          },
+          {
+            "value": "bre",
+            "text": "Breton",
+            "selected": false
+          },
+          {
+            "value": "bul",
+            "text": "Bulgarian",
+            "selected": false
+          },
+          {
+            "value": "mya",
+            "text": "Burmese",
+            "selected": false
+          },
+          {
+            "value": "cat",
+            "text": "Catalan",
+            "selected": false
+          },
+          {
+            "value": "cha",
+            "text": "Chamorro",
+            "selected": false
+          },
+          {
+            "value": "che",
+            "text": "Chechen",
+            "selected": false
+          },
+          {
+            "value": "nya",
+            "text": "Chewa",
+            "selected": false
+          },
+          {
+            "value": "yue",
+            "text": "Chinese - Cantonese",
+            "selected": false
+          },
+          {
+            "value": "zho",
+            "text": "Chinese - China",
+            "selected": false
+          },
+          {
+            "value": "zhtw",
+            "text": "Chinese - Taiwan",
+            "selected": false
+          },
+          {
+            "value": "chv",
+            "text": "Chuvash",
+            "selected": false
+          },
+          {
+            "value": "cor",
+            "text": "Cornish",
+            "selected": false
+          },
+          {
+            "value": "cos",
+            "text": "Corsican",
+            "selected": false
+          },
+          {
+            "value": "cre",
+            "text": "Cree",
+            "selected": false
+          },
+          {
+            "value": "hrv",
+            "text": "Croatian",
+            "selected": false
+          },
+          {
+            "value": "ces",
+            "text": "Czech",
+            "selected": false
+          },
+          {
+            "value": "dan",
+            "text": "Danish",
+            "selected": false
+          },
+          {
+            "value": "div",
+            "text": "Divehi",
+            "selected": false
+          },
+          {
+            "value": "nld",
+            "text": "Dutch",
+            "selected": false
+          },
+          {
+            "value": "dzo",
+            "text": "Dzongkha",
+            "selected": false
+          },
+          {
+            "value": "eng",
+            "text": "English",
+            "selected": false
+          },
+          {
+            "value": "epo",
+            "text": "Esperanto",
+            "selected": false
+          },
+          {
+            "value": "est",
+            "text": "Estonian",
+            "selected": false
+          },
+          {
+            "value": "ewe",
+            "text": "Ewe",
+            "selected": false
+          },
+          {
+            "value": "fao",
+            "text": "Faroese",
+            "selected": false
+          },
+          {
+            "value": "fij",
+            "text": "Fijian",
+            "selected": false
+          },
+          {
+            "value": "fin",
+            "text": "Finnish",
+            "selected": false
+          },
+          {
+            "value": "fra",
+            "text": "French",
+            "selected": false
+          },
+          {
+            "value": "ful",
+            "text": "Fula",
+            "selected": false
+          },
+          {
+            "value": "glg",
+            "text": "Galician",
+            "selected": false
+          },
+          {
+            "value": "kat",
+            "text": "Georgian",
+            "selected": false
+          },
+          {
+            "value": "deu",
+            "text": "German",
+            "selected": false
+          },
+          {
+            "value": "ell",
+            "text": "Greek",
+            "selected": false
+          },
+          {
+            "value": "grn",
+            "text": "Guaraní",
+            "selected": false
+          },
+          {
+            "value": "guj",
+            "text": "Gujarati",
+            "selected": false
+          },
+          {
+            "value": "hat",
+            "text": "Haitian",
+            "selected": false
+          },
+          {
+            "value": "hau",
+            "text": "Hausa",
+            "selected": false
+          },
+          {
+            "value": "heb",
+            "text": "Hebrew",
+            "selected": false
+          },
+          {
+            "value": "her",
+            "text": "Herero",
+            "selected": false
+          },
+          {
+            "value": "hin",
+            "text": "Hindi",
+            "selected": false
+          },
+          {
+            "value": "hmo",
+            "text": "Hiri Motu",
+            "selected": false
+          },
+          {
+            "value": "hun",
+            "text": "Hungarian",
+            "selected": false
+          },
+          {
+            "value": "isl",
+            "text": "Icelandic",
+            "selected": false
+          },
+          {
+            "value": "ido",
+            "text": "Ido",
+            "selected": false
+          },
+          {
+            "value": "ibo",
+            "text": "Igbo",
+            "selected": false
+          },
+          {
+            "value": "ind",
+            "text": "Indonesian",
+            "selected": false
+          },
+          {
+            "value": "ina",
+            "text": "Interlingua",
+            "selected": false
+          },
+          {
+            "value": "ile",
+            "text": "Interlingue",
+            "selected": false
+          },
+          {
+            "value": "iku",
+            "text": "Inuktitut",
+            "selected": false
+          },
+          {
+            "value": "ipk",
+            "text": "Inupiaq",
+            "selected": false
+          },
+          {
+            "value": "gle",
+            "text": "Irish",
+            "selected": false
+          },
+          {
+            "value": "ita",
+            "text": "Italian",
+            "selected": false
+          },
+          {
+            "value": "jpn",
+            "text": "Japanese",
+            "selected": false
+          },
+          {
+            "value": "jav",
+            "text": "Javanese",
+            "selected": false
+          },
+          {
+            "value": "kal",
+            "text": "Kalaallisut",
+            "selected": false
+          },
+          {
+            "value": "kan",
+            "text": "Kannada",
+            "selected": false
+          },
+          {
+            "value": "kau",
+            "text": "Kanuri",
+            "selected": false
+          },
+          {
+            "value": "kas",
+            "text": "Kashmiri",
+            "selected": false
+          },
+          {
+            "value": "kaz",
+            "text": "Kazakh",
+            "selected": false
+          },
+          {
+            "value": "khm",
+            "text": "Khmer",
+            "selected": false
+          },
+          {
+            "value": "kik",
+            "text": "Kikuyu",
+            "selected": false
+          },
+          {
+            "value": "kin",
+            "text": "Kinyarwanda",
+            "selected": false
+          },
+          {
+            "value": "kir",
+            "text": "Kirghiz",
+            "selected": false
+          },
+          {
+            "value": "run",
+            "text": "Kirundi",
+            "selected": false
+          },
+          {
+            "value": "kom",
+            "text": "Komi",
+            "selected": false
+          },
+          {
+            "value": "kon",
+            "text": "Kongo",
+            "selected": false
+          },
+          {
+            "value": "kor",
+            "text": "Korean",
+            "selected": false
+          },
+          {
+            "value": "kur",
+            "text": "Kurdish",
+            "selected": false
+          },
+          {
+            "value": "kua",
+            "text": "Kwanyama",
+            "selected": false
+          },
+          {
+            "value": "lao",
+            "text": "Lao",
+            "selected": false
+          },
+          {
+            "value": "lat",
+            "text": "Latin",
+            "selected": false
+          },
+          {
+            "value": "lav",
+            "text": "Latvian",
+            "selected": false
+          },
+          {
+            "value": "lim",
+            "text": "Limburgish",
+            "selected": false
+          },
+          {
+            "value": "lin",
+            "text": "Lingala",
+            "selected": false
+          },
+          {
+            "value": "lit",
+            "text": "Lithuanian",
+            "selected": false
+          },
+          {
+            "value": "lub",
+            "text": "Luba-Katanga",
+            "selected": false
+          },
+          {
+            "value": "lug",
+            "text": "Luganda",
+            "selected": false
+          },
+          {
+            "value": "ltz",
+            "text": "Luxembourgish",
+            "selected": false
+          },
+          {
+            "value": "mkd",
+            "text": "Macedonian",
+            "selected": false
+          },
+          {
+            "value": "mlg",
+            "text": "Malagasy",
+            "selected": false
+          },
+          {
+            "value": "msa",
+            "text": "Malay",
+            "selected": false
+          },
+          {
+            "value": "mal",
+            "text": "Malayalam",
+            "selected": false
+          },
+          {
+            "value": "mlt",
+            "text": "Maltese",
+            "selected": false
+          },
+          {
+            "value": "glv",
+            "text": "Manx",
+            "selected": false
+          },
+          {
+            "value": "mri",
+            "text": "Māori",
+            "selected": false
+          },
+          {
+            "value": "mar",
+            "text": "Marathi",
+            "selected": false
+          },
+          {
+            "value": "mah",
+            "text": "Marshallese",
+            "selected": false
+          },
+          {
+            "value": "mon",
+            "text": "Mongolian",
+            "selected": false
+          },
+          {
+            "value": "nau",
+            "text": "Nauru",
+            "selected": false
+          },
+          {
+            "value": "nav",
+            "text": "Navajo",
+            "selected": false
+          },
+          {
+            "value": "ndo",
+            "text": "Ndonga",
+            "selected": false
+          },
+          {
+            "value": "nep",
+            "text": "Nepali",
+            "selected": false
+          },
+          {
+            "value": "nde",
+            "text": "North Ndebele",
+            "selected": false
+          },
+          {
+            "value": "sme",
+            "text": "Northern Sami",
+            "selected": false
+          },
+          {
+            "value": "nor",
+            "text": "Norwegian",
+            "selected": false
+          },
+          {
+            "value": "iii",
+            "text": "Nuosu",
+            "selected": false
+          },
+          {
+            "value": "oci",
+            "text": "Occitan",
+            "selected": false
+          },
+          {
+            "value": "oji",
+            "text": "Ojibwe",
+            "selected": false
+          },
+          {
+            "value": "chu",
+            "text": "Old Church Slavonic",
+            "selected": false
+          },
+          {
+            "value": "ori",
+            "text": "Oriya",
+            "selected": false
+          },
+          {
+            "value": "orm",
+            "text": "Oromo",
+            "selected": false
+          },
+          {
+            "value": "oss",
+            "text": "Ossetian",
+            "selected": false
+          },
+          {
+            "value": "pli",
+            "text": "Pāli",
+            "selected": false
+          },
+          {
+            "value": "pan",
+            "text": "Panjabi",
+            "selected": false
+          },
+          {
+            "value": "pus",
+            "text": "Pashto",
+            "selected": false
+          },
+          {
+            "value": "fas",
+            "text": "Persian",
+            "selected": false
+          },
+          {
+            "value": "pol",
+            "text": "Polish",
+            "selected": false
+          },
+          {
+            "value": "pt",
+            "text": "Portuguese - Brazil",
+            "selected": false
+          },
+          {
+            "value": "por",
+            "text": "Portuguese - Portugal",
+            "selected": false
+          },
+          {
+            "value": "que",
+            "text": "Quechua",
+            "selected": false
+          },
+          {
+            "value": "ron",
+            "text": "Romanian",
+            "selected": false
+          },
+          {
+            "value": "roh",
+            "text": "Romansh",
+            "selected": false
+          },
+          {
+            "value": "rus",
+            "text": "Russian",
+            "selected": false
+          },
+          {
+            "value": "smo",
+            "text": "Samoan",
+            "selected": false
+          },
+          {
+            "value": "sag",
+            "text": "Sango",
+            "selected": false
+          },
+          {
+            "value": "san",
+            "text": "Sanskrit",
+            "selected": false
+          },
+          {
+            "value": "srd",
+            "text": "Sardinian",
+            "selected": false
+          },
+          {
+            "value": "gla",
+            "text": "Scottish Gaelic",
+            "selected": false
+          },
+          {
+            "value": "srp",
+            "text": "Serbian",
+            "selected": false
+          },
+          {
+            "value": "sna",
+            "text": "Shona",
+            "selected": false
+          },
+          {
+            "value": "snd",
+            "text": "Sindhi",
+            "selected": false
+          },
+          {
+            "value": "sin",
+            "text": "Sinhala",
+            "selected": false
+          },
+          {
+            "value": "slk",
+            "text": "Slovak",
+            "selected": false
+          },
+          {
+            "value": "slv",
+            "text": "Slovene",
+            "selected": false
+          },
+          {
+            "value": "som",
+            "text": "Somali",
+            "selected": false
+          },
+          {
+            "value": "nbl",
+            "text": "South Ndebele",
+            "selected": false
+          },
+          {
+            "value": "sot",
+            "text": "Southern Sotho",
+            "selected": false
+          },
+          {
+            "value": "spa",
+            "text": "Spanish",
+            "selected": false
+          },
+          {
+            "value": "sun",
+            "text": "Sundanese",
+            "selected": false
+          },
+          {
+            "value": "swa",
+            "text": "Swahili",
+            "selected": false
+          },
+          {
+            "value": "ssw",
+            "text": "Swati",
+            "selected": false
+          },
+          {
+            "value": "swe",
+            "text": "Swedish",
+            "selected": false
+          },
+          {
+            "value": "tgl",
+            "text": "Tagalog",
+            "selected": false
+          },
+          {
+            "value": "tah",
+            "text": "Tahitian",
+            "selected": false
+          },
+          {
+            "value": "tgk",
+            "text": "Tajik",
+            "selected": false
+          },
+          {
+            "value": "tam",
+            "text": "Tamil",
+            "selected": false
+          },
+          {
+            "value": "tat",
+            "text": "Tatar",
+            "selected": false
+          },
+          {
+            "value": "tel",
+            "text": "Telugu",
+            "selected": false
+          },
+          {
+            "value": "tha",
+            "text": "Thai",
+            "selected": false
+          },
+          {
+            "value": "bod",
+            "text": "Tibetan Standard",
+            "selected": false
+          },
+          {
+            "value": "tir",
+            "text": "Tigrinya",
+            "selected": false
+          },
+          {
+            "value": "ton",
+            "text": "Tonga",
+            "selected": false
+          },
+          {
+            "value": "tso",
+            "text": "Tsonga",
+            "selected": false
+          },
+          {
+            "value": "tsn",
+            "text": "Tswana",
+            "selected": false
+          },
+          {
+            "value": "tur",
+            "text": "Turkish",
+            "selected": false
+          },
+          {
+            "value": "tuk",
+            "text": "Turkmen",
+            "selected": false
+          },
+          {
+            "value": "twi",
+            "text": "Twi",
+            "selected": false
+          },
+          {
+            "value": "uig",
+            "text": "Uighur",
+            "selected": false
+          },
+          {
+            "value": "ukr",
+            "text": "Ukrainian",
+            "selected": false
+          },
+          {
+            "value": "urd",
+            "text": "Urdu",
+            "selected": false
+          },
+          {
+            "value": "uzb",
+            "text": "Uzbek",
+            "selected": false
+          },
+          {
+            "value": "ven",
+            "text": "Venda",
+            "selected": false
+          },
+          {
+            "value": "vie",
+            "text": "Vietnamese",
+            "selected": false
+          },
+          {
+            "value": "vol",
+            "text": "Volapük",
+            "selected": false
+          },
+          {
+            "value": "wln",
+            "text": "Walloon",
+            "selected": false
+          },
+          {
+            "value": "cym",
+            "text": "Welsh",
+            "selected": false
+          },
+          {
+            "value": "fry",
+            "text": "Western Frisian",
+            "selected": false
+          },
+          {
+            "value": "wol",
+            "text": "Wolof",
+            "selected": false
+          },
+          {
+            "value": "xho",
+            "text": "Xhosa",
+            "selected": false
+          },
+          {
+            "value": "yid",
+            "text": "Yiddish",
+            "selected": false
+          },
+          {
+            "value": "yor",
+            "text": "Yoruba",
+            "selected": false
+          },
+          {
+            "value": "zha",
+            "text": "Zhuang",
+            "selected": false
+          },
+          {
+            "value": "zul",
+            "text": "Zulu",
+            "selected": false
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Clear Selected",
+        "type": "button",
+        "value": null
+      },
+      {
+        "text": "Cancel",
+        "type": "button",
+        "value": null
+      },
+      {
+        "text": "",
+        "type": "button",
+        "value": null
+      },
+      {
+        "text": "",
+        "type": "button",
+        "value": null
+      },
+      {
+        "text": "",
+        "type": "button",
+        "value": null
+      },
+      {
+        "text": "",
+        "type": "button",
+        "value": null
+      },
+      {
+        "text": "",
+        "type": "button",
+        "value": null
+      },
+      {
+        "text": "",
+        "type": "button",
+        "value": null
+      },
+      {
+        "text": "Continue",
+        "type": "submit",
+        "value": null
+      }
+    ]
+  },
+  "bodyText": "Discover Earn Points Support Home / Artwork / Upload Series Poster SERIES Elian Ventre Instructions Select a file to upload or provide a URL to an image. Once uploaded, you'll be able to crop and resize images to fit our exact requirements (680x1000 JPG). Artwork must: Not contain spoilers. Not include nudity, vulgarity, or gore. Not include watermarks or unrelated logos. Not be visibly stretched. Be of high quality (original upload must be at least 680x1000). Initial upload must be less than 10M. Additionally, for this artwork type: Series posters should include the series name. Series posters should be representative of the entire series and not be season- or episode-specific. Each poster should be unique. Please do not upload minor variations of the same image. DVD covers are allowed as posters, as long as they are the official DVD cover. More poster guidelines can be found in our Knowledgebase. Select a file: Browse … Or enter a URL (overrides file upload): Language (required): - No Text on Image - Abkhaz Afar Afrikaans Akan Albanian Amharic Arabic Aragonese Armenian Assamese Avaric Avestan Aymara Azerbaijani Bambara Bashkir Basque Belarusian Bengali Bihari Bislama Bosnian Breton Bulgarian Burmese Catalan Chamorro Chechen Chewa Chinese - Cantonese Chinese - China Chinese - Taiwan Chuvash Cornish Corsican Cree Croatian Czech Danish Divehi Dutch Dzongkha English Esperanto Estonian Ewe Faroese Fijian Finnish French Fula Galician Georgian German Greek Guaraní Gujarati Haitian Hausa Hebrew Herero Hindi Hiri Motu Hungarian Icelandic Ido Igbo Indonesian Interlingua Interlingue Inuktitut Inupiaq Irish Italian Japanese Javanese Kalaallisut Kannada Kanuri Kashmiri Kazakh Khmer Kikuyu Kinyarwanda Kirghiz Kirundi Komi Kongo Korean Kurdish Kwanyama Lao Latin Latvian Limburgish Lingala Lithuanian Luba-Katanga Luganda Luxembourgish Macedonian Malagasy Malay Malayalam Maltese Manx Māori Marathi Marshallese Mongolian Nauru Navajo Ndonga Nepali North Ndebele Northern Sami Norwegian Nuosu Occitan Ojibwe Old Church Slavonic Oriya Oromo Ossetian Pāli Panjabi Pashto Persian Polish Portuguese - Brazil Portuguese - Portugal Quechua Romanian Romansh Russian Samoan Sango Sanskrit Sardinian Scottish Gaelic Serbian Shona Sindhi Sinhala Slovak Slovene Somali South Ndebele Southern Sotho Spanish Sundanese Swahili Swati Swedish Tagalog Tahitian Tajik Tamil Tatar Telugu Thai Tibetan Standard Tigrinya Tonga Tsonga Tswana Turkish Turkmen Twi Uighur Ukrainian Urdu Uzbek Venda Vietnamese Volapük Walloon Welsh Western Frisian Wolof Xhosa Yiddish Yoruba Zhuang Zulu If text appears on this image, you must select the primary language of that text. Otherwise, select the \"No Text on Image\" option. Continue ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information",
+  "result": "INSPECTION_COMPLETE_ZERO_WRITES"
+}
