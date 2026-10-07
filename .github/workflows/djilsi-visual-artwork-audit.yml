@@ -1,0 +1,36 @@
+name: Djilsi visual artwork audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/djilsi-visual-artwork-audit.yml'
+      - 'src/djilsi-visual-artwork-audit.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests pillow
+      - name: Run Djilsi visual artwork audit
+        run: python src/djilsi-visual-artwork-audit.py
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/djilsi-visual-artwork-audit-2026-10-07
+          git commit -m "Record Djilsi visual artwork audit [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: djilsi-visual-artwork-audit
+          path: reports/djilsi-visual-artwork-audit-2026-10-07/
