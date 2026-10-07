@@ -1,30 +1,437 @@
 {
-  "generatedAt": "2026-10-07T20:46:59.460Z",
+  "generatedAt": "2026-10-07T20:48:38.065Z",
   "mode": "READ_ONLY_YOUTUBE_VIDEO_FRAME_PILOT",
   "videoId": "EqFLIsSB2hg",
   "frames": [],
   "blocked": [
     {
-      "reason": "Error: VIDEO_DURATION_INVALID\n    at file:///home/runner/work/thetvdb-automation/thetvdb-automation/src/maxime-s2025e01-frame-pilot.js:44:11"
+      "reason": "Error: HUMAN_VERIFICATION_REQUIRED\n    at file:///home/runner/work/thetvdb-automation/thetvdb-automation/src/maxime-s2025e01-frame-pilot.js:32:11"
     }
   ],
   "result": "FRAME_CAPTURE_BLOCKED",
   "http": 200,
-  "initialBody": "Erreur de configuration du lecteur vidéo Erreur de configuration du lecteur vidéo Erreur 153 Regarder la vidéo sur YouTube En savoir plus Erreur 153",
+  "initialBody": "Ignorer les liens de navigation Se connecter Connectez-vous pour confirmer que vous n'êtes pas un robot Cela nous permet de protéger notre communauté Se connecter En savoir plus 2 jours pour faire une piste noire (j'ai jamais skié) Doublée automatiquement Maxime Biaggi 1,3 M d’abonnés S’abonner 92 k 1,9 M de vues il y a 1 a Salut la team !! On a deux jours pour essayer de descendre une piste noire sans aucune expérience de ski, bon visionnage 👍 Merci a Ultra Premium Direct pour le partenariat !!! Code promo : MAXIME qui offre -25% pour les nouveaux clients pendant 48 … afficher plus Commentaires 49:43 Je veux tenter la piste noire la plus dangereuse (et je sais pas skier 👍🏻) Maxime Biaggi 851 k il y a 7 m. 36:20 Qui aura la scène piégée ? 2 (ft. Squeezie, Djilsi) Maxime Biaggi 6,1 M il y a 10 m. 25:09 Nouveauté J'explore un McDonald's ABANDONNÉ ! (Il y a encore des burgers) Juj' Urbex 285 k il y a 5 j 1:01:39 Nouveauté On juge leur niveau aux jeux vidéo #4 (ft. Gotaga, Squeezie, Brawks, Nikof) Gentle Mates 2,4 M il y a 4 j 45:22 Nouveauté LE JEU DU BLUFF (Avec Théodort) Mastu 3,5 M il y a 4 j 32:20 4 jours pour faire une piste noire en SNOWBOARD ! (ça ne s'est pas passé comme prévu...) Ft. Marion Inoxtag 2.0 3,7 M il y a 1 a 1:10:03 Découvrir le Japon en dormant dans des lieux terrifiants... (ft Seb & Maxime Biaggi) Djilsi 4,1 M il y a 1 a 1:02:26 Nouveauté QUI TROUVERA LE MEILLEUR CONTAINER ? (ft Freddy Gladieux, Mastu, Theodort, Billy) SQUEEZIE 7,3 M il y a 3 j 26:08 ON REND FOU DES INCONNUS AU TELEPHONE ! (Avec Maxime Biaggi) JOYCA 6,2 M il y a 1 a 1:13:02 Nouveauté ON VIT 24H DANS UN PHARE EN PLEINE MER ! Amixem 2,8 M il y a 3 j 43:20 TROUVE LE CADAVRE ! (Avec Djilsi, Maxime Biaggi, Elian) JOYCA 5,9 M il y a 1 a 52:22 Qui fera le meilleur film d'action avec des inconnus ? Maxime Biaggi 2,8 M il y a 1 a 34:30 Je pense être meilleur que Maxime et Djilsi THEODORT 2 M il y a 11 m. 41:43 Nouveauté PRIORITIES : vous êtes plus d’accord avec David ou Raf ? (Moi avec Raf) Mcfly et Carlito 1 M il y a 1 j 51:05 QUI SERA LE MEILLEUR MENTEUR ? (ft. Mastu, Maghla & Maxime Biaggi) GOTAGA 5,5 M il y a 1 a 36:08 Parties de pétanque... en voitures (ft Théodort, Billy et Maxime Biaggi) Djilsi 3,7 M il y a 3 a 40:58 4 humains vs 1 IA : le perdant va tout perdre... (ft Joyca, Léna, Gotaga) SQUEEZIE 8,6 M il y a 1 a 1:07:13 On part traverser le Canada en camping car - ON VA OÙ 7 ep1 (ft Maxime Biaggi, Joyca & Théodort) Djilsi 7,5 M il y a 1 m. 27:42 On m'a VOLÉ plusieurs MILLIERS D'EUROS... 😬 Mastu 3,7 M il y a 1 a 32:03 QUI MENT LE MIEUX ? (Avec Elian, Baghera, Sofyan, Raska) JOYCA 3,6 M il y a 1 a ",
   "buttons": [
+    {
+      "text": "",
+      "title": null,
+      "aria": "Retour"
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Guide"
+    },
+    {
+      "text": "Ignorer les liens de navigation",
+      "title": "",
+      "aria": "Ignorer les liens de navigation"
+    },
+    {
+      "text": "",
+      "title": "Rechercher",
+      "aria": "Search"
+    },
+    {
+      "text": "Rechercher",
+      "title": null,
+      "aria": "Rechercher"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Effectuer une recherche vocale"
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Paramètres"
+    },
     {
       "text": "Réactiver le son",
       "title": null,
       "aria": null
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Fermer"
+    },
+    {
+      "text": "",
+      "title": "Lire",
+      "aria": "Lire"
+    },
+    {
+      "text": "Copier le lien",
+      "title": null,
+      "aria": "Copier le lien"
+    },
+    {
+      "text": "InformationsShopping",
+      "title": null,
+      "aria": "Afficher les fiches"
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Afficher les fiches"
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Fermer"
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Plus"
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Playlist"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "J'aime cette vidéo, comme 92 652 autres personnes avant moi"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Je n'aime pas cette vidéo"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Commentaires"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Partager"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "Annuler",
+      "title": null,
+      "aria": null
+    },
+    {
+      "text": "Confirmer",
+      "title": null,
+      "aria": null
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Fermer"
+    },
+    {
+      "text": "",
+      "title": "Fermer",
+      "aria": null
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Fermer"
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Lire (k)"
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Désactiver le son (m)"
+    },
+    {
+      "text": "En direct",
+      "title": null,
+      "aria": null
+    },
+    {
+      "text": "•",
+      "title": null,
+      "aria": null
+    },
+    {
+      "text": "•",
+      "title": null,
+      "aria": null
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Agrandir"
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Lecture automatique activée"
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Sous-titres non disponibles"
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Paramètres"
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Mode cinéma (t)"
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Regarder sur un téléviseur"
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Plein écran (f)"
+    },
+    {
+      "text": "S’abonner",
+      "title": "",
+      "aria": "S'abonner à Maxime Biaggi."
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Le paramètre \"Notifications personnalisées\" est actuellement sélectionné. Appuyez si vous souhaitez le modifier pour la chaîne Maxime Biaggi."
+    },
+    {
+      "text": "92 k",
+      "title": "",
+      "aria": "J'aime cette vidéo, comme 92 652 autres personnes avant moi"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Je n'aime pas cette vidéo"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Partager"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Enregistrer dans une playlist"
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "Afficher la transcription",
+      "title": "",
+      "aria": "Afficher la transcription"
+    },
+    {
+      "text": "92 k",
+      "title": "",
+      "aria": "J'aime cette vidéo, comme 92 652 autres personnes avant moi"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Je n'aime pas cette vidéo"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Partager"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Enregistrer dans une playlist"
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Fermer"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Fermer"
+    },
+    {
+      "text": "Transcription",
+      "title": null,
+      "aria": "Transcription"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Fermer"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Fermer"
+    },
+    {
+      "text": "Afficher la transcription",
+      "title": "",
+      "aria": "Afficher la transcription"
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Fermer la transcription"
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria": "Réduire"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Autres actions"
+    },
+    {
+      "text": "Plus",
+      "title": "",
+      "aria": "Plus"
+    },
+    {
+      "text": "Plus",
+      "title": "",
+      "aria": null
     }
   ],
-  "meta": {
-    "duration": null,
-    "videoWidth": 0,
-    "videoHeight": 0,
-    "readyState": 0,
-    "currentTime": 0,
-    "paused": true
-  },
-  "body": "Erreur de configuration du lecteur vidéo Erreur de configuration du lecteur vidéo Erreur 153 Regarder la vidéo sur YouTube En savoir plus Erreur 153"
+  "body": "Ignorer les liens de navigation Se connecter Connectez-vous pour confirmer que vous n'êtes pas un robot Cela nous permet de protéger notre communauté Se connecter En savoir plus 2 jours pour faire une piste noire (j'ai jamais skié) Doublée automatiquement Maxime Biaggi 1,3 M d’abonnés S’abonner 92 k 1,9 M de vues il y a 1 a Salut la team !! On a deux jours pour essayer de descendre une piste noire sans aucune expérience de ski, bon visionnage 👍 Merci a Ultra Premium Direct pour le partenariat !!! Code promo : MAXIME qui offre -25% pour les nouveaux clients pendant 48 … afficher plus Commentaires 49:43 Je veux tenter la piste noire la plus dangereuse (et je sais pas skier 👍🏻) Maxime Biaggi 851 k il y a 7 m. 36:20 Qui aura la scène piégée ? 2 (ft. Squeezie, Djilsi) Maxime Biaggi 6,1 M il y a 10 m. 25:09 Nouveauté J'explore un McDonald's ABANDONNÉ ! (Il y a encore des burgers) Juj' Urbex 285 k il y a 5 j 1:01:39 Nouveauté On juge leur niveau aux jeux vidéo #4 (ft. Gotaga, Squeezie, Brawks, Nikof) Gentle Mates 2,4 M il y a 4 j 45:22 Nouveauté LE JEU DU BLUFF (Avec Théodort) Mastu 3,5 M il y a 4 j 32:20 4 jours pour faire une piste noire en SNOWBOARD ! (ça ne s'est pas passé comme prévu...) Ft. Marion Inoxtag 2.0 3,7 M il y a 1 a 1:10:03 Découvrir le Japon en dormant dans des lieux terrifiants... (ft Seb & Maxime Biaggi) Djilsi 4,1 M il y a 1 a 1:02:26 Nouveauté QUI TROUVERA LE MEILLEUR CONTAINER ? (ft Freddy Gladieux, Mastu, Theodort, Billy) SQUEEZIE 7,3 M il y a 3 j 26:08 ON REND FOU DES INCONNUS AU TELEPHONE ! (Avec Maxime Biaggi) JOYCA 6,2 M il y a 1 a 1:13:02 Nouveauté ON VIT 24H DANS UN PHARE EN PLEINE MER ! Amixem 2,8 M il y a 3 j 43:20 TROUVE LE CADAVRE ! (Avec Djilsi, Maxime Biaggi, Elian) JOYCA 5,9 M il y a 1 a 52:22 Qui fera le meilleur film d'action avec des inconnus ? Maxime Biaggi 2,8 M il y a 1 a 34:30 Je pense être meilleur que Maxime et Djilsi THEODORT 2 M il y a 11 m. 41:43 Nouveauté PRIORITIES : vous êtes plus d’accord avec David ou Raf ? (Moi avec Raf) Mcfly et Carlito 1 M il y a 1 j 51:05 QUI SERA LE MEILLEUR MENTEUR ? (ft. Mastu, Maghla & Maxime Biaggi) GOTAGA 5,5 M il y a 1 a 36:08 Parties de pétanque... en voitures (ft Théodort, Billy et Maxime Biaggi) Djilsi 3,7 M il y a 3 a 40:58 4 humains vs 1 IA : le perdant va tout perdre... (ft Joyca, Léna, Gotaga) SQUEEZIE 8,6 M il y a 1 a 1:07:13 On part traverser le Canada en camping car - ON VA OÙ 7 ep1 (ft Maxime Biaggi, Joyca & Théodort) Djilsi 7,5 M il y a 1 m. 27:42 On m'a VOLÉ plusieurs MILLIERS D'EUROS... 😬 Mastu 3,7 M il y a 1 a 32:03 QUI MENT LE MIEUX ? (Avec Elian, Baghera, Sofyan, Raska) JOYCA 3,6 M il y a 1 a "
 }
