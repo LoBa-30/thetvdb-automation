@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T15:40:09.166660+00:00",
+  "generatedAt": "2026-10-07T15:51:16.892958+00:00",
   "mode": "READ_ONLY_JOYCA_ARTWORK_PREFLIGHT_POST80",
   "sourceRows": 381,
   "checked": [
@@ -12,9 +12,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342668",
       "imageUrl": "https://i.ytimg.com/vi/wM3jVu71SXk/maxresdefault.jpg",
       "series": "335805",
-      "width": 1280,
-      "height": 720,
-      "status": "PREFLIGHT_PASSED"
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E02",
@@ -47,9 +45,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342671",
       "imageUrl": "https://i.ytimg.com/vi/we3r6hO0Lqw/maxresdefault.jpg",
       "series": "335805",
-      "width": 1280,
-      "height": 720,
-      "status": "PREFLIGHT_PASSED"
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E05",
@@ -104,9 +100,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342696",
       "imageUrl": "https://i.ytimg.com/vi/T3gSMb16do8/maxresdefault.jpg",
       "series": "335805",
-      "width": 1280,
-      "height": 720,
-      "status": "PREFLIGHT_PASSED"
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E10",
@@ -216,9 +210,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342730",
       "imageUrl": "https://i.ytimg.com/vi/JOfqoq3_mEE/maxresdefault.jpg",
       "series": "335805",
-      "width": 1280,
-      "height": 720,
-      "status": "PREFLIGHT_PASSED"
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E20",
@@ -229,9 +221,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342731",
       "imageUrl": "https://i.ytimg.com/vi/st7NoAenjqM/maxresdefault.jpg",
       "series": "335805",
-      "width": 1280,
-      "height": 720,
-      "status": "PREFLIGHT_PASSED"
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E21",
@@ -330,9 +320,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342761",
       "imageUrl": "https://i.ytimg.com/vi/b65vzV698os/maxresdefault.jpg",
       "series": "335805",
-      "width": 1280,
-      "height": 720,
-      "status": "PREFLIGHT_PASSED"
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E30",
@@ -354,9 +342,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342778",
       "imageUrl": "https://i.ytimg.com/vi/LAfLD0GPBXM/maxresdefault.jpg",
       "series": "335805",
-      "width": 1280,
-      "height": 720,
-      "status": "PREFLIGHT_PASSED"
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E32",
@@ -378,9 +364,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342795",
       "imageUrl": "https://i.ytimg.com/vi/aIHPx6GjEo4/maxresdefault.jpg",
       "series": "335805",
-      "width": 1280,
-      "height": 720,
-      "status": "PREFLIGHT_PASSED"
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2016E38",
@@ -435,9 +419,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342879",
       "imageUrl": "https://i.ytimg.com/vi/zPUW-V677lw/maxresdefault.jpg",
       "series": "335805",
-      "width": 1280,
-      "height": 720,
-      "status": "PREFLIGHT_PASSED"
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2017E09",
@@ -459,9 +441,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342905",
       "imageUrl": "https://i.ytimg.com/vi/GayXNrb-TK4/maxresdefault.jpg",
       "series": "335805",
-      "width": 1280,
-      "height": 720,
-      "status": "PREFLIGHT_PASSED"
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2017E15",
@@ -494,9 +474,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342910",
       "imageUrl": "https://i.ytimg.com/vi/jEwsneWOOuM/maxresdefault.jpg",
       "series": "335805",
-      "width": 1280,
-      "height": 720,
-      "status": "PREFLIGHT_PASSED"
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2017E18",
@@ -507,9 +485,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342911",
       "imageUrl": "https://i.ytimg.com/vi/5XUzzH7Io3Y/maxresdefault.jpg",
       "series": "335805",
-      "width": 1280,
-      "height": 720,
-      "status": "PREFLIGHT_PASSED"
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2017E20",
@@ -531,9 +507,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342916",
       "imageUrl": "https://i.ytimg.com/vi/I98ru7UIRqI/maxresdefault.jpg",
       "series": "335805",
-      "width": 1280,
-      "height": 720,
-      "status": "PREFLIGHT_PASSED"
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2017E23",
@@ -566,9 +540,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342940",
       "imageUrl": "https://i.ytimg.com/vi/rBPrIwwMYAw/maxresdefault.jpg",
       "series": "335805",
-      "width": 1280,
-      "height": 720,
-      "status": "PREFLIGHT_PASSED"
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2017E31",
@@ -590,9 +562,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342943",
       "imageUrl": "https://i.ytimg.com/vi/jNkdJJhouso/maxresdefault.jpg",
       "series": "335805",
-      "width": 1280,
-      "height": 720,
-      "status": "PREFLIGHT_PASSED"
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2017E36",
@@ -603,9 +573,7 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6342946",
       "imageUrl": "https://i.ytimg.com/vi/xX0iR550jLM/maxresdefault.jpg",
       "series": "335805",
-      "width": 1280,
-      "height": 720,
-      "status": "PREFLIGHT_PASSED"
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2017E37",
@@ -671,9 +639,10 @@
       "url": "https://thetvdb.com/series/335805-show/episodes/6596770",
       "imageUrl": "https://i.ytimg.com/vi/JN_rfagFBhI/maxresdefault.jpg",
       "series": "335805",
-      "width": 1280,
-      "height": 720,
-      "status": "PREFLIGHT_PASSED"
+      "status": "ARTWORK_PRESENT",
+      "artwork": [
+        "https://artworks.thetvdb.com/banners/v4/episode/6596770/screencap/6ac669feb1f02.jpg"
+      ]
     },
     {
       "code": "S2018E20",
@@ -801,213 +770,318 @@
       "imageUrl": "https://i.ytimg.com/vi/hS-qVsj-AGI/maxresdefault.jpg",
       "series": "335805",
       "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "code": "S2019E01",
+      "episodeId": "6984404",
+      "title": "LE PIRE BLINDTEST ! (Feat Laink & Terracid)",
+      "youtubeId": "bsPKglRnM_0",
+      "youtubeTitle": "LE PIRE BLINDTEST ! (Feat Laink & Terracid)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6984404",
+      "imageUrl": "https://i.ytimg.com/vi/bsPKglRnM_0/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2019E05",
+      "episodeId": "7051437",
+      "title": "VEGEDREAM - RAMENEZ LE GREC À LA MAISON (PARODIE)",
+      "youtubeId": "RAY2SjsOQE4",
+      "youtubeTitle": "VEGEDREAM - RAMENEZ LE GREC À LA MAISON (PARODIE)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7051437",
+      "imageUrl": "https://i.ytimg.com/vi/RAY2SjsOQE4/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2019E06",
+      "episodeId": "7051439",
+      "title": "VOS QUESTIONS SUR LA REDBOX ! (Et sur moi aussi)",
+      "youtubeId": "GPa5JO-i-dI",
+      "youtubeTitle": "VOS QUESTIONS SUR LA REDBOX ! (Et sur moi aussi)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7051439",
+      "imageUrl": "https://i.ytimg.com/vi/GPa5JO-i-dI/maxresdefault.jpg",
+      "series": "335805",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "code": "S2019E08",
+      "episodeId": "7194739",
+      "title": "J'AI PARTICIPÉ À UNE TÉLÉRÉALITÉ... (CONCOURS DE DJ)",
+      "youtubeId": "9N5SYSxFMaA",
+      "youtubeTitle": "J'AI PARTICIPÉ À UNE TÉLÉRÉALITÉ... (CONCOURS DE DJ)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7194739",
+      "imageUrl": "https://i.ytimg.com/vi/9N5SYSxFMaA/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2019E09",
+      "episodeId": "7194745",
+      "title": "LES MEILLEURES HALLUCINATIONS AUDITIVES ! #2",
+      "youtubeId": "qpZ9Un_mBnA",
+      "youtubeTitle": "LES MEILLEURES HALLUCINATIONS AUDITIVES ! #2",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7194745",
+      "imageUrl": "https://i.ytimg.com/vi/qpZ9Un_mBnA/maxresdefault.jpg",
+      "series": "335805",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "code": "S2019E10",
+      "episodeId": "7194756",
+      "title": "CES TUTOS N'ONT AUCUN SENS !",
+      "youtubeId": "JG4LKgruqIk",
+      "youtubeTitle": "CES TUTOS N'ONT AUCUN SENS ! 🤯",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7194756",
+      "imageUrl": "https://i.ytimg.com/vi/JG4LKgruqIk/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2019E11",
+      "episodeId": "7194759",
+      "title": "ON PARODIE NOTRE CLIP ! (Feat Amixem)",
+      "youtubeId": "cVZGDg1M3Fg",
+      "youtubeTitle": "ON PARODIE NOTRE CLIP ! (Feat Amixem)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7194759",
+      "imageUrl": "https://i.ytimg.com/vi/cVZGDg1M3Fg/maxresdefault.jpg",
+      "series": "335805",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "code": "S2019E12",
+      "episodeId": "7194769",
+      "title": "JOYCA - PARTY END",
+      "youtubeId": "ar4UwBAlLo0",
+      "youtubeTitle": "JOYCA - PARTY END",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7194769",
+      "imageUrl": "https://i.ytimg.com/vi/ar4UwBAlLo0/maxresdefault.jpg",
+      "series": "335805",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "code": "S2019E13",
+      "episodeId": "7194774",
+      "title": "C'EST BIENTÔT LA FIN DU MONDE ? (non)",
+      "youtubeId": "LBVnRzZ3ATA",
+      "youtubeTitle": "C'EST BIENTÔT LA FIN DU MONDE ? (non)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7194774",
+      "imageUrl": "https://i.ytimg.com/vi/LBVnRzZ3ATA/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2019E14",
+      "episodeId": "7255026",
+      "title": "J'APPELLE DES VOYANTES !",
+      "youtubeId": "Z477FUmxidY",
+      "youtubeTitle": "J'APPELLE DES VOYANTES ! 🔮",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7255026",
+      "imageUrl": "https://i.ytimg.com/vi/Z477FUmxidY/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2019E15",
+      "episodeId": "7255032",
+      "title": "C'EST LA FIN... - L'AVENTURE MÉDIÉVALE #3",
+      "youtubeId": "fA8R5BWUhHY",
+      "youtubeTitle": "C'EST LA FIN... - L'AVENTURE MÉDIÉVALE #3",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7255032",
+      "imageUrl": "https://i.ytimg.com/vi/fA8R5BWUhHY/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2019E16",
+      "episodeId": "7255033",
+      "title": "LE MEILLEUR BLINDTEST ! (Le perdant n'est pas prêt)",
+      "youtubeId": "fzl8gQ198j4",
+      "youtubeTitle": "LE MEILLEUR BLINDTEST ! (Le perdant n'est pas prêt)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7255033",
+      "imageUrl": "https://i.ytimg.com/vi/fzl8gQ198j4/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2019E17",
+      "episodeId": "7255034",
+      "title": "CES STYLES MUSICAUX SONT IMPROBABLES...",
+      "youtubeId": "HSeWUgQ-2vA",
+      "youtubeTitle": "CES STYLES MUSICAUX SONT IMPROBABLES... 🤷‍♂️",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7255034",
+      "imageUrl": "https://i.ytimg.com/vi/HSeWUgQ-2vA/maxresdefault.jpg",
+      "series": "335805",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "code": "S2019E18",
+      "episodeId": "7255036",
+      "title": "BOÎTE À MENSONGES CHALLENGE - JOYCA",
+      "youtubeId": "w39bjfSPOBY",
+      "youtubeTitle": "BOÎTE À MENSONGES CHALLENGE - JOYCA",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7255036",
+      "imageUrl": "https://i.ytimg.com/vi/w39bjfSPOBY/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2019E19",
+      "episodeId": "7255039",
+      "title": "CES TUTOS N'ONT AUCUN SENS ! #2",
+      "youtubeId": "oVw5Rx7ZMU0",
+      "youtubeTitle": "CES TUTOS N'ONT AUCUN SENS ! 🤯#2",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7255039",
+      "imageUrl": "https://i.ytimg.com/vi/oVw5Rx7ZMU0/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2019E20",
+      "episodeId": "7255050",
+      "title": "CES QUESTIONS QUI NOUS RENDENT FOUS !",
+      "youtubeId": "NA3OKQ1YxoE",
+      "youtubeTitle": "CES QUESTIONS QUI NOUS RENDENT FOUS !",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7255050",
+      "imageUrl": "https://i.ytimg.com/vi/NA3OKQ1YxoE/maxresdefault.jpg",
+      "series": "335805",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "code": "S2019E21",
+      "episodeId": "7255055",
+      "title": "CETTE SÉRIE POURRAIT BIEN DEVENIR RÉALITÉ... (Et c'est flippant)",
+      "youtubeId": "DxZDYyLonjo",
+      "youtubeTitle": "CETTE SÉRIE POURRAIT BIEN DEVENIR RÉALITÉ... (Et c'est flippant)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7255055",
+      "imageUrl": "https://i.ytimg.com/vi/DxZDYyLonjo/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2019E22",
+      "episodeId": "7255058",
+      "title": "J'Y AI PASSÉ DES HEURES ! (Mais ça valait le coup)",
+      "youtubeId": "-78KNa6Ut8w",
+      "youtubeTitle": "J'Y AI PASSÉ DES HEURES ! (Mais ça valait le coup)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7255058",
+      "imageUrl": "https://i.ytimg.com/vi/-78KNa6Ut8w/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2019E23",
+      "episodeId": "7293244",
+      "title": "UNE JOURNÉE POUR CONSTRUIRE UN RADEAU ! (Et c'était pas gagné...)",
+      "youtubeId": "0NcpmF11W9o",
+      "youtubeTitle": "UNE JOURNÉE POUR CONSTRUIRE UN RADEAU ! (Et c'était pas gagné...)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7293244",
+      "imageUrl": "https://i.ytimg.com/vi/0NcpmF11W9o/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2019E24",
+      "episodeId": "7293249",
+      "title": "LA COURSE DE RADEAUX LA PLUS EXTRÊME (Pas du tout...)",
+      "youtubeId": "50a9119mfq8",
+      "youtubeTitle": "LA COURSE DE RADEAUX LA PLUS EXTRÊME (Pas du tout...)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7293249",
+      "imageUrl": "https://i.ytimg.com/vi/50a9119mfq8/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2019E25",
+      "episodeId": "7293251",
+      "title": "CES REALITY SHOW SONT... DOUTEUX (ou juste drôles)",
+      "youtubeId": "G1ZPW7TmfsY",
+      "youtubeTitle": "CES REALITY SHOW SONT... DOUTEUX (ou juste drôles)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7293251",
+      "imageUrl": "https://i.ytimg.com/vi/G1ZPW7TmfsY/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2019E26",
+      "episodeId": "7293252",
+      "title": "CETTE SERIE POURRAIT BIEN DEVENIR RÉALITÉ...#2 (Et c'est toujours aussi flippant)",
+      "youtubeId": "D6_mbQE02qw",
+      "youtubeTitle": "CETTE SERIE POURRAIT BIEN DEVENIR RÉALITÉ...#2 (Et c'est toujours aussi flippant)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7293252",
+      "imageUrl": "https://i.ytimg.com/vi/D6_mbQE02qw/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2019E27",
+      "episodeId": "8371679",
+      "title": "LE JOUR OÙ JE L'AI RENCONTRÉE ! (Oui, c'est une girafe)",
+      "youtubeId": "7isjNi1MDmA",
+      "youtubeTitle": "LE JOUR OÙ JE L'AI RENCONTRÉE ! (Oui, c'est une girafe)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/8371679",
+      "imageUrl": "https://i.ytimg.com/vi/7isjNi1MDmA/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2019E28",
+      "episodeId": "8371680",
+      "title": "JE PARODIE BYE BYE ET MIRADOR ! (Without Music)",
+      "youtubeId": "s1AON2lU5A8",
+      "youtubeTitle": "JE PARODIE BYE BYE ET MIRADOR ! (Without Music)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/8371680",
+      "imageUrl": "https://i.ytimg.com/vi/s1AON2lU5A8/maxresdefault.jpg",
+      "series": "335805",
+      "status": "HISTORY_ALREADY_VERIFIED"
+    },
+    {
+      "code": "S2019E29",
+      "episodeId": "8371681",
+      "title": "Joyca - Haut de Gamme (Feat. Boostee)",
+      "youtubeId": "7HIu0U1wlwk",
+      "youtubeTitle": "Joyca - Haut de Gamme (Feat. Boostee)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/8371681",
+      "imageUrl": "https://i.ytimg.com/vi/7HIu0U1wlwk/maxresdefault.jpg",
+      "series": "335805",
+      "status": "HISTORY_ALREADY_VERIFIED"
     }
   ],
   "planned": [
-    {
-      "code": "S2016E01",
-      "episodeId": "6342668",
-      "title": "MANUEL VALLS - NOUS L'ASSUMONS // LOI TRAVAIL (REMIX)",
-      "youtubeId": "wM3jVu71SXk",
-      "youtubeTitle": "MANUEL VALLS - NOUS L'ASSUMONS // LOI TRAVAIL (REMIX)",
-      "url": "https://thetvdb.com/series/335805-show/episodes/6342668",
-      "imageUrl": "https://i.ytimg.com/vi/wM3jVu71SXk/maxresdefault.jpg",
-      "series": "335805",
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "code": "S2016E04",
-      "episodeId": "6342671",
-      "title": "PASCAL & RICHARD - MAMAN (REMIX)",
-      "youtubeId": "we3r6hO0Lqw",
-      "youtubeTitle": "PASCAL & RICHARD - MAMAN (REMIX)",
-      "url": "https://thetvdb.com/series/335805-show/episodes/6342671",
-      "imageUrl": "https://i.ytimg.com/vi/we3r6hO0Lqw/maxresdefault.jpg",
-      "series": "335805",
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "code": "S2016E09",
-      "episodeId": "6342696",
-      "title": "LE BLED'ART - LA MERGUEZ ACADEMY (REMIX)",
-      "youtubeId": "T3gSMb16do8",
-      "youtubeTitle": "LE BLED'ART - LA MERGUEZ ACADEMY (REMIX)",
-      "url": "https://thetvdb.com/series/335805-show/episodes/6342696",
-      "imageUrl": "https://i.ytimg.com/vi/T3gSMb16do8/maxresdefault.jpg",
-      "series": "335805",
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "code": "S2016E19",
-      "episodeId": "6342730",
-      "title": "YOUTUNES - J'AIME LES CHATS (MUSIQUE)",
-      "youtubeId": "JOfqoq3_mEE",
-      "youtubeTitle": "YOUTUNES - J'AIME LES CHATS (MUSIQUE)",
-      "url": "https://thetvdb.com/series/335805-show/episodes/6342730",
-      "imageUrl": "https://i.ytimg.com/vi/JOfqoq3_mEE/maxresdefault.jpg",
-      "series": "335805",
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "code": "S2016E20",
-      "episodeId": "6342731",
-      "title": "NORMAN - J'AURAI DES MUSCLES (REMIX)",
-      "youtubeId": "st7NoAenjqM",
-      "youtubeTitle": "NORMAN - J'AURAI DES MUSCLES (REMIX)",
-      "url": "https://thetvdb.com/series/335805-show/episodes/6342731",
-      "imageUrl": "https://i.ytimg.com/vi/st7NoAenjqM/maxresdefault.jpg",
-      "series": "335805",
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "code": "S2016E29",
-      "episodeId": "6342761",
-      "title": "CBGAMES - OH BÉBÉ (REMIX)",
-      "youtubeId": "b65vzV698os",
-      "youtubeTitle": "CBGAMES - OH BÉBÉ (REMIX)",
-      "url": "https://thetvdb.com/series/335805-show/episodes/6342761",
-      "imageUrl": "https://i.ytimg.com/vi/b65vzV698os/maxresdefault.jpg",
-      "series": "335805",
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "code": "S2016E31",
-      "episodeId": "6342778",
-      "title": "SOPRANO - T'ES UN BEAUF (PARODIE)",
-      "youtubeId": "LAfLD0GPBXM",
-      "youtubeTitle": "SOPRANO - T'ES UN BEAUF (PARODIE)",
-      "url": "https://thetvdb.com/series/335805-show/episodes/6342778",
-      "imageUrl": "https://i.ytimg.com/vi/LAfLD0GPBXM/maxresdefault.jpg",
-      "series": "335805",
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "code": "S2016E34",
-      "episodeId": "6342795",
-      "title": "PNL & SCH - GESTES DE PREMIERS SECOURS ( PARODIE )",
-      "youtubeId": "aIHPx6GjEo4",
-      "youtubeTitle": "PNL & SCH - GESTES DE PREMIERS SECOURS ( PARODIE )",
-      "url": "https://thetvdb.com/series/335805-show/episodes/6342795",
-      "imageUrl": "https://i.ytimg.com/vi/aIHPx6GjEo4/maxresdefault.jpg",
-      "series": "335805",
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "code": "S2017E08",
-      "episodeId": "6342879",
-      "title": "FAROD - LE JEU A PLANTÉ ! (REMIX)",
-      "youtubeId": "zPUW-V677lw",
-      "youtubeTitle": "FAROD - LE JEU A PLANTÉ ! (REMIX)",
-      "url": "https://thetvdb.com/series/335805-show/episodes/6342879",
-      "imageUrl": "https://i.ytimg.com/vi/zPUW-V677lw/maxresdefault.jpg",
-      "series": "335805",
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "code": "S2017E13",
-      "episodeId": "6342905",
-      "title": "KEBLACK - MAQUILLÉE (PARODIE)",
-      "youtubeId": "GayXNrb-TK4",
-      "youtubeTitle": "KEBLACK - MAQUILLÉE (PARODIE)",
-      "url": "https://thetvdb.com/series/335805-show/episodes/6342905",
-      "imageUrl": "https://i.ytimg.com/vi/GayXNrb-TK4/maxresdefault.jpg",
-      "series": "335805",
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "code": "S2017E17",
-      "episodeId": "6342910",
-      "title": "ON CHANTE EN IMPRO AVEC DE L'AUTOTUNE !",
-      "youtubeId": "jEwsneWOOuM",
-      "youtubeTitle": "ON CHANTE EN IMPRO AVEC DE L'AUTOTUNE !",
-      "url": "https://thetvdb.com/series/335805-show/episodes/6342910",
-      "imageUrl": "https://i.ytimg.com/vi/jEwsneWOOuM/maxresdefault.jpg",
-      "series": "335805",
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "code": "S2017E18",
-      "episodeId": "6342911",
-      "title": "MC FLY & CARLITO Ft FLOBER - CA M'INTERESSE PAS ! (REMIX)",
-      "youtubeId": "5XUzzH7Io3Y",
-      "youtubeTitle": "MC FLY & CARLITO Ft FLOBER - CA M'INTERESSE PAS ! (REMIX)",
-      "url": "https://thetvdb.com/series/335805-show/episodes/6342911",
-      "imageUrl": "https://i.ytimg.com/vi/5XUzzH7Io3Y/maxresdefault.jpg",
-      "series": "335805",
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "code": "S2017E21",
-      "episodeId": "6342916",
-      "title": "J'AI RENCONTRÉ YOUSSOUPHA !",
-      "youtubeId": "I98ru7UIRqI",
-      "youtubeTitle": "J'AI RENCONTRÉ YOUSSOUPHA !",
-      "url": "https://thetvdb.com/series/335805-show/episodes/6342916",
-      "imageUrl": "https://i.ytimg.com/vi/I98ru7UIRqI/maxresdefault.jpg",
-      "series": "335805",
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "code": "S2017E30",
-      "episodeId": "6342940",
-      "title": "LUIS FONSI - J'VAIS VOUS PECHO (PARODIE)",
-      "youtubeId": "rBPrIwwMYAw",
-      "youtubeTitle": "LUIS FONSI - J'VAIS VOUS PECHO (PARODIE)",
-      "url": "https://thetvdb.com/series/335805-show/episodes/6342940",
-      "imageUrl": "https://i.ytimg.com/vi/rBPrIwwMYAw/maxresdefault.jpg",
-      "series": "335805",
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "code": "S2017E33",
-      "episodeId": "6342943",
-      "title": "AMIXEM ME PRANK ! (JE DECIDE DE CONTINUER À VIVRE)",
-      "youtubeId": "jNkdJJhouso",
-      "youtubeTitle": "AMIXEM ME PRANK ! (JE DECIDE DE CONTINUER À VIVRE)",
-      "url": "https://thetvdb.com/series/335805-show/episodes/6342943",
-      "imageUrl": "https://i.ytimg.com/vi/jNkdJJhouso/maxresdefault.jpg",
-      "series": "335805",
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "code": "S2017E36",
-      "episodeId": "6342946",
-      "title": "J'AI FAIT RAPPER PEWDIEPIE !",
-      "youtubeId": "xX0iR550jLM",
-      "youtubeTitle": "J'AI FAIT RAPPER PEWDIEPIE !",
-      "url": "https://thetvdb.com/series/335805-show/episodes/6342946",
-      "imageUrl": "https://i.ytimg.com/vi/xX0iR550jLM/maxresdefault.jpg",
-      "series": "335805",
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "code": "S2018E08",
-      "episodeId": "6596770",
-      "title": "J'AI JOUÉ DANS UN FILM !",
-      "youtubeId": "JN_rfagFBhI",
-      "youtubeTitle": "J'AI JOUÉ DANS UN FILM !",
-      "url": "https://thetvdb.com/series/335805-show/episodes/6596770",
-      "imageUrl": "https://i.ytimg.com/vi/JN_rfagFBhI/maxresdefault.jpg",
-      "series": "335805",
-      "width": 1280,
-      "height": 720
-    },
     {
       "code": "S2018E20",
       "episodeId": "6695243",
@@ -1043,10 +1117,214 @@
       "series": "335805",
       "width": 1280,
       "height": 720
+    },
+    {
+      "code": "S2019E01",
+      "episodeId": "6984404",
+      "title": "LE PIRE BLINDTEST ! (Feat Laink & Terracid)",
+      "youtubeId": "bsPKglRnM_0",
+      "youtubeTitle": "LE PIRE BLINDTEST ! (Feat Laink & Terracid)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/6984404",
+      "imageUrl": "https://i.ytimg.com/vi/bsPKglRnM_0/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2019E05",
+      "episodeId": "7051437",
+      "title": "VEGEDREAM - RAMENEZ LE GREC À LA MAISON (PARODIE)",
+      "youtubeId": "RAY2SjsOQE4",
+      "youtubeTitle": "VEGEDREAM - RAMENEZ LE GREC À LA MAISON (PARODIE)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7051437",
+      "imageUrl": "https://i.ytimg.com/vi/RAY2SjsOQE4/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2019E08",
+      "episodeId": "7194739",
+      "title": "J'AI PARTICIPÉ À UNE TÉLÉRÉALITÉ... (CONCOURS DE DJ)",
+      "youtubeId": "9N5SYSxFMaA",
+      "youtubeTitle": "J'AI PARTICIPÉ À UNE TÉLÉRÉALITÉ... (CONCOURS DE DJ)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7194739",
+      "imageUrl": "https://i.ytimg.com/vi/9N5SYSxFMaA/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2019E10",
+      "episodeId": "7194756",
+      "title": "CES TUTOS N'ONT AUCUN SENS !",
+      "youtubeId": "JG4LKgruqIk",
+      "youtubeTitle": "CES TUTOS N'ONT AUCUN SENS ! 🤯",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7194756",
+      "imageUrl": "https://i.ytimg.com/vi/JG4LKgruqIk/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2019E13",
+      "episodeId": "7194774",
+      "title": "C'EST BIENTÔT LA FIN DU MONDE ? (non)",
+      "youtubeId": "LBVnRzZ3ATA",
+      "youtubeTitle": "C'EST BIENTÔT LA FIN DU MONDE ? (non)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7194774",
+      "imageUrl": "https://i.ytimg.com/vi/LBVnRzZ3ATA/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2019E14",
+      "episodeId": "7255026",
+      "title": "J'APPELLE DES VOYANTES !",
+      "youtubeId": "Z477FUmxidY",
+      "youtubeTitle": "J'APPELLE DES VOYANTES ! 🔮",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7255026",
+      "imageUrl": "https://i.ytimg.com/vi/Z477FUmxidY/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2019E15",
+      "episodeId": "7255032",
+      "title": "C'EST LA FIN... - L'AVENTURE MÉDIÉVALE #3",
+      "youtubeId": "fA8R5BWUhHY",
+      "youtubeTitle": "C'EST LA FIN... - L'AVENTURE MÉDIÉVALE #3",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7255032",
+      "imageUrl": "https://i.ytimg.com/vi/fA8R5BWUhHY/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2019E16",
+      "episodeId": "7255033",
+      "title": "LE MEILLEUR BLINDTEST ! (Le perdant n'est pas prêt)",
+      "youtubeId": "fzl8gQ198j4",
+      "youtubeTitle": "LE MEILLEUR BLINDTEST ! (Le perdant n'est pas prêt)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7255033",
+      "imageUrl": "https://i.ytimg.com/vi/fzl8gQ198j4/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2019E18",
+      "episodeId": "7255036",
+      "title": "BOÎTE À MENSONGES CHALLENGE - JOYCA",
+      "youtubeId": "w39bjfSPOBY",
+      "youtubeTitle": "BOÎTE À MENSONGES CHALLENGE - JOYCA",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7255036",
+      "imageUrl": "https://i.ytimg.com/vi/w39bjfSPOBY/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2019E19",
+      "episodeId": "7255039",
+      "title": "CES TUTOS N'ONT AUCUN SENS ! #2",
+      "youtubeId": "oVw5Rx7ZMU0",
+      "youtubeTitle": "CES TUTOS N'ONT AUCUN SENS ! 🤯#2",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7255039",
+      "imageUrl": "https://i.ytimg.com/vi/oVw5Rx7ZMU0/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2019E21",
+      "episodeId": "7255055",
+      "title": "CETTE SÉRIE POURRAIT BIEN DEVENIR RÉALITÉ... (Et c'est flippant)",
+      "youtubeId": "DxZDYyLonjo",
+      "youtubeTitle": "CETTE SÉRIE POURRAIT BIEN DEVENIR RÉALITÉ... (Et c'est flippant)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7255055",
+      "imageUrl": "https://i.ytimg.com/vi/DxZDYyLonjo/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2019E22",
+      "episodeId": "7255058",
+      "title": "J'Y AI PASSÉ DES HEURES ! (Mais ça valait le coup)",
+      "youtubeId": "-78KNa6Ut8w",
+      "youtubeTitle": "J'Y AI PASSÉ DES HEURES ! (Mais ça valait le coup)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7255058",
+      "imageUrl": "https://i.ytimg.com/vi/-78KNa6Ut8w/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2019E23",
+      "episodeId": "7293244",
+      "title": "UNE JOURNÉE POUR CONSTRUIRE UN RADEAU ! (Et c'était pas gagné...)",
+      "youtubeId": "0NcpmF11W9o",
+      "youtubeTitle": "UNE JOURNÉE POUR CONSTRUIRE UN RADEAU ! (Et c'était pas gagné...)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7293244",
+      "imageUrl": "https://i.ytimg.com/vi/0NcpmF11W9o/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2019E24",
+      "episodeId": "7293249",
+      "title": "LA COURSE DE RADEAUX LA PLUS EXTRÊME (Pas du tout...)",
+      "youtubeId": "50a9119mfq8",
+      "youtubeTitle": "LA COURSE DE RADEAUX LA PLUS EXTRÊME (Pas du tout...)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7293249",
+      "imageUrl": "https://i.ytimg.com/vi/50a9119mfq8/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2019E25",
+      "episodeId": "7293251",
+      "title": "CES REALITY SHOW SONT... DOUTEUX (ou juste drôles)",
+      "youtubeId": "G1ZPW7TmfsY",
+      "youtubeTitle": "CES REALITY SHOW SONT... DOUTEUX (ou juste drôles)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7293251",
+      "imageUrl": "https://i.ytimg.com/vi/G1ZPW7TmfsY/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2019E26",
+      "episodeId": "7293252",
+      "title": "CETTE SERIE POURRAIT BIEN DEVENIR RÉALITÉ...#2 (Et c'est toujours aussi flippant)",
+      "youtubeId": "D6_mbQE02qw",
+      "youtubeTitle": "CETTE SERIE POURRAIT BIEN DEVENIR RÉALITÉ...#2 (Et c'est toujours aussi flippant)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/7293252",
+      "imageUrl": "https://i.ytimg.com/vi/D6_mbQE02qw/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "code": "S2019E27",
+      "episodeId": "8371679",
+      "title": "LE JOUR OÙ JE L'AI RENCONTRÉE ! (Oui, c'est une girafe)",
+      "youtubeId": "7isjNi1MDmA",
+      "youtubeTitle": "LE JOUR OÙ JE L'AI RENCONTRÉE ! (Oui, c'est une girafe)",
+      "url": "https://thetvdb.com/series/335805-show/episodes/8371679",
+      "imageUrl": "https://i.ytimg.com/vi/7isjNi1MDmA/maxresdefault.jpg",
+      "series": "335805",
+      "width": 1280,
+      "height": 720
     }
   ],
   "counters": {
-    "artworkPresent": 0,
+    "artworkPresent": 1,
     "titleDrift": 0,
     "imageUnavailable": 0,
     "imageWrongSize": 0,
@@ -1055,5 +1333,5 @@
   },
   "blocked": [],
   "result": "PREFLIGHT_READY",
-  "historicalDone": 80
+  "historicalDone": 96
 }
