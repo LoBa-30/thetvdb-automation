@@ -6,7 +6,7 @@ from pathlib import Path
 
 OUT=Path('reports/maxime-s2025e01-thumbnail-probe-2026-10-07');OUT.mkdir(parents=True,exist_ok=True)
 vid='EqFLIsSB2hg'
-variants=['maxresdefault.jpg','hq720.jpg','sddefault.jpg','hqdefault.jpg','0.jpg','maxresdefault.webp','hq720.webp','sddefault.webp','hqdefault.webp']
+variants=['maxresdefault.jpg','maxres1.jpg','maxres2.jpg','maxres3.jpg','hq720.jpg','sddefault.jpg','sd1.jpg','sd2.jpg','sd3.jpg','hqdefault.jpg','hq1.jpg','hq2.jpg','hq3.jpg','0.jpg','1.jpg','2.jpg','3.jpg','maxresdefault.webp','maxres1.webp','maxres2.webp','maxres3.webp','sddefault.webp','sd1.webp','sd2.webp','sd3.webp','hqdefault.webp','hq1.webp','hq2.webp','hq3.webp']
 S=requests.Session();S.headers.update({'User-Agent':'Mozilla/5.0'})
 rows=[]
 for name in variants:
