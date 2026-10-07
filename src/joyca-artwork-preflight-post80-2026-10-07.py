@@ -1,4 +1,4 @@
-import json,re,requests,unicodedata,sys
+import json,re,requests,unicodedata,sys,html
 from pathlib import Path
 from io import BytesIO
 from PIL import Image
@@ -9,7 +9,8 @@ BASE='https://thetvdb.com';SLUG='335805-show';SERIES='335805'
 audit=json.loads(Path('reports/joyca-final/audit.json').read_text(encoding='utf-8'))
 
 def norm(s):
-    s=unicodedata.normalize('NFKD',s or '')
+    s=html.unescape(s or '')
+    s=unicodedata.normalize('NFKD',s)
     s=''.join(c for c in s if not unicodedata.combining(c)).lower()
     s=re.sub(r'@[\w.-]+',' ',s);s=re.sub(r'[^a-z0-9]+',' ',s)
     return re.sub(r'\s+',' ',s).strip()
@@ -52,7 +53,7 @@ for p in rows:
             report['checked'].append({**p,'status':'TVDB_HTTP','http':r.status_code});continue
         h=re.search(r'<h[12][^>]*>(.*?)</h[12]>',r.text,re.I|re.S)
         heading=re.sub('<[^<]+?>',' ',h.group(1)) if h else ''
-        heading=' '.join(heading.split())
+        heading=html.unescape(' '.join(heading.split()))
         if norm(heading)!=norm(p['title']):
             report['counters']['titleDrift']+=1;report['checked'].append({**p,'status':'TITLE_DRIFT','heading':heading});continue
         arts=sorted(set(re.findall(r'https://artworks\.thetvdb\.com/[^"\'<>\s]+episode[^"\'<>\s]+/screencap/[^"\'<>\s]+',r.text)))
