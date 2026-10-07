@@ -1,0 +1,650 @@
+{
+  "generatedAt": "2026-10-07T12:52:55.001Z",
+  "mode": "GUARDED_RASKA_ARTWORK_BATCH_2",
+  "armed": true,
+  "authenticated": true,
+  "candidates": [
+    "S2021E02",
+    "S2021E03",
+    "S2022E06",
+    "S2022E07",
+    "S2022E10",
+    "S2022E17",
+    "S2022E18",
+    "S2022E19",
+    "S2023E06",
+    "S2023E08",
+    "S2023E20",
+    "S2024E03",
+    "S2024E07",
+    "S2024E09",
+    "S2026E06"
+  ],
+  "results": [
+    {
+      "code": "S2021E02",
+      "episodeId": "11960890",
+      "title": "LE RAPPEUR ET L'ARNAQUE À 30 MILLIONS DE DOLLARS !",
+      "youtubeId": "OyNisujbTN8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE RAPPEUR ET L'ARNAQUE À 30 MILLIONS DE DOLLARS !",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 114367,
+          "url": "https://i.ytimg.com/vi/OyNisujbTN8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328949",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac640ac35062.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960890/screencap/6ac640ad84e3e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E03",
+      "episodeId": "11960891",
+      "title": "QUIZZ RAP 3 : test tes connaissances ! (SCH, Freeze Corleone,...)",
+      "youtubeId": "5-z4Vs7Ml54",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "QUIZZ RAP 3 : test tes connaissances ! (SCH, Freeze Corleone,...)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 153074,
+          "url": "https://i.ytimg.com/vi/5-z4Vs7Ml54/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328950",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac640b129f69.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960891/screencap/6ac640b62d46f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2022E06",
+      "episodeId": "11960917",
+      "title": "Des personnes âgées découvrent le rap ! (PNL, Gazo x Freeze Corleone, Kaaris...)",
+      "youtubeId": "UXPwfPGSH0k",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Des personnes âgées découvrent le rap ! (PNL, Gazo x Freeze Corleone, Kaaris...)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 132421,
+          "url": "https://i.ytimg.com/vi/UXPwfPGSH0k/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328951",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac640ba39e24.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960917/screencap/6ac640bb71510.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2022E07",
+      "episodeId": "11960918",
+      "title": "Les pires peintres de France ! (ft. @TheoBabac & @YassEncore)",
+      "youtubeId": "mX0zwJOgl8w",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Les pires peintres de France ! (ft. @TheoBabac & @YassEncore)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 130051,
+          "url": "https://i.ytimg.com/vi/mX0zwJOgl8w/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328952",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac640bf234e9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960918/screencap/6ac640c0710f4.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2022E10",
+      "episodeId": "11960921",
+      "title": "Ce jeu va créer des problèmes ! (ft. @theodortytb, @Snaptrox &@Zuukou667)",
+      "youtubeId": "-K0btHmC6Sg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Ce jeu va créer des problèmes ! (ft. @theodortytb, @Snaptrox &@Zuukou667)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 141673,
+          "url": "https://i.ytimg.com/vi/-K0btHmC6Sg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328953",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac640c41688b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960921/screencap/6ac640c544b94.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2022E17",
+      "episodeId": "11960928",
+      "title": "On fait freestyler des inconnus dans la rue ! (NANTES)",
+      "youtubeId": "5yz8wfSqhws",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "On fait freestyler des inconnus dans la rue ! (NANTES)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 136405,
+          "url": "https://i.ytimg.com/vi/5yz8wfSqhws/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328954",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac640c8c3e3d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960928/screencap/6ac640c9ecee7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2022E18",
+      "episodeId": "11960929",
+      "title": "Ce JEU te rendra RICHE ! (ou pas) avec @Evanv77, @Ysos & @totocheGang",
+      "youtubeId": "DK1m3pckmOQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Ce JEU te rendra RICHE ! (ou pas) avec @Evanv77, @Ysos & @totocheGang",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 145972,
+          "url": "https://i.ytimg.com/vi/DK1m3pckmOQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328955",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac640cd834a5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960929/screencap/6ac640ceab8db.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2022E19",
+      "episodeId": "11960930",
+      "title": "L'HISTOIRE du RAP FRANÇAIS (Documentaire)",
+      "youtubeId": "Tb5LJ_wg3vE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "L'HISTOIRE du RAP FRANÇAIS (Documentaire)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 362227,
+          "url": "https://i.ytimg.com/vi/Tb5LJ_wg3vE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328956",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac640d251d44.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960930/screencap/6ac640d391497.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2023E06",
+      "episodeId": "11960801",
+      "title": "TU RIS, TU PERDS ! (avec Soso Maness, Georgio, Theobabac, Totoche & YassEncore)",
+      "youtubeId": "RKpy_sqdZWM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "TU RIS, TU PERDS ! (avec Soso Maness, Georgio, Theobabac, Totoche & YassEncore)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 154202,
+          "url": "https://i.ytimg.com/vi/RKpy_sqdZWM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328959",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac640d7315e1.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960801/screencap/6ac640d859143.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2023E08",
+      "episodeId": "11960803",
+      "title": "Le meilleur jeu rap entre potes ! (Ft. Lonni, Evan & Captaine Roshi)",
+      "youtubeId": "6MaE7zoeALw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Le meilleur jeu rap entre potes ! (Ft. Lonni, Evan & Captaine Roshi)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 194211,
+          "url": "https://i.ytimg.com/vi/6MaE7zoeALw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328960",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac640dc114f8.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960803/screencap/6ac640dd82f05.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2023E20",
+      "episodeId": "11960814",
+      "title": "On juge les albums rap français (TierList avec Mehdi Maïzi & Grimkujow)",
+      "youtubeId": "jWJvBbAD98Q",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "On juge les albums rap français (TierList avec Mehdi Maïzi & Grimkujow)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 157002,
+          "url": "https://i.ytimg.com/vi/jWJvBbAD98Q/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328961",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac640e122328.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960814/screencap/6ac640e27353e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2024E03",
+      "episodeId": "11860678",
+      "title": "On JUGE les COVERS d'albums (TierList avec Rim'k & Fifou)",
+      "youtubeId": "tCg7PtYRnFc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "On JUGE les COVERS d'albums (TierList avec Rim'k & Fifou)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 193272,
+          "url": "https://i.ytimg.com/vi/tCg7PtYRnFc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328962",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac640e5f23b6.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11860678/screencap/6ac640e728d8e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2024E07",
+      "episodeId": "11860673",
+      "title": "VENDS TON SKEUD III (ft. Inoxtag, SEB & ThéoJuice)",
+      "youtubeId": "lpQQNUHBWx8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VENDS TON SKEUD III (ft. Inoxtag, SEB & ThéoJuice)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 152490,
+          "url": "https://i.ytimg.com/vi/lpQQNUHBWx8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328963",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac640eacdb8b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11860673/screencap/6ac640ebf2d77.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2024E09",
+      "episodeId": "11860671",
+      "title": "35H DANS LA PIRE BOÎTE de France (ft. Michou, Byilhan, Flamby & Nicotine)",
+      "youtubeId": "5e45qfiHl3Q",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "35H DANS LA PIRE BOÎTE de France (ft. Michou, Byilhan, Flamby & Nicotine)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 239074,
+          "url": "https://i.ytimg.com/vi/5e45qfiHl3Q/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328964",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac640ef9b9bc.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11860671/screencap/6ac640f0c118c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2026E06",
+      "episodeId": "11978005",
+      "title": "TROUVE L'ERREUR (temporelle) ft. Nico & Tom Baldetti",
+      "youtubeId": "lFm7662FKBY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "TROUVE L'ERREUR (temporelle) ft. Nico & Tom Baldetti",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 272711,
+          "url": "https://i.ytimg.com/vi/lFm7662FKBY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328965",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac640f465632.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11978005/screencap/6ac640f591d10.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 15,
+    "processed": 15,
+    "applied": 15,
+    "skipped": 0,
+    "failed": 0
+  }
+}
