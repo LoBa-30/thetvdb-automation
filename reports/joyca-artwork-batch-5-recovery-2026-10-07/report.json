@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T15:54:19.914Z",
+  "mode": "GUARDED_JOYCA_ARTWORK_BATCH_5_RECOVERY",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2018E20",
+    "S2018E32",
+    "S2018E45",
+    "S2019E01",
+    "S2019E05",
+    "S2019E08",
+    "S2019E10",
+    "S2019E13",
+    "S2019E14",
+    "S2019E15",
+    "S2019E16",
+    "S2019E18",
+    "S2019E19",
+    "S2019E21",
+    "S2019E22",
+    "S2019E23",
+    "S2019E24",
+    "S2019E25",
+    "S2019E26",
+    "S2019E27"
+  ],
+  "results": [
+    {
+      "code": "S2018E20",
+      "episodeId": "6695243",
+      "title": "JOYCA - Heart & Soul Feat Boostee (Clip Officiel)",
+      "youtubeId": "L-lJ4XJOCP4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JOYCA - Heart & Soul Feat Boostee (Clip Officiel)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/L-lJ4XJOCP4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 129940
+        }
+      },
+      "crop": {
+        "id": "2329511",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66b3551053.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6695243/screencap/6ac66b375648c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E32",
+      "episodeId": "6791199",
+      "title": "ÊTES-VOUS INTELLIGENT ?",
+      "youtubeId": "jG-PmHV2O9o",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ÊTES-VOUS INTELLIGENT ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/jG-PmHV2O9o/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 184069
+        }
+      },
+      "crop": {
+        "id": "2329512",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66b3bc86ec.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6791199/screencap/6ac66b3ce9bc6.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E45",
+      "episodeId": "6891768",
+      "title": "TOUT ÇA POUR UNE MUSIQUE...",
+      "youtubeId": "YcA22cpEYGA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "TOUT ÇA POUR UNE MUSIQUE...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/YcA22cpEYGA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 159207
+        }
+      },
+      "crop": {
+        "id": "2329513",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66b412531e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6891768/screencap/6ac66b42473a1.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E01",
+      "episodeId": "6984404",
+      "title": "LE PIRE BLINDTEST ! (Feat Laink & Terracid)",
+      "youtubeId": "bsPKglRnM_0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PIRE BLINDTEST ! (Feat Laink & Terracid)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/bsPKglRnM_0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 124311
+        }
+      },
+      "crop": {
+        "id": "2329514",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66b467668b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6984404/screencap/6ac66b479437c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E05",
+      "episodeId": "7051437",
+      "title": "VEGEDREAM - RAMENEZ LE GREC À LA MAISON (PARODIE)",
+      "youtubeId": "RAY2SjsOQE4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VEGEDREAM - RAMENEZ LE GREC À LA MAISON (PARODIE)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/RAY2SjsOQE4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 67181
+        }
+      },
+      "crop": {
+        "id": "2329515",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66b4b812a3.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7051437/screencap/6ac66b4c9c233.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E08",
+      "episodeId": "7194739",
+      "title": "J'AI PARTICIPÉ À UNE TÉLÉRÉALITÉ... (CONCOURS DE DJ)",
+      "youtubeId": "9N5SYSxFMaA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'AI PARTICIPÉ À UNE TÉLÉRÉALITÉ... (CONCOURS DE DJ)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/9N5SYSxFMaA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 105050
+        }
+      },
+      "crop": {
+        "id": "2329516",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66b50b3b15.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7194739/screencap/6ac66b51ed998.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E10",
+      "episodeId": "7194756",
+      "title": "CES TUTOS N'ONT AUCUN SENS !",
+      "youtubeId": "JG4LKgruqIk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CES TUTOS N'ONT AUCUN SENS !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/JG4LKgruqIk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 132027
+        }
+      },
+      "crop": {
+        "id": "2329517",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66b5607184.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7194756/screencap/6ac66b572c4fe.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E13",
+      "episodeId": "7194774",
+      "title": "C'EST BIENTÔT LA FIN DU MONDE ? (non)",
+      "youtubeId": "LBVnRzZ3ATA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "C'EST BIENTÔT LA FIN DU MONDE ? (non)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/LBVnRzZ3ATA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 125312
+        }
+      },
+      "crop": {
+        "id": "2329518",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66b5b2dc9d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7194774/screencap/6ac66b5c44b05.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E14",
+      "episodeId": "7255026",
+      "title": "J'APPELLE DES VOYANTES !",
+      "youtubeId": "Z477FUmxidY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'APPELLE DES VOYANTES !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Z477FUmxidY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 137017
+        }
+      },
+      "crop": {
+        "id": "2329519",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66b60676de.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7255026/screencap/6ac66b6185a98.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E15",
+      "episodeId": "7255032",
+      "title": "C'EST LA FIN... - L'AVENTURE MÉDIÉVALE #3",
+      "youtubeId": "fA8R5BWUhHY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "C'EST LA FIN... - L'AVENTURE MÉDIÉVALE #3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/fA8R5BWUhHY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 179050
+        }
+      },
+      "crop": {
+        "id": "2329520",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66b65a9176.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7255032/screencap/6ac66b66e9a2e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E16",
+      "episodeId": "7255033",
+      "title": "LE MEILLEUR BLINDTEST ! (Le perdant n'est pas prêt)",
+      "youtubeId": "fzl8gQ198j4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE MEILLEUR BLINDTEST ! (Le perdant n'est pas prêt)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/fzl8gQ198j4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 147924
+        }
+      },
+      "crop": {
+        "id": "2329521",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66b6af31f0.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7255033/screencap/6ac66b6c23287.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E18",
+      "episodeId": "7255036",
+      "title": "BOÎTE À MENSONGES CHALLENGE - JOYCA",
+      "youtubeId": "w39bjfSPOBY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "BOÎTE À MENSONGES CHALLENGE - JOYCA",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/w39bjfSPOBY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 95098
+        }
+      },
+      "crop": {
+        "id": "2329522",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66bacc56e8.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7255036/screencap/6ac66bae19a40.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E19",
+      "episodeId": "7255039",
+      "title": "CES TUTOS N'ONT AUCUN SENS ! #2",
+      "youtubeId": "oVw5Rx7ZMU0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CES TUTOS N'ONT AUCUN SENS ! #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/oVw5Rx7ZMU0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 106565
+        }
+      },
+      "crop": {
+        "id": "2329523",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66bef1f308.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7255039/screencap/6ac66bf068a8b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E21",
+      "episodeId": "7255055",
+      "title": "CETTE SÉRIE POURRAIT BIEN DEVENIR RÉALITÉ... (Et c'est flippant)",
+      "youtubeId": "DxZDYyLonjo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CETTE SÉRIE POURRAIT BIEN DEVENIR RÉALITÉ... (Et c'est flippant)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/DxZDYyLonjo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 116976
+        }
+      },
+      "crop": {
+        "id": "2329524",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66c6e26b39.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7255055/screencap/6ac66c6f7de98.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E22",
+      "episodeId": "7255058",
+      "title": "J'Y AI PASSÉ DES HEURES ! (Mais ça valait le coup)",
+      "youtubeId": "-78KNa6Ut8w",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "J'Y AI PASSÉ DES HEURES ! (Mais ça valait le coup)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/-78KNa6Ut8w/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 78076
+        }
+      },
+      "crop": {
+        "id": "2329525",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66c737cd5a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7255058/screencap/6ac66c74d5eee.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E23",
+      "episodeId": "7293244",
+      "title": "UNE JOURNÉE POUR CONSTRUIRE UN RADEAU ! (Et c'était pas gagné...)",
+      "youtubeId": "0NcpmF11W9o",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UNE JOURNÉE POUR CONSTRUIRE UN RADEAU ! (Et c'était pas gagné...)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/0NcpmF11W9o/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 132477
+        }
+      },
+      "crop": {
+        "id": "2329526",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66c78ef03b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7293244/screencap/6ac66c7a67f1f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E24",
+      "episodeId": "7293249",
+      "title": "LA COURSE DE RADEAUX LA PLUS EXTRÊME (Pas du tout...)",
+      "youtubeId": "50a9119mfq8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA COURSE DE RADEAUX LA PLUS EXTRÊME (Pas du tout...)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/50a9119mfq8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 172432
+        }
+      },
+      "crop": {
+        "id": "2329527",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66c7e6dc8d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7293249/screencap/6ac66c7fb117d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E25",
+      "episodeId": "7293251",
+      "title": "CES REALITY SHOW SONT... DOUTEUX (ou juste drôles)",
+      "youtubeId": "G1ZPW7TmfsY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CES REALITY SHOW SONT... DOUTEUX (ou juste drôles)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/G1ZPW7TmfsY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 83799
+        }
+      },
+      "crop": {
+        "id": "2329528",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66c840813a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7293251/screencap/6ac66c856dadb.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E26",
+      "episodeId": "7293252",
+      "title": "CETTE SERIE POURRAIT BIEN DEVENIR RÉALITÉ...#2 (Et c'est toujours aussi flippant)",
+      "youtubeId": "D6_mbQE02qw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "CETTE SERIE POURRAIT BIEN DEVENIR RÉALITÉ...#2 (Et c'est toujours aussi flippant)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/D6_mbQE02qw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 112940
+        }
+      },
+      "crop": {
+        "id": "2329529",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66c895e829.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/7293252/screencap/6ac66c8aa54b3.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E27",
+      "episodeId": "8371679",
+      "title": "LE JOUR OÙ JE L'AI RENCONTRÉE ! (Oui, c'est une girafe)",
+      "youtubeId": "7isjNi1MDmA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE JOUR OÙ JE L'AI RENCONTRÉE ! (Oui, c'est une girafe)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/7isjNi1MDmA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 89353
+        }
+      },
+      "crop": {
+        "id": "2329530",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66c8e9005c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/8371679/screencap/6ac66c8fbff89.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
