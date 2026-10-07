@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T16:32:58.160Z",
+  "mode": "GUARDED_SQUEEZIE_ARTWORK_BATCH_11",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2015E70",
+    "S2015E72",
+    "S2015E73",
+    "S2015E74",
+    "S2015E75",
+    "S2015E77",
+    "S2015E78",
+    "S2015E79",
+    "S2015E82",
+    "S2015E87",
+    "S2015E90",
+    "S2015E92",
+    "S2015E95",
+    "S2015E97",
+    "S2015E98",
+    "S2015E100",
+    "S2015E105",
+    "S2015E112",
+    "S2015E117",
+    "S2015E119"
+  ],
+  "results": [
+    {
+      "code": "S2015E70",
+      "episodeId": "5314746",
+      "title": "PHOTOMONTAGE.exe",
+      "youtubeId": "TcBtqWtGeLg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PHOTOMONTAGE.exe",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/TcBtqWtGeLg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 69369
+        }
+      },
+      "crop": {
+        "id": "2329708",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6743de65ac.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314746/screencap/6ac6743f1c1f1.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E72",
+      "episodeId": "5314748",
+      "title": "LE JEU LE PLUS KAWAII ! (Pongo)",
+      "youtubeId": "mjDz5WnVcGg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE JEU LE PLUS KAWAII ! (Pongo)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/mjDz5WnVcGg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 31902
+        }
+      },
+      "crop": {
+        "id": "2329709",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67442b12c1.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314748/screencap/6ac6744427fcb.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E73",
+      "episodeId": "5314749",
+      "title": "DROGUE SNIFF DROGUE (Compilation de jeux)",
+      "youtubeId": "4R5xuEcFZr0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DROGUE SNIFF DROGUE (Compilation de jeux)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/4R5xuEcFZr0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 104138
+        }
+      },
+      "crop": {
+        "id": "2329710",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67447ddce0.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314749/screencap/6ac6744904266.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E74",
+      "episodeId": "5314750",
+      "title": "THIS IS GOATZ ! (Goat Simulator DLC)",
+      "youtubeId": "1QAhHBF5Gx0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "THIS IS GOATZ ! (Goat Simulator DLC)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/1QAhHBF5Gx0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 93134
+        }
+      },
+      "crop": {
+        "id": "2329711",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6744c8b0f2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314750/screencap/6ac6744da4cd3.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E75",
+      "episodeId": "5314751",
+      "title": "LE MEILLEUR MOD DE GTA V !",
+      "youtubeId": "ElJImm7UMhE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE MEILLEUR MOD DE GTA V !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ElJImm7UMhE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 107672
+        }
+      },
+      "crop": {
+        "id": "2329712",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6745159fbf.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314751/screencap/6ac674527f1c6.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E77",
+      "episodeId": "5314753",
+      "title": "COMMENT SEREZ-VOUS DANS 20 ANS ?",
+      "youtubeId": "MYT6cTgzOdk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COMMENT SEREZ-VOUS DANS 20 ANS ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/MYT6cTgzOdk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 51123
+        }
+      },
+      "crop": {
+        "id": "2329713",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67456102d4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314753/screencap/6ac6745724159.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E78",
+      "episodeId": "5314754",
+      "title": "JE KIDNAPPE POUR TOI SENPAI ! (Yandere Simulator #2)",
+      "youtubeId": "lFhHWid8AOI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE KIDNAPPE POUR TOI SENPAI ! (Yandere Simulator #2)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/lFhHWid8AOI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 103054
+        }
+      },
+      "crop": {
+        "id": "2329714",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6745ac4cbb.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314754/screencap/6ac6745c499b5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E79",
+      "episodeId": "5314755",
+      "title": "LA JOIE DE LA CONSTRUCTION !",
+      "youtubeId": "cK9oeM8leyw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA JOIE DE LA CONSTRUCTION !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/cK9oeM8leyw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 79847
+        }
+      },
+      "crop": {
+        "id": "2329716",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6745fc4e1a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314755/screencap/6ac67460ec78b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E82",
+      "episodeId": "5314758",
+      "title": "GIRAFE SENPAI ! (Compilation de jeux)",
+      "youtubeId": "ynVd3fUZCVc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "GIRAFE SENPAI ! (Compilation de jeux)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ynVd3fUZCVc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 101013
+        }
+      },
+      "crop": {
+        "id": "2329717",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac674647afd2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314758/screencap/6ac674659e855.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E87",
+      "episodeId": "5314770",
+      "title": "LE MONSTRE QUI NE FAISAIT PAS PEUR ! (Erie)",
+      "youtubeId": "y5s-gonYWr0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE MONSTRE QUI NE FAISAIT PAS PEUR ! (Erie)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/y5s-gonYWr0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 52730
+        }
+      },
+      "crop": {
+        "id": "2329718",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6746937273.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314770/screencap/6ac6746a4bc01.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E90",
+      "episodeId": "5314773",
+      "title": "COMMENT DEVENIR LAID ? (Booth)",
+      "youtubeId": "qxk0CYi5fL8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "COMMENT DEVENIR LAID ? (Booth)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/qxk0CYi5fL8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 93842
+        }
+      },
+      "crop": {
+        "id": "2329719",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6746dcf391.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314773/screencap/6ac6746ee4f30.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E92",
+      "episodeId": "5314775",
+      "title": "SURVIVRE EN MILIEU DINOSAURESQUE. (ARK Survival Evolved)",
+      "youtubeId": "TfibqdK0aEg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "SURVIVRE EN MILIEU DINOSAURESQUE. (ARK Survival Evolved)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/TfibqdK0aEg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 120656
+        }
+      },
+      "crop": {
+        "id": "2329720",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67472857e6.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314775/screencap/6ac674739986a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E95",
+      "episodeId": "5314778",
+      "title": "JE VEUX TOUT MANGER. (Agario)",
+      "youtubeId": "36gzJDZdWoI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE VEUX TOUT MANGER. (Agario)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/36gzJDZdWoI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 139905
+        }
+      },
+      "crop": {
+        "id": "2329721",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6747753bb9.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314778/screencap/6ac674786903b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E97",
+      "episodeId": "5314780",
+      "title": "NE PAS CLIGNER DES YEUX ! (Statues)",
+      "youtubeId": "hMGRCqpfFXU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "NE PAS CLIGNER DES YEUX ! (Statues)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/hMGRCqpfFXU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 88300
+        }
+      },
+      "crop": {
+        "id": "2329722",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6747c09963.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314780/screencap/6ac6747d26fec.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E98",
+      "episodeId": "5314781",
+      "title": "ON VISITE MON VIEUX SKYBLOG !",
+      "youtubeId": "o1PSh7H2chg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON VISITE MON VIEUX SKYBLOG !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/o1PSh7H2chg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 69679
+        }
+      },
+      "crop": {
+        "id": "2329723",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67480ab3ca.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314781/screencap/6ac67481cfe3b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E100",
+      "episodeId": "5314783",
+      "title": "PRO SNIPER MLG 720 NOSCOP. (Blockade #2)",
+      "youtubeId": "NwXSjF5x6BU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PRO SNIPER MLG 720 NOSCOP. (Blockade #2)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/NwXSjF5x6BU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 105358
+        }
+      },
+      "crop": {
+        "id": "2329724",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac674856e85a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314783/screencap/6ac674868a739.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E105",
+      "episodeId": "5314788",
+      "title": "JURASSIC THUG ! (ARK Survival Evolved #2)",
+      "youtubeId": "6hx9zDHgi9M",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JURASSIC THUG ! (ARK Survival Evolved #2)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/6hx9zDHgi9M/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 187047
+        }
+      },
+      "crop": {
+        "id": "2329725",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6748a35f8a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314788/screencap/6ac6748b4cc2f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E112",
+      "episodeId": "5314796",
+      "title": "LE DIEU DE LA LOOSE ! (Smite)",
+      "youtubeId": "Chu1XqxoQio",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE DIEU DE LA LOOSE ! (Smite)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Chu1XqxoQio/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 121322
+        }
+      },
+      "crop": {
+        "id": "2329726",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6748edd06b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314796/screencap/6ac6749008dcf.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E117",
+      "episodeId": "5314801",
+      "title": "LE RETOUR DU MEILLEUR JEU o/",
+      "youtubeId": "BTs7gaCMW7k",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE RETOUR DU MEILLEUR JEU o/",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/BTs7gaCMW7k/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 71707
+        }
+      },
+      "crop": {
+        "id": "2329727",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac674939384f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314801/screencap/6ac67494b17ec.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2015E119",
+      "episodeId": "5314804",
+      "title": "WORLD OF SQUEEZIE #1",
+      "youtubeId": "F0LXwtGTl3w",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "WORLD OF SQUEEZIE #1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/F0LXwtGTl3w/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 106272
+        }
+      },
+      "crop": {
+        "id": "2329728",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6749851137.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5314804/screencap/6ac6749962628.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
