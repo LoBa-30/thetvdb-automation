@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-10-07T12:58:55.389Z",
+  "mode": "GUARDED_ELIAN_E08_ARTWORK",
+  "authenticated": true,
+  "target": {
+    "episodeId": "12014528",
+    "code": "S2026E08",
+    "title": "On s'affronte pour construire la meilleure cabane ! ft. Maxime Biaggi",
+    "youtubeId": "xkGjW_FR8vI",
+    "imageUrl": "https://i.ytimg.com/vi/xkGjW_FR8vI/maxresdefault.jpg"
+  },
+  "preflight": {
+    "heading": "On s'affronte pour construire la meilleure cabane ! ft. Maxime Biaggi",
+    "beforeArtwork": [],
+    "image": {
+      "url": "https://i.ytimg.com/vi/xkGjW_FR8vI/maxresdefault.jpg",
+      "status": 200,
+      "width": 1280,
+      "height": 720,
+      "contentType": "image/jpeg",
+      "bytes": 419812
+    }
+  },
+  "stage1": {
+    "status": 200
+  },
+  "crop": {
+    "id": "2328974",
+    "x": "0",
+    "y": "0",
+    "width": "1280",
+    "height": "720",
+    "scaleX": "1",
+    "scaleY": "1",
+    "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64217d67ab.jpeg"
+  },
+  "stage2": {
+    "status": 302,
+    "successMessage": true
+  },
+  "verification": {
+    "artworkPresent": true,
+    "artwork": [
+      "https://artworks.thetvdb.com/banners/v4/episode/12014528/screencap/6ac642191caae.jpg"
+    ]
+  },
+  "blocked": [],
+  "result": "APPLIED_AND_VERIFIED"
+}

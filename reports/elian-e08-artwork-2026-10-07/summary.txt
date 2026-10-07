@@ -1,0 +1,4 @@
+authenticated=true
+result=APPLIED_AND_VERIFIED
+artworkPresent=true
+blocked=0
