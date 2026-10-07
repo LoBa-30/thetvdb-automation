@@ -162,3 +162,5 @@ print((OUT/'summary.txt').read_text())
 # rerun after 62/64 live coverage 2026-10-07T19:24+02:00
 
 # final rerun after S2019E01 reattached 2026-10-07T19:31+02:00
+
+# rerun after Maxime artwork gap repairs 2026-10-07T20:17Z
