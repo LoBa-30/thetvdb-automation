@@ -1,0 +1,2356 @@
+{
+  "generatedAt": "2026-10-07T11:21:03.097Z",
+  "target": "Raska",
+  "mode": "MISSING_ARTWORK_PREFLIGHT_READ_ONLY",
+  "authenticated": true,
+  "sourceMissing": 29,
+  "historicalWithoutCurrentYoutube": [
+    {
+      "code": "S2023E19",
+      "episodeId": "11978003",
+      "title": "3J avec BigFlo & Oli au Rose Festival ! (c'était fou)"
+    }
+  ],
+  "targets": [
+    {
+      "code": "S2017E03",
+      "episodeId": "11960839",
+      "tvdbTitle": "KRISY RAPPEUR ET PRODUCTEUR DE DAMSO !",
+      "youtubeId": "YarMW4AXR54",
+      "youtubeTitle": "KRISY RAPPEUR ET PRODUCTEUR DE DAMSO ! 🖖",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/YarMW4AXR54/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/YarMW4AXR54/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/YarMW4AXR54/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "KRISY RAPPEUR ET PRODUCTEUR DE DAMSO !",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/YarMW4AXR54/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960839",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2017E04",
+      "episodeId": "11960840",
+      "tvdbTitle": "LE RAP FÉMININ EN FORCE ! ✊",
+      "youtubeId": "hl_oMecxiFY",
+      "youtubeTitle": "LE RAP FÉMININ EN FORCE ! ✊",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/hl_oMecxiFY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/hl_oMecxiFY/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/hl_oMecxiFY/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "LE RAP FÉMININ EN FORCE ! ✊",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/hl_oMecxiFY/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960840",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2018E02",
+      "episodeId": "11979236",
+      "tvdbTitle": "PLK – DES TÉNEBRES AU PLATINE ! (Platinum)",
+      "youtubeId": "qaxb0pVb6No",
+      "youtubeTitle": "PLK – DES TÉNEBRES AU PLATINE ! (Platinum)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/qaxb0pVb6No/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/qaxb0pVb6No/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/qaxb0pVb6No/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "PLK – DES TÉNEBRES AU PLATINE ! (Platinum)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/qaxb0pVb6No/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11979236",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2018E03",
+      "episodeId": "11960842",
+      "tvdbTitle": "3 RAPPEURS À SURVEILLER ! (Téma - Épisode #1)",
+      "youtubeId": "RIvlj2BlOro",
+      "youtubeTitle": "3 RAPPEURS À SURVEILLER ! (Téma - Épisode #1)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/RIvlj2BlOro/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/RIvlj2BlOro/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/RIvlj2BlOro/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "3 RAPPEURS À SURVEILLER ! (Téma - Épisode #1)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/RIvlj2BlOro/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960842",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2018E05",
+      "episodeId": "11960844",
+      "tvdbTitle": "3 RAPPEURS QUI VONT PERCER ! (Téma - Épisode #2)",
+      "youtubeId": "q_dSPAPZCz4",
+      "youtubeTitle": "3 RAPPEURS QUI VONT PERCER ! (Téma - Épisode #2)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/q_dSPAPZCz4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/q_dSPAPZCz4/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/q_dSPAPZCz4/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "3 RAPPEURS QUI VONT PERCER ! (Téma - Épisode #2)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/q_dSPAPZCz4/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960844",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2018E07",
+      "episodeId": "11960846",
+      "tvdbTitle": "3 RAPPEURS À DÉCOUVRIR ! (Téma - Épisode #3)",
+      "youtubeId": "0YmW1gRTeA4",
+      "youtubeTitle": "3 RAPPEURS À DÉCOUVRIR ! (Téma - Épisode #3)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/0YmW1gRTeA4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/0YmW1gRTeA4/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/0YmW1gRTeA4/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "3 RAPPEURS À DÉCOUVRIR ! (Téma - Épisode #3)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/0YmW1gRTeA4/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960846",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2019E01",
+      "episodeId": "11960853",
+      "tvdbTitle": "PNL - DEUX FRÈRES : TOUS LES MYSTÈRES DU CLIP !",
+      "youtubeId": "95dKYYdIyik",
+      "youtubeTitle": "PNL - DEUX FRÈRES : TOUS LES MYSTÈRES DU CLIP !",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/95dKYYdIyik/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/95dKYYdIyik/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/95dKYYdIyik/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "PNL - DEUX FRÈRES : TOUS LES MYSTÈRES DU CLIP !",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/95dKYYdIyik/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960853",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2019E05",
+      "episodeId": "11960857",
+      "tvdbTitle": "P-DRO - ÉCLIPSE | JUICE'Max #3 (Dir. by RASKA)",
+      "youtubeId": "YN8hYrxWA1g",
+      "youtubeTitle": "P-DRO - ÉCLIPSE | JUICE'Max #3 (Dir. by RASKA)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/YN8hYrxWA1g/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/YN8hYrxWA1g/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/YN8hYrxWA1g/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "P-DRO - ÉCLIPSE | JUICE'Max #3 (Dir. by RASKA)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/YN8hYrxWA1g/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960857",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2020E02",
+      "episodeId": "11960863",
+      "tvdbTitle": "H1N1 - EP02 : Fair un clip en moins de 2H !",
+      "youtubeId": "XOztY0Uux9o",
+      "youtubeTitle": "H1N1 - EP02 : Fair un clip en moins de 2H !",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/XOztY0Uux9o/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/XOztY0Uux9o/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/XOztY0Uux9o/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "H1N1 - EP02 : Fair un clip en moins de 2H !",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/XOztY0Uux9o/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960863",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2020E09",
+      "episodeId": "11960870",
+      "tvdbTitle": "4 PUNCHLINES DE VALD ! (Analyse)",
+      "youtubeId": "8cDLGzGgEBc",
+      "youtubeTitle": "4 PUNCHLINES DE VALD ! (Analyse)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/8cDLGzGgEBc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/8cDLGzGgEBc/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/8cDLGzGgEBc/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "4 PUNCHLINES DE VALD ! (Analyse)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/8cDLGzGgEBc/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960870",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2020E12",
+      "episodeId": "11960873",
+      "tvdbTitle": "LE PREMIER QUIZZ RAP ! (vidéo interactive)",
+      "youtubeId": "XUFDQl_ZtI0",
+      "youtubeTitle": "LE PREMIER QUIZZ RAP ! (vidéo interactive)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/XUFDQl_ZtI0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/XUFDQl_ZtI0/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/XUFDQl_ZtI0/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "LE PREMIER QUIZZ RAP ! (vidéo interactive)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/XUFDQl_ZtI0/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960873",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2020E17",
+      "episodeId": "11960878",
+      "tvdbTitle": "4 PUNCHLINES DE DINOS (Analyse)",
+      "youtubeId": "FvgKy9D2-GE",
+      "youtubeTitle": "4 PUNCHLINES DE DINOS (Analyse)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/FvgKy9D2-GE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/FvgKy9D2-GE/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/FvgKy9D2-GE/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "4 PUNCHLINES DE DINOS (Analyse)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/FvgKy9D2-GE/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960878",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2020E18",
+      "episodeId": "11960879",
+      "tvdbTitle": "LES CERTIFICATIONS DANS LE RAP !",
+      "youtubeId": "cLDCG7Au_BA",
+      "youtubeTitle": "LES CERTIFICATIONS DANS LE RAP !",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/cLDCG7Au_BA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/cLDCG7Au_BA/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/cLDCG7Au_BA/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "LES CERTIFICATIONS DANS LE RAP !",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/cLDCG7Au_BA/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960879",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2021E02",
+      "episodeId": "11960890",
+      "tvdbTitle": "LE RAPPEUR ET L'ARNAQUE À 30 MILLIONS DE DOLLARS !",
+      "youtubeId": "OyNisujbTN8",
+      "youtubeTitle": "LE RAPPEUR ET L'ARNAQUE À 30 MILLIONS DE DOLLARS !",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/OyNisujbTN8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/OyNisujbTN8/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/OyNisujbTN8/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "LE RAPPEUR ET L'ARNAQUE À 30 MILLIONS DE DOLLARS !",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/OyNisujbTN8/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960890",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2021E03",
+      "episodeId": "11960891",
+      "tvdbTitle": "QUIZZ RAP 3 : test tes connaissances ! (SCH, Freeze Corleone,...)",
+      "youtubeId": "5-z4Vs7Ml54",
+      "youtubeTitle": "QUIZZ RAP 3 : test tes connaissances ! (SCH, Freeze Corleone,...)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/5-z4Vs7Ml54/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/5-z4Vs7Ml54/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/5-z4Vs7Ml54/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "QUIZZ RAP 3 : test tes connaissances ! (SCH, Freeze Corleone,...)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/5-z4Vs7Ml54/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960891",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2022E06",
+      "episodeId": "11960917",
+      "tvdbTitle": "Des personnes âgées découvrent le rap ! (PNL, Gazo x Freeze Corleone, Kaaris...)",
+      "youtubeId": "UXPwfPGSH0k",
+      "youtubeTitle": "Des personnes âgées découvrent le rap ! (PNL, Gazo x Freeze Corleone, Kaaris...)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/UXPwfPGSH0k/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/UXPwfPGSH0k/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/UXPwfPGSH0k/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "Des personnes âgées découvrent le rap ! (PNL, Gazo x Freeze Corleone, Kaaris...)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/UXPwfPGSH0k/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960917",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2022E07",
+      "episodeId": "11960918",
+      "tvdbTitle": "Les pires peintres de France ! (ft. @TheoBabac & @YassEncore)",
+      "youtubeId": "mX0zwJOgl8w",
+      "youtubeTitle": "Les pires peintres de France ! 👨🏻‍🎨 (ft. @TheoBabac & @YassEncore)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/mX0zwJOgl8w/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/mX0zwJOgl8w/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/mX0zwJOgl8w/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "Les pires peintres de France ! (ft. @TheoBabac & @YassEncore)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/mX0zwJOgl8w/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960918",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2022E10",
+      "episodeId": "11960921",
+      "tvdbTitle": "Ce jeu va créer des problèmes ! (ft. @theodortytb, @Snaptrox &@Zuukou667)",
+      "youtubeId": "-K0btHmC6Sg",
+      "youtubeTitle": "Ce jeu va créer des problèmes ! (ft. @THEODORT, @Snaptrox &@Zuukou Mayzie le Bg 667)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/-K0btHmC6Sg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/-K0btHmC6Sg/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/-K0btHmC6Sg/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "Ce jeu va créer des problèmes ! (ft. @theodortytb, @Snaptrox &@Zuukou667)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/-K0btHmC6Sg/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960921",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2022E17",
+      "episodeId": "11960928",
+      "tvdbTitle": "On fait freestyler des inconnus dans la rue ! (NANTES)",
+      "youtubeId": "5yz8wfSqhws",
+      "youtubeTitle": "On fait freestyler des inconnus dans la rue ! (NANTES)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/5yz8wfSqhws/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/5yz8wfSqhws/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/5yz8wfSqhws/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "On fait freestyler des inconnus dans la rue ! (NANTES)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/5yz8wfSqhws/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960928",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2022E18",
+      "episodeId": "11960929",
+      "tvdbTitle": "Ce JEU te rendra RICHE ! (ou pas) avec @Evanv77, @Ysos & @totocheGang",
+      "youtubeId": "DK1m3pckmOQ",
+      "youtubeTitle": "Ce JEU te rendra RICHE ! (ou pas) avec @Evanv77, @Ysos & @totocheGang",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/DK1m3pckmOQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/DK1m3pckmOQ/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/DK1m3pckmOQ/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "Ce JEU te rendra RICHE ! (ou pas) avec @Evanv77, @Ysos & @totocheGang",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/DK1m3pckmOQ/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960929",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2022E19",
+      "episodeId": "11960930",
+      "tvdbTitle": "L'HISTOIRE du RAP FRANÇAIS (Documentaire)",
+      "youtubeId": "Tb5LJ_wg3vE",
+      "youtubeTitle": "L'HISTOIRE du RAP FRANÇAIS (Documentaire)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/Tb5LJ_wg3vE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/Tb5LJ_wg3vE/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/Tb5LJ_wg3vE/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "L'HISTOIRE du RAP FRANÇAIS (Documentaire)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/Tb5LJ_wg3vE/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960930",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2023E06",
+      "episodeId": "11960801",
+      "tvdbTitle": "TU RIS, TU PERDS ! (avec Soso Maness, Georgio, Theobabac, Totoche & YassEncore)",
+      "youtubeId": "RKpy_sqdZWM",
+      "youtubeTitle": "TU RIS, TU PERDS ! (avec Soso Maness, Georgio, Theobabac, Totoche & YassEncore)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/RKpy_sqdZWM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/RKpy_sqdZWM/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/RKpy_sqdZWM/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "TU RIS, TU PERDS ! (avec Soso Maness, Georgio, Theobabac, Totoche & YassEncore)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/RKpy_sqdZWM/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960801",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2023E08",
+      "episodeId": "11960803",
+      "tvdbTitle": "Le meilleur jeu rap entre potes ! (Ft. Lonni, Evan & Captaine Roshi)",
+      "youtubeId": "6MaE7zoeALw",
+      "youtubeTitle": "Le meilleur jeu rap entre potes ! (Ft. Lonni, Evan & Captaine Roshi)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/6MaE7zoeALw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/6MaE7zoeALw/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/6MaE7zoeALw/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "Le meilleur jeu rap entre potes ! (Ft. Lonni, Evan & Captaine Roshi)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/6MaE7zoeALw/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960803",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2023E20",
+      "episodeId": "11960814",
+      "tvdbTitle": "On juge les albums rap français (TierList avec Mehdi Maïzi & Grimkujow)",
+      "youtubeId": "jWJvBbAD98Q",
+      "youtubeTitle": "On juge les albums rap français (TierList avec Mehdi Maïzi & Grimkujow)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/jWJvBbAD98Q/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/jWJvBbAD98Q/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/jWJvBbAD98Q/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "On juge les albums rap français (TierList avec Mehdi Maïzi & Grimkujow)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/jWJvBbAD98Q/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11960814",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2024E03",
+      "episodeId": "11860678",
+      "tvdbTitle": "On JUGE les COVERS d'albums (TierList avec Rim'k & Fifou)",
+      "youtubeId": "tCg7PtYRnFc",
+      "youtubeTitle": "On JUGE les COVERS d'albums (TierList avec Rim'k & Fifou)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/tCg7PtYRnFc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/tCg7PtYRnFc/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/tCg7PtYRnFc/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "On JUGE les COVERS d'albums (TierList avec Rim'k & Fifou)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/tCg7PtYRnFc/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11860678",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2024E07",
+      "episodeId": "11860673",
+      "tvdbTitle": "VENDS TON SKEUD III (ft. Inoxtag, SEB & ThéoJuice)",
+      "youtubeId": "lpQQNUHBWx8",
+      "youtubeTitle": "VENDS TON SKEUD III (ft. Inoxtag, SEB & ThéoJuice)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/lpQQNUHBWx8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/lpQQNUHBWx8/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/lpQQNUHBWx8/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "VENDS TON SKEUD III (ft. Inoxtag, SEB & ThéoJuice)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/lpQQNUHBWx8/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11860673",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2024E09",
+      "episodeId": "11860671",
+      "tvdbTitle": "35H DANS LA PIRE BOÎTE de France (ft. Michou, Byilhan, Flamby & Nicotine)",
+      "youtubeId": "5e45qfiHl3Q",
+      "youtubeTitle": "35H DANS LA PIRE BOÎTE de France (ft. Michou, Byilhan, Flamby & Nicotine)",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/5e45qfiHl3Q/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/5e45qfiHl3Q/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/5e45qfiHl3Q/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "35H DANS LA PIRE BOÎTE de France (ft. Michou, Byilhan, Flamby & Nicotine)",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/5e45qfiHl3Q/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11860671",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    },
+    {
+      "code": "S2026E06",
+      "episodeId": "11978005",
+      "tvdbTitle": "TROUVE L'ERREUR (temporelle) ft. Nico & Tom Baldetti",
+      "youtubeId": "lFm7662FKBY",
+      "youtubeTitle": "TROUVE L'ERREUR (temporelle) ft. Nico & Tom Baldetti",
+      "variants": [
+        {
+          "variant": "maxresdefault",
+          "url": "https://i.ytimg.com/vi/lFm7662FKBY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "usable": true
+        },
+        {
+          "variant": "sddefault",
+          "url": "https://i.ytimg.com/vi/lFm7662FKBY/sddefault.jpg",
+          "status": 200,
+          "width": 640,
+          "height": 480,
+          "usable": false
+        },
+        {
+          "variant": "hqdefault",
+          "url": "https://i.ytimg.com/vi/lFm7662FKBY/hqdefault.jpg",
+          "status": 200,
+          "width": 480,
+          "height": 360,
+          "usable": false
+        }
+      ],
+      "status": "PREFLIGHT_PASSED",
+      "heading": "TROUVE L'ERREUR (temporelle) ft. Nico & Tom Baldetti",
+      "artwork": [],
+      "chosen": {
+        "variant": "maxresdefault",
+        "url": "https://i.ytimg.com/vi/lFm7662FKBY/maxresdefault.jpg",
+        "status": 200,
+        "width": 1280,
+        "height": 720,
+        "usable": true
+      },
+      "form": {
+        "action": "/artwork/upload_handler",
+        "episode": "11978005",
+        "series": "479597",
+        "type": "11",
+        "hasUrl": true,
+        "hasFile": true
+      }
+    }
+  ],
+  "planned": [
+    {
+      "code": "S2017E03",
+      "episodeId": "11960839",
+      "title": "KRISY RAPPEUR ET PRODUCTEUR DE DAMSO !",
+      "youtubeId": "YarMW4AXR54",
+      "imageUrl": "https://i.ytimg.com/vi/YarMW4AXR54/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2017E04",
+      "episodeId": "11960840",
+      "title": "LE RAP FÉMININ EN FORCE ! ✊",
+      "youtubeId": "hl_oMecxiFY",
+      "imageUrl": "https://i.ytimg.com/vi/hl_oMecxiFY/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2018E02",
+      "episodeId": "11979236",
+      "title": "PLK – DES TÉNEBRES AU PLATINE ! (Platinum)",
+      "youtubeId": "qaxb0pVb6No",
+      "imageUrl": "https://i.ytimg.com/vi/qaxb0pVb6No/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2018E03",
+      "episodeId": "11960842",
+      "title": "3 RAPPEURS À SURVEILLER ! (Téma - Épisode #1)",
+      "youtubeId": "RIvlj2BlOro",
+      "imageUrl": "https://i.ytimg.com/vi/RIvlj2BlOro/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2018E05",
+      "episodeId": "11960844",
+      "title": "3 RAPPEURS QUI VONT PERCER ! (Téma - Épisode #2)",
+      "youtubeId": "q_dSPAPZCz4",
+      "imageUrl": "https://i.ytimg.com/vi/q_dSPAPZCz4/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2018E07",
+      "episodeId": "11960846",
+      "title": "3 RAPPEURS À DÉCOUVRIR ! (Téma - Épisode #3)",
+      "youtubeId": "0YmW1gRTeA4",
+      "imageUrl": "https://i.ytimg.com/vi/0YmW1gRTeA4/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2019E01",
+      "episodeId": "11960853",
+      "title": "PNL - DEUX FRÈRES : TOUS LES MYSTÈRES DU CLIP !",
+      "youtubeId": "95dKYYdIyik",
+      "imageUrl": "https://i.ytimg.com/vi/95dKYYdIyik/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2019E05",
+      "episodeId": "11960857",
+      "title": "P-DRO - ÉCLIPSE | JUICE'Max #3 (Dir. by RASKA)",
+      "youtubeId": "YN8hYrxWA1g",
+      "imageUrl": "https://i.ytimg.com/vi/YN8hYrxWA1g/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2020E02",
+      "episodeId": "11960863",
+      "title": "H1N1 - EP02 : Fair un clip en moins de 2H !",
+      "youtubeId": "XOztY0Uux9o",
+      "imageUrl": "https://i.ytimg.com/vi/XOztY0Uux9o/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2020E09",
+      "episodeId": "11960870",
+      "title": "4 PUNCHLINES DE VALD ! (Analyse)",
+      "youtubeId": "8cDLGzGgEBc",
+      "imageUrl": "https://i.ytimg.com/vi/8cDLGzGgEBc/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2020E12",
+      "episodeId": "11960873",
+      "title": "LE PREMIER QUIZZ RAP ! (vidéo interactive)",
+      "youtubeId": "XUFDQl_ZtI0",
+      "imageUrl": "https://i.ytimg.com/vi/XUFDQl_ZtI0/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2020E17",
+      "episodeId": "11960878",
+      "title": "4 PUNCHLINES DE DINOS (Analyse)",
+      "youtubeId": "FvgKy9D2-GE",
+      "imageUrl": "https://i.ytimg.com/vi/FvgKy9D2-GE/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2020E18",
+      "episodeId": "11960879",
+      "title": "LES CERTIFICATIONS DANS LE RAP !",
+      "youtubeId": "cLDCG7Au_BA",
+      "imageUrl": "https://i.ytimg.com/vi/cLDCG7Au_BA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2021E02",
+      "episodeId": "11960890",
+      "title": "LE RAPPEUR ET L'ARNAQUE À 30 MILLIONS DE DOLLARS !",
+      "youtubeId": "OyNisujbTN8",
+      "imageUrl": "https://i.ytimg.com/vi/OyNisujbTN8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2021E03",
+      "episodeId": "11960891",
+      "title": "QUIZZ RAP 3 : test tes connaissances ! (SCH, Freeze Corleone,...)",
+      "youtubeId": "5-z4Vs7Ml54",
+      "imageUrl": "https://i.ytimg.com/vi/5-z4Vs7Ml54/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2022E06",
+      "episodeId": "11960917",
+      "title": "Des personnes âgées découvrent le rap ! (PNL, Gazo x Freeze Corleone, Kaaris...)",
+      "youtubeId": "UXPwfPGSH0k",
+      "imageUrl": "https://i.ytimg.com/vi/UXPwfPGSH0k/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2022E07",
+      "episodeId": "11960918",
+      "title": "Les pires peintres de France ! (ft. @TheoBabac & @YassEncore)",
+      "youtubeId": "mX0zwJOgl8w",
+      "imageUrl": "https://i.ytimg.com/vi/mX0zwJOgl8w/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2022E10",
+      "episodeId": "11960921",
+      "title": "Ce jeu va créer des problèmes ! (ft. @theodortytb, @Snaptrox &@Zuukou667)",
+      "youtubeId": "-K0btHmC6Sg",
+      "imageUrl": "https://i.ytimg.com/vi/-K0btHmC6Sg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2022E17",
+      "episodeId": "11960928",
+      "title": "On fait freestyler des inconnus dans la rue ! (NANTES)",
+      "youtubeId": "5yz8wfSqhws",
+      "imageUrl": "https://i.ytimg.com/vi/5yz8wfSqhws/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2022E18",
+      "episodeId": "11960929",
+      "title": "Ce JEU te rendra RICHE ! (ou pas) avec @Evanv77, @Ysos & @totocheGang",
+      "youtubeId": "DK1m3pckmOQ",
+      "imageUrl": "https://i.ytimg.com/vi/DK1m3pckmOQ/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2022E19",
+      "episodeId": "11960930",
+      "title": "L'HISTOIRE du RAP FRANÇAIS (Documentaire)",
+      "youtubeId": "Tb5LJ_wg3vE",
+      "imageUrl": "https://i.ytimg.com/vi/Tb5LJ_wg3vE/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2023E06",
+      "episodeId": "11960801",
+      "title": "TU RIS, TU PERDS ! (avec Soso Maness, Georgio, Theobabac, Totoche & YassEncore)",
+      "youtubeId": "RKpy_sqdZWM",
+      "imageUrl": "https://i.ytimg.com/vi/RKpy_sqdZWM/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2023E08",
+      "episodeId": "11960803",
+      "title": "Le meilleur jeu rap entre potes ! (Ft. Lonni, Evan & Captaine Roshi)",
+      "youtubeId": "6MaE7zoeALw",
+      "imageUrl": "https://i.ytimg.com/vi/6MaE7zoeALw/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2023E20",
+      "episodeId": "11960814",
+      "title": "On juge les albums rap français (TierList avec Mehdi Maïzi & Grimkujow)",
+      "youtubeId": "jWJvBbAD98Q",
+      "imageUrl": "https://i.ytimg.com/vi/jWJvBbAD98Q/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2024E03",
+      "episodeId": "11860678",
+      "title": "On JUGE les COVERS d'albums (TierList avec Rim'k & Fifou)",
+      "youtubeId": "tCg7PtYRnFc",
+      "imageUrl": "https://i.ytimg.com/vi/tCg7PtYRnFc/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2024E07",
+      "episodeId": "11860673",
+      "title": "VENDS TON SKEUD III (ft. Inoxtag, SEB & ThéoJuice)",
+      "youtubeId": "lpQQNUHBWx8",
+      "imageUrl": "https://i.ytimg.com/vi/lpQQNUHBWx8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2024E09",
+      "episodeId": "11860671",
+      "title": "35H DANS LA PIRE BOÎTE de France (ft. Michou, Byilhan, Flamby & Nicotine)",
+      "youtubeId": "5e45qfiHl3Q",
+      "imageUrl": "https://i.ytimg.com/vi/5e45qfiHl3Q/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    },
+    {
+      "code": "S2026E06",
+      "episodeId": "11978005",
+      "title": "TROUVE L'ERREUR (temporelle) ft. Nico & Tom Baldetti",
+      "youtubeId": "lFm7662FKBY",
+      "imageUrl": "https://i.ytimg.com/vi/lFm7662FKBY/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "series": "479597"
+    }
+  ],
+  "skips": [],
+  "blocked": [],
+  "result": "PREFLIGHT_COMPLETE",
+  "readOnlyNetworkLock": true,
+  "blockedNonReadRequests": [
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372066387&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AEIEAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115616985~115938465~115938469~118012008~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121125487~121246026~121246034&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2F&dr=https%3A%2F%2Fthetvdb.com%2Fauth%2Flogin&dt=Welcome%20-%20TheTVDB.com&en=ad_impression&ep.query_id=CNSb5P3kp5cDFe-Z-wAdFSgbBg&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=3284"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372066387&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AEIEAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115616985~115938465~115938469~118012008~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121125487~121246026~121246034&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2F&dr=https%3A%2F%2Fthetvdb.com%2Fauth%2Flogin&dt=Welcome%20-%20TheTVDB.com&en=ad_impression&ep.query_id=CNSb5P3kp5cDFe-Z-wAdFSgbBg&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=3284&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372067749&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960839&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960839&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372067749&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960839&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960839&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372066387&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=2&tag_exp=115616985~115938465~115938469~118012008~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121125487~121246026~121246034&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2F&dr=https%3A%2F%2Fthetvdb.com%2Fauth%2Flogin&dt=Welcome%20-%20TheTVDB.com&en=page_view&_ee=1&_et=5&tfd=3823"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372066387&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=2&tag_exp=115616985~115938465~115938469~118012008~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121125487~121246026~121246034&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2F&dr=https%3A%2F%2Fthetvdb.com%2Fauth%2Flogin&dt=Welcome%20-%20TheTVDB.com&en=page_view&_ee=1&_et=5&tfd=3823&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372067369&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121125486&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960839&dt=Raska%20-%20KRISY%20RAPPEUR%20ET%20PRODUCTEUR%20DE%20DAMSO%20!%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=2999"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372067369&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121125486&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960839&dt=Raska%20-%20KRISY%20RAPPEUR%20ET%20PRODUCTEUR%20DE%20DAMSO%20!%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=2999&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-E35MMLRF5R&gtm=45je6a51v9102496370za200zb9206038736zd9206038736xf1&_p=1791372066387&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAGQ&cid=2044074485.1791372064&frm=0&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&gaf=2&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2F&dr=https%3A%2F%2Fthetvdb.com%2Fauth%2Flogin&dt=Welcome%20-%20TheTVDB.com&en=page_view&_ee=1&tfd=7647"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-E35MMLRF5R&gtm=45je6a51v9102496370za200zb9206038736zd9206038736xf1&_p=1791372066387&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAGQ&cid=2044074485.1791372064&frm=0&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&gaf=3&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2F&dr=https%3A%2F%2Fthetvdb.com%2Fauth%2Flogin&dt=Welcome%20-%20TheTVDB.com&en=page_view&_ee=1&tfd=7647"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372066387&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AEIAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&tag_exp=115616985~115938465~115938469~118012008~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121125487~121246026~121246034&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2F&dr=https%3A%2F%2Fthetvdb.com%2Fauth%2Flogin&dt=Welcome%20-%20TheTVDB.com&_s=3&tfd=8824"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372066387&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AEIAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&tag_exp=115616985~115938465~115938469~118012008~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121125487~121246026~121246034&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2F&dr=https%3A%2F%2Fthetvdb.com%2Fauth%2Flogin&dt=Welcome%20-%20TheTVDB.com&_s=3&tfd=8824&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372073820&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960839%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372073820&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960839%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372074952&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960840&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960840&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372074952&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960840&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960840&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372074742&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960840&dt=Raska%20-%20LE%20RAP%20F%C3%89MININ%20EN%20FORCE%20!%20%E2%9C%8A%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=2108"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372074742&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960840&dt=Raska%20-%20LE%20RAP%20F%C3%89MININ%20EN%20FORCE%20!%20%E2%9C%8A%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=2108&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372077259&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960840%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372077259&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960840%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372079508&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11979236&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11979236&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372079508&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11979236&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11979236&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372079177&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11979236&dt=Raska%20-%20PLK%20%E2%80%93%20DES%20T%C3%89NEBRES%20AU%20PLATINE%C2%A0!%20(Platinum)%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=2134"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372079177&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11979236&dt=Raska%20-%20PLK%20%E2%80%93%20DES%20T%C3%89NEBRES%20AU%20PLATINE%C2%A0!%20(Platinum)%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=2134&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372081413&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11979236%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372081413&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11979236%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372082668&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960842&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960842&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372082668&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960842&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960842&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372082348&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412527~120469145~120469153~121046263~121046271&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960842&dt=Raska%20-%203%20RAPPEURS%20%C3%80%20SURVEILLER%20!%20(T%C3%A9ma%20-%20%C3%89pisode%20%231)%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=2123"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372082348&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412527~120469145~120469153~121046263~121046271&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960842&dt=Raska%20-%203%20RAPPEURS%20%C3%80%20SURVEILLER%20!%20(T%C3%A9ma%20-%20%C3%89pisode%20%231)%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=2123&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372084618&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960842%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372084618&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960842%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372085755&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960844&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960844&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372085755&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960844&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960844&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372087559&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960844%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372087559&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960844%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372088794&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960846&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960846&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372088794&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960846&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960846&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372091433&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960846%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372091433&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960846%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372092236&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960853&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960853&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372092236&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960853&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960853&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372093958&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960853%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372093958&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960853%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372095116&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960857&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960857&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372095116&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960857&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960857&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372096677&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960857%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372096677&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960857%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372097912&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960863&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960863&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372097912&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960863&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960863&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372097644&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~119863601~120213116~120385423~120469145~120469153~121046263~121046271&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960863&dt=Raska%20-%20H1N1%20-%20EP02%20%3A%20Fair%20un%20clip%20en%20moins%20de%202H%20!%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=1723"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372097644&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~119863601~120213116~120385423~120469145~120469153~121046263~121046271&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960863&dt=Raska%20-%20H1N1%20-%20EP02%20%3A%20Fair%20un%20clip%20en%20moins%20de%202H%20!%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=1723&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372099563&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960863%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372099563&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960863%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372100928&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960870&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960870&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372100928&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960870&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960870&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372102602&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960870%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372102602&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960870%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372103564&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960873&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960873&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372103564&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960873&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960873&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372105162&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960873%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372105162&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960873%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372066387&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AEIAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=4&tag_exp=115616985~115938465~115938469~118012008~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121125487~121246026~121246034&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2F&dr=https%3A%2F%2Fthetvdb.com%2Fauth%2Flogin&dt=Welcome%20-%20TheTVDB.com&en=ad_impression&ep.query_id=CIuMw43lp5cDFWmDugAdFFEW7A&_et=32174&tfd=41262"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372066387&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AEIAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=4&tag_exp=115616985~115938465~115938469~118012008~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121125487~121246026~121246034&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2F&dr=https%3A%2F%2Fthetvdb.com%2Fauth%2Flogin&dt=Welcome%20-%20TheTVDB.com&en=ad_impression&ep.query_id=CIuMw43lp5cDFWmDugAdFFEW7A&_et=32174&tfd=41262&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372106160&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960878&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960878&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372106160&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960878&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960878&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372107716&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960878%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372107716&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960878%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372108743&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960879&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960879&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372108743&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960879&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960879&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372108530&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~119793973~120213116~120385423~120469145~120469153~121046263~121046271~121280969&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960879&dt=Raska%20-%20LES%20CERTIFICATIONS%20DANS%20LE%20RAP%20!%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=1937"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372108530&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~119793973~120213116~120385423~120469145~120469153~121046263~121046271~121280969&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960879&dt=Raska%20-%20LES%20CERTIFICATIONS%20DANS%20LE%20RAP%20!%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=1937&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372110644&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960879%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372110644&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960879%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372111721&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960890&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960890&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372111721&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960890&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960890&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372113276&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960890%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372113276&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960890%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372114364&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960891&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960891&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372114364&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960891&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960891&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372114144&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121280969&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960891&dt=Raska%20-%20QUIZZ%20RAP%203%20%3A%20test%20tes%20connaissances%20!%20(SCH%2C%20Freeze%20Corleone%2C...)%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=1929"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372114144&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121280969&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960891&dt=Raska%20-%20QUIZZ%20RAP%203%20%3A%20test%20tes%20connaissances%20!%20(SCH%2C%20Freeze%20Corleone%2C...)%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=1929&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372116319&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960891%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372116319&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960891%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372117624&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960917&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960917&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372117624&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960917&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960917&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372119170&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960917%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372119170&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960917%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372120223&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960918&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960918&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372120223&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960918&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960918&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372066387&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AEIAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=5&tag_exp=115616985~115938465~115938469~118012008~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121125487~121246026~121246034&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2F&dr=https%3A%2F%2Fthetvdb.com%2Fauth%2Flogin&dt=Welcome%20-%20TheTVDB.com&en=ad_impression&ep.query_id=CNzW35Tlp5cDFfb0SgAdPCAYYQ&_et=15066&tfd=56341"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372066387&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AEIAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=5&tag_exp=115616985~115938465~115938469~118012008~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121125487~121246026~121246034&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2F&dr=https%3A%2F%2Fthetvdb.com%2Fauth%2Flogin&dt=Welcome%20-%20TheTVDB.com&en=ad_impression&ep.query_id=CNzW35Tlp5cDFfb0SgAdPCAYYQ&_et=15066&tfd=56341&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372122009&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960918%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372122009&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960918%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372123291&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960921&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960921&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372123291&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960921&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960921&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-E35MMLRF5R&gtm=45je6a51v9102496370za200zb9206038736zd9206038736xf1&_p=1791372123001&_gaz=1&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAGQ&cid=2044074485.1791372064&frm=0&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121280969~121427143&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960921&dt=Raska%20-%20Ce%20jeu%20va%20cr%C3%A9er%20des%20probl%C3%A8mes%20!%20(ft.%20%40theodortytb%2C%20%40Snaptrox%20%26%40Zuukou667)%20-%20TheTVDB.com&en=page_view&_ee=1&tfd=1235"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-E35MMLRF5R&gtm=45je6a51v9102496370za200zb9206038736zd9206038736xf1&_p=1791372123001&_gaz=1&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAGQ&cid=2044074485.1791372064&frm=0&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&gaf=3&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121280969~121427143&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960921&dt=Raska%20-%20Ce%20jeu%20va%20cr%C3%A9er%20des%20probl%C3%A8mes%20!%20(ft.%20%40theodortytb%2C%20%40Snaptrox%20%26%40Zuukou667)%20-%20TheTVDB.com&en=page_view&_ee=1&tfd=1235"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372123001&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121280969&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960921&dt=Raska%20-%20Ce%20jeu%20va%20cr%C3%A9er%20des%20probl%C3%A8mes%20!%20(ft.%20%40theodortytb%2C%20%40Snaptrox%20%26%40Zuukou667)%20-%20TheTVDB.com&en=page_view&_ee=1&_et=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=2021"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372123001&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121280969&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960921&dt=Raska%20-%20Ce%20jeu%20va%20cr%C3%A9er%20des%20probl%C3%A8mes%20!%20(ft.%20%40theodortytb%2C%20%40Snaptrox%20%26%40Zuukou667)%20-%20TheTVDB.com&en=page_view&_ee=1&_et=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=2021&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372126006&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960921%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372126006&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960921%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372127278&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960928&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960928&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372127278&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960928&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960928&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372128989&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960928%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372128989&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960928%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372130244&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960929&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960929&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372130244&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960929&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960929&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372131941&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960929%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372131941&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960929%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372132950&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960930&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960930&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372132950&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960930&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960930&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372134783&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960930%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372134783&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960930%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372136110&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960801&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960801&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372136110&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960801&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960801&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372135889&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960801&dt=Raska%20-%20TU%20RIS%2C%20TU%20PERDS%20!%20(avec%20Soso%20Maness%2C%20Georgio%2C%20Theobabac%2C%20Totoche%20%26%20YassEncore)%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=1927"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372135889&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960801&dt=Raska%20-%20TU%20RIS%2C%20TU%20PERDS%20!%20(avec%20Soso%20Maness%2C%20Georgio%2C%20Theobabac%2C%20Totoche%20%26%20YassEncore)%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=1927&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372137911&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960801%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372137911&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960801%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372139037&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960803&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960803&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372139037&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960803&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960803&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372140738&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960803%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372140738&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960803%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372141779&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960814&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960814&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372141779&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11960814&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11960814&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372143527&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960814%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372143527&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11960814%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372144673&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11860678&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11860678&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372144673&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11860678&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11860678&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372144443&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115616986~115938466~115938469~118012008~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121125487~121246026~121246034~121280969&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11860678&dt=Raska%20-%20On%20JUGE%20les%20COVERS%20d%27albums%20(TierList%20avec%20Rim%27k%20%26%20Fifou)%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=1798"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372146273&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11860678%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372146273&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11860678%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372147307&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11860673&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11860673&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372147307&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11860673&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11860673&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372147096&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AEIEAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121125487&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11860673&dt=Raska%20-%20VENDS%20TON%20SKEUD%20III%20(ft.%20Inoxtag%2C%20SEB%20%26%20Th%C3%A9oJuice)%20-%20TheTVDB.com&en=ad_impression&ep.query_id=CISbtaTlp5cDFabvSgAdC9U3yA&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=1649"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51v9171404918za200zd9171404918xf1&_p=1791372147096&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AEIEAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121125487&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11860673&dt=Raska%20-%20VENDS%20TON%20SKEUD%20III%20(ft.%20Inoxtag%2C%20SEB%20%26%20Th%C3%A9oJuice)%20-%20TheTVDB.com&en=ad_impression&ep.query_id=CISbtaTlp5cDFabvSgAdC9U3yA&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=1649&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372149150&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11860673%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372149150&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11860673%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372150149&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11860671&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11860671&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372150149&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11860671&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11860671&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51h1v9171404918za200zd9171404918xf1&_p=1791372149929&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11860671&dt=Raska%20-%2035H%20DANS%20LA%20PIRE%20BO%C3%8ETE%20de%20France%20(ft.%20Michou%2C%20Byilhan%2C%20Flamby%20%26%20Nicotine)%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=1955"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google.com/g/collect?v=2&tid=G-CSH06VNRK2&gtm=45je6a51h1v9171404918za200zd9171404918xf1&_p=1791372149929&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=AAAAAAQ&cid=2044074485.1791372064&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271&sid=1791372064&sct=1&seg=1&dl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11860671&dt=Raska%20-%2035H%20DANS%20LA%20PIRE%20BO%C3%8ETE%20de%20France%20(ft.%20Michou%2C%20Byilhan%2C%20Flamby%20%26%20Nicotine)%20-%20TheTVDB.com&en=page_view&_ee=1&up.userid=3045498&up.user_role=user&up.user_subscribed=no&tfd=1955&gaf=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372152123&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11860671%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372152123&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11860671%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372153178&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11978005&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11978005&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372153178&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2Fraska%2Fepisodes%2F11978005&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2Fraska%2Fepisodes%2F11978005&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791372154777&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11978005%26series%3D479597&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791372154777&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D11978005%26series%3D479597&beacon=1"
+    }
+  ]
+}

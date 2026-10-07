@@ -1,0 +1,7 @@
+authenticated=true
+sourceMissing=29
+historicalWithoutYoutube=1
+planned=28
+skips=0
+blocked=0
+result=PREFLIGHT_COMPLETE
