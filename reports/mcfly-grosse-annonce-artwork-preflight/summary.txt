@@ -1,0 +1,5 @@
+authenticated=true
+artworkPresent=0
+usable16x9=1
+blocked=0
+result=PREFLIGHT_PASSED_ZERO_WRITES

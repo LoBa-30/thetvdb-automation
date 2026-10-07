@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-10-07T09:37:02.972Z",
+  "target": "Mcfly & Carlito S2015E01",
+  "mode": "READ_ONLY_ARTWORK_PREFLIGHT",
+  "authenticated": true,
+  "episode": {
+    "heading": "GROSSE ANNONCE",
+    "artwork": [],
+    "bodyPreview": "Discover Earn Points Support Home / Series / Mcfly & Carlito / Aired Order / Season 2015 / Episode 1 GROSSE ANNONCE français General Cast & Crew ORIGINALLY AIRED April 12, 2015 RUNTIME 1 minutes CREATED October 7, 2026 by Frata30 MODIFIED October 7, 2026 by Frata30 ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED."
+  },
+  "thumbnailVariants": [
+    {
+      "variant": "maxresdefault",
+      "url": "https://i.ytimg.com/vi/fttKpTYRdMs/maxresdefault.jpg",
+      "status": 200,
+      "width": 1280,
+      "height": 720,
+      "ratio": 1.7778,
+      "usable16x9": true
+    },
+    {
+      "variant": "sddefault",
+      "url": "https://i.ytimg.com/vi/fttKpTYRdMs/sddefault.jpg",
+      "status": 200,
+      "width": 640,
+      "height": 480,
+      "ratio": 1.3333,
+      "usable16x9": false
+    },
+    {
+      "variant": "hqdefault",
+      "url": "https://i.ytimg.com/vi/fttKpTYRdMs/hqdefault.jpg",
+      "status": 200,
+      "width": 480,
+      "height": 360,
+      "ratio": 1.3333,
+      "usable16x9": false
+    }
+  ],
+  "uploadForm": {
+    "action": "/artwork/upload_handler",
+    "episode": "12023296",
+    "series": "338282",
+    "type": "11",
+    "hasUrl": true
+  },
+  "blocked": [],
+  "result": "PREFLIGHT_PASSED_ZERO_WRITES",
+  "chosenThumbnail": {
+    "variant": "maxresdefault",
+    "url": "https://i.ytimg.com/vi/fttKpTYRdMs/maxresdefault.jpg",
+    "status": 200,
+    "width": 1280,
+    "height": 720,
+    "ratio": 1.7778,
+    "usable16x9": true
+  },
+  "readOnlyNetworkLock": true,
+  "blockedNonReadRequests": [
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791365827476&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F338282-show%2Fepisodes%2F12023296&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fepisodes%2F12023296&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791365827476&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F338282-show%2Fepisodes%2F12023296&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fepisodes%2F12023296&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791365829192&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D12023296%26series%3D338282&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791365829192&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fartwork%2Fupload&furl=https%3A%2F%2Fthetvdb.com%2Fartwork%2Fupload%3Ftype%3D11%26episode%3D12023296%26series%3D338282&beacon=1"
+    }
+  ]
+}
