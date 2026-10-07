@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-07T09:20:00Z",
+  "generatedAt": "2026-10-07T09:34:00Z",
   "sourceRun": 37569999952,
   "sourceArtifact": 11460124133,
-  "mode": "FRESH_PLANNER_TICKET_RESOLUTION_NO_WRITE",
+  "mode": "FRESH_PLANNER_TICKET_RESOLUTION_WITH_GUARDED_APPLY",
   "startingPlannerToVerify": 15,
   "resolvedTickets": [
     {
@@ -140,30 +140,33 @@
       "title": "PRIORITIES : vous êtes plus d’accord avec David ou Raf ? (Moi avec Raf)",
       "decision": "RESOLVED_OUT_OF_REFERENCE_SCOPE_NO_CREATE",
       "reason": "Already classified by prior checkpoint as published after the project reference cutoff 2026-09-09."
-    }
-  ],
-  "remainingTickets": [
+    },
     {
       "target": "Mcfly & Carlito",
+      "ticket": "LIKELY_MISSING_FROM_TVDB_OR_NON_EPISODE",
       "youtubeId": "fttKpTYRdMs",
       "title": "GROSSE ANNONCE",
-      "decision": "A_VERIFIER_NO_CREATE",
-      "known": "Exact publication date 2015-04-12 proven; known historical Unknown groups do not date-collide.",
-      "missingProof": [
-        "reliable runtime",
-        "exclusion of an assigned historical entry under another title"
-      ],
-      "safeguard": "NO_CREATE_UNTIL_IDENTITY_AND_RUNTIME_ARE_SUFFICIENTLY_PROVEN"
+      "decision": "RESOLVED_CREATED_AND_VERIFIED_CHRONOLOGICALLY",
+      "tvdb": "S2015E01",
+      "tvdbEpisodeId": "12023296",
+      "date": "2015-04-12",
+      "youtubeDuration": "1:18",
+      "tvdbRuntimeMinutes": 1,
+      "reason": "Exact official YouTube identity/date/runtime were proven; authenticated Unassigned audit read 64/64 with no collision; zero-write insertion preflight passed; current four June 2015 episodes were renumbered E01-E04 -> E02-E05, then GROSSE ANNONCE was created as chronological E01 and post-write verified.",
+      "applyReport": "reports/mcfly-grosse-annonce-apply/report.json",
+      "applyResult": "APPLIED_AND_VERIFIED"
     }
   ],
-  "resultingPlannerToVerify": 1,
-  "tvdbWrites": 0,
+  "remainingTickets": [],
+  "resultingPlannerToVerify": 0,
+  "tvdbWrites": 2,
   "destructiveActions": 0,
   "safeguards": [
     "NO_SPECULATIVE_CREATE",
     "NO_DELETE_ON_TITLE_REUSE",
     "NO_DELETE_ON_YOUTUBE_ABSENCE",
     "NO_SECURITY_BYPASS",
-    "NO_REPEAT_VERIFIED_WRITES"
+    "NO_REPEAT_VERIFIED_WRITES",
+    "GROSSE_ANNONCE_APPLIED_WITH_FRESH_PREFLIGHT_AND_POST_WRITE_VERIFICATION"
   ]
 }
