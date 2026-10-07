@@ -1,0 +1,891 @@
+{
+  "generatedAt": "2026-10-07T20:56:53.122889+00:00",
+  "mode": "READ_ONLY_MAXIME_TEXTFREE_FRAME_CANDIDATES",
+  "missingEpisodes": 23,
+  "episodesWithAtLeastOne1280x720": 23,
+  "total1280x720Candidates": 69,
+  "contactSheets": [
+    "reports/maxime-textfree-frame-candidates-2026-10-07/contact-01.jpg",
+    "reports/maxime-textfree-frame-candidates-2026-10-07/contact-02.jpg",
+    "reports/maxime-textfree-frame-candidates-2026-10-07/contact-03.jpg",
+    "reports/maxime-textfree-frame-candidates-2026-10-07/contact-04.jpg",
+    "reports/maxime-textfree-frame-candidates-2026-10-07/contact-05.jpg",
+    "reports/maxime-textfree-frame-candidates-2026-10-07/contact-06.jpg"
+  ],
+  "rows": [
+    {
+      "code": "S2019E01",
+      "episodeId": "11696580",
+      "title": "Try not to embrasser son pote (nouveau challenge trop dur)",
+      "youtubeId": "3X0piITkOTE",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/3X0piITkOTE/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 51592,
+          "sha256": "693c6819a67bb07b887748529e4662e816dbb150c2c95ffedc139633037bc7c6",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E01-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/3X0piITkOTE/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 55617,
+          "sha256": "3d4101aa9e925ba042e27443fa20253b761887b799bd7733739953dbf4de2a0b",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E01-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/3X0piITkOTE/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 56680,
+          "sha256": "4f7d5f11856f4bc7ee19771609e4f21d66cf1b65b59898ca6f01040bacb076d3",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E01-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E02",
+      "episodeId": "11696581",
+      "title": "J'ai testé le restaurant préféré de Sarkozy",
+      "youtubeId": "7rEsbvpprlw",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/7rEsbvpprlw/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 75782,
+          "sha256": "a2103479d9c5b411b78d0545c5894f6f8b95f471444b44d9bb2e5e557b1b58da",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E02-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/7rEsbvpprlw/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 73918,
+          "sha256": "6fde45d510f424a208c5d42c9a8ca92a55e2bcf5d36933d1ce2a91e6dc1b1a7d",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E02-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/7rEsbvpprlw/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 99124,
+          "sha256": "01e30884cdc1569fbee68554a1b527ec4f6e2f49d77626af3789010274705f87",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E02-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E03",
+      "episodeId": "11696582",
+      "title": "Je rencontre mes abonnés ça tourne mal (vidéo spéciale 300 abonnés)",
+      "youtubeId": "6NaIyjBRDNA",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/6NaIyjBRDNA/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 82194,
+          "sha256": "fd97a1cc50dfa62c8190eef2f022daf2346f28c0788c33e22d3d1a3c96d7e5aa",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E03-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/6NaIyjBRDNA/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 54733,
+          "sha256": "ff546cddf834ba045fdd6d55c013876a58a0eb4296e6661f7ab5e52844dc9615",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E03-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/6NaIyjBRDNA/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 84610,
+          "sha256": "6292863ed32ad5b9f5e4b6731a7a63ef23b87844052b92370f5eff6af566a85e",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E03-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E04",
+      "episodeId": "11696583",
+      "title": "J’ai testé le restaurant le moins bien noté de Paris",
+      "youtubeId": "7ghkayTlxiM",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/7ghkayTlxiM/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 51820,
+          "sha256": "35591ecf711ec36b46a0db3267758a6b5ea0244393e05b7f25538d95e2ad22b0",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E04-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/7ghkayTlxiM/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 52557,
+          "sha256": "957e0b17338f96e667dfacea2bcf7cb54bb1a20d28f0ef4dfe3a0ac59960ccb6",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E04-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/7ghkayTlxiM/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 68469,
+          "sha256": "7d4370b00048975990f77ddb4be34474bf1d8f8457217be9fe3db65668dbfc8e",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E04-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E05",
+      "episodeId": "11696584",
+      "title": "J'ai testé le café (à la fiente) le plus cher du monde",
+      "youtubeId": "1OcZ9gWUOjE",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/1OcZ9gWUOjE/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 97330,
+          "sha256": "92f533cbc19bd5a8c21f7dd50836acbc1b0c6d86e700ed1b06c1f4352842f67b",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E05-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/1OcZ9gWUOjE/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 93426,
+          "sha256": "3dcb46ddf7bedd9aef3b05f27de79c04a659696d6f8b30e9610a3fbaff86e0a1",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E05-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/1OcZ9gWUOjE/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 88121,
+          "sha256": "68c268c0495588405b18bfa474196ab755bbfb6a5b005d8834c73901cf1b89d5",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E05-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E06",
+      "episodeId": "11696585",
+      "title": "Mes anciennes vidéos...........",
+      "youtubeId": "7ZCqR3_XdV8",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/7ZCqR3_XdV8/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 72900,
+          "sha256": "161d1c4dccd68473344972570f2c576518377a05a31ce33ad5c2f741070d8626",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E06-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/7ZCqR3_XdV8/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 67557,
+          "sha256": "1f7459db38d4678e4910db5e7943bdaa8aee82a5eaf12f0bc425f97b134abcde",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E06-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/7ZCqR3_XdV8/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 92812,
+          "sha256": "d1870d51622247a5ca3035d900e29767a54d0fb3b2807f8457ea72039a35e12c",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E06-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E07",
+      "episodeId": "11696586",
+      "title": "LONDRES : MON REPORTAGE",
+      "youtubeId": "qj0K6DK_NzI",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/qj0K6DK_NzI/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 80996,
+          "sha256": "2fdb2dfa8af2d009b75652062eca40cf1d956fab7d2ce61f308278de07d44c87",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E07-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/qj0K6DK_NzI/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 55860,
+          "sha256": "e6214df517bd68a9ba4b2abf763ff34be67defd99b3cbd6e428e2768a6a445e6",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E07-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/qj0K6DK_NzI/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 87708,
+          "sha256": "4e9e51b130ea52d3a5e3ac2700a296e464fad54ee19510540607dcbf576744db",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2019E07-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2021E01",
+      "episodeId": "11696587",
+      "title": "Je passe 24H avec un journaliste ca TOURNE MAL....",
+      "youtubeId": "5sssiqLZqvA",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/5sssiqLZqvA/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 32749,
+          "sha256": "5cd3879a0a4451660192c8758bffed20dedae27921246a973fd7e316213de94e",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2021E01-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/5sssiqLZqvA/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 56870,
+          "sha256": "74f84d40a1837ace194d42e07ab270bf25765d6c438115b9d351aab796c092ac",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2021E01-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/5sssiqLZqvA/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 67212,
+          "sha256": "170043d527e95158e187b4c07bf05988ab6aeea0d9113497b1fd7773dd8321ab",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2021E01-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2022E02",
+      "episodeId": "11696590",
+      "title": "UNE SEMAINE POUR FAIRE UNE CHORÉE KPOP EN LIVE (très dur)",
+      "youtubeId": "kJNa_dwN3Lc",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/kJNa_dwN3Lc/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 82923,
+          "sha256": "945bae207b3055f491c41f03e6d969a01a3d54d7aec4e9411c1400c486f84bb5",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2022E02-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/kJNa_dwN3Lc/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 58826,
+          "sha256": "2d3f6433eef9118b854014074b3e7c306ceac9a798642806bf0f0b45a199c450",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2022E02-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/kJNa_dwN3Lc/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 120311,
+          "sha256": "a9f1731aded2c364e826773e40ca613180204324e0c7508d7108c23a486fbcf2",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2022E02-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2022E04",
+      "episodeId": "11696592",
+      "title": "IL DÉPASSE LES LIMITES AVEC SON AMI !! (Pour faire rire la galerie...)",
+      "youtubeId": "0T5ovr0gWOU",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/0T5ovr0gWOU/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 50593,
+          "sha256": "5e7d5aec05d1ffdcdfcc4c99522e520cc6f5e006cc2c3dbbcb82e1c4c15045fc",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2022E04-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/0T5ovr0gWOU/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 43007,
+          "sha256": "e092e73ecde973a21b1839abc3792a0fe3c698d18977aee02f75cf8d5f02af80",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2022E04-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/0T5ovr0gWOU/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 46865,
+          "sha256": "e3b7b175946e143a05b6205160e7300bcd3c56a0f6057a8211654b6e2577db65",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2022E04-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2022E07",
+      "episodeId": "11696597",
+      "title": "Mo7cine : la pépite de Twitch et du Football...",
+      "youtubeId": "DJagWkMzPOY",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/DJagWkMzPOY/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 55602,
+          "sha256": "18418eb605ce78b3f6c29fd7350f29e54df50320ade6ed47a2cea24ed46522a2",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2022E07-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/DJagWkMzPOY/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 49723,
+          "sha256": "2d098503ba2c1e27fa05d78368986be6b113b9f1aea828f978690c3dd1b697a4",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2022E07-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/DJagWkMzPOY/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 63193,
+          "sha256": "ad9572129680db8c22ad0ed5f286f613af91ba6828c0e6d67b2cecd90e601bad",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2022E07-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2023E01",
+      "episodeId": "11696603",
+      "title": "J'ai retrouvé mon passage dans les 12 coups de midi...",
+      "youtubeId": "e6e8LeU_REQ",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/e6e8LeU_REQ/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 76706,
+          "sha256": "c53a3f19778cdc4f4455a9ce66baf5ab52c06245e04ba5220e9bd17f2a39019b",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2023E01-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/e6e8LeU_REQ/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 67662,
+          "sha256": "27d83c535a5d40176ae7c1b48874fea9394eb3897a6975e480598b4171225e63",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2023E01-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/e6e8LeU_REQ/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 64587,
+          "sha256": "aed116947832d9a5729129b21738deedcecc1534a312befaf5db2b9edf2e6053",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2023E01-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2023E05",
+      "episodeId": "11696607",
+      "title": "Ils auraient jamais dû m'inviter... (GP Explorer 2)",
+      "youtubeId": "SbBVZNt1Vmk",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/SbBVZNt1Vmk/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 55638,
+          "sha256": "79f55a608e263c9966d7c363efc81660db6416ddb30afe1855c280fd80ec8fd3",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2023E05-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/SbBVZNt1Vmk/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 63079,
+          "sha256": "683e8fdf958ce77708cdab783b944439951c387cb69d5bac47112a4bbc30fda3",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2023E05-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/SbBVZNt1Vmk/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 50410,
+          "sha256": "23108dcc0caa611edafb791539450d118441998b41e832f2b395182f37d168fc",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2023E05-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2023E06",
+      "episodeId": "11696608",
+      "title": "Le gâcheur du GP Explorer 2 ?",
+      "youtubeId": "oPP03kTg0aU",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/oPP03kTg0aU/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 58441,
+          "sha256": "489f45eaf7130ddd3b70e7f3c26650c2aa8707f424150062c254936f5d07c467",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2023E06-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/oPP03kTg0aU/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 49578,
+          "sha256": "09214219649017473b58552045b88804e8e3a18efe8a084441170902531d1223",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2023E06-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/oPP03kTg0aU/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 59883,
+          "sha256": "41ec69da59e04fd4f79f6ab52f86092f8c37a97c10e54fbcab1759722fc741fd",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2023E06-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2023E08",
+      "episodeId": "11696610",
+      "title": "Miam miam je suis un gros gourmand j’ai bien mangé",
+      "youtubeId": "Ako-aLACYPE",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/Ako-aLACYPE/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 66926,
+          "sha256": "ee6da6f3e70b5cf4d8fb5b619b65c848f0830feda7b73db97ded26e5d5c845f2",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2023E08-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/Ako-aLACYPE/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 71128,
+          "sha256": "cc788a4253071cf3b151b0b800a59c0b12f8f6df8a5a4fab772b1a48560ff508",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2023E08-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/Ako-aLACYPE/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 50154,
+          "sha256": "8ce65e7a3a4bfacf8f357f04a437da74680ae4a02958f8735479e4df8170b18a",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2023E08-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2023E09",
+      "episodeId": "11696611",
+      "title": "On offre des cadeaux à 3 abonnés (y’en a une qui chiale)",
+      "youtubeId": "PaTyxBnzfSM",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/PaTyxBnzfSM/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 68863,
+          "sha256": "35a9da7d0fba91f7ec4c4b62f18263e3c708f65399b7a3321ab8eab006a01d7b",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2023E09-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/PaTyxBnzfSM/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 83530,
+          "sha256": "aa533059bdb9dd59566d1e06139e7ae816f17b01d6b1a202e6f680bebac56383",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2023E09-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/PaTyxBnzfSM/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 82715,
+          "sha256": "222afe38b5f1b155f9794c5be70fbf091bb55fca8f9d2431b19aedccfa4eb1ae",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2023E09-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2024E01",
+      "episodeId": "11696620",
+      "title": "Est-ce que je suis d'accord avec Audrey ?",
+      "youtubeId": "oPqUT9AtyY4",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/oPqUT9AtyY4/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 47307,
+          "sha256": "9ab254817b054a0468a22d7e27643d33ee3c53bede7a74aca6b30ef9728fe38b",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2024E01-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/oPqUT9AtyY4/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 42955,
+          "sha256": "27ff0d9ec5bf37fd5258b3467dfc4111c5147fac29b7fee22db19fb00e24df7c",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2024E01-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/oPqUT9AtyY4/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 84550,
+          "sha256": "0e12f92cb1b0ec524d44d4d0c8e206269da0f62e4ce4e6d995274adc243b4797",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2024E01-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2024E02",
+      "episodeId": "11696621",
+      "title": "On vous a rendu service pendant une journée (poney, déménagement, peinture…)",
+      "youtubeId": "6csK8iek7PU",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/6csK8iek7PU/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 56045,
+          "sha256": "a7994944cbbbf86955c47446feebf7eec28a4e89eb07bd8ca582534e7f5136f3",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2024E02-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/6csK8iek7PU/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 49143,
+          "sha256": "625e5e43375dc4ae211e47f39990d9bb73b7d4f95bc6b17f4133da1ebae2270c",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2024E02-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/6csK8iek7PU/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 55879,
+          "sha256": "8018af496adcf6050db378030c30ccfdd70f83d7d5216750714f79c44e042e63",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2024E02-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2024E04",
+      "episodeId": "11696623",
+      "title": "Qui fera le meilleur film en 1h avec des inconnus ?",
+      "youtubeId": "ZOpLlT0vRxQ",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/ZOpLlT0vRxQ/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 52257,
+          "sha256": "53a8f14cebaf63722762fc744e02b52e7a727760d9cc35c1a407c8234d8b1723",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2024E04-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/ZOpLlT0vRxQ/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 43707,
+          "sha256": "66f2f2e77de518e218cefe1ed822178827abe6a6dc30c6e06064eaa76937c921",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2024E04-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/ZOpLlT0vRxQ/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 65489,
+          "sha256": "2d4417ca36566cdd25f30bb761723efc4caedd1d948ce43a7475ba596e18d14c",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2024E04-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2024E06",
+      "episodeId": "11696625",
+      "title": "Diner de Noël avec des gros gourmands !! (Secret Santa et rigolade)",
+      "youtubeId": "_oLISqPGXMg",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/_oLISqPGXMg/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 87896,
+          "sha256": "3f21a0908dd2b65f6a9effdc4ddf2a4d9137966803c8a556bd19badd2010d677",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2024E06-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/_oLISqPGXMg/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 61644,
+          "sha256": "63c98a93bb6c30c51eb8e245afcdf4185a7ee9590a7e0bbb6881f31025b2967a",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2024E06-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/_oLISqPGXMg/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 81458,
+          "sha256": "4a0d915acdc6b6324d235fcb209f70b3eebf46527c05bd95172e34194fefff72",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2024E06-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2025E01",
+      "episodeId": "11696637",
+      "title": "2 jours pour faire une piste noire (j'ai jamais skié)",
+      "youtubeId": "EqFLIsSB2hg",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 45546,
+          "sha256": "5a16c0f4f731685cb0df38dbfdab60764327f889b5bfa896fdd74f0f09885238",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2025E01-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 47673,
+          "sha256": "c639f6c358778d06042cffd6b4f971f860169298524caface7bebef7f197686b",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2025E01-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 44387,
+          "sha256": "1ad593560912a2ee6330ec688c6e44c37d32efe0878260e15113be48d4cc7387",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2025E01-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2025E05",
+      "episodeId": "11696641",
+      "title": "De retour pour vous jouer un mauvais tour - GP Explorer 3",
+      "youtubeId": "FvtoTtKm0gE",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/FvtoTtKm0gE/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 45811,
+          "sha256": "a8de260ee92bcbf3cae752c664afc322c87c85f364ebc210934b4d8556e2b148",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2025E05-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/FvtoTtKm0gE/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 56912,
+          "sha256": "442388292b7e075e900b268675e7f465557500875351255f2fd69a74ddbf0a2f",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2025E05-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/FvtoTtKm0gE/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 50701,
+          "sha256": "feadcb451a92ca6166a96f23b36cd9d9b096235b33b725c29aeec59971e69938",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2025E05-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2025E08",
+      "episodeId": "11696644",
+      "title": "QUI est le TRAÎTRE parmi nous ?",
+      "youtubeId": "4kDYChbVMvw",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/4kDYChbVMvw/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 92143,
+          "sha256": "a07ef344e00b4bdb3c6eb7c8058592bda08b8ddaeb1179256851ab6f1c076b25",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2025E08-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/4kDYChbVMvw/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 42341,
+          "sha256": "dd05ecb0aa14cb5afc50fc3f8fb5799b5b2b9fb782f1d729d2f064b50d8e9ba2",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2025E08-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/4kDYChbVMvw/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 75983,
+          "sha256": "b753520de20bd8bd2050d68a92412658dd9b8a5ce1c30ee6f21467e1a09b327c",
+          "path": "reports/maxime-textfree-frame-candidates-2026-10-07/images/S2025E08-maxres3.jpg"
+        }
+      ]
+    }
+  ]
+}
