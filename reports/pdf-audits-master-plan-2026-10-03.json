@@ -15,9 +15,8 @@
     {
       "target": "Djilsi",
       "pdf": "AUDIT THETVDB — DJILSI.pdf",
-      "status": "IN_PROGRESS_ARTWORK_ONLY",
+      "status": "IN_PROGRESS_EXISTING_ARTWORK_PROVENANCE_ONLY",
       "pdfOpenWork": [
-        "19 missing artworks remain versus the original 139-missing PDF snapshot after 120 newly applied+verified artworks; continue only from fresh live rescans.",
         "75 existing artworks provenance checks"
       ],
       "resolvedSincePlan": [
@@ -28,7 +27,9 @@
         "2026-10-07 continuation: Djilsi artwork batch 3 applied and individually post-write verified 20/20 (S2019E22-S2019E41), 0 skips, 0 safe blocks, 0 failed-after-write.",
         "2026-10-07 continuation: Djilsi artwork batch 4 applied and individually post-write verified 20/20, 0 skips, 0 safe blocks, 0 failed-after-write. Total newly applied+verified artwork count through batch 4 is 80.",
         "2026-10-07 continuation: Djilsi artwork batch 5 applied and individually post-write verified 20/20 (S2020E17-S2021E06), 0 skips, 0 safe blocks, 0 failed-after-write. Total newly applied+verified artwork count through batch 5 is 100.",
-        "2026-10-07 continuation: Djilsi artwork batch 6 applied and individually post-write verified 20/20 (S2021E07-S2022E10), 0 skips, 0 safe blocks, 0 failed-after-write. Total newly applied+verified artwork count through batch 6 is 120."
+        "2026-10-07 continuation: Djilsi artwork batch 6 applied and individually post-write verified 20/20 (S2021E07-S2022E10), 0 skips, 0 safe blocks, 0 failed-after-write. Total newly applied+verified artwork count through batch 6 is 120.",
+        "2026-10-07 continuation: Djilsi artwork batch 7 applied and individually post-write verified 20/20 (S2022E11-S2026E17), 0 skips, 0 safe blocks, 0 failed-after-write. Total newly applied+verified artwork count through batch 7 is 140.",
+        "2026-10-07 Djilsi post140 closure rescan: 140 historical/verified artwork codes + 75 live artworks already present = all 215 episodes covered; 0 additional clean missing-artwork candidates remain. Missing-artwork scope is closed."
       ]
     },
     {
@@ -247,7 +248,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T16:25:00Z",
+  "lastUpdatedAt": "2026-10-07T16:33:00Z",
   "latestContinuationCommits": [
     "38c1bbafe19bfbe54c91072ab9419ec91d7715d7",
     "68bb95cb01a3f49ceb6f7e29ee530daac5e07696",
@@ -373,6 +374,8 @@
     "348da391697d8b7d20d69fe483e53f5fe849e0a1",
     "65797f73bb60767411b3b45623d72d66e4f45e1a",
     "d122fe0fe8a404e29f8a30b9fee5ce155139c0dd",
-    "b02e37135446d632dd914ceae4267100ffbef0ce"
+    "b02e37135446d632dd914ceae4267100ffbef0ce",
+    "e3f6a5b04ed8addb572aca2feacb43a6a8adcf13",
+    "36d43949a61142b77d3c064d3d2fa1c14941dccc"
   ]
 }
