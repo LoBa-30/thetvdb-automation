@@ -1,0 +1,41 @@
+name: Maxime final artwork gaps
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/maxime-final-artwork-gaps.yml'
+      - 'src/maxime-final-artwork-gaps.js'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Guarded Maxime final artwork gaps
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+          TVDB_MAXIME_FINAL_GAPS: 'yes'
+        run: node src/maxime-final-artwork-gaps.js
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/maxime-final-artwork-gaps-2026-10-07
+          git commit -m "Record Maxime final artwork gaps [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: maxime-final-artwork-gaps
+          path: reports/maxime-final-artwork-gaps-2026-10-07/
