@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-10-07T20:30:50.557Z",
+  "mode": "GUARDED_ELIAN_SERIES_POSTER",
+  "authenticated": true,
+  "preflight": {
+    "beforePosters": [],
+    "posterFile": "/tmp/elian-ventre-poster.jpg"
+  },
+  "stage1": null,
+  "crop": null,
+  "stage2": null,
+  "verification": null,
+  "blocked": [
+    {
+      "reason": "Error: POSTER_UPLOAD_FORM_MISSING\n    at file:///home/runner/work/thetvdb-automation/thetvdb-automation/src/elian-series-poster-upload.js:38:34"
+    }
+  ],
+  "result": "BLOCKED_BEFORE_WRITE"
+}
