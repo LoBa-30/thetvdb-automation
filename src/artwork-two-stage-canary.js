@@ -154,10 +154,7 @@ try{
   for(let i=0;i<count;i++){
     const cand=forms.nth(i);
     const snap=await formSnapshot(cand);
-    const ep=snap.controls.find(c=>c.name==='episode')?.value;
-    const series=snap.controls.find(c=>c.name==='series')?.value;
-    const type=snap.controls.find(c=>c.name==='type')?.value;
-    if(ep===X.id&&series===X.series&&type==='11'&&snap.action&&snap.action!=='/artwork/upload_handler'){
+    if(snap.action==='/artwork/upload_cropper_handler'){
       crop=cand;cropSnap=snap;break;
     }
   }
@@ -165,17 +162,32 @@ try{
     const all=[];
     for(let i=0;i<count;i++) all.push(await formSnapshot(forms.nth(i)));
     report.cropForm={found:false,forms:all};
-    throw new Error('No scoped second-stage crop/resize form found');
+    throw new Error('Expected /artwork/upload_cropper_handler form not found');
   }
 
   const actionUrl=new URL(cropSnap.action,BASE);
-  if(actionUrl.origin!==BASE||!/^\/artwork\//.test(actionUrl.pathname)) throw new Error('Unexpected second-stage action '+actionUrl.pathname);
-  const blockedRequired=cropSnap.controls.filter(c=>c.required&&!c.value&&c.type!=='file');
-  if(blockedRequired.length) throw new Error('Second-stage required fields empty: '+blockedRequired.map(x=>x.name).join(','));
-  const submit=crop.locator('button[type="submit"],input[type="submit"]').first();
-  if(!(await submit.count())||await submit.isDisabled()) throw new Error('Second-stage submit unavailable');
+  const cv=(name)=>cropSnap.controls.find(c=>c.name===name)?.value ?? null;
+  const cropId=cv('id');
+  const cropScope={
+    id:cropId,
+    x:cv('x'),
+    y:cv('y'),
+    width:cv('width'),
+    height:cv('height'),
+    scaleX:cv('scaleX'),
+    scaleY:cv('scaleY')
+  };
+  if(actionUrl.origin!==BASE||actionUrl.pathname!=='/artwork/upload_cropper_handler') throw new Error('Unexpected second-stage action '+actionUrl.pathname);
+  if(!/^\\d+$/.test(String(cropId||''))) throw new Error('Missing numeric temporary artwork id');
+  if(cropScope.x!=='0'||cropScope.y!=='0'||cropScope.width!=='1280'||cropScope.height!=='720'||cropScope.scaleX!=='1'||cropScope.scaleY!=='1'){
+    throw new Error('Unexpected crop scope '+JSON.stringify(cropScope));
+  }
+  const stage1Body=report.stage1?.bodyText||'';
+  if(!/Adjust Image/i.test(stage1Body)||!/Finish/i.test(stage1Body)) throw new Error('Crop page identity not proven');
+  const submit=crop.locator('button[type="submit"],input[type="submit"]').filter({hasText:'Finish'}).first();
+  if(!(await submit.count())||await submit.isDisabled()) throw new Error('Finish submit unavailable');
 
-  report.cropForm={found:true,...cropSnap,resolvedAction:actionUrl.pathname};
+  report.cropForm={found:true,...cropSnap,resolvedAction:actionUrl.pathname,cropScope,provenance:'TEMP_ID_CREATED_BY_STAGE1_IN_SAME_AUTHENTICATED_SESSION'};
   allowedPostPaths.add(actionUrl.pathname);
 
   const secondRespPromise=page.waitForResponse(r=>new URL(r.url()).origin===BASE&&new URL(r.url()).pathname===actionUrl.pathname&&r.request().method()==='POST',{timeout:60000}).catch(()=>null);
