@@ -1,0 +1,37 @@
+name: Maxime final two artwork preflight
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/maxime-final-two-artwork-preflight.yml'
+      - 'src/maxime-final-two-artwork-preflight.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: pip install requests pillow yt-dlp
+      - name: Run read-only final-two Maxime artwork preflight
+        run: python src/maxime-final-two-artwork-preflight.py
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/maxime-final-two-artwork-preflight-2026-10-07
+          git commit -m "Record Maxime final-two artwork preflight [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: maxime-final-two-artwork-preflight
+          path: reports/maxime-final-two-artwork-preflight-2026-10-07/
