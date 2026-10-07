@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-10-07T13:45:35.168Z",
+  "mode": "READ_ONLY_MAXIME_UPLOAD_FORM_DIAGNOSTIC",
+  "authenticated": true,
+  "target": {
+    "episodeId": "11696606",
+    "code": "S2023E04",
+    "title": "J'organise une chasse à l'homme dans Paris !!!"
+  },
+  "episode": {
+    "http": 200,
+    "pageUrl": "https://thetvdb.com/series/maxime-biaggi/episodes/11696606",
+    "heading": "J'organise une chasse à l'homme dans Paris !!!",
+    "body": "Discover Earn Points Support Login Home / Series / Maxime Biaggi / Aired Order / Season 2023 / Episode 4 J'organise une chasse à l'homme dans Paris !!! français General Cast & Crew ORIGINALLY AIRED March 11, 2023 RUNTIME 25 minutes CREATED March 25, 2026 by rafffff MODIFIED March 25, 2026 by rafffff ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED."
+  },
+  "upload": {
+    "http": 200,
+    "pageUrl": "https://thetvdb.com/auth/login",
+    "title": "Login - TheTVDB.com",
+    "body": "Discover Earn Points Support Login Forgot Your Password? Create an Account Home / Login Email Address Password Remember Me Login ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED.",
+    "forms": [
+      {
+        "action": "/search",
+        "method": "get",
+        "text": "",
+        "controls": [
+          {
+            "name": "query",
+            "type": "text",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "action": "/auth/login",
+        "method": "POST",
+        "text": "Email Address Password Remember Me Login",
+        "controls": [
+          {
+            "name": "_token",
+            "type": "hidden",
+            "value": "HdtB0v5Tqqb3R3GStyCunE9JPE5yPLF317tWqL6h"
+          },
+          {
+            "name": "redirectTo",
+            "type": "hidden",
+            "value": ""
+          },
+          {
+            "name": "email",
+            "type": "text",
+            "value": ""
+          },
+          {
+            "name": "password",
+            "type": "password",
+            "value": ""
+          },
+          {
+            "name": "remember",
+            "type": "checkbox",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "result": "UPLOAD_FORM_ABSENT_READ_ONLY"
+}
