@@ -1,15 +1,23 @@
 {
-  "generatedAt": "2026-10-07T20:44:43.715Z",
+  "generatedAt": "2026-10-07T20:46:59.460Z",
   "mode": "READ_ONLY_YOUTUBE_VIDEO_FRAME_PILOT",
   "videoId": "EqFLIsSB2hg",
   "frames": [],
   "blocked": [
     {
-      "reason": "Error: VIDEO_DURATION_INVALID\n    at file:///home/runner/work/thetvdb-automation/thetvdb-automation/src/maxime-s2025e01-frame-pilot.js:27:62\n    at runNextTicks (node:internal/process/task_queues:64:5)\n    at process.processImmediate (node:internal/timers:452:9)\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)"
+      "reason": "Error: VIDEO_DURATION_INVALID\n    at file:///home/runner/work/thetvdb-automation/thetvdb-automation/src/maxime-s2025e01-frame-pilot.js:44:11"
     }
   ],
   "result": "FRAME_CAPTURE_BLOCKED",
   "http": 200,
+  "initialBody": "Erreur de configuration du lecteur vidéo Erreur de configuration du lecteur vidéo Erreur 153 Regarder la vidéo sur YouTube En savoir plus Erreur 153",
+  "buttons": [
+    {
+      "text": "Réactiver le son",
+      "title": null,
+      "aria": null
+    }
+  ],
   "meta": {
     "duration": null,
     "videoWidth": 0,
@@ -17,5 +25,6 @@
     "readyState": 0,
     "currentTime": 0,
     "paused": true
-  }
+  },
+  "body": "Erreur de configuration du lecteur vidéo Erreur de configuration du lecteur vidéo Erreur 153 Regarder la vidéo sur YouTube En savoir plus Erreur 153"
 }
