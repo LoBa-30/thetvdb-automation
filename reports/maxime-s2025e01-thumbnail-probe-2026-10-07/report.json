@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T20:32:06.961476+00:00",
+  "generatedAt": "2026-10-07T20:50:33.554112+00:00",
   "youtubeId": "EqFLIsSB2hg",
   "variants": [
     {
@@ -8,6 +8,39 @@
       "status": 404,
       "bytes": 1097,
       "contentType": "image/jpeg"
+    },
+    {
+      "name": "maxres1.jpg",
+      "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/maxres1.jpg",
+      "status": 200,
+      "bytes": 45546,
+      "contentType": "image/jpeg",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "name": "maxres2.jpg",
+      "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/maxres2.jpg",
+      "status": 200,
+      "bytes": 47673,
+      "contentType": "image/jpeg",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "name": "maxres3.jpg",
+      "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/maxres3.jpg",
+      "status": 200,
+      "bytes": 44387,
+      "contentType": "image/jpeg",
+      "size": [
+        1280,
+        720
+      ]
     },
     {
       "name": "hq720.jpg",
@@ -24,10 +57,76 @@
       "contentType": "image/jpeg"
     },
     {
+      "name": "sd1.jpg",
+      "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/sd1.jpg",
+      "status": 200,
+      "bytes": 24701,
+      "contentType": "image/jpeg",
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "name": "sd2.jpg",
+      "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/sd2.jpg",
+      "status": 200,
+      "bytes": 24935,
+      "contentType": "image/jpeg",
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "name": "sd3.jpg",
+      "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/sd3.jpg",
+      "status": 200,
+      "bytes": 23771,
+      "contentType": "image/jpeg",
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
       "name": "hqdefault.jpg",
       "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/hqdefault.jpg",
       "status": 200,
       "bytes": 20684,
+      "contentType": "image/jpeg",
+      "size": [
+        480,
+        360
+      ]
+    },
+    {
+      "name": "hq1.jpg",
+      "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/hq1.jpg",
+      "status": 200,
+      "bytes": 8672,
+      "contentType": "image/jpeg",
+      "size": [
+        480,
+        360
+      ]
+    },
+    {
+      "name": "hq2.jpg",
+      "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/hq2.jpg",
+      "status": 200,
+      "bytes": 8794,
+      "contentType": "image/jpeg",
+      "size": [
+        480,
+        360
+      ]
+    },
+    {
+      "name": "hq3.jpg",
+      "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/hq3.jpg",
+      "status": 200,
+      "bytes": 8364,
       "contentType": "image/jpeg",
       "size": [
         480,
@@ -46,6 +145,39 @@
       ]
     },
     {
+      "name": "1.jpg",
+      "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/1.jpg",
+      "status": 200,
+      "bytes": 2635,
+      "contentType": "image/jpeg",
+      "size": [
+        120,
+        90
+      ]
+    },
+    {
+      "name": "2.jpg",
+      "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/2.jpg",
+      "status": 200,
+      "bytes": 2661,
+      "contentType": "image/jpeg",
+      "size": [
+        120,
+        90
+      ]
+    },
+    {
+      "name": "3.jpg",
+      "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/3.jpg",
+      "status": 200,
+      "bytes": 2535,
+      "contentType": "image/jpeg",
+      "size": [
+        120,
+        90
+      ]
+    },
+    {
       "name": "maxresdefault.webp",
       "url": "https://i.ytimg.com/vi_webp/EqFLIsSB2hg/maxresdefault.webp",
       "status": 404,
@@ -53,11 +185,37 @@
       "contentType": "image/webp"
     },
     {
-      "name": "hq720.webp",
-      "url": "https://i.ytimg.com/vi_webp/EqFLIsSB2hg/hq720.webp",
-      "status": 404,
-      "bytes": 552,
-      "contentType": "image/webp"
+      "name": "maxres1.webp",
+      "url": "https://i.ytimg.com/vi_webp/EqFLIsSB2hg/maxres1.webp",
+      "status": 200,
+      "bytes": 24266,
+      "contentType": "image/webp",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "name": "maxres2.webp",
+      "url": "https://i.ytimg.com/vi_webp/EqFLIsSB2hg/maxres2.webp",
+      "status": 200,
+      "bytes": 25910,
+      "contentType": "image/webp",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "name": "maxres3.webp",
+      "url": "https://i.ytimg.com/vi_webp/EqFLIsSB2hg/maxres3.webp",
+      "status": 200,
+      "bytes": 23294,
+      "contentType": "image/webp",
+      "size": [
+        1280,
+        720
+      ]
     },
     {
       "name": "sddefault.webp",
@@ -67,10 +225,76 @@
       "contentType": "image/webp"
     },
     {
+      "name": "sd1.webp",
+      "url": "https://i.ytimg.com/vi_webp/EqFLIsSB2hg/sd1.webp",
+      "status": 200,
+      "bytes": 11388,
+      "contentType": "image/webp",
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "name": "sd2.webp",
+      "url": "https://i.ytimg.com/vi_webp/EqFLIsSB2hg/sd2.webp",
+      "status": 200,
+      "bytes": 12344,
+      "contentType": "image/webp",
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
+      "name": "sd3.webp",
+      "url": "https://i.ytimg.com/vi_webp/EqFLIsSB2hg/sd3.webp",
+      "status": 200,
+      "bytes": 10844,
+      "contentType": "image/webp",
+      "size": [
+        640,
+        480
+      ]
+    },
+    {
       "name": "hqdefault.webp",
       "url": "https://i.ytimg.com/vi_webp/EqFLIsSB2hg/hqdefault.webp",
       "status": 200,
       "bytes": 26596,
+      "contentType": "image/webp",
+      "size": [
+        480,
+        360
+      ]
+    },
+    {
+      "name": "hq1.webp",
+      "url": "https://i.ytimg.com/vi_webp/EqFLIsSB2hg/hq1.webp",
+      "status": 200,
+      "bytes": 8250,
+      "contentType": "image/webp",
+      "size": [
+        480,
+        360
+      ]
+    },
+    {
+      "name": "hq2.webp",
+      "url": "https://i.ytimg.com/vi_webp/EqFLIsSB2hg/hq2.webp",
+      "status": 200,
+      "bytes": 8708,
+      "contentType": "image/webp",
+      "size": [
+        480,
+        360
+      ]
+    },
+    {
+      "name": "hq3.webp",
+      "url": "https://i.ytimg.com/vi_webp/EqFLIsSB2hg/hq3.webp",
+      "status": 200,
+      "bytes": 7876,
       "contentType": "image/webp",
       "size": [
         480,
