@@ -1,4 +1,4 @@
 tvdb=64
 youtube=64
-planned=0
-result=PREFLIGHT_INSUFFICIENT_CANDIDATES
+planned=20
+result=PREFLIGHT_READY
