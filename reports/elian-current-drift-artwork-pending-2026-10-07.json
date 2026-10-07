@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-10-07T11:18:00Z",
+  "target": "Elian Ventre",
+  "mode": "CURRENT_STATE_DRIFT_AND_ARTWORK_PENDING_CHECKPOINT",
+  "titleDrift": {
+    "code": "S2026E08",
+    "episodeId": "12014528",
+    "youtubeId": "xkGjW_FR8vI",
+    "currentOfficialYouTubeTitle": "On s'affronte pour construire la meilleure cabane ! ft. Maxime Biaggi",
+    "currentTvdbTitle": "Nos cabanes vont-elles résister au Loup ?! (ft. Maxime Biaggi)",
+    "tvdbDate": "2026-09-30",
+    "tvdbRuntimeMinutes": 34,
+    "priorVerifiedWrite": "reports/elian-e08-title-refresh/report.json",
+    "priorResult": "APPLIED_AND_VERIFIED",
+    "currentDecision": "STATE_REGRESSION_TICKET_NO_REPEAT_WRITE",
+    "reason": "Fresh global audit and current public TheTVDB page show the old title again after the exact current-title write had already been post-write verified. Project rule forbids repeating an already verified write."
+  },
+  "artworkPending": {
+    "code": "S2023E06",
+    "episodeId": "11092253",
+    "youtubeId": "lBYtMPlWRq4",
+    "sourceImage": "https://i.ytimg.com/vi/lBYtMPlWRq4/maxresdefault.jpg",
+    "priorSubmission": "reports/elian-artwork-file-canary/report.json",
+    "postStatus": 200,
+    "currentPublicArtwork": "MISSING_PLACEHOLDER",
+    "decision": "SUBMITTED_PENDING_NO_RETRY",
+    "reason": "TheTVDB accepted the multipart POST but the public episode page still resolves to the missing episode placeholder. No blind retry."
+  },
+  "safeguards": [
+    "NO_REPEAT_VERIFIED_TITLE_WRITE",
+    "NO_ARTWORK_RETRY_WHILE_PENDING",
+    "NO_SECURITY_BYPASS"
+  ]
+}
