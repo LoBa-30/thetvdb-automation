@@ -21,3 +21,10 @@ for name in variants:
 report={'generatedAt':datetime.now(timezone.utc).isoformat(),'youtubeId':vid,'variants':rows}
 (OUT/'report.json').write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps(report,indent=2))
+
+# save candidate frame images for private visual inspection
+for row in rows:
+    if row.get('name') in ('maxres1.jpg','maxres2.jpg','maxres3.jpg') and row.get('status')==200 and row.get('size')==[1280,720]:
+        rr=S.get(row['url'],timeout=20)
+        if rr.status_code==200:
+            (OUT/row['name']).write_bytes(rr.content)
