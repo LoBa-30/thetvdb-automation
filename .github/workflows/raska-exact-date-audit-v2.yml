@@ -1,0 +1,44 @@
+name: Raska exact date audit v2
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/raska-exact-date-audit-v2.yml'
+      - 'src/raska-exact-date-audit-v2.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install -U yt-dlp requests beautifulsoup4
+      - name: Retrieve current main-channel Videos catalogue
+        run: |
+          mkdir -p reports/raska-exact-date-audit-v2
+          yt-dlp --flat-playlist --dump-single-json --no-warnings --extractor-args 'youtube:lang=fr' 'https://www.youtube.com/@R4SK4/videos' > reports/raska-exact-date-audit-v2/catalogue.json
+      - name: Multi-client exact date/runtime comparison
+        run: python src/raska-exact-date-audit-v2.py
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/raska-exact-date-audit-v2/report.json reports/raska-exact-date-audit-v2/summary.txt || true
+          git commit -m "Record Raska exact date audit v2 [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: raska-exact-date-audit-v2
+          path: reports/raska-exact-date-audit-v2/
