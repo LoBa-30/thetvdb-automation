@@ -1,0 +1,40 @@
+name: Elian live artwork check after removals
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/elian-live-artwork-check-after-removals.yml'
+      - 'src/elian-live-artwork-check-after-removals.js'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Run Elian live artwork check
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: node src/elian-live-artwork-check-after-removals.js
+      - name: Persist report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/elian-live-artwork-check-after-removals-2026-10-07
+          git commit -m "Record Elian live artwork check after removals [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: elian-live-artwork-check-after-removals
+          path: reports/elian-live-artwork-check-after-removals-2026-10-07/
