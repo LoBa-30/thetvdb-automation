@@ -1,0 +1,398 @@
+{
+  "generatedAt": "2026-10-07T12:47:20.313Z",
+  "mode": "GUARDED_SMALL_ARTWORK_PILOT_BATCH",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    {
+      "target": "Mcfly & Carlito",
+      "slug": "338282-show",
+      "series": "338282",
+      "episodeId": "12023296",
+      "code": "S2015E01",
+      "title": "GROSSE ANNONCE",
+      "youtubeId": "fttKpTYRdMs",
+      "imageUrl": "https://i.ytimg.com/vi/fttKpTYRdMs/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "source": "mcfly-preflight"
+    },
+    {
+      "target": "Elian Ventre",
+      "slug": "elian-ventre-462729",
+      "series": "462729",
+      "episodeId": "11092260",
+      "code": "S2024E07",
+      "title": "C'est l'heure des travaux (on décore mon 13m2)",
+      "youtubeId": "DmXahVPYCbc",
+      "imageUrl": "https://i.ytimg.com/vi/DmXahVPYCbc/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "source": "elian-preflight"
+    },
+    {
+      "target": "Elian Ventre",
+      "slug": "elian-ventre-462729",
+      "series": "462729",
+      "episodeId": "11205952",
+      "code": "S2025E03",
+      "title": "TIKTOK CHALLENGERS #1 ! Ft @Djilsi",
+      "youtubeId": "UjZkmAczOI8",
+      "imageUrl": "https://i.ytimg.com/vi/UjZkmAczOI8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "source": "elian-preflight"
+    },
+    {
+      "target": "Raska",
+      "slug": "raska",
+      "series": "479597",
+      "episodeId": "11960839",
+      "code": "S2017E03",
+      "title": "KRISY RAPPEUR ET PRODUCTEUR DE DAMSO !",
+      "youtubeId": "YarMW4AXR54",
+      "imageUrl": "https://i.ytimg.com/vi/YarMW4AXR54/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "source": "raska-preflight"
+    },
+    {
+      "target": "Raska",
+      "slug": "raska",
+      "series": "479597",
+      "episodeId": "11979236",
+      "code": "S2018E02",
+      "title": "PLK – DES TÉNEBRES AU PLATINE ! (Platinum)",
+      "youtubeId": "qaxb0pVb6No",
+      "imageUrl": "https://i.ytimg.com/vi/qaxb0pVb6No/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "source": "raska-preflight"
+    },
+    {
+      "target": "Raska",
+      "slug": "raska",
+      "series": "479597",
+      "episodeId": "11960853",
+      "code": "S2019E01",
+      "title": "PNL - DEUX FRÈRES : TOUS LES MYSTÈRES DU CLIP !",
+      "youtubeId": "95dKYYdIyik",
+      "imageUrl": "https://i.ytimg.com/vi/95dKYYdIyik/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "source": "raska-preflight"
+    }
+  ],
+  "results": [
+    {
+      "target": "Mcfly & Carlito",
+      "code": "S2015E01",
+      "episodeId": "12023296",
+      "title": "GROSSE ANNONCE",
+      "youtubeId": "fttKpTYRdMs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "GROSSE ANNONCE",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/fttKpTYRdMs/maxresdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 64442,
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "stage1": {
+        "status": 200,
+        "url": "https://thetvdb.com/artwork/upload_handler",
+        "pageUrl": "https://thetvdb.com/artwork/upload_handler",
+        "body": "Discover Earn Points Support Home / Artwork / Upload / Adjust Image Finish Reset ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information"
+      },
+      "crop": {
+        "id": "2328928",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac63f5e511d4.jpeg"
+      },
+      "stage2": {
+        "status": 302,
+        "url": "https://thetvdb.com/artwork/upload_cropper_handler",
+        "pageUrl": "https://thetvdb.com/series/338282-show/episodes/12023296",
+        "successMessage": true,
+        "body": "Discover Earn Points Support Home / Series / Mcfly & Carlito / Aired Order / Season 2015 / Episode 1 × Artwork successfully added. GROSSE ANNONCE français General Cast & Crew ORIGINALLY AIRED April 12, 2015 RUNTIME 1 minutes CREATED October 7, 2026 by Frata30 MODIFIED October 7, 2026 by Frata30 ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/12023296/screencap/6ac63f5f8fb59.jpg"
+        ]
+      },
+      "blocked": []
+    },
+    {
+      "target": "Elian Ventre",
+      "code": "S2024E07",
+      "episodeId": "11092260",
+      "title": "C'est l'heure des travaux (on décore mon 13m2)",
+      "youtubeId": "DmXahVPYCbc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "C'est l'heure des travaux (on décore mon 13m2)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/DmXahVPYCbc/maxresdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 122335,
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "stage1": {
+        "status": 200,
+        "url": "https://thetvdb.com/artwork/upload_handler",
+        "pageUrl": "https://thetvdb.com/artwork/upload_handler",
+        "body": "Discover Earn Points Support Home / Artwork / Upload / Adjust Image Finish Reset ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information"
+      },
+      "crop": {
+        "id": "2328929",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac63f63c11e9.jpeg"
+      },
+      "stage2": {
+        "status": 302,
+        "url": "https://thetvdb.com/artwork/upload_cropper_handler",
+        "pageUrl": "https://thetvdb.com/series/elian-ventre-462729/episodes/11092260",
+        "successMessage": true,
+        "body": "Discover Earn Points Support Home / Series / Elian Ventre / Aired Order / Season 2024 / Episode 7 × Artwork successfully added. C'est l'heure des travaux (on décore mon 13m2) Elian commence les travaux et la décoration de son appartement de 13 m². français General Cast & Crew ORIGINALLY AIRED November 1, 2024 RUNTIME 12 minutes NETWORK YouTube CREATED April 18, 2025 by Modoloris MODIFIED October 7, 2026 by Frata30 ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11092260/screencap/6ac63f6505f2b.jpg"
+        ]
+      },
+      "blocked": []
+    },
+    {
+      "target": "Elian Ventre",
+      "code": "S2025E03",
+      "episodeId": "11205952",
+      "title": "TIKTOK CHALLENGERS #1 ! Ft @Djilsi",
+      "youtubeId": "UjZkmAczOI8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "TIKTOK CHALLENGERS #1 ! Ft @Djilsi",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/UjZkmAczOI8/maxresdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 203404,
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "stage1": {
+        "status": 200,
+        "url": "https://thetvdb.com/artwork/upload_handler",
+        "pageUrl": "https://thetvdb.com/artwork/upload_handler",
+        "body": "Discover Earn Points Support Home / Artwork / Upload / Adjust Image Finish Reset ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information"
+      },
+      "crop": {
+        "id": "2328930",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac63f691df4a.jpeg"
+      },
+      "stage2": {
+        "status": 302,
+        "url": "https://thetvdb.com/artwork/upload_cropper_handler",
+        "pageUrl": "https://thetvdb.com/series/elian-ventre-462729/episodes/11205952",
+        "successMessage": true,
+        "body": "Discover Earn Points Support Home / Series / Elian Ventre / Aired Order / Season 2025 / Episode 3 × Artwork successfully added. TIKTOK CHALLENGERS #1 ! Ft @Djilsi Elian et Djilsi participent à la première édition de TikTok Challengers. français General Cast & Crew ORIGINALLY AIRED June 15, 2025 RUNTIME 28 minutes NETWORK YouTube CREATED June 21, 2025 by Modoloris MODIFIED October 7, 2026 by Frata30 ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11205952/screencap/6ac63f6a65bbf.jpg"
+        ]
+      },
+      "blocked": []
+    },
+    {
+      "target": "Raska",
+      "code": "S2017E03",
+      "episodeId": "11960839",
+      "title": "KRISY RAPPEUR ET PRODUCTEUR DE DAMSO !",
+      "youtubeId": "YarMW4AXR54",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "KRISY RAPPEUR ET PRODUCTEUR DE DAMSO !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/YarMW4AXR54/maxresdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 89120,
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "stage1": {
+        "status": 200,
+        "url": "https://thetvdb.com/artwork/upload_handler",
+        "pageUrl": "https://thetvdb.com/artwork/upload_handler",
+        "body": "Discover Earn Points Support Home / Artwork / Upload / Adjust Image Finish Reset ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information"
+      },
+      "crop": {
+        "id": "2328931",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac63f6e885b4.jpeg"
+      },
+      "stage2": {
+        "status": 302,
+        "url": "https://thetvdb.com/artwork/upload_cropper_handler",
+        "pageUrl": "https://thetvdb.com/series/raska/episodes/11960839",
+        "successMessage": true,
+        "body": "Discover Earn Points Support Home / Series / Raska / Aired Order / Season 2017 / Episode 3 × Artwork successfully added. KRISY RAPPEUR ET PRODUCTEUR DE DAMSO ! Raska présente Krisy, à la fois rappeur, producteur et directeur du label Le Jeune Music. français General Cast & Crew ORIGINALLY AIRED April 18, 2017 RUNTIME 5 minutes CREATED September 3, 2026 by Frata30 MODIFIED October 7, 2026 by Frata30 ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960839/screencap/6ac63f6fc6a02.jpg"
+        ]
+      },
+      "blocked": []
+    },
+    {
+      "target": "Raska",
+      "code": "S2018E02",
+      "episodeId": "11979236",
+      "title": "PLK – DES TÉNEBRES AU PLATINE ! (Platinum)",
+      "youtubeId": "qaxb0pVb6No",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PLK – DES TÉNEBRES AU PLATINE ! (Platinum)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/qaxb0pVb6No/maxresdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 235905,
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "stage1": {
+        "status": 200,
+        "url": "https://thetvdb.com/artwork/upload_handler",
+        "pageUrl": "https://thetvdb.com/artwork/upload_handler",
+        "body": "Discover Earn Points Support Home / Artwork / Upload / Adjust Image Finish Reset ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information"
+      },
+      "crop": {
+        "id": "2328932",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac63f73d3dd4.jpeg"
+      },
+      "stage2": {
+        "status": 302,
+        "url": "https://thetvdb.com/artwork/upload_cropper_handler",
+        "pageUrl": "https://thetvdb.com/series/raska/episodes/11979236",
+        "successMessage": true,
+        "body": "Discover Earn Points Support Home / Series / Raska / Aired Order / Season 2018 / Episode 2 × Artwork successfully added. PLK – DES TÉNEBRES AU PLATINE ! (Platinum) Raska présente le parcours de PLK et analyse sa mixtape « Platinum », parue quelques mois après « Ténébreux ». français General Cast & Crew ORIGINALLY AIRED May 2, 2018 RUNTIME 8 minutes ON OTHER SITES Official Website CREATED September 15, 2026 by Frata30 MODIFIED October 7, 2026 by Frata30 ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11979236/screencap/6ac63f752a336.jpg"
+        ]
+      },
+      "blocked": []
+    },
+    {
+      "target": "Raska",
+      "code": "S2019E01",
+      "episodeId": "11960853",
+      "title": "PNL - DEUX FRÈRES : TOUS LES MYSTÈRES DU CLIP !",
+      "youtubeId": "95dKYYdIyik",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PNL - DEUX FRÈRES : TOUS LES MYSTÈRES DU CLIP !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/95dKYYdIyik/maxresdefault.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 105900,
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "stage1": {
+        "status": 200,
+        "url": "https://thetvdb.com/artwork/upload_handler",
+        "pageUrl": "https://thetvdb.com/artwork/upload_handler",
+        "body": "Discover Earn Points Support Home / Artwork / Upload / Adjust Image Finish Reset ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information"
+      },
+      "crop": {
+        "id": "2328933",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac63f79287f3.jpeg"
+      },
+      "stage2": {
+        "status": 302,
+        "url": "https://thetvdb.com/artwork/upload_cropper_handler",
+        "pageUrl": "https://thetvdb.com/series/raska/episodes/11960853",
+        "successMessage": true,
+        "body": "Discover Earn Points Support Home / Series / Raska / Aired Order / Season 2019 / Episode 1 × Artwork successfully added. PNL - DEUX FRÈRES : TOUS LES MYSTÈRES DU CLIP ! Raska analyse les références et les mystères du clip « Deux Frères » de PNL. français General Cast & Crew ORIGINALLY AIRED May 5, 2019 RUNTIME 8 minutes CREATED September 3, 2026 by Frata30 MODIFIED October 7, 2026 by Frata30 ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED. Do Not Sell or Share My Personal Information"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960853/screencap/6ac63f7a66141.jpg"
+        ]
+      },
+      "blocked": []
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "PILOT_BATCH_COMPLETE",
+  "summary": {
+    "requested": 6,
+    "processed": 6,
+    "applied": 6,
+    "skipped": 0,
+    "failed": 0
+  }
+}

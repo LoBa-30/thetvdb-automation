@@ -1,0 +1,8 @@
+authenticated=true
+requested=6
+processed=6
+applied=6
+skipped=0
+failed=0
+stopped=false
+result=PILOT_BATCH_COMPLETE
