@@ -1,0 +1,43 @@
+name: Maxime upload form diagnostic
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/maxime-upload-form-diagnostic.yml'
+      - 'src/maxime-upload-form-diagnostic.js'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  diagnostic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Read-only Maxime upload form diagnostic
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: node src/maxime-upload-form-diagnostic.js
+      - name: Persist diagnostic
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/maxime-upload-form-diagnostic-2026-10-07
+          git commit -m "Record Maxime upload form diagnostic [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: maxime-upload-form-diagnostic
+          path: reports/maxime-upload-form-diagnostic-2026-10-07/
