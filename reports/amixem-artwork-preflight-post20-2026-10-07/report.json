@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T14:35:13.772767+00:00",
+  "generatedAt": "2026-10-07T14:36:20.985542+00:00",
   "mode": "READ_ONLY_AMIXEM_ARTWORK_PREFLIGHT_POST20",
   "sourceRows": 774,
   "checked": [
@@ -36,10 +36,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6081195",
       "imageUrl": "https://i.ytimg.com/vi/5g0j29G2w58/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6081195/screencap/6ac65526f222a.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2012E04",
@@ -158,10 +155,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6081205",
       "imageUrl": "https://i.ytimg.com/vi/Iu9BZdtH7lY/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6081205/screencap/6ac6552e1d702.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2013E07",
@@ -172,10 +166,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6081206",
       "imageUrl": "https://i.ytimg.com/vi/_g7z63mOYBs/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6081206/screencap/6ac6553383783.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2013E08",
@@ -198,10 +189,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6081208",
       "imageUrl": "https://i.ytimg.com/vi/ahojLtLERDo/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6081208/screencap/6ac655387c589.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2013E10",
@@ -272,10 +260,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6081246",
       "imageUrl": "https://i.ytimg.com/vi/SCU_cZzuAQs/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6081246/screencap/6ac6553dc7102.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2013E26",
@@ -298,10 +283,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6081254",
       "imageUrl": "https://i.ytimg.com/vi/3S7h6QBV4dI/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6081254/screencap/6ac65542d7e7a.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2013E28",
@@ -324,10 +306,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6081261",
       "imageUrl": "https://i.ytimg.com/vi/c4qXoXoiOkA/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6081261/screencap/6ac65547caf46.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2014E17",
@@ -362,10 +341,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6088619",
       "imageUrl": "https://i.ytimg.com/vi/qwm61ZqaeFM/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6088619/screencap/6ac6554cec69c.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2015E04",
@@ -424,10 +400,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6088656",
       "imageUrl": "https://i.ytimg.com/vi/gtGfu87luDg/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6088656/screencap/6ac65551afa67.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2015E37",
@@ -486,10 +459,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6088662",
       "imageUrl": "https://i.ytimg.com/vi/yxj0EOyCzrQ/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6088662/screencap/6ac6555659663.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2015E43",
@@ -560,10 +530,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6088667",
       "imageUrl": "https://i.ytimg.com/vi/LwiycISjzmE/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6088667/screencap/6ac6555b27df9.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2015E49",
@@ -634,10 +601,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6088675",
       "imageUrl": "https://i.ytimg.com/vi/VoZuy7QNQFw/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6088675/screencap/6ac65560a1710.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2015E56",
@@ -648,10 +612,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6088676",
       "imageUrl": "https://i.ytimg.com/vi/IpLLonVZW8s/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6088676/screencap/6ac655658dfef.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2015E57",
@@ -662,10 +623,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6088677",
       "imageUrl": "https://i.ytimg.com/vi/JjqqBnibIzA/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6088677/screencap/6ac6556a9c2ed.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2015E58",
@@ -700,10 +658,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6088682",
       "imageUrl": "https://i.ytimg.com/vi/ISP0NS_1Bns/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6088682/screencap/6ac6556f9918d.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2015E63",
@@ -714,10 +669,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6088683",
       "imageUrl": "https://i.ytimg.com/vi/Z19QemgTONo/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6088683/screencap/6ac655747eca2.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2015E64",
@@ -728,10 +680,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6088684",
       "imageUrl": "https://i.ytimg.com/vi/kCDj3gNHp_s/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6088684/screencap/6ac6557975b70.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2015E66",
@@ -742,10 +691,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6088688",
       "imageUrl": "https://i.ytimg.com/vi/JUc8HBtlxUc/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6088688/screencap/6ac6557e9248f.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2015E68",
@@ -768,10 +714,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6088692",
       "imageUrl": "https://i.ytimg.com/vi/UYcGhbI3x-I/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6088692/screencap/6ac655838fa0a.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2015E71",
@@ -806,10 +749,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6088695",
       "imageUrl": "https://i.ytimg.com/vi/cozniGsPcLE/maxresdefault.jpg",
       "series": "328213",
-      "status": "ARTWORK_PRESENT",
-      "artwork": [
-        "https://artworks.thetvdb.com/banners/v4/episode/6088695/screencap/6ac655886c504.jpg"
-      ]
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2015E74",
@@ -1555,7 +1495,7 @@
     }
   ],
   "counters": {
-    "artworkPresent": 20,
+    "artworkPresent": 0,
     "titleDrift": 64,
     "imageUnavailable": 0,
     "imageWrongSize": 0,
@@ -1563,5 +1503,6 @@
     "passed": 20
   },
   "blocked": [],
-  "result": "PREFLIGHT_READY"
+  "result": "PREFLIGHT_READY",
+  "historicalDone": 20
 }
