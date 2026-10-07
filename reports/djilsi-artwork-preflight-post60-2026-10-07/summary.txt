@@ -1,0 +1,6 @@
+tvdb=215
+youtube=215
+planned=20
+artworkPresent=0
+imageUnavailable=0
+result=PREFLIGHT_READY
