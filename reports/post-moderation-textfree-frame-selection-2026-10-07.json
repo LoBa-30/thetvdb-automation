@@ -1,0 +1,319 @@
+{
+  "generatedAt": "2026-10-07T21:38:00Z",
+  "mode": "MANUAL_VISUAL_REVIEW_TEXT_FREE_FRAME_SELECTION",
+  "policy": "No artwork writes while TheTVDB temporary upload restriction is active. These selections are prepared for later use only.",
+  "evidence": {
+    "maximeArtifact": "maxime-textfree-frame-candidates / workflow run 37685820335",
+    "djilsiArtifact": "djilsi-textfree-frame-candidates / workflow run 37690349728",
+    "userScreenRecordingsReviewed": true
+  },
+  "maxime": {
+    "safeSelections": [
+      {
+        "code": "S2019E01",
+        "index": 1,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres1.jpg"
+      },
+      {
+        "code": "S2019E02",
+        "index": 1,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres1.jpg"
+      },
+      {
+        "code": "S2019E03",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2019E04",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2019E05",
+        "index": 1,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres1.jpg"
+      },
+      {
+        "code": "S2019E06",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2019E07",
+        "index": 3,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres3.jpg"
+      },
+      {
+        "code": "S2021E01",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2022E02",
+        "index": 1,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres1.jpg"
+      },
+      {
+        "code": "S2022E04",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2023E05",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2023E06",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2023E08",
+        "index": 3,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres3.jpg"
+      },
+      {
+        "code": "S2023E09",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2024E01",
+        "index": 1,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres1.jpg"
+      },
+      {
+        "code": "S2024E02",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2024E04",
+        "index": 1,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres1.jpg"
+      },
+      {
+        "code": "S2024E06",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2025E01",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2025E05",
+        "index": 3,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres3.jpg"
+      },
+      {
+        "code": "S2025E08",
+        "index": 3,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres3.jpg"
+      }
+    ],
+    "needsDeeperFrameExtraction": [
+      {
+        "code": "S2022E07",
+        "reason": "All three automatic frames show a persistent Mo7cine text/logo overlay."
+      },
+      {
+        "code": "S2023E01",
+        "reason": "Automatic frames are TV-broadcast material with visible channel/on-screen graphics; avoid under watermark/logo rule."
+      }
+    ]
+  },
+  "djilsi": {
+    "safeSelections": [
+      {
+        "code": "S2018E01",
+        "index": 1,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres1.jpg"
+      },
+      {
+        "code": "S2018E02",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2018E03",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2018E04",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2018E05",
+        "index": 3,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres3.jpg"
+      },
+      {
+        "code": "S2018E06",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2018E07",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2018E08",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2018E09",
+        "index": 1,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres1.jpg"
+      },
+      {
+        "code": "S2018E10",
+        "index": 1,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres1.jpg"
+      },
+      {
+        "code": "S2018E11",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2018E12",
+        "index": 1,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres1.jpg"
+      },
+      {
+        "code": "S2018E13",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2018E14",
+        "index": 3,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres3.jpg"
+      },
+      {
+        "code": "S2018E15",
+        "index": 1,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres1.jpg"
+      },
+      {
+        "code": "S2018E16",
+        "index": 3,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres3.jpg"
+      },
+      {
+        "code": "S2018E17",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2018E18",
+        "index": 1,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres1.jpg"
+      },
+      {
+        "code": "S2018E19",
+        "index": 3,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres3.jpg"
+      },
+      {
+        "code": "S2019E01",
+        "index": 1,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres1.jpg"
+      },
+      {
+        "code": "S2019E02",
+        "index": 1,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres1.jpg"
+      },
+      {
+        "code": "S2019E03",
+        "index": 3,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres3.jpg"
+      },
+      {
+        "code": "S2019E04",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2019E05",
+        "index": 1,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres1.jpg"
+      },
+      {
+        "code": "S2019E06",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2019E08",
+        "index": 3,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres3.jpg"
+      },
+      {
+        "code": "S2019E10",
+        "index": 1,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres1.jpg"
+      },
+      {
+        "code": "S2019E17",
+        "index": 2,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres2.jpg"
+      },
+      {
+        "code": "S2019E18",
+        "index": 1,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres1.jpg"
+      },
+      {
+        "code": "S2019E21",
+        "index": 1,
+        "urlPattern": "https://i.ytimg.com/vi/<youtubeId>/maxres1.jpg"
+      }
+    ],
+    "needsDeeperFrameExtraction": [
+      {
+        "code": "S2019E07",
+        "reason": "Candidate 1 has @DJILSI watermark; candidates 2-3 contain large subtitles."
+      },
+      {
+        "code": "S2019E09",
+        "reason": "Candidate 1 has @DJILSI watermark; candidates 2-3 contain large subtitles."
+      },
+      {
+        "code": "S2019E11",
+        "reason": "All three automatic frames contain social-media watermark/handle."
+      },
+      {
+        "code": "S2019E12",
+        "reason": "All three automatic frames contain social-media watermark and/or subtitle text."
+      },
+      {
+        "code": "S2019E13",
+        "reason": "All three automatic frames contain social-media watermark and/or subtitle text."
+      },
+      {
+        "code": "S2019E14",
+        "reason": "All three automatic frames contain social-media watermark/handle."
+      },
+      {
+        "code": "S2019E19",
+        "reason": "Automatic frames contain persistent creator watermark or subtitles."
+      }
+    ]
+  },
+  "counts": {
+    "maximeSafe": 21,
+    "maximeNeedsDeeperExtraction": 2,
+    "djilsiSafe": 30,
+    "djilsiNeedsDeeperExtraction": 7
+  }
+}
