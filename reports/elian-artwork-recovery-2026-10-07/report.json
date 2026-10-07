@@ -1,0 +1,181 @@
+{
+  "generatedAt": "2026-10-07T12:56:05.538Z",
+  "mode": "GUARDED_ELIAN_ARTWORK_RECOVERY_TWO_STAGE",
+  "authenticated": true,
+  "results": [
+    {
+      "code": "S2023E04",
+      "episodeId": "11092251",
+      "title": "STRUCTURE ESPORT DE LUXE ?",
+      "youtubeId": "QboHB6hZ5dg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "STRUCTURE ESPORT DE LUXE ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/QboHB6hZ5dg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 214568
+        }
+      },
+      "crop": {
+        "id": "2328966",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6416d55218.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11092251/screencap/6ac6416e78660.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2023E06",
+      "episodeId": "11092253",
+      "title": "13m2 dans PARIS ???",
+      "youtubeId": "lBYtMPlWRq4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "13m2 dans PARIS ???",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/lBYtMPlWRq4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 155736
+        }
+      },
+      "crop": {
+        "id": "2328967",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64172c784a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11092253/screencap/6ac64173e400e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2024E02",
+      "episodeId": "11092255",
+      "title": "3000 BALLONS DANS MON APPARTEMENT !",
+      "youtubeId": "IKWScHFW_Mk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "3000 BALLONS DANS MON APPARTEMENT !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/IKWScHFW_Mk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 99512
+        }
+      },
+      "crop": {
+        "id": "2328968",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6417803d5a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11092255/screencap/6ac641793acad.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E07",
+      "episodeId": "11567244",
+      "title": "Je TRANSFORME mon appartement !",
+      "youtubeId": "F3NCaUo25Ys",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Je TRANSFORME mon appartement !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/F3NCaUo25Ys/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 179269
+        }
+      },
+      "crop": {
+        "id": "2328969",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6417d3d413.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11567244/screencap/6ac6417e5983a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "RECOVERY_COMPLETE",
+  "summary": {
+    "requested": 4,
+    "processed": 4,
+    "applied": 4,
+    "skipped": 0,
+    "failed": 0
+  }
+}
