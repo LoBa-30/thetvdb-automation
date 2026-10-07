@@ -1,8 +1,8 @@
 tvdbEpisodes=64
 youtubeVideos=64
 writtenHistory=48
-currentlyPresent=48
-neverWrittenMissing=14
+currentlyPresent=62
+neverWrittenMissing=0
 detachedPreviouslyVerified=1
 detachedOldArtworkStillHTTP200=1
 blocked=1

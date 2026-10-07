@@ -1,274 +1,7 @@
 {
-  "generatedAt": "2026-10-07T16:52:17.809323+00:00",
+  "generatedAt": "2026-10-07T17:06:35.916102+00:00",
   "mode": "READ_ONLY_MAXIME_ARTWORK_GAP_AUDIT",
-  "neverWrittenMissing": [
-    {
-      "code": "S2025E19",
-      "episodeId": "11696655",
-      "title": "Qui aura la scène piégée ? 2 (ft. Squeezie, Djilsi)",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696655",
-      "youtubeId": "8icMgCNznWQ",
-      "youtubeTitle": "Qui aura la scène piégée ? 2 (ft. Squeezie, Djilsi)",
-      "imageUrl": "https://i.ytimg.com/vi/8icMgCNznWQ/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 192057,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "72afa1bdc9ae52df48e57151e73e1ab8e93c33c7121f02f327658ad41bd1ebb1"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2025E20",
-      "episodeId": "11696656",
-      "title": "SOUS CONTRÔLE (ft. Joyca, Djilsi)",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696656",
-      "youtubeId": "nWeIa6TpY_g",
-      "youtubeTitle": "SOUS CONTRÔLE (ft. Joyca, Djilsi)",
-      "imageUrl": "https://i.ytimg.com/vi/nWeIa6TpY_g/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 180902,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "134853b676f0c47077cbed6933c57dfc87b5872981615933ef4b2629cc9db17b"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2025E21",
-      "episodeId": "11696657",
-      "title": "Le repas de Noël des gourmands (ft. Djilsi, Lena, Kaatsup, Elian, Theodort, Seb)",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696657",
-      "youtubeId": "5Xq0X-fu098",
-      "youtubeTitle": "Le repas de Noël des gourmands (ft. Djilsi, Lena, Kaatsup, Elian, Theodort, Seb)",
-      "imageUrl": "https://i.ytimg.com/vi/5Xq0X-fu098/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 232498,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "397173aeab92cb1ed192ca3fc7a08ddf112caf51e7cab10d23284cefe00cb460"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2026E01",
-      "episodeId": "11696661",
-      "title": "NE TE FAIS PAS SCROLL (ft. Billy, Grimkujow)",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696661",
-      "youtubeId": "WG9hwIsjMMM",
-      "youtubeTitle": "NE TE FAIS PAS SCROLL (ft. Billy, Grimkujow)",
-      "imageUrl": "https://i.ytimg.com/vi/WG9hwIsjMMM/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 126517,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "a3eef0bad66313c00514af6e1fd6c6399c1c6555f672316d8c11c19dd78647b1"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2026E02",
-      "episodeId": "11696662",
-      "title": "Je veux tenter la piste noire la plus dangereuse (et je sais pas skier)",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696662",
-      "youtubeId": "fP3gXKI7xTo",
-      "youtubeTitle": "Je veux tenter la piste noire la plus dangereuse (et je sais pas skier 👍🏻)",
-      "imageUrl": "https://i.ytimg.com/vi/fP3gXKI7xTo/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 360870,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "954c2e21c8d304aa0c341de430b7fab5a6e2ae5bd35d536c753b7571ad43ca68"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2026E03",
-      "episodeId": "11696664",
-      "title": "J'ouvre un restaurant et c'est une catastrophe (ft Djilsi, Kaatsup, GMK, Leila, Hugo, Theorus Elian)",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696664",
-      "youtubeId": "DUm09cCHgzs",
-      "youtubeTitle": "J'ouvre un restaurant et c'est une catastrophe (ft Djilsi, Kaatsup, GMK, Leila, Hugo, Theorus Elian)",
-      "imageUrl": "https://i.ytimg.com/vi/DUm09cCHgzs/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 288236,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "8477cd9fcc7807658148dfcb28bb2fdb9e5997655ba10d67d5b405d8886e8b05"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2026E04",
-      "episodeId": "11696666",
-      "title": "Est-ce qu'on est d'accord avec SYLVAIN ? (ft Theodort)",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696666",
-      "youtubeId": "6mYMADuZ3fY",
-      "youtubeTitle": "Est-ce qu'on est d'accord avec SYLVAIN ? (ft Theodort)",
-      "imageUrl": "https://i.ytimg.com/vi/6mYMADuZ3fY/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 317630,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "ee55b6a1abba2670ca0da432863202f82f0669c1cd8c3717a930b124df7625fb"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2026E05",
-      "episodeId": "11747535",
-      "title": "Qui fera le meilleur film en 1h avec des inconnus ? (ft Billy, Freddy)",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11747535",
-      "youtubeId": "1TpLTjGh-D4",
-      "youtubeTitle": "Qui fera le meilleur film en 1h avec des inconnus ? (ft Billy, Freddy)",
-      "imageUrl": "https://i.ytimg.com/vi/1TpLTjGh-D4/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 389829,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "4ace6070d0886d37b8c42b25556cacabea03069cdff4b359a4a498ce9deb971b"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2026E06",
-      "episodeId": "11848021",
-      "title": "Qui restera le plus longtemps ? SCROLL IRL (ft. Tatiana, Bigflo)",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11848021",
-      "youtubeId": "tSp3B8iUT5s",
-      "youtubeTitle": "Qui restera le plus longtemps ?  SCROLL IRL (ft. Tatiana, Bigflo)",
-      "imageUrl": "https://i.ytimg.com/vi/tSp3B8iUT5s/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 258412,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "3a8add099c000b0bc7e8efadb8b7f60ced42f22cafda504292fe68346bdd7850"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2026E07",
-      "episodeId": "11848022",
-      "title": "J’ai parodié les YouTubeurs (de la pire façon possible)",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11848022",
-      "youtubeId": "9rLruwhhK9A",
-      "youtubeTitle": "J’ai parodié les YouTubeurs (de la pire façon possible)",
-      "imageUrl": "https://i.ytimg.com/vi/9rLruwhhK9A/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 358022,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "17d8ebb389bbb8d17b67105a4e9d2fd718741708037c5a89fa3b5f97f4f913ce"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2026E08",
-      "episodeId": "11962145",
-      "title": "SOUS CONTRÔLE (ft. Djilsi, Theodort)",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11962145",
-      "youtubeId": "_mkXFNzuJL0",
-      "youtubeTitle": "SOUS CONTRÔLE (ft. Djilsi, Theodort)",
-      "imageUrl": "https://i.ytimg.com/vi/_mkXFNzuJL0/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 370366,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "51cdd9d4f58275965d663c7cc859a5ce544d3e81554544c3eb8cdd9c312e9b33"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2026E09",
-      "episodeId": "11962146",
-      "title": "LE JEU DE LA NOTE (ft Joyca, Baghera, Mastu, Ben Haddad)",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11962146",
-      "youtubeId": "f3IgJA9snp0",
-      "youtubeTitle": "LE JEU DE LA NOTE (ft Joyca, Baghera, Mastu, Ben Haddad)",
-      "imageUrl": "https://i.ytimg.com/vi/f3IgJA9snp0/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 358819,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "d92f2543b5e0d11f21af664bf211d69bb3c40c398e2be6c84c75c3c6e4892d6b"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2026E10",
-      "episodeId": "11962147",
-      "title": "24 heures pour trouver un animal sacré",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11962147",
-      "youtubeId": "fkJVEMze1nY",
-      "youtubeTitle": "24 heures pour trouver un animal sacré",
-      "imageUrl": "https://i.ytimg.com/vi/fkJVEMze1nY/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 329750,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "068a1872e6a60e0d43abc63c4d5f8f1f4241c5e27520f8fb87baee2d551335c0"
-      },
-      "series": "475945"
-    },
-    {
-      "code": "S2026E11",
-      "episodeId": "11998870",
-      "title": "J'ouvre un restaurant et c'est un DÉSASTRE (ft Squeezie Djilsi Tatiana Leila Nico Gotaga Theo Elian)",
-      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11998870",
-      "youtubeId": "tlhxJzPmziY",
-      "youtubeTitle": "J'ouvre un restaurant et c'est un DÉSASTRE (ft Squeezie Djilsi Tatiana Leila Nico Gotaga Theo Elian)",
-      "imageUrl": "https://i.ytimg.com/vi/tlhxJzPmziY/maxresdefault.jpg",
-      "imageProbe": {
-        "status": 200,
-        "bytes": 364567,
-        "size": [
-          1280,
-          720
-        ],
-        "sha256": "e76acbfbe4205a7c10a4b3be82bac43fa3c4e02d65d71da5f1eb3e1ec86dad0f"
-      },
-      "series": "475945"
-    }
-  ],
+  "neverWrittenMissing": [],
   "detachedPreviouslyVerified": [
     {
       "code": "S2019E01",
@@ -723,6 +456,132 @@
       "artworks": [
         "https://artworks.thetvdb.com/banners/v4/episode/11696654/screencap/6ac6789052b7f.jpg"
       ]
+    },
+    {
+      "code": "S2025E19",
+      "episodeId": "11696655",
+      "title": "Qui aura la scène piégée ? 2 (ft. Squeezie, Djilsi)",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696655",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696655/screencap/6ac67b57767e8.jpg"
+      ]
+    },
+    {
+      "code": "S2025E20",
+      "episodeId": "11696656",
+      "title": "SOUS CONTRÔLE (ft. Joyca, Djilsi)",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696656",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696656/screencap/6ac67b5d38b23.jpg"
+      ]
+    },
+    {
+      "code": "S2025E21",
+      "episodeId": "11696657",
+      "title": "Le repas de Noël des gourmands (ft. Djilsi, Lena, Kaatsup, Elian, Theodort, Seb)",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696657",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696657/screencap/6ac67b62549fa.jpg"
+      ]
+    },
+    {
+      "code": "S2026E01",
+      "episodeId": "11696661",
+      "title": "NE TE FAIS PAS SCROLL (ft. Billy, Grimkujow)",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696661",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696661/screencap/6ac67b670c438.jpg"
+      ]
+    },
+    {
+      "code": "S2026E02",
+      "episodeId": "11696662",
+      "title": "Je veux tenter la piste noire la plus dangereuse (et je sais pas skier)",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696662",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696662/screencap/6ac67b6c3bbe7.jpg"
+      ]
+    },
+    {
+      "code": "S2026E03",
+      "episodeId": "11696664",
+      "title": "J'ouvre un restaurant et c'est une catastrophe (ft Djilsi, Kaatsup, GMK, Leila, Hugo, Theorus Elian)",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696664",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696664/screencap/6ac67b714515f.jpg"
+      ]
+    },
+    {
+      "code": "S2026E04",
+      "episodeId": "11696666",
+      "title": "Est-ce qu'on est d'accord avec SYLVAIN ? (ft Theodort)",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11696666",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11696666/screencap/6ac67b76ce434.jpg"
+      ]
+    },
+    {
+      "code": "S2026E05",
+      "episodeId": "11747535",
+      "title": "Qui fera le meilleur film en 1h avec des inconnus ? (ft Billy, Freddy)",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11747535",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11747535/screencap/6ac67b7bd8bc3.jpg"
+      ]
+    },
+    {
+      "code": "S2026E06",
+      "episodeId": "11848021",
+      "title": "Qui restera le plus longtemps ? SCROLL IRL (ft. Tatiana, Bigflo)",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11848021",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11848021/screencap/6ac67b810dbc2.jpg"
+      ]
+    },
+    {
+      "code": "S2026E07",
+      "episodeId": "11848022",
+      "title": "J’ai parodié les YouTubeurs (de la pire façon possible)",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11848022",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11848022/screencap/6ac67b864e070.jpg"
+      ]
+    },
+    {
+      "code": "S2026E08",
+      "episodeId": "11962145",
+      "title": "SOUS CONTRÔLE (ft. Djilsi, Theodort)",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11962145",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11962145/screencap/6ac67b8b718a2.jpg"
+      ]
+    },
+    {
+      "code": "S2026E09",
+      "episodeId": "11962146",
+      "title": "LE JEU DE LA NOTE (ft Joyca, Baghera, Mastu, Ben Haddad)",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11962146",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11962146/screencap/6ac67b906cd48.jpg"
+      ]
+    },
+    {
+      "code": "S2026E10",
+      "episodeId": "11962147",
+      "title": "24 heures pour trouver un animal sacré",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11962147",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11962147/screencap/6ac67b955df66.jpg"
+      ]
+    },
+    {
+      "code": "S2026E11",
+      "episodeId": "11998870",
+      "title": "J'ouvre un restaurant et c'est un DÉSASTRE (ft Squeezie Djilsi Tatiana Leila Nico Gotaga Theo Elian)",
+      "url": "https://thetvdb.com/series/maxime-biaggi/episodes/11998870",
+      "artworks": [
+        "https://artworks.thetvdb.com/banners/v4/episode/11998870/screencap/6ac67b9a6c29d.jpg"
+      ]
     }
   ],
   "blocked": [
@@ -746,8 +605,8 @@
     "tvdbEpisodes": 64,
     "youtubeVideos": 64,
     "writtenHistory": 48,
-    "currentlyPresent": 48,
-    "neverWrittenMissing": 14,
+    "currentlyPresent": 62,
+    "neverWrittenMissing": 0,
     "detachedPreviouslyVerified": 1,
     "detachedOldArtworkStillHTTP200": 1,
     "blocked": 1
