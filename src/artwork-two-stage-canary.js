@@ -10,11 +10,11 @@ const X={
   target:'Elian Ventre',
   slug:'elian-ventre-462729',
   series:'462729',
-  id:'11092255',
-  code:'S2024E02',
-  title:'3000 BALLONS DANS MON APPARTEMENT !',
-  youtubeId:'IKWScHFW_Mk',
-  imageUrl:'https://i.ytimg.com/vi/IKWScHFW_Mk/maxresdefault.jpg'
+  id:'11092257',
+  code:'S2024E04',
+  title:'4 anecdotes FOLLES sur mon parcours à l’ARMÉE !',
+  youtubeId:'U6DoBQQk4OE',
+  imageUrl:'https://i.ytimg.com/vi/U6DoBQQk4OE/maxresdefault.jpg'
 };
 const OUT='reports/artwork-two-stage-canary-2026-10-07';
 await fs.mkdir(OUT,{recursive:true});
@@ -177,6 +177,8 @@ try{
     scaleX:cv('scaleX'),
     scaleY:cv('scaleY')
   };
+  const cropImageSrc=await page.locator('img#cropper').first().getAttribute('src').catch(()=>null);
+  report.cropForm={found:true,...cropSnap,resolvedAction:actionUrl.pathname,cropScope,cropImageSrc,provenance:'TEMP_CROP_PAGE_CREATED_BY_STAGE1_IN_SAME_AUTHENTICATED_SESSION'};
   if(actionUrl.origin!==BASE||actionUrl.pathname!=='/artwork/upload_cropper_handler') throw new Error('Unexpected second-stage action '+actionUrl.pathname);
   if(!/^\\d+$/.test(String(cropId||''))) throw new Error('Missing numeric temporary artwork id');
   if(cropScope.x!=='0'||cropScope.y!=='0'||cropScope.width!=='1280'||cropScope.height!=='720'||cropScope.scaleX!=='1'||cropScope.scaleY!=='1'){
@@ -187,7 +189,7 @@ try{
   const submit=crop.locator('button[type="submit"],input[type="submit"]').filter({hasText:'Finish'}).first();
   if(!(await submit.count())||await submit.isDisabled()) throw new Error('Finish submit unavailable');
 
-  report.cropForm={found:true,...cropSnap,resolvedAction:actionUrl.pathname,cropScope,provenance:'TEMP_ID_CREATED_BY_STAGE1_IN_SAME_AUTHENTICATED_SESSION'};
+  report.cropForm.provenance='TEMP_ID_CREATED_BY_STAGE1_IN_SAME_AUTHENTICATED_SESSION';
   allowedPostPaths.add(actionUrl.pathname);
 
   const secondRespPromise=page.waitForResponse(r=>new URL(r.url()).origin===BASE&&new URL(r.url()).pathname===actionUrl.pathname&&r.request().method()==='POST',{timeout:60000}).catch(()=>null);
