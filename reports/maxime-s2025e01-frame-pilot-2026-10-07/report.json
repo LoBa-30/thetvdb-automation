@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-10-07T20:44:43.715Z",
+  "mode": "READ_ONLY_YOUTUBE_VIDEO_FRAME_PILOT",
+  "videoId": "EqFLIsSB2hg",
+  "frames": [],
+  "blocked": [
+    {
+      "reason": "Error: VIDEO_DURATION_INVALID\n    at file:///home/runner/work/thetvdb-automation/thetvdb-automation/src/maxime-s2025e01-frame-pilot.js:27:62\n    at runNextTicks (node:internal/process/task_queues:64:5)\n    at process.processImmediate (node:internal/timers:452:9)\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)"
+    }
+  ],
+  "result": "FRAME_CAPTURE_BLOCKED",
+  "http": 200,
+  "meta": {
+    "duration": null,
+    "videoWidth": 0,
+    "videoHeight": 0,
+    "readyState": 0,
+    "currentTime": 0,
+    "paused": true
+  }
+}
