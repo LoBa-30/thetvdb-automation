@@ -44,9 +44,9 @@
     {
       "target": "Raska",
       "pdf": "Audit — Raska : TheTVDB.pdf",
-      "status": "IN_PROGRESS",
+      "status": "IN_PROGRESS_ARTWORK_DATE_BLOCKED",
       "pdfOpenWork": [
-        "148 in-scope exact YouTube publication dates remain independently unverified",
+        "148 in-scope exact YouTube publication dates remain independently unverified; current GitHub runner is blocked by YouTube LOGIN_REQUIRED on all tested public player profiles. Keep as blocked/Ticket; do not bypass.",
         "29 missing episode images require valid episode screencaps",
         "Existing image provenance: 6 strong same-video candidates + 115 origin-unproven; no evidence supporting removal"
       ],
@@ -54,7 +54,8 @@
         "149 current public long videos matched to 149 current counterparts; runtimes verified.",
         "Only TVDB-only S2023E19 historically corroborated; keep/no-delete.",
         "Persistent artwork inventory completed across 150 TVDB episodes: 29 missing images and 121 existing images.",
-        "121 existing images compared to official YouTube thumbnail/frame references: 6 remain strong same-video candidates; strict multi-hash follow-up did not prove them absolutely. Remaining 115 are origin-unproven, not classified as wrong; no removals."
+        "121 existing images compared to official YouTube thumbnail/frame references: 6 remain strong same-video candidates; strict multi-hash follow-up did not prove them absolutely. Remaining 115 are origin-unproven, not classified as wrong; no removals.",
+        "2026-10-07 multi-client exact-date audit v2 checked all 149 current public videos: 0 exact dates exposed. WEB, ANDROID and TVHTML5 player calls returned LOGIN_REQUIRED for 149/149; WEB_EMBEDDED_PLAYER errored for 149/149. Public watch-page fallback also exposed 0 dates. No cookie/challenge/security bypass attempted."
       ]
     },
     {
@@ -200,7 +201,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T11:51:00+02:00",
+  "lastUpdatedAt": "2026-10-07T11:10:00Z",
   "latestContinuationCommits": [
     "38c1bbafe19bfbe54c91072ab9419ec91d7715d7",
     "68bb95cb01a3f49ceb6f7e29ee530daac5e07696",
@@ -230,6 +231,9 @@
     "8162076585df4d7db8d477edfd366fd4c099895b",
     "837537a00f0b295e03efb0e19c05b62a887ab024",
     "e97d32263a6fb479d8e233b92a9a9b8c162363ae",
-    "f4671c9a774bda4fd346c457647941337c3eb27e"
+    "f4671c9a774bda4fd346c457647941337c3eb27e",
+    "983a46ca8d836ecd4e316853d2d62707e8325ccb",
+    "bdd5b78d19e008bf2bba5ac7cd410bbf15c628aa",
+    "e718b0c01838ac2899e1867d97e6ff4a3127dc26"
   ]
 }
