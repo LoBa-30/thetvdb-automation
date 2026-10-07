@@ -1,0 +1,283 @@
+{
+  "generatedAt": "2026-10-07T13:35:15.717Z",
+  "mode": "GUARDED_SQUEEZIE_ARTWORK_BATCH_1",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2011E06",
+    "S2011E12",
+    "S2011E14",
+    "S2011E37",
+    "S2011E47",
+    "S2011E55",
+    "S2011E59",
+    "S2011E71",
+    "S2011E79",
+    "S2011E81"
+  ],
+  "results": [
+    {
+      "code": "S2011E06",
+      "episodeId": "5313742",
+      "title": "[TUTO] Comment utiliser fraps et sans lagger ?",
+      "youtubeId": "b6MaPg5YpuA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "[TUTO] Comment utiliser fraps et sans lagger ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/b6MaPg5YpuA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 148667
+        }
+      },
+      "crop": {
+        "id": "2329002",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64a9a2556a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313742/screencap/6ac64a9b75c13.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2011E12",
+      "episodeId": "5313749",
+      "title": "[TUTO ENGLISH/FR] Comment faire des 360 sur PC ? [Tuto Yawspeed]",
+      "youtubeId": "-nkAoLi0ZOs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "[TUTO ENGLISH/FR] Comment faire des 360 sur PC ? [Tuto Yawspeed]",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/-nkAoLi0ZOs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 104912
+        }
+      },
+      "crop": {
+        "id": "2329003",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64a9f6378c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313749/screencap/6ac64aa098df1.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2011E14",
+      "episodeId": "5313752",
+      "title": "Tuto Barrel Roll | en FR et HD by SqueeZie",
+      "youtubeId": "2hAfn17wdXg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Tuto Barrel Roll | en FR et HD by SqueeZie",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/2hAfn17wdXg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 106280
+        }
+      },
+      "crop": {
+        "id": "2329005",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64aa4b69e0.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313752/screencap/6ac64aa5e81ca.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2011E37",
+      "episodeId": "5313776",
+      "title": "LU2.",
+      "youtubeId": "IbxJ-cbYeaQ",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LU2.",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/IbxJ-cbYeaQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 71117
+        }
+      },
+      "crop": {
+        "id": "2329007",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64aa9baacb.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313776/screencap/6ac64aaadd7aa.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2011E47",
+      "episodeId": "5313799",
+      "title": "Top 5 de la connerie | Episode 1",
+      "youtubeId": "sbRLDdAnOBc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Top 5 de la connerie | Episode 1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/sbRLDdAnOBc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 73847
+        }
+      },
+      "crop": {
+        "id": "2329009",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64aaeb03d5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313799/screencap/6ac64aafdb76c.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2011E55",
+      "episodeId": "5313816",
+      "title": "Top 5 de la connerie | Episode 2",
+      "youtubeId": "ZoyM8b_CgxI",
+      "status": "STAGE1_ONLY_STOP_DO_NOT_RETRY",
+      "preflight": {
+        "heading": "Top 5 de la connerie | Episode 2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ZoyM8b_CgxI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 80675
+        }
+      },
+      "crop": {
+        "id": "2329011",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64ab3caaba.jpeg"
+      },
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('form[action=\"/artwork/upload_cropper_handler\"]').first().locator('button[type=\"submit\"]').filter({ hasText: 'Finish' }).first()\n    - locator resolved to <button type=\"submit\" class=\"submit mt-1 btn btn-lg btn-success\">Finish</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n    - click action done\n    - waiting for scheduled navigations to finish\n"
+        }
+      ],
+      "stage1": {
+        "status": 200
+      }
+    }
+  ],
+  "stopped": true,
+  "stopReason": "S2011E55: locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('form[action=\"/artwork/upload_cropper_handler\"]').first().locator('button[type=\"submit\"]').filter({ hasText: 'Finish' }).first()\n    - locator resolved to <button type=\"submit\" class=\"submit mt-1 btn btn-lg btn-success\">Finish</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n    - click action done\n    - waiting for scheduled navigations to finish\n",
+  "result": "BATCH_STOPPED_ON_GUARD",
+  "summary": {
+    "requested": 10,
+    "processed": 6,
+    "applied": 5,
+    "skipped": 0,
+    "failed": 1
+  }
+}
