@@ -22,7 +22,7 @@ def norm(s):
 def art_urls(html):
     return sorted(set(re.findall(r'https://artworks\.thetvdb\.com/[^"\'<>\s]+episode[^"\'<>\s]+/screencap/[^"\'<>\s]+',html)))
 
-report={'generatedAt':None,'mode':'READ_ONLY_MAXIME_MISSING_ARTWORK_PREFLIGHT_V2','tvdb':[],'youtube':[],'planned':[],'checked':[],'counters':{'noExactTitle':0,'multipleExactTitle':0,'artworkPresent':0,'imageUnavailable':0,'imageWrongSize':0,'uploadFormBlocked':0,'uploadFormScopeDrift':0,'passed':0},'blocked':[],'result':'NOT_STARTED'}
+report={'generatedAt':None,'mode':'READ_ONLY_MAXIME_MISSING_ARTWORK_PREFLIGHT_POST20','tvdb':[],'youtube':[],'planned':[],'checked':[],'counters':{'noExactTitle':0,'multipleExactTitle':0,'artworkPresent':0,'imageUnavailable':0,'imageWrongSize':0,'uploadFormBlocked':0,'uploadFormScopeDrift':0,'passed':0},'blocked':[],'result':'NOT_STARTED'}
 try:
     raw=subprocess.check_output(['yt-dlp','--flat-playlist','--dump-single-json','--no-warnings','--extractor-args','youtube:lang=fr',YT],text=True)
     cat=json.loads(raw)
