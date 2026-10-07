@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-10-07T13:43:34.441Z",
+  "mode": "GUARDED_MAXIME_ARTWORK_BATCH_3",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2023E04",
+    "S2023E05",
+    "S2023E06",
+    "S2023E07",
+    "S2023E08",
+    "S2023E09",
+    "S2024E01",
+    "S2024E02",
+    "S2024E03",
+    "S2024E04"
+  ],
+  "results": [
+    {
+      "code": "S2023E04",
+      "episodeId": "11696606",
+      "title": "J'organise une chasse à l'homme dans Paris !!!",
+      "youtubeId": "A2bUPQpm3SQ",
+      "status": "BLOCKED_BEFORE_WRITE",
+      "preflight": {
+        "heading": "J'organise une chasse à l'homme dans Paris !!!",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/A2bUPQpm3SQ/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 147577
+        }
+      },
+      "crop": null,
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "UPLOAD_FORM_MISSING"
+        }
+      ]
+    }
+  ],
+  "stopped": true,
+  "stopReason": "S2023E04: UPLOAD_FORM_MISSING",
+  "result": "BATCH_STOPPED_ON_GUARD",
+  "summary": {
+    "requested": 10,
+    "processed": 1,
+    "applied": 0,
+    "skipped": 0,
+    "failed": 1
+  }
+}
