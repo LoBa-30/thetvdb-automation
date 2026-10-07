@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/mcfly-grosse-annonce-apply.yml'
+      - 'src/mcfly-grosse-annonce-apply.js'
   workflow_dispatch:
 permissions:
   contents: write
