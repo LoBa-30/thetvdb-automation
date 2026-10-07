@@ -1,0 +1,440 @@
+{
+  "generatedAt": "2026-10-07T12:50:16.636Z",
+  "mode": "GUARDED_RASKA_ARTWORK_BATCH_1",
+  "armed": true,
+  "authenticated": true,
+  "candidates": [
+    "S2017E04",
+    "S2018E03",
+    "S2018E05",
+    "S2018E07",
+    "S2019E05",
+    "S2020E02",
+    "S2020E09",
+    "S2020E12",
+    "S2020E17",
+    "S2020E18"
+  ],
+  "results": [
+    {
+      "code": "S2017E04",
+      "episodeId": "11960840",
+      "title": "LE RAP FÉMININ EN FORCE ! ✊",
+      "youtubeId": "hl_oMecxiFY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE RAP FÉMININ EN FORCE ! ✊",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 168957,
+          "url": "https://i.ytimg.com/vi/hl_oMecxiFY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328937",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6400e5714b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960840/screencap/6ac6401003a96.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E03",
+      "episodeId": "11960842",
+      "title": "3 RAPPEURS À SURVEILLER ! (Téma - Épisode #1)",
+      "youtubeId": "RIvlj2BlOro",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "3 RAPPEURS À SURVEILLER ! (Téma - Épisode #1)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 109175,
+          "url": "https://i.ytimg.com/vi/RIvlj2BlOro/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328938",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64013bc484.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960842/screencap/6ac6401508a50.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E05",
+      "episodeId": "11960844",
+      "title": "3 RAPPEURS QUI VONT PERCER ! (Téma - Épisode #2)",
+      "youtubeId": "q_dSPAPZCz4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "3 RAPPEURS QUI VONT PERCER ! (Téma - Épisode #2)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 158722,
+          "url": "https://i.ytimg.com/vi/q_dSPAPZCz4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328939",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64018c6a2a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960844/screencap/6ac6401a077be.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E07",
+      "episodeId": "11960846",
+      "title": "3 RAPPEURS À DÉCOUVRIR ! (Téma - Épisode #3)",
+      "youtubeId": "0YmW1gRTeA4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "3 RAPPEURS À DÉCOUVRIR ! (Téma - Épisode #3)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 140686,
+          "url": "https://i.ytimg.com/vi/0YmW1gRTeA4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328940",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6401ded883.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960846/screencap/6ac6401f15c0e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E05",
+      "episodeId": "11960857",
+      "title": "P-DRO - ÉCLIPSE | JUICE'Max #3 (Dir. by RASKA)",
+      "youtubeId": "YN8hYrxWA1g",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "P-DRO - ÉCLIPSE | JUICE'Max #3 (Dir. by RASKA)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 143158,
+          "url": "https://i.ytimg.com/vi/YN8hYrxWA1g/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328941",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64022d95eb.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960857/screencap/6ac640240461e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E02",
+      "episodeId": "11960863",
+      "title": "H1N1 - EP02 : Fair un clip en moins de 2H !",
+      "youtubeId": "XOztY0Uux9o",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "H1N1 - EP02 : Fair un clip en moins de 2H !",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 96642,
+          "url": "https://i.ytimg.com/vi/XOztY0Uux9o/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328942",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac640279dba5.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960863/screencap/6ac64028deb60.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E09",
+      "episodeId": "11960870",
+      "title": "4 PUNCHLINES DE VALD ! (Analyse)",
+      "youtubeId": "8cDLGzGgEBc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "4 PUNCHLINES DE VALD ! (Analyse)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 160705,
+          "url": "https://i.ytimg.com/vi/8cDLGzGgEBc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328943",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6402c913c4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960870/screencap/6ac6402db1dc9.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E12",
+      "episodeId": "11960873",
+      "title": "LE PREMIER QUIZZ RAP ! (vidéo interactive)",
+      "youtubeId": "XUFDQl_ZtI0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PREMIER QUIZZ RAP ! (vidéo interactive)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 172201,
+          "url": "https://i.ytimg.com/vi/XUFDQl_ZtI0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328944",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64031d9711.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960873/screencap/6ac6403307c4f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E17",
+      "episodeId": "11960878",
+      "title": "4 PUNCHLINES DE DINOS (Analyse)",
+      "youtubeId": "FvgKy9D2-GE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "4 PUNCHLINES DE DINOS (Analyse)",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 161185,
+          "url": "https://i.ytimg.com/vi/FvgKy9D2-GE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328945",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac64036a49ab.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960878/screencap/6ac64037e37a2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2020E18",
+      "episodeId": "11960879",
+      "title": "LES CERTIFICATIONS DANS LE RAP !",
+      "youtubeId": "cLDCG7Au_BA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES CERTIFICATIONS DANS LE RAP !",
+        "beforeArtwork": [],
+        "image": {
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 164807,
+          "url": "https://i.ytimg.com/vi/cLDCG7Au_BA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "crop": {
+        "id": "2328946",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6403b99136.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11960879/screencap/6ac6403cc5a1e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1Status": 200,
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 10,
+    "processed": 10,
+    "applied": 10,
+    "skipped": 0,
+    "failed": 0
+  }
+}
