@@ -1,0 +1,902 @@
+{
+  "generatedAt": "2026-10-07T15:43:48.422Z",
+  "mode": "GUARDED_DJILSI_ARTWORK_BATCH_6_SERIAL",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2021E07",
+    "S2021E08",
+    "S2021E09",
+    "S2021E10",
+    "S2021E11",
+    "S2021E12",
+    "S2021E13",
+    "S2021E14",
+    "S2021E15",
+    "S2021E16",
+    "S2021E17",
+    "S2021E18",
+    "S2021E19",
+    "S2021E20",
+    "S2021E21",
+    "S2021E22",
+    "S2021E23",
+    "S2021E24",
+    "S2022E04",
+    "S2022E10"
+  ],
+  "results": [
+    {
+      "code": "S2021E07",
+      "episodeId": "9243173",
+      "title": "TU PERDS, TU METS TON NUMÉRO DE TÉLÉPHONE EN STORY",
+      "youtubeId": "cAPKMK6xGJ8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "TU PERDS, TU METS TON NUMÉRO DE TÉLÉPHONE EN STORY",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/cAPKMK6xGJ8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 98390
+        }
+      },
+      "crop": {
+        "id": "2329468",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac668b829a19.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243173/screencap/6ac668b96059a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E08",
+      "episodeId": "9243174",
+      "title": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT",
+      "youtubeId": "iXrem_ZJgZo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/iXrem_ZJgZo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 137049
+        }
+      },
+      "crop": {
+        "id": "2329470",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac668bd78b21.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243174/screencap/6ac668beacf57.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E09",
+      "episodeId": "9243175",
+      "title": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT (partie 2)",
+      "youtubeId": "jq_ZrXz2DgY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT (partie 2)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/jq_ZrXz2DgY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 138772
+        }
+      },
+      "crop": {
+        "id": "2329471",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac668c29ad79.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243175/screencap/6ac668c3dabcd.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E10",
+      "episodeId": "9243176",
+      "title": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT (partie 3)",
+      "youtubeId": "tNIpyQ99nCU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT (partie 3)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/tNIpyQ99nCU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 136442
+        }
+      },
+      "crop": {
+        "id": "2329473",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac668c75dd86.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243176/screencap/6ac668c8885e0.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E11",
+      "episodeId": "9243177",
+      "title": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT (partie 4)",
+      "youtubeId": "v2DUbJZU6tA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT (partie 4)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/v2DUbJZU6tA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 126393
+        }
+      },
+      "crop": {
+        "id": "2329474",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac668cc02f2d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243177/screencap/6ac668cd4336f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E12",
+      "episodeId": "9243178",
+      "title": "ON VA QUELQUE PART DANS LE MONDE AU HASARD #OnVaOù5",
+      "youtubeId": "8YS4zTzd5Ag",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON VA QUELQUE PART DANS LE MONDE AU HASARD #OnVaOù5",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/8YS4zTzd5Ag/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 144237
+        }
+      },
+      "crop": {
+        "id": "2329475",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac668d0a36fc.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243178/screencap/6ac668d1d4b82.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E13",
+      "episodeId": "9243179",
+      "title": "On saccage un manoir, s'éclate la tête et il mange du c... (oui vous avez bien compris) #OnVaOù5",
+      "youtubeId": "bGaKxigCFjU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "On saccage un manoir, s'éclate la tête et il mange du c... (oui vous avez bien compris) #OnVaOù5",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/bGaKxigCFjU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 109450
+        }
+      },
+      "crop": {
+        "id": "2329476",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac668d5aede2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243179/screencap/6ac668d6b65fb.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E14",
+      "episodeId": "9243180",
+      "title": "Un hollandais géant nous gronde et on dort dans une forêt allemande #OnVaOù5",
+      "youtubeId": "g0o3B3Erzxk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Un hollandais géant nous gronde et on dort dans une forêt allemande #OnVaOù5",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/g0o3B3Erzxk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 143950
+        }
+      },
+      "crop": {
+        "id": "2329478",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66916b2774.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243180/screencap/6ac66917de67d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E15",
+      "episodeId": "9243181",
+      "title": "Des gros problèmes aux frontières... (notre niveau de chance est de 0/10) #OnVaOù5",
+      "youtubeId": "RntkHsHsyBg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Des gros problèmes aux frontières... (notre niveau de chance est de 0/10) #OnVaOù5",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/RntkHsHsyBg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 93897
+        }
+      },
+      "crop": {
+        "id": "2329479",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6691b3b000.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243181/screencap/6ac6691c6f05f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E16",
+      "episodeId": "9243182",
+      "title": "Nus dans une cellule en Suède...#OnVaOù5 (final)",
+      "youtubeId": "s2Jal6gCgK8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Nus dans une cellule en Suède...#OnVaOù5 (final)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/s2Jal6gCgK8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 141212
+        }
+      },
+      "crop": {
+        "id": "2329480",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669205633b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243182/screencap/6ac6692173e92.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E17",
+      "episodeId": "9243183",
+      "title": "PARCOURIR 700km SANS ARGENT (et détester ses potes) - Pékin Hesspress",
+      "youtubeId": "R4gPBwDO-GA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PARCOURIR 700km SANS ARGENT (et détester ses potes) - Pékin Hesspress",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/R4gPBwDO-GA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 122626
+        }
+      },
+      "crop": {
+        "id": "2329481",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66924c3627.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243183/screencap/6ac66925d382e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E18",
+      "episodeId": "9243184",
+      "title": "PARCOURIR 700km SANS ARGENT (on est des génies, objectivement) - Pékin Hesspress partie 2",
+      "youtubeId": "7hu-bHMRak0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "PARCOURIR 700km SANS ARGENT (on est des génies, objectivement) - Pékin Hesspress partie 2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/7hu-bHMRak0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 154626
+        }
+      },
+      "crop": {
+        "id": "2329482",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669295df20.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243184/screencap/6ac6692a77955.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E19",
+      "episodeId": "9243185",
+      "title": "Notre plus gros procès... (c'est historique ce qu'on vit)",
+      "youtubeId": "8etu9GpnFhU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Notre plus gros procès... (c'est historique ce qu'on vit)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/8etu9GpnFhU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 100449
+        }
+      },
+      "crop": {
+        "id": "2329483",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6692de46b3.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243185/screencap/6ac6692f28d7a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E20",
+      "episodeId": "9243186",
+      "title": "Policiers VS Voleurs : on s'est fait (très) mal et on a éclaté un logis",
+      "youtubeId": "5Gyk9BOUdQw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Policiers VS Voleurs : on s'est fait (très) mal et on a éclaté un logis",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/5Gyk9BOUdQw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 199721
+        }
+      },
+      "crop": {
+        "id": "2329484",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac66932b8ad4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243186/screencap/6ac66933c84fb.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E21",
+      "episodeId": "9243187",
+      "title": "ROULETTE RUSSE À GAGES 2 (les gages sont clairement abusés on va pas se mentir)",
+      "youtubeId": "I2WBnKFCUB4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ROULETTE RUSSE À GAGES 2 (les gages sont clairement abusés on va pas se mentir)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/I2WBnKFCUB4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 142058
+        }
+      },
+      "crop": {
+        "id": "2329485",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6693740c04.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243187/screencap/6ac669386f8ad.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E22",
+      "episodeId": "9243188",
+      "title": "ESCALADER LE MONT BLANC, SANS ENTRAÎNEMENT",
+      "youtubeId": "6HWvfUxbntU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ESCALADER LE MONT BLANC, SANS ENTRAÎNEMENT",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/6HWvfUxbntU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 170807
+        }
+      },
+      "crop": {
+        "id": "2329486",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6693bb9eb6.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243188/screencap/6ac6693cd6188.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E23",
+      "episodeId": "9243189",
+      "title": "ESCALADER LE MONT BLANC, SANS ENTRAÎNEMENT (partie 2)",
+      "youtubeId": "aVMDMDbxF84",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ESCALADER LE MONT BLANC, SANS ENTRAÎNEMENT (partie 2)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/aVMDMDbxF84/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 182638
+        }
+      },
+      "crop": {
+        "id": "2329487",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6694066eb2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243189/screencap/6ac6694186c17.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2021E24",
+      "episodeId": "9243190",
+      "title": "ESCALADER LE MONT BLANC, SANS ENTRAÎNEMENT (partie 3, final)",
+      "youtubeId": "yxfskD4bkYg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ESCALADER LE MONT BLANC, SANS ENTRAÎNEMENT (partie 3, final)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/yxfskD4bkYg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 164238
+        }
+      },
+      "crop": {
+        "id": "2329488",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac669459fcd0.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243190/screencap/6ac66946a59b2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2022E04",
+      "episodeId": "9243192",
+      "title": "Problèmes, burn-out, anecdotes, le futur... on vous dit tout",
+      "youtubeId": "NVGQmIbls-w",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Problèmes, burn-out, anecdotes, le futur... on vous dit tout",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/NVGQmIbls-w/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 178120
+        }
+      },
+      "crop": {
+        "id": "2329489",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6694a35f51.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243192/screencap/6ac6694b56db2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2022E10",
+      "episodeId": "9254622",
+      "title": "Parcourir 1000km sans argent - Pekin Hesspress 2",
+      "youtubeId": "g792k-lmUtA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Parcourir 1000km sans argent - Pekin Hesspress 2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/g792k-lmUtA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 136726
+        }
+      },
+      "crop": {
+        "id": "2329490",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6694ecf275.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9254622/screencap/6ac6695015ec7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "reauthCount": 1,
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "safeBlocked": 0,
+    "failedAfterWrite": 0
+  }
+}
