@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-10-07T16:07:35.839Z",
+  "mode": "GUARDED_TEMP_ARTWORK_FINALIZE_NO_REUPLOAD",
+  "authenticated": true,
+  "target": {
+    "slug": "328213-show",
+    "series": "328213",
+    "episodeId": "6102822",
+    "code": "S2017E16",
+    "title": "JE TESTE LES PIRES INSTRUMENTS DE MUSIQUES !",
+    "tempId": "2329553",
+    "incoming": "https://artworks.thetvdb.com/incoming/6ac66d98f3719.jpeg"
+  },
+  "preflight": {
+    "heading": "JE TESTE LES PIRES INSTRUMENTS DE MUSIQUES !",
+    "beforeArtwork": [],
+    "tempImage": {
+      "url": "https://artworks.thetvdb.com/incoming/6ac66d98f3719.jpeg",
+      "status": 200,
+      "width": 1280,
+      "height": 720
+    },
+    "scope": {
+      "episode": "6102822",
+      "series": "328213",
+      "type": "11",
+      "tokenPresent": true
+    }
+  },
+  "post": {
+    "status": 302,
+    "location": "https://thetvdb.com/series/328213-show/episodes/6102822"
+  },
+  "verification": {
+    "artworkPresent": true,
+    "artwork": [
+      "https://artworks.thetvdb.com/banners/v4/episode/6102822/screencap/6ac66e4bcc29b.jpg"
+    ],
+    "successMessage": true
+  },
+  "blocked": [],
+  "result": "TEMP_FINALIZED_AND_VERIFIED"
+}

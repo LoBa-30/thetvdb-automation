@@ -1,0 +1,5 @@
+authenticated=true
+result=TEMP_FINALIZED_AND_VERIFIED
+artworkPresent=true
+postStatus=302
+blocked=0
