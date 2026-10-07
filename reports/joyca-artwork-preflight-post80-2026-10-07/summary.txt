@@ -1,4 +1,4 @@
 sourceRows=381
-checked=381
-planned=1
-result=PREFLIGHT_INSUFFICIENT_CANDIDATES
+checked=69
+planned=20
+result=PREFLIGHT_READY
