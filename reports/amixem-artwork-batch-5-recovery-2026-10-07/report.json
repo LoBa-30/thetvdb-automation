@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-07T16:16:59.601Z",
+  "mode": "GUARDED_AMIXEM_ARTWORK_BATCH_5_RECOVERY",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2017E18",
+    "S2017E20",
+    "S2017E24",
+    "S2017E44",
+    "S2017E49",
+    "S2017E51",
+    "S2017E57",
+    "S2017E72",
+    "S2017E73",
+    "S2017E74",
+    "S2017E77",
+    "S2017E88",
+    "S2017E89",
+    "S2017E92",
+    "S2017E93",
+    "S2017E94",
+    "S2017E96",
+    "S2017E99",
+    "S2017E101",
+    "S2018E01"
+  ],
+  "results": [
+    {
+      "code": "S2017E18",
+      "episodeId": "6102827",
+      "title": "LES PIRES ARTICLES AMAZON !",
+      "youtubeId": "TzJqBaB2VR4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES ARTICLES AMAZON !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/TzJqBaB2VR4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 132188
+        }
+      },
+      "crop": {
+        "id": "2329598",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6707fed457.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6102827/screencap/6ac670814148f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E20",
+      "episodeId": "6102829",
+      "title": "JE VISITE LA STATION SPATIALE !",
+      "youtubeId": "O1zuxU76bo0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "JE VISITE LA STATION SPATIALE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/O1zuxU76bo0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 197924
+        }
+      },
+      "crop": {
+        "id": "2329599",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670860315b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6102829/screencap/6ac670874b964.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E24",
+      "episodeId": "6102846",
+      "title": "LES PIRES ARTICLES AMAZON ! #2",
+      "youtubeId": "wFq7s6zdrYE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES ARTICLES AMAZON ! #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/wFq7s6zdrYE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 119150
+        }
+      },
+      "crop": {
+        "id": "2329600",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6708b9fe50.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6102846/screencap/6ac6708d34dff.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E44",
+      "episodeId": "6116370",
+      "title": "LES PIRES ARTICLES AMAZON ! #3",
+      "youtubeId": "tai7zrXsYlw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES ARTICLES AMAZON ! #3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/tai7zrXsYlw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 119199
+        }
+      },
+      "crop": {
+        "id": "2329601",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67091a4a84.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6116370/screencap/6ac67092df74b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E49",
+      "episodeId": "6147535",
+      "title": "LES PIRES ARTICLES AMAZON USA !",
+      "youtubeId": "ZQhypRYFV5g",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES ARTICLES AMAZON USA !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ZQhypRYFV5g/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 118253
+        }
+      },
+      "crop": {
+        "id": "2329602",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670972c662.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6147535/screencap/6ac670986a59a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E51",
+      "episodeId": "6154051",
+      "title": "LA CHANSON PUTACLIC - Amixem ft. YouTunes",
+      "youtubeId": "lnbrTzMm3i8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA CHANSON PUTACLIC - Amixem ft. YouTunes",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/lnbrTzMm3i8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 176155
+        }
+      },
+      "crop": {
+        "id": "2329603",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6709cdc43a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6154051/screencap/6ac6709e101f5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E57",
+      "episodeId": "6199203",
+      "title": "LE JEU LE PLUS FACILE DU MONDE !",
+      "youtubeId": "h2stmcj2kOg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE JEU LE PLUS FACILE DU MONDE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/h2stmcj2kOg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 95233
+        }
+      },
+      "crop": {
+        "id": "2329604",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670a23ce19.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6199203/screencap/6ac670a39c5df.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E72",
+      "episodeId": "6307639",
+      "title": "DUEL DE BLAGUES NULLES ! (Amixem Vs Joyca)",
+      "youtubeId": "-lVZ8wluBfc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DUEL DE BLAGUES NULLES ! (Amixem Vs Joyca)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/-lVZ8wluBfc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 182056
+        }
+      },
+      "crop": {
+        "id": "2329605",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670a809eaa.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6307639/screencap/6ac670a93ab66.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E73",
+      "episodeId": "6327853",
+      "title": "VOS PIRES BULLETINS DE NOTE !",
+      "youtubeId": "cj2wp7H3ctE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOS PIRES BULLETINS DE NOTE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/cj2wp7H3ctE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 105813
+        }
+      },
+      "crop": {
+        "id": "2329606",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670ad7a5a4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6327853/screencap/6ac670aeb3d1f.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E74",
+      "episodeId": "6327854",
+      "title": "LES PIRES ARTICLES AMAZON USA ! #3",
+      "youtubeId": "6hUXnDVXZKM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES ARTICLES AMAZON USA ! #3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/6hUXnDVXZKM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 114425
+        }
+      },
+      "crop": {
+        "id": "2329607",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670b367274.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6327854/screencap/6ac670b496534.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E77",
+      "episodeId": "6333709",
+      "title": "VOS PIRES MOTS DANS LE CARNET !",
+      "youtubeId": "2ximImkgWC8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOS PIRES MOTS DANS LE CARNET !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/2ximImkgWC8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 108232
+        }
+      },
+      "crop": {
+        "id": "2329608",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670b8e841f.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6333709/screencap/6ac670ba35d17.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E88",
+      "episodeId": "6403131",
+      "title": "VOS PIRES MOTS DANS LE CARNET ! #2",
+      "youtubeId": "4wC10NOMFgs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOS PIRES MOTS DANS LE CARNET ! #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/4wC10NOMFgs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 110757
+        }
+      },
+      "crop": {
+        "id": "2329609",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670bec9030.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6403131/screencap/6ac670c014490.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E89",
+      "episodeId": "6410399",
+      "title": "DUEL DE BLAGUES NULLES ! #2 (Vs Google Home)",
+      "youtubeId": "UWOAuTP27eo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DUEL DE BLAGUES NULLES ! #2 (Vs Google Home)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/UWOAuTP27eo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 140516
+        }
+      },
+      "crop": {
+        "id": "2329610",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670c546e99.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6410399/screencap/6ac670c699cf7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E92",
+      "episodeId": "6432309",
+      "title": "ON VOUS ANNONCE NOTRE PROJET SECRET !",
+      "youtubeId": "LTfcqAOdlE4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON VOUS ANNONCE NOTRE PROJET SECRET !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/LTfcqAOdlE4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 135775
+        }
+      },
+      "crop": {
+        "id": "2329611",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670cae3520.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6432309/screencap/6ac670cc3596e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E93",
+      "episodeId": "6439025",
+      "title": "LES PIRES ANNONCES SUR LEBONCOIN ! #8",
+      "youtubeId": "ncsIeL_A_3g",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES ANNONCES SUR LEBONCOIN ! #8",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ncsIeL_A_3g/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 97871
+        }
+      },
+      "crop": {
+        "id": "2329612",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670d0b7f2c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6439025/screencap/6ac670d22e2f2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E94",
+      "episodeId": "6447520",
+      "title": "ENORME BATTLE ROYALE DANS LA VRAIE VIE ! (PUBG NERF)",
+      "youtubeId": "miEr1jCa3Cs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ENORME BATTLE ROYALE DANS LA VRAIE VIE ! (PUBG NERF)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/miEr1jCa3Cs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 138547
+        }
+      },
+      "crop": {
+        "id": "2329613",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670d678784.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6447520/screencap/6ac670d7dba1e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E96",
+      "episodeId": "6452788",
+      "title": "LE JEU LE PLUS CHOQUANT !",
+      "youtubeId": "m6O2mgpIObY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE JEU LE PLUS CHOQUANT !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/m6O2mgpIObY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 157645
+        }
+      },
+      "crop": {
+        "id": "2329614",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670dc60a6e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6452788/screencap/6ac670dda5ae2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E99",
+      "episodeId": "6465596",
+      "title": "ON DECOUVRE NOS FUTURS STUDIOS !",
+      "youtubeId": "-ImCYFTX6r0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON DECOUVRE NOS FUTURS STUDIOS !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/-ImCYFTX6r0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 161865
+        }
+      },
+      "crop": {
+        "id": "2329615",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670e220a6e.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6465596/screencap/6ac670e35cc11.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2017E101",
+      "episodeId": "6482397",
+      "title": "VOS PIRES MOTS DANS LE CARNET ! #3",
+      "youtubeId": "HzbeSq9-Gl8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "VOS PIRES MOTS DANS LE CARNET ! #3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/HzbeSq9-Gl8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 108397
+        }
+      },
+      "crop": {
+        "id": "2329616",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670e7b0287.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6482397/screencap/6ac670e8e41d2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2018E01",
+      "episodeId": "6484255",
+      "title": "BATTLE ROYALE DANS LA VRAIE VIE ! (PUBG NERF Episode 2)",
+      "youtubeId": "L0zy4OFVOdk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "BATTLE ROYALE DANS LA VRAIE VIE ! (PUBG NERF Episode 2)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/L0zy4OFVOdk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 124562
+        }
+      },
+      "crop": {
+        "id": "2329617",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac670ed5d9cd.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/6484255/screencap/6ac670eea7057.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
