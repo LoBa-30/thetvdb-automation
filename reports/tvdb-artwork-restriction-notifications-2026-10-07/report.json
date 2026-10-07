@@ -1,0 +1,406 @@
+{
+  "generatedAt": "2026-10-07T20:37:30.623Z",
+  "mode": "AUTHENTICATED_READ_ONLY_RESTRICTION_NOTIFICATION_AUDIT",
+  "authenticated": true,
+  "home": {
+    "url": "https://thetvdb.com/",
+    "links": [
+      {
+        "text": "Notifications",
+        "href": "https://thetvdb.com/dashboard/notifications",
+        "title": null
+      },
+      {
+        "text": "Notifications 81",
+        "href": "https://thetvdb.com/dashboard/notifications",
+        "title": null
+      }
+    ]
+  },
+  "candidates": [
+    "https://thetvdb.com/dashboard/notifications",
+    "https://thetvdb.com/notifications",
+    "https://thetvdb.com/notification",
+    "https://thetvdb.com/user/notifications",
+    "https://thetvdb.com/account/notifications"
+  ],
+  "notifications": [
+    {
+      "url": "https://thetvdb.com/dashboard/notifications",
+      "status": 200,
+      "title": "Dashboard - TheTVDB.com",
+      "body": "TheTVDB Toggle navigation lois.basse@etu.univ-poitiers.fr Dashboard Home Account Notifications 81 Your Artwork Favorites Lists Mark All Read Notifications If you need support for any of these notifications, please open a support ticket and include the REF-# of the notification. Mark As Read PolarGeek October 7, 2026 8:37PM UTC REF-2951762 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:37PM UTC REF-2951761 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:37PM UTC REF-2951760 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:37PM UTC REF-2951759 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:37PM UTC REF-2951758 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:37PM UTC REF-2951757 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:36PM UTC REF-2951756 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:36PM UTC REF-2951755 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:36PM UTC REF-2951754 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:36PM UTC REF-2951753 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:36PM UTC REF-2951752 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:36PM UTC REF-2951751 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:36PM UTC REF-2951750 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:36PM UTC REF-2951749 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:36PM UTC REF-2951748 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:36PM UTC REF-2951747 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:36PM UTC REF-2951746 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:36PM UTC REF-2951745 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:36PM UTC REF-2951744 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. Mark As Read PolarGeek October 7, 2026 8:35PM UTC REF-2951743 This artwork has been removed by a moderator as it was found to violate a site rule: Title card or disallowed text. Our artwork rules are available in our knowledgebase. If you feel this is incorrect, please open a support ticket. « 1 2 3 4 5 6 7 »",
+      "links": [
+        {
+          "text": "TheTVDB",
+          "href": "https://thetvdb.com/home"
+        },
+        {
+          "text": "Toggle navigation",
+          "href": "https://thetvdb.com/dashboard/notifications#"
+        },
+        {
+          "text": "lois.basse@etu.univ-poitiers.fr",
+          "href": "https://thetvdb.com/dashboard/notifications#"
+        },
+        {
+          "text": "Sign out",
+          "href": "https://thetvdb.com/auth/logout"
+        },
+        {
+          "text": "Dashboard Home",
+          "href": "https://thetvdb.com/dashboard"
+        },
+        {
+          "text": "Account",
+          "href": "https://thetvdb.com/dashboard/notifications#"
+        },
+        {
+          "text": "Edit Information",
+          "href": "https://thetvdb.com/dashboard/account/editinfo"
+        },
+        {
+          "text": "Change password",
+          "href": "https://thetvdb.com/dashboard/account/changepass"
+        },
+        {
+          "text": "Subscription",
+          "href": "https://thetvdb.com/dashboard/account/subscription"
+        },
+        {
+          "text": "API keys",
+          "href": "https://thetvdb.com/dashboard/account/apikey"
+        },
+        {
+          "text": "Notifications 81",
+          "href": "https://thetvdb.com/dashboard/notifications"
+        },
+        {
+          "text": "Your Artwork",
+          "href": "https://thetvdb.com/dashboard/notifications#"
+        },
+        {
+          "text": "Movie Banner",
+          "href": "https://thetvdb.com/dashboard/artwork/16"
+        },
+        {
+          "text": "Movie Poster",
+          "href": "https://thetvdb.com/dashboard/artwork/14"
+        },
+        {
+          "text": "Movie Background",
+          "href": "https://thetvdb.com/dashboard/artwork/15"
+        },
+        {
+          "text": "Movie Icon",
+          "href": "https://thetvdb.com/dashboard/artwork/18"
+        },
+        {
+          "text": "Movie Cinemagraph",
+          "href": "https://thetvdb.com/dashboard/artwork/21"
+        },
+        {
+          "text": "Movie Clearart",
+          "href": "https://thetvdb.com/dashboard/artwork/24"
+        },
+        {
+          "text": "Movie Clearlogo",
+          "href": "https://thetvdb.com/dashboard/artwork/25"
+        },
+        {
+          "text": "Series Banner",
+          "href": "https://thetvdb.com/dashboard/artwork/1"
+        },
+        {
+          "text": "Series Poster",
+          "href": "https://thetvdb.com/dashboard/artwork/2"
+        },
+        {
+          "text": "Series Background",
+          "href": "https://thetvdb.com/dashboard/artwork/3"
+        },
+        {
+          "text": "Series Icon",
+          "href": "https://thetvdb.com/dashboard/artwork/5"
+        },
+        {
+          "text": "Series Cinemagraph",
+          "href": "https://thetvdb.com/dashboard/artwork/20"
+        },
+        {
+          "text": "Series Clearart",
+          "href": "https://thetvdb.com/dashboard/artwork/22"
+        },
+        {
+          "text": "Series Clearlogo",
+          "href": "https://thetvdb.com/dashboard/artwork/23"
+        },
+        {
+          "text": "Season Banner",
+          "href": "https://thetvdb.com/dashboard/artwork/6"
+        },
+        {
+          "text": "Season Poster",
+          "href": "https://thetvdb.com/dashboard/artwork/7"
+        },
+        {
+          "text": "Season Background",
+          "href": "https://thetvdb.com/dashboard/artwork/8"
+        },
+        {
+          "text": "Season Icon",
+          "href": "https://thetvdb.com/dashboard/artwork/10"
+        },
+        {
+          "text": "Episode 16:9",
+          "href": "https://thetvdb.com/dashboard/artwork/11"
+        },
+        {
+          "text": "Episode 4:3",
+          "href": "https://thetvdb.com/dashboard/artwork/12"
+        },
+        {
+          "text": "Person Headshot",
+          "href": "https://thetvdb.com/dashboard/artwork/13a"
+        },
+        {
+          "text": "Character Photo",
+          "href": "https://thetvdb.com/dashboard/artwork/13c"
+        },
+        {
+          "text": "Company Icon",
+          "href": "https://thetvdb.com/dashboard/artwork/19"
+        },
+        {
+          "text": "Award Icon",
+          "href": "https://thetvdb.com/dashboard/artwork/26"
+        },
+        {
+          "text": "List Poster",
+          "href": "https://thetvdb.com/dashboard/artwork/27"
+        },
+        {
+          "text": "Favorites",
+          "href": "https://thetvdb.com/dashboard/notifications#"
+        },
+        {
+          "text": "Series",
+          "href": "https://thetvdb.com/dashboard/favorites/series"
+        },
+        {
+          "text": "Movies",
+          "href": "https://thetvdb.com/dashboard/favorites/movies"
+        },
+        {
+          "text": "Artwork",
+          "href": "https://thetvdb.com/dashboard/favorites/artworks"
+        },
+        {
+          "text": "Lists",
+          "href": "https://thetvdb.com/dashboard/notifications#"
+        },
+        {
+          "text": "Official",
+          "href": "https://thetvdb.com/dashboard/notifications#"
+        },
+        {
+          "text": "Personal",
+          "href": "https://thetvdb.com/dashboard/notifications#"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/open.php"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "knowledgebase",
+          "href": "https://support.thetvdb.com/kb/faq.php?cid=1"
+        },
+        {
+          "text": "open a support ticket",
+          "href": "https://support.thetvdb.com/"
+        },
+        {
+          "text": "2",
+          "href": "https://thetvdb.com/dashboard/notifications?page=2"
+        },
+        {
+          "text": "3",
+          "href": "https://thetvdb.com/dashboard/notifications?page=3"
+        },
+        {
+          "text": "4",
+          "href": "https://thetvdb.com/dashboard/notifications?page=4"
+        },
+        {
+          "text": "5",
+          "href": "https://thetvdb.com/dashboard/notifications?page=5"
+        },
+        {
+          "text": "6",
+          "href": "https://thetvdb.com/dashboard/notifications?page=6"
+        },
+        {
+          "text": "7",
+          "href": "https://thetvdb.com/dashboard/notifications?page=7"
+        },
+        {
+          "text": "»",
+          "href": "https://thetvdb.com/dashboard/notifications?page=2"
+        }
+      ]
+    }
+  ],
+  "result": "AUDIT_COMPLETE_ZERO_WRITES"
+}
