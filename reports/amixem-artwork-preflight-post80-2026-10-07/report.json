@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T16:08:52.294007+00:00",
+  "generatedAt": "2026-10-07T16:10:15.498783+00:00",
   "mode": "READ_ONLY_AMIXEM_ARTWORK_PREFLIGHT_POST80",
   "sourceRows": 774,
   "checked": [
@@ -2404,9 +2404,7 @@
       "url": "https://thetvdb.com/series/328213-show/episodes/6102822",
       "imageUrl": "https://i.ytimg.com/vi/Fv5YnxVsik8/maxresdefault.jpg",
       "series": "328213",
-      "width": 1280,
-      "height": 720,
-      "status": "PREFLIGHT_PASSED"
+      "status": "HISTORY_ALREADY_VERIFIED"
     },
     {
       "code": "S2017E17",
@@ -2858,21 +2856,22 @@
       "width": 1280,
       "height": 720,
       "status": "PREFLIGHT_PASSED"
+    },
+    {
+      "code": "S2018E01",
+      "episodeId": "6484255",
+      "title": "BATTLE ROYALE DANS LA VRAIE VIE ! (PUBG NERF Episode 2)",
+      "youtubeId": "L0zy4OFVOdk",
+      "youtubeTitle": "BATTLE ROYALE DANS LA VRAIE VIE ! (PUBG NERF Episode 2)",
+      "url": "https://thetvdb.com/series/328213-show/episodes/6484255",
+      "imageUrl": "https://i.ytimg.com/vi/L0zy4OFVOdk/maxresdefault.jpg",
+      "series": "328213",
+      "width": 1280,
+      "height": 720,
+      "status": "PREFLIGHT_PASSED"
     }
   ],
   "planned": [
-    {
-      "code": "S2017E16",
-      "episodeId": "6102822",
-      "title": "JE TESTE LES PIRES INSTRUMENTS DE MUSIQUES !",
-      "youtubeId": "Fv5YnxVsik8",
-      "youtubeTitle": "JE TESTE LES PIRES INSTRUMENTS DE MUSIQUES !",
-      "url": "https://thetvdb.com/series/328213-show/episodes/6102822",
-      "imageUrl": "https://i.ytimg.com/vi/Fv5YnxVsik8/maxresdefault.jpg",
-      "series": "328213",
-      "width": 1280,
-      "height": 720
-    },
     {
       "code": "S2017E18",
       "episodeId": "6102827",
@@ -3100,6 +3099,18 @@
       "series": "328213",
       "width": 1280,
       "height": 720
+    },
+    {
+      "code": "S2018E01",
+      "episodeId": "6484255",
+      "title": "BATTLE ROYALE DANS LA VRAIE VIE ! (PUBG NERF Episode 2)",
+      "youtubeId": "L0zy4OFVOdk",
+      "youtubeTitle": "BATTLE ROYALE DANS LA VRAIE VIE ! (PUBG NERF Episode 2)",
+      "url": "https://thetvdb.com/series/328213-show/episodes/6484255",
+      "imageUrl": "https://i.ytimg.com/vi/L0zy4OFVOdk/maxresdefault.jpg",
+      "series": "328213",
+      "width": 1280,
+      "height": 720
     }
   ],
   "counters": {
@@ -3112,5 +3123,5 @@
   },
   "blocked": [],
   "result": "PREFLIGHT_READY",
-  "historicalDone": 80
+  "historicalDone": 81
 }
