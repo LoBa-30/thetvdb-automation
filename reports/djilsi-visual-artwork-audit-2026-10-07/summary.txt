@@ -1,0 +1,9 @@
+episodes=215
+withArtwork=215
+withoutArtwork=0
+withYoutubeMatch=215
+matchesOwn=215
+similarOwn=0
+visualMismatchOwn=0
+exactDuplicateGroups=0
+nearDuplicatePairs=0
