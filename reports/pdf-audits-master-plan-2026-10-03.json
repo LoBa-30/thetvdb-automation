@@ -83,10 +83,9 @@
       "target": "Maxime Biaggi",
       "pdf": "AUDIT THETVDB — MAXIME BIAGGI.pdf",
       "scope": "MAIN CHANNEL ONLY",
-      "status": "IN_PROGRESS_TWO_ARTWORK_EDGE_CASES_ONLY",
+      "status": "IN_PROGRESS_ONE_ARTWORK_EDGE_CASE_ONLY",
       "pdfOpenWork": [
-        "Artwork coverage is now 62/64. S2019E01 remains detached: its previously verified screencap still exists on TheTVDB CDN but is no longer attached to the episode; do not blindly re-upload until the detach reason is understood.",
-        "S2025E01 remains without artwork because YouTube exposes no compliant 16:9 source: maxres/hq720/sddefault return 404, hqdefault is only 480x360 and mqdefault 320x180. Do not upscale a low-resolution thumbnail just to fill the slot."
+        "Artwork coverage is now 63/64. S2025E01 remains the sole missing artwork: YouTube maxres/hq720/sddefault are unavailable and the only exposed thumbnail is 480x360, below TheTVDB episode-artwork requirements. Video-frame extraction was blocked by YouTube anti-bot; do not bypass or upscale."
       ],
       "resolvedSincePlan": [
         "S2024E05 runtime rechecked: 59:23 YouTube -> 59 min TVDB, no change.",
@@ -94,7 +93,11 @@
         "Fresh season-boundary audit: 7 populated year-seasons, 0 Season Premiere flags, 6/6 completed seasons consistently mark only the final episode as Season Finale; 2026 is ongoing.",
         "Season Premiere ticket resolved NO_WRITE: adding Premiere to E01 would invent a new convention rather than correct an objective error.",
         "2026-10-07 final Maxime visual artwork audit after gap repair: 62/64 episodes currently expose artwork; all 62 strongly match their own official YouTube thumbnail. 0 exact duplicate groups, 0 near-duplicate pairs, 0 wrong-episode candidates.",
-        "2026-10-07 Maxime gap repair: 9 artworks applied before a guarded stop, S2025E18 temporary upload finalized and verified separately, then 14/14 remaining clean artworks applied and verified. Final gap audit: 0 never-written clean candidates remain."
+        "2026-10-07 Maxime gap repair: 9 artworks applied before a guarded stop, S2025E18 temporary upload finalized and verified separately, then 14/14 remaining clean artworks applied and verified. Final gap audit: 0 never-written clean candidates remain.",
+        "2026-10-07 Maxime artwork correction pass: 62 existing artworks visually audited with 0 exact duplicates, 0 near-duplicate pairs and 0 wrong-episode matches; all 62 strongly match their own official YouTube thumbnail.",
+        "2026-10-07 Maxime gap repair added 9 verified unique artworks, recovered S2025E18 temp upload, and subsequent gap work restored coverage to 63/64.",
+        "2026-10-07 S2019E01 provenance corrected to historical official YouTube ID 3X0piITkOTE. Its 1280x720 official thumbnail is still live; the existing TheTVDB screencap is stably attached on 6/6 cache-bypassed reads. No repeat write was made.",
+        "2026-10-07 final Maxime status: 63/64 artwork coverage. Only S2025E01 remains without a compliant official 16:9 source; keep open rather than fabricate/upscale."
       ]
     },
     {
@@ -256,7 +259,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T17:31:00Z",
+  "lastUpdatedAt": "2026-10-07T17:34:00Z",
   "latestContinuationCommits": [
     "38c1bbafe19bfbe54c91072ab9419ec91d7715d7",
     "68bb95cb01a3f49ceb6f7e29ee530daac5e07696",
@@ -393,6 +396,9 @@
     "904561eb70b28c0f407832fa5aeabd6dd8522307",
     "922462cbb1b01df166df1ddd08785ac63c5c2176",
     "b9bf1f244289b043e0041ef771482568de8ad110",
-    "643bd505ed05dfd71e4223e893d1fc14f8b7df54"
+    "643bd505ed05dfd71e4223e893d1fc14f8b7df54",
+    "a164e57b7234248e9398e25fc89951a11d8e52c1",
+    "31e4aa307876ade8022eb6b1e38a226b68bb1842",
+    "67f85c68a904efcb3112cc00946a857233ee5b09"
   ]
 }
