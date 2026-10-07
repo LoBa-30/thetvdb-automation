@@ -1,0 +1,3 @@
+missingEpisodes=37
+episodesWithAtLeastOne1280x720=37
+total1280x720Candidates=111

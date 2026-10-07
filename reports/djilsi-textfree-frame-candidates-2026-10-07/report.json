@@ -1,0 +1,1427 @@
+{
+  "generatedAt": "2026-10-07T21:34:36.395020+00:00",
+  "mode": "READ_ONLY_DJILSI_TEXTFREE_FRAME_CANDIDATES",
+  "missingEpisodes": 37,
+  "episodesWithAtLeastOne1280x720": 37,
+  "total1280x720Candidates": 111,
+  "contactSheets": [
+    "reports/djilsi-textfree-frame-candidates-2026-10-07/contact-01.jpg",
+    "reports/djilsi-textfree-frame-candidates-2026-10-07/contact-02.jpg",
+    "reports/djilsi-textfree-frame-candidates-2026-10-07/contact-03.jpg",
+    "reports/djilsi-textfree-frame-candidates-2026-10-07/contact-04.jpg",
+    "reports/djilsi-textfree-frame-candidates-2026-10-07/contact-05.jpg",
+    "reports/djilsi-textfree-frame-candidates-2026-10-07/contact-06.jpg",
+    "reports/djilsi-textfree-frame-candidates-2026-10-07/contact-07.jpg",
+    "reports/djilsi-textfree-frame-candidates-2026-10-07/contact-08.jpg",
+    "reports/djilsi-textfree-frame-candidates-2026-10-07/contact-09.jpg",
+    "reports/djilsi-textfree-frame-candidates-2026-10-07/contact-10.jpg"
+  ],
+  "rows": [
+    {
+      "code": "S2018E01",
+      "episodeId": "9242990",
+      "title": "PARTIR EN TOUR DE FRANCE EN IMPRO TOTALE ! #DécouvreTonPays 1",
+      "youtubeId": "tPAFP4QFT6Y",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/tPAFP4QFT6Y/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 69973,
+          "sha256": "a5a4db2b79bbffdc902dfaa7f58d0f7fe637fbc6b5bcaba92e6155e83ccda919",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E01-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/tPAFP4QFT6Y/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 57115,
+          "sha256": "b50902a8d938cf4c05504800a75ad0e225287c46ed9d4564ebb0c74d21b209db",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E01-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/tPAFP4QFT6Y/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 42433,
+          "sha256": "0f5aea7b75feeb04aabf809d503509e5561d9625894d5ce2f6995e236f0c1bdb",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E01-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2018E02",
+      "episodeId": "9242991",
+      "title": "DES B*TES PARTOUT ! #DécouvreTonPays 2",
+      "youtubeId": "k1blyDB6xj4",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/k1blyDB6xj4/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 126744,
+          "sha256": "c0f34b67b8dd0668b59c8e17401fe8731547b0637c4ce21ee4178cbf00f24175",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E02-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/k1blyDB6xj4/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 88123,
+          "sha256": "02eb56939b35251782043101472671a0cd2826bd5aebc09edb359e6fb56ef059",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E02-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/k1blyDB6xj4/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 45757,
+          "sha256": "15c47d87e1454b132bc55cf078ad4938aba62e02b8938e6a3796d8b689db1ee9",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E02-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2018E03",
+      "episodeId": "9242992",
+      "title": "SUR LA PLUS HAUTE DUNE D'EUROPE ! #DécouvreTonPays 3",
+      "youtubeId": "jPgVjTDD9x4",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/jPgVjTDD9x4/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 45549,
+          "sha256": "b47c0a6b93a1f219f1c7e2ba6cbff581fe8cb825e3e2d6bd12521881eec02b97",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E03-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/jPgVjTDD9x4/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 60082,
+          "sha256": "142f69b698cdbd3d1039932328b3f477dc15c14fb57396f63a25add8f702ecf5",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E03-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/jPgVjTDD9x4/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 110763,
+          "sha256": "6db9cefb2bc541fe4dd8ce668ca8e8db415041058f01be6dc8492913023186b9",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E03-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2018E04",
+      "episodeId": "9242993",
+      "title": "TOUT NU DANS LA LAVANDE ?! #DécouvreTonPays 4",
+      "youtubeId": "2ptVHFhcEPg",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/2ptVHFhcEPg/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 76248,
+          "sha256": "8eb1e21e9782de4756e720dab42c6dd712e9af8762321e9177e590303887d05e",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E04-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/2ptVHFhcEPg/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 139950,
+          "sha256": "90a30c4ec5642d2d4ad1da53fb92cd7ae4290a681cd6f59da5c3fc0f6fc18dfb",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E04-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/2ptVHFhcEPg/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 65384,
+          "sha256": "4882150b4481d9590104b3593a627b4be3f523a418d7a4a2fa11909094cf0fde",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E04-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2018E05",
+      "episodeId": "9242994",
+      "title": "RIEN NE S'EST PASSÉ COMME PRÉVU... #DécouvreTonPays 5",
+      "youtubeId": "zbhpYnVsw5g",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/zbhpYnVsw5g/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 82157,
+          "sha256": "2e376db9f4966e741f042865efabb0547755d36cbdfd08b6564f2c101db69db9",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E05-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/zbhpYnVsw5g/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 61687,
+          "sha256": "ff58fe58d992e81d7c99fd92ee4106c74fbbba31fbb288d75b2c6affaed28e69",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E05-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/zbhpYnVsw5g/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 79337,
+          "sha256": "5ff6fd1b4f6457310b909fe8528918c6abbbb7e81a17f8812105c51169b5e333",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E05-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2018E06",
+      "episodeId": "9242995",
+      "title": "UN GENDARME ME MET UNE PRESSION PAR TELEPHONE ! #DécouvreTonPays 6",
+      "youtubeId": "_qVpzIPYxO0",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/_qVpzIPYxO0/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 70284,
+          "sha256": "a3e3f8909b147acd60c39ea58cb9dc073fc3d9cd3b0ff247a755ad21f65410f6",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E06-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/_qVpzIPYxO0/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 83255,
+          "sha256": "8d13e242c1c9b800fc010610eec8dd573bdd613564bffe1a98c3122c030dedc4",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E06-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/_qVpzIPYxO0/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 44918,
+          "sha256": "4e2975e8ad8ea2d5df8543e50e63fabe3b44508afe59cc07d03c1646b979e1ab",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E06-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2018E07",
+      "episodeId": "9242996",
+      "title": "JE ME FAIS EMBROUILLER EN SORTANT D'UN BAR ! #DécouvreTonPays 7",
+      "youtubeId": "PanKi2WGWB4",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/PanKi2WGWB4/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 48874,
+          "sha256": "2fe73a118c8f88dac5e26139f52970488fa419b196382db37a964a0788fd2f74",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E07-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/PanKi2WGWB4/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 73511,
+          "sha256": "83fb59ad07ab5b4a2ede08263e3ffd8ad0c6e4364ebfc6d7fde21e3e1be74c52",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E07-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/PanKi2WGWB4/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 43370,
+          "sha256": "52ce6e013d72cba074556a139ebb7d2c8d6b700f3658372fca267adad47690dc",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E07-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2018E08",
+      "episodeId": "9242997",
+      "title": "ON N'A PLUS DE CHAUSSURES ! #DécouvreTonPays 8",
+      "youtubeId": "GvCuRzh_5UM",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/GvCuRzh_5UM/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 65825,
+          "sha256": "adc67a4d84325e17d07c524ed6dec8450b8857a778cb57fe93106abb7b806425",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E08-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/GvCuRzh_5UM/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 52932,
+          "sha256": "9004a0011682d2f1b164268a7968ceabf68c743dec189dc46ae7a72353f217e1",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E08-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/GvCuRzh_5UM/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 53136,
+          "sha256": "017d1d081b672e8b8d29a14b062366f14e254b4687df516eadc4f44a3f004ee0",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E08-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2018E09",
+      "episodeId": "9242998",
+      "title": "JE VEUX FAIRE DEMI-TOUR SUR L'AUTOROUTE ! #DécouvreTonPays 9 (final saison 1)",
+      "youtubeId": "CYATzVRUPFI",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/CYATzVRUPFI/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 69720,
+          "sha256": "915f207eeadeb15b9ad167baa004e0ef9f1f03d7ea1368b1ddcd249d8189513e",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E09-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/CYATzVRUPFI/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 58436,
+          "sha256": "14ef017f4e6691bbd45f8d12bbaf3c027652210edee2675ffb42c5efd43d28bf",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E09-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/CYATzVRUPFI/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 57150,
+          "sha256": "a47ee370924b33229544999c4169bd57e41346642a93dc2a64409216d16e9021",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E09-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2018E10",
+      "episodeId": "9243015",
+      "title": "NOS GALÈRES EN GRÈCE + POSEZ-MOI VOS QUESTIONS",
+      "youtubeId": "g-lnmYWDcyk",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/g-lnmYWDcyk/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 57048,
+          "sha256": "4c1a2efbfd05ecb6498a4b7e2bfe2cbfc296653ee981f7787654a21c65acfc8e",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E10-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/g-lnmYWDcyk/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 58074,
+          "sha256": "976be3a3f0313a62515fbef81da811c7c3fc5134a6bf5038e8d7e33067f00a90",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E10-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/g-lnmYWDcyk/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 72732,
+          "sha256": "a5c409f533e20d68297a9097d22b24515d9a64330e85d50d1e6e4225f1a52933",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E10-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2018E11",
+      "episodeId": "9243016",
+      "title": "J’AI CASSÉ MA CAMÉRA... #BourbiersDor 1",
+      "youtubeId": "EY5N56tDFBk",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/EY5N56tDFBk/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 55538,
+          "sha256": "6164bd1c0273958b14268157534d9356e8fe3ef2c49cd20ac01b42dd09acce14",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E11-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/EY5N56tDFBk/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 96769,
+          "sha256": "28f40dcce2db55d92f9baeb1c7e09f30ddf32ccbeadd13b698813042c9dec01b",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E11-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/EY5N56tDFBk/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 52062,
+          "sha256": "d966a72c18acd94f019744894b5c904db1507cdea3266e16911180b841fb0a30",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E11-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2018E12",
+      "episodeId": "9243017",
+      "title": "CACHÉS DANS LES TOILETTES D'UN TRAIN EN ALLEMAGNE #BourbiersDor 2",
+      "youtubeId": "fT1E4V5rZ3Q",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/fT1E4V5rZ3Q/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 62762,
+          "sha256": "ffe11efecdeb485abf98a0072b0fa1cdc6f6a04fb5024e55a3022ecb112815db",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E12-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/fT1E4V5rZ3Q/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 39863,
+          "sha256": "4aaefa83bed20f2688f03fea36f7d83917730d77b846ff1ca45379b505e0a99d",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E12-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/fT1E4V5rZ3Q/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 46770,
+          "sha256": "798c2897e310b9cd3f32229e74b2b23ef9133cb320e90a25982d17fde4b23fac",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E12-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2018E13",
+      "episodeId": "9243018",
+      "title": "SE LANCER SUR YOUTUBE #JournalDeBord EP1",
+      "youtubeId": "uYMeiGNJSbU",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/uYMeiGNJSbU/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 54139,
+          "sha256": "80b8724ff7af01ae90fa97e2e5e674ff62ec8bfc94923cb8ebf35fe2ce24b276",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E13-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/uYMeiGNJSbU/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 70171,
+          "sha256": "06da347d870bb9b53005f8da481a8ec4853f47335c498e2e35082a9483f41958",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E13-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/uYMeiGNJSbU/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 61661,
+          "sha256": "d7475f12f1237a408f4af778bd3eb7180d1094aa85eb1feea5e1d4446624fd10",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E13-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2018E14",
+      "episodeId": "9243019",
+      "title": "PROBLEMES D'ARGENT #JournalDeBord EP2",
+      "youtubeId": "uMIm06pHndo",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/uMIm06pHndo/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 68647,
+          "sha256": "1df95106d3c6c03518ed9db848753899f46921851640ba0dd0ac780aa434f6d1",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E14-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/uMIm06pHndo/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 57507,
+          "sha256": "d83cba7698e63b04c471a700a482b9356c8b2a56a47c907ed8765b2df855b4cd",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E14-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/uMIm06pHndo/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 78376,
+          "sha256": "7978bf4de07b3e783474091baec82d2008661549591f927813d4e185ce15be91",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E14-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2018E15",
+      "episodeId": "9243020",
+      "title": "COUP DE POKER #JournalDeBord EP3",
+      "youtubeId": "prDN4vO4xgw",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/prDN4vO4xgw/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 51687,
+          "sha256": "362fe81a93956d6f92fcc70ce1246b42084f73bdbc410e6e97e839a77e282077",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E15-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/prDN4vO4xgw/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 52592,
+          "sha256": "c025e4341cf172eaf8776ee915fd263a8d1f45deda8c366809d97eafa535918b",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E15-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/prDN4vO4xgw/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 102364,
+          "sha256": "31ef342384c2e2ac4092403099f2d3ce70126a28c4f8612fc04283c0f2aad5d3",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E15-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2018E16",
+      "episodeId": "9243021",
+      "title": "AU MILIEU D'UNE MANIFESTATION DES GILETS JAUNES !",
+      "youtubeId": "5GdqdxQBSbo",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/5GdqdxQBSbo/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 193289,
+          "sha256": "7a87a11ee233483fbc93dcb2bcecab746987644d8d661d839cc59e4203599412",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E16-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/5GdqdxQBSbo/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 139291,
+          "sha256": "2f456341ed5ff0e88b5551267433b2fc8856889bdd847095e1f88c3b58b7d0b7",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E16-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/5GdqdxQBSbo/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 143714,
+          "sha256": "d51e7c39adb6dbe404ab81d88b00c845ce89db48ae643ebe543bb6f3ba79fd6e",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E16-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2018E17",
+      "episodeId": "9243022",
+      "title": "BESOIN D'AIDE... #JournalDeBord EP4",
+      "youtubeId": "Gmdu-9Ya7uk",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/Gmdu-9Ya7uk/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 97569,
+          "sha256": "cc98e549571a75154ac1e96145a96ef049b8d2f7cd7e35e95438daf9d4e0ce72",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E17-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/Gmdu-9Ya7uk/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 75918,
+          "sha256": "eae5782763f5c919a60fd9033a04fff2ccdee77b3720a5756e7b867cedbebb62",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E17-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/Gmdu-9Ya7uk/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 121013,
+          "sha256": "d0d92030ba2b969dd9437022b615513614ecacc939eaaff70c053c8f6879f28d",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E17-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2018E18",
+      "episodeId": "9243023",
+      "title": "UNE SOLUTION RADICALE #JournalDeBord EP5",
+      "youtubeId": "in4zwbYO75s",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/in4zwbYO75s/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 41867,
+          "sha256": "3a07a54d4ae62bf9dfe09721113ae2dadc98aa8741dbd18504aeeca309fdcf77",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E18-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/in4zwbYO75s/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 47407,
+          "sha256": "0155eb0b8de4006a19e2c0de91be6d9b9e2f37d437277a9a274856003fcde851",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E18-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/in4zwbYO75s/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 50837,
+          "sha256": "6db57c8e568f5e24a7862d048f995cc5dda042fd75223cb6db6fd59d9ea5b42f",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E18-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2018E19",
+      "episodeId": "9243024",
+      "title": "LES RETROUVAILLES #JournalDeBord EP6 - FINAL SAISON 1",
+      "youtubeId": "vtFnltaWe1s",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/vtFnltaWe1s/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 51140,
+          "sha256": "d4d89facf1cde88eec5189e3276353a02189652269da8df07c57ca2eba01f2ce",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E19-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/vtFnltaWe1s/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 65191,
+          "sha256": "efc2d5100db1f2918048df4e51b1b7f7713df496a499137bb4288e9263697ecc",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E19-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/vtFnltaWe1s/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 49904,
+          "sha256": "d969fa7ccc820ff28bdf7a37f46c92dadccf4115d5bc13a0a2514377b769fc12",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2018E19-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E01",
+      "episodeId": "9243028",
+      "title": "QUELLES SONT VOS RÉSOLUTIONS 2019 ? INTERVIEW CHELOU #1",
+      "youtubeId": "jbtzNL6d37Q",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/jbtzNL6d37Q/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 165502,
+          "sha256": "db4062dac16911ec6d7ce0266f8f68f36ec3134fb4116273563bd0953e19e3c5",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E01-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/jbtzNL6d37Q/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 137501,
+          "sha256": "55b48d38cc2d3aa74b18a0f2b348ba17a30df5a899ce332dc0b3c0505e5b152b",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E01-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/jbtzNL6d37Q/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 136473,
+          "sha256": "bde96d780ec5e76ab74c5e899c001dfb6d2976d88eaa53b24f89ff43c6e9f0d4",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E01-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E02",
+      "episodeId": "9243029",
+      "title": "QUELLE EST VOTRE PIRE CONNERIE ? INTERVIEW CHELOU #2",
+      "youtubeId": "NFYnq_o1j30",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/NFYnq_o1j30/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 96234,
+          "sha256": "25b78709886342025fa9746b597a61c7df428f5e1f25f7b9460de5c449ea259a",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E02-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/NFYnq_o1j30/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 71027,
+          "sha256": "c580aeb03a2c80c0565db9a6fdfa0ecbe12cfa67c47a6c46c2c3eebfb35c18b3",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E02-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/NFYnq_o1j30/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 88217,
+          "sha256": "01341a7e314ab045215353f90e010fa4319eb734e1fa63a3d3025db3a75a34a1",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E02-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E03",
+      "episodeId": "9243030",
+      "title": "QUEL EST VOTRE FANTASME ? INTERVIEW CHELOU #3",
+      "youtubeId": "HrcmpYKrfw4",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/HrcmpYKrfw4/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 93459,
+          "sha256": "58d384e3e745f6651e3762f13b572bb897496b9398abfd24812370711b94e6db",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E03-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/HrcmpYKrfw4/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 78069,
+          "sha256": "5edff20b59fd1e52aead55fa2736609fed66620f809ea2a8a39d12dbf1b62ad0",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E03-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/HrcmpYKrfw4/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 90503,
+          "sha256": "aa859f52de0e0833676e8af57aafd9b7455bafc139f3bee707c1f2cd5c92b36d",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E03-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E04",
+      "episodeId": "9243031",
+      "title": "LA SAINT VALENTIN, CA VEUT DIRE QUOI ? INTERVIEW CHELOU #4",
+      "youtubeId": "4rC7w8bFs2k",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/4rC7w8bFs2k/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 71811,
+          "sha256": "bfa93bee3db443d562dc27329215a7d7597e950113f8b39385bb9b02ab037a0c",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E04-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/4rC7w8bFs2k/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 77285,
+          "sha256": "fe8f2694eb2b5e8a588552ee36f264e1d287271cf244ea7e9991abd32e340a8a",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E04-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/4rC7w8bFs2k/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 65760,
+          "sha256": "0371728003239aaf0ab2a598b991486238fe9b72b199d2b7c1aaaf00b6c86fad",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E04-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E05",
+      "episodeId": "9243032",
+      "title": "LES PARISIENS SONT-ILS CHIANTS ? INTERVIEW CHELOU #5",
+      "youtubeId": "mdE-BxC7JT0",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/mdE-BxC7JT0/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 86904,
+          "sha256": "832d86335bcafdbc416c5bf1a70c191700b77d2ae965bcac7e80d7fae04675bf",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E05-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/mdE-BxC7JT0/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 80024,
+          "sha256": "80e8101adf3866fa1527667f921d78c26e2f4e3b4741e00fb3b8af25f598104e",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E05-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/mdE-BxC7JT0/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 72331,
+          "sha256": "60806e429c36b79d25cb29c057a700837b345d41689cb557e6f7e4d639ab5906",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E05-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E06",
+      "episodeId": "9243033",
+      "title": "ETRE INSUPPORTABLE DANS LE METRO ! CACHE LA CAM #1",
+      "youtubeId": "KWZrzA7S-rc",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/KWZrzA7S-rc/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 65609,
+          "sha256": "51aa740a96bf5b6979794594264ac86ef35311a42f9050c14338cffefaaf3ce7",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E06-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/KWZrzA7S-rc/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 62822,
+          "sha256": "727d76c89a3ed6e01c0ac8c43cb11d7033230fbf1e3deee5fcc4a8ba31f41700",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E06-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/KWZrzA7S-rc/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 64479,
+          "sha256": "50cc5a14c1a81c5d233dac83469c9c5bf6d7c123d1186ba2c3ebc2790b982e36",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E06-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E07",
+      "episodeId": "9243034",
+      "title": "LE PIRE ÉLÈVE À LA FAC ! CACHE LA CAM #2",
+      "youtubeId": "ZG49wY1oexc",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/ZG49wY1oexc/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 54017,
+          "sha256": "edc8dc6d2ae4f481e2ef1c68ae98d0827c7868f1d387178c2072de01fb1d2cd3",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E07-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/ZG49wY1oexc/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 69520,
+          "sha256": "d99246cbaa8d672b6a489106ca2fd00787ad57071ad2297f79a6cdf844c9029a",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E07-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/ZG49wY1oexc/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 66222,
+          "sha256": "69ed719bed6ec3f936ff8864c6f6cfe0a4e51a5b1d9fa0270dc37dd8ad8da980",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E07-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E08",
+      "episodeId": "9243035",
+      "title": "LE MEC LE PLUS CHELOU DANS LA RUE ! CACHE LA CAM #3",
+      "youtubeId": "aixfYOLkJ6M",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/aixfYOLkJ6M/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 74805,
+          "sha256": "a4855f1dc3e0f585e2dc03542bb0de99a92da094575c34fe94fa3f4901124717",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E08-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/aixfYOLkJ6M/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 132081,
+          "sha256": "4bbfec4fe0b70418f870e1602a494dbed22bceace5180fb93bfd672f823ec748",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E08-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/aixfYOLkJ6M/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 165033,
+          "sha256": "440c1b2b008e3136e5b628ad3cc3f59d2ccc70ffa1edfd9b6318d520310fb3c7",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E08-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E09",
+      "episodeId": "9243036",
+      "title": "LE PIRE CLIENT A L'HOTEL ! CACHE LA CAM #4",
+      "youtubeId": "eGuLe0vTd1k",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/eGuLe0vTd1k/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 183479,
+          "sha256": "a0373cae6050f1f100efc0dc2a613cc174ca568ed45c7c5567b7dc5d1d69df3f",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E09-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/eGuLe0vTd1k/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 115110,
+          "sha256": "3475f4e28cc99c102c8d663f76f6b8ca3293bbfd42db05d3f4fa30b221483fe6",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E09-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/eGuLe0vTd1k/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 103541,
+          "sha256": "c24c703f5b25cb8b7b54330644e5ba7a1344d8a46c437df59fa7fedbda707269",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E09-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E10",
+      "episodeId": "9243037",
+      "title": "LE PIRE MAGICIEN DU MONDE ! CACHE LA CAM #5",
+      "youtubeId": "6qmJVUbWxn4",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/6qmJVUbWxn4/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 60931,
+          "sha256": "5d7b8db396bafb5ef12f4c46579d5b8e62b640d2445aebbb2dfbea74721ca901",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E10-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/6qmJVUbWxn4/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 33113,
+          "sha256": "4e3740631eb943d293eb6d2a948adc88c149cbdb0d2862c4df31534fb4e0a6ca",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E10-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/6qmJVUbWxn4/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 96226,
+          "sha256": "e3f56b0b36a33d467816a6f627e731174c0576a4eb95c8ad03e87b6c23bbe270",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E10-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E11",
+      "episodeId": "9243038",
+      "title": "100.000 ABONNES EN UNE SEMAINE ?! ❤️ #FAQ",
+      "youtubeId": "zJYz5psu9Ig",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/zJYz5psu9Ig/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 52648,
+          "sha256": "42e56a841bf7f88176244ae8cdaac6521cbd00dd578eb4809af24f3e09c72e36",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E11-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/zJYz5psu9Ig/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 91751,
+          "sha256": "f39c05c3369c4641e72002c500282773db0d8e7bd0823a91f130acc50adea650",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E11-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/zJYz5psu9Ig/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 81932,
+          "sha256": "de773afaed9aff604f70a70ab197aa901d0bd09d645ae49ad3f10084fd55c4e7",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E11-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E12",
+      "episodeId": "9243039",
+      "title": "LE PIRE MEC DANS LE METRO PARISIEN ! CACHE LA CAM #6",
+      "youtubeId": "DwdB7MTPeuo",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/DwdB7MTPeuo/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 112247,
+          "sha256": "304ef32189baa307ba6c20622d270442b80ca27d4b3e6e06e3039adf46b1144b",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E12-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/DwdB7MTPeuo/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 111488,
+          "sha256": "2298cb5b7eb91520b9004c7e83956fe86ca9b2b478f6e6b0a28fb73ad23686a7",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E12-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/DwdB7MTPeuo/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 126100,
+          "sha256": "7ad48abf1591578ca38b7359931bd91b5690a27e34ab4793891e0f2c5edb3217",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E12-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E13",
+      "episodeId": "9243040",
+      "title": "LES PIRES SERVEURS DU MONDE ! CACHE LA CAM #7",
+      "youtubeId": "XZDY5H9kgaI",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/XZDY5H9kgaI/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 91402,
+          "sha256": "fde9e213239f6bf24cfca656e8ae1b43e1415cee3fce9ae67b22744776b0a8e3",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E13-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/XZDY5H9kgaI/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 67777,
+          "sha256": "09c2109089d8586695f690cc7c6d6d07d6bce7b92a53dfe5f4c29488579eb5b4",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E13-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/XZDY5H9kgaI/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 121037,
+          "sha256": "4c983ecb0ecf8d0165a0be6fecff33d6b816b899831c4b42c999cf7ae68ab0be",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E13-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E14",
+      "episodeId": "9243041",
+      "title": "LE FESTIVAL DE CANNES, ÇA VAUT LE COUP ? INTERVIEW CHELOU #6",
+      "youtubeId": "ujxNdkiEdbU",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/ujxNdkiEdbU/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 48312,
+          "sha256": "1c928c46f48ac395429bfd3940359fe3fcdc8af056894993f43bab9ace098cd2",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E14-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/ujxNdkiEdbU/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 97077,
+          "sha256": "623c1fb9c388c799f04cabb71de00cff3c47fa4381f125572255cafc66778e79",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E14-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/ujxNdkiEdbU/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 113664,
+          "sha256": "b76ce2897d5645d12e614714dcb2990dc3267fc7a666d3f9338cd449ab73bd2b",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E14-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E17",
+      "episodeId": "9243044",
+      "title": "MES PROBLEMES AVEC LA POLICE !",
+      "youtubeId": "72APxQkk--I",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/72APxQkk--I/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 128931,
+          "sha256": "ed329286fbe976c5db819510770c6f5c8e0ca0857773eb2f3fc442d2f9cc4e09",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E17-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/72APxQkk--I/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 69238,
+          "sha256": "d8f9c4b66df11cdce70f594d8ec53004a8c08d4b1d6ea353395dce7f65e79300",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E17-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/72APxQkk--I/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 91061,
+          "sha256": "4a9fa6343e94fc04bf0410d76c57174070ea1a7d125ada2976a47d8a80235017",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E17-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E18",
+      "episodeId": "9243045",
+      "title": "UN RACKETTEUR A VOULU ME PLANTER",
+      "youtubeId": "vB_cT1jqy94",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/vB_cT1jqy94/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 54905,
+          "sha256": "5c49430f07c4e502324e27b2912d0aa26a8e135c2c294f76456ee5eb7516c6e8",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E18-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/vB_cT1jqy94/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 61349,
+          "sha256": "692c3e49781a36febe8be01714282ab15f39d7fb063970a490d6684161cf63eb",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E18-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/vB_cT1jqy94/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 56416,
+          "sha256": "3eb7a2b2cbb514656818ed15f07e710ff58a4704a43225f081386c68339b04af",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E18-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E19",
+      "episodeId": "9243046",
+      "title": "LE PIRE EMPLOYÉ D'UN HOTEL ! CACHE LA CAM #8",
+      "youtubeId": "BGpuaXpJ04I",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/BGpuaXpJ04I/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 54901,
+          "sha256": "a7537f4497f7a4f788694eeefa24f4ef1310c70f9bb93fedbd4ee55286daf2ee",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E19-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/BGpuaXpJ04I/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 58886,
+          "sha256": "f3c3c645aba87743ab31deb36bc9068e6e803767302ebcb0f7a049beab30b6c8",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E19-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/BGpuaXpJ04I/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 92253,
+          "sha256": "7a5c4f49e95b5d94a2a2c2d2ab456ea0ba561d71a472e117c45bd325e3ea67a6",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E19-maxres3.jpg"
+        }
+      ]
+    },
+    {
+      "code": "S2019E21",
+      "episodeId": "9243048",
+      "title": "DES SUPPORTERS DU PSG À MARSEILLE ?! #OnVaOù",
+      "youtubeId": "GpygQnM2aqw",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/GpygQnM2aqw/maxres1.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 83007,
+          "sha256": "c060c4821fd5b579c9a620e39c07f68a00bed94666fdfd486ffed4e0266a1a50",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E21-maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/GpygQnM2aqw/maxres2.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 113393,
+          "sha256": "88b6d690861d6eeedc0df2b67c69d46d7b1006f389e03ff26b4ce8b6041a1727",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E21-maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/GpygQnM2aqw/maxres3.jpg",
+          "available": true,
+          "width": 1280,
+          "height": 720,
+          "bytes": 48614,
+          "sha256": "95ca641190d8ebe57ff5011ba8efdf51db66814482ef25cd7c245e26864241f6",
+          "path": "reports/djilsi-textfree-frame-candidates-2026-10-07/images/S2019E21-maxres3.jpg"
+        }
+      ]
+    }
+  ]
+}
