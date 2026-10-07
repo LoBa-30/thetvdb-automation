@@ -179,7 +179,9 @@ async function renumber(forward=true){
   }
   const form=page.locator('form').filter({has:page.locator('input[name="season_number"]')}).first();
   const action=await form.getAttribute('action');
-  const expected='/series/'+SLUG+'/official/2015/saveseason';
+  const seasonNumber=await form.locator('input[name="season_number"]').inputValue();
+  if(seasonNumber!=='2015') throw new Error('Unexpected season_number '+seasonNumber);
+  const expected='/series/'+SLUG+'/official/2151840/saveseason';
   if(action!==expected) throw new Error('Unexpected season save action '+action);
   await submitExpected(form,expected);
   const verified=await readSeason();
