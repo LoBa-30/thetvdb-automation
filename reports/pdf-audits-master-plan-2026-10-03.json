@@ -154,7 +154,7 @@
       "status": "IN_PROGRESS_DATES_ARTWORK",
       "pdfOpenWork": [
         "Exact publication dates remain independently unverified in the fresh audit",
-        "379 missing artworks + existing provenance tickets"
+        "Large missing-artwork backlog remains; original 379-missing PDF snapshot is now stale after 20 newly applied+verified artworks. Continue only from fresh live rescans."
       ],
       "resolvedSincePlan": [
         "TROUVE LE GÂTEAU repeated-title discrepancy resolved as matcher false positive; four checked entries correct.",
@@ -162,7 +162,8 @@
         "S2026E08 current title ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan) was already applied and verified on 2026-10-03; stale in-progress ticket closed.",
         "Fresh 2026 runtime preflight found and corrected three in-scope mismatches: E01 27→28, E09 45→46, E10 67→68; all post-write verifications passed.",
         "Fresh exhaustive title audit closed the title backlog: 0 substantive mismatches; 38 emoji/symbol-only and 12 whitespace/invisible/punctuation-only differences require no write.",
-        "Exhaustive runtime repair completed: 211 additional in-scope runtime corrections preflighted, written and 211/211 post-write verified. Together with the earlier 3 corrections, the 214-runtime PDF backlog is closed."
+        "Exhaustive runtime repair completed: 211 additional in-scope runtime corrections preflighted, written and 211/211 post-write verified. Together with the earlier 3 corrections, the 214-runtime PDF backlog is closed.",
+        "2026-10-07 artwork rollout started: 20 Joyca missing artworks applied and individually post-write verified in guarded batch 1, 20/20 success, 0 skips, 0 failures."
       ]
     },
     {
@@ -224,7 +225,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T14:12:00Z",
+  "lastUpdatedAt": "2026-10-07T14:20:00Z",
   "latestContinuationCommits": [
     "38c1bbafe19bfbe54c91072ab9419ec91d7715d7",
     "68bb95cb01a3f49ceb6f7e29ee530daac5e07696",
@@ -296,6 +297,13 @@
     "3417ac25ef177d5ddc327338ed690b27dd52fe18",
     "114226c8de0f42168b53357562dac869c2c722bc",
     "772dd10b8e478a0448250358077a1972f1f616e0",
-    "47049cd67a36b0b761e655ec6e83a30398c0db00"
+    "47049cd67a36b0b761e655ec6e83a30398c0db00",
+    "12c8ed8d5496655b7c445f38ff3ada886558cdda",
+    "0d464bae458fe7fae59ea6156309d27ff2f19446",
+    "bbf16827db1c65768815f680020a406212402bb6",
+    "a431024fd16d4b29034d3f57addf0db93625b127",
+    "e9a9a4d33469dabbec1a288bf3b3b49eaa3872bf",
+    "ed778b6240e9c2e86729f6c7811224ea730d14e7",
+    "6722a22ba0653df9e9a3b88d8226459011843b1a"
   ]
 }
