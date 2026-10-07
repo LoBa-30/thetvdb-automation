@@ -1,0 +1,40 @@
+name: TheTVDB artwork moderation inspection
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tvdb-artwork-moderation-notifications.yml'
+      - 'src/tvdb-artwork-moderation-notifications.js'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Read moderation notifications without writes
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: node src/tvdb-artwork-moderation-notifications.js
+      - name: Persist inspection report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/tvdb-artwork-moderation-notifications-2026-10-07
+          git commit -m "Record TheTVDB artwork moderation inspection [skip ci]" || true
+          git pull --rebase
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: tvdb-artwork-moderation-notifications
+          path: reports/tvdb-artwork-moderation-notifications-2026-10-07/
