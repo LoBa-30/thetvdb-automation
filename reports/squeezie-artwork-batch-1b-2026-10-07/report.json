@@ -1,17 +1,92 @@
 {
-  "generatedAt": "2026-10-07T13:39:58.415Z",
+  "generatedAt": "2026-10-07T13:42:12.868Z",
   "mode": "GUARDED_SQUEEZIE_ARTWORK_BATCH_1B",
   "armed": true,
-  "authenticated": false,
+  "authenticated": true,
   "targets": [
     "S2011E59",
     "S2011E71",
     "S2011E79",
     "S2011E81"
   ],
-  "results": [],
-  "stopped": false,
-  "stopReason": null,
-  "result": "FATAL_BEFORE_BATCH",
-  "fatal": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('form').filter({ has: locator('input[name=\"password\"]') }).first().locator('button[type=\"submit\"],input[type=\"submit\"]').first()\n    - locator resolved to <button type=\"submit\" class=\"btn btn-default btn-default\">Login</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n    - click action done\n    - waiting for scheduled navigations to finish\n\n    at /home/runner/work/thetvdb-automation/thetvdb-automation/src/squeezie-artwork-batch-1b.js:29:143"
+  "results": [
+    {
+      "code": "S2011E59",
+      "episodeId": "5313820",
+      "title": "Un zombie sur Moon et Der Riese avec TheGame57360 !",
+      "youtubeId": "WkBEompW7Ho",
+      "status": "ALREADY_PRESENT_SKIP",
+      "preflight": {
+        "heading": "Un zombie sur Moon et Der Riese avec TheGame57360 !",
+        "beforeArtwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313820/screencap/6ac64c2d61e24.jpg"
+        ]
+      },
+      "crop": null,
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313820/screencap/6ac64c2d61e24.jpg"
+        ]
+      },
+      "blocked": []
+    },
+    {
+      "code": "S2011E71",
+      "episodeId": "5313832",
+      "title": "[IRL] UNE VIDEO BONUS QUI TOURNE AU FOU RIRE !",
+      "youtubeId": "1QxslsL423M",
+      "status": "ALREADY_PRESENT_SKIP",
+      "preflight": {
+        "heading": "[IRL] UNE VIDEO BONUS QUI TOURNE AU FOU RIRE !",
+        "beforeArtwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313832/screencap/6ac64c32d9917.jpg"
+        ]
+      },
+      "crop": null,
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/5313832/screencap/6ac64c32d9917.jpg"
+        ]
+      },
+      "blocked": []
+    },
+    {
+      "code": "S2011E79",
+      "episodeId": "5313841",
+      "title": "NGZ joue sur Xbox 360 ! Son premier commentary sur Xbox !",
+      "youtubeId": "THNL9maJIKs",
+      "status": "BLOCKED_BEFORE_WRITE",
+      "preflight": {
+        "heading": "NGZ joue sur Xbox 360 ! Son premier commentary sur Xbox !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/THNL9maJIKs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 144802
+        }
+      },
+      "crop": null,
+      "verification": null,
+      "blocked": [
+        {
+          "reason": "UPLOAD_FORM_MISSING"
+        }
+      ]
+    }
+  ],
+  "stopped": true,
+  "stopReason": "S2011E79: UPLOAD_FORM_MISSING",
+  "result": "BATCH_STOPPED_ON_GUARD",
+  "summary": {
+    "requested": 4,
+    "processed": 3,
+    "applied": 0,
+    "skipped": 2,
+    "failed": 1
+  }
 }

@@ -1,8 +1,8 @@
-authenticated=false
+authenticated=true
 requested=4
-processed=0
+processed=3
 applied=0
-skipped=0
-failed=0
-stopped=false
-result=FATAL_BEFORE_BATCH
+skipped=2
+failed=1
+stopped=true
+result=BATCH_STOPPED_ON_GUARD
