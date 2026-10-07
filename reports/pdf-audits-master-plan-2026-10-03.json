@@ -54,15 +54,17 @@
       "status": "IN_PROGRESS_ARTWORK_DATE_BLOCKED",
       "pdfOpenWork": [
         "148 in-scope exact YouTube publication dates remain independently unverified; current GitHub runner is blocked by YouTube LOGIN_REQUIRED on all tested public player profiles. Keep as blocked/Ticket; do not bypass.",
-        "29 missing episode images require valid episode screencaps",
-        "Existing image provenance: 6 strong same-video candidates + 115 origin-unproven; no evidence supporting removal"
+        "28 missing-image episodes now have clean authenticated preflights with exact matched YouTube IDs, usable official maxres 1280x720 images, and correctly scoped TheTVDB artwork forms. Do not submit until the artwork upload pipeline proves it can materialize and be post-write verified.",
+        "S2023E19 remains the sole missing-image historical TVDB-only episode with no current public YouTube counterpart; keep/no speculative artwork.",
+        "Existing image provenance: 6 strong same-video candidates + 115 origin-unproven; no evidence supporting removal."
       ],
       "resolvedSincePlan": [
         "149 current public long videos matched to 149 current counterparts; runtimes verified.",
         "Only TVDB-only S2023E19 historically corroborated; keep/no-delete.",
         "Persistent artwork inventory completed across 150 TVDB episodes: 29 missing images and 121 existing images.",
         "121 existing images compared to official YouTube thumbnail/frame references: 6 remain strong same-video candidates; strict multi-hash follow-up did not prove them absolutely. Remaining 115 are origin-unproven, not classified as wrong; no removals.",
-        "2026-10-07 multi-client exact-date audit v2 checked all 149 current public videos: 0 exact dates exposed. WEB, ANDROID and TVHTML5 player calls returned LOGIN_REQUIRED for 149/149; WEB_EMBEDDED_PLAYER errored for 149/149. Public watch-page fallback also exposed 0 dates. No cookie/challenge/security bypass attempted."
+        "2026-10-07 multi-client exact-date audit v2 checked all 149 current public videos: 0 exact dates exposed. WEB, ANDROID and TVHTML5 player calls returned LOGIN_REQUIRED for 149/149; WEB_EMBEDDED_PLAYER errored for 149/149. Public watch-page fallback also exposed 0 dates. No cookie/challenge/security bypass attempted.",
+        "2026-10-07 artwork preflight: 28/28 current-video missing artworks passed episode/title/form checks and expose official YouTube maxres 1280x720 references; 0 blocks and 0 stale already-present skips. S2023E19 intentionally excluded as historical TVDB-only."
       ]
     },
     {
@@ -208,7 +210,7 @@
       "evidence": "Official YouTube currently uses ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan), while TheTVDB current season page still shows BLOQUÉS À LA PORTE ! (Avec Seb et Sofyan). Guarded authenticated refresh workflow launched."
     }
   ],
-  "lastUpdatedAt": "2026-10-07T11:19:00Z",
+  "lastUpdatedAt": "2026-10-07T11:23:00Z",
   "latestContinuationCommits": [
     "38c1bbafe19bfbe54c91072ab9419ec91d7715d7",
     "68bb95cb01a3f49ceb6f7e29ee530daac5e07696",
@@ -244,6 +246,10 @@
     "e718b0c01838ac2899e1867d97e6ff4a3127dc26",
     "be02aac3fe6fa2a76991c7602b9647bd1cfadfaf",
     "b5503581395a4e0239f07dc51758fac921bb192b",
-    "5a7731049955ad71a594271ed4798eb90e45ba55"
+    "5a7731049955ad71a594271ed4798eb90e45ba55",
+    "a3e5117e35e4b0fc0cf8db82168cdeb6667a66a8",
+    "350c1187474bd5383e1b2528868dcaaac0692e70",
+    "dd633043501978607889b5e594dbbadc078ce48a",
+    "b0f468e609a4c7f29dfcf03f15141893f391c418"
   ]
 }
