@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'triggers/squeezie-artwork-preflight-post120.run'
+      - '.github/workflows/squeezie-artwork-preflight-post120.yml'
   workflow_dispatch:
 permissions:
   contents: write
