@@ -1,0 +1,902 @@
+{
+  "generatedAt": "2026-10-07T14:06:02.762Z",
+  "mode": "GUARDED_DJILSI_ARTWORK_BATCH_2_SERIAL",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2019E02",
+    "S2019E03",
+    "S2019E04",
+    "S2019E05",
+    "S2019E06",
+    "S2019E07",
+    "S2019E08",
+    "S2019E09",
+    "S2019E10",
+    "S2019E11",
+    "S2019E12",
+    "S2019E13",
+    "S2019E14",
+    "S2019E15",
+    "S2019E16",
+    "S2019E17",
+    "S2019E18",
+    "S2019E19",
+    "S2019E20",
+    "S2019E21"
+  ],
+  "results": [
+    {
+      "code": "S2019E02",
+      "episodeId": "9243029",
+      "title": "QUELLE EST VOTRE PIRE CONNERIE ? INTERVIEW CHELOU #2",
+      "youtubeId": "NFYnq_o1j30",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "QUELLE EST VOTRE PIRE CONNERIE ? INTERVIEW CHELOU #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/NFYnq_o1j30/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 150652
+        }
+      },
+      "crop": {
+        "id": "2329097",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac651cea6842.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243029/screencap/6ac651cfce439.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E03",
+      "episodeId": "9243030",
+      "title": "QUEL EST VOTRE FANTASME ? INTERVIEW CHELOU #3",
+      "youtubeId": "HrcmpYKrfw4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "QUEL EST VOTRE FANTASME ? INTERVIEW CHELOU #3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/HrcmpYKrfw4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 161047
+        }
+      },
+      "crop": {
+        "id": "2329098",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac651d3b0d96.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243030/screencap/6ac651d4c15b2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E04",
+      "episodeId": "9243031",
+      "title": "LA SAINT VALENTIN, CA VEUT DIRE QUOI ? INTERVIEW CHELOU #4",
+      "youtubeId": "4rC7w8bFs2k",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LA SAINT VALENTIN, CA VEUT DIRE QUOI ? INTERVIEW CHELOU #4",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/4rC7w8bFs2k/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 145271
+        }
+      },
+      "crop": {
+        "id": "2329099",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac651d83d202.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243031/screencap/6ac651d958d06.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E05",
+      "episodeId": "9243032",
+      "title": "LES PARISIENS SONT-ILS CHIANTS ? INTERVIEW CHELOU #5",
+      "youtubeId": "mdE-BxC7JT0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PARISIENS SONT-ILS CHIANTS ? INTERVIEW CHELOU #5",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/mdE-BxC7JT0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 175835
+        }
+      },
+      "crop": {
+        "id": "2329100",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac651dcdd441.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243032/screencap/6ac651dde9df1.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E06",
+      "episodeId": "9243033",
+      "title": "ETRE INSUPPORTABLE DANS LE METRO ! CACHE LA CAM #1",
+      "youtubeId": "KWZrzA7S-rc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ETRE INSUPPORTABLE DANS LE METRO ! CACHE LA CAM #1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/KWZrzA7S-rc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 181941
+        }
+      },
+      "crop": {
+        "id": "2329101",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac651e1798e0.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243033/screencap/6ac651e296b80.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E07",
+      "episodeId": "9243034",
+      "title": "LE PIRE ÉLÈVE À LA FAC ! CACHE LA CAM #2",
+      "youtubeId": "ZG49wY1oexc",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PIRE ÉLÈVE À LA FAC ! CACHE LA CAM #2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ZG49wY1oexc/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 208783
+        }
+      },
+      "crop": {
+        "id": "2329102",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac651e62626c.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243034/screencap/6ac651e7383d7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E08",
+      "episodeId": "9243035",
+      "title": "LE MEC LE PLUS CHELOU DANS LA RUE ! CACHE LA CAM #3",
+      "youtubeId": "aixfYOLkJ6M",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE MEC LE PLUS CHELOU DANS LA RUE ! CACHE LA CAM #3",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/aixfYOLkJ6M/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 188990
+        }
+      },
+      "crop": {
+        "id": "2329103",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac651ea9331d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243035/screencap/6ac651eba2e47.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E09",
+      "episodeId": "9243036",
+      "title": "LE PIRE CLIENT A L'HOTEL ! CACHE LA CAM #4",
+      "youtubeId": "eGuLe0vTd1k",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PIRE CLIENT A L'HOTEL ! CACHE LA CAM #4",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/eGuLe0vTd1k/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 149946
+        }
+      },
+      "crop": {
+        "id": "2329104",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac651ef185c3.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243036/screencap/6ac651f02bb83.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E10",
+      "episodeId": "9243037",
+      "title": "LE PIRE MAGICIEN DU MONDE ! CACHE LA CAM #5",
+      "youtubeId": "6qmJVUbWxn4",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PIRE MAGICIEN DU MONDE ! CACHE LA CAM #5",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/6qmJVUbWxn4/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 208824
+        }
+      },
+      "crop": {
+        "id": "2329105",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac651f3b2643.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243037/screencap/6ac651f4bc90b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E11",
+      "episodeId": "9243038",
+      "title": "100.000 ABONNES EN UNE SEMAINE ?! ❤️ #FAQ",
+      "youtubeId": "zJYz5psu9Ig",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "100.000 ABONNES EN UNE SEMAINE ?! ❤️ #FAQ",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/zJYz5psu9Ig/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 120727
+        }
+      },
+      "crop": {
+        "id": "2329106",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac651f84725a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243038/screencap/6ac651f95e1ef.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E12",
+      "episodeId": "9243039",
+      "title": "LE PIRE MEC DANS LE METRO PARISIEN ! CACHE LA CAM #6",
+      "youtubeId": "DwdB7MTPeuo",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PIRE MEC DANS LE METRO PARISIEN ! CACHE LA CAM #6",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/DwdB7MTPeuo/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 169227
+        }
+      },
+      "crop": {
+        "id": "2329107",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac651fd9851a.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243039/screencap/6ac651feb4944.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E13",
+      "episodeId": "9243040",
+      "title": "LES PIRES SERVEURS DU MONDE ! CACHE LA CAM #7",
+      "youtubeId": "XZDY5H9kgaI",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LES PIRES SERVEURS DU MONDE ! CACHE LA CAM #7",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/XZDY5H9kgaI/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 187769
+        }
+      },
+      "crop": {
+        "id": "2329108",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac652023ab24.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243040/screencap/6ac652034d3c8.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E14",
+      "episodeId": "9243041",
+      "title": "LE FESTIVAL DE CANNES, ÇA VAUT LE COUP ? INTERVIEW CHELOU #6",
+      "youtubeId": "ujxNdkiEdbU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE FESTIVAL DE CANNES, ÇA VAUT LE COUP ? INTERVIEW CHELOU #6",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ujxNdkiEdbU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 193451
+        }
+      },
+      "crop": {
+        "id": "2329109",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65206c29bd.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243041/screencap/6ac65207cf351.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E15",
+      "episodeId": "9243042",
+      "title": "UNE FEMME FLIPPANTE AU BORD DE LA ROUTE ! #NosAventuresàCannes Part 1",
+      "youtubeId": "6zzFo9z3n7I",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UNE FEMME FLIPPANTE AU BORD DE LA ROUTE ! #NosAventuresàCannes Part 1",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/6zzFo9z3n7I/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 69578
+        }
+      },
+      "crop": {
+        "id": "2329110",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6520b36b64.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243042/screencap/6ac6520c400c5.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E16",
+      "episodeId": "9243043",
+      "title": "UNE ACTRICE ME FAIT UN CLIN D'OEIL ! #NosAventuresàCannes Part 2",
+      "youtubeId": "ApxDu2Mt6LY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UNE ACTRICE ME FAIT UN CLIN D'OEIL ! #NosAventuresàCannes Part 2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ApxDu2Mt6LY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 114051
+        }
+      },
+      "crop": {
+        "id": "2329111",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6520fb6a44.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243043/screencap/6ac65210d05fa.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E17",
+      "episodeId": "9243044",
+      "title": "MES PROBLEMES AVEC LA POLICE !",
+      "youtubeId": "72APxQkk--I",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MES PROBLEMES AVEC LA POLICE !",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/72APxQkk--I/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 162417
+        }
+      },
+      "crop": {
+        "id": "2329112",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6521473a01.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243044/screencap/6ac65215901d2.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E18",
+      "episodeId": "9243045",
+      "title": "UN RACKETTEUR A VOULU ME PLANTER",
+      "youtubeId": "vB_cT1jqy94",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "UN RACKETTEUR A VOULU ME PLANTER",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/vB_cT1jqy94/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 97642
+        }
+      },
+      "crop": {
+        "id": "2329113",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac652193ce52.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243045/screencap/6ac6521a70cda.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E19",
+      "episodeId": "9243046",
+      "title": "LE PIRE EMPLOYÉ D'UN HOTEL ! CACHE LA CAM #8",
+      "youtubeId": "BGpuaXpJ04I",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "LE PIRE EMPLOYÉ D'UN HOTEL ! CACHE LA CAM #8",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/BGpuaXpJ04I/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 110353
+        }
+      },
+      "crop": {
+        "id": "2329114",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6521e07bfb.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243046/screencap/6ac6521f3a6a7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E20",
+      "episodeId": "9243047",
+      "title": "ON VA QUELQUE PART AU HASARD SUR GOOGLE MAPS ! #OnVaOù",
+      "youtubeId": "JTjm4w-QxjY",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "ON VA QUELQUE PART AU HASARD SUR GOOGLE MAPS ! #OnVaOù",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/JTjm4w-QxjY/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 109922
+        }
+      },
+      "crop": {
+        "id": "2329116",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65222d7081.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243047/screencap/6ac65223f34c4.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2019E21",
+      "episodeId": "9243048",
+      "title": "DES SUPPORTERS DU PSG À MARSEILLE ?! #OnVaOù",
+      "youtubeId": "GpygQnM2aqw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "DES SUPPORTERS DU PSG À MARSEILLE ?! #OnVaOù",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/GpygQnM2aqw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 117519
+        }
+      },
+      "crop": {
+        "id": "2329117",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac65227a9061.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9243048/screencap/6ac65228ccd44.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "reauthCount": 1,
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "safeBlocked": 0,
+    "failedAfterWrite": 0
+  }
+}
