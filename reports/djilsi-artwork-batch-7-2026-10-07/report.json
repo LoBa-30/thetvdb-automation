@@ -1,0 +1,902 @@
+{
+  "generatedAt": "2026-10-07T16:29:51.114Z",
+  "mode": "GUARDED_DJILSI_ARTWORK_BATCH_7_SERIAL",
+  "armed": true,
+  "authenticated": true,
+  "targets": [
+    "S2022E11",
+    "S2022E13",
+    "S2022E21",
+    "S2023E06",
+    "S2023E08",
+    "S2023E10",
+    "S2023E13",
+    "S2023E17",
+    "S2023E21",
+    "S2024E04",
+    "S2025E06",
+    "S2025E11",
+    "S2025E13",
+    "S2026E11",
+    "S2026E12",
+    "S2026E13",
+    "S2026E14",
+    "S2026E15",
+    "S2026E16",
+    "S2026E17"
+  ],
+  "results": [
+    {
+      "code": "S2022E11",
+      "episodeId": "9254623",
+      "title": "Parcourir 1000km sans argent - Pekin Hesspress 2, partie 2",
+      "youtubeId": "4MTidWjuVPg",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Parcourir 1000km sans argent - Pekin Hesspress 2, partie 2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/4MTidWjuVPg/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 122402
+        }
+      },
+      "crop": {
+        "id": "2329688",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67382cf03b.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9254623/screencap/6ac67383edc1b.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2022E13",
+      "episodeId": "9275659",
+      "title": "On regarde nos plus gros dossiers",
+      "youtubeId": "JOQ4uQ7PJtw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "On regarde nos plus gros dossiers",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/JOQ4uQ7PJtw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 135250
+        }
+      },
+      "crop": {
+        "id": "2329689",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67387b3b93.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9275659/screencap/6ac67388c6c78.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2022E21",
+      "episodeId": "9477730",
+      "title": "Je deviens pilote de F4 (Grand Prix Explorer) FINAL",
+      "youtubeId": "6vQbNG9Y_38",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Je deviens pilote de F4 (Grand Prix Explorer) FINAL",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/6vQbNG9Y_38/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 143198
+        }
+      },
+      "crop": {
+        "id": "2329690",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6738c6d910.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9477730/screencap/6ac6738d73f82.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2023E06",
+      "episodeId": "9751685",
+      "title": "MAUVAISE PIOCHE (ft Seb, Billy & Maxime Biaggi)",
+      "youtubeId": "kK0QpSs-1U0",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MAUVAISE PIOCHE (ft Seb, Billy & Maxime Biaggi)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/kK0QpSs-1U0/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 170854
+        }
+      },
+      "crop": {
+        "id": "2329691",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67390ded57.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9751685/screencap/6ac673921530d.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2023E08",
+      "episodeId": "9812432",
+      "title": "En route pour le GP Explorer 2",
+      "youtubeId": "Ty2qn_9vcrw",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "En route pour le GP Explorer 2",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/Ty2qn_9vcrw/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 147465
+        }
+      },
+      "crop": {
+        "id": "2329692",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6739556b02.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9812432/screencap/6ac67396730b7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2023E10",
+      "episodeId": "9812434",
+      "title": "En route pour le GP Explorer 2 (part 2)",
+      "youtubeId": "yogxhJrj4V8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "En route pour le GP Explorer 2 (part 2)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/yogxhJrj4V8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 126202
+        }
+      },
+      "crop": {
+        "id": "2329693",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac67399d6268.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/9812434/screencap/6ac6739ae1132.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2023E13",
+      "episodeId": "10740761",
+      "title": "En route pour le GP Explorer 2 (part 3)",
+      "youtubeId": "ah4IEnC4IIs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "En route pour le GP Explorer 2 (part 3)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ah4IEnC4IIs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 130041
+        }
+      },
+      "crop": {
+        "id": "2329694",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac6739e8be28.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10740761/screencap/6ac6739fac0d7.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2023E17",
+      "episodeId": "10740765",
+      "title": "On lave notre linge sale en public avec Mister V",
+      "youtubeId": "3ZxiIZvw7Ck",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "On lave notre linge sale en public avec Mister V",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/3ZxiIZvw7Ck/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 243506
+        }
+      },
+      "crop": {
+        "id": "2329695",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac673a316cc4.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10740765/screencap/6ac673a43ff36.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2023E21",
+      "episodeId": "10740769",
+      "title": "MAUVAISE PIOCHE 2 (ft Seb, Billy & Maxime Biaggi)",
+      "youtubeId": "hTpcWUnwq00",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "MAUVAISE PIOCHE 2 (ft Seb, Billy & Maxime Biaggi)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/hTpcWUnwq00/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 159246
+        }
+      },
+      "crop": {
+        "id": "2329696",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac673a79c591.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10740769/screencap/6ac673a8ab699.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2024E04",
+      "episodeId": "10824279",
+      "title": "On lave notre linge sale en public avec Gotaga",
+      "youtubeId": "3_CF5SSyC70",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "On lave notre linge sale en public avec Gotaga",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/3_CF5SSyC70/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 207009
+        }
+      },
+      "crop": {
+        "id": "2329697",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac673ac28f17.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/10824279/screencap/6ac673ad3cef4.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E06",
+      "episodeId": "11684527",
+      "title": "GP EXPLORER 3 : Et si c'était la bonne ?",
+      "youtubeId": "yMkE-V85DDU",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "GP EXPLORER 3 : Et si c'était la bonne ?",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/yMkE-V85DDU/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 226010
+        }
+      },
+      "crop": {
+        "id": "2329698",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac673b0a9631.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11684527/screencap/6ac673b1de66e.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E11",
+      "episodeId": "11684532",
+      "title": "GP EXPLORER 3 : Plus qu'un mois pour choquer...",
+      "youtubeId": "b9pl4QejKk8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "GP EXPLORER 3 : Plus qu'un mois pour choquer...",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/b9pl4QejKk8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 234160
+        }
+      },
+      "crop": {
+        "id": "2329699",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac673b590b62.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11684532/screencap/6ac673b6b7910.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2025E13",
+      "episodeId": "11684534",
+      "title": "GP EXPLORER 3 : Au final on a choqué pour la dernière",
+      "youtubeId": "mSEA0MWobZE",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "GP EXPLORER 3 : Au final on a choqué pour la dernière",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/mSEA0MWobZE/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 177132
+        }
+      },
+      "crop": {
+        "id": "2329700",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac673ba34404.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11684534/screencap/6ac673bb45c37.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2026E11",
+      "episodeId": "12014131",
+      "title": "RDV LE SAMEDI 5 SEPTEMBRE À 11H... ????????",
+      "youtubeId": "uMmwt8l0FtM",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "RDV LE SAMEDI 5 SEPTEMBRE À 11H... ????????",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/uMmwt8l0FtM/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 298049
+        }
+      },
+      "crop": {
+        "id": "2329701",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac673beac8f2.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/12014131/screencap/6ac673bfcdaa6.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2026E12",
+      "episodeId": "11964028",
+      "title": "On part traverser le Canada en camping car - ON VA OÙ 7 ep1 (ft Maxime Biaggi, Joyca & Théodort)",
+      "youtubeId": "sJZBUk0nO5E",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "On part traverser le Canada en camping car - ON VA OÙ 7 ep1 (ft Maxime Biaggi, Joyca & Théodort)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/sJZBUk0nO5E/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 204853
+        }
+      },
+      "crop": {
+        "id": "2329702",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac673c3558f3.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11964028/screencap/6ac673c47c791.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2026E13",
+      "episodeId": "11971086",
+      "title": "Les problèmes commencent… - ON VA OÙ 7 ep2 (ft Maxime Biaggi, Joyca & Théodort)",
+      "youtubeId": "LFJkky0MAnA",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Les problèmes commencent… - ON VA OÙ 7 ep2 (ft Maxime Biaggi, Joyca & Théodort)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/LFJkky0MAnA/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 189230
+        }
+      },
+      "crop": {
+        "id": "2329703",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac673c8bad44.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11971086/screencap/6ac673c9cd708.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2026E14",
+      "episodeId": "11976892",
+      "title": "Des accidents et une soirée chaotique... - ON VA OÙ 7 ep3 (ft Maxime Biaggi, Joyca & Théodort)",
+      "youtubeId": "kDwuuudq-Hk",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Des accidents et une soirée chaotique... - ON VA OÙ 7 ep3 (ft Maxime Biaggi, Joyca & Théodort)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/kDwuuudq-Hk/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 338192
+        }
+      },
+      "crop": {
+        "id": "2329704",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac673cd3c10d.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11976892/screencap/6ac673ce5aea9.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2026E15",
+      "episodeId": "11998871",
+      "title": "Tous nos choix sont catastrophiques... - ON VA OÙ 7 ep4 (ft Maxime Biaggi, Joyca & Théodort)",
+      "youtubeId": "sIGByUaPZrs",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Tous nos choix sont catastrophiques... - ON VA OÙ 7 ep4 (ft Maxime Biaggi, Joyca & Théodort)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/sIGByUaPZrs/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 322060
+        }
+      },
+      "crop": {
+        "id": "2329705",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac673d1bfad3.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11998871/screencap/6ac673d2ddcfe.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2026E16",
+      "episodeId": "11998872",
+      "title": "Au début tout se passait bien... - ON VA OÙ 7 ep5 (ft Maxime Biaggi, Joyca & Théodort)",
+      "youtubeId": "ffSyBdcD958",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Au début tout se passait bien... - ON VA OÙ 7 ep5 (ft Maxime Biaggi, Joyca & Théodort)",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ffSyBdcD958/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 378011
+        }
+      },
+      "crop": {
+        "id": "2329706",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac673d65d060.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/11998872/screencap/6ac673d77271a.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    },
+    {
+      "code": "S2026E17",
+      "episodeId": "12014132",
+      "title": "Une fin d’aventure pleine de rebondissements… - ON VA OÙ 7 ep6 FINAL",
+      "youtubeId": "ersw34RPmZ8",
+      "status": "APPLIED_AND_VERIFIED",
+      "preflight": {
+        "heading": "Une fin d’aventure pleine de rebondissements… - ON VA OÙ 7 ep6 FINAL",
+        "beforeArtwork": [],
+        "image": {
+          "url": "https://i.ytimg.com/vi/ersw34RPmZ8/maxresdefault.jpg",
+          "status": 200,
+          "width": 1280,
+          "height": 720,
+          "contentType": "image/jpeg",
+          "bytes": 379966
+        }
+      },
+      "crop": {
+        "id": "2329707",
+        "x": "0",
+        "y": "0",
+        "width": "1280",
+        "height": "720",
+        "scaleX": "1",
+        "scaleY": "1",
+        "cropImageSrc": "https://artworks.thetvdb.com/incoming/6ac673daead92.jpeg"
+      },
+      "verification": {
+        "artworkPresent": true,
+        "artwork": [
+          "https://artworks.thetvdb.com/banners/v4/episode/12014132/screencap/6ac673dc0f598.jpg"
+        ]
+      },
+      "blocked": [],
+      "stage1": {
+        "status": 200
+      },
+      "stage2": {
+        "status": 302,
+        "successMessage": true
+      }
+    }
+  ],
+  "reauthCount": 1,
+  "stopped": false,
+  "stopReason": null,
+  "result": "BATCH_COMPLETE",
+  "summary": {
+    "requested": 20,
+    "processed": 20,
+    "applied": 20,
+    "skipped": 0,
+    "safeBlocked": 0,
+    "failedAfterWrite": 0
+  }
+}
