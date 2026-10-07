@@ -28,3 +28,10 @@ jobs:
           git commit -m "Record Maxime S2025E01 thumbnail probe [skip ci]" || true
           git pull --rebase
           git push
+
+      - name: Upload frame candidates
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: maxime-s2025e01-frame-candidates
+          path: reports/maxime-s2025e01-thumbnail-probe-2026-10-07/
