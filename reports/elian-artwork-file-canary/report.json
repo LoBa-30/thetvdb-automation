@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-10-07T11:12:44.414Z",
+  "target": "Elian S2023E06",
+  "mode": "GUARDED_FILE_UPLOAD_CANARY",
+  "armed": true,
+  "authenticated": true,
+  "preflight": {
+    "heading": "13m2 dans PARIS ???",
+    "beforeArtwork": [],
+    "imageUrl": "https://i.ytimg.com/vi/lBYtMPlWRq4/maxresdefault.jpg",
+    "imageFetch": {
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 155736
+    }
+  },
+  "write": {
+    "submitted": true,
+    "submittedAt": "2026-10-07T11:12:52.485Z",
+    "postStatus": 200,
+    "postOk": true,
+    "postUrl": "https://thetvdb.com/artwork/upload_handler",
+    "responsePreview": "<!DOCTYPE html> <html lang=\"en\"> <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-NC87CKK9');</script> <!-- End Google Tag Manager --> <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-E35MMLRF5R'); gtag('set', 'user_properties', { userid: '3045498', user_role: 'user', user_subscribed: 'no', }); </script> <title>Artwork Upload - TheTVDB.com</title> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"robots\" content=\"max-image-preview:large\"> <meta name=\"csrf-token\" content=\"zp04Z9jwzRSw1tvdzURGFLJQSVGoFUKHg03AFG8t\"> <link rel=\"icon\" type=\"image/png\" href=\"/images/icon.png\"> <link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" /> <link rel=\"apple-touch-icon\" sizes=\""
+  },
+  "verification": {
+    "reads": [
+      {
+        "at": "2026-10-07T11:12:53.156Z",
+        "artworkCount": 0,
+        "artwork": []
+      },
+      {
+        "at": "2026-10-07T11:12:56.892Z",
+        "artworkCount": 0,
+        "artwork": []
+      },
+      {
+        "at": "2026-10-07T11:13:04.587Z",
+        "artworkCount": 0,
+        "artwork": []
+      },
+      {
+        "at": "2026-10-07T11:13:21.344Z",
+        "artworkCount": 0,
+        "artwork": []
+      },
+      {
+        "at": "2026-10-07T11:13:52.374Z",
+        "artworkCount": 0,
+        "artwork": []
+      }
+    ],
+    "artworkPresent": false,
+    "artwork": [],
+    "writeRetried": false
+  },
+  "blocked": [],
+  "result": "SUBMITTED_VERIFICATION_PENDING_DO_NOT_RETRY"
+}

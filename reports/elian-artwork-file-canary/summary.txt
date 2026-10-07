@@ -1,0 +1,7 @@
+armed=true
+authenticated=true
+submitted=true
+postStatus=200
+artworkPresent=false
+blocked=0
+result=SUBMITTED_VERIFICATION_PENDING_DO_NOT_RETRY
