@@ -32,6 +32,16 @@ for rp in Path('reports').glob('amixem-artwork*/report.json'):
                 done.add(row['code'])
     except Exception:
         pass
+recovered=Path('reports/amixem-s2017e16-temp-finalize-2026-10-07/report.json')
+if recovered.exists():
+    try:
+        hist=json.loads(recovered.read_text(encoding='utf-8'))
+        if hist.get('result') in ('TEMP_FINALIZED_AND_VERIFIED','ALREADY_PRESENT_NO_WRITE'):
+            code=(hist.get('target') or {}).get('code')
+            if code:
+                done.add(code)
+    except Exception:
+        pass
 report['historicalDone']=len(done)
 
 for p in rows:
