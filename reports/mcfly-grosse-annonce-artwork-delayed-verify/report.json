@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-10-07T09:41:28.781Z",
+  "mode": "DELAYED_READ_ONLY_ARTWORK_VERIFICATION",
+  "authenticated": true,
+  "episodeId": "12023296",
+  "artwork": [],
+  "blocked": [],
+  "result": "ARTWORK_STILL_PENDING_DO_NOT_RETRY",
+  "heading": "GROSSE ANNONCE",
+  "readOnlyNetworkLock": true,
+  "blockedNonReadRequests": [
+    {
+      "method": "POST",
+      "url": "https://track.kueezrtb.com/dye?_=1791366092971&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F338282-show%2Fepisodes%2F12023296&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fepisodes%2F12023296&beacon=1"
+    },
+    {
+      "method": "POST",
+      "url": "https://gtrack.kueezrtb.com/dye?_=1791366092971&type=latest:boot&ac=2&acm=g3l&h=thetvdb.com&uri=%2Fseries%2F338282-show%2Fepisodes%2F12023296&furl=https%3A%2F%2Fthetvdb.com%2Fseries%2F338282-show%2Fepisodes%2F12023296&beacon=1"
+    }
+  ]
+}

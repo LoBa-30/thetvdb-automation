@@ -1,0 +1,4 @@
+authenticated=true
+artworkCount=0
+blocked=0
+result=ARTWORK_STILL_PENDING_DO_NOT_RETRY
