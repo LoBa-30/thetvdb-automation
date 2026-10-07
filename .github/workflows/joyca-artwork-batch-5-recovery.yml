@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'triggers/joyca-artwork-batch-5-recovery-recovery.run'
+      - 'triggers/joyca-artwork-batch-5-recovery.run'
   workflow_dispatch:
 permissions:
   contents: write
@@ -23,13 +23,13 @@ jobs:
           TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
           TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
           TVDB_JOYCA_ARTWORK_BATCH: 'yes'
-        run: node src/joyca-artwork-batch-5-recovery-recovery.js
+        run: node src/joyca-artwork-batch-5-recovery.js
       - name: Persist batch report
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/joyca-artwork-batch-5-recovery-recovery-2026-10-07
+          git add reports/joyca-artwork-batch-5-recovery-2026-10-07
           git commit -m "Record Joyca artwork batch 5 recovery [skip ci]" || true
           for i in 1 2 3 4; do
             git pull --rebase && git push && exit 0
@@ -40,4 +40,4 @@ jobs:
         if: always()
         with:
           name: joyca-artwork-batch-5-recovery
-          path: reports/joyca-artwork-batch-5-recovery-recovery-2026-10-07/
+          path: reports/joyca-artwork-batch-5-recovery-2026-10-07/
