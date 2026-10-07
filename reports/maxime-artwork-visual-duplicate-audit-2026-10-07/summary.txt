@@ -1,0 +1,10 @@
+tvdbEpisodes=64
+youtubeVideos=64
+episodesWithArtwork=19
+episodesWithYoutubeMatch=64
+ownMatchesStrong=19
+ownMatchesSimilar=0
+ownVisualMismatch=0
+exactDuplicateGroups=0
+nearDuplicatePairs=0
+wrongEpisodeCandidates=0
