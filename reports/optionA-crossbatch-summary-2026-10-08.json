@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-10-08",
+  "mode": "READ_ONLY_CROSS_BATCH_DEDUPLICATION",
+  "scope": "51 prior YouTube automatic frame selections + 20 user-confirmed new selections, including Elian S2024E02 maxres3",
+  "imagesCompared": 71,
+  "exactDuplicatePairs": [],
+  "nearDuplicatePairsDhashHammingAtMost8": [],
+  "note": "This proves no exact hash collisions or visually near-identical frames at dHash threshold 8 within the compared files; does not prove episode provenance, watermark compliance or TheTVDB moderation acceptance.",
+  "selectionStates": {
+    "oldSelected51": {
+      "precheckPlausible": 49,
+      "logoBlocked": 2
+    },
+    "newSelected20": {
+      "precheckPlausible": 20,
+      "confirmedReplacement": "Elian S2024E02 maxres3"
+    },
+    "newNoChoice2": [
+      "Djilsi S2026E14",
+      "Djilsi S2026E17"
+    ],
+    "earlierDeepExtractionBlocks9": [
+      "Maxime S2022E07",
+      "Maxime S2023E01",
+      "Djilsi S2019E07",
+      "Djilsi S2019E09",
+      "Djilsi S2019E11",
+      "Djilsi S2019E12",
+      "Djilsi S2019E13",
+      "Djilsi S2019E14",
+      "Djilsi S2019E19"
+    ]
+  },
+  "readyForLaterFinalPreflightOnly": 69,
+  "requiresAnotherFrame": 13,
+  "accountRestrictionLiftConfirmed": false,
+  "theTVDBWritesPerformed": 0,
+  "sourceReports": [
+    "reports/optionA-legacy-51-visual-check-2026-10-08.json",
+    "reports/post-moderation-textfree-frame-selection-2026-10-07.json"
+  ]
+}
