@@ -1,0 +1,1318 @@
+{
+  "date": "2026-10-08",
+  "userExportedAt": "2026-10-08T15:02:18.790Z",
+  "userFilename": "TheTVDB_optionA_67_choix_pour_verification.json",
+  "mode": "USER_SELECTION_PRESERVED_HUMAN_COMPLIANCE_PRECHECK_READ_ONLY",
+  "summary": {
+    "records": 67,
+    "selected": 61,
+    "none": 6,
+    "plausible": 37,
+    "blocked": 20,
+    "additionalReview": 4,
+    "byChain": {
+      "Raska": {
+        "selected": 15,
+        "none": 4,
+        "plausible": 2,
+        "blocked": 11,
+        "review": 2
+      },
+      "Squeezie": {
+        "selected": 12,
+        "none": 0,
+        "plausible": 12,
+        "blocked": 0,
+        "review": 0
+      },
+      "Amixem": {
+        "selected": 12,
+        "none": 0,
+        "plausible": 8,
+        "blocked": 2,
+        "review": 2
+      },
+      "Joyca": {
+        "selected": 11,
+        "none": 1,
+        "plausible": 7,
+        "blocked": 4,
+        "review": 0
+      },
+      "Mcfly & Carlito": {
+        "selected": 11,
+        "none": 1,
+        "plausible": 8,
+        "blocked": 3,
+        "review": 0
+      }
+    },
+    "uniqueSelectedSHA256": true,
+    "nearDuplicatesObservedAtHamming8": 0
+  },
+  "policy": "The user selected 61 variants, but did not approve an upload and the account restriction is not confirmed lifted. Never silently replace a user selected variant even when flagged; find alternatives without text, subtitles, credits or watermarks. No photo edits to remove text; no writing to TheTVDB. Current artwork missing flags for four chains are historical until fresh rechecked.",
+  "sourceGithubReports": [
+    "reports/optionA-raska-19-candidate-review-2026-10-08.json",
+    "reports/optionA-four-remaining-chains-48-starter-2026-10-08.json",
+    "reports/optionA-remaining-six-master-checkpoint-2026-10-08.json"
+  ],
+  "accountRestrictionLiftConfirmed": false,
+  "theTVDBArtworkWrites": 0,
+  "rows": [
+    {
+      "chain": "Raska",
+      "episode": "S2017E03",
+      "tvdbEpisodeId": "11960839",
+      "youtubeId": "YarMW4AXR54",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": "https://i.ytimg.com/vi/YarMW4AXR54/maxres1.jpg",
+      "selectedImageSha256": "ac2fd4652147420aea8c8a7870e99d32b6dbf18b421f0dbf13c6e78d795799d3",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Gros titre incrusté KRISY / RAP BELGE sur un visuel promotionnel",
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2017E04",
+      "tvdbEpisodeId": "11960840",
+      "youtubeId": "hl_oMecxiFY",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": "https://i.ytimg.com/vi/hl_oMecxiFY/maxres2.jpg",
+      "selectedImageSha256": "d890097d985c7ce1ed1b241b9c5fac4c45528f06f3936d79d9f66ec407d1bd27",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Montage promotionnel avec titre RAP FEMININ",
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2018E02",
+      "tvdbEpisodeId": "11979236",
+      "youtubeId": "qaxb0pVb6No",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": "https://i.ytimg.com/vi/qaxb0pVb6No/maxres1.jpg",
+      "selectedImageSha256": "fabaafb6521902902cae155ef8d46b8e5a09ebb8c3843cb89a46aaff1e45a331",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Titre promotionnel PLH en très grands caractères",
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2018E03",
+      "tvdbEpisodeId": "11960842",
+      "youtubeId": "RIvlj2BlOro",
+      "userSelectedVariant": null,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": null,
+      "selectedImageSha256": null,
+      "selectedImageDimensions": null,
+      "visualComplianceStatus": "NONE_USER_REQUESTS_OTHER_FRAME",
+      "visualReviewReason": null,
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2018E05",
+      "tvdbEpisodeId": "11960844",
+      "youtubeId": "q_dSPAPZCz4",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": "https://i.ytimg.com/vi/q_dSPAPZCz4/maxres1.jpg",
+      "selectedImageSha256": "ee95e19c01ec5fb13792eb2de59503f6f0f5d643baefed2c6c5aaab7dccdd5d9",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Filigrane TEOMA incrusté en haut",
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2018E07",
+      "tvdbEpisodeId": "11960846",
+      "youtubeId": "0YmW1gRTeA4",
+      "userSelectedVariant": null,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": null,
+      "selectedImageSha256": null,
+      "selectedImageDimensions": null,
+      "visualComplianceStatus": "NONE_USER_REQUESTS_OTHER_FRAME",
+      "visualReviewReason": null,
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2019E01",
+      "tvdbEpisodeId": "11960853",
+      "youtubeId": "95dKYYdIyik",
+      "userSelectedVariant": null,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": null,
+      "selectedImageSha256": null,
+      "selectedImageDimensions": null,
+      "visualComplianceStatus": "NONE_USER_REQUESTS_OTHER_FRAME",
+      "visualReviewReason": null,
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2019E05",
+      "tvdbEpisodeId": "11960857",
+      "youtubeId": "YN8hYrxWA1g",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/YN8hYrxWA1g/maxres1.jpg",
+      "selectedImageSha256": "33051cb1043bc68ea30dfb93b4d598687517b8edb5c7162b27bd81192200ed0a",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2020E09",
+      "tvdbEpisodeId": "11960870",
+      "youtubeId": "8cDLGzGgEBc",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/8cDLGzGgEBc/maxres1.jpg",
+      "selectedImageSha256": "ccf52077f6b15f124e01ef4c0e4ff628efa80902469d7e9c4e53819d850fdf1b",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "ADDITIONAL_MANUAL_COMPLIANCE_REVIEW",
+      "visualReviewReason": "Présence d'un titre d'émission sur un écran dans le décor; contrôle de conformité nécessaire",
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2020E12",
+      "tvdbEpisodeId": "11960873",
+      "youtubeId": "XUFDQl_ZtI0",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/XUFDQl_ZtI0/maxres1.jpg",
+      "selectedImageSha256": "97ad4d6eeb435775e20facd4cebe9743717fa441d1d8735a6044e3e66d37baf3",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "ADDITIONAL_MANUAL_COMPLIANCE_REVIEW",
+      "visualReviewReason": "Présence visible d'une inscription d'émission sur l'écran de décor; avis requis",
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2020E17",
+      "tvdbEpisodeId": "11960878",
+      "youtubeId": "FvgKy9D2-GE",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": "https://i.ytimg.com/vi/FvgKy9D2-GE/maxres1.jpg",
+      "selectedImageSha256": "83793ba5037b5defddaabece1c87a8a1522472059057e219def5e42703d60771",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Logo de série 4 PUNCHLINES DE DINOS visible en surimpression",
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2020E18",
+      "tvdbEpisodeId": "11960879",
+      "youtubeId": "cLDCG7Au_BA",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": "https://i.ytimg.com/vi/cLDCG7Au_BA/maxres2.jpg",
+      "selectedImageSha256": "bd302ba4ba3a9e03fd31e2ee725124a19a6c8a5dcec0fadf2190cf897145b274",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Bandeau d'abonnement/écriture ajoutée à l'image",
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2021E02",
+      "tvdbEpisodeId": "11960890",
+      "youtubeId": "OyNisujbTN8",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": "https://i.ytimg.com/vi/OyNisujbTN8/maxres1.jpg",
+      "selectedImageSha256": "54f65e0069b994ff17b33517e8045633cc3120bbc8e9439995ef67b9b4fea1a7",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Titres/logos d'émission affichés à l'écran",
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2021E03",
+      "tvdbEpisodeId": "11960891",
+      "youtubeId": "5-z4Vs7Ml54",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 3,
+      "selectedImageUrl": "https://i.ytimg.com/vi/5-z4Vs7Ml54/maxres1.jpg",
+      "selectedImageSha256": "3028979ac842f9199db9ee984b4791257651f27c82da252027dbf4a0d8e33488",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2022E10",
+      "tvdbEpisodeId": "11960921",
+      "youtubeId": "-K0btHmC6Sg",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": "https://i.ytimg.com/vi/-K0btHmC6Sg/maxres2.jpg",
+      "selectedImageSha256": "ff2513ce1cf42c8af244568ef712c8f698600676612122dad68d9f158a4d2359",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Bandeaux de jeu et noms des équipes incrustés",
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2022E18",
+      "tvdbEpisodeId": "11960929",
+      "youtubeId": "DK1m3pckmOQ",
+      "userSelectedVariant": 3,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": "https://i.ytimg.com/vi/DK1m3pckmOQ/maxres3.jpg",
+      "selectedImageSha256": "069bf08f23668d6fbff191b37164e0e9e7aa277aefee1110b235b91e9ebbc0bf",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Scores et labels de jeu incrustés",
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2023E06",
+      "tvdbEpisodeId": "11960801",
+      "youtubeId": "RKpy_sqdZWM",
+      "userSelectedVariant": null,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": null,
+      "selectedImageSha256": null,
+      "selectedImageDimensions": null,
+      "visualComplianceStatus": "NONE_USER_REQUESTS_OTHER_FRAME",
+      "visualReviewReason": null,
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2023E08",
+      "tvdbEpisodeId": "11960803",
+      "youtubeId": "6MaE7zoeALw",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": "https://i.ytimg.com/vi/6MaE7zoeALw/maxres2.jpg",
+      "selectedImageSha256": "253617875282a3d09ba543b4d7acec3e298c4841780f41ace9fc41ef4145b04c",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Chronomètre graphique superposé",
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2024E03",
+      "tvdbEpisodeId": "11860678",
+      "youtubeId": "tCg7PtYRnFc",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": "https://i.ytimg.com/vi/tCg7PtYRnFc/maxres2.jpg",
+      "selectedImageSha256": "205bb355108c7f0614ddce8a6a711cf40b6ce1101155278a7f2eeddd9a1bc845",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Bandeaux / logos d'émission et scores",
+      "sourceArtPresence": "MISSING_ON_PUBLIC_PAGE_2026_10_08",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E53",
+      "tvdbEpisodeId": "9098534",
+      "youtubeId": "PC6fjazOetE",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/PC6fjazOetE/maxres1.jpg",
+      "selectedImageSha256": "a9e6032fdebeeedb2b6977d6d4ab46397f9624329814565539da3e7a1fa48519",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E48",
+      "tvdbEpisodeId": "8771051",
+      "youtubeId": "qsUQFvyLDOw",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/qsUQFvyLDOw/maxres2.jpg",
+      "selectedImageSha256": "a3204119b2d335d617367653f03205cc34fb78f7a1ea6eac67c70aedc16c679c",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E47",
+      "tvdbEpisodeId": "8771049",
+      "youtubeId": "1072kUp4i1E",
+      "userSelectedVariant": 3,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/1072kUp4i1E/maxres3.jpg",
+      "selectedImageSha256": "9ed4ece90b572f186b047b3f266de959929c6efcc916d9352ce69a320642a851",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E46",
+      "tvdbEpisodeId": "8771047",
+      "youtubeId": "2CR21MSyTc4",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/2CR21MSyTc4/maxres2.jpg",
+      "selectedImageSha256": "10a22607a1661640218736dfc77a0c0e74f87b93c1cf1eaba350fb6f05166dc6",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E45",
+      "tvdbEpisodeId": "8771045",
+      "youtubeId": "yzuwQlcGde8",
+      "userSelectedVariant": 3,
+      "previousSuggestedVariant": 3,
+      "selectedImageUrl": "https://i.ytimg.com/vi/yzuwQlcGde8/maxres3.jpg",
+      "selectedImageSha256": "d7bd1049c71113d4d8b7bf17e211c5a2911de877468237350fa600614ac5b473",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E44",
+      "tvdbEpisodeId": "8771043",
+      "youtubeId": "XdGE3AW-qdw",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/XdGE3AW-qdw/maxres2.jpg",
+      "selectedImageSha256": "0dadba956317f5d452eb16565a72ba428d8841561649f7cf54f850551f39fd1e",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E43",
+      "tvdbEpisodeId": "8771041",
+      "youtubeId": "aW2expJrXwQ",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/aW2expJrXwQ/maxres1.jpg",
+      "selectedImageSha256": "0436a50a851b10e35c40686697f06352b746bcfb8679d5338a229da4246eed49",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E42",
+      "tvdbEpisodeId": "8771039",
+      "youtubeId": "efibkS_ClF0",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/efibkS_ClF0/maxres1.jpg",
+      "selectedImageSha256": "8aa3673eb82e9f812cb936eff129b8092eb0ff022280782f0360840a00e07695",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E41",
+      "tvdbEpisodeId": "8771037",
+      "youtubeId": "rJbJ2sxgBXM",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/rJbJ2sxgBXM/maxres1.jpg",
+      "selectedImageSha256": "27ddf499a3891ec726be8aa298f6fedeb1a52c606189f43dd8b1fbee86d3c9ab",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E40",
+      "tvdbEpisodeId": "8771035",
+      "youtubeId": "u1tydg2arAw",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/u1tydg2arAw/maxres1.jpg",
+      "selectedImageSha256": "238d2e956a5eba1a22be29843a544c4b8e0cf40b0f8042da850aaaa835e9946c",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E39",
+      "tvdbEpisodeId": "8571444",
+      "youtubeId": "8ZBXCtqKmaA",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/8ZBXCtqKmaA/maxres1.jpg",
+      "selectedImageSha256": "80557c2ea0453141a245375df173b01e65f6dc50e1395b790b107ad1b24fd6e3",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E38",
+      "tvdbEpisodeId": "8571442",
+      "youtubeId": "d6k9iGHlgFA",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/d6k9iGHlgFA/maxres2.jpg",
+      "selectedImageSha256": "ad9aa071a06e70de434282f80e646edca20f296a1dbe2c0bdbc91fe71d07ef31",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2026E40",
+      "tvdbEpisodeId": "12018655",
+      "youtubeId": "s5ssqJLDdxA",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/s5ssqJLDdxA/maxres1.jpg",
+      "selectedImageSha256": "f59fbbfbaac1a30ef3cb110df15882370e13778cdea3d7276fe7c1131a1dd40d",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2026E39",
+      "tvdbEpisodeId": "12013427",
+      "youtubeId": "eIp9I2RwmK0",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/eIp9I2RwmK0/maxres1.jpg",
+      "selectedImageSha256": "cb52ed4f4cd71ee34869d98344ec9a27ecd6df7c69531f45b4bceff47a14492d",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Mention collaboration commerciale / branding dans la capture",
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2026E38",
+      "tvdbEpisodeId": "12006517",
+      "youtubeId": "zr8xc870_2o",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": 3,
+      "selectedImageUrl": "https://i.ytimg.com/vi/zr8xc870_2o/maxres2.jpg",
+      "selectedImageSha256": "27df1145b78ca96277528daf2fbd58c286c7e3298c007f8abe7e5b375c9f5881",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "ADDITIONAL_MANUAL_COMPLIANCE_REVIEW",
+      "visualReviewReason": "Graphiques/schéma visible pendant l'épisode, à confirmer selon règles",
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2026E37",
+      "tvdbEpisodeId": "11997314",
+      "youtubeId": "IUn6P8RSsOg",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/IUn6P8RSsOg/maxres1.jpg",
+      "selectedImageSha256": "a2c6167e5e34d61dda1d3118460ceab14b15d3fe622d93b52dac4dff7587077e",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2026E36",
+      "tvdbEpisodeId": "11977088",
+      "youtubeId": "lOR96LbTMp4",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/lOR96LbTMp4/maxres2.jpg",
+      "selectedImageSha256": "d5417fb0c9ec4171086c31f1f9c4404eb4fac48e1796437fb835d20974ed846d",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2026E35",
+      "tvdbEpisodeId": "11967143",
+      "youtubeId": "9q9NJvRDzzM",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/9q9NJvRDzzM/maxres1.jpg",
+      "selectedImageSha256": "39d36c581a38695c1bf6b038b0f0024af8f392b6e7cf7bd03b7c580ddc81a394",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Mention collaboration commerciale et logo d'émission",
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2026E34",
+      "tvdbEpisodeId": "11954902",
+      "youtubeId": "l1bW68QJMUI",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/l1bW68QJMUI/maxres2.jpg",
+      "selectedImageSha256": "8d9eee1fcd08a89350ffbbe08c3d467186b446979dedb8a4fdad5bb34afbfa75",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2026E33",
+      "tvdbEpisodeId": "11926789",
+      "youtubeId": "UMPJEUeo3Og",
+      "userSelectedVariant": 3,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/UMPJEUeo3Og/maxres3.jpg",
+      "selectedImageSha256": "ecfd21f1d7962f831479fa52a41cfae66eca4f702d505b35389bc08ca5ac645b",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "ADDITIONAL_MANUAL_COMPLIANCE_REVIEW",
+      "visualReviewReason": "Petit panneau graphique intégré dans la capture; examen renforcé",
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2026E32",
+      "tvdbEpisodeId": "11908251",
+      "youtubeId": "qcADaHopkKM",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/qcADaHopkKM/maxres1.jpg",
+      "selectedImageSha256": "17aaebcfb32299a4dd32745bfb181bc3c78bb6413e5db831f43f8403b0c351e7",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2026E31",
+      "tvdbEpisodeId": "11898904",
+      "youtubeId": "JOUwwQPacy0",
+      "userSelectedVariant": 3,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/JOUwwQPacy0/maxres3.jpg",
+      "selectedImageSha256": "ae19877cb29a942c8758c389e4f11e5065a2dae646fbd8724c2c28597494c959",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2026E30",
+      "tvdbEpisodeId": "11890070",
+      "youtubeId": "ZlLSp6d3CxQ",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/ZlLSp6d3CxQ/maxres1.jpg",
+      "selectedImageSha256": "9d40adc14b1bf48df0a60472c4e1bfbe29e96bdb4c9530dbc40a5c03f60a9b84",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2026E29",
+      "tvdbEpisodeId": "11882620",
+      "youtubeId": "0c3i5TOox3E",
+      "userSelectedVariant": 3,
+      "previousSuggestedVariant": 3,
+      "selectedImageUrl": "https://i.ytimg.com/vi/0c3i5TOox3E/maxres3.jpg",
+      "selectedImageSha256": "a56f9484cad9dc0466a7ffeab48104553d43edd204422115a97e36f697daa7b4",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2026E17",
+      "tvdbEpisodeId": "12006506",
+      "youtubeId": "tE9MMqYu2Bk",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/tE9MMqYu2Bk/maxres2.jpg",
+      "selectedImageSha256": "f2d839f90c67dd922b49780a17f4efe5edc9cf9b5b94d7b98a26f0d64f1c0577",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2026E16",
+      "tvdbEpisodeId": "11978441",
+      "youtubeId": "HpX5R9rq-1M",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/HpX5R9rq-1M/maxres2.jpg",
+      "selectedImageSha256": "9628999b76249331ee3f55ff7689f4140249545a567ec44a719e8f1adb5c6d02",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2026E15",
+      "tvdbEpisodeId": "11954903",
+      "youtubeId": "mq01XDS2yUU",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/mq01XDS2yUU/maxres1.jpg",
+      "selectedImageSha256": "fc8164a31005d66e205a71d583bb6d5fb53c447e7be086332c739d09e7ff1ff9",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2026E14",
+      "tvdbEpisodeId": "11908448",
+      "youtubeId": "n7ASn5NsoPA",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/n7ASn5NsoPA/maxres2.jpg",
+      "selectedImageSha256": "fa1b3c795f8f19b46dc6984e28ae61ea3752c90f744fab8b1e4504bbdc99ea09",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2026E13",
+      "tvdbEpisodeId": "11882646",
+      "youtubeId": "jRf8lD4tVnA",
+      "userSelectedVariant": 3,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/jRf8lD4tVnA/maxres3.jpg",
+      "selectedImageSha256": "bfab3821ae6e9084898843cdb24299571959109fea6f9b37e0bc6adb79279021",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2026E12",
+      "tvdbEpisodeId": "11865119",
+      "youtubeId": "90VcMwYZgNg",
+      "userSelectedVariant": 3,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": "https://i.ytimg.com/vi/90VcMwYZgNg/maxres3.jpg",
+      "selectedImageSha256": "6b7f71106bd59a30016dc8ba5de3fd0d6745d499a74f82da3896b86ba541e428",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Compteurs / scores en incrustation",
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2026E11",
+      "tvdbEpisodeId": "11833897",
+      "youtubeId": "ohPHwSVQweY",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": "https://i.ytimg.com/vi/ohPHwSVQweY/maxres1.jpg",
+      "selectedImageSha256": "146c99270c7a2160380e0be17428be5318668453ffcccdccf701164ad4910e30",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Compteurs/labels de jeu en incrustation",
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2026E10",
+      "tvdbEpisodeId": "11809946",
+      "youtubeId": "5TjFUj3JaLg",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": "https://i.ytimg.com/vi/5TjFUj3JaLg/maxres2.jpg",
+      "selectedImageSha256": "b889a4df17dbed202864ef1f568213120e9bd5c42f6a672def715cab3da38e0e",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Habillage/étiquette d'émission en bas de l'image",
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2026E09",
+      "tvdbEpisodeId": "11775704",
+      "youtubeId": "HE9yP4drJ1w",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/HE9yP4drJ1w/maxres1.jpg",
+      "selectedImageSha256": "c0c81309563a5a94feda50b634aa46e301d538971a9466403d8592805de3f86a",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2026E08",
+      "tvdbEpisodeId": "11749116",
+      "youtubeId": "C_TvsFED5gY",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/C_TvsFED5gY/maxres2.jpg",
+      "selectedImageSha256": "6fbadec26ba3398c8b4fb4c7e65ad7a42223dc643c239fa5014ae8ed2695a200",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Encart de score 27% en incrustation",
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2026E07",
+      "tvdbEpisodeId": "11719791",
+      "youtubeId": "sd88Ysxj2mU",
+      "userSelectedVariant": null,
+      "previousSuggestedVariant": null,
+      "selectedImageUrl": null,
+      "selectedImageSha256": null,
+      "selectedImageDimensions": null,
+      "visualComplianceStatus": "NONE_USER_REQUESTS_OTHER_FRAME",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2026E06",
+      "tvdbEpisodeId": "11690968",
+      "youtubeId": "fHHY1iAhflA",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/fHHY1iAhflA/maxres2.jpg",
+      "selectedImageSha256": "67a1d904a960ca82c2954a4d94eb6056e54e19dc801bac20a927ab7aba0dddf3",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E60",
+      "tvdbEpisodeId": "12022496",
+      "youtubeId": "QG1WcEWOF4g",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/QG1WcEWOF4g/maxres2.jpg",
+      "selectedImageSha256": "02425cb9862c7b54c872777e5fb8ab489b144383ba466c9b158b8b8a6b1cf7b0",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E59",
+      "tvdbEpisodeId": "12013908",
+      "youtubeId": "1cl3-uhXvME",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/1cl3-uhXvME/maxres1.jpg",
+      "selectedImageSha256": "78f8e652450433d21d901cf305f394286a0f99cd35e779a2dfa1a869b4c537c9",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E58",
+      "tvdbEpisodeId": "12010839",
+      "youtubeId": "VZYQJ1Taw7k",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/VZYQJ1Taw7k/maxres2.jpg",
+      "selectedImageSha256": "f3c8a7dc62700458bb3dfc73d60f1b1e8e6af68fd17a0ef7a469c314fddc17f1",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E57",
+      "tvdbEpisodeId": "11997728",
+      "youtubeId": "8BhWoVSBtwc",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/8BhWoVSBtwc/maxres1.jpg",
+      "selectedImageSha256": "292fb2dff0ef55dd81407172b3f0b73989d8fae4b87c4fc170984e1a4e968019",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E56",
+      "tvdbEpisodeId": "11985725",
+      "youtubeId": "rJINZv9n9F0",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/rJINZv9n9F0/maxres1.jpg",
+      "selectedImageSha256": "a88dfbf9a0a6e9bbfb60793765e0c688144fe6cfeb8c54330e35c6b3366a752e",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Mention collaboration commerciale visible",
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E55",
+      "tvdbEpisodeId": "11980082",
+      "youtubeId": "YqWzuXN9eSI",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/YqWzuXN9eSI/maxres2.jpg",
+      "selectedImageSha256": "bc6a62cb210e2da5b81c1b560919a2f31a4d562bcf77e699593bc48c75101dea",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Montage comparatif AVANT / APRÈS",
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E54",
+      "tvdbEpisodeId": "11972232",
+      "youtubeId": "x9e8hggcGhM",
+      "userSelectedVariant": 3,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/x9e8hggcGhM/maxres3.jpg",
+      "selectedImageSha256": "1806e456ecaa61e2a87e2ce50830aecd38fe3872b9a3eee0b7357398d76a0d20",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "BLOCKED_TEXT_OR_LOGO",
+      "visualReviewReason": "Mention collaboration commerciale visible",
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E53",
+      "tvdbEpisodeId": "11969386",
+      "youtubeId": "luTEU4xa_E8",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/luTEU4xa_E8/maxres2.jpg",
+      "selectedImageSha256": "c862ec117a66025599ca4514a3960d8a0f8f3e3faa66a37cd75a44b402a9469f",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E52",
+      "tvdbEpisodeId": "11964356",
+      "youtubeId": "0PHUeNOsbKU",
+      "userSelectedVariant": null,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": null,
+      "selectedImageSha256": null,
+      "selectedImageDimensions": null,
+      "visualComplianceStatus": "NONE_USER_REQUESTS_OTHER_FRAME",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E51",
+      "tvdbEpisodeId": "11964355",
+      "youtubeId": "m3_WcBvMaV0",
+      "userSelectedVariant": 2,
+      "previousSuggestedVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/m3_WcBvMaV0/maxres2.jpg",
+      "selectedImageSha256": "c7dc9c34ad3793e4f0f445ee215f45799be0bf1cb0774c403d898ba95d1ecc58",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E50",
+      "tvdbEpisodeId": "11962757",
+      "youtubeId": "89sbQjgBfIg",
+      "userSelectedVariant": 1,
+      "previousSuggestedVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/89sbQjgBfIg/maxres1.jpg",
+      "selectedImageSha256": "0c7909788bb8c6bb3957615ca4f4238a4953bba8ce4f78e8ebe6e70356ae2be9",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E49",
+      "tvdbEpisodeId": "11904058",
+      "youtubeId": "WyEs4g3jQjM",
+      "userSelectedVariant": 3,
+      "previousSuggestedVariant": 3,
+      "selectedImageUrl": "https://i.ytimg.com/vi/WyEs4g3jQjM/maxres3.jpg",
+      "selectedImageSha256": "be24df04b4f339f4e07d5f00c384d834ace108a4942254940d7993b6806a89da",
+      "selectedImageDimensions": [
+        1280,
+        720
+      ],
+      "visualComplianceStatus": "PLAUSIBLE_FRAME_FURTHER_PREFLIGHT_REQUIRED",
+      "visualReviewReason": null,
+      "sourceArtPresence": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED",
+      "userValidated": false,
+      "uploadApproved": false
+    }
+  ]
+}
