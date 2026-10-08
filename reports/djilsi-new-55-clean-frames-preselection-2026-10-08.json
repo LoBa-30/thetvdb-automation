@@ -1,0 +1,1797 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_OPTION_A_NEW_DJILSI_55_FRAME_PRESELECTION",
+  "source": "Automatic genuine YouTube video frame images maxres1/2/3, not modified thumbnails",
+  "scope": "Djilsi 55 newly missing 2019-2024 episodes not in previous 8-user-gallery or 37-old-queue",
+  "summary": {
+    "episodes": 55,
+    "automaticFramesDownloaded1280x720": 165,
+    "visuallyPreselectedEpisodes": 48,
+    "blockedNoCleanAutomaticFrame": 7,
+    "userApproved": 0,
+    "TVDBUploads": 0
+  },
+  "blockedCodes": [
+    "S2019E25",
+    "S2019E30",
+    "S2019E36",
+    "S2019E38",
+    "S2019E40",
+    "S2019E41",
+    "S2019E45"
+  ],
+  "crossBatchDuplicateCheck": {
+    "comparedSelections": 119,
+    "exactDuplicatePairs": [],
+    "dhashNearPairsAt8": []
+  },
+  "policy": [
+    "Preselect does not equal TheTVDB approval",
+    "No frames containing visible logos / @djilsi watermark / subtitles / title cards may be uploaded",
+    "Do not alter images to erase forbidden lettering",
+    "Do not upload while restriction not confirmed lifted",
+    "Perform fresh preflight/post-write verification and one active write only once account restriction lifts"
+  ],
+  "rows": [
+    {
+      "episode": "S2019E20",
+      "tvdbEpisodeId": "9243047",
+      "youtubeId": "JTjm4w-QxjY",
+      "title": "ON VA QUELQUE PART AU HASARD SUR GOOGLE MAPS ! #OnVaOù",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243047",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/JTjm4w-QxjY/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "c65a253577c34a567f95a4d2cf0adae121fe57235dd907491f6991ec985869f1"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/JTjm4w-QxjY/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "a239eeea8459dfc4eeed3d50c2a02664eb76053a8c8a34e4309c0f1e85e9d47b"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/JTjm4w-QxjY/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "73edd1a67cbedbf42de74dc2f1af7dbe0377b068d379430f0c546b7fb36a520e"
+        }
+      ],
+      "suggestedSha256": "a239eeea8459dfc4eeed3d50c2a02664eb76053a8c8a34e4309c0f1e85e9d47b",
+      "suggestedDhash": "d79f9b89c9d5d3c9"
+    },
+    {
+      "episode": "S2019E22",
+      "tvdbEpisodeId": "9243049",
+      "youtubeId": "DBI8ps71fk0",
+      "title": "ON S'INCRUSTE CHEZ DES GENS ! #OnVaOù",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243049",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/DBI8ps71fk0/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "b2c2a30b910fac9d9964fe8903e6da871a29cbe4eee4fe3d0ff7b50773585d9c"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/DBI8ps71fk0/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "79eeb58badda06ab074aea9f9217e02a49ad0193e8e77c5970de98a1592489b6"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/DBI8ps71fk0/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "d066e7bd4ed03b11c975f2943e54addb892b97b6934be19ca124b3d042ede650"
+        }
+      ],
+      "suggestedSha256": "79eeb58badda06ab074aea9f9217e02a49ad0193e8e77c5970de98a1592489b6",
+      "suggestedDhash": "5b1b1b9f96962399"
+    },
+    {
+      "episode": "S2019E23",
+      "tvdbEpisodeId": "9243050",
+      "youtubeId": "vWOkXhZdQwA",
+      "title": "LE MOMENT LE PLUS GÊNANT DE NOTRE VIE ! #OnVaOù (final saison 1)",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243050",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 3,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/vWOkXhZdQwA/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "3121c18ec719a573fec00a42fb9b93047bd17f38c97d3b3bcc49f7394ed281eb"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/vWOkXhZdQwA/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "574c70770da5bbe3580a78aa3971bc23fdca05ba95b9399dae3fede00d3a3523"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/vWOkXhZdQwA/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "8ea28389092bb06d8abcf1f991aee6700b746451df908739b6fbaaa328ea684c"
+        }
+      ],
+      "suggestedSha256": "8ea28389092bb06d8abcf1f991aee6700b746451df908739b6fbaaa328ea684c",
+      "suggestedDhash": "2367672767e7a321"
+    },
+    {
+      "episode": "S2019E24",
+      "tvdbEpisodeId": "9243051",
+      "youtubeId": "SckHX0ydqLQ",
+      "title": "1 AN SUR YOUTUBE : JE VOUS DIS TOUT !",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243051",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 3,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/SckHX0ydqLQ/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "40fb24f733672d837160e421f0a8dd3002263991e3f6761d7e9e85ec484c54e5"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/SckHX0ydqLQ/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "238abf219d62d5b293c4336b7928bb76076bfda2596880c5d0b60dc203e8dbfe"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/SckHX0ydqLQ/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "5525514ca72a2988e4f57356b5e56d67e3d8686d9ec8e952df20ea3515581792"
+        }
+      ],
+      "suggestedSha256": "5525514ca72a2988e4f57356b5e56d67e3d8686d9ec8e952df20ea3515581792",
+      "suggestedDhash": "9bccec2c2d2f674f"
+    },
+    {
+      "episode": "S2019E25",
+      "tvdbEpisodeId": "9243052",
+      "youtubeId": "b4KOiZtzSJE",
+      "title": "LE PIRE MEC DANS LA RUE ! CACHE LA CAM #9",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243052",
+      "status": "BLOCKED_NO_CLEAN_AUTOMATIC_FRAME",
+      "suggestedVariant": null,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/b4KOiZtzSJE/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "ac29b2b4bf1fd255f73e4f5d5273ab80759035b83a39b99f13933dd185db5918"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/b4KOiZtzSJE/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "d9d53b96f603f3856140306f6245b40fc9979eda7fc52772ac7b1e746a7e9af3"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/b4KOiZtzSJE/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "b30512513f48d817aea752c8c74be9d4ff0d4e3322464d32e3c6171892bf6cc5"
+        }
+      ],
+      "suggestedSha256": null,
+      "suggestedDhash": null
+    },
+    {
+      "episode": "S2019E26",
+      "tvdbEpisodeId": "9243053",
+      "youtubeId": "ptXUL64YoE0",
+      "title": "J'AI CASSÉ LE NEZ DE MON MEILLEUR AMI...",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243053",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/ptXUL64YoE0/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "0df6dc03783915470a5b3c3b36101dc1284e750698180d498a907e0c9c37f160"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/ptXUL64YoE0/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "e618b62afa79ead2cc23944487457c029dfa4c9723d6d68c3e565509c6ade3c7"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/ptXUL64YoE0/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "ed2af4d6ab25b1ea051679688721c1d8ebec12e7de8fedf675a76c9a13ab2b80"
+        }
+      ],
+      "suggestedSha256": "e618b62afa79ead2cc23944487457c029dfa4c9723d6d68c3e565509c6ade3c7",
+      "suggestedDhash": "155d49799ddc59c8"
+    },
+    {
+      "episode": "S2019E27",
+      "tvdbEpisodeId": "9243055",
+      "youtubeId": "XTQWSKfZAQc",
+      "title": "JE VOUS LE DIS ENFIN...?",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243055",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/XTQWSKfZAQc/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "a85ae67c8c4b966e79953db0ae4f1141f15844beda74cf8e347bfafaeab6e6a3"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/XTQWSKfZAQc/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "e94f9ff37065e6e4456c1312ace1ff2e3957bd329acabf17f4246c1de3eb4db4"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/XTQWSKfZAQc/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "270333038f84d19378691df92c460ceb5a889d5444b217d9ee86de98bb57ab71"
+        }
+      ],
+      "suggestedSha256": "e94f9ff37065e6e4456c1312ace1ff2e3957bd329acabf17f4246c1de3eb4db4",
+      "suggestedDhash": "0099674b991d1915"
+    },
+    {
+      "episode": "S2019E28",
+      "tvdbEpisodeId": "9243056",
+      "youtubeId": "Gz45233tKJo",
+      "title": "J’AI FAIT LE SAUT À L’ÉLASTIQUE LE PLUS HAUT D'EUROPE ! (je me suis ch*é dessus)",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243056",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/Gz45233tKJo/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "164d1938a433661e20e86d7f1e74f6b73a02ea4dae180249ed2e85c8f10ea065"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/Gz45233tKJo/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "e45f45eec61a48616e7ce17811de53f5907c7c37443b57c90c84766ca18a99e1"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/Gz45233tKJo/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "0a0fbe7841ebe2baaf5426d044726cc699e5ac516bd56ccba6b580f1055f3662"
+        }
+      ],
+      "suggestedSha256": "e45f45eec61a48616e7ce17811de53f5907c7c37443b57c90c84766ca18a99e1",
+      "suggestedDhash": "213131301834787d"
+    },
+    {
+      "episode": "S2019E29",
+      "tvdbEpisodeId": "9243057",
+      "youtubeId": "SOcQiXyvetQ",
+      "title": "LES FRANCAIS SONT-ILS PERVERS ? INTERVIEW CHELOU #7",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243057",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 3,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/SOcQiXyvetQ/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "0bed1c920475c4e1e0e09705e680b039cd71d22e338e699784d81ccd48c792fb"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/SOcQiXyvetQ/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "86efa19a653f762798cfd0d072b9df5242df57633a0da4f6bb1695d22969424a"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/SOcQiXyvetQ/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "a03361e98fd9ae1ce134da602910e5ef835bfd39a7d68a82636cf05831ecfc59"
+        }
+      ],
+      "suggestedSha256": "a03361e98fd9ae1ce134da602910e5ef835bfd39a7d68a82636cf05831ecfc59",
+      "suggestedDhash": "2c4d4c4ee7bacacb"
+    },
+    {
+      "episode": "S2019E30",
+      "tvdbEpisodeId": "9243058",
+      "youtubeId": "oJnW6IoWkKo",
+      "title": "LE PIRE CLIENT AU CENTRE COMMERCIAL ! CACHE LA CAM #10",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243058",
+      "status": "BLOCKED_NO_CLEAN_AUTOMATIC_FRAME",
+      "suggestedVariant": null,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/oJnW6IoWkKo/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "ee374ceb969d05849594071987a512ffa5b7f61d466fb62c658d3b869c2337ad"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/oJnW6IoWkKo/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "62c9963f4024ae1c00687cfe176bd9dc38c23820a143737e724c671103577d5f"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/oJnW6IoWkKo/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "9f31490baad6c9e7351df231fbc5837561e909a75122dee765f58a32cd3fb83a"
+        }
+      ],
+      "suggestedSha256": null,
+      "suggestedDhash": null
+    },
+    {
+      "episode": "S2019E31",
+      "tvdbEpisodeId": "9243059",
+      "youtubeId": "xdQT0nbti_M",
+      "title": "ON VA QUELQUE PART AU HASARD EN EUROPE ! #OnVaOù2",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243059",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/xdQT0nbti_M/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "bc54f61e4cd57b17a89449278253ad2fc9c2faa8feb2979a83196e1e54665178"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/xdQT0nbti_M/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "be602ef0d66fe3dedd7b6d58e6909b7704cefbac13076210fb6cd0a23902faea"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/xdQT0nbti_M/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "9e8c3fd622f62a8607fadc3d423be4e255dbb5c73227172db238d71472ad3f55"
+        }
+      ],
+      "suggestedSha256": "be602ef0d66fe3dedd7b6d58e6909b7704cefbac13076210fb6cd0a23902faea",
+      "suggestedDhash": "7edd9bb939b5d5b1"
+    },
+    {
+      "episode": "S2019E32",
+      "tvdbEpisodeId": "9243060",
+      "youtubeId": "ZGLJSxZVKgM",
+      "title": "UN CACHE-CACHE DANS TOUTE LA VILLE ! #OnVaOù2",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243060",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 1,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/ZGLJSxZVKgM/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "5af8fb0898afd2cdbbc7314cc1fbf3143839ecb4329e195c460445bcc7c66723"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/ZGLJSxZVKgM/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "3b46ae76d1d703355504c4834617d8822ce6f254ee797e6f8c63271bec0286b6"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/ZGLJSxZVKgM/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "2eb060647deafefc309f97b8fd2d5b12cd95263bcb3e43d4097fcf6220f33fac"
+        }
+      ],
+      "suggestedSha256": "5af8fb0898afd2cdbbc7314cc1fbf3143839ecb4329e195c460445bcc7c66723",
+      "suggestedDhash": "890c8c1a10955553"
+    },
+    {
+      "episode": "S2019E33",
+      "tvdbEpisodeId": "9243061",
+      "youtubeId": "o0ZDJUwD5sY",
+      "title": "ON VA FINIR PAR METTRE LE FEU... #OnVaOù2",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243061",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 3,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/o0ZDJUwD5sY/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "70cf3cfc3f95fcf53b92f2c430586779afc4c8485b32a71ffc60f3e1d3578f80"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/o0ZDJUwD5sY/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "8c34f8fa0286af360fb6c0b7322db5d6c06fda0f6f88a1066c01934b7564c1de"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/o0ZDJUwD5sY/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "0b37d3b819d6831f5a00efa19d6fee1b16ea92eea02a3e636333aaa421d30ea7"
+        }
+      ],
+      "suggestedSha256": "0b37d3b819d6831f5a00efa19d6fee1b16ea92eea02a3e636333aaa421d30ea7",
+      "suggestedDhash": "6766dcd2d8dcbd55"
+    },
+    {
+      "episode": "S2019E34",
+      "tvdbEpisodeId": "9243062",
+      "youtubeId": "KTCUV1nykAQ",
+      "title": "LA PIRE SOIRÉE HALLOWEEN ! #OnVaOù2",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243062",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 3,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/KTCUV1nykAQ/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "0acf34b33978b7154a34a513c3675f37084c45b7d85ee03699e972bdd764df26"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/KTCUV1nykAQ/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "cb6c923468edd1f5d6e4796310be0ea477e1a16267dae1f43474b45b8d45d704"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/KTCUV1nykAQ/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "0ea5fe01ea948ff023f1b8a0f8ff76d5f88a4ceb4d03f0e02c306aeea14382a2"
+        }
+      ],
+      "suggestedSha256": "0ea5fe01ea948ff023f1b8a0f8ff76d5f88a4ceb4d03f0e02c306aeea14382a2",
+      "suggestedDhash": "3333333333734746"
+    },
+    {
+      "episode": "S2019E35",
+      "tvdbEpisodeId": "9243063",
+      "youtubeId": "MeI3NEs4KiI",
+      "title": "DANS UN CHAMP EN PLEINE NUIT EN SLOVENIE ! #OnVaOù2 (final saison 2)",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243063",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/MeI3NEs4KiI/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "0606005fcfbd35ac918cea5e6b97c715fcb48e9a1a2cada4960b0c3e064d1009"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/MeI3NEs4KiI/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "fef059f7b98b77613e08e985bf15e8de9bfdeba6abb6a2438fa0794f6fa5cd85"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/MeI3NEs4KiI/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "50f77e900906c00448c1d4930392103057ce2860bb1d46b51f63b4768e3fc019"
+        }
+      ],
+      "suggestedSha256": "fef059f7b98b77613e08e985bf15e8de9bfdeba6abb6a2438fa0794f6fa5cd85",
+      "suggestedDhash": "dceae2e123199131"
+    },
+    {
+      "episode": "S2019E36",
+      "tvdbEpisodeId": "9243064",
+      "youtubeId": "ZLzAMA4cq8Y",
+      "title": "LE PIRE VENDEUR DU MONDE ! CACHE LA CAM #11",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243064",
+      "status": "BLOCKED_NO_CLEAN_AUTOMATIC_FRAME",
+      "suggestedVariant": null,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/ZLzAMA4cq8Y/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "a700e57cd01a0f319bf4e4c7848bd125a7b67bddbbf675be7277d683c4c5fbee"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/ZLzAMA4cq8Y/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "ccaefef586843c7b3a8320e5e8619b550b9be87ab9ad04b830cde248de7fb7ae"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/ZLzAMA4cq8Y/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "712239ed3e5a5f46c0a3f1913349b4b8370697f8dd85c63309cfec501614e237"
+        }
+      ],
+      "suggestedSha256": null,
+      "suggestedDhash": null
+    },
+    {
+      "episode": "S2019E38",
+      "tvdbEpisodeId": "9243073",
+      "youtubeId": "630hmPJd7q8",
+      "title": "LE PIRE COACH SPORTIF ! CACHE LA CAM #12",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243073",
+      "status": "BLOCKED_NO_CLEAN_AUTOMATIC_FRAME",
+      "suggestedVariant": null,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/630hmPJd7q8/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "e1bb6ba43861f462c646a3723b0dcb17653e414e01b51a74c288b67761543887"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/630hmPJd7q8/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "edb1ab31e73df48180f15d3dce402ec7926ba5aae9d3e074bdb301b165315b02"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/630hmPJd7q8/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "edca220b96877d65ec7f7ebe31088151f6bd44d3835d5f016364abd084947c23"
+        }
+      ],
+      "suggestedSha256": null,
+      "suggestedDhash": null
+    },
+    {
+      "episode": "S2019E40",
+      "tvdbEpisodeId": "9243071",
+      "youtubeId": "h00_ao94SyY",
+      "title": "LE PIRE MEC DANS LE MÉTRO ! CACHE LA CAM #13",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243071",
+      "status": "BLOCKED_NO_CLEAN_AUTOMATIC_FRAME",
+      "suggestedVariant": null,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/h00_ao94SyY/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "498a59d660bed0493afaf46317af41418193acb437c543f842c0eef9b4db7a6c"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/h00_ao94SyY/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "0f685eab938b6b2a64209f61442a4463d9f8061368be85dac4d63103b223763e"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/h00_ao94SyY/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "5c46438e52ca93d05194c428084a40540aa5194b968048e7bf8d9a6201c45c62"
+        }
+      ],
+      "suggestedSha256": null,
+      "suggestedDhash": null
+    },
+    {
+      "episode": "S2019E41",
+      "tvdbEpisodeId": "9243075",
+      "youtubeId": "KKPT8Brv0XU",
+      "title": "LE PIRE DÉPRESSIF DANS LA RUE ! CACHE LA CAM #14",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243075",
+      "status": "BLOCKED_NO_CLEAN_AUTOMATIC_FRAME",
+      "suggestedVariant": null,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/KKPT8Brv0XU/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "410beb76ee82d46bccbc0ad16382248670cd634074ce4b8efb470559f95b3f7c"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/KKPT8Brv0XU/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "4e0f461a5c04cf49fde4fd6ca31b6570dc19c77cb8db41c4c07db867a5eb220d"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/KKPT8Brv0XU/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "1471646656f39882e297521fb4e831a7f82b18f263c1fe94e636712486fd760e"
+        }
+      ],
+      "suggestedSha256": null,
+      "suggestedDhash": null
+    },
+    {
+      "episode": "S2019E42",
+      "tvdbEpisodeId": "9243076",
+      "youtubeId": "LEN47zJhgaM",
+      "title": "LE PIRE COACH SPORTIF 2 ! CACHE LA CAM #15",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243076",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/LEN47zJhgaM/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "fc7c4e2d313228b7d65d1e08d55a4bf6995e7c51610a8a2b6831f18a3ca61fd5"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/LEN47zJhgaM/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "52f5e523092d85c74df44b3af2a4d21fca586f012d9a517638258c83e0d48339"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/LEN47zJhgaM/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "3305c56d293b6e96a8a009a9a2d76ca706d064a52f008195a120311cef241c59"
+        }
+      ],
+      "suggestedSha256": "52f5e523092d85c74df44b3af2a4d21fca586f012d9a517638258c83e0d48339",
+      "suggestedDhash": "8c9898d8da8a8a9a"
+    },
+    {
+      "episode": "S2019E43",
+      "tvdbEpisodeId": "9243077",
+      "youtubeId": "YNWRyi9aP2o",
+      "title": "LA NUIT OÙ JE SUIS DEVENU FOU !",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243077",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/YNWRyi9aP2o/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "8a9e8ee5c1c4ba67400e6e11ba2c7a2c0cddd9719a5f768df72e423b3edb9bf0"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/YNWRyi9aP2o/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "e81da2a03407b220e1b2d51e6946510cc11d73bb785a23d399786f8b9203f4f1"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/YNWRyi9aP2o/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "d14b5473d46a5f37772960410ec38e409a760600401aa3c8d02f2e9aa7c83611"
+        }
+      ],
+      "suggestedSha256": "e81da2a03407b220e1b2d51e6946510cc11d73bb785a23d399786f8b9203f4f1",
+      "suggestedDhash": "71cd4dcdcd8dede2"
+    },
+    {
+      "episode": "S2019E44",
+      "tvdbEpisodeId": "9243078",
+      "youtubeId": "eK-WYdeiAKI",
+      "title": "VICTIMES D’UN PICKPOCKET EN ESPAGNE !",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243078",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 1,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/eK-WYdeiAKI/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "85cf054096391de3e452d85105f709ac4809e57c6e77de816ba845f67bf49102"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/eK-WYdeiAKI/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "a0fa8db6d7ecf3e83071b7c1e1f5abbbae5095e583885b3b09153f12c9a6c003"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/eK-WYdeiAKI/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "ebec1d3a842cc70b8139d92bc6f7d4ae7c680d4f281b77643c6528004f1ddfa9"
+        }
+      ],
+      "suggestedSha256": "85cf054096391de3e452d85105f709ac4809e57c6e77de816ba845f67bf49102",
+      "suggestedDhash": "2ca6667278707efe"
+    },
+    {
+      "episode": "S2019E45",
+      "tvdbEpisodeId": "9243079",
+      "youtubeId": "XwAzcWbhl5E",
+      "title": "LE PIRE TATOUEUR DU MONDE ! CACHE LA CAM #16",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243079",
+      "status": "BLOCKED_NO_CLEAN_AUTOMATIC_FRAME",
+      "suggestedVariant": null,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/XwAzcWbhl5E/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "8e93ece929375f156217fa627af308cc5feb71741a03d2127ce3f855d45fd5f3"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/XwAzcWbhl5E/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "5d22728d5791cb26bbe0cdfc6463c24a32e12f8f2caf8db1e9be75582133cdc6"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/XwAzcWbhl5E/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "71cdcfb1c688e4b13f7c4294cd1ef2bc58a2077f3250b8ce7c98a64b60e16400"
+        }
+      ],
+      "suggestedSha256": null,
+      "suggestedDhash": null
+    },
+    {
+      "episode": "S2020E01",
+      "tvdbEpisodeId": "9243086",
+      "youtubeId": "OHNCCBilaNk",
+      "title": "ON DONNE LES CADEAUX DU LIVE DE MCFLY & CARLITO !",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243086",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/OHNCCBilaNk/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "e302d82f0c42418a4dc4255146fee93ce8a70164a6d87901407958b46102521f"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/OHNCCBilaNk/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "e9aed326984fdf4c9e383de53c62c1753857eb5fbc4efbd1469e48f56c08d252"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/OHNCCBilaNk/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "892b61b498e3843e1eba08c32429cd3a606f0a05270e283e616adad6b6156ff9"
+        }
+      ],
+      "suggestedSha256": "e9aed326984fdf4c9e383de53c62c1753857eb5fbc4efbd1469e48f56c08d252",
+      "suggestedDhash": "1f4d656673272428"
+    },
+    {
+      "episode": "S2020E03",
+      "tvdbEpisodeId": "9243082",
+      "youtubeId": "Ip2WndMWyiE",
+      "title": "PARTIR SUR UN POINT GPS AU HASARD ! #OnVaOù3",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243082",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/Ip2WndMWyiE/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "8b718452c50ee7eee69e2be3c39de901ebdbff7c904998ff3f9561603a42144b"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/Ip2WndMWyiE/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "e690c713892d4b1aa3b181d6338ca4413358c8186e06962d05b17dd1139587a0"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/Ip2WndMWyiE/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "7414901d977416a02695cab69f229f5795ab840507f7cbd1193760ecb25374d3"
+        }
+      ],
+      "suggestedSha256": "e690c713892d4b1aa3b181d6338ca4413358c8186e06962d05b17dd1139587a0",
+      "suggestedDhash": "e7303475b5516183"
+    },
+    {
+      "episode": "S2020E06",
+      "tvdbEpisodeId": "9243085",
+      "youtubeId": "-UA7eqeMhWE",
+      "title": "LA CAUTION DOIT SAUTER !! #OnVaOù3",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243085",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 1,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/-UA7eqeMhWE/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "ed44b5ba054165679fa18a28061df2cc53fcd8b12d5e61f2504e322b86b7a2a9"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/-UA7eqeMhWE/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "906fc93241d1fe2955aa72ab91dcfc893db0ab111f2c6f0b67c5e051e3609dfd"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/-UA7eqeMhWE/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "488f0a26e0a551269a7afd5fded1bede016146b24a86fd73b7c810406bdb7c8d"
+        }
+      ],
+      "suggestedSha256": "ed44b5ba054165679fa18a28061df2cc53fcd8b12d5e61f2504e322b86b7a2a9",
+      "suggestedDhash": "cebcad79290959dc"
+    },
+    {
+      "episode": "S2020E10",
+      "tvdbEpisodeId": "9243134",
+      "youtubeId": "E4y2HBJf4pA",
+      "title": "MES MEILLEURES (ou pires) STORIES INSTAGRAM",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243134",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 1,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/E4y2HBJf4pA/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "deecc99c381feb8117bcf1fcf61c593453386d5ef4999e42012990b572b4b79a"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/E4y2HBJf4pA/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "9b2805709451224b6e260352b6c61d1844fc975accfe0f92681c8ac5f9b2f8ad"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/E4y2HBJf4pA/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "f56ce3c42ed04f04fcdbe8559ac40c92392ba5b101a400af11174e012e18bc55"
+        }
+      ],
+      "suggestedSha256": "deecc99c381feb8117bcf1fcf61c593453386d5ef4999e42012990b572b4b79a",
+      "suggestedDhash": "63cb998f8f8e8727"
+    },
+    {
+      "episode": "S2020E12",
+      "tvdbEpisodeId": "9243136",
+      "youtubeId": "IdUwEcrcJ4Q",
+      "title": "J'AI INSULTÉ UN PROF !",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243136",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/IdUwEcrcJ4Q/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "6f42e69fe8bdf8b0f1ba911920a14262f6447ddb0ba6e317fc964ad416de0a2e"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/IdUwEcrcJ4Q/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "494568cfd127685670f4464e8c59e5510eb68330e4895f8e1a7c88be95afc00e"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/IdUwEcrcJ4Q/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "18fbfd19d5227312be0d8dfc72860886c4606b26de369333953f766b3c322814"
+        }
+      ],
+      "suggestedSha256": "494568cfd127685670f4464e8c59e5510eb68330e4895f8e1a7c88be95afc00e",
+      "suggestedDhash": "16148cac8e8f0b2b"
+    },
+    {
+      "episode": "S2020E13",
+      "tvdbEpisodeId": "9243137",
+      "youtubeId": "pbSaFUNheN8",
+      "title": "TU PERDS, TU POMPES !",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243137",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/pbSaFUNheN8/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "4cc5dd8d1255ef3762626ea8996c9bddb46b5e7b9e57b87f1a56656f55eed339"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/pbSaFUNheN8/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "507e212f06f4c49615b12bde71ca5220af61e948b5b92c4f2e0c9e699c1061f8"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/pbSaFUNheN8/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "05fa664a9823f8b9765df656cacfe436ceae392ef9a37508b131ddf86f5e60e7"
+        }
+      ],
+      "suggestedSha256": "507e212f06f4c49615b12bde71ca5220af61e948b5b92c4f2e0c9e699c1061f8",
+      "suggestedDhash": "7870347474727272"
+    },
+    {
+      "episode": "S2020E16",
+      "tvdbEpisodeId": "9243140",
+      "youtubeId": "0IX7slwDIHY",
+      "title": "NOTRE VIE VA CHANGER !!",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243140",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 1,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/0IX7slwDIHY/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "d752e35cd53f527ab828525ef5fbec38c1910f6431d8228c3d92c249a1624e00"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/0IX7slwDIHY/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "f85807def76fb34a6cfc16c54bf07d4966370bbbb681add37c1dfa5f80b4585c"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/0IX7slwDIHY/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "4a46a16ae79bdd9184f89d5c0227b39c36185a7c62bd6e503acee7e9a5dd9735"
+        }
+      ],
+      "suggestedSha256": "d752e35cd53f527ab828525ef5fbec38c1910f6431d8228c3d92c249a1624e00",
+      "suggestedDhash": "1f8d697b62e32666"
+    },
+    {
+      "episode": "S2020E17",
+      "tvdbEpisodeId": "9243152",
+      "youtubeId": "deo5ncvydrU",
+      "title": "TRAHI PAR MON AMI ! (cache-cache avec des potes pas fiables)",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243152",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 1,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/deo5ncvydrU/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "aada70555ded34d2cfd6feed978b75a51d6cbacbc6782cf5e44388972fb53334"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/deo5ncvydrU/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "973bf25841263f87cd4d05d5fc5a60ca52b1216ea0063abd733fb91a769b3c9f"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/deo5ncvydrU/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "cd19791508895660ea5b999d6233ebd043fabc09740e24196b5ff860f31f9e71"
+        }
+      ],
+      "suggestedSha256": "aada70555ded34d2cfd6feed978b75a51d6cbacbc6782cf5e44388972fb53334",
+      "suggestedDhash": "cfc6c6eecec6d8b9"
+    },
+    {
+      "episode": "S2020E21",
+      "tvdbEpisodeId": "9243156",
+      "youtubeId": "K1-ftVfQAnI",
+      "title": "UN POINT GPS AU HASARD, UNE CLIO, ET ON Y VA ! #OnVaOù4",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243156",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/K1-ftVfQAnI/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "b1dae9cb16206af787c09aa6e137da7b71dc895cd279de1c99d0ca5e7f8771af"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/K1-ftVfQAnI/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "14e3a2906a35d4c88620ae0671cc68e7e576b1694f492786216cec6e3b278f09"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/K1-ftVfQAnI/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "3c00b53ac49a9ed71d7505ad47840a3d6c94a97c9d4fe9f8af288557bca3cae9"
+        }
+      ],
+      "suggestedSha256": "14e3a2906a35d4c88620ae0671cc68e7e576b1694f492786216cec6e3b278f09",
+      "suggestedDhash": "9095170723f3d5e5"
+    },
+    {
+      "episode": "S2020E27",
+      "tvdbEpisodeId": "9243162",
+      "youtubeId": "JW9OxuXSzUI",
+      "title": "J'AI ÉTÉ BLOQUÉ DANS UNE COURSE POURSUITE EN VOITURE ! (la voiture explose c'est faux)",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243162",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/JW9OxuXSzUI/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "4f452bce4623d7ac9716a8221a0c2a904ecace6023964e7b806113d3500174e7"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/JW9OxuXSzUI/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "02315f98357faf3132fd680e22a56f5cc8f4e4b3cae32b333af0a66ea163f64f"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/JW9OxuXSzUI/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "a37a9a987ced66f65c9b4d0e9185b8bca1a34788b8818bde5171cbd716645118"
+        }
+      ],
+      "suggestedSha256": "02315f98357faf3132fd680e22a56f5cc8f4e4b3cae32b333af0a66ea163f64f",
+      "suggestedDhash": "183c099854962e2e"
+    },
+    {
+      "episode": "S2020E28",
+      "tvdbEpisodeId": "9243163",
+      "youtubeId": "WWHF-HYilGw",
+      "title": "COMMENT RÉCUPÉRER SON EX ? (on teste une technique incroyable)",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243163",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/WWHF-HYilGw/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "58517c6242899b97caa158caab94af16cdd8681728156ae893f70976b293c44e"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/WWHF-HYilGw/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "f13502b87938d737fa69de588ac940068aff226f6dc6c1df3db289ef73b9c938"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/WWHF-HYilGw/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "1c4167a94c7e1fcca7de3eaa7d9fe30e4ee18feb37ca5bdefac5252756c78197"
+        }
+      ],
+      "suggestedSha256": "f13502b87938d737fa69de588ac940068aff226f6dc6c1df3db289ef73b9c938",
+      "suggestedDhash": "7bd9999a5ad8d890"
+    },
+    {
+      "episode": "S2020E29",
+      "tvdbEpisodeId": "9243164",
+      "youtubeId": "aUofVWFXvR8",
+      "title": "CACHE-CACHE EN SCOOTER DANS TOUTE LA VILLE ! (et 180€ d'amende accessoirement)",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243164",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/aUofVWFXvR8/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "a57dc2efd21df0c2488c8b45bbb9374f3b273d8f2171f141c8885540d45c9bd3"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/aUofVWFXvR8/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "1a4b6f143ed4adba2b92af45f0693db561c8abd20b99bff667746a78e9e4ba8b"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/aUofVWFXvR8/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "1c1522eb4f3b6f94ad9baa3c72807fb837b7ca50e0cc2ecdd00ea7d2eefd111f"
+        }
+      ],
+      "suggestedSha256": "1a4b6f143ed4adba2b92af45f0693db561c8abd20b99bff667746a78e9e4ba8b",
+      "suggestedDhash": "1830383838303330"
+    },
+    {
+      "episode": "S2021E02",
+      "tvdbEpisodeId": "9243167",
+      "youtubeId": "CvTrLLmNVuU",
+      "title": "ROULETTE RUSSE À GAGES ! (y'a rien qui va hein)",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243167",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/CvTrLLmNVuU/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "83fff2b785fa45bb67a71cc689d1723834e9865712b62f60bba40e7e65aac913"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/CvTrLLmNVuU/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "1d15f7119584d35b3ff5019a1a2b085c812364f3dc375e389599dff2fafaf4d2"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/CvTrLLmNVuU/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "84120b8b970230844379bf7a456d488a3193e5470a9945243d8a26d2abe2b677"
+        }
+      ],
+      "suggestedSha256": "1d15f7119584d35b3ff5019a1a2b085c812364f3dc375e389599dff2fafaf4d2",
+      "suggestedDhash": "185868d9f0fcb8b8"
+    },
+    {
+      "episode": "S2021E05",
+      "tvdbEpisodeId": "9243170",
+      "youtubeId": "oI5rTpsjdnM",
+      "title": "PERDRE SES AMIS POUR DE L'ARGENT ! (aucune vanne)",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243170",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/oI5rTpsjdnM/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "91cd29e157e2dd405f73ef1d71d1ba4136f335a0dd10157877376bfa23536a61"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/oI5rTpsjdnM/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "75d025575d13f2fe8df01cabee7e0b4d6a145351da7593f6c81ac90e3c1427f8"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/oI5rTpsjdnM/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "870af14dea97470bb6afa8e8c5025b53d9f5f4cdca93db496cc6b8a8302b9cd1"
+        }
+      ],
+      "suggestedSha256": "75d025575d13f2fe8df01cabee7e0b4d6a145351da7593f6c81ac90e3c1427f8",
+      "suggestedDhash": "0959090ccece4ece"
+    },
+    {
+      "episode": "S2021E06",
+      "tvdbEpisodeId": "9243171",
+      "youtubeId": "tYxxwGI44Mk",
+      "title": "LE BAN TWITCH N'ETAIT PAS LOIN...",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243171",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/tYxxwGI44Mk/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "fdf3b9a91385da8ab8719009ef02ec7ff115a0083a22085fa84bb8419da443fc"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/tYxxwGI44Mk/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "25b865f86c09d3346e0ba4b4ca619d0ba396130ca9caa100bb62a0089195c9ec"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/tYxxwGI44Mk/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "1fde3de8867ae3ab8b354053e15041477a1143a35489dcd639886b510f70c136"
+        }
+      ],
+      "suggestedSha256": "25b865f86c09d3346e0ba4b4ca619d0ba396130ca9caa100bb62a0089195c9ec",
+      "suggestedDhash": "24344c4a0b4b93db"
+    },
+    {
+      "episode": "S2021E08",
+      "tvdbEpisodeId": "9243174",
+      "youtubeId": "iXrem_ZJgZo",
+      "title": "FAIRE TOULOUSE-PARIS À VÉLO, SANS ENTRAÎNEMENT",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243174",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 1,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/iXrem_ZJgZo/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "75646cd2274ae63ca629a8e5fd453f1a3e367ba1ad76d5d988994dbc367484d2"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/iXrem_ZJgZo/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "9d67b1273af4f019d81d231abc751952e44fe5681ea824161cf2d177234c76f2"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/iXrem_ZJgZo/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "5bac6cb4cb6b366f60f499261c2cade0b0d55569f6e7d3e26bbdee7ea07ebe6f"
+        }
+      ],
+      "suggestedSha256": "75646cd2274ae63ca629a8e5fd453f1a3e367ba1ad76d5d988994dbc367484d2",
+      "suggestedDhash": "dae6c76765d4f6fa"
+    },
+    {
+      "episode": "S2021E12",
+      "tvdbEpisodeId": "9243178",
+      "youtubeId": "8YS4zTzd5Ag",
+      "title": "ON VA QUELQUE PART DANS LE MONDE AU HASARD #OnVaOù5",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243178",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/8YS4zTzd5Ag/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "01a66b24286d2c09c4a5a9a88cf83fdb51ba4ee605958ab9ac00f34e9d26a78a"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/8YS4zTzd5Ag/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "050284ddfd25fdd53c327fd46e89381f4947aa08993f52003b4952d19e81defc"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/8YS4zTzd5Ag/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "5bbb1b9c65f95adcdfe35c994ada16e2f58739bdae79dedf1051aa72345e78a2"
+        }
+      ],
+      "suggestedSha256": "050284ddfd25fdd53c327fd46e89381f4947aa08993f52003b4952d19e81defc",
+      "suggestedDhash": "77496d6d69cfe7fb"
+    },
+    {
+      "episode": "S2021E17",
+      "tvdbEpisodeId": "9243183",
+      "youtubeId": "R4gPBwDO-GA",
+      "title": "PARCOURIR 700km SANS ARGENT (et détester ses potes) - Pékin Hesspress",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243183",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 1,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/R4gPBwDO-GA/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "c7106110a229d17a41ebfe3aa72b90920db6576e6646e1c056b1a947cad796a5"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/R4gPBwDO-GA/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "4bd82f2f11b4fb639368c1ce61db75711f8cd1cc16f9bd4cf84f5dce5452e3d8"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/R4gPBwDO-GA/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "aa09fcd53add9f9d866233846eac1d33826eff55cda9c2aac72386bdffd86e7d"
+        }
+      ],
+      "suggestedSha256": "c7106110a229d17a41ebfe3aa72b90920db6576e6646e1c056b1a947cad796a5",
+      "suggestedDhash": "633135754c4c6cf4"
+    },
+    {
+      "episode": "S2021E18",
+      "tvdbEpisodeId": "9243184",
+      "youtubeId": "7hu-bHMRak0",
+      "title": "PARCOURIR 700km SANS ARGENT (on est des génies, objectivement) - Pékin Hesspress partie 2",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243184",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/7hu-bHMRak0/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "35503e6ec6fd3103db389930ecb7f82d7f3f345e8139796202741fed410f3ee4"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/7hu-bHMRak0/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "e487423848284ebfe43182d9d7bb8c1e7c906141a532eeded474fe30aeacd048"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/7hu-bHMRak0/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "f12d3742b4714c6993d7c7dbfafd70c7f61f72ebe7ac6f095e5c575237433d1c"
+        }
+      ],
+      "suggestedSha256": "e487423848284ebfe43182d9d7bb8c1e7c906141a532eeded474fe30aeacd048",
+      "suggestedDhash": "ec9b933131333321"
+    },
+    {
+      "episode": "S2021E21",
+      "tvdbEpisodeId": "9243187",
+      "youtubeId": "I2WBnKFCUB4",
+      "title": "ROULETTE RUSSE À GAGES 2 (les gages sont clairement abusés on va pas se mentir)",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243187",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/I2WBnKFCUB4/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "7ba23a381e31ee1264ce585964ef1e9052a3bcbbd7c67b54af510d0cdf15cce2"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/I2WBnKFCUB4/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "8bb8a2e3f453758f3c28387097b40117a23757b493f5dc7be6f22fcfdee467a5"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/I2WBnKFCUB4/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "b971cf8e69172439e11cc073f9dcd78f04de521ed99eed0e881c70c4ff9161eb"
+        }
+      ],
+      "suggestedSha256": "8bb8a2e3f453758f3c28387097b40117a23757b493f5dc7be6f22fcfdee467a5",
+      "suggestedDhash": "333333b3d39c0c4e"
+    },
+    {
+      "episode": "S2022E04",
+      "tvdbEpisodeId": "9243192",
+      "youtubeId": "NVGQmIbls-w",
+      "title": "Problèmes, burn-out, anecdotes, le futur... on vous dit tout",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9243192",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/NVGQmIbls-w/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "9b9d41fe9070ea0ecb765dd9350b919090f77f4202da1b1c587500b0ee9c9ed3"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/NVGQmIbls-w/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "1f137295c244b11d777933bca85e3e3d08e356bbde57ac3ef9ab3bce2e259b8f"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/NVGQmIbls-w/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "4455e1b22a9a6a0cdada9c0ffa22a2d3b2639113372e5d3b58531afc774637c7"
+        }
+      ],
+      "suggestedSha256": "1f137295c244b11d777933bca85e3e3d08e356bbde57ac3ef9ab3bce2e259b8f",
+      "suggestedDhash": "88d1d1d363658d9f"
+    },
+    {
+      "episode": "S2022E10",
+      "tvdbEpisodeId": "9254622",
+      "youtubeId": "g792k-lmUtA",
+      "title": "Parcourir 1000km sans argent - Pekin Hesspress 2",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9254622",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/g792k-lmUtA/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "ac8f0fca54916792fb72dc8fc00358e2f6b264e8bd1539064508baf42db8558e"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/g792k-lmUtA/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "8af5aa6e7c8ec992705b159c260b3f0e22c8d008a87366f7613af32c4f9c7756"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/g792k-lmUtA/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "396ad9930123239e8766e6706269a8e5e3734157e33406e8034ac3ac49893ef6"
+        }
+      ],
+      "suggestedSha256": "8af5aa6e7c8ec992705b159c260b3f0e22c8d008a87366f7613af32c4f9c7756",
+      "suggestedDhash": "11252564e4784343"
+    },
+    {
+      "episode": "S2022E11",
+      "tvdbEpisodeId": "9254623",
+      "youtubeId": "4MTidWjuVPg",
+      "title": "Parcourir 1000km sans argent - Pekin Hesspress 2, partie 2",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9254623",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/4MTidWjuVPg/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "472f6b93868941067a2c9e1940c3734bb56de7b63aae4fc928fe4823c330a803"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/4MTidWjuVPg/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "ad0ac9259b1a8b41690ff6768b52ab2e45ab63a7cd05e8fae2da7659eeb8ed5e"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/4MTidWjuVPg/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "30888b7475783dc2eb0eabd341afa487481d1d63311de7f622b04aeb6ddfdeb0"
+        }
+      ],
+      "suggestedSha256": "ad0ac9259b1a8b41690ff6768b52ab2e45ab63a7cd05e8fae2da7659eeb8ed5e",
+      "suggestedDhash": "b0b092dbf2a5a727"
+    },
+    {
+      "episode": "S2022E13",
+      "tvdbEpisodeId": "9275659",
+      "youtubeId": "JOQ4uQ7PJtw",
+      "title": "On regarde nos plus gros dossiers",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9275659",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 1,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/JOQ4uQ7PJtw/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "0ed75483e5c6aa2d417ab69042e40c242960489a860fb83c6f9dcf1921a9eec8"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/JOQ4uQ7PJtw/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "efa19fec37563f05c58a1a39b86e6fe530883ae4facaac7598d187df348fc578"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/JOQ4uQ7PJtw/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "29a53c6f115d92bf40eb81e1087f05e7320866fb90e65794705fa9ece98dccad"
+        }
+      ],
+      "suggestedSha256": "0ed75483e5c6aa2d417ab69042e40c242960489a860fb83c6f9dcf1921a9eec8",
+      "suggestedDhash": "1733331371636160"
+    },
+    {
+      "episode": "S2022E21",
+      "tvdbEpisodeId": "9477730",
+      "youtubeId": "6vQbNG9Y_38",
+      "title": "Je deviens pilote de F4 (Grand Prix Explorer) FINAL",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9477730",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 3,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/6vQbNG9Y_38/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "0e9c39ba0e507436700618fb9780257339e18f8536e58ba0de09659313b0e1cf"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/6vQbNG9Y_38/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "6fd3f377738172c5a2efe253cae5968ea867a5658527394ed6c9d58206b998c8"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/6vQbNG9Y_38/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "4427cf3b73ab7077344f24e2d1f2beb945bf091eba46b8aa1700053a425eb60d"
+        }
+      ],
+      "suggestedSha256": "4427cf3b73ab7077344f24e2d1f2beb945bf091eba46b8aa1700053a425eb60d",
+      "suggestedDhash": "b195a32150743ab1"
+    },
+    {
+      "episode": "S2023E06",
+      "tvdbEpisodeId": "9751685",
+      "youtubeId": "kK0QpSs-1U0",
+      "title": "MAUVAISE PIOCHE (ft Seb, Billy & Maxime Biaggi)",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9751685",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/kK0QpSs-1U0/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "160e336b3cdd9060b2ac08ae545f3d4d3c0b80599e6f13836fb4f24eb6263399"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/kK0QpSs-1U0/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "5013a7067b64653963ced7677760cbc1073b4a2293bd085cf4dc37ef62078ec5"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/kK0QpSs-1U0/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "11b9724f98bafabf16dec39bfa9fa05402a572b66487b91c7c58e9895f8ef2a2"
+        }
+      ],
+      "suggestedSha256": "5013a7067b64653963ced7677760cbc1073b4a2293bd085cf4dc37ef62078ec5",
+      "suggestedDhash": "b133236645d9d9a9"
+    },
+    {
+      "episode": "S2023E08",
+      "tvdbEpisodeId": "9812432",
+      "youtubeId": "Ty2qn_9vcrw",
+      "title": "En route pour le GP Explorer 2",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9812432",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/Ty2qn_9vcrw/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "3923a2cb14379202d0f64913550f52579cdb949e512e0d4054fe753bf7b30d3a"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/Ty2qn_9vcrw/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "7e555405e7b70dca29ea901a7a5afa1807741c9fe7db7b9b96428142d57e640f"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/Ty2qn_9vcrw/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "d23e6621351a51fb08ed88bb54773ebb8a27065d151cfb4e315a516c4ac8161b"
+        }
+      ],
+      "suggestedSha256": "7e555405e7b70dca29ea901a7a5afa1807741c9fe7db7b9b96428142d57e640f",
+      "suggestedDhash": "3030302133333715"
+    },
+    {
+      "episode": "S2023E10",
+      "tvdbEpisodeId": "9812434",
+      "youtubeId": "yogxhJrj4V8",
+      "title": "En route pour le GP Explorer 2 (part 2)",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/9812434",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/yogxhJrj4V8/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "4462f54b8e917fea8737a33dc3c27ef924da9e87926d33f887ccf1e940e2a6de"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/yogxhJrj4V8/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "fb84762842dbd3ebe95c5cbe71cc0179142c46147a058d937319c5d1ee887414"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/yogxhJrj4V8/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "859c7fe018d3305f7a06c641b0c283614bdcb48f1bb2b4be87831cbf71c7d9e5"
+        }
+      ],
+      "suggestedSha256": "fb84762842dbd3ebe95c5cbe71cc0179142c46147a058d937319c5d1ee887414",
+      "suggestedDhash": "1333333154923064"
+    },
+    {
+      "episode": "S2023E13",
+      "tvdbEpisodeId": "10740761",
+      "youtubeId": "ah4IEnC4IIs",
+      "title": "En route pour le GP Explorer 2 (part 3)",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/10740761",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 3,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/ah4IEnC4IIs/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "305da0bcde896fd36c4fe1935725cd9479096891dede073f1e817a5f685e08b6"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/ah4IEnC4IIs/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "2a6941be13505bdb04d8119b42c93aacd906ab880e738edd1f08a1034f5ca3f7"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/ah4IEnC4IIs/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "2be789465a1ac7765da213f21fddffd0afc73787d4663399ec71a3cbbe27b475"
+        }
+      ],
+      "suggestedSha256": "2be789465a1ac7765da213f21fddffd0afc73787d4663399ec71a3cbbe27b475",
+      "suggestedDhash": "63512226262643a3"
+    },
+    {
+      "episode": "S2023E17",
+      "tvdbEpisodeId": "10740765",
+      "youtubeId": "3ZxiIZvw7Ck",
+      "title": "On lave notre linge sale en public avec Mister V",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/10740765",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 1,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/3ZxiIZvw7Ck/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "5bb6060ae68e0d5551771c6dce664cd3a7009b09020da3beeb1a10d3dcc5bf94"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/3ZxiIZvw7Ck/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "0ac1f97d8a94e25ef0794151d430017399d563aeba5088d389a2d523e93102bf"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/3ZxiIZvw7Ck/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "0a3c15d4894678b9c06f201c66402ae4b9e8ad275b2d428eeacb7b1ac54b22b7"
+        }
+      ],
+      "suggestedSha256": "5bb6060ae68e0d5551771c6dce664cd3a7009b09020da3beeb1a10d3dcc5bf94",
+      "suggestedDhash": "9b2b58e063337159"
+    },
+    {
+      "episode": "S2023E21",
+      "tvdbEpisodeId": "10740769",
+      "youtubeId": "hTpcWUnwq00",
+      "title": "MAUVAISE PIOCHE 2 (ft Seb, Billy & Maxime Biaggi)",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/10740769",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/hTpcWUnwq00/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "428cb059777bd4ba695e0a7a8f4d3f9dc2e264639d71293e9b7998cd8b3f9455"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/hTpcWUnwq00/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "b0e1a17edfaa8542423308450037121ed158100454a20abebfe5c4985a5c865b"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/hTpcWUnwq00/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "29949f3034244356140475474d0ab9bd8762a537ce676578446774e6b510be68"
+        }
+      ],
+      "suggestedSha256": "b0e1a17edfaa8542423308450037121ed158100454a20abebfe5c4985a5c865b",
+      "suggestedDhash": "302564e565cbc8b0"
+    },
+    {
+      "episode": "S2024E04",
+      "tvdbEpisodeId": "10824279",
+      "youtubeId": "3_CF5SSyC70",
+      "title": "On lave notre linge sale en public avec Gotaga",
+      "episodePage": "https://thetvdb.com/series/djilsi/episodes/10824279",
+      "status": "PROPOSED_CLEAN_FRAME_NEEDS_FINAL_REVIEW",
+      "suggestedVariant": 2,
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "imageUrl": "https://i.ytimg.com/vi/3_CF5SSyC70/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "ad954f8456c53e3669fa3b416a9b8ad48701ed5968019d54d112e304dac17d10"
+        },
+        {
+          "index": 2,
+          "imageUrl": "https://i.ytimg.com/vi/3_CF5SSyC70/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "ead9b6fb87e8a9f992deea7d31c73eac599214196fea1fe83223f572d2431030"
+        },
+        {
+          "index": 3,
+          "imageUrl": "https://i.ytimg.com/vi/3_CF5SSyC70/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "15c3bf86f8846a9ee7c1afe93eed45ea147be6cea6e66867c987a5e7e8841b38"
+        }
+      ],
+      "suggestedSha256": "ead9b6fb87e8a9f992deea7d31c73eac599214196fea1fe83223f572d2431030",
+      "suggestedDhash": "d39a9acac3612333"
+    }
+  ]
+}
