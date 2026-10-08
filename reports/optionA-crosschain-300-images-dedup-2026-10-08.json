@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_CROSS_PROJECT_SHA256_AND_DHASH_SELECTION_CHECK",
+  "allImageFramesCompared": 300,
+  "groups": {
+    "userOtherFive": 61,
+    "priorMaximeDjilsi51": 51,
+    "priorNewMaximeDjilsiElian20": 20,
+    "djilsiNew48": 48,
+    "mastuUser24": 24,
+    "mastuUser48Latest": 48,
+    "mastuHistoricalNewSuggestions48": 48
+  },
+  "exactSHA256DuplicatePairs": [],
+  "nearDhashPairsAtHammingLessOrEqual8": [],
+  "all300HashesAvailable": true,
+  "caveats": [
+    "A near-duplicate hash threshold is not a guarantee of image provenance or TheTVDB moderator acceptance.",
+    "Original user selections are preserved even if text or watermark makes some unsuitable.",
+    "TheTVDB site was previously restricting uploads; lifting is not verified; do not upload.",
+    "New historical 48 Mastu proposals need user review; no artworks overwritten."
+  ],
+  "sourceReports": [
+    "reports/optionA-mastu-user48-chosen-and-reviewed-2026-10-08.json",
+    "reports/optionA-mastu-2019-2020-next48-candidates-2026-10-08.json",
+    "reports/optionA-crosschain-252-image-dedup-2026-10-08.json"
+  ],
+  "uploads": 0
+}
