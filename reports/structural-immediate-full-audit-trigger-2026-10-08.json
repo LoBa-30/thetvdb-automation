@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-08",
+  "action": "IMMEDIATE_FULL_NINE_CHANNEL_READ_ONLY_AUDIT_TRIGGER",
+  "scope": [
+    "Djilsi",
+    "Elian Ventre",
+    "Raska",
+    "Maxime Biaggi — official primary channel only",
+    "Squeezie",
+    "Mastu",
+    "Amixem",
+    "Joyca",
+    "Mcfly & Carlito"
+  ],
+  "reference": {
+    "previousSuccessfulAuditRun": 37726081133,
+    "previousRunDateUTC": "2026-10-08T04:08:58Z",
+    "structuralCheckpoint": "reports/structural-nine-channels-reconciliation-2026-10-08.json",
+    "artworkUserChoices": 342,
+    "artworkReviewPausedUntil": "2026-10-09"
+  },
+  "required": {
+    "mode": "READ_ONLY_ONLY",
+    "compareMostRecentVerifiedCheckpoints": true,
+    "doNotRepeatPreviouslyResolvedFixes": true,
+    "doNotUseHistoricalAbsenceAsDeletionProof": true,
+    "preserveMastuProvenanceLevels": true,
+    "protectElianEpisodeId": "12014528",
+    "doNotModifyArtworks": true,
+    "doNotDeleteOrRecreateEpisodes": true
+  },
+  "existingExceptions": {
+    "mastu": {
+      "originalExactOfficialVerified": 7,
+      "thirdPartyHistoricOfficialChannelIDLinks": 7,
+      "noOriginalVideoID": 2,
+      "primaryRechecksStillPending": 9,
+      "runtimeArchiveCandidatesNeedPrimaryVerification": 4
+    },
+    "raska": {
+      "exactPrimaryDatesNotVerifiedInScope": 148,
+      "secondaryCorroborations": 7
+    },
+    "elian": {
+      "episodeId": "12014528",
+      "videoId": "xkGjW_FR8vI",
+      "historicalFalsePositiveResolved": true
+    }
+  },
+  "trigger": "GitHub push on main of this reports/ file invokes .github/workflows/audit.yml (push enabled for main). Other sampled edit/upload workflows restrict push events to their own YAML/src paths; no write scripts changed in this commit.",
+  "requestedUser": "Start immediately in addition to existing hourly automation.",
+  "status": "PENDING_GITHUB_WORKFLOW_RUN_CONFIRMATION",
+  "authorshipNote": "This file records an immediate read-only audit trigger, not evidence that an audit completed or a TheTVDB write occurred."
+}
