@@ -9,9 +9,23 @@ try {
   // The planner remains usable before the checkpoint exists.
 }
 
+let supplementalStructuralCheckpoint = null;
+try {
+  // Read-only identity corrections must remain separate from historical planner reports.
+  // A known exact YouTube/TVDB episode pair must not be recreated because a title changed.
+  supplementalStructuralCheckpoint = JSON.parse(
+    await fs.readFile('reports/structural-nine-channels-reconciliation-2026-10-08.json', 'utf8')
+  );
+} catch {
+  // Existing standalone planning workflows remain usable without this checkpoint.
+}
+
 const resolvedYoutubeIds = new Map();
 const resolvedDuplicateTitles = new Map();
-for (const item of resolutionCheckpoint?.resolvedTickets || []) {
+for (const item of [
+  ...(resolutionCheckpoint?.resolvedTickets || []),
+  ...(supplementalStructuralCheckpoint?.resolvedTickets || [])
+]) {
   if (item.target && item.youtubeId) {
     resolvedYoutubeIds.set(`${item.target}\u0000${item.youtubeId}`, item);
   }
@@ -91,6 +105,12 @@ const plan = {
     sourceRun: resolutionCheckpoint.sourceRun || null,
     resolvedTickets: resolutionCheckpoint.resolvedTickets?.length || 0,
     remainingTickets: resolutionCheckpoint.remainingTickets?.length || 0
+  } : null,
+  supplementalStructuralCheckpoint: supplementalStructuralCheckpoint ? {
+    generatedAt: supplementalStructuralCheckpoint.generatedAt || null,
+    sourceRun: supplementalStructuralCheckpoint.authoritativeAudit?.workflowRunId || null,
+    resolvedTickets: supplementalStructuralCheckpoint.resolvedTickets?.length || 0,
+    note: 'Read-only, independently verified identity matches only; no TVDB writes.'
   } : null
 };
 
