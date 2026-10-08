@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-10-08",
+  "mode": "READ_ONLY_TWO_REMAINING_2021_MASTU_HISTORICAL_EPISODES",
+  "sourceArchiveIndex": "reports/mastu-historical-channel-archive-7-links-two-untraced-2026-10-08.json",
+  "summary": {
+    "untracedOriginalOfficialVideoIds": 2,
+    "existingTheTVDBEpisodes": 2,
+    "corroboratedByContemporaneousPress": 2,
+    "safeDeletes": 0,
+    "safeNewCreates": 0,
+    "theTVDBWrites": 0
+  },
+  "rows": [
+    {
+      "tvdbEpisodeId": "8762550",
+      "seasonCode": "S2021E30",
+      "existingTvdbUrl": "https://thetvdb.com/series/346011-show/episodes/8762550",
+      "tvdbTitle": "NOS PREMIERES CONVERSATIONS MESSENGER (Feat @THEODORT)",
+      "tvdbFirstAired": "2021-09-11",
+      "tvdbRuntimeMinutes": 19,
+      "existingGuestStar": "THEODORT",
+      "historicSource": "https://www.ozap.com/actu/audiences-youtube-qui-de-mcfly-et-carlito-michou-squeezie-ou-lebouseuh-arrive-en-tete/608553",
+      "evidenceLevel": "CONTEMPORANEOUS_VIDEO_EXISTENCE_AND_TVDB_DETAILS_ORIGINAL_YOUTUBE_ID_UNKNOWN",
+      "missing": "Original official Mastu YouTube video ID. Avoid using reuploads or TVDB neighboring episodes.",
+      "action": "KEEP_EPISODE_RESEARCH_ORIGINAL_ID_NO_WRITE"
+    },
+    {
+      "tvdbEpisodeId": "9195502",
+      "seasonCode": "S2021E53",
+      "existingTvdbUrl": "https://thetvdb.com/series/346011-show/episodes/9195502",
+      "tvdbTitle": "QU’EST-CE QU’ELLE FAIT LÀ?! (Je suis choqué)",
+      "tvdbFirstAired": "2021-12-18",
+      "tvdbRuntimeMinutes": 11,
+      "historicSource": "https://www.ozap.com/actu/audiences-youtube-qui-de-mister-v-squeezie-mcfly-et-carlito-ou-cyprien-arrive-en-tete/611916",
+      "evidenceLevel": "CONTEMPORANEOUS_VIDEO_EXISTENCE_AND_TVDB_DETAILS_ORIGINAL_YOUTUBE_ID_UNKNOWN",
+      "missing": "Original official Mastu YouTube video ID. Older archive index stops in early 2020.",
+      "action": "KEEP_EPISODE_RESEARCH_ORIGINAL_ID_NO_WRITE"
+    }
+  ],
+  "notes": [
+    "These TVDB records are present, correctly assigned to 2021 and have air dates/runtimes. Absence of indexed original YT ID is not proof video never existed or that TVDB should be deleted.",
+    "Public TheTVDB Aired Order contains an inserted episode S2021E17, so older snapshots use off-by-one numbers; immutable ID is authoritative.",
+    "The contemporaneous press documents existence and popularity but does not expose video ID; current direct source remains unconfirmed.",
+    "Do not touch artworks until the user resumes that part of the work."
+  ]
+}
