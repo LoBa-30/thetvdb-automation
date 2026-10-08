@@ -165,7 +165,7 @@
         "decision": "KEEP_DO_NOT_REPEAT_DATE_WRITE"
       }
     ],
-    "remainingWithoutVerifiedExactOriginalYoutubeVideo": 12,
+    "remainingWithoutVerifiedExactOriginalYoutubeVideo": 9,
     "independentHistoricalTitleDateEvidenceWithoutPrimaryYoutubeId": [
       {
         "publicInventoryCode": "S2018E08",
@@ -190,11 +190,6 @@
         "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
       },
       {
-        "tvdbEpisodeId": "6953926",
-        "inventoryCode": "S2018E05",
-        "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
-      },
-      {
         "tvdbEpisodeId": "6953923",
         "inventoryCode": "S2018E08",
         "state": "HISTORICAL_TITLE_DATE_CORROBORATED_EXACT_ORIGINAL_YOUTUBE_ID_UNVERIFIED"
@@ -210,11 +205,6 @@
         "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
       },
       {
-        "tvdbEpisodeId": "6837940",
-        "inventoryCode": "S2018E25",
-        "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
-      },
-      {
         "tvdbEpisodeId": "6941542",
         "inventoryCode": "S2018E29",
         "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
@@ -223,11 +213,6 @@
         "tvdbEpisodeId": "6941565",
         "inventoryCode": "S2018E32",
         "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
-      },
-      {
-        "tvdbEpisodeId": "12014527",
-        "inventoryCode": "S2021E17",
-        "state": "NEEDS_LIVE_METADATA_AND_IDENTITY_CHECK_UNKNOWN_ADDED_ID"
       },
       {
         "tvdbEpisodeId": "8762550",
@@ -240,7 +225,52 @@
         "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
       }
     ],
-    "warning": "Do not replace or amend original Oct 8 snapshot; this is the latest corrected structural classification, based on evidence documented Oct 6–7. FOUR exact official YouTube identities were already proven but overlooked in the later artwork-scope inventory."
+    "warning": "After strict immutable-ID reconciliation, 7/16 original identity doubts have exact official source IDs (4 prior + 3 newly indexed); 9 still lack exact original official video ID. Historical existence traces for additional episodes do not establish source ID. Original 240 artwork inventory remains an untouched snapshot.",
+    "newExactOfficialYoutubeIds20261008": [
+      {
+        "tvdbEpisodeId": "12014527",
+        "episode": "S2021E17",
+        "youtubeId": "qbR6r1voD5Q",
+        "youtubeOfficialURL": "https://www.youtube.com/watch?v=qbR6r1voD5Q",
+        "tvdbEpisodeURL": "https://thetvdb.com/series/346011-show/episodes/12014527",
+        "youtubeTitle": "JE REGARDE UN EPISODE DE NEXT (10 ans après) #8",
+        "tvdbTitle": "JE REGARDE UN EPISODE DE NEXT (10 ans après) #8",
+        "published": "2021-06-26",
+        "sourceType": "OFFICIAL_YOUTUBE_VIDEO_INDEX_AND_LIVE_TVDB_EPISODE",
+        "verification": "TITLE_DATE_MATCH_RUNTIME_MISSING",
+        "note": "TVDB episode created 2026-10-01; exact video date same. Need duration in minutes when primary official duration accessible."
+      },
+      {
+        "tvdbEpisodeId": "6953926",
+        "episode": "S2018E05",
+        "youtubeId": "8jxLnq97Fe8",
+        "youtubeOfficialURL": "https://www.youtube.com/watch?v=8jxLnq97Fe8",
+        "tvdbEpisodeURL": "https://thetvdb.com/series/346011-show/episodes/6953926",
+        "youtubeTitle": "JE N'ARRIVE PAS À JOUER À FORTNITE...",
+        "tvdbTitle": "JE N'ARRIVE PAS À JOUER À FORTNITE... (TOP 1 raté)",
+        "published": "2018-02-19",
+        "sourceType": "OFFICIAL_YOUTUBE_VIDEO_INDEX_AND_LIVE_TVDB_EPISODE",
+        "verification": "SAME_CORE_TITLE_DATE_BUT_TVDB_HAS_ADDED_SUFFIX",
+        "note": "The older possible ID tiCNmB20GjE is an unverified lead; do not use it instead of the independently indexed official video."
+      },
+      {
+        "tvdbEpisodeId": "6837940",
+        "episode": "S2018E25",
+        "youtubeId": "haKY93EGeUs",
+        "youtubeOfficialURL": "https://www.youtube.com/watch?v=haKY93EGeUs",
+        "tvdbEpisodeURL": "https://thetvdb.com/series/346011-show/episodes/6837940",
+        "youtubeTitle": "JE VAIS ÊTRE HONNÊTE AVEC VOUS...",
+        "tvdbTitle": "JE VAIS ÊTRE HONNÊTE AVEC VOUS...",
+        "published": "2018-08-22",
+        "sourceType": "OFFICIAL_YOUTUBE_VIDEO_INDEX_AND_LIVE_TVDB_EPISODE",
+        "verification": "TITLE_DATE_MATCH"
+      }
+    ],
+    "latestIdentityEvidenceReport": "reports/mastu-historical-official-source-3more-9pending-2026-10-08.json",
+    "originallyClassifiedUnproven": 16,
+    "previouslyKnownExactSources": 4,
+    "newVerifiedExactSources": 3,
+    "latestVerifiedExactSourcesTotal": 7
   },
   "otherProtectedStatus": {
     "raska": {
@@ -284,8 +314,8 @@
     {
       "priority": 1,
       "target": "Mastu",
-      "type": "12 exact-YouTube provenance cases (one historical title/date supported; one extra ID ambiguous)",
-      "action": "Read-only original video identification per immutable TVDB episode ID; no deletion"
+      "type": "9 historic TVDB episode IDs without independently established original official YouTube source ID",
+      "action": "Investigate immutable IDs individually; retain all historical rows; some have separate reupload or contemporary press evidence."
     },
     {
       "priority": 2,
