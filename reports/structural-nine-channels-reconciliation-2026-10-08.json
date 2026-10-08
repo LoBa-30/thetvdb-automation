@@ -1,0 +1,312 @@
+{
+  "generatedAt": "2026-10-08",
+  "scope": "NINE_CREATOR_STRUCTURAL_CONTINUATION_NO_ARTWORK",
+  "mode": "READ_ONLY_AUDIT_PLUS_HISTORICAL_RECONCILIATION_NO_TVDB_WRITES",
+  "authoritativeAudit": {
+    "workflowRunId": 37726081133,
+    "jobId": 113144440102,
+    "workflowStartedAt": "2026-10-08T04:08:58Z",
+    "outcome": "success",
+    "artifactId": 11528241245,
+    "artifactLink": "https://github.com/LoBa-30/thetvdb-automation/actions/runs/37726081133/artifacts/11528241245",
+    "sourceCodeCommit": "b482ca2ff78f0263dd4d04733cfed601b3dfdad6",
+    "nineChannels": [
+      {
+        "channel": "Djilsi",
+        "youtubePublic": 215,
+        "tvdbEpisodes": 215,
+        "matchedByTitleHeuristic": 215,
+        "youtubeNeedsHeuristicReview": 0,
+        "tvdbWithoutCurrentPublicVideoMatch": 0,
+        "duplicateEpisodeCodes": 0
+      },
+      {
+        "channel": "Elian Ventre",
+        "youtubePublic": 29,
+        "tvdbEpisodes": 29,
+        "matchedByTitleHeuristic": 28,
+        "youtubeNeedsHeuristicReview": 1,
+        "tvdbWithoutCurrentPublicVideoMatch": 1,
+        "duplicateEpisodeCodes": 0
+      },
+      {
+        "channel": "Raska",
+        "youtubePublic": 149,
+        "tvdbEpisodes": 150,
+        "matchedByTitleHeuristic": 149,
+        "youtubeNeedsHeuristicReview": 0,
+        "tvdbWithoutCurrentPublicVideoMatch": 1,
+        "duplicateEpisodeCodes": 0
+      },
+      {
+        "channel": "Maxime Biaggi",
+        "youtubePublic": 64,
+        "tvdbEpisodes": 64,
+        "matchedByTitleHeuristic": 64,
+        "youtubeNeedsHeuristicReview": 0,
+        "tvdbWithoutCurrentPublicVideoMatch": 0,
+        "duplicateEpisodeCodes": 0
+      },
+      {
+        "channel": "Squeezie",
+        "youtubePublic": 1586,
+        "tvdbEpisodes": 1660,
+        "matchedByTitleHeuristic": 1579,
+        "youtubeNeedsHeuristicReview": 7,
+        "tvdbWithoutCurrentPublicVideoMatch": 81,
+        "duplicateEpisodeCodes": 0
+      },
+      {
+        "channel": "Mastu",
+        "youtubePublic": 361,
+        "tvdbEpisodes": 376,
+        "matchedByTitleHeuristic": 360,
+        "youtubeNeedsHeuristicReview": 1,
+        "tvdbWithoutCurrentPublicVideoMatch": 16,
+        "duplicateEpisodeCodes": 0
+      },
+      {
+        "channel": "Amixem",
+        "youtubePublic": 890,
+        "tvdbEpisodes": 975,
+        "matchedByTitleHeuristic": 890,
+        "youtubeNeedsHeuristicReview": 0,
+        "tvdbWithoutCurrentPublicVideoMatch": 85,
+        "duplicateEpisodeCodes": 0
+      },
+      {
+        "channel": "Joyca",
+        "youtubePublic": 449,
+        "tvdbEpisodes": 470,
+        "matchedByTitleHeuristic": 449,
+        "youtubeNeedsHeuristicReview": 0,
+        "tvdbWithoutCurrentPublicVideoMatch": 21,
+        "duplicateEpisodeCodes": 0
+      },
+      {
+        "channel": "Mcfly & Carlito",
+        "youtubePublic": 577,
+        "tvdbEpisodes": 583,
+        "matchedByTitleHeuristic": 576,
+        "youtubeNeedsHeuristicReview": 1,
+        "tvdbWithoutCurrentPublicVideoMatch": 7,
+        "duplicateEpisodeCodes": 0
+      }
+    ],
+    "summary": {
+      "auditComplete": true,
+      "channelCount": 9,
+      "totalDuplicateEpisodeCodeGroups": 0,
+      "plannerAutoEligible": 0,
+      "plannerReviewBeforeFreshStructuralResolution": 1,
+      "plannerInformationalDoNotDelete": 212,
+      "plannerPriorResolvedTicketsSuppressed": 14
+    }
+  },
+  "elian": {
+    "episode": "S2026E08",
+    "tvdbEpisodeId": "12014528",
+    "youtubeId": "xkGjW_FR8vI",
+    "currentPublicTvdbURL": "https://thetvdb.com/series/elian-ventre-462729/episodes/12014528",
+    "publicTitleVerified": "On s'affronte pour construire la meilleure cabane ! ft. Maxime Biaggi",
+    "firstAired": "2026-09-30",
+    "runtimeMinutes": 34,
+    "observedPriorFalseTitle": "Nos cabanes vont-elles résister au Loup ?! (ft. Maxime Biaggi)",
+    "priorAuthenticatedWrite": "reports/elian-e08-title-refresh/report.json",
+    "priorStateDrift": "reports/elian-current-drift-artwork-pending-2026-10-07.json",
+    "lastAuditFlag": "LIKELY_MISSING_FROM_TVDB_OR_NON_EPISODE",
+    "reassessment": "RESOLVED_EXISTING_ASSIGNED_TVDB_EPISODE_NO_CREATE_NO_REPEAT_WRITE",
+    "reason": "Immutable episode ID and YouTube video ID are documented in prior verified write. Current public TheTVDB page shows correct video title, air date and runtime. Title-only matcher flags stale title variant, not a missing episode.",
+    "writes": 0
+  },
+  "mastuHistorical": {
+    "oldArtworkInventoryReport": "reports/optionA-mastu-240-missing-224-covered-16-unresolved-2026-10-08.json",
+    "oldMissingArtCount": 240,
+    "oldMissingArtStructuralProvenanceUnresolved": 16,
+    "officialYoutubeIdMatchesPreviouslyMisclassifiedUnproven": [
+      {
+        "status": "EXACT_OFFICIAL_YOUTUBE_PROVEN",
+        "tvdbEpisodeId": "8070766",
+        "episode": "S2020E34",
+        "youtubeId": "_YZeqxoPK18",
+        "officialPublicationDate": "2020-11-21",
+        "title": "JE VOUS FAIS VISITER MA MAISON (6 mois après, j'ai un nouveau chaton)",
+        "evidence": "reports/mastu-historical-independent-web-evidence-2026-10-07.json",
+        "decision": "KEEP_NO_CREATE_NO_DELETE"
+      },
+      {
+        "status": "EXACT_OFFICIAL_YOUTUBE_PROVEN",
+        "tvdbEpisodeId": "11467845",
+        "episode": "S2019E32",
+        "youtubeId": "kUuEzvQaP6E",
+        "officialPublicationDate": "2019-11-02",
+        "title": "JE SUIS UN MAUVAIS CITOYEN (La clé de bras m'a fait mal)",
+        "evidence": "reports/mastu-historical-independent-web-evidence-2026-10-07.json",
+        "decision": "KEEP_NO_CREATE_NO_DELETE"
+      },
+      {
+        "status": "EXACT_OFFICIAL_YOUTUBE_PROVEN",
+        "tvdbEpisodeId": "9195596",
+        "episode": "S2016E09",
+        "youtubeId": "IETntwf8F-w",
+        "officialPublicationDate": "2016-08-02",
+        "title": "JE RÉPONDS À VOS QUESTIONS ÉTRANGES...",
+        "evidence": "reports/mastu-historical-independent-web-evidence-2026-10-07.json",
+        "decision": "KEEP_NO_CREATE_NO_DELETE"
+      },
+      {
+        "status": "EXACT_OFFICIAL_YOUTUBE_PROVEN_AND_TVDB_DATE_REPAIRED_VERIFIED",
+        "tvdbEpisodeId": "9195816",
+        "episode": "S2017E31",
+        "youtubeId": "XT-M3Z-wnVE",
+        "officialPublicationDate": "2017-05-27",
+        "evidence": "reports/mastu-2017-e31-date-repair/report.json",
+        "dateWriteAlreadyVerified": true,
+        "decision": "KEEP_DO_NOT_REPEAT_DATE_WRITE"
+      }
+    ],
+    "remainingWithoutVerifiedExactOriginalYoutubeVideo": 12,
+    "independentHistoricalTitleDateEvidenceWithoutPrimaryYoutubeId": [
+      {
+        "publicInventoryCode": "S2018E08",
+        "tvdbEpisodeId": "6953923",
+        "type": "HISTORICAL_TVDB_ONLY_NO_CONFIRMED_PUBLIC_YOUTUBE_PAIR",
+        "status": "DO_NOT_UPLOAD_OR_DELETE_WITHOUT_PROVENANCE",
+        "correctedStatus": "HISTORICAL_TITLE_DATE_CORROBORATED_EXACT_ORIGINAL_YOUTUBE_ID_UNVERIFIED",
+        "evidence": "reports/mastu-s2018e08-resolution-2026-10-06-v2.json",
+        "invalidYoutubeMatchToAvoid": "TcUSeNjrzFU (belongs to Mastu S2021E07)",
+        "preserveTitleDate": true
+      }
+    ],
+    "remainingCaseIds": [
+      {
+        "tvdbEpisodeId": "9195821",
+        "inventoryCode": "S2017E36",
+        "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+      },
+      {
+        "tvdbEpisodeId": "9195825",
+        "inventoryCode": "S2017E40",
+        "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+      },
+      {
+        "tvdbEpisodeId": "6953926",
+        "inventoryCode": "S2018E05",
+        "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+      },
+      {
+        "tvdbEpisodeId": "6953923",
+        "inventoryCode": "S2018E08",
+        "state": "HISTORICAL_TITLE_DATE_CORROBORATED_EXACT_ORIGINAL_YOUTUBE_ID_UNVERIFIED"
+      },
+      {
+        "tvdbEpisodeId": "6953922",
+        "inventoryCode": "S2018E09",
+        "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+      },
+      {
+        "tvdbEpisodeId": "6645830",
+        "inventoryCode": "S2018E12",
+        "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+      },
+      {
+        "tvdbEpisodeId": "6837940",
+        "inventoryCode": "S2018E25",
+        "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+      },
+      {
+        "tvdbEpisodeId": "6941542",
+        "inventoryCode": "S2018E29",
+        "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+      },
+      {
+        "tvdbEpisodeId": "6941565",
+        "inventoryCode": "S2018E32",
+        "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+      },
+      {
+        "tvdbEpisodeId": "12014527",
+        "inventoryCode": "S2021E17",
+        "state": "NEEDS_LIVE_METADATA_AND_IDENTITY_CHECK_UNKNOWN_ADDED_ID"
+      },
+      {
+        "tvdbEpisodeId": "8762550",
+        "inventoryCode": "S2021E30",
+        "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+      },
+      {
+        "tvdbEpisodeId": "9195502",
+        "inventoryCode": "S2021E53",
+        "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+      }
+    ],
+    "warning": "Do not replace or amend original Oct 8 snapshot; this is the latest corrected structural classification, based on evidence documented Oct 6–7. FOUR exact official YouTube identities were already proven but overlooked in the later artwork-scope inventory."
+  },
+  "otherProtectedStatus": {
+    "raska": {
+      "publicEpisodesWithoutCurrentVideo": 1,
+      "historicalSourceID": "l8mAIuFys84",
+      "protectedEpisode": "S2023E19",
+      "reference": "reports/raska-s2023e19-historical-resolution-2026-10-05.json",
+      "youtubeDatesIndependentlyVerified": 0,
+      "youtubeDatesUnverifiedInScope": 148,
+      "dateSourceStatus": "NO_PRIMARY_EXACT_DATES_NO_REPAIR"
+    },
+    "squeezie": {
+      "currentTitleOnlyHeuristicAmbiguities": 7,
+      "priorTitleMatcherFalsePositivesWereClassified": [
+        "reports/fresh-planner-ticket-resolution-2026-10-07.json",
+        "reports/squeezie-historical-resolution-2026-10-06-v2.json"
+      ],
+      "noNewEpisodeCreation": true
+    },
+    "mcfly": {
+      "priorGrosseAnnonceVerifiedCreated": true,
+      "episode": "S2015E01",
+      "episodeId": "12023296",
+      "source": "reports/mcfly-grosse-annonce-apply/report.json",
+      "unassignedCountLastAuthenticated": 64
+    },
+    "mastuUnassigned": {
+      "current": 10,
+      "provenExactDuplicates": 5,
+      "deletionsCompleted": 0,
+      "destructiveDeletionRequiresNewApproval": true
+    },
+    "titlesAndRuntimes": {
+      "joyca2026Runtimes": "reports/joyca-2026-runtime-apply/report.json",
+      "mcflyFinalRuntimes": "reports/mcfly-runtime-final2/report.json",
+      "amixemTitleCosmetics": "reports/amixem-title-exactness-resolution-2026-10-06.json",
+      "joycaTitleCosmetics": "reports/joyca-title-exactness-resolution-2026-10-06.json"
+    }
+  },
+  "pendingStructuralWork": [
+    {
+      "priority": 1,
+      "target": "Mastu",
+      "type": "12 exact-YouTube provenance cases (one historical title/date supported; one extra ID ambiguous)",
+      "action": "Read-only original video identification per immutable TVDB episode ID; no deletion"
+    },
+    {
+      "priority": 2,
+      "target": "Raska",
+      "type": "148 publication-date checks lack primary source",
+      "action": "Obtain primary authorized metadata when available, do not infer correct dates from absence of detected mismatches"
+    },
+    {
+      "priority": 3,
+      "target": "Unassigned: Mastu / Mcfly & Carlito",
+      "type": "Protected historical unassigned, 5 Mastu duplicate candidates and 64 Mcfly records in last authenticated snapshot",
+      "action": "Recheck identities per entry only when authenticated access; do not repeat 401 delete or remove historical episodes"
+    },
+    {
+      "priority": 4,
+      "target": "All creators",
+      "type": "Season premiere/finale flags, exact chronology, runtime/title drift",
+      "action": "Compare audit details with freshest authenticated preflights before any targeted write. Do not rewrite emoji/whitespace-only differences."
+    }
+  ],
+  "artworkWork": "PAUSED_UNTIL_USER_RESTARTS_TOMORROW",
+  "theTVDBStructuralWritesThisPass": 0,
+  "theTVDBArtworkWritesThisPass": 0
+}
