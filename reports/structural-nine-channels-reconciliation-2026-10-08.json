@@ -308,5 +308,16 @@
   ],
   "artworkWork": "PAUSED_UNTIL_USER_RESTARTS_TOMORROW",
   "theTVDBStructuralWritesThisPass": 0,
-  "theTVDBArtworkWritesThisPass": 0
+  "theTVDBArtworkWritesThisPass": 0,
+  "resolvedTickets": [
+    {
+      "target": "Elian Ventre",
+      "ticket": "LIKELY_MISSING_FROM_TVDB_OR_NON_EPISODE",
+      "youtubeId": "xkGjW_FR8vI",
+      "tvdb": "S2026E08",
+      "tvdbEpisodeId": "12014528",
+      "decision": "RESOLVED_EXISTING_EPISODE_CURRENT_PUBLIC_TITLE_VERIFIED_NO_WRITE",
+      "reason": "Existing episode S2026E08 id 12014528; public title, date 2026-09-30, runtime 34 min correctly match the official video. Old title was reverted after a prior verified write, creating a false title-only audit mismatch. No further title write or episode creation."
+    }
+  ]
 }
