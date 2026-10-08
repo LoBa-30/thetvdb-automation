@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_CROSS_CHAIN_SELECTED_IMAGE_DEDUPLICATION",
+  "scope": "Compared original pixels of 180 images selected or provisionally recommended in the same TheTVDB artwork project",
+  "sourceGroups": {
+    "previousMaximeAndDjilsiManualFrames": 51,
+    "userChosenMaximeDjilsiElian": 20,
+    "djilsiNew55AssistantPreselected": 48,
+    "currentUserChosenOtherChains": 61
+  },
+  "images": 180,
+  "sha256Duplicates": [],
+  "dhashNearPairsHamming8": [],
+  "all180DhashAvailable": true,
+  "criticalLimits": [
+    "A distinct hash or dHash does not establish true relation to the corresponding YouTube episode, picture ownership or moderator approval.",
+    "20 current user choices visibly contain disallowed text/logo/promotional overlay, and 4 require detailed check, despite being distinct.",
+    "No TheTVDB writes while artwork upload restriction has not been verified lifted."
+  ],
+  "sourceUserDecisions": "reports/optionA-user67-decisions-and-compliance-review-2026-10-08.json",
+  "theTVDBWrites": 0
+}
