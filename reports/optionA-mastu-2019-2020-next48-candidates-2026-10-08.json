@@ -1,0 +1,511 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_NEXT_HISTORICAL_48_MASTU_SOURCE_CHECKPOINT",
+  "source": "GitHub Actions Mastu final exhaustive audit v2 artifact 11245424693 (2026-10-02), crosschecked exact episode IDs against prior public 376 inventory dated 2026-10-08",
+  "summary": {
+    "episodes": 48,
+    "year2019": 36,
+    "year2020": 12,
+    "automaticStillsDownloaded": 144,
+    "nativeResolution": "1280x720",
+    "provisionalPreselections": 48,
+    "exactSHA256DuplicatesInGroup": 0,
+    "nearDhashAtMost8InGroup": 0,
+    "userApproved": 0,
+    "theTVDBWrites": 0,
+    "priorMastuUserSelectedCount": 72
+  },
+  "unpairedPublicTVDBIds": [
+    "11467845",
+    "8070766"
+  ],
+  "notes": [
+    "Do not invent YouTube mappings for unpaired TVDB episodes",
+    "No title-card, watermarks, captions or artificial image edits",
+    "Images are NOT approved for upload; user to review the local downloadable gallery and export JSON choices",
+    "TheTVDB artwork upload restrictions have not been verified lifted; recheck current missing status before any future write",
+    "Five matched Mastu 2020 episodes still remain to be prepared from this original read-only 2019-2020 scope"
+  ],
+  "rows": [
+    {
+      "code": "S2019E01",
+      "tvdbEpisodeId": "7009084",
+      "youtubeId": "lOIGLDkL3m4",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 1,
+      "candidateImage": "https://i.ytimg.com/vi/lOIGLDkL3m4/maxres1.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E02",
+      "tvdbEpisodeId": "7009085",
+      "youtubeId": "11GDkD5LHtQ",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/11GDkD5LHtQ/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E03",
+      "tvdbEpisodeId": "11467031",
+      "youtubeId": "ZuOdpY707JE",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 1,
+      "candidateImage": "https://i.ytimg.com/vi/ZuOdpY707JE/maxres1.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E04",
+      "tvdbEpisodeId": "11467032",
+      "youtubeId": "MYQGYOLhBKU",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/MYQGYOLhBKU/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E05",
+      "tvdbEpisodeId": "11467033",
+      "youtubeId": "6TpqvuT9Fno",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/6TpqvuT9Fno/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E06",
+      "tvdbEpisodeId": "11467034",
+      "youtubeId": "sI8HvJnbKJ4",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 1,
+      "candidateImage": "https://i.ytimg.com/vi/sI8HvJnbKJ4/maxres1.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E07",
+      "tvdbEpisodeId": "11467035",
+      "youtubeId": "B6BPUrIrfyY",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/B6BPUrIrfyY/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E08",
+      "tvdbEpisodeId": "11467036",
+      "youtubeId": "6PcxgrxJAn4",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 3,
+      "candidateImage": "https://i.ytimg.com/vi/6PcxgrxJAn4/maxres3.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E09",
+      "tvdbEpisodeId": "11467037",
+      "youtubeId": "BbdiZ4PzSnE",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/BbdiZ4PzSnE/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E10",
+      "tvdbEpisodeId": "11467056",
+      "youtubeId": "GH7O8gLOUjk",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/GH7O8gLOUjk/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E11",
+      "tvdbEpisodeId": "11467058",
+      "youtubeId": "E0NprKMX05c",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/E0NprKMX05c/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E12",
+      "tvdbEpisodeId": "11467059",
+      "youtubeId": "A4JPz8o3eSQ",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 1,
+      "candidateImage": "https://i.ytimg.com/vi/A4JPz8o3eSQ/maxres1.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E13",
+      "tvdbEpisodeId": "11467060",
+      "youtubeId": "CLLz8MYxcwI",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 3,
+      "candidateImage": "https://i.ytimg.com/vi/CLLz8MYxcwI/maxres3.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E14",
+      "tvdbEpisodeId": "11467061",
+      "youtubeId": "41Eiy3NvK14",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 3,
+      "candidateImage": "https://i.ytimg.com/vi/41Eiy3NvK14/maxres3.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E15",
+      "tvdbEpisodeId": "11467062",
+      "youtubeId": "s6IUTPM9MqU",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 1,
+      "candidateImage": "https://i.ytimg.com/vi/s6IUTPM9MqU/maxres1.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E16",
+      "tvdbEpisodeId": "11467063",
+      "youtubeId": "V_Ft_41MkhQ",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 3,
+      "candidateImage": "https://i.ytimg.com/vi/V_Ft_41MkhQ/maxres3.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E17",
+      "tvdbEpisodeId": "11467831",
+      "youtubeId": "SNl8RMb0crk",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/SNl8RMb0crk/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E18",
+      "tvdbEpisodeId": "11467832",
+      "youtubeId": "yrmI_Dbr_Dk",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/yrmI_Dbr_Dk/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E19",
+      "tvdbEpisodeId": "11467833",
+      "youtubeId": "e5wqkZi2GmM",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 3,
+      "candidateImage": "https://i.ytimg.com/vi/e5wqkZi2GmM/maxres3.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E20",
+      "tvdbEpisodeId": "11467834",
+      "youtubeId": "5qngUd588D4",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/5qngUd588D4/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E21",
+      "tvdbEpisodeId": "11467835",
+      "youtubeId": "M65mTcFuJU0",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/M65mTcFuJU0/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E22",
+      "tvdbEpisodeId": "11467836",
+      "youtubeId": "L7qM9F7vVGs",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/L7qM9F7vVGs/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E23",
+      "tvdbEpisodeId": "11467837",
+      "youtubeId": "Ox_BdQLKTz8",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/Ox_BdQLKTz8/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E24",
+      "tvdbEpisodeId": "11467838",
+      "youtubeId": "O233Jbuqo9A",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/O233Jbuqo9A/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E25",
+      "tvdbEpisodeId": "11467839",
+      "youtubeId": "IsoxsOjOKZ4",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/IsoxsOjOKZ4/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E26",
+      "tvdbEpisodeId": "7696393",
+      "youtubeId": "No3GVnG2TsU",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 3,
+      "candidateImage": "https://i.ytimg.com/vi/No3GVnG2TsU/maxres3.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E27",
+      "tvdbEpisodeId": "11467840",
+      "youtubeId": "-kwCNRfWt2Q",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 3,
+      "candidateImage": "https://i.ytimg.com/vi/-kwCNRfWt2Q/maxres3.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E28",
+      "tvdbEpisodeId": "11467841",
+      "youtubeId": "9lqydbZOGrs",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/9lqydbZOGrs/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E29",
+      "tvdbEpisodeId": "11467842",
+      "youtubeId": "V68yzfi5D28",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 3,
+      "candidateImage": "https://i.ytimg.com/vi/V68yzfi5D28/maxres3.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E30",
+      "tvdbEpisodeId": "11467843",
+      "youtubeId": "2PVUcJf9jcc",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/2PVUcJf9jcc/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E31",
+      "tvdbEpisodeId": "11467844",
+      "youtubeId": "eQARMfWuM7Y",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/eQARMfWuM7Y/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E33",
+      "tvdbEpisodeId": "11467846",
+      "youtubeId": "RFkRGLNJP6M",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 3,
+      "candidateImage": "https://i.ytimg.com/vi/RFkRGLNJP6M/maxres3.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E34",
+      "tvdbEpisodeId": "11467847",
+      "youtubeId": "9-prHOUyizQ",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/9-prHOUyizQ/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E35",
+      "tvdbEpisodeId": "11467848",
+      "youtubeId": "Zr-igpkt6nc",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 1,
+      "candidateImage": "https://i.ytimg.com/vi/Zr-igpkt6nc/maxres1.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E36",
+      "tvdbEpisodeId": "8405043",
+      "youtubeId": "D_gjAVRhoYo",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 3,
+      "candidateImage": "https://i.ytimg.com/vi/D_gjAVRhoYo/maxres3.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2019E37",
+      "tvdbEpisodeId": "11467849",
+      "youtubeId": "zgdD7hvFeuM",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 3,
+      "candidateImage": "https://i.ytimg.com/vi/zgdD7hvFeuM/maxres3.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E01",
+      "tvdbEpisodeId": "8070732",
+      "youtubeId": "kj2rEWn_OmE",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/kj2rEWn_OmE/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E02",
+      "tvdbEpisodeId": "8070734",
+      "youtubeId": "n4UtULmgiRg",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/n4UtULmgiRg/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E03",
+      "tvdbEpisodeId": "8070736",
+      "youtubeId": "96FQkUaV4zA",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/96FQkUaV4zA/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E04",
+      "tvdbEpisodeId": "8070739",
+      "youtubeId": "qbjs5s_HI-E",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 3,
+      "candidateImage": "https://i.ytimg.com/vi/qbjs5s_HI-E/maxres3.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E05",
+      "tvdbEpisodeId": "7788975",
+      "youtubeId": "OUMr8wYFdM0",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/OUMr8wYFdM0/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E06",
+      "tvdbEpisodeId": "8070742",
+      "youtubeId": "vnEWFepehks",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/vnEWFepehks/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E07",
+      "tvdbEpisodeId": "7613671",
+      "youtubeId": "w9Dw_VYcWxQ",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 1,
+      "candidateImage": "https://i.ytimg.com/vi/w9Dw_VYcWxQ/maxres1.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E08",
+      "tvdbEpisodeId": "7683784",
+      "youtubeId": "lqR-6le5SUU",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 1,
+      "candidateImage": "https://i.ytimg.com/vi/lqR-6le5SUU/maxres1.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E09",
+      "tvdbEpisodeId": "8070744",
+      "youtubeId": "xZ6YYeq1WNc",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/xZ6YYeq1WNc/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E10",
+      "tvdbEpisodeId": "8070745",
+      "youtubeId": "tetUGWQvVJs",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/tetUGWQvVJs/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E11",
+      "tvdbEpisodeId": "8070746",
+      "youtubeId": "kPbtsS311Ao",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 3,
+      "candidateImage": "https://i.ytimg.com/vi/kPbtsS311Ao/maxres3.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E12",
+      "tvdbEpisodeId": "8070748",
+      "youtubeId": "uiqIQAFORZg",
+      "previousPublicArtState": "MISSING_2026_10_08_ID_CHECK",
+      "assistantSuggestedVariant": 2,
+      "candidateImage": "https://i.ytimg.com/vi/uiqIQAFORZg/maxres2.jpg",
+      "userApproved": false,
+      "uploadApproved": false
+    }
+  ]
+}
