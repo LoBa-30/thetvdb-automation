@@ -1,0 +1,1327 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_OPTION_A_MASTU_2016_2017_NEXT50",
+  "source": "Original 2026-10-02 Mastu GitHub Actions artifact audit-v2, exact ID and YouTube ID pairs, 2026-10-08 public TVDB missing-artwork inventory; rows with existing artworks are excluded",
+  "summary": {
+    "episodes": 50,
+    "season2016": 9,
+    "season2017": 41,
+    "authenticAutoFramesFetched1280x720": 150,
+    "contactSheetsManuallyReviewed": 13,
+    "provisionalImageSuggestions": 49,
+    "blockedNoSuitableAutomaticFrame": 1,
+    "fullProjectImagesComparedAfterAddition": 397,
+    "fullProjectSHA256Duplicates": 0,
+    "fullProjectDhashNearPairsHamming8": 0,
+    "userApproved": 0,
+    "theTVDBWrites": 0
+  },
+  "rows": [
+    {
+      "episode": "S2016E01",
+      "tvdbEpisodeId": "9195558",
+      "youtubeId": "m6jee4vPG5c",
+      "assistantPreferredVariant": null,
+      "sha256": null,
+      "dhash": null,
+      "status": "BLOCKED_ALL_AUTO_STILLS_CONTAIN_SUPERIMPOSED_TEXT",
+      "reason": "Every automatically extracted video still contains visible date/time caption overlay, need deeper video frame",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/m6jee4vPG5c/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/m6jee4vPG5c/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/m6jee4vPG5c/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2016E04",
+      "tvdbEpisodeId": "9195561",
+      "youtubeId": "qHqbN42RtcE",
+      "assistantPreferredVariant": 2,
+      "sha256": "46516c745748361227a9c62a5e872b5a9f0d9442e8b87ada2d3249aa0e8791ce",
+      "dhash": "694b6c6c7c9dcc96",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/qHqbN42RtcE/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/qHqbN42RtcE/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/qHqbN42RtcE/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2016E05",
+      "tvdbEpisodeId": "9195562",
+      "youtubeId": "vJdidqOEWZ8",
+      "assistantPreferredVariant": 2,
+      "sha256": "80dbea71de25326f9a48397f05579d837600c2b32b8862bc05bc57bbfd62f639",
+      "dhash": "1698d89898185052",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/vJdidqOEWZ8/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/vJdidqOEWZ8/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/vJdidqOEWZ8/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2016E06",
+      "tvdbEpisodeId": "9195563",
+      "youtubeId": "lJuaSElWxiY",
+      "assistantPreferredVariant": 2,
+      "sha256": "eac7806844bc09516a45d4c2ffffa0114fc264407eb63ad330720a814b2bbbc2",
+      "dhash": "8ce0e8a8c8686151",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/lJuaSElWxiY/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/lJuaSElWxiY/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/lJuaSElWxiY/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2016E08",
+      "tvdbEpisodeId": "9195565",
+      "youtubeId": "EH17Dn0B8Gg",
+      "assistantPreferredVariant": 2,
+      "sha256": "11e664c011780b62db649da1021b97fd4c57aabcbca288f24f44e38f03aeacea",
+      "dhash": "0cc0c8481899b333",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/EH17Dn0B8Gg/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/EH17Dn0B8Gg/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/EH17Dn0B8Gg/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2016E11",
+      "tvdbEpisodeId": "9195598",
+      "youtubeId": "FesewsOIyJc",
+      "assistantPreferredVariant": 2,
+      "sha256": "2628b45fe4959a152ea4eb95cc30508f6f6f313eb3e02ceab7d0c48ca5ac256e",
+      "dhash": "1b33252573791b56",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/FesewsOIyJc/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/FesewsOIyJc/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/FesewsOIyJc/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2016E14",
+      "tvdbEpisodeId": "9195661",
+      "youtubeId": "SU0niYfsS3o",
+      "assistantPreferredVariant": 2,
+      "sha256": "96da77830a2e151ea980ec2676fd748144ac4934cdfdeffe50f5382bbb58c0c2",
+      "dhash": "762e6ee6d6c6cece",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/SU0niYfsS3o/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/SU0niYfsS3o/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/SU0niYfsS3o/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2016E15",
+      "tvdbEpisodeId": "9195663",
+      "youtubeId": "D4ce2Kquet0",
+      "assistantPreferredVariant": 2,
+      "sha256": "d89ab07bb4a333dc4930534b8953dcc34f74f56708d94f65a762b60053e8a62a",
+      "dhash": "3b99b1b9b9b8b948",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/D4ce2Kquet0/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/D4ce2Kquet0/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/D4ce2Kquet0/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2016E18",
+      "tvdbEpisodeId": "9195668",
+      "youtubeId": "gf27yptDY10",
+      "assistantPreferredVariant": 2,
+      "sha256": "2ef3a73b5df35fa7e2399002998847a071163913130bce3089029e8748ae492c",
+      "dhash": "0c0c0d2d2b0bcc4c",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/gf27yptDY10/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/gf27yptDY10/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/gf27yptDY10/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E21",
+      "tvdbEpisodeId": "9195805",
+      "youtubeId": "tZGpKgU_ua8",
+      "assistantPreferredVariant": 2,
+      "sha256": "6a2d87fe9950329cac552fb381f1141214913ce431e43c634bd7d887a02c0d95",
+      "dhash": "908ccc4d4cca4e0c",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/tZGpKgU_ua8/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/tZGpKgU_ua8/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/tZGpKgU_ua8/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E22",
+      "tvdbEpisodeId": "9195806",
+      "youtubeId": "kd8gFHzhdLM",
+      "assistantPreferredVariant": 1,
+      "sha256": "1c3434f74eb68967313e69f4fffb12c69fdbc3d6a48aec9e94954b37eb94222c",
+      "dhash": "737383429297950d",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/kd8gFHzhdLM/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/kd8gFHzhdLM/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/kd8gFHzhdLM/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E23",
+      "tvdbEpisodeId": "9195807",
+      "youtubeId": "Gox9zzSr5yk",
+      "assistantPreferredVariant": 2,
+      "sha256": "851234ea49ff2a8a80cd5a2339dc75c18088f372d53fe3d7ac8852426994c70e",
+      "dhash": "4e9a393a58c92320",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/Gox9zzSr5yk/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/Gox9zzSr5yk/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/Gox9zzSr5yk/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E24",
+      "tvdbEpisodeId": "9195808",
+      "youtubeId": "rGxe3n57w-4",
+      "assistantPreferredVariant": 2,
+      "sha256": "d6ab87c707163a7931be5be857c3b46853f4e77094023df7e46478b62e42ff87",
+      "dhash": "4c9c4e4b0a092068",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/rGxe3n57w-4/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/rGxe3n57w-4/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/rGxe3n57w-4/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E25",
+      "tvdbEpisodeId": "9195809",
+      "youtubeId": "yE2piF8l1Bk",
+      "assistantPreferredVariant": 2,
+      "sha256": "74fa222516a93d967e296f4a519e798e31422fa1923287a704dd9dd4ef3a148c",
+      "dhash": "48484b4b898d2524",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/yE2piF8l1Bk/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/yE2piF8l1Bk/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/yE2piF8l1Bk/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E26",
+      "tvdbEpisodeId": "9195811",
+      "youtubeId": "c2WWpL4nIvQ",
+      "assistantPreferredVariant": 2,
+      "sha256": "518f0ae3ffd161427316d1c52858c0b33dc92d46c5b60499acd575f4a105b7fb",
+      "dhash": "249a4343828e0c2c",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/c2WWpL4nIvQ/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/c2WWpL4nIvQ/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/c2WWpL4nIvQ/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E27",
+      "tvdbEpisodeId": "9195812",
+      "youtubeId": "5vr3d6N3EUE",
+      "assistantPreferredVariant": 1,
+      "sha256": "c9927a8fad96f5f9b56e96ee4c719cbee392ecd419d791ebb31070aa66271e23",
+      "dhash": "48884a1b1f2f4d04",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/5vr3d6N3EUE/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/5vr3d6N3EUE/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/5vr3d6N3EUE/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E28",
+      "tvdbEpisodeId": "9195813",
+      "youtubeId": "D2lIrz9GUFQ",
+      "assistantPreferredVariant": 1,
+      "sha256": "316e7b989f66e7886b1eb386c36a2db4bd50db8b3decbdc0e2837594552398ad",
+      "dhash": "4c8c4b4b991e1f3d",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/D2lIrz9GUFQ/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/D2lIrz9GUFQ/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/D2lIrz9GUFQ/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E29",
+      "tvdbEpisodeId": "9195814",
+      "youtubeId": "qufaG3G7Ibk",
+      "assistantPreferredVariant": 1,
+      "sha256": "505c2f780912417959850f8894fdb48a260ebf5261af8e5b3fbc942c00bafa98",
+      "dhash": "3d3733292d2c3838",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/qufaG3G7Ibk/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/qufaG3G7Ibk/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/qufaG3G7Ibk/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E30",
+      "tvdbEpisodeId": "9195815",
+      "youtubeId": "E0mKL0K-jK4",
+      "assistantPreferredVariant": 2,
+      "sha256": "7d80f237382d79753db872d794f0d20ee5f4ad9e7a757a3f2378c29031a71cdc",
+      "dhash": "1c2d4f6b099b1f1d",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/E0mKL0K-jK4/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/E0mKL0K-jK4/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/E0mKL0K-jK4/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E32",
+      "tvdbEpisodeId": "9195817",
+      "youtubeId": "LCEpTV2-loY",
+      "assistantPreferredVariant": 1,
+      "sha256": "95a5e5cd84319f39c73771dce16700b1131a84a004838256a1c2bc27e65df6cb",
+      "dhash": "d82c293bceccc9e1",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/LCEpTV2-loY/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/LCEpTV2-loY/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/LCEpTV2-loY/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E33",
+      "tvdbEpisodeId": "9195818",
+      "youtubeId": "CzgGbeIsMqA",
+      "assistantPreferredVariant": 1,
+      "sha256": "43737657d377e6f4898f4fc734f500049fd04a9633409300475770201fd31854",
+      "dhash": "4808474706423202",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/CzgGbeIsMqA/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/CzgGbeIsMqA/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/CzgGbeIsMqA/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E34",
+      "tvdbEpisodeId": "9195819",
+      "youtubeId": "rKSqz40GeZw",
+      "assistantPreferredVariant": 1,
+      "sha256": "e642908a22b2d2211bf8bc0bd75a88838e1181ad0fc8f037ea10e1b2584b9f17",
+      "dhash": "0c6505654d8c8d29",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/rKSqz40GeZw/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/rKSqz40GeZw/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/rKSqz40GeZw/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E35",
+      "tvdbEpisodeId": "9195820",
+      "youtubeId": "8z7fNkjmzCg",
+      "assistantPreferredVariant": 2,
+      "sha256": "8b951a9da5fade1f6cf8254ac68b8f3d69267f0cc7834a621dd061f171a5f458",
+      "dhash": "c6d4dca4b0981919",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/8z7fNkjmzCg/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/8z7fNkjmzCg/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/8z7fNkjmzCg/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E37",
+      "tvdbEpisodeId": "9195822",
+      "youtubeId": "mjXo6c6oD9M",
+      "assistantPreferredVariant": 1,
+      "sha256": "2df8e2761d4551ee04c9db8c1124264e58607f2682eb772cbfe773e19bb01e82",
+      "dhash": "ec2b0b894969b95b",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/mjXo6c6oD9M/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/mjXo6c6oD9M/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/mjXo6c6oD9M/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E38",
+      "tvdbEpisodeId": "9195823",
+      "youtubeId": "-rtjHyA2Z_Y",
+      "assistantPreferredVariant": 2,
+      "sha256": "88e32557b73bce0e2f2995f6ba566e2884769055bce9f0530318d2a4f3997263",
+      "dhash": "4ca84b4b89b32361",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/-rtjHyA2Z_Y/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/-rtjHyA2Z_Y/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/-rtjHyA2Z_Y/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E39",
+      "tvdbEpisodeId": "9195824",
+      "youtubeId": "RTFXncApxGg",
+      "assistantPreferredVariant": 2,
+      "sha256": "d210b9462fd132a03eac2031515e09810705e6dbef7c9509cb7eb21e61821653",
+      "dhash": "0018d6c3a30a0c10",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/RTFXncApxGg/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/RTFXncApxGg/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/RTFXncApxGg/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E41",
+      "tvdbEpisodeId": "9195827",
+      "youtubeId": "-Ekn4U_5aZ4",
+      "assistantPreferredVariant": 1,
+      "sha256": "bb242f4b63b87bd81a844206e1471a19a83d58af1ab327477909c9fafe8ea291",
+      "dhash": "581a2b69c8cad271",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/-Ekn4U_5aZ4/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/-Ekn4U_5aZ4/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/-Ekn4U_5aZ4/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E42",
+      "tvdbEpisodeId": "9195828",
+      "youtubeId": "nGPg3bFLkOY",
+      "assistantPreferredVariant": 2,
+      "sha256": "bf144b2f43eb7f0fef766ce80d9924ac6d9dd88d4aebf3dfdfc95a1a4a705383",
+      "dhash": "e9c6d3f255454d41",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/nGPg3bFLkOY/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/nGPg3bFLkOY/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/nGPg3bFLkOY/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E43",
+      "tvdbEpisodeId": "9195829",
+      "youtubeId": "RQ4NjDKOUgw",
+      "assistantPreferredVariant": 2,
+      "sha256": "ace04465614ba23a3f915f29557bdbc9ead022308b5415867db820a6af55066a",
+      "dhash": "faeecea9a3223121",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/RQ4NjDKOUgw/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/RQ4NjDKOUgw/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/RQ4NjDKOUgw/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E44",
+      "tvdbEpisodeId": "9195830",
+      "youtubeId": "3X9ooGElOoM",
+      "assistantPreferredVariant": 2,
+      "sha256": "7787962a3a0e5c231b4e44d4272f565185e422de658665911fcd9c331e8ee1b8",
+      "dhash": "0c0b4b1b1919c56c",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/3X9ooGElOoM/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/3X9ooGElOoM/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/3X9ooGElOoM/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E45",
+      "tvdbEpisodeId": "9195831",
+      "youtubeId": "ZcSRPLY0p2w",
+      "assistantPreferredVariant": 2,
+      "sha256": "1cd989496e75ee191e14b1195462c34ddf3fd9f4ba40d455ce93d213c321fbda",
+      "dhash": "0c290d29292888c4",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/ZcSRPLY0p2w/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/ZcSRPLY0p2w/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/ZcSRPLY0p2w/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E46",
+      "tvdbEpisodeId": "9195832",
+      "youtubeId": "JuaYNLqHD_8",
+      "assistantPreferredVariant": 1,
+      "sha256": "db43ffa502146e19ed57ab2707c4814a2015da2ba286a3a8515da53c63f0b272",
+      "dhash": "b1b2b2b2303030b0",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/JuaYNLqHD_8/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/JuaYNLqHD_8/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/JuaYNLqHD_8/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E47",
+      "tvdbEpisodeId": "9195833",
+      "youtubeId": "YrsgdgZuDrE",
+      "assistantPreferredVariant": 2,
+      "sha256": "815fc60c2ab2a24e6fbe37184ff260323541461fc8ee8f697162deb89526e911",
+      "dhash": "2c8dad292b397961",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/YrsgdgZuDrE/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/YrsgdgZuDrE/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/YrsgdgZuDrE/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E48",
+      "tvdbEpisodeId": "9195834",
+      "youtubeId": "Tnv-_4vcaAU",
+      "assistantPreferredVariant": 1,
+      "sha256": "f19e8a7dd4ce8ce5521357a3407462154277a049573d830662455a6a45ff3ae9",
+      "dhash": "c487e5252d2c2c4c",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/Tnv-_4vcaAU/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/Tnv-_4vcaAU/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/Tnv-_4vcaAU/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E49",
+      "tvdbEpisodeId": "9195835",
+      "youtubeId": "pomhFRvJH8Q",
+      "assistantPreferredVariant": 1,
+      "sha256": "fdcd488f4723c31f1ce3dbbd9d42e1c3a099a33fd0015cfe1c90054079e9d87e",
+      "dhash": "2484e4e4f477a79b",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/pomhFRvJH8Q/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/pomhFRvJH8Q/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/pomhFRvJH8Q/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E50",
+      "tvdbEpisodeId": "9195836",
+      "youtubeId": "IFZyjRz9nhE",
+      "assistantPreferredVariant": 2,
+      "sha256": "dce0714833fe3d06e9cfc4676aa766e71fb84c42fd6b085fb389befa8c43eee3",
+      "dhash": "00103333333531f3",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/IFZyjRz9nhE/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/IFZyjRz9nhE/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/IFZyjRz9nhE/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E51",
+      "tvdbEpisodeId": "9195839",
+      "youtubeId": "iYFKfuwHcpM",
+      "assistantPreferredVariant": 2,
+      "sha256": "deffadfe61292325a7c69ea3df3d1f4fb5b75bf9ea89f9ddbf08cf069b717b63",
+      "dhash": "c9999899b9c84939",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/iYFKfuwHcpM/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/iYFKfuwHcpM/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/iYFKfuwHcpM/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E52",
+      "tvdbEpisodeId": "9195840",
+      "youtubeId": "9UCzwX1yu6I",
+      "assistantPreferredVariant": 2,
+      "sha256": "c4d6e8e83e74d138048b85ff73c163f69c9d5e9d66f2c460ea85108e10650944",
+      "dhash": "064a4a1919080c14",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/9UCzwX1yu6I/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/9UCzwX1yu6I/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/9UCzwX1yu6I/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E53",
+      "tvdbEpisodeId": "9195841",
+      "youtubeId": "6AgeZbSqgv0",
+      "assistantPreferredVariant": 2,
+      "sha256": "721c1d255b225001547603223e8b8119eb1e38c459ae466be1d7774bccadbd10",
+      "dhash": "640e4d29282c4e6c",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/6AgeZbSqgv0/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/6AgeZbSqgv0/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/6AgeZbSqgv0/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E54",
+      "tvdbEpisodeId": "9195842",
+      "youtubeId": "7cYlaMsaBdA",
+      "assistantPreferredVariant": 2,
+      "sha256": "2e64fdcea3959404ba2087afdd5ce0a7a8dd946173c843e222d7052616f0700f",
+      "dhash": "c0656d6d6263c900",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/7cYlaMsaBdA/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/7cYlaMsaBdA/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/7cYlaMsaBdA/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E55",
+      "tvdbEpisodeId": "9195843",
+      "youtubeId": "TEuNkufDwS0",
+      "assistantPreferredVariant": 2,
+      "sha256": "9e2a151ef4490ad0b84b711c5ba1b74f2a27f3c5a469517cc141e4f92e52b3fe",
+      "dhash": "898dad2908587054",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/TEuNkufDwS0/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/TEuNkufDwS0/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/TEuNkufDwS0/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E56",
+      "tvdbEpisodeId": "9195844",
+      "youtubeId": "6frWgCoeDUA",
+      "assistantPreferredVariant": 2,
+      "sha256": "bc8c41f5eb1f9d13bf1fa2eda58d4e945e268306f30f5fb92f86508caa0ec9ab",
+      "dhash": "c90988a92828046c",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/6frWgCoeDUA/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/6frWgCoeDUA/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/6frWgCoeDUA/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E57",
+      "tvdbEpisodeId": "9195845",
+      "youtubeId": "9HycsWmSvjY",
+      "assistantPreferredVariant": 2,
+      "sha256": "77969e64b313ec39f28fb2b82a308422db4f63b038be6a135609d6b7c2253d2e",
+      "dhash": "1d494d4908887858",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/9HycsWmSvjY/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/9HycsWmSvjY/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/9HycsWmSvjY/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E58",
+      "tvdbEpisodeId": "9195846",
+      "youtubeId": "7bKh7mAbPGw",
+      "assistantPreferredVariant": 1,
+      "sha256": "738c0e9b58dbbf639de61924658e0a385492fe8a506454615911cf03bac8133c",
+      "dhash": "04263238386d4c86",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/7bKh7mAbPGw/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/7bKh7mAbPGw/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/7bKh7mAbPGw/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E59",
+      "tvdbEpisodeId": "9195847",
+      "youtubeId": "lq1uPOQH1jA",
+      "assistantPreferredVariant": 2,
+      "sha256": "1a99937f6cb689dec885e17706c7d0ad73786785a43e9ecd6083583f6e752f9c",
+      "dhash": "98c0d858484959e0",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/lq1uPOQH1jA/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/lq1uPOQH1jA/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/lq1uPOQH1jA/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E60",
+      "tvdbEpisodeId": "9195848",
+      "youtubeId": "3xY8SLc9WNA",
+      "assistantPreferredVariant": 2,
+      "sha256": "bf021a1afee1f96a2476150a2497db01c01a482ed70948d875525a8627230a93",
+      "dhash": "b8a4a59514164e45",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/3xY8SLc9WNA/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/3xY8SLc9WNA/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/3xY8SLc9WNA/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E61",
+      "tvdbEpisodeId": "9195849",
+      "youtubeId": "aW3k14BmhUk",
+      "assistantPreferredVariant": 2,
+      "sha256": "b427fd188254dfb78c377f2cf1c360adab4858c84cd523dc8a3a7eb35f1fc7cb",
+      "dhash": "b56d6d256858b899",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/aW3k14BmhUk/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/aW3k14BmhUk/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/aW3k14BmhUk/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E62",
+      "tvdbEpisodeId": "9195850",
+      "youtubeId": "PSkW62AaI08",
+      "assistantPreferredVariant": 2,
+      "sha256": "a085323952ec1fe564e9a0fadc47e33d6afe966c23870467281b9d90f3c9ff9a",
+      "dhash": "e80c8d0d1633313d",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/PSkW62AaI08/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/PSkW62AaI08/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/PSkW62AaI08/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E63",
+      "tvdbEpisodeId": "9195851",
+      "youtubeId": "BuBBzDLIbos",
+      "assistantPreferredVariant": 2,
+      "sha256": "61468f636d426f68aa416cb987c8b9a25aaacc5f1bfcc2c6b9da555ff4f5433f",
+      "dhash": "70727333333b33f3",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/BuBBzDLIbos/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/BuBBzDLIbos/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/BuBBzDLIbos/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2017E64",
+      "tvdbEpisodeId": "9195852",
+      "youtubeId": "Eur2AWx1vKY",
+      "assistantPreferredVariant": 2,
+      "sha256": "8cedcd0935c5224d05579216cac4be4ee323377a8fe9fefd4456258f0f0efc85",
+      "dhash": "4d67227a3a79fd3d",
+      "status": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+      "reason": null,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/Eur2AWx1vKY/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/Eur2AWx1vKY/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/Eur2AWx1vKY/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    }
+  ],
+  "warnings": [
+    "S2016E01 blocked because all three automatic frames display hardcoded date/time captions; do not pretend solved. Must find a clean genuine frame later.",
+    "No upload while TheTVDB artwork restriction remains unconfirmed lifted.",
+    "Exact matching by TVDB episode ID. Preserve already user-selected 168 Mastu images and all earlier creator selections.",
+    "Proposals are assistant prechecks and need user review; absence must be rechecked live before future authorized upload."
+  ]
+}
