@@ -280,7 +280,20 @@
       "reference": "reports/raska-s2023e19-historical-resolution-2026-10-05.json",
       "youtubeDatesIndependentlyVerified": 0,
       "youtubeDatesUnverifiedInScope": 148,
-      "dateSourceStatus": "NO_PRIMARY_EXACT_DATES_NO_REPAIR"
+      "dateSourceStatus": "NO_PRIMARY_EXACT_DATES_NO_REPAIR",
+      "externalCorroborations20261008": {
+        "sourceReport": "reports/raska-external-7-date-corroborations-2026-10-08.json",
+        "count": 7,
+        "sourceTypes": [
+          "CONTEMPORANEOUS_PRESS",
+          "THIRD_PARTY_CHANNEL_VIDEO_INDEX",
+          "PRODUCTION_CREDIT_FIRST_PARTY"
+        ],
+        "allDatesMatchExistingTheTVDB": true,
+        "primaryYouTubeDateMetadataIndependentlyFetched": 0,
+        "stillUnverifiedPrimaryInScope": 148,
+        "interpretation": "Independently corroborated dates, not fresh official YouTube primary timestamps; preserve 148 primary metadata tickets for future authorized retrieval."
+      }
     },
     "squeezie": {
       "currentTitleOnlyHeuristicAmbiguities": 7,
@@ -349,5 +362,6 @@
       "decision": "RESOLVED_EXISTING_EPISODE_CURRENT_PUBLIC_TITLE_VERIFIED_NO_WRITE",
       "reason": "Existing episode S2026E08 id 12014528; public title, date 2026-09-30, runtime 34 min correctly match the official video. Old title was reverted after a prior verified write, creating a false title-only audit mismatch. No further title write or episode creation."
     }
-  ]
+  ],
+  "latestMastuExternalExactSourceReport": "reports/mastu-historical-official-source-3more-9pending-2026-10-08.json"
 }
