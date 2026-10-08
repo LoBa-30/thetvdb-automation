@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_FULL_CROSSCHAIN_IMAGE_SHA256_DHASH_COMPARISON",
+  "comparedImages": 348,
+  "groups": {
+    "user67": 61,
+    "prior51": 51,
+    "prior20": 20,
+    "DjilsiSuggested": 48,
+    "MastuUser2021_24": 24,
+    "MastuUser2020_2021_48": 48,
+    "MastuUser2019_2020_48": 48,
+    "Mastu2017_2018_2020NewProposed48": 48
+  },
+  "allDhashPresent": true,
+  "SHA256Duplicates": [],
+  "dhashNearPairsAtHamming8": [],
+  "referenceSources": [
+    "reports/optionA-mastu-2019-2020-user48-choices-2026-10-08.json",
+    "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+    "reports/optionA-crosschain-300-images-dedup-2026-10-08.json"
+  ],
+  "caveat": "No duplicates detected among these selected/proposed 348 genuine video stills at the specified hash thresholds. Does not check all existing TVDB artwork, metadata correctness, scene originality, embedded text or moderator approval. No TVDB uploads.",
+  "theTVDBWrites": 0
+}
