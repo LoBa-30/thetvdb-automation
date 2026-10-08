@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_MODERATION_SAFE_ARTWORK_PIPELINE_CHECKPOINT",
+  "scope": [
+    "Maxime Biaggi 64 episodes",
+    "Djilsi 215 episodes",
+    "Elian Ventre 29 episodes"
+  ],
+  "currentPublicMissingCount": {
+    "maximeBiaggi": 28,
+    "djilsi": 100,
+    "elianVentre": 9,
+    "total": 137
+  },
+  "optionsACandidates": {
+    "maximeBiaggi": {
+      "newlyUserSelected": 5,
+      "previousAutomaticStillSelections": 21,
+      "logoBlockedFromPrevious": 2,
+      "deepExtractionOriginal": 2,
+      "candidatePrechecked": 24,
+      "blocked": 4
+    },
+    "djilsi": {
+      "previouslySelectedClean": 30,
+      "priorDeepExtractionBlocked": 7,
+      "userSelectedRecent": 6,
+      "userMarkedNone": 2,
+      "additionalAutoStillNewlyPreselected": 48,
+      "additionalBlockedWatermark": 7,
+      "candidatePrechecked": 84,
+      "blocked": 16
+    },
+    "elianVentre": {
+      "userSelectedClean": 9,
+      "confirmedImageChange": "S2024E02 maxres2 -> maxres3",
+      "candidatePrechecked": 9,
+      "blocked": 0
+    },
+    "grandTotal": {
+      "missingEpisodes": 137,
+      "visuallyPlausibleCandidateImages": 117,
+      "needDeeperVideoFrameOrUnavailableSource": 20
+    }
+  },
+  "crossBatch": {
+    "totalStillsCompared": 119,
+    "exactDuplicatePairs": 0,
+    "dHashPairsAtHammingAtMost8": 0,
+    "limits": "Hashes do not certify provenance, visual composition, or moderator acceptance."
+  },
+  "djilsiFullRescan": {
+    "previousPresent": 178,
+    "currentlyPresent": 115,
+    "previousMissing": 37,
+    "currentlyMissing": 100,
+    "newlyMissingSinceCheckpoint": 63,
+    "regained": 0
+  },
+  "finalSafety": {
+    "accountRestrictionLiftVerified": false,
+    "newTheTVDBArtworkUploads": 0,
+    "newTheTVDBArtworkReplacements": 0,
+    "newTheTVDBArtworkDeletes": 0,
+    "selectedCandidateNotAnAuthorization": true
+  },
+  "sourceReports": [
+    "reports/djilsi-live-215-artwork-rescan-2026-10-08.json",
+    "reports/djilsi-new-55-clean-frames-preselection-2026-10-08.json",
+    "reports/maxime-biaggi-live-artwork-rescan-2026-10-08.json",
+    "reports/optionA-legacy-51-visual-check-2026-10-08.json",
+    "reports/optionA-crossbatch-summary-2026-10-08.json",
+    "reports/post-moderation-textfree-frame-selection-2026-10-07.json"
+  ],
+  "blockedEpisodes": [
+    "Maxime S2022E07",
+    "Maxime S2023E01",
+    "Maxime S2023E08",
+    "Maxime S2024E06",
+    "Djilsi S2019E07",
+    "Djilsi S2019E09",
+    "Djilsi S2019E11",
+    "Djilsi S2019E12",
+    "Djilsi S2019E13",
+    "Djilsi S2019E14",
+    "Djilsi S2019E19",
+    "Djilsi S2026E14",
+    "Djilsi S2026E17",
+    "Djilsi S2019E25",
+    "Djilsi S2019E30",
+    "Djilsi S2019E36",
+    "Djilsi S2019E38",
+    "Djilsi S2019E40",
+    "Djilsi S2019E41",
+    "Djilsi S2019E45"
+  ],
+  "nextActions": [
+    "Get user review decisions on 48 newly proposed Djilsi automatic video stills (none uploaded).",
+    "Extract genuine logo-free frames within 20 blocked videos using normal authorized video access. Never edit out text or evade access controls.",
+    "Perform authenticated account restriction check and support clarification prior to any TheTVDB write.",
+    "Before individual future write, reconfirm still missing and meet TheTVDB no-logo no-subtitle no-titlecard rules; no parallel writes; post-write verify."
+  ],
+  "status": "PREFLIGHT_NOT_UPLOAD_READY"
+}
