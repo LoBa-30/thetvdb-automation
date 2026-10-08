@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-08",
+  "mode": "STRUCTURAL_ARCHIVE_ORIGINAL_VIDEO_LINK_RECOVERY_NO_TVDB_WRITE",
+  "sources": {
+    "archivedChannelIndex": [
+      "https://www.listubes.com/channel/UCAhaFPP6v3WCfK5Tjao0B7A/",
+      "https://www.listubes.com/channel/UCAhaFPP6v3WCfK5Tjao0B7A/?p=2"
+    ],
+    "archivedChannelId": "UCAhaFPP6v3WCfK5Tjao0B7A",
+    "currentTVDB": "https://thetvdb.com/series/346011-show",
+    "priorCandidateIDReport": "reports/mastu-historical-exact-id-resolution-2026-10-06.json",
+    "currentStructuralCheckpoint": "reports/structural-nine-channels-reconciliation-2026-10-08.json"
+  },
+  "summary": {
+    "oldInitialUnverified": 16,
+    "alreadyPrimaryVerified": 7,
+    "additionalArchiveChannelDirectIDLinks": 7,
+    "originalVideoIDStillUnknown": 2,
+    "currentlyPrimaryDateDurationVerifiedOfArchiveLinks": 0,
+    "archivedDurationMatchesTVDB": 2,
+    "archivedDurationConflictsWithTVDB": 4,
+    "archivedRuntimeWithoutCurrentTVDBValue": 1,
+    "theTVDBWrites": 0
+  },
+  "archivedRecords": [
+    {
+      "tvdbId": "9195821",
+      "episode": "S2017E36",
+      "title": "MANGER BEAUCOUP ET NE PAS GROSSIR",
+      "youtubeId": "tsTuel-ziOg",
+      "index": "https://www.listubes.com/channel/UCAhaFPP6v3WCfK5Tjao0B7A/?p=2",
+      "duration": "5:39",
+      "tvdbMinutes": 6,
+      "sourceRow": "Archived Mastu channel index page 2 title matching TVDB official 2017E36",
+      "sourceProvenanceLevel": "ARCHIVED_OFFICIAL_CHANNEL_INDEX_DIRECT_VIDEO_LINK_NOT_LIVE_PRIMARY",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/346011-show/episodes/9195821",
+      "youtubeURL": "https://www.youtube.com/watch?v=tsTuel-ziOg",
+      "archiveRoundedMinutes": 6,
+      "runtimeCandidateStatus": "ARCHIVED_DURATION_AGREES",
+      "accountUploadApproved": false
+    },
+    {
+      "tvdbId": "9195825",
+      "episode": "S2017E40",
+      "title": "DES YOUTUBERS ME CLASHENT SUR TWITTER !",
+      "youtubeId": "s1eJCeCraOw",
+      "index": "https://www.listubes.com/channel/UCAhaFPP6v3WCfK5Tjao0B7A/?p=2",
+      "duration": "10:16",
+      "tvdbMinutes": 10,
+      "sourceRow": "Archived Mastu channel index page 2 title matching TVDB official 2017E40",
+      "sourceProvenanceLevel": "ARCHIVED_OFFICIAL_CHANNEL_INDEX_DIRECT_VIDEO_LINK_NOT_LIVE_PRIMARY",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/346011-show/episodes/9195825",
+      "youtubeURL": "https://www.youtube.com/watch?v=s1eJCeCraOw",
+      "archiveRoundedMinutes": 10,
+      "runtimeCandidateStatus": "ARCHIVED_DURATION_AGREES",
+      "accountUploadApproved": false
+    },
+    {
+      "tvdbId": "6953923",
+      "episode": "S2018E08",
+      "title": "QUAND 2 BEAUFS PRENNENT LA VOITURE",
+      "youtubeId": "qC3EVM_bhoo",
+      "index": "https://www.listubes.com/channel/UCAhaFPP6v3WCfK5Tjao0B7A/",
+      "duration": "10:34",
+      "tvdbMinutes": 10,
+      "sourceRow": "Archived Mastu channel index page 1; no longer substitute unrelated Mastu 2021 Joyca-car video",
+      "sourceProvenanceLevel": "ARCHIVED_OFFICIAL_CHANNEL_INDEX_DIRECT_VIDEO_LINK_NOT_LIVE_PRIMARY",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/346011-show/episodes/6953923",
+      "youtubeURL": "https://www.youtube.com/watch?v=qC3EVM_bhoo",
+      "archiveRoundedMinutes": 11,
+      "runtimeCandidateStatus": "ARCHIVED_DURATION_MISMATCH_NEEDS_PRIMARY_VERIFICATION",
+      "accountUploadApproved": false
+    },
+    {
+      "tvdbId": "6953922",
+      "episode": "S2018E09",
+      "title": "J'AI RETROUVÉ DES VIDÉOS HONTEUSES SUR MON TÉLÉPHONE...",
+      "indexTitle": "I FOUND SHAMEFUL VIDEOS ON MY PHONE...",
+      "youtubeId": "Pyl8mSyLh-g",
+      "index": "https://www.listubes.com/channel/UCAhaFPP6v3WCfK5Tjao0B7A/",
+      "duration": "11:39",
+      "tvdbMinutes": 10,
+      "sourceRow": "Archived Mastu channel list English translation, date/title alignment with official TVDB episode",
+      "sourceProvenanceLevel": "ARCHIVED_OFFICIAL_CHANNEL_INDEX_DIRECT_VIDEO_LINK_NOT_LIVE_PRIMARY",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/346011-show/episodes/6953922",
+      "youtubeURL": "https://www.youtube.com/watch?v=Pyl8mSyLh-g",
+      "archiveRoundedMinutes": 12,
+      "runtimeCandidateStatus": "ARCHIVED_DURATION_MISMATCH_NEEDS_PRIMARY_VERIFICATION",
+      "accountUploadApproved": false
+    },
+    {
+      "tvdbId": "6645830",
+      "episode": "S2018E12",
+      "title": "QUI DE NOUS TROIS ? Ft Amixem & VodK",
+      "indexTitle": "WHICH ONE OF US ? Ft Amixen & Vodk",
+      "youtubeId": "L3tY9Z9y7yE",
+      "index": "https://www.listubes.com/channel/UCAhaFPP6v3WCfK5Tjao0B7A/",
+      "duration": "11:33",
+      "tvdbMinutes": null,
+      "sourceRow": "Archived Mastu channel list English translation matches TVDB participants; newer third-party reupload is NOT original",
+      "sourceProvenanceLevel": "ARCHIVED_OFFICIAL_CHANNEL_INDEX_DIRECT_VIDEO_LINK_NOT_LIVE_PRIMARY",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/346011-show/episodes/6645830",
+      "youtubeURL": "https://www.youtube.com/watch?v=L3tY9Z9y7yE",
+      "archiveRoundedMinutes": 12,
+      "runtimeCandidateStatus": "TVDB_RUNTIME_NOT_CURRENTLY_VERIFIED",
+      "accountUploadApproved": false
+    },
+    {
+      "tvdbId": "6941542",
+      "episode": "S2018E29",
+      "title": "J'ai besoin de vous parler",
+      "youtubeId": "kDmn5RBFIS0",
+      "index": "https://www.listubes.com/channel/UCAhaFPP6v3WCfK5Tjao0B7A/",
+      "duration": "29:26",
+      "tvdbMinutes": 10,
+      "sourceRow": "Archived Mastu channel index page1 exact title and direct original video URL",
+      "sourceProvenanceLevel": "ARCHIVED_OFFICIAL_CHANNEL_INDEX_DIRECT_VIDEO_LINK_NOT_LIVE_PRIMARY",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/346011-show/episodes/6941542",
+      "youtubeURL": "https://www.youtube.com/watch?v=kDmn5RBFIS0",
+      "archiveRoundedMinutes": 29,
+      "runtimeCandidateStatus": "ARCHIVED_DURATION_MISMATCH_NEEDS_PRIMARY_VERIFICATION",
+      "accountUploadApproved": false
+    },
+    {
+      "tvdbId": "6941565",
+      "episode": "S2018E32",
+      "title": "YouTube va mal...",
+      "indexTitle": "YouTube isn't doing well...",
+      "youtubeId": "9Ky8gLHoFeY",
+      "index": "https://www.listubes.com/channel/UCAhaFPP6v3WCfK5Tjao0B7A/",
+      "duration": "12:31",
+      "tvdbMinutes": 10,
+      "sourceRow": "Archived Mastu channel index page1 English translation and direct YouTube link",
+      "sourceProvenanceLevel": "ARCHIVED_OFFICIAL_CHANNEL_INDEX_DIRECT_VIDEO_LINK_NOT_LIVE_PRIMARY",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/346011-show/episodes/6941565",
+      "youtubeURL": "https://www.youtube.com/watch?v=9Ky8gLHoFeY",
+      "archiveRoundedMinutes": 13,
+      "runtimeCandidateStatus": "ARCHIVED_DURATION_MISMATCH_NEEDS_PRIMARY_VERIFICATION",
+      "accountUploadApproved": false
+    }
+  ],
+  "stillMissingOriginalVideoId": [
+    {
+      "tvdbEpisodeId": "8762550",
+      "inventoryCode": "S2021E30",
+      "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+    },
+    {
+      "tvdbEpisodeId": "9195502",
+      "inventoryCode": "S2021E53",
+      "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+    }
+  ],
+  "sourceConflict": {
+    "tvdbId": "6953926",
+    "code": "S2018E05",
+    "listubesArchivedVideoId": "tiCNmB20GjE",
+    "listubesArchivedTitle": "JE N'ARRIVE PAS À JOUER À FORTNITE... (TOP 1 raté)",
+    "priorNewlyVerifiedVideoId": "8jxLnq97Fe8",
+    "priorIndexedTitle": "JE N'ARRIVE PAS À JOUER À FORTNITE...",
+    "status": "TWO_CONFLICTING_CANDIDATE_VIDEO_IDS_DO_NOT_CHANGE_TITLE_OR_SOURCE_ID",
+    "reason": "Direct archived official-channel link differs from other indexed official video. Both sources cannot be assumed to refer to same upload. Current TheTVDB title includes suffix matching archived channel. Requires primary YouTube verification; don't silently swap."
+  },
+  "qualityWarnings": [
+    "Listubes is a historic THIRD-PARTY index of the official channel, not the YouTube primary API or proof a linked original still exists publicly.",
+    "Listubes timing data contains malformed values in other rows (e.g. seconds 90); even syntactically valid duration deltas are ONLY candidate mismatches, never automatically written to TVDB.",
+    "Original video IDs identified in indexed channel: not necessarily independently confirmed current available official videos. Distinguish 7 known primary from 7 archived candidates and 2 no URL.",
+    "Do not create/re-create/delete/rename 2017/2018 episodes on the basis of archived index alone.",
+    "YouTube embeds currently throttled for several IDs; do not bypass."
+  ],
+  "artworkReviewPaused": true
+}
