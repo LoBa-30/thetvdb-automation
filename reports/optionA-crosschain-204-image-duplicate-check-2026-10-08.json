@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-10-08",
+  "mode": "READ_ONLY_CROSSCHAIN_SELECTED_IMAGE_DUPLICATION_CHECK",
+  "scope": "204 genuine still-image files selected by the user or preselected for later review, across Raska, Squeezie, Mastu, Amixem, Joyca, Mcfly & Carlito, Maxime, Djilsi and Elian",
+  "imagesCompared": 204,
+  "groups": {
+    "currentOtherFiveUserChosen": 61,
+    "priorTwoChains51": 51,
+    "priorThreeNewChosen20": 20,
+    "djilsi55Suggested48": 48,
+    "mastu2021Suggested24": 24
+  },
+  "exactSha256DuplicatePairs": [],
+  "nearDhashPairsAtHammingAtMost8": [],
+  "allHadDhash": true,
+  "mastuSource": "reports/optionA-mastu-2021-24-id-verified-candidates-2026-10-08.json",
+  "currentOtherChainsSource": "reports/optionA-user67-decisions-and-compliance-review-2026-10-08.json",
+  "note": "No exact or near-identical bit/pHash collisions at threshold 8; no uniqueness proof against ALL previously existing TVDB artworks, and no proof of rule compliance. Candidates cannot be uploaded while TheTVDB restriction has not been confirmed lifted.",
+  "theTVDBWrites": 0
+}
