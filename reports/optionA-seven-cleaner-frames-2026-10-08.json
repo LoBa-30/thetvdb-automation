@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_VISUAL_RECHECK_30_BLOCKED_AND_AMBIGUOUS",
+  "sourceDocument": "reports/optionA-user67-decisions-and-compliance-review-2026-10-08.json",
+  "summary": {
+    "episodesWithPreviouslyFlaggedImagesOrNone": 30,
+    "additionalOriginalVariantsVisuallyReviewed": 90,
+    "cleanerAlternativesSuggested": 7,
+    "ofWhichPreviouslyBlocked": 5,
+    "ofWhichPreviouslyAmbiguous": 2,
+    "previouslyBlockedOriginalReclassifiedToPlausibleAfterFullResolutionReview": 1,
+    "blockedWithNoSuitableAutomaticFrameRemaining": 14,
+    "ambiguousStillNeedingReview": 2,
+    "userNONEUnchanged": 6,
+    "userSelectionsSilentlyModified": 0,
+    "theTVDBWrites": 0
+  },
+  "suggestions": [
+    {
+      "chain": "Amixem",
+      "episode": "S2026E39",
+      "tvdbEpisodeId": "12013427",
+      "youtubeId": "eIp9I2RwmK0",
+      "userOriginallySelected": 1,
+      "proposedReplacementVariant": 2,
+      "originalImageURL": "https://i.ytimg.com/vi/eIp9I2RwmK0/maxres1.jpg",
+      "proposedImageURL": "https://i.ytimg.com/vi/eIp9I2RwmK0/maxres2.jpg",
+      "proposedSHA256": "9feca367f063283a0f094caf6413bac53cd0a6f05d21185d441c6a6343b1d992",
+      "reason": "Scène naturelle de discussion, sans incrustation commerciale apparente",
+      "selectionState": "REQUIRES_USER_APPROVAL",
+      "uploadApproved": false,
+      "currentTVDBImageState": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2026E35",
+      "tvdbEpisodeId": "11967143",
+      "youtubeId": "9q9NJvRDzzM",
+      "userOriginallySelected": 1,
+      "proposedReplacementVariant": 2,
+      "originalImageURL": "https://i.ytimg.com/vi/9q9NJvRDzzM/maxres1.jpg",
+      "proposedImageURL": "https://i.ytimg.com/vi/9q9NJvRDzzM/maxres2.jpg",
+      "proposedSHA256": "2ac3f4fb78408619e6258c44e53712bb62515295c4022ed6278716cf391f3e04",
+      "reason": "Plan de discussion sans la mention commerciale de la variante 1",
+      "selectionState": "REQUIRES_USER_APPROVAL",
+      "uploadApproved": false,
+      "currentTVDBImageState": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2026E38",
+      "tvdbEpisodeId": "12006517",
+      "youtubeId": "zr8xc870_2o",
+      "userOriginallySelected": 2,
+      "proposedReplacementVariant": 1,
+      "originalImageURL": "https://i.ytimg.com/vi/zr8xc870_2o/maxres2.jpg",
+      "proposedImageURL": "https://i.ytimg.com/vi/zr8xc870_2o/maxres1.jpg",
+      "proposedSHA256": "28f9c417a6c9af5d126453bd4c2a34131843ea2e97b55bc68de887e36ee0765d",
+      "reason": "Plan de discussion sans grand schéma inséré sur l'écran",
+      "selectionState": "REQUIRES_USER_APPROVAL",
+      "uploadApproved": false,
+      "currentTVDBImageState": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2026E33",
+      "tvdbEpisodeId": "11926789",
+      "youtubeId": "UMPJEUeo3Og",
+      "userOriginallySelected": 3,
+      "proposedReplacementVariant": 1,
+      "originalImageURL": "https://i.ytimg.com/vi/UMPJEUeo3Og/maxres3.jpg",
+      "proposedImageURL": "https://i.ytimg.com/vi/UMPJEUeo3Og/maxres1.jpg",
+      "proposedSHA256": "bfcf61b4b742f11d513d7338412e5122969c686469233922b1ed4f6ab3108b61",
+      "reason": "Plan naturel du participant, sans encart graphique",
+      "selectionState": "REQUIRES_USER_APPROVAL",
+      "uploadApproved": false,
+      "currentTVDBImageState": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2026E08",
+      "tvdbEpisodeId": "11749116",
+      "youtubeId": "C_TvsFED5gY",
+      "userOriginallySelected": 2,
+      "proposedReplacementVariant": 3,
+      "originalImageURL": "https://i.ytimg.com/vi/C_TvsFED5gY/maxres2.jpg",
+      "proposedImageURL": "https://i.ytimg.com/vi/C_TvsFED5gY/maxres3.jpg",
+      "proposedSHA256": "7b43738aa8c842d97cb291954a6988fa0fab2ab4776fb85c10bed42158657769",
+      "reason": "Portrait filmé dans le véhicule sans encart de score 27 %",
+      "selectionState": "REQUIRES_USER_APPROVAL",
+      "uploadApproved": false,
+      "currentTVDBImageState": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED"
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E55",
+      "tvdbEpisodeId": "11980082",
+      "youtubeId": "YqWzuXN9eSI",
+      "userOriginallySelected": 2,
+      "proposedReplacementVariant": 1,
+      "originalImageURL": "https://i.ytimg.com/vi/YqWzuXN9eSI/maxres2.jpg",
+      "proposedImageURL": "https://i.ytimg.com/vi/YqWzuXN9eSI/maxres1.jpg",
+      "proposedSHA256": "cdf8cd25c436bc46b3f825194bf9457bbe1944b86ce42c0e880fca562e9a6a57",
+      "reason": "Scène de l'événement sans comparatif AVANT/APRÈS",
+      "selectionState": "REQUIRES_USER_APPROVAL",
+      "uploadApproved": false,
+      "currentTVDBImageState": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED"
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E54",
+      "tvdbEpisodeId": "11972232",
+      "youtubeId": "x9e8hggcGhM",
+      "userOriginallySelected": 3,
+      "proposedReplacementVariant": 2,
+      "originalImageURL": "https://i.ytimg.com/vi/x9e8hggcGhM/maxres3.jpg",
+      "proposedImageURL": "https://i.ytimg.com/vi/x9e8hggcGhM/maxres2.jpg",
+      "proposedSHA256": "078b2c83757ea477f35760b6511dea70e2172430892774d96cf5990a3f2aff07",
+      "reason": "Portrait net de la vidéo sans mention commerciale visible",
+      "selectionState": "REQUIRES_USER_APPROVAL",
+      "uploadApproved": false,
+      "currentTVDBImageState": "HISTORICAL_MISSING_ONLY_RECHECK_REQUIRED"
+    }
+  ],
+  "reclassified": [
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E56",
+      "originalUserVariant": 1,
+      "decision": "PLAUSIBLE_AFTER_HIGH_RES_RECHECK_NEEDS_FINAL_PREFLIGHT",
+      "basis": "Full 1280x720 chosen image contains a face shot without visible collaboration-commerciale text overlay; former block was overcautious",
+      "originalImageURL": "https://i.ytimg.com/vi/rJINZv9n9F0/maxres1.jpg",
+      "uploadApproved": false
+    }
+  ],
+  "stillAmbiguous": [
+    {
+      "chain": "Raska",
+      "episode": "S2020E09"
+    },
+    {
+      "chain": "Raska",
+      "episode": "S2020E12"
+    }
+  ],
+  "notReplaced": "All other blocks and six explicit NONE still need genuinely clean frame deeper in matched public videos; do not erase text from existing image",
+  "policy": "User must explicitly approve a variant replacement; this checkpoint is not approval to upload. Account upload restriction unconfirmed lifted, and current TVDB artwork presence unverified for historic archive-only chains. No TheTVDB writes."
+}
