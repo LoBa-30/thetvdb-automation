@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-08",
+  "mode": "OPTION_A_291_USER_CHOICES_AND_MASTU_224_COVERAGE_CHECKPOINT",
+  "source": "Latest user uploaded TheTVDB_optionA_Mastu_56_supplementaires_choix_pour_verification.json, plus preserved earlier 235 user choices",
+  "sourceSHA256": "2c1f88c8d028d39626c17981ce759f4cd2999ac971d631fe2eb33537b0bf2282",
+  "summary": {
+    "totalUserSelections": 291,
+    "selectedImages": 285,
+    "NONE": 6,
+    "selectedEpisodesMastu": 224,
+    "selectedOtherCreatorEpisodes": 67,
+    "latestMastuNewUserSelections": 56,
+    "latestMastuModifiedSelections": 1,
+    "sourcePublicMastuMissingArtIDCount": 240,
+    "sourceArtEpisodesCoveredByCurrentUserSelections": 224,
+    "unresolvedTVDBMissingWithoutConfirmedSource": 16,
+    "duplicateMastuTVDBIDs": 0,
+    "theTVDBWrites": 0
+  },
+  "primaryLatestSource": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+  "scopeAndCaveats": {
+    "sourcePublicInventoryDate": "2026-10-08",
+    "sourceArtworkUploadRestrictionLiftConfirmed": false,
+    "oldOtherCreatorTVDBIDsMissing": 67,
+    "otherCreatorIdentitiesKeyedByChainAndEpisode": true,
+    "blockedUserSelection": {
+      "episode": "S2016E01",
+      "TVDBID": "9195558",
+      "youtubeID": "m6jee4vPG5c",
+      "userVariant": 2,
+      "reason": "Hardcoded date/time visible in selected frame. 2026-10-08 attempt to retrieve alternative genuine video frame stopped when Googlevideo returned HTTP 403 Forbidden. No workaround attempted, no upload.",
+      "status": "BLOCKED_REVIEW_ONLY"
+    },
+    "additionalIssues": [
+      {
+        "episode": "S2021E18",
+        "reason": "User-selected episode still has yellow subtitles per prior visual review"
+      },
+      {
+        "episode": "S2020E35",
+        "reason": "User-selected episode still has TikTok watermark per prior visual review"
+      },
+      {
+        "episode": "S2025E02",
+        "reason": "Title punctuation/emoji exactness mismatch; do not silently rewrite"
+      }
+    ]
+  },
+  "safety": [
+    "No TheTVDB image, episode, or metadata writes",
+    "No interpretation of review JSON as permission to upload",
+    "No bypass of HTTP403, site challenge or active moderation restriction",
+    "All historical provenance tickets remain protected and no deletions are proposed",
+    "Fresh preflight of artwork presence, image compliance, exact ID matching and permissions required prior to any future write"
+  ]
+}
