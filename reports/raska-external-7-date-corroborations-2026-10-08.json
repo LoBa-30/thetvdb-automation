@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_RASKA_SECONDARY_PUBLICATION_DATE_EVIDENCE",
+  "baseline": "reports/raska-exact-date-audit-v2/report.json",
+  "summary": {
+    "sourceRows": 149,
+    "initialYoutubePrimaryExactDatesRetrieved": 0,
+    "originalPrimaryDatesUnverifiedInScope": 148,
+    "externalDateMatchesCorroboratedNow": 7,
+    "remainingWithNoSecondaryCorroborationInScope": 141,
+    "primaryDatesNowVerified": 0,
+    "tvdbDateWrites": 0,
+    "artworkWrites": 0
+  },
+  "rows": [
+    {
+      "episode": "S2026E06",
+      "tvdbEpisodeId": "11978005",
+      "youtubeId": "lFm7662FKBY",
+      "videoTitle": "TROUVE L'ERREUR (temporelle) ft. Nico & Tom Baldetti",
+      "expectedDate": "2026-09-13",
+      "secondaryEvidenceDate": "2026-09-13",
+      "sourceUrl": "https://natas.fr/",
+      "sourceType": "PRODUCTION_CREDIT_FIRST_PARTY",
+      "evidenceNote": "Screenwriter Guillaume Natas lists writing credit for exact Raska title and 13 Sep 2026; corroborated by recent channel index.",
+      "confirmed": "INDEPENDENT_SECONDARY_DATE_CORROBORATED",
+      "officialYoutubePrimaryExactDateFetched": false
+    },
+    {
+      "episode": "S2026E05",
+      "tvdbEpisodeId": "11962093",
+      "youtubeId": "blshMoLZ02c",
+      "videoTitle": "On réalise son rêve à 74 ans (rêve n°2)",
+      "expectedDate": "2026-07-05",
+      "secondaryEvidenceDate": "2026-07-05",
+      "sourceUrl": "https://www.rebolio.com/channel/raska",
+      "sourceType": "THIRD_PARTY_CHANNEL_VIDEO_INDEX",
+      "evidenceNote": "Indexed Raska channel list states 5 Jul 2026.",
+      "confirmed": "INDEPENDENT_SECONDARY_DATE_CORROBORATED",
+      "officialYoutubePrimaryExactDateFetched": false
+    },
+    {
+      "episode": "S2026E04",
+      "tvdbEpisodeId": "11859542",
+      "youtubeId": "929z7AEVTWU",
+      "videoTitle": "TU PERDS, TU SAUTES ! (Ft. Theobabac, Giuseppe, Tsuku & Just1bisou)",
+      "expectedDate": "2026-06-20",
+      "secondaryEvidenceDate": "2026-06-20",
+      "sourceUrl": "https://gensdinternet.fr/2026/06/25/jean-paul-gaultier-accompagne-raska-pour-son-dernier-concept-sur-youtube/",
+      "sourceType": "CONTEMPORANEOUS_PRESS",
+      "evidenceNote": "Contemporary 25 Jun article states video published 20 Jun.",
+      "confirmed": "INDEPENDENT_SECONDARY_DATE_CORROBORATED",
+      "officialYoutubePrimaryExactDateFetched": false
+    },
+    {
+      "episode": "S2026E03",
+      "tvdbEpisodeId": "11859543",
+      "youtubeId": "rJ26AtgyIWc",
+      "videoTitle": "Une journée pour tout nettoyer (ft. Élian)",
+      "expectedDate": "2026-04-13",
+      "secondaryEvidenceDate": "2026-04-13",
+      "sourceUrl": "https://www.rebolio.com/channel/raska",
+      "sourceType": "THIRD_PARTY_CHANNEL_VIDEO_INDEX",
+      "evidenceNote": "Indexed Raska channel list states 13 Apr 2026.",
+      "confirmed": "INDEPENDENT_SECONDARY_DATE_CORROBORATED",
+      "officialYoutubePrimaryExactDateFetched": false
+    },
+    {
+      "episode": "S2026E02",
+      "tvdbEpisodeId": "11859544",
+      "youtubeId": "lTaChQ3QODA",
+      "videoTitle": "On se téléporte dans Breaking Bad... (ft. Grandingo)",
+      "expectedDate": "2026-03-15",
+      "secondaryEvidenceDate": "2026-03-15",
+      "sourceUrl": "https://www.rebolio.com/channel/raska",
+      "sourceType": "THIRD_PARTY_CHANNEL_VIDEO_INDEX",
+      "evidenceNote": "Indexed Raska channel list states 15 Mar 2026.",
+      "confirmed": "INDEPENDENT_SECONDARY_DATE_CORROBORATED",
+      "officialYoutubePrimaryExactDateFetched": false
+    },
+    {
+      "episode": "S2026E01",
+      "tvdbEpisodeId": "11859545",
+      "youtubeId": "TfdTovZiqSc",
+      "videoTitle": "TROUVE L'ERREUR ! (ft. SEB & SOFYAN)",
+      "expectedDate": "2026-01-18",
+      "secondaryEvidenceDate": "2026-01-18",
+      "sourceUrl": "https://www.rebolio.com/channel/raska",
+      "sourceType": "THIRD_PARTY_CHANNEL_VIDEO_INDEX",
+      "evidenceNote": "Indexed Raska channel list states 18 Jan 2026.",
+      "confirmed": "INDEPENDENT_SECONDARY_DATE_CORROBORATED",
+      "officialYoutubePrimaryExactDateFetched": false
+    },
+    {
+      "episode": "S2025E07",
+      "tvdbEpisodeId": "11860658",
+      "youtubeId": "f7rK3pje4C4",
+      "videoTitle": "On rénove chez quelqu’un… sans lui demander (avec Natoo)",
+      "expectedDate": "2025-12-14",
+      "secondaryEvidenceDate": "2025-12-14",
+      "sourceUrl": "https://gensdinternet.fr/2025/12/15/raska-et-natoo-meublent-un-appartement-avec-leboncoin/",
+      "sourceType": "CONTEMPORANEOUS_PRESS",
+      "evidenceNote": "Contemporary 15 Dec article states video published 14 Dec.",
+      "confirmed": "INDEPENDENT_SECONDARY_DATE_CORROBORATED",
+      "officialYoutubePrimaryExactDateFetched": false
+    }
+  ],
+  "safeguards": [
+    "Producer credit and contemporaneous press are independent evidence but do not replace exact official YouTube API upload_date in the source report.",
+    "Do not infer 148 correct dates from zero mismatches when primary publication dates were unavailable.",
+    "Do not alter TVDB dates based on title-only name matches.",
+    "A current public channel index may omit historical or deleted videos; do not delete based on absence."
+  ]
+}
