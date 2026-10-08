@@ -1,0 +1,1469 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_VIDEO_FRAME_PRECHECK_FOUR_CHAINS",
+  "scope": "12 early research cases per chain from existing historical audit; ALL MISSING FLAGS HISTORICAL, not live verified after site HTTP 202 limit",
+  "nativeFramesDownloaded": 144,
+  "plausiblePreselected": 44,
+  "blockedForDeeperSource": 4,
+  "byChain": {
+    "Squeezie": {
+      "suggested": 12,
+      "blocked": 0
+    },
+    "Amixem": {
+      "suggested": 12,
+      "blocked": 0
+    },
+    "Joyca": {
+      "suggested": 8,
+      "blocked": 4
+    },
+    "Mcfly & Carlito": {
+      "suggested": 12,
+      "blocked": 0
+    }
+  },
+  "rows": [
+    {
+      "chain": "Squeezie",
+      "code": "S2021E53",
+      "tvdbEpisodeId": "9098534",
+      "youtubeId": "PC6fjazOetE",
+      "title": "on piège des abonnés avec nos sosies",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/PC6fjazOetE/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "a9e6032fdebeeedb2b6977d6d4ab46397f9624329814565539da3e7a1fa48519"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/PC6fjazOetE/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "894d8d6c86f3591c2c7071f8a2e59597c0e54e9508cf99b6392f917929e41240"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/PC6fjazOetE/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "74aabba68be35bc48ec67b13841219c9dcaf7192de420741a88777e70b8654c0"
+        }
+      ]
+    },
+    {
+      "chain": "Squeezie",
+      "code": "S2021E48",
+      "tvdbEpisodeId": "8771051",
+      "youtubeId": "qsUQFvyLDOw",
+      "title": "l'histoire folle de ce trafiquant que personne ne connaît",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/qsUQFvyLDOw/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "e0ebc02a39e10110a311e8650aa99c622e164f61add81da1877c3ec58c575ed9"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/qsUQFvyLDOw/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "a3204119b2d335d617367653f03205cc34fb78f7a1ea6eac67c70aedc16c679c"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/qsUQFvyLDOw/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "88c0b11fc91da189d5b8a4aa20d74e7ef094dcc8041234e40cced7e3476732f1"
+        }
+      ]
+    },
+    {
+      "chain": "Squeezie",
+      "code": "S2021E47",
+      "tvdbEpisodeId": "8771049",
+      "youtubeId": "1072kUp4i1E",
+      "title": "ces caméras filment des trucs incroyables",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/1072kUp4i1E/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "f9be29bb9c209d09ae00294cbfa975cabbe117cfe643a8259e5cdfe604b73ddb"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/1072kUp4i1E/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "2bc03e9e6b6acc91c33d9d23e8aaf5766017bc8beba39578ba19c62e90938727"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/1072kUp4i1E/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "9ed4ece90b572f186b047b3f266de959929c6efcc916d9352ce69a320642a851"
+        }
+      ]
+    },
+    {
+      "chain": "Squeezie",
+      "code": "S2021E46",
+      "tvdbEpisodeId": "8771047",
+      "youtubeId": "2CR21MSyTc4",
+      "title": "rien ne s’est passé comme prévu",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/2CR21MSyTc4/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "94616c7ed917d76540b869fa98cdc478bfdd6660430202b760a970952e241808"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/2CR21MSyTc4/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "10a22607a1661640218736dfc77a0c0e74f87b93c1cf1eaba350fb6f05166dc6"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/2CR21MSyTc4/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "c5cec52aef1abf14d6033ca9fc0c1c849f9c1ddcd98b5895a1a4a97abc4ad753"
+        }
+      ]
+    },
+    {
+      "chain": "Squeezie",
+      "code": "S2021E45",
+      "tvdbEpisodeId": "8771045",
+      "youtubeId": "yzuwQlcGde8",
+      "title": "ne la laissez pas vous toucher",
+      "preselectVariant": 3,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/yzuwQlcGde8/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "4bea3e579912540dccfb039c6a3cc58eb239901f99a4bea621ef317ff467a93d"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/yzuwQlcGde8/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "cad91c7a8fde0da6aecff331114de6712e5c5298431bb4d112e4489aa9e1c615"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/yzuwQlcGde8/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "d7bd1049c71113d4d8b7bf17e211c5a2911de877468237350fa600614ac5b473"
+        }
+      ]
+    },
+    {
+      "chain": "Squeezie",
+      "code": "S2021E44",
+      "tvdbEpisodeId": "8771043",
+      "youtubeId": "XdGE3AW-qdw",
+      "title": "y'avait 0,1% de chance que ça arrive",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/XdGE3AW-qdw/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "8b20ecb742a78bf4ad8ffdadbd80d786769f5ff91504dbd06eb3d675e7430059"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/XdGE3AW-qdw/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "0dadba956317f5d452eb16565a72ba428d8841561649f7cf54f850551f39fd1e"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/XdGE3AW-qdw/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "5d57242af03dcc235c3b66f629deb5c86caef8b0a60a6a283a2eb442e77d73b6"
+        }
+      ]
+    },
+    {
+      "chain": "Squeezie",
+      "code": "S2021E43",
+      "tvdbEpisodeId": "8771041",
+      "youtubeId": "aW2expJrXwQ",
+      "title": "il n'aurait pas dû survivre à ça",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/aW2expJrXwQ/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "0436a50a851b10e35c40686697f06352b746bcfb8679d5338a229da4246eed49"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/aW2expJrXwQ/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "67744ace1651e03a8407573bb5b8b7bd9976ab48ab6850ffd61cd396d1ad7208"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/aW2expJrXwQ/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "a368ae132fe2ed3e9d985d4e152f89f7bce5d5c40c9b0218fd5d74c1e3e8ffea"
+        }
+      ]
+    },
+    {
+      "chain": "Squeezie",
+      "code": "S2021E42",
+      "tvdbEpisodeId": "8771039",
+      "youtubeId": "efibkS_ClF0",
+      "title": "on a pas les mêmes vacances qu’eux",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/efibkS_ClF0/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "8aa3673eb82e9f812cb936eff129b8092eb0ff022280782f0360840a00e07695"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/efibkS_ClF0/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "fcad966a2e48589244fd762a9d75fcd9261c5e84190f235f6ed836a3d24c3eef"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/efibkS_ClF0/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "eba11759bdba3927496456efd4e2273768b87da5c8dc9909a708d3f1f867ae85"
+        }
+      ]
+    },
+    {
+      "chain": "Squeezie",
+      "code": "S2021E41",
+      "tvdbEpisodeId": "8771037",
+      "youtubeId": "rJbJ2sxgBXM",
+      "title": "je réponds à vos questions osées (FAQ 2021)",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/rJbJ2sxgBXM/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "27ddf499a3891ec726be8aa298f6fedeb1a52c606189f43dd8b1fbee86d3c9ab"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/rJbJ2sxgBXM/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "2bf2f64bbeffa48df3dfe1f176c8bad6df6c3a29cbebf70ba4a8da223d0c14aa"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/rJbJ2sxgBXM/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "e72528743c3e6967e659f90ab5190ca5b7ec3f2ea3a0e94cc3c1e3bffe4432f3"
+        }
+      ]
+    },
+    {
+      "chain": "Squeezie",
+      "code": "S2021E40",
+      "tvdbEpisodeId": "8771035",
+      "youtubeId": "u1tydg2arAw",
+      "title": "elle s'attendait pas à tomber sur ça",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/u1tydg2arAw/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "238d2e956a5eba1a22be29843a544c4b8e0cf40b0f8042da850aaaa835e9946c"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/u1tydg2arAw/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "1165d2baa18c30245021734a71a09b47b8d46251ff41f7191da41cf4e8b7a4e6"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/u1tydg2arAw/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "3a683cac8e28f2d93703c649be8a8d200fda142de60b4daeae5f44441fef242e"
+        }
+      ]
+    },
+    {
+      "chain": "Squeezie",
+      "code": "S2021E39",
+      "tvdbEpisodeId": "8571444",
+      "youtubeId": "8ZBXCtqKmaA",
+      "title": "SOS Streaming : 3 jours pour devenir le meilleur",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/8ZBXCtqKmaA/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "80557c2ea0453141a245375df173b01e65f6dc50e1395b790b107ad1b24fd6e3"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/8ZBXCtqKmaA/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "ae3aa5067c24783ca09e0620076d3fdef7da3943ccc3c8a6051e262b5aff99d1"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/8ZBXCtqKmaA/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "d2efd11cfebd7ebe106715b8526b6320d86439e6313aafc1bd5380225d986eb7"
+        }
+      ]
+    },
+    {
+      "chain": "Squeezie",
+      "code": "S2021E38",
+      "tvdbEpisodeId": "8571442",
+      "youtubeId": "d6k9iGHlgFA",
+      "title": "mes rencontres les plus étranges...",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/d6k9iGHlgFA/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "01f8654ef26383ac7e69db62497eb1efdf8f6c1476851c57cc6bf9e9b35843c4"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/d6k9iGHlgFA/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "ad9aa071a06e70de434282f80e646edca20f296a1dbe2c0bdbc91fe71d07ef31"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/d6k9iGHlgFA/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "0e2792ed749848eb870b9a5bb33fb0ef4e793050054d1745f184ce46fed0f206"
+        }
+      ]
+    },
+    {
+      "chain": "Amixem",
+      "code": "S2026E40",
+      "tvdbEpisodeId": "12018655",
+      "youtubeId": "s5ssqJLDdxA",
+      "title": "ON VIT 24H DANS UN PHARE EN PLEINE MER !",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/s5ssqJLDdxA/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "f59fbbfbaac1a30ef3cb110df15882370e13778cdea3d7276fe7c1131a1dd40d"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/s5ssqJLDdxA/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "852f18c9c1f31e9f18303a9a94572eab6e5812aaed687d08782ae26341309e0a"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/s5ssqJLDdxA/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "daf629cc3d4a4adb6b6391a75490b6a3173ec0acd2af3347f041952f7fca3e70"
+        }
+      ]
+    },
+    {
+      "chain": "Amixem",
+      "code": "S2026E39",
+      "tvdbEpisodeId": "12013427",
+      "youtubeId": "eIp9I2RwmK0",
+      "title": "LES PIRES BOULETTES AU TRAVAIL ! #4 (ça a mal tourné...)",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/eIp9I2RwmK0/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "cb52ed4f4cd71ee34869d98344ec9a27ecd6df7c69531f45b4bceff47a14492d"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/eIp9I2RwmK0/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "9feca367f063283a0f094caf6413bac53cd0a6f05d21185d441c6a6343b1d992"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/eIp9I2RwmK0/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "eabf1aba669ad661de45c6d0d41d5d4926437364d2825f9738cdfab1926d686d"
+        }
+      ]
+    },
+    {
+      "chain": "Amixem",
+      "code": "S2026E38",
+      "tvdbEpisodeId": "12006517",
+      "youtubeId": "zr8xc870_2o",
+      "title": "J'ai acheté tous les objets AMAZON avec ZÉRO AVIS ‘ #3",
+      "preselectVariant": 3,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/zr8xc870_2o/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "28f9c417a6c9af5d126453bd4c2a34131843ea2e97b55bc68de887e36ee0765d"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/zr8xc870_2o/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "27df1145b78ca96277528daf2fbd58c286c7e3298c007f8abe7e5b375c9f5881"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/zr8xc870_2o/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "862a13a0f3b0ba9c41e16dc672d011f9248e6508960d228bb072afe18e8e6680"
+        }
+      ]
+    },
+    {
+      "chain": "Amixem",
+      "code": "S2026E37",
+      "tvdbEpisodeId": "11997314",
+      "youtubeId": "IUn6P8RSsOg",
+      "title": "J’ai acheté tous les objets des pubs TikTok #7",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/IUn6P8RSsOg/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "a2c6167e5e34d61dda1d3118460ceab14b15d3fe622d93b52dac4dff7587077e"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/IUn6P8RSsOg/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "798749b8547c94b6f1328ef3027b10d2cbcb75f7d4e8a709cec03676c702c1de"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/IUn6P8RSsOg/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "b743263d24ab306970063d1934d4cf4e088aad51e105f204f4040d4e3809623c"
+        }
+      ]
+    },
+    {
+      "chain": "Amixem",
+      "code": "S2026E36",
+      "tvdbEpisodeId": "11977088",
+      "youtubeId": "lOR96LbTMp4",
+      "title": "ON MANGE 50 ALIMENTS DE LUXE (et on les juge) #2",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/lOR96LbTMp4/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "406575c3bdac639e389c595bdf0673dfe64ea4444a9fb814b0b1b6e1692d18c6"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/lOR96LbTMp4/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "d5417fb0c9ec4171086c31f1f9c4404eb4fac48e1796437fb835d20974ed846d"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/lOR96LbTMp4/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "8577c36cf0b158c05ae3efbdead9a3d1b5b40ba77c16bd8a62e2a1a07090ae75"
+        }
+      ]
+    },
+    {
+      "chain": "Amixem",
+      "code": "S2026E35",
+      "tvdbEpisodeId": "11967143",
+      "youtubeId": "9q9NJvRDzzM",
+      "title": "LES PIRES MOTS DANS LE CARNET ! #12",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/9q9NJvRDzzM/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "39d36c581a38695c1bf6b038b0f0024af8f392b6e7cf7bd03b7c580ddc81a394"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/9q9NJvRDzzM/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "2ac3f4fb78408619e6258c44e53712bb62515295c4022ed6278716cf391f3e04"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/9q9NJvRDzzM/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "9d0df108f37e1b4e4beb81a24a22c29454113ffbb5994c68b076ebe829e6cfcd"
+        }
+      ]
+    },
+    {
+      "chain": "Amixem",
+      "code": "S2026E34",
+      "tvdbEpisodeId": "11954902",
+      "youtubeId": "l1bW68QJMUI",
+      "title": "JE VISITE LES 3 LIEUX LES + INTERDITS de FRANCE !",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/l1bW68QJMUI/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "56918aeaebbd9d96265080ef5999514b0092068584f439e807b2e66abee7d29f"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/l1bW68QJMUI/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "8d9eee1fcd08a89350ffbbe08c3d467186b446979dedb8a4fdad5bb34afbfa75"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/l1bW68QJMUI/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "b8545e9697a9bc91f2263e7d41962a086300828fb7cc29dbcfa9140068037b8f"
+        }
+      ]
+    },
+    {
+      "chain": "Amixem",
+      "code": "S2026E33",
+      "tvdbEpisodeId": "11926789",
+      "youtubeId": "UMPJEUeo3Og",
+      "title": "1000 COUCHES DE ROCHES (on s’évade de notre prison)",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/UMPJEUeo3Og/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "bfcf61b4b742f11d513d7338412e5122969c686469233922b1ed4f6ab3108b61"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/UMPJEUeo3Og/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "8862513175b39deb8e1e215e89ebf0b7b33bc966a2880d426d4141b857735513"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/UMPJEUeo3Og/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "ecfd21f1d7962f831479fa52a41cfae66eca4f702d505b35389bc08ca5ac645b"
+        }
+      ]
+    },
+    {
+      "chain": "Amixem",
+      "code": "S2026E32",
+      "tvdbEpisodeId": "11908251",
+      "youtubeId": "qcADaHopkKM",
+      "title": "On juge 50 SOSIES ! avec Mcfly et Carlito #4",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/qcADaHopkKM/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "17aaebcfb32299a4dd32745bfb181bc3c78bb6413e5db831f43f8403b0c351e7"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/qcADaHopkKM/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "87db6e434cd45b79ad871850cd521b632d623680e095b00147f921918d3a90cc"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/qcADaHopkKM/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "a9db2012b981a5f7b4a0461d54b83f56089fa9d579680c7e9b84aa9457896c00"
+        }
+      ]
+    },
+    {
+      "chain": "Amixem",
+      "code": "S2026E31",
+      "tvdbEpisodeId": "11898904",
+      "youtubeId": "JOUwwQPacy0",
+      "title": "J'AI ACHETÉ UNE MAISON SUR TIKTOK (et je regrette pas)",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/JOUwwQPacy0/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "b6381f3111cc699a6195c3adcf232e64b4acd567c2ec0e1fbd4ba572f1b5925d"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/JOUwwQPacy0/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "f766d3ede96d5952378e5b25140bbd5f824832985e2da47852098bec4f62d80f"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/JOUwwQPacy0/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "ae19877cb29a942c8758c389e4f11e5065a2dae646fbd8724c2c28597494c959"
+        }
+      ]
+    },
+    {
+      "chain": "Amixem",
+      "code": "S2026E30",
+      "tvdbEpisodeId": "11890070",
+      "youtubeId": "ZlLSp6d3CxQ",
+      "title": "TROUVE LA PIÈCE SECRÈTE (on a repoussé les limites) #3",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/ZlLSp6d3CxQ/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "9d40adc14b1bf48df0a60472c4e1bfbe29e96bdb4c9530dbc40a5c03f60a9b84"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/ZlLSp6d3CxQ/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "853ca29e7a6e54717f1ea96eee9e3206f8830894f515b08b0bca3bd5c84215b4"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/ZlLSp6d3CxQ/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "931524ab7bc50ca1c04c226024af79a585a697f7624c28ce17ae4791edd2eb0a"
+        }
+      ]
+    },
+    {
+      "chain": "Amixem",
+      "code": "S2026E29",
+      "tvdbEpisodeId": "11882620",
+      "youtubeId": "0c3i5TOox3E",
+      "title": "ON MANGE 30 PLATS DE JEUX VIDÉO (et on les juge)",
+      "preselectVariant": 3,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/0c3i5TOox3E/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "cc91f86dfd1bf94bb423caf850d6a52dde66f207a05290a5c870473c67f567d3"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/0c3i5TOox3E/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "748c7dec2b1766ab7a20ce27e0bfd1af5f4b071fa4a7ebd8613484ffc212d354"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/0c3i5TOox3E/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "a56f9484cad9dc0466a7ffeab48104553d43edd204422115a97e36f697daa7b4"
+        }
+      ]
+    },
+    {
+      "chain": "Joyca",
+      "code": "S2026E17",
+      "tvdbEpisodeId": "12006506",
+      "youtubeId": "tE9MMqYu2Bk",
+      "title": "24H DANS LE NOIR TOTAL ! (Cette maison n'a aucun sens)",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/tE9MMqYu2Bk/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "670ea8b511319ac23f09e92515e1244d3d19732aa745d2d42cb6051e4662ae95"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/tE9MMqYu2Bk/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "f2d839f90c67dd922b49780a17f4efe5edc9cf9b5b94d7b98a26f0d64f1c0577"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/tE9MMqYu2Bk/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "33c3773ed2f570ac02fabe03c8efc0b0679b0fb83fc65f4ffbbd4b1d3754fe77"
+        }
+      ]
+    },
+    {
+      "chain": "Joyca",
+      "code": "S2026E16",
+      "tvdbEpisodeId": "11978441",
+      "youtubeId": "HpX5R9rq-1M",
+      "title": "48H POUR REMPLIR UNE CAMIONNETTE D'OBJETS ABANDONNÉS (Avec Maxime Biaggi)",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/HpX5R9rq-1M/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "ad17450691f7ac7a68072185106bf2b111f82cad8aae3ed6f04c343e612b166e"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/HpX5R9rq-1M/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "9628999b76249331ee3f55ff7689f4140249545a567ec44a719e8f1adb5c6d02"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/HpX5R9rq-1M/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "0c73732a8bf2ec44a1e27b286b9b19cd09f56440d2a2f3d7d975adfffb0a373b"
+        }
+      ]
+    },
+    {
+      "chain": "Joyca",
+      "code": "S2026E15",
+      "tvdbEpisodeId": "11954903",
+      "youtubeId": "mq01XDS2yUU",
+      "title": "72H SANS POUVOIR DIRE ”NON” (En Martinique)",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/mq01XDS2yUU/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "fc8164a31005d66e205a71d583bb6d5fb53c447e7be086332c739d09e7ff1ff9"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/mq01XDS2yUU/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "fb38902e82294837dec03ae112a3fe4aa8866ab0992b4af63295f0fd2fa79c2f"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/mq01XDS2yUU/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "3e42ce4ccf4b0cb71bcec7a9ea325f06df7586cd3bddd2855408236dbdca2199"
+        }
+      ]
+    },
+    {
+      "chain": "Joyca",
+      "code": "S2026E14",
+      "tvdbEpisodeId": "11908448",
+      "youtubeId": "n7ASn5NsoPA",
+      "title": "ON JUGE TOUS LES BILLETS DU MONDE (Avec Mcfly & Carlito et Mathieu)",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/n7ASn5NsoPA/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "357f143bcc7c3d1f1b168fe1a52987b82a6480d30f2cf06fbfe40aaba55e64f9"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/n7ASn5NsoPA/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "fa1b3c795f8f19b46dc6984e28ae61ea3752c90f744fab8b1e4504bbdc99ea09"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/n7ASn5NsoPA/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "20f6e25f255fdfbce34a7a8cd8c4ea60189155ba3c7a816acf22867238aff87f"
+        }
+      ]
+    },
+    {
+      "chain": "Joyca",
+      "code": "S2026E13",
+      "tvdbEpisodeId": "11882646",
+      "youtubeId": "jRf8lD4tVnA",
+      "title": "On teste des lieux notés 1 étoile ! (En Angleterre) ★☆☆☆☆",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/jRf8lD4tVnA/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "81f53b1b173a5324e6638e856a1b611309850fa2680898e873e974de3f7bc29b"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/jRf8lD4tVnA/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "cc30c893138588fb711d82d1f8953a3bff25272fecf5680117ce85abb68231f2"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/jRf8lD4tVnA/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "bfab3821ae6e9084898843cdb24299571959109fea6f9b37e0bc6adb79279021"
+        }
+      ]
+    },
+    {
+      "chain": "Joyca",
+      "code": "S2026E12",
+      "tvdbEpisodeId": "11865119",
+      "youtubeId": "90VcMwYZgNg",
+      "title": "LE JUSTE POIDS ! (Avec Djilsi et Nico)",
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_VISUAL_UNSUITABILITY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/90VcMwYZgNg/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "e556774c2c054ca7b70e905135ac7e2c27f4ece0c5a75a2803b10f16f6120137"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/90VcMwYZgNg/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "0b93e04f41360090459551b780fee326d233bbefb4cf4337f179b1042e3124f3"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/90VcMwYZgNg/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "6b7f71106bd59a30016dc8ba5de3fd0d6745d499a74f82da3896b86ba541e428"
+        }
+      ]
+    },
+    {
+      "chain": "Joyca",
+      "code": "S2026E11",
+      "tvdbEpisodeId": "11833897",
+      "youtubeId": "ohPHwSVQweY",
+      "title": "LE DILEMME PARFAIT ! (ft. Vald, Seb, HugoDécrypte)",
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_VISUAL_UNSUITABILITY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/ohPHwSVQweY/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "146c99270c7a2160380e0be17428be5318668453ffcccdccf701164ad4910e30"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/ohPHwSVQweY/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "a183c3e53179ac267bb0da9b78307661a376f1289aaa301441ab85ccc3035060"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/ohPHwSVQweY/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "439f3a2bbeaf67d9324f1970b465e42166932029fcbe0aef7720147dd472cbc5"
+        }
+      ]
+    },
+    {
+      "chain": "Joyca",
+      "code": "S2026E10",
+      "tvdbEpisodeId": "11809946",
+      "youtubeId": "5TjFUj3JaLg",
+      "title": "SAUVE LE SHERIF ! (Avec Djilsi, Maxime Biaggi, Seb, Sofyan, Etoiles, Mathieu)",
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_VISUAL_UNSUITABILITY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/5TjFUj3JaLg/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "58d5273fb1be0af11719be06f727defc805b34daee6af5f352349c51d8c80d0e"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/5TjFUj3JaLg/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "b889a4df17dbed202864ef1f568213120e9bd5c42f6a672def715cab3da38e0e"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/5TjFUj3JaLg/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "94c67f23643089b95277015b7bbf01459c04d1776f39f8c5f62156faa9ea45d8"
+        }
+      ]
+    },
+    {
+      "chain": "Joyca",
+      "code": "S2026E09",
+      "tvdbEpisodeId": "11775704",
+      "youtubeId": "HE9yP4drJ1w",
+      "title": "TIK TOK M'A FAIT ACHETER ÇA ! (j'ai failli tout cramer) #11",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/HE9yP4drJ1w/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "c0c81309563a5a94feda50b634aa46e301d538971a9466403d8592805de3f86a"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/HE9yP4drJ1w/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "412dce9032789186dd94d6a2873066e69746e11e3d6f150c286e69db942a77af"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/HE9yP4drJ1w/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "396a0e197365be4092f04ea4c2d1a3ba61832af2a7a379f8aa20b964303c20ae"
+        }
+      ]
+    },
+    {
+      "chain": "Joyca",
+      "code": "S2026E08",
+      "tvdbEpisodeId": "11749116",
+      "youtubeId": "C_TvsFED5gY",
+      "title": "ON NE DOIT PAS SE FAIRE RECALER ! (Avec Seb et Sofyan)",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/C_TvsFED5gY/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "84ce0c7b9fd47499dfef120f7bba5dac47f438d0fe9efc04558d4b92a2738d0c"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/C_TvsFED5gY/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "6fbadec26ba3398c8b4fb4c7e65ad7a42223dc643c239fa5014ae8ed2695a200"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/C_TvsFED5gY/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "7b43738aa8c842d97cb291954a6988fa0fab2ab4776fb85c10bed42158657769"
+        }
+      ]
+    },
+    {
+      "chain": "Joyca",
+      "code": "S2026E07",
+      "tvdbEpisodeId": "11719791",
+      "youtubeId": "sd88Ysxj2mU",
+      "title": "ON TESTE 30 FROMAGES BIZARRES ! (ft. McFly et Carlito)",
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_VISUAL_UNSUITABILITY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/sd88Ysxj2mU/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "59fc0d1fef3bc6eb5ec37dfcc9e067e1d12aba48677140e74eba7a3583ba580a"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/sd88Ysxj2mU/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "67a66a57ce10528ed3bc404a1d4ed34a56409ba1c1fbc53e74465ac1f2728f62"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/sd88Ysxj2mU/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "9f7605f2a53d176191bb6f2152bb8f9ea20949f63aa024491ecd7a405c5c2adf"
+        }
+      ]
+    },
+    {
+      "chain": "Joyca",
+      "code": "S2026E06",
+      "tvdbEpisodeId": "11690968",
+      "youtubeId": "fHHY1iAhflA",
+      "title": "LE DILEMME PARFAIT (Avec Djilsi, Bigflo et Oli)",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/fHHY1iAhflA/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "ba6f6576ad5cb263a84e81817156a74e80e6a342b475c0c438cb0394fc4075ec"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/fHHY1iAhflA/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "67a1d904a960ca82c2954a4d94eb6056e54e19dc801bac20a927ab7aba0dddf3"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/fHHY1iAhflA/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "1f34c05bacd4c87fd0556da96210e33456eb5df16acace4e746ab72952cb788c"
+        }
+      ]
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "code": "S2026E60",
+      "tvdbEpisodeId": "12022496",
+      "youtubeId": "QG1WcEWOF4g",
+      "title": "PRIORITIES : vous êtes plus d’accord avec David ou Raf ? (Moi avec Raf) June 6, 2026 YouTube 42",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/QG1WcEWOF4g/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "2b405d8122b812bad79b6aae80446a4a1cd036030340e9732d3d16241a5fbb30"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/QG1WcEWOF4g/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "02425cb9862c7b54c872777e5fb8ab489b144383ba466c9b158b8b8a6b1cf7b0"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/QG1WcEWOF4g/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "1cd076cc7feae21106a8e48e5e952c0dceeeef3adafe53ac9df34ce8fa6a12be"
+        }
+      ]
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "code": "S2026E59",
+      "tvdbEpisodeId": "12013908",
+      "youtubeId": "1cl3-uhXvME",
+      "title": "On réfléchit avec vous sur les nouvelles vidéos (il y aura un test de robinets voilà) October 1, 2026 YouTube 55",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/1cl3-uhXvME/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "78f8e652450433d21d901cf305f394286a0f99cd35e779a2dfa1a869b4c537c9"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/1cl3-uhXvME/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "b2c7ec0986ca78c0a1dc61cf7e0f80dd7126127308282e951dfd02a5f0e283da"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/1cl3-uhXvME/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "a9d95f3954f67651743a236c707b5739809161a22bb3e7a31b921fd589d4f664"
+        }
+      ]
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "code": "S2026E58",
+      "tvdbEpisodeId": "12010839",
+      "youtubeId": "VZYQJ1Taw7k",
+      "title": "Vous avez 36h pour nous trouver à partir de vendredi (36 000€ à la clé) September 29, 2026 YouTube 11",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/VZYQJ1Taw7k/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "98688a69f197e9499347ce5ff261b59862195bd0b602f240971a8d9ea64da5f2"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/VZYQJ1Taw7k/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "f3c8a7dc62700458bb3dfc73d60f1b1e8e6af68fd17a0ef7a469c314fddc17f1"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/VZYQJ1Taw7k/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "8d34e2c42d66db24cc2503d5db5812b4844e3426ca9aa4d04215bdd2c36bfcf1"
+        }
+      ]
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "code": "S2026E57",
+      "tvdbEpisodeId": "11997728",
+      "youtubeId": "8BhWoVSBtwc",
+      "title": "Tierlist des lettres de l’alphabet (désolé à tous les H qui nous regardent) September 22, 2026 YouTube 56",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/8BhWoVSBtwc/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "292fb2dff0ef55dd81407172b3f0b73989d8fae4b87c4fc170984e1a4e968019"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/8BhWoVSBtwc/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "b37698128367b3a354711b0e711eba0b15377d069e6804f1fa38a2eff7aae9ec"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/8BhWoVSBtwc/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "bc13df3fa2d07d23e84b66ad7113d30da04b6e094585d66389b188543d6febe2"
+        }
+      ]
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "code": "S2026E56",
+      "tvdbEpisodeId": "11985725",
+      "youtubeId": "rJINZv9n9F0",
+      "title": "Janco nous parle du projet « Un Commun Accord » que l’on soutient September 17, 2026 YouTube 30",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/rJINZv9n9F0/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "a88dfbf9a0a6e9bbfb60793765e0c688144fe6cfeb8c54330e35c6b3366a752e"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/rJINZv9n9F0/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "792019d48626994bcf782081bb3f1d3bc470410f3bf61ad41ea7ded90801ed27"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/rJINZv9n9F0/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "bf2f0541be3d819ad6613edc3b7144e67c01e115a0d849d3743bd9d1a7b4bcfb"
+        }
+      ]
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "code": "S2026E55",
+      "tvdbEpisodeId": "11980082",
+      "youtubeId": "YqWzuXN9eSI",
+      "title": "Le Zevent c’était fou (coulisses, meilleurs moments, trop d’émotion) September 15, 2026 YouTube 114",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/YqWzuXN9eSI/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "cdf8cd25c436bc46b3f825194bf9457bbe1944b86ce42c0e880fca562e9a6a57"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/YqWzuXN9eSI/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "bc6a62cb210e2da5b81c1b560919a2f31a4d562bcf77e699593bc48c75101dea"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/YqWzuXN9eSI/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "ab227e5e28bd81f2bbc0617b2642cee762376213e25ea522ab00187389834524"
+        }
+      ]
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "code": "S2026E54",
+      "tvdbEpisodeId": "11972232",
+      "youtubeId": "x9e8hggcGhM",
+      "title": "On fait une chanson avec Artus devant 40.000 personnes (vloginho à la Défense Arena) September 10, 2026 YouTube 29",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/x9e8hggcGhM/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "3955e3b87d5ed6fadd6e2a835836bb62e63946df6e94f0ed1ebdbf911ac8246a"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/x9e8hggcGhM/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "078b2c83757ea477f35760b6511dea70e2172430892774d96cf5990a3f2aff07"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/x9e8hggcGhM/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "1806e456ecaa61e2a87e2ce50830aecd38fe3872b9a3eee0b7357398d76a0d20"
+        }
+      ]
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "code": "S2026E53",
+      "tvdbEpisodeId": "11969386",
+      "youtubeId": "luTEU4xa_E8",
+      "title": "On ouvre des cartes One Piece et Mastu garde tous les hits pour lui September 8, 2026 YouTube 56",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/luTEU4xa_E8/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "401d1462200a748b61d352f50d7adcf48fb521b688092208ed48b9dc8f035253"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/luTEU4xa_E8/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "c862ec117a66025599ca4514a3960d8a0f8f3e3faa66a37cd75a44b402a9469f"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/luTEU4xa_E8/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "48bd9e07f61b66d699182052d5b0503226d1b50009e23dedc46166eabe9f4763"
+        }
+      ]
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "code": "S2026E52",
+      "tvdbEpisodeId": "11964356",
+      "youtubeId": "0PHUeNOsbKU",
+      "title": "Salut les petits loulous, on prend le temps ensemble (c’est Baghera, bagherajones sur les réseau) September 5, 2026 YouTube 11",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/0PHUeNOsbKU/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "bac1527b64fbd3193981ec4bd86694175eaecd83b2bbcd784a2f44f26fb59e01"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/0PHUeNOsbKU/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "68d58c2f2d575c2ef5a36edae944d38575f32052f8595a2725ba0de95aa265ec"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/0PHUeNOsbKU/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "3d8cf800c4cc229973b98a9b5f32df7856b50314524e47f06b8ea57cb4c32b40"
+        }
+      ]
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "code": "S2026E51",
+      "tvdbEpisodeId": "11964355",
+      "youtubeId": "m3_WcBvMaV0",
+      "title": "Tu préfères McFly ou Carlito ? (Au Zevent)(orchestré par @thomasdeseur ) (ft. Un mime et @Joyca ) September 5, 2026 YouTube 2",
+      "preselectVariant": 2,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/m3_WcBvMaV0/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "354fc428f6885c8cf2f00a8648f4d352cb6d66bbe75872bb9f5b2aca8fba0c22"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/m3_WcBvMaV0/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "c7dc9c34ad3793e4f0f445ee215f45799be0bf1cb0774c403d898ba95d1ecc58"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/m3_WcBvMaV0/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "79103162cd6f37994a33ae105aad04517e6ab3f271cecea82cd8f0e82d3960d8"
+        }
+      ]
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "code": "S2026E50",
+      "tvdbEpisodeId": "11962757",
+      "youtubeId": "89sbQjgBfIg",
+      "title": "ZEVENT 2026 : on compte sur vous ❤️ (on va tout donner) September 4, 2026 YouTube 4",
+      "preselectVariant": 1,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/89sbQjgBfIg/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "0c7909788bb8c6bb3957615ca4f4238a4953bba8ce4f78e8ebe6e70356ae2be9"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/89sbQjgBfIg/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "02e26682aaeda2b766a7e9f84ccd653fdedaeafe5e87aafa865641a0975652a0"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/89sbQjgBfIg/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "fa559b478a76adf1a45f75340e9958d5fc154ad14472e79fc4049550ca275c32"
+        }
+      ]
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "code": "S2026E49",
+      "tvdbEpisodeId": "11904058",
+      "youtubeId": "WyEs4g3jQjM",
+      "title": "Nos abonnés viennent débriefer la saison (on vous aime, merci pour tout) July 30, 2026 YouTube 58",
+      "preselectVariant": 3,
+      "visualStatus": "PLAUSIBLE_AS_GENUINE_VIDEO_FRAME_PRECHECK_ONLY",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/WyEs4g3jQjM/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "ba48eb580acb97ab05dd7e25395e436e6472d33d2e1414f413b8de40c5465bc1"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/WyEs4g3jQjM/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "0b90544edc3ec886938672785ec8b5ac479bdf2b7f2ebc4a0236bdff0fd8eed0"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/WyEs4g3jQjM/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "be24df04b4f339f4e07d5f00c384d834ace108a4942254940d7993b6806a89da"
+        }
+      ]
+    }
+  ],
+  "notes": "No TVDB write and no upload approval; all require user inspection plus fresh public live preflight, provenance and site restriction lifted before writing."
+}
