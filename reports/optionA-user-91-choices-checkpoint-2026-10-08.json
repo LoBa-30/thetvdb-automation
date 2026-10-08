@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-08",
+  "mode": "USER_EXPORTED_OPTIONS_CONFIRMED_NO_WRITE",
+  "uploadedSources": [
+    {
+      "filename": "TheTVDB_optionA_67_choix_mis_a_jour.json",
+      "sha256": "5e0dbc03caf2974ca7cd974a940920c5ee3f588a8fb97b654d05782f2cc3dd75"
+    },
+    {
+      "filename": "TheTVDB_optionA_Mastu_24_choix_pour_verification.json",
+      "sha256": "5243d54cf834422d6c23a75f2043562e8a812e8861f99c5a6b7dbe3df424b16f"
+    }
+  ],
+  "first67": {
+    "choices": 67,
+    "selected": 61,
+    "none": 6,
+    "changesFromPreviouslyCommittedReport": 0,
+    "source": "reports/optionA-user67-decisions-and-compliance-review-2026-10-08.json",
+    "previouslyProposedSevenAlternativesAccepted": 0,
+    "warning": "reviewNote text in uploaded JSON says 'Nouvelle sélection', but actual selectedVariant is unchanged in all seven and reviewInfo.chosenAlternativeCount=0. Do NOT treat reviewNote as approval."
+  },
+  "mastu24": {
+    "total": 24,
+    "selected": 24,
+    "none": 0,
+    "changedFromAssistantInitialPreselection": [
+      {
+        "code": "S2021E38",
+        "from": 2,
+        "to": 1
+      },
+      {
+        "code": "S2021E36",
+        "from": 3,
+        "to": 1
+      },
+      {
+        "code": "S2021E30",
+        "from": 1,
+        "to": 3
+      },
+      {
+        "code": "S2021E28",
+        "from": 1,
+        "to": 2
+      },
+      {
+        "code": "S2021E21",
+        "from": 1,
+        "to": 3
+      }
+    ],
+    "source": "reports/optionA-mastu-2021-24-id-verified-candidates-2026-10-08.json",
+    "verification": "All 24 TVDB episode IDs map to exact same YouTube ID in GitHub Actions Mastu audit-v2; missing artwork verified by exact ID in public scan, not by positional season numbering",
+    "rows": [
+      {
+        "archiveCode": "S2021E51",
+        "tvdbEpisodeId": "9195500",
+        "youtubeId": "86leeVa9JYc",
+        "userSelectedVariant": 3,
+        "selectedImageUrl": "https://i.ytimg.com/vi/86leeVa9JYc/maxres3.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E47",
+        "tvdbEpisodeId": "9194347",
+        "youtubeId": "DC2txnXYCFU",
+        "userSelectedVariant": 2,
+        "selectedImageUrl": "https://i.ytimg.com/vi/DC2txnXYCFU/maxres2.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E46",
+        "tvdbEpisodeId": "9195491",
+        "youtubeId": "aaIMT8gnj0Y",
+        "userSelectedVariant": 2,
+        "selectedImageUrl": "https://i.ytimg.com/vi/aaIMT8gnj0Y/maxres2.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E45",
+        "tvdbEpisodeId": "9195490",
+        "youtubeId": "18RWhV7clW8",
+        "userSelectedVariant": 2,
+        "selectedImageUrl": "https://i.ytimg.com/vi/18RWhV7clW8/maxres2.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E44",
+        "tvdbEpisodeId": "9195489",
+        "youtubeId": "gVLOzBKxu7A",
+        "userSelectedVariant": 2,
+        "selectedImageUrl": "https://i.ytimg.com/vi/gVLOzBKxu7A/maxres2.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E43",
+        "tvdbEpisodeId": "9195488",
+        "youtubeId": "N77mLlZMgFA",
+        "userSelectedVariant": 2,
+        "selectedImageUrl": "https://i.ytimg.com/vi/N77mLlZMgFA/maxres2.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E42",
+        "tvdbEpisodeId": "9195487",
+        "youtubeId": "oGpZbPrmrls",
+        "userSelectedVariant": 2,
+        "selectedImageUrl": "https://i.ytimg.com/vi/oGpZbPrmrls/maxres2.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E41",
+        "tvdbEpisodeId": "9195486",
+        "youtubeId": "HqWvVke4oSg",
+        "userSelectedVariant": 1,
+        "selectedImageUrl": "https://i.ytimg.com/vi/HqWvVke4oSg/maxres1.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E40",
+        "tvdbEpisodeId": "9195485",
+        "youtubeId": "I4F26ypLjgU",
+        "userSelectedVariant": 2,
+        "selectedImageUrl": "https://i.ytimg.com/vi/I4F26ypLjgU/maxres2.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E38",
+        "tvdbEpisodeId": "9195483",
+        "youtubeId": "yUl1LPAbZGI",
+        "userSelectedVariant": 1,
+        "selectedImageUrl": "https://i.ytimg.com/vi/yUl1LPAbZGI/maxres1.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E37",
+        "tvdbEpisodeId": "9195482",
+        "youtubeId": "Sr4-pJDwsXs",
+        "userSelectedVariant": 2,
+        "selectedImageUrl": "https://i.ytimg.com/vi/Sr4-pJDwsXs/maxres2.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E36",
+        "tvdbEpisodeId": "9195481",
+        "youtubeId": "T6GGFyi22BY",
+        "userSelectedVariant": 1,
+        "selectedImageUrl": "https://i.ytimg.com/vi/T6GGFyi22BY/maxres1.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E35",
+        "tvdbEpisodeId": "9195445",
+        "youtubeId": "Jlpwd2UVdGc",
+        "userSelectedVariant": 2,
+        "selectedImageUrl": "https://i.ytimg.com/vi/Jlpwd2UVdGc/maxres2.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E32",
+        "tvdbEpisodeId": "8762553",
+        "youtubeId": "i00sKzk-SUo",
+        "userSelectedVariant": 1,
+        "selectedImageUrl": "https://i.ytimg.com/vi/i00sKzk-SUo/maxres1.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E31",
+        "tvdbEpisodeId": "8762552",
+        "youtubeId": "5Haioi0TXpA",
+        "userSelectedVariant": 2,
+        "selectedImageUrl": "https://i.ytimg.com/vi/5Haioi0TXpA/maxres2.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E30",
+        "tvdbEpisodeId": "8762551",
+        "youtubeId": "CWJBKhpRif0",
+        "userSelectedVariant": 3,
+        "selectedImageUrl": "https://i.ytimg.com/vi/CWJBKhpRif0/maxres3.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E28",
+        "tvdbEpisodeId": "8762549",
+        "youtubeId": "AkQNqlI4JLE",
+        "userSelectedVariant": 2,
+        "selectedImageUrl": "https://i.ytimg.com/vi/AkQNqlI4JLE/maxres2.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E26",
+        "tvdbEpisodeId": "8762547",
+        "youtubeId": "Bq3ILqqrXpk",
+        "userSelectedVariant": 2,
+        "selectedImageUrl": "https://i.ytimg.com/vi/Bq3ILqqrXpk/maxres2.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E25",
+        "tvdbEpisodeId": "8762546",
+        "youtubeId": "LbDhTkYMjDk",
+        "userSelectedVariant": 1,
+        "selectedImageUrl": "https://i.ytimg.com/vi/LbDhTkYMjDk/maxres1.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E24",
+        "tvdbEpisodeId": "8762545",
+        "youtubeId": "C9NGzWyJZRI",
+        "userSelectedVariant": 2,
+        "selectedImageUrl": "https://i.ytimg.com/vi/C9NGzWyJZRI/maxres2.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E23",
+        "tvdbEpisodeId": "8762544",
+        "youtubeId": "Pac3YYZ-cmI",
+        "userSelectedVariant": 2,
+        "selectedImageUrl": "https://i.ytimg.com/vi/Pac3YYZ-cmI/maxres2.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E22",
+        "tvdbEpisodeId": "8762543",
+        "youtubeId": "RWY0Pf9SEBQ",
+        "userSelectedVariant": 3,
+        "selectedImageUrl": "https://i.ytimg.com/vi/RWY0Pf9SEBQ/maxres3.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E21",
+        "tvdbEpisodeId": "8762542",
+        "youtubeId": "B_D7bd_Xqww",
+        "userSelectedVariant": 3,
+        "selectedImageUrl": "https://i.ytimg.com/vi/B_D7bd_Xqww/maxres3.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      },
+      {
+        "archiveCode": "S2021E19",
+        "tvdbEpisodeId": "8571341",
+        "youtubeId": "TfnEY25lNf0",
+        "userSelectedVariant": 2,
+        "selectedImageUrl": "https://i.ytimg.com/vi/TfnEY25lNf0/maxres2.jpg",
+        "userValidated": false,
+        "uploadApproved": false
+      }
+    ]
+  },
+  "safety": {
+    "artworkUploadRestrictionLiftConfirmed": false,
+    "userUploadApproval": false,
+    "uploads": 0,
+    "deletions": 0,
+    "replacements": 0
+  },
+  "next": [
+    "Review these exact chosen frames for text, logos, quality and duplicate scenes; do not claim TVDB approval",
+    "Continue Mastu missing from next unmatched matched source audit, exact TVDB IDs",
+    "Review existing other creator missing sources when site throttling ends, no force requests",
+    "Never silently swap user choices or send images while restricted"
+  ]
+}
