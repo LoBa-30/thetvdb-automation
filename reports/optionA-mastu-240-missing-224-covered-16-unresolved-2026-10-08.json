@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_MASTU_240_MISSING_ARTWORK_COVERAGE_BY_IMMUTABLE_TVDB_ID",
+  "reference": "reports/optionA-mastu-376-inventory-2026-10-08.json",
+  "summary": {
+    "officialEpisodesInPublicRescan": 376,
+    "artworksPresentInPublicRescan": 106,
+    "artworksMissingInPublicRescan": 240,
+    "artworkStateUnknownHTTP202": 30,
+    "missingEpisodesRepresentedByVerifiedArchivedYTLinkAndFramePreparation": 224,
+    "missingEpisodesWithoutVerifiedProvenance": 16,
+    "existingUserChoicesAmongRepresented": 168,
+    "additionalPreparedCandidateEpisodes": 56,
+    "additionalFramesProposed": 55,
+    "blockedAutoFrameText": 1,
+    "uploads": 0,
+    "deletions": 0
+  },
+  "reconciledSourceReports": [
+    "reports/optionA-user-91-choices-checkpoint-2026-10-08.json",
+    "reports/optionA-mastu-user48-chosen-and-reviewed-2026-10-08.json",
+    "reports/optionA-mastu-2019-2020-user48-choices-2026-10-08.json",
+    "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+    "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+    "reports/optionA-mastu-2024-2025-six-episode-stills-2026-10-08.json"
+  ],
+  "unresolved": [
+    {
+      "publicInventoryCode": "S2016E09",
+      "tvdbEpisodeId": "9195596",
+      "type": "HISTORICAL_TVDB_ONLY_NO_CONFIRMED_PUBLIC_YOUTUBE_PAIR",
+      "status": "DO_NOT_UPLOAD_OR_DELETE_WITHOUT_PROVENANCE"
+    },
+    {
+      "publicInventoryCode": "S2017E31",
+      "tvdbEpisodeId": "9195816",
+      "type": "HISTORICAL_TVDB_ONLY_NO_CONFIRMED_PUBLIC_YOUTUBE_PAIR",
+      "status": "DO_NOT_UPLOAD_OR_DELETE_WITHOUT_PROVENANCE"
+    },
+    {
+      "publicInventoryCode": "S2017E36",
+      "tvdbEpisodeId": "9195821",
+      "type": "HISTORICAL_TVDB_ONLY_NO_CONFIRMED_PUBLIC_YOUTUBE_PAIR",
+      "status": "DO_NOT_UPLOAD_OR_DELETE_WITHOUT_PROVENANCE"
+    },
+    {
+      "publicInventoryCode": "S2017E40",
+      "tvdbEpisodeId": "9195825",
+      "type": "HISTORICAL_TVDB_ONLY_NO_CONFIRMED_PUBLIC_YOUTUBE_PAIR",
+      "status": "DO_NOT_UPLOAD_OR_DELETE_WITHOUT_PROVENANCE"
+    },
+    {
+      "publicInventoryCode": "S2018E05",
+      "tvdbEpisodeId": "6953926",
+      "type": "HISTORICAL_TVDB_ONLY_NO_CONFIRMED_PUBLIC_YOUTUBE_PAIR",
+      "status": "DO_NOT_UPLOAD_OR_DELETE_WITHOUT_PROVENANCE"
+    },
+    {
+      "publicInventoryCode": "S2018E08",
+      "tvdbEpisodeId": "6953923",
+      "type": "HISTORICAL_TVDB_ONLY_NO_CONFIRMED_PUBLIC_YOUTUBE_PAIR",
+      "status": "DO_NOT_UPLOAD_OR_DELETE_WITHOUT_PROVENANCE"
+    },
+    {
+      "publicInventoryCode": "S2018E09",
+      "tvdbEpisodeId": "6953922",
+      "type": "HISTORICAL_TVDB_ONLY_NO_CONFIRMED_PUBLIC_YOUTUBE_PAIR",
+      "status": "DO_NOT_UPLOAD_OR_DELETE_WITHOUT_PROVENANCE"
+    },
+    {
+      "publicInventoryCode": "S2018E12",
+      "tvdbEpisodeId": "6645830",
+      "type": "HISTORICAL_TVDB_ONLY_NO_CONFIRMED_PUBLIC_YOUTUBE_PAIR",
+      "status": "DO_NOT_UPLOAD_OR_DELETE_WITHOUT_PROVENANCE"
+    },
+    {
+      "publicInventoryCode": "S2018E25",
+      "tvdbEpisodeId": "6837940",
+      "type": "HISTORICAL_TVDB_ONLY_NO_CONFIRMED_PUBLIC_YOUTUBE_PAIR",
+      "status": "DO_NOT_UPLOAD_OR_DELETE_WITHOUT_PROVENANCE"
+    },
+    {
+      "publicInventoryCode": "S2018E29",
+      "tvdbEpisodeId": "6941542",
+      "type": "HISTORICAL_TVDB_ONLY_NO_CONFIRMED_PUBLIC_YOUTUBE_PAIR",
+      "status": "DO_NOT_UPLOAD_OR_DELETE_WITHOUT_PROVENANCE"
+    },
+    {
+      "publicInventoryCode": "S2018E32",
+      "tvdbEpisodeId": "6941565",
+      "type": "HISTORICAL_TVDB_ONLY_NO_CONFIRMED_PUBLIC_YOUTUBE_PAIR",
+      "status": "DO_NOT_UPLOAD_OR_DELETE_WITHOUT_PROVENANCE"
+    },
+    {
+      "publicInventoryCode": "S2019E32",
+      "tvdbEpisodeId": "11467845",
+      "type": "HISTORICAL_TVDB_ONLY_NO_CONFIRMED_PUBLIC_YOUTUBE_PAIR",
+      "status": "DO_NOT_UPLOAD_OR_DELETE_WITHOUT_PROVENANCE"
+    },
+    {
+      "publicInventoryCode": "S2020E34",
+      "tvdbEpisodeId": "8070766",
+      "type": "HISTORICAL_TVDB_ONLY_NO_CONFIRMED_PUBLIC_YOUTUBE_PAIR",
+      "status": "DO_NOT_UPLOAD_OR_DELETE_WITHOUT_PROVENANCE"
+    },
+    {
+      "publicInventoryCode": "S2021E17",
+      "tvdbEpisodeId": "12014527",
+      "type": "ADDED_OR_MISPLACED_EPISODE_NOT_IN_2026_10_02_ARCHIVE_NEEDS_METADATA_CHECK",
+      "status": "DO_NOT_UPLOAD_OR_DELETE_WITHOUT_PROVENANCE"
+    },
+    {
+      "publicInventoryCode": "S2021E30",
+      "tvdbEpisodeId": "8762550",
+      "type": "HISTORICAL_TVDB_ONLY_NO_CONFIRMED_PUBLIC_YOUTUBE_PAIR",
+      "status": "DO_NOT_UPLOAD_OR_DELETE_WITHOUT_PROVENANCE"
+    },
+    {
+      "publicInventoryCode": "S2021E53",
+      "tvdbEpisodeId": "9195502",
+      "type": "HISTORICAL_TVDB_ONLY_NO_CONFIRMED_PUBLIC_YOUTUBE_PAIR",
+      "status": "DO_NOT_UPLOAD_OR_DELETE_WITHOUT_PROVENANCE"
+    }
+  ],
+  "visualBlocker": {
+    "episode": "S2016E01",
+    "tvdbEpisodeId": "9195558",
+    "reason": "All three automatic video screenshots contain overlaid date/time captions; find deeper genuine clean frame if possible."
+  },
+  "accountArtUploadRestrictionLiftConfirmed": false,
+  "notes": [
+    "Counts refer to public read-only check from Oct 8, not new verified site state. Some episode season-list ordinal codes differ from original audit; ID is the matching key.",
+    "224 episodes PREPARED for possible later image addition; zero artworks have been uploaded or approved.",
+    "15 historical cases lack proven public video, one unusual 2021 row lacks archived pairing. Do not fabricate associations.",
+    "Before any future write recheck live artwork presence and account privileges, never bypass site challenges or rate limits."
+  ]
+}
