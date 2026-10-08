@@ -1,0 +1,145 @@
+{
+  "generatedDate": "2026-10-08",
+  "mode": "READ_ONLY_MASTU_HISTORICAL_IDENTITY_RESEARCH_STANDALONE",
+  "sourceStructuralCheckpoint": "reports/structural-nine-channels-reconciliation-2026-10-08.json",
+  "before": {
+    "totalPreviouslyUnverifiedOriginalYoutubeId": 12,
+    "checkpointAlreadyVerifiedOfficialIdentities": 4
+  },
+  "summary": {
+    "newOfficialYoutubeExactIdentityMatches": 3,
+    "unverifiedOriginalYoutubeIdentitiesRemaining": 9,
+    "additionalHistoricalEvidenceWithoutOriginalIdentity": 4,
+    "theTVDBStructuralWrites": 0,
+    "theTVDBArtworkWrites": 0
+  },
+  "newlyVerifiedExactOfficialIdentities": [
+    {
+      "tvdbEpisodeId": "12014527",
+      "episode": "S2021E17",
+      "youtubeId": "qbR6r1voD5Q",
+      "youtubeOfficialURL": "https://www.youtube.com/watch?v=qbR6r1voD5Q",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/346011-show/episodes/12014527",
+      "youtubeTitle": "JE REGARDE UN EPISODE DE NEXT (10 ans après) #8",
+      "tvdbTitle": "JE REGARDE UN EPISODE DE NEXT (10 ans après) #8",
+      "published": "2021-06-26",
+      "sourceType": "OFFICIAL_YOUTUBE_VIDEO_INDEX_AND_LIVE_TVDB_EPISODE",
+      "verification": "TITLE_DATE_MATCH_RUNTIME_MISSING",
+      "note": "TVDB episode created 2026-10-01; exact video date same. Need duration in minutes when primary official duration accessible."
+    },
+    {
+      "tvdbEpisodeId": "6953926",
+      "episode": "S2018E05",
+      "youtubeId": "8jxLnq97Fe8",
+      "youtubeOfficialURL": "https://www.youtube.com/watch?v=8jxLnq97Fe8",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/346011-show/episodes/6953926",
+      "youtubeTitle": "JE N'ARRIVE PAS À JOUER À FORTNITE...",
+      "tvdbTitle": "JE N'ARRIVE PAS À JOUER À FORTNITE... (TOP 1 raté)",
+      "published": "2018-02-19",
+      "sourceType": "OFFICIAL_YOUTUBE_VIDEO_INDEX_AND_LIVE_TVDB_EPISODE",
+      "verification": "SAME_CORE_TITLE_DATE_BUT_TVDB_HAS_ADDED_SUFFIX",
+      "note": "The older possible ID tiCNmB20GjE is an unverified lead; do not use it instead of the independently indexed official video."
+    },
+    {
+      "tvdbEpisodeId": "6837940",
+      "episode": "S2018E25",
+      "youtubeId": "haKY93EGeUs",
+      "youtubeOfficialURL": "https://www.youtube.com/watch?v=haKY93EGeUs",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/346011-show/episodes/6837940",
+      "youtubeTitle": "JE VAIS ÊTRE HONNÊTE AVEC VOUS...",
+      "tvdbTitle": "JE VAIS ÊTRE HONNÊTE AVEC VOUS...",
+      "published": "2018-08-22",
+      "sourceType": "OFFICIAL_YOUTUBE_VIDEO_INDEX_AND_LIVE_TVDB_EPISODE",
+      "verification": "TITLE_DATE_MATCH"
+    }
+  ],
+  "corroboratingButNotEnoughForOfficialOriginalVideoId": [
+    {
+      "id": "9195821",
+      "code": "S2017E36",
+      "evidenceURL": "https://www.youtube.com/watch?v=j34-QseYm7s",
+      "type": "THIRD_PARTY_REUPLOAD",
+      "status": "HISTORICAL_EPISODE_EXISTENCE_CORROBORATED_ORIGINAL_OFFICIAL_YT_ID_UNKNOWN",
+      "note": "A clearly labeled 2024 reupload exists; cannot treat it as original 2017 YouTube ID."
+    },
+    {
+      "id": "6645830",
+      "code": "S2018E12",
+      "evidenceURL": "https://www.youtube.com/watch?v=-6OGs7Lf-nU",
+      "type": "THIRD_PARTY_REUPLOAD",
+      "status": "HISTORICAL_EPISODE_EXISTENCE_CORROBORATED_ORIGINAL_OFFICIAL_YT_ID_UNKNOWN",
+      "note": "Uploader says the Mastu original was deleted, but 2022 reupload is not the original ID; corroborated by a May 2021 NRJ retrospective."
+    },
+    {
+      "id": "8762550",
+      "code": "S2021E30",
+      "evidenceURL": "https://www.ozap.com/actu/audiences-youtube-qui-de-mcfly-et-carlito-michou-squeezie-ou-lebouseuh-arrive-en-tete/608553",
+      "type": "CONTEMPORANEOUS_WEEKLY_YOUTUBE_AUDIENCE_PRESS",
+      "status": "HISTORICAL_EXISTENCE_CORROBORATED_OFFICIAL_VIDEO_ID_UNKNOWN",
+      "note": "Puremédias weekly YouTube ranking lists Mastu's Messenger episode 2021; TVDB exact ID 8762550 has Sept 11 2021 date and guest. Older historic report calls this S2021E31, but current official TheTVDB slot is S2021E30; always join by ID."
+    },
+    {
+      "id": "6941565",
+      "code": "S2018E32",
+      "evidenceURL": "https://twstalker.com/Benne_Redbox",
+      "type": "2018_SHARED_LINK_SECONDARY_SOCIAL_ARCHIVE",
+      "status": "LOW_CONFIDENCE_LINK_TO_CANDIDATE_VIDEO_NOT_ORIGINAL_ID_PROVEN",
+      "note": "Archive links to youtu.be/9Ky8gLHoFeY with #SaveYourInternet consistent with YouTube va mal; exact source uploader/title cannot be established from this alone."
+    }
+  ],
+  "remainingPending": [
+    {
+      "tvdbEpisodeId": "9195821",
+      "inventoryCode": "S2017E36",
+      "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+    },
+    {
+      "tvdbEpisodeId": "9195825",
+      "inventoryCode": "S2017E40",
+      "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+    },
+    {
+      "tvdbEpisodeId": "6953923",
+      "inventoryCode": "S2018E08",
+      "state": "HISTORICAL_TITLE_DATE_CORROBORATED_EXACT_ORIGINAL_YOUTUBE_ID_UNVERIFIED"
+    },
+    {
+      "tvdbEpisodeId": "6953922",
+      "inventoryCode": "S2018E09",
+      "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+    },
+    {
+      "tvdbEpisodeId": "6645830",
+      "inventoryCode": "S2018E12",
+      "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+    },
+    {
+      "tvdbEpisodeId": "6941542",
+      "inventoryCode": "S2018E29",
+      "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+    },
+    {
+      "tvdbEpisodeId": "6941565",
+      "inventoryCode": "S2018E32",
+      "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+    },
+    {
+      "tvdbEpisodeId": "8762550",
+      "inventoryCode": "S2021E30",
+      "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+    },
+    {
+      "tvdbEpisodeId": "9195502",
+      "inventoryCode": "S2021E53",
+      "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+    }
+  ],
+  "explicitDoNotDo": [
+    "No recreation of S2021E17: exact 2021 official original already mapped to TVDB 12014527.",
+    "Do not use third-party reupload IDs as YouTube official originals.",
+    "Do not reuse misleading S2018E08 2021 Joyca car video TcUSeNjrzFU.",
+    "Do not treat any case without an indexed current official YouTube ID as deletion proof.",
+    "Do not rewrite 2018 E05 suffix or supply missing S2021E17 runtime without exact official title/duration metadata.",
+    "No artwork edits until requested tomorrow."
+  ]
+}
