@@ -1,0 +1,836 @@
+{
+  "generatedAt": "2026-10-08",
+  "mode": "READ_ONLY_HUMAN_VISUAL_PRECHECK",
+  "sourceSelection": "reports/post-moderation-textfree-frame-selection-2026-10-07.json",
+  "allNative1280x720": true,
+  "all51DistinctByteHashes": true,
+  "nearPairsDhashDistanceAtMost8": [],
+  "accountUploadRestriction": "NOT_CONFIRMED_LIFTED_NO_UPLOADS",
+  "counts": {
+    "checked": 51,
+    "plausible": 49,
+    "blockedLogo": 2
+  },
+  "blocked": {
+    "Maxime S2023E08": "All maxres1/2/3 variants have Les Gourmands logo, variant1 also sponsor overlay",
+    "Maxime S2024E06": "All maxres1/2/3 variants have Les Gourmands logo, some also another sponsor logo"
+  },
+  "rows": [
+    {
+      "channel": "Maxime",
+      "code": "S2019E01",
+      "tvdb": "11696580",
+      "yt": "3X0piITkOTE",
+      "idx": 1,
+      "url": "https://i.ytimg.com/vi/3X0piITkOTE/maxres1.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 51592,
+      "sha256": "693c6819a67bb07b887748529e4662e816dbb150c2c95ffedc139633037bc7c6",
+      "dhash": "61666666e6efe39b",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2019E02",
+      "tvdb": "11696581",
+      "yt": "7rEsbvpprlw",
+      "idx": 1,
+      "url": "https://i.ytimg.com/vi/7rEsbvpprlw/maxres1.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 75782,
+      "sha256": "a2103479d9c5b411b78d0545c5894f6f8b95f471444b44d9bb2e5e557b1b58da",
+      "dhash": "775b4b979b19499a",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2019E03",
+      "tvdb": "11696582",
+      "yt": "6NaIyjBRDNA",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/6NaIyjBRDNA/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 54733,
+      "sha256": "ff546cddf834ba045fdd6d55c013876a58a0eb4296e6661f7ab5e52844dc9615",
+      "dhash": "f14b4f4b2369e9c1",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2019E04",
+      "tvdb": "11696583",
+      "yt": "7ghkayTlxiM",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/7ghkayTlxiM/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 52557,
+      "sha256": "957e0b17338f96e667dfacea2bcf7cb54bb1a20d28f0ef4dfe3a0ac59960ccb6",
+      "dhash": "784d4d4d0928bcb8",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2019E05",
+      "tvdb": "11696584",
+      "yt": "1OcZ9gWUOjE",
+      "idx": 1,
+      "url": "https://i.ytimg.com/vi/1OcZ9gWUOjE/maxres1.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 97330,
+      "sha256": "92f533cbc19bd5a8c21f7dd50836acbc1b0c6d86e700ed1b06c1f4352842f67b",
+      "dhash": "cccccccc66f2d9d8",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2019E06",
+      "tvdb": "11696585",
+      "yt": "7ZCqR3_XdV8",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/7ZCqR3_XdV8/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 67557,
+      "sha256": "1f7459db38d4678e4910db5e7943bdaa8aee82a5eaf12f0bc425f97b134abcde",
+      "dhash": "0e30282c28eab899",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2019E07",
+      "tvdb": "11696586",
+      "yt": "qj0K6DK_NzI",
+      "idx": 3,
+      "url": "https://i.ytimg.com/vi/qj0K6DK_NzI/maxres3.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 87708,
+      "sha256": "4e9e51b130ea52d3a5e3ac2700a296e464fad54ee19510540607dcbf576744db",
+      "dhash": "2a38383131591bd9",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2021E01",
+      "tvdb": "11696587",
+      "yt": "5sssiqLZqvA",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/5sssiqLZqvA/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 56870,
+      "sha256": "74f84d40a1837ace194d42e07ab270bf25765d6c438115b9d351aab796c092ac",
+      "dhash": "e9f1b1b5b78facfd",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2022E02",
+      "tvdb": "11696590",
+      "yt": "kJNa_dwN3Lc",
+      "idx": 1,
+      "url": "https://i.ytimg.com/vi/kJNa_dwN3Lc/maxres1.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 82923,
+      "sha256": "945bae207b3055f491c41f03e6d969a01a3d54d7aec4e9411c1400c486f84bb5",
+      "dhash": "297999b82ad9d1c5",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2022E04",
+      "tvdb": "11696592",
+      "yt": "0T5ovr0gWOU",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/0T5ovr0gWOU/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 43007,
+      "sha256": "e092e73ecde973a21b1839abc3792a0fe3c698d18977aee02f75cf8d5f02af80",
+      "dhash": "d9cba898989a9a18",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2023E05",
+      "tvdb": "11696607",
+      "yt": "SbBVZNt1Vmk",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/SbBVZNt1Vmk/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 63079,
+      "sha256": "683e8fdf958ce77708cdab783b944439951c387cb69d5bac47112a4bbc30fda3",
+      "dhash": "7b69e9c1c1c06135",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2023E06",
+      "tvdb": "11696608",
+      "yt": "oPP03kTg0aU",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/oPP03kTg0aU/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 49578,
+      "sha256": "09214219649017473b58552045b88804e8e3a18efe8a084441170902531d1223",
+      "dhash": "6f57365e5e5b139b",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2023E08",
+      "tvdb": "11696610",
+      "yt": "Ako-aLACYPE",
+      "idx": 3,
+      "url": "https://i.ytimg.com/vi/Ako-aLACYPE/maxres3.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 50154,
+      "sha256": "8ce65e7a3a4bfacf8f357f04a437da74680ae4a02958f8735479e4df8170b18a",
+      "dhash": "c7d24dcf8b0b0b4f",
+      "humanReview": "BLOCKED_LOGO_OVERLAY_ALL_THREE_AUTOMATIC_VARIANTS"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2023E09",
+      "tvdb": "11696611",
+      "yt": "PaTyxBnzfSM",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/PaTyxBnzfSM/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 83530,
+      "sha256": "aa533059bdb9dd59566d1e06139e7ae816f17b01d6b1a202e6f680bebac56383",
+      "dhash": "cbcac68292decb66",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2024E01",
+      "tvdb": "11696620",
+      "yt": "oPqUT9AtyY4",
+      "idx": 1,
+      "url": "https://i.ytimg.com/vi/oPqUT9AtyY4/maxres1.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 47307,
+      "sha256": "9ab254817b054a0468a22d7e27643d33ee3c53bede7a74aca6b30ef9728fe38b",
+      "dhash": "04060633b181c1c9",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2024E02",
+      "tvdb": "11696621",
+      "yt": "6csK8iek7PU",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/6csK8iek7PU/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 49143,
+      "sha256": "625e5e43375dc4ae211e47f39990d9bb73b7d4f95bc6b17f4133da1ebae2270c",
+      "dhash": "e5e5e5e4e4ecece4",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2024E04",
+      "tvdb": "11696623",
+      "yt": "ZOpLlT0vRxQ",
+      "idx": 1,
+      "url": "https://i.ytimg.com/vi/ZOpLlT0vRxQ/maxres1.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 52257,
+      "sha256": "53a8f14cebaf63722762fc744e02b52e7a727760d9cc35c1a407c8234d8b1723",
+      "dhash": "7e6e262262636343",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2024E06",
+      "tvdb": "11696625",
+      "yt": "_oLISqPGXMg",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/_oLISqPGXMg/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 61644,
+      "sha256": "63c98a93bb6c30c51eb8e245afcdf4185a7ee9590a7e0bbb6881f31025b2967a",
+      "dhash": "c0c84ccdcdcd242c",
+      "humanReview": "BLOCKED_LOGO_OVERLAY_ALL_THREE_AUTOMATIC_VARIANTS"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2025E01",
+      "tvdb": "11696637",
+      "yt": "EqFLIsSB2hg",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/EqFLIsSB2hg/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 47673,
+      "sha256": "c639f6c358778d06042cffd6b4f971f860169298524caface7bebef7f197686b",
+      "dhash": "66e29a988ac8c8c2",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2025E05",
+      "tvdb": "11696641",
+      "yt": "FvtoTtKm0gE",
+      "idx": 3,
+      "url": "https://i.ytimg.com/vi/FvtoTtKm0gE/maxres3.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 50701,
+      "sha256": "feadcb451a92ca6166a96f23b36cd9d9b096235b33b725c29aeec59971e69938",
+      "dhash": "3cde1e9636942c2a",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Maxime",
+      "code": "S2025E08",
+      "tvdb": "11696644",
+      "yt": "4kDYChbVMvw",
+      "idx": 3,
+      "url": "https://i.ytimg.com/vi/4kDYChbVMvw/maxres3.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 75983,
+      "sha256": "b753520de20bd8bd2050d68a92412658dd9b8a5ce1c30ee6f21467e1a09b327c",
+      "dhash": "748e86650496d26a",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E01",
+      "tvdb": "9242990",
+      "yt": "tPAFP4QFT6Y",
+      "idx": 1,
+      "url": "https://i.ytimg.com/vi/tPAFP4QFT6Y/maxres1.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 69973,
+      "sha256": "a5a4db2b79bbffdc902dfaa7f58d0f7fe637fbc6b5bcaba92e6155e83ccda919",
+      "dhash": "39785878d8782aa7",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E02",
+      "tvdb": "9242991",
+      "yt": "k1blyDB6xj4",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/k1blyDB6xj4/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 88123,
+      "sha256": "02eb56939b35251782043101472671a0cd2826bd5aebc09edb359e6fb56ef059",
+      "dhash": "bdae8bcdcccecccc",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E03",
+      "tvdb": "9242992",
+      "yt": "jPgVjTDD9x4",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/jPgVjTDD9x4/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 60082,
+      "sha256": "142f69b698cdbd3d1039932328b3f477dc15c14fb57396f63a25add8f702ecf5",
+      "dhash": "831303171f376564",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E04",
+      "tvdb": "9242993",
+      "yt": "2ptVHFhcEPg",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/2ptVHFhcEPg/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 139950,
+      "sha256": "90a30c4ec5642d2d4ad1da53fb92cd7ae4290a681cd6f59da5c3fc0f6fc18dfb",
+      "dhash": "6c6c6c6c64fadb5e",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E05",
+      "tvdb": "9242994",
+      "yt": "zbhpYnVsw5g",
+      "idx": 3,
+      "url": "https://i.ytimg.com/vi/zbhpYnVsw5g/maxres3.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 79337,
+      "sha256": "5ff6fd1b4f6457310b909fe8528918c6abbbb7e81a17f8812105c51169b5e333",
+      "dhash": "0b4ecfac6c242731",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E06",
+      "tvdb": "9242995",
+      "yt": "_qVpzIPYxO0",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/_qVpzIPYxO0/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 83255,
+      "sha256": "8d13e242c1c9b800fc010610eec8dd573bdd613564bffe1a98c3122c030dedc4",
+      "dhash": "0dc9d99c8c9edece",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E07",
+      "tvdb": "9242996",
+      "yt": "PanKi2WGWB4",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/PanKi2WGWB4/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 73511,
+      "sha256": "83fb59ad07ab5b4a2ede08263e3ffd8ad0c6e4364ebfc6d7fde21e3e1be74c52",
+      "dhash": "1e3e2f0603311416",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E08",
+      "tvdb": "9242997",
+      "yt": "GvCuRzh_5UM",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/GvCuRzh_5UM/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 52932,
+      "sha256": "9004a0011682d2f1b164268a7968ceabf68c743dec189dc46ae7a72353f217e1",
+      "dhash": "2031313131d9d81d",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E09",
+      "tvdb": "9242998",
+      "yt": "CYATzVRUPFI",
+      "idx": 1,
+      "url": "https://i.ytimg.com/vi/CYATzVRUPFI/maxres1.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 69720,
+      "sha256": "915f207eeadeb15b9ad167baa004e0ef9f1f03d7ea1368b1ddcd249d8189513e",
+      "dhash": "c5e56566a6e72737",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E10",
+      "tvdb": "9243015",
+      "yt": "g-lnmYWDcyk",
+      "idx": 1,
+      "url": "https://i.ytimg.com/vi/g-lnmYWDcyk/maxres1.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 57048,
+      "sha256": "4c1a2efbfd05ecb6498a4b7e2bfe2cbfc296653ee981f7787654a21c65acfc8e",
+      "dhash": "717266e48c2c6636",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E11",
+      "tvdb": "9243016",
+      "yt": "EY5N56tDFBk",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/EY5N56tDFBk/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 96769,
+      "sha256": "28f40dcce2db55d92f9baeb1c7e09f30ddf32ccbeadd13b698813042c9dec01b",
+      "dhash": "bd96b691b3b32129",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E12",
+      "tvdb": "9243017",
+      "yt": "fT1E4V5rZ3Q",
+      "idx": 1,
+      "url": "https://i.ytimg.com/vi/fT1E4V5rZ3Q/maxres1.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 62762,
+      "sha256": "ffe11efecdeb485abf98a0072b0fa1cdc6f6a04fb5024e55a3022ecb112815db",
+      "dhash": "849498d818921206",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E13",
+      "tvdb": "9243018",
+      "yt": "uYMeiGNJSbU",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/uYMeiGNJSbU/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 70171,
+      "sha256": "06da347d870bb9b53005f8da481a8ec4853f47335c498e2e35082a9483f41958",
+      "dhash": "16767673d382f2d3",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E14",
+      "tvdb": "9243019",
+      "yt": "uMIm06pHndo",
+      "idx": 3,
+      "url": "https://i.ytimg.com/vi/uMIm06pHndo/maxres3.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 78376,
+      "sha256": "7978bf4de07b3e783474091baec82d2008661549591f927813d4e185ce15be91",
+      "dhash": "4f4e4bf4b415112b",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E15",
+      "tvdb": "9243020",
+      "yt": "prDN4vO4xgw",
+      "idx": 1,
+      "url": "https://i.ytimg.com/vi/prDN4vO4xgw/maxres1.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 51687,
+      "sha256": "362fe81a93956d6f92fcc70ce1246b42084f73bdbc410e6e97e839a77e282077",
+      "dhash": "001818181c1c0808",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E16",
+      "tvdb": "9243021",
+      "yt": "5GdqdxQBSbo",
+      "idx": 3,
+      "url": "https://i.ytimg.com/vi/5GdqdxQBSbo/maxres3.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 143714,
+      "sha256": "d51e7c39adb6dbe404ab81d88b00c845ce89db48ae643ebe543bb6f3ba79fd6e",
+      "dhash": "a6b6969c8e8c0c8c",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E17",
+      "tvdb": "9243022",
+      "yt": "Gmdu-9Ya7uk",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/Gmdu-9Ya7uk/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 75918,
+      "sha256": "eae5782763f5c919a60fd9033a04fff2ccdee77b3720a5756e7b867cedbebb62",
+      "dhash": "4e0c4d1f17373313",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E18",
+      "tvdb": "9243023",
+      "yt": "in4zwbYO75s",
+      "idx": 1,
+      "url": "https://i.ytimg.com/vi/in4zwbYO75s/maxres1.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 41867,
+      "sha256": "3a07a54d4ae62bf9dfe09721113ae2dadc98aa8741dbd18504aeeca309fdcf77",
+      "dhash": "f031e9c9e97173d3",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2018E19",
+      "tvdb": "9243024",
+      "yt": "vtFnltaWe1s",
+      "idx": 3,
+      "url": "https://i.ytimg.com/vi/vtFnltaWe1s/maxres3.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 49904,
+      "sha256": "d969fa7ccc820ff28bdf7a37f46c92dadccf4115d5bc13a0a2514377b769fc12",
+      "dhash": "2929191820141026",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2019E01",
+      "tvdb": "9243028",
+      "yt": "jbtzNL6d37Q",
+      "idx": 1,
+      "url": "https://i.ytimg.com/vi/jbtzNL6d37Q/maxres1.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 165502,
+      "sha256": "db4062dac16911ec6d7ce0266f8f68f36ec3134fb4116273563bd0953e19e3c5",
+      "dhash": "0c2c11b0b2b29292",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2019E02",
+      "tvdb": "9243029",
+      "yt": "NFYnq_o1j30",
+      "idx": 1,
+      "url": "https://i.ytimg.com/vi/NFYnq_o1j30/maxres1.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 96234,
+      "sha256": "25b78709886342025fa9746b597a61c7df428f5e1f25f7b9460de5c449ea259a",
+      "dhash": "4c6e2a286c3c3c3e",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2019E03",
+      "tvdb": "9243030",
+      "yt": "HrcmpYKrfw4",
+      "idx": 3,
+      "url": "https://i.ytimg.com/vi/HrcmpYKrfw4/maxres3.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 90503,
+      "sha256": "aa859f52de0e0833676e8af57aafd9b7455bafc139f3bee707c1f2cd5c92b36d",
+      "dhash": "49c83358dccccccc",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2019E04",
+      "tvdb": "9243031",
+      "yt": "4rC7w8bFs2k",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/4rC7w8bFs2k/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 77285,
+      "sha256": "fe8f2694eb2b5e8a588552ee36f264e1d287271cf244ea7e9991abd32e340a8a",
+      "dhash": "492626345452dece",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2019E05",
+      "tvdb": "9243032",
+      "yt": "mdE-BxC7JT0",
+      "idx": 1,
+      "url": "https://i.ytimg.com/vi/mdE-BxC7JT0/maxres1.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 86904,
+      "sha256": "832d86335bcafdbc416c5bf1a70c191700b77d2ae965bcac7e80d7fae04675bf",
+      "dhash": "b0b03322828a8e89",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2019E06",
+      "tvdb": "9243033",
+      "yt": "KWZrzA7S-rc",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/KWZrzA7S-rc/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 62822,
+      "sha256": "727d76c89a3ed6e01c0ac8c43cb11d7033230fbf1e3deee5fcc4a8ba31f41700",
+      "dhash": "0f3757d796b2aeac",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2019E08",
+      "tvdb": "9243035",
+      "yt": "aixfYOLkJ6M",
+      "idx": 3,
+      "url": "https://i.ytimg.com/vi/aixfYOLkJ6M/maxres3.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 165033,
+      "sha256": "440c1b2b008e3136e5b628ad3cc3f59d2ccc70ffa1edfd9b6318d520310fb3c7",
+      "dhash": "24745d1516534a21",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2019E10",
+      "tvdb": "9243037",
+      "yt": "6qmJVUbWxn4",
+      "idx": 1,
+      "url": "https://i.ytimg.com/vi/6qmJVUbWxn4/maxres1.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 60931,
+      "sha256": "5d7b8db396bafb5ef12f4c46579d5b8e62b640d2445aebbb2dfbea74721ca901",
+      "dhash": "23a62968e8387832",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2019E17",
+      "tvdb": "9243044",
+      "yt": "72APxQkk--I",
+      "idx": 2,
+      "url": "https://i.ytimg.com/vi/72APxQkk--I/maxres2.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 69238,
+      "sha256": "d8f9c4b66df11cdce70f594d8ec53004a8c08d4b1d6ea353395dce7f65e79300",
+      "dhash": "c9cc4c0e4ece1c3d",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2019E18",
+      "tvdb": "9243045",
+      "yt": "vB_cT1jqy94",
+      "idx": 1,
+      "url": "https://i.ytimg.com/vi/vB_cT1jqy94/maxres1.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 54905,
+      "sha256": "5c49430f07c4e502324e27b2912d0aa26a8e135c2c294f76456ee5eb7516c6e8",
+      "dhash": "8ccecc4d1c4cccec",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    },
+    {
+      "channel": "Djilsi",
+      "code": "S2019E21",
+      "tvdb": "9243048",
+      "yt": "GpygQnM2aqw",
+      "idx": 1,
+      "url": "https://i.ytimg.com/vi/GpygQnM2aqw/maxres1.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 83007,
+      "sha256": "c060c4821fd5b579c9a620e39c07f68a00bed94666fdfd486ffed4e0266a1a50",
+      "dhash": "00c4c7c74a0c348c",
+      "humanReview": "VISUAL_PRECHECK_PLAUSIBLE_NOT_APPROVED"
+    }
+  ]
+}
