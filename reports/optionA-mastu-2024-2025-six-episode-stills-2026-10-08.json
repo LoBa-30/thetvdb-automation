@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_MASTU_SIX_RECENT_PREPARED_MISSING_ARTWORKS",
+  "source": "GitHub Actions Mastu audit-v2 October 2 2026 exact TVDB/YT IDs; Oct8 public official TVDB artwork inventory, exact ID matches",
+  "summary": {
+    "episodes": 6,
+    "season2024": 1,
+    "season2025": 5,
+    "native1280x720FramesDownloaded": 18,
+    "contactSheetsVisuallyReviewed": 2,
+    "plausibleCapturesSuggested": 6,
+    "userApproved": 0,
+    "TheTVDBWrites": 0
+  },
+  "rows": [
+    {
+      "episode": "S2024E08",
+      "tvdbEpisodeId": "10553257",
+      "youtubeId": "-eTFrHf6WJs",
+      "assistantPreferredVariant": 2,
+      "sha256": "f4ba3b1adb293f096a5b6fac01eb32e528e3fc21c67dfd0a6a003d2e2b228923",
+      "dhash": "64ccccca8ec79cb8",
+      "sourceImageURL": "https://i.ytimg.com/vi/-eTFrHf6WJs/maxres2.jpg",
+      "allVariants": [
+        "https://i.ytimg.com/vi/-eTFrHf6WJs/maxres1.jpg",
+        "https://i.ytimg.com/vi/-eTFrHf6WJs/maxres2.jpg",
+        "https://i.ytimg.com/vi/-eTFrHf6WJs/maxres3.jpg"
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2025E01",
+      "tvdbEpisodeId": "10928740",
+      "youtubeId": "Hvs9PVOW_HQ",
+      "assistantPreferredVariant": 1,
+      "sha256": "6861108c9944b6086e3efff114b50393eae0e69aa3549af0b12eaf39d1e2993d",
+      "dhash": "6c6c4c4c4e4e66e6",
+      "sourceImageURL": "https://i.ytimg.com/vi/Hvs9PVOW_HQ/maxres1.jpg",
+      "allVariants": [
+        "https://i.ytimg.com/vi/Hvs9PVOW_HQ/maxres1.jpg",
+        "https://i.ytimg.com/vi/Hvs9PVOW_HQ/maxres2.jpg",
+        "https://i.ytimg.com/vi/Hvs9PVOW_HQ/maxres3.jpg"
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2025E02",
+      "tvdbEpisodeId": "10942249",
+      "youtubeId": "DYe7k5oPv_M",
+      "assistantPreferredVariant": 2,
+      "sha256": "36cc83e9956c46243f21e3016c64cc06b9964ed0aaaeaa5ea48f3e692cc011d2",
+      "dhash": "985ace484848cccc",
+      "sourceImageURL": "https://i.ytimg.com/vi/DYe7k5oPv_M/maxres2.jpg",
+      "allVariants": [
+        "https://i.ytimg.com/vi/DYe7k5oPv_M/maxres1.jpg",
+        "https://i.ytimg.com/vi/DYe7k5oPv_M/maxres2.jpg",
+        "https://i.ytimg.com/vi/DYe7k5oPv_M/maxres3.jpg"
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2025E03",
+      "tvdbEpisodeId": "10970002",
+      "youtubeId": "TtXVBCytTdU",
+      "assistantPreferredVariant": 2,
+      "sha256": "d4853d53b7e5986ac491e35e328850b63d142fca686d6ef8dc2803e3108b2c80",
+      "dhash": "90d8888c8c2c0c2c",
+      "sourceImageURL": "https://i.ytimg.com/vi/TtXVBCytTdU/maxres2.jpg",
+      "allVariants": [
+        "https://i.ytimg.com/vi/TtXVBCytTdU/maxres1.jpg",
+        "https://i.ytimg.com/vi/TtXVBCytTdU/maxres2.jpg",
+        "https://i.ytimg.com/vi/TtXVBCytTdU/maxres3.jpg"
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2025E06",
+      "tvdbEpisodeId": "11069529",
+      "youtubeId": "bqbPTr0RjuY",
+      "assistantPreferredVariant": 3,
+      "sha256": "143000fa5ec8804a436bfdd96dca1816b899c791b219e517bd2a5959e575ad7f",
+      "dhash": "141c0c0c14142c4c",
+      "sourceImageURL": "https://i.ytimg.com/vi/bqbPTr0RjuY/maxres3.jpg",
+      "allVariants": [
+        "https://i.ytimg.com/vi/bqbPTr0RjuY/maxres1.jpg",
+        "https://i.ytimg.com/vi/bqbPTr0RjuY/maxres2.jpg",
+        "https://i.ytimg.com/vi/bqbPTr0RjuY/maxres3.jpg"
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "episode": "S2025E07",
+      "tvdbEpisodeId": "11125391",
+      "youtubeId": "Bo7oTG21VhU",
+      "assistantPreferredVariant": 1,
+      "sha256": "bb5a45b92046087f9c173768dcdb04ab70f1a952a54ab8eec3df55f08bc59b05",
+      "dhash": "9111313b32391919",
+      "sourceImageURL": "https://i.ytimg.com/vi/Bo7oTG21VhU/maxres1.jpg",
+      "allVariants": [
+        "https://i.ytimg.com/vi/Bo7oTG21VhU/maxres1.jpg",
+        "https://i.ytimg.com/vi/Bo7oTG21VhU/maxres2.jpg",
+        "https://i.ytimg.com/vi/Bo7oTG21VhU/maxres3.jpg"
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    }
+  ],
+  "accountArtUploadRestrictionLiftConfirmed": false,
+  "warning": "No upload. Image preselection is not user moderation approval; verify current public TheTVDB presence again before any possible authorized write, and do not edit source images to obscure titles."
+}
