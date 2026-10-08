@@ -1,0 +1,518 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_PUBLIC_THETVDB_EPISODE_PAGE_IMAGE_URL_RESCAN",
+  "source": "Live public episode pages accessed via website extraction, then checked against 2026-10-07 GitHub master checkpoint",
+  "scope": "Maxime Biaggi MAIN channel, 64/64 official-order episode pages all seasons",
+  "summary": {
+    "episodesChecked": 64,
+    "artworkUrlsPresent": 36,
+    "missingOnPublicPage": 28,
+    "lastCommittedCheckpointPresent": 41,
+    "lastCommittedCheckpointMissing": 23,
+    "additionalMissingSinceCheckpoint": 5
+  },
+  "newlyMissingVersusCommittedPostModerationSelection": [
+    {
+      "episode": "S2025E10",
+      "tvdbEpisodeId": 11696646,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696646",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2025E11",
+      "tvdbEpisodeId": 11696647,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696647",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2025E14",
+      "tvdbEpisodeId": 11696650,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696650",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2026E04",
+      "tvdbEpisodeId": 11696666,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696666",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2026E07",
+      "tvdbEpisodeId": 11848022,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11848022",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    }
+  ],
+  "preservedPreviouslyPreparedSelections": "reports/post-moderation-textfree-frame-selection-2026-10-07.json",
+  "interpretation": "The five additional missing episodes (2025E10/E11/E14; 2026E04/E07) are absent from the 23-episode replacement queue prepared on October 7. May be subsequent moderation removals or updated public visibility; do not claim cause without authenticated confirmation. Distinct artwork URLs on 36 other episodes do NOT prove distinct image content or correct Youtube correspondence.",
+  "accountRestriction": "Last authenticated report 2026-10-07 stated TEMPORARILY_RESTRICTED_FROM_UPLOADING; no newer verified account-status evidence. NO ARTWORK WRITES.",
+  "additionalElianPublicChecks": [
+    {
+      "code": "S2023E02",
+      "tvdbEpisodeId": 11092249,
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "url": "https://thetvdb.com/series/elian-ventre-462729/episodes/11092249"
+    },
+    {
+      "code": "S2026E02",
+      "tvdbEpisodeId": 11665002,
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "url": "https://thetvdb.com/series/elian-ventre-462729/episodes/11665002"
+    }
+  ],
+  "rows": [
+    {
+      "episode": "S2019E01",
+      "tvdbEpisodeId": 11696580,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696580",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2019E02",
+      "tvdbEpisodeId": 11696581,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696581",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2019E03",
+      "tvdbEpisodeId": 11696582,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696582",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2019E04",
+      "tvdbEpisodeId": 11696583,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696583",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2019E05",
+      "tvdbEpisodeId": 11696584,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696584",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2019E06",
+      "tvdbEpisodeId": 11696585,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696585",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2019E07",
+      "tvdbEpisodeId": 11696586,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696586",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2021E01",
+      "tvdbEpisodeId": 11696587,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696587",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2021E02",
+      "tvdbEpisodeId": 11696588,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696588",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696588/screencap/6ac649b755431.jpg"
+    },
+    {
+      "episode": "S2022E01",
+      "tvdbEpisodeId": 11696589,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696589",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696589/screencap/6ac649bd5abbb.jpg"
+    },
+    {
+      "episode": "S2022E02",
+      "tvdbEpisodeId": 11696590,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696590",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2022E03",
+      "tvdbEpisodeId": 11696591,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696591",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696591/screencap/6ac64aa9b3486.jpg"
+    },
+    {
+      "episode": "S2022E04",
+      "tvdbEpisodeId": 11696592,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696592",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2022E05",
+      "tvdbEpisodeId": 11696593,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696593",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696593/screencap/6ac64ab4b6399.jpg"
+    },
+    {
+      "episode": "S2022E06",
+      "tvdbEpisodeId": 11696595,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696595",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696595/screencap/6ac64af8b8eb2.jpg"
+    },
+    {
+      "episode": "S2022E07",
+      "tvdbEpisodeId": 11696597,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696597",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2022E08",
+      "tvdbEpisodeId": 11696599,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696599",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696599/screencap/6ac64b0392e85.jpg"
+    },
+    {
+      "episode": "S2023E01",
+      "tvdbEpisodeId": 11696603,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696603",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2023E02",
+      "tvdbEpisodeId": 11696604,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696604",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696604/screencap/6ac64b0e9112e.jpg"
+    },
+    {
+      "episode": "S2023E03",
+      "tvdbEpisodeId": 11696605,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696605",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696605/screencap/6ac64b13f104f.jpg"
+    },
+    {
+      "episode": "S2023E04",
+      "tvdbEpisodeId": 11696606,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696606",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696606/screencap/6ac64e290071b.jpg"
+    },
+    {
+      "episode": "S2023E05",
+      "tvdbEpisodeId": 11696607,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696607",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2023E06",
+      "tvdbEpisodeId": 11696608,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696608",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2023E07",
+      "tvdbEpisodeId": 11696609,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696609",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696609/screencap/6ac64e377f3c2.jpg"
+    },
+    {
+      "episode": "S2023E08",
+      "tvdbEpisodeId": 11696610,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696610",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2023E09",
+      "tvdbEpisodeId": 11696611,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696611",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2024E01",
+      "tvdbEpisodeId": 11696620,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696620",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2024E02",
+      "tvdbEpisodeId": 11696621,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696621",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2024E03",
+      "tvdbEpisodeId": 11696622,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696622",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696622/screencap/6ac64e4e7b451.jpg"
+    },
+    {
+      "episode": "S2024E04",
+      "tvdbEpisodeId": 11696623,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696623",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2024E05",
+      "tvdbEpisodeId": 11696624,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696624",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696624/screencap/6ac64e57b7269.jpg"
+    },
+    {
+      "episode": "S2024E06",
+      "tvdbEpisodeId": 11696625,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696625",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2025E01",
+      "tvdbEpisodeId": 11696637,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696637",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2025E02",
+      "tvdbEpisodeId": 11696638,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696638",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696638/screencap/6ac64e6194ccd.jpg"
+    },
+    {
+      "episode": "S2025E03",
+      "tvdbEpisodeId": 11696639,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696639",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696639/screencap/6ac64e665b43c.jpg"
+    },
+    {
+      "episode": "S2025E04",
+      "tvdbEpisodeId": 11696640,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696640",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696640/screencap/6ac64e6ae826d.jpg"
+    },
+    {
+      "episode": "S2025E05",
+      "tvdbEpisodeId": 11696641,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696641",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2025E06",
+      "tvdbEpisodeId": 11696642,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696642",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696642/screencap/6ac64e747f104.jpg"
+    },
+    {
+      "episode": "S2025E07",
+      "tvdbEpisodeId": 11696643,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696643",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696643/screencap/6ac64e79211fd.jpg"
+    },
+    {
+      "episode": "S2025E08",
+      "tvdbEpisodeId": 11696644,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696644",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2025E09",
+      "tvdbEpisodeId": 11696645,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696645",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696645/screencap/6ac677dbbfbc5.jpg"
+    },
+    {
+      "episode": "S2025E10",
+      "tvdbEpisodeId": 11696646,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696646",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2025E11",
+      "tvdbEpisodeId": 11696647,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696647",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2025E12",
+      "tvdbEpisodeId": 11696648,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696648",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696648/screencap/6ac677ea37b80.jpg"
+    },
+    {
+      "episode": "S2025E13",
+      "tvdbEpisodeId": 11696649,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696649",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696649/screencap/6ac677ee9dc49.jpg"
+    },
+    {
+      "episode": "S2025E14",
+      "tvdbEpisodeId": 11696650,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696650",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2025E15",
+      "tvdbEpisodeId": 11696651,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696651",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696651/screencap/6ac677f7c0463.jpg"
+    },
+    {
+      "episode": "S2025E16",
+      "tvdbEpisodeId": 11696652,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696652",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696652/screencap/6ac677fcd7b7a.jpg"
+    },
+    {
+      "episode": "S2025E17",
+      "tvdbEpisodeId": 11696653,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696653",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696653/screencap/6ac67801b6175.jpg"
+    },
+    {
+      "episode": "S2025E18",
+      "tvdbEpisodeId": 11696654,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696654",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696654/screencap/6ac6789052b7f.jpg"
+    },
+    {
+      "episode": "S2025E19",
+      "tvdbEpisodeId": 11696655,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696655",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696655/screencap/6ac67b57767e8.jpg"
+    },
+    {
+      "episode": "S2025E20",
+      "tvdbEpisodeId": 11696656,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696656",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696656/screencap/6ac67b5d38b23.jpg"
+    },
+    {
+      "episode": "S2025E21",
+      "tvdbEpisodeId": 11696657,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696657",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696657/screencap/6ac67b62549fa.jpg"
+    },
+    {
+      "episode": "S2026E01",
+      "tvdbEpisodeId": 11696661,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696661",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696661/screencap/6ac67b670c438.jpg"
+    },
+    {
+      "episode": "S2026E02",
+      "tvdbEpisodeId": 11696662,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696662",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696662/screencap/6ac67b6c3bbe7.jpg"
+    },
+    {
+      "episode": "S2026E03",
+      "tvdbEpisodeId": 11696664,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696664",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11696664/screencap/6ac67b714515f.jpg"
+    },
+    {
+      "episode": "S2026E04",
+      "tvdbEpisodeId": 11696666,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11696666",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2026E05",
+      "tvdbEpisodeId": 11747535,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11747535",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11747535/screencap/6ac67b7bd8bc3.jpg"
+    },
+    {
+      "episode": "S2026E06",
+      "tvdbEpisodeId": 11848021,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11848021",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11848021/screencap/6ac67b810dbc2.jpg"
+    },
+    {
+      "episode": "S2026E07",
+      "tvdbEpisodeId": 11848022,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11848022",
+      "status": "NO_ARTWORK_ON_PUBLIC_PAGE",
+      "artworkUrl": null
+    },
+    {
+      "episode": "S2026E08",
+      "tvdbEpisodeId": 11962145,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11962145",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11962145/screencap/6ac67b8b718a2.jpg"
+    },
+    {
+      "episode": "S2026E09",
+      "tvdbEpisodeId": 11962146,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11962146",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11962146/screencap/6ac67b906cd48.jpg"
+    },
+    {
+      "episode": "S2026E10",
+      "tvdbEpisodeId": 11962147,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11962147",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11962147/screencap/6ac67b955df66.jpg"
+    },
+    {
+      "episode": "S2026E11",
+      "tvdbEpisodeId": 11998870,
+      "episodePage": "https://thetvdb.com/series/maxime-biaggi/episodes/11998870",
+      "status": "ARTWORK_URL_PRESENT",
+      "artworkUrl": "https://artworks.thetvdb.com/banners/v4/episode/11998870/screencap/6ac67b9a6c29d.jpg"
+    }
+  ]
+}
