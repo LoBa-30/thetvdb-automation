@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_OPTION_A_ALL_SIX_OTHER_CREATORS_CHECKPOINT",
+  "previousPriorityThree": "Maxime Biaggi, Djilsi and Elian Ventre completed separate candidate prechecks; do not restart them",
+  "activeCreators": [
+    "Raska",
+    "Squeezie",
+    "Mastu",
+    "Amixem",
+    "Joyca",
+    "Mcfly & Carlito"
+  ],
+  "status": {
+    "Raska": {
+      "officialEpisodesCheckedLive": 150,
+      "currentArtworkPresent": 130,
+      "currentArtworkMissing": 20,
+      "currentArtworkUnknown": 0,
+      "matchedMissingToYouTube": 19,
+      "historicalTvdbOnlyWithoutConfirmedYouTube": [
+        "S2023E19"
+      ],
+      "genuineAutoFramesDownloaded": 57,
+      "visualPrecheckPlausible": 4,
+      "needsDeeperFrameExtraction": 15,
+      "report": "reports/optionA-raska-19-candidate-review-2026-10-08.json",
+      "inventory": "reports/optionA-raska-150-live-audit-2026-10-08.json"
+    },
+    "Mastu": {
+      "officialEpisodesLocated": 376,
+      "currentArtworkPresent": 106,
+      "currentArtworkMissing": 240,
+      "currentArtworkUnknown": 30,
+      "reason": "TheTVDB started answering HTTP 202 with empty body; stop requests and treat as unknown, do not bypass; historical YouTube mappings not secure",
+      "galleryReady": false,
+      "report": "reports/optionA-mastu-376-inventory-2026-10-08.json"
+    },
+    "Squeezie": {
+      "previouslyRecordedTVDBEpisodes": 1659,
+      "latestPublicFullRescan": "NOT_DONE",
+      "provisionalReviewEpisodes": 12,
+      "genuineAutoFramesDownloaded": 36,
+      "precheckPlausible": 12,
+      "needsDeeperFrameExtraction": 0,
+      "status": "NEEDS_FRESH_TVDB_ARTWORK_PREFLIGHT_AND_USER_REVIEW",
+      "report": "reports/optionA-four-remaining-chains-48-starter-2026-10-08.json"
+    },
+    "Amixem": {
+      "previouslyReportedAlignedEpisodes": 890,
+      "latestPublicFullRescan": "NOT_DONE",
+      "provisionalReviewEpisodes": 12,
+      "genuineAutoFramesDownloaded": 36,
+      "precheckPlausible": 12,
+      "needsDeeperFrameExtraction": 0,
+      "status": "NEEDS_FRESH_TVDB_ARTWORK_PREFLIGHT_AND_USER_REVIEW",
+      "report": "reports/optionA-four-remaining-chains-48-starter-2026-10-08.json"
+    },
+    "Joyca": {
+      "previouslyReportedAlignedEpisodes": 449,
+      "latestPublicFullRescan": "NOT_DONE",
+      "provisionalReviewEpisodes": 12,
+      "genuineAutoFramesDownloaded": 36,
+      "precheckPlausible": 8,
+      "needsDeeperFrameExtraction": 4,
+      "status": "NEEDS_FRESH_TVDB_ARTWORK_PREFLIGHT_AND_USER_REVIEW",
+      "report": "reports/optionA-four-remaining-chains-48-starter-2026-10-08.json"
+    },
+    "Mcfly & Carlito": {
+      "previouslyReportedAlignedEpisodes": 574,
+      "latestPublicFullRescan": "NOT_DONE",
+      "provisionalReviewEpisodes": 12,
+      "genuineAutoFramesDownloaded": 36,
+      "precheckPlausible": 12,
+      "needsDeeperFrameExtraction": 0,
+      "status": "NEEDS_FRESH_TVDB_ARTWORK_PREFLIGHT_AND_USER_REVIEW",
+      "report": "reports/optionA-four-remaining-chains-48-starter-2026-10-08.json"
+    }
+  },
+  "gallery": {
+    "filename": "TheTVDB_optionA_autres_chaines_galerie_67.html",
+    "manifest": "thetvdb_optionA_autres_chaines_67_candidats.json",
+    "reviewEpisodes": 67,
+    "proposals": 48,
+    "withoutSuggestion": 19,
+    "userApproved": 0,
+    "TheTVDBWrites": 0
+  },
+  "sources": [
+    "reports/optionA-raska-150-live-audit-2026-10-08.json",
+    "reports/optionA-mastu-376-inventory-2026-10-08.json",
+    "reports/optionA-raska-19-candidate-review-2026-10-08.json",
+    "reports/optionA-four-remaining-chains-48-starter-2026-10-08.json",
+    "reports/optionA-master-preflight-137-missing-2026-10-08.json"
+  ],
+  "safety": {
+    "accountArtUploadRestrictionLiftConfirmed": false,
+    "anyTheTVDBWrites": false,
+    "noUploadedArtworkIsYetApproved": true,
+    "noRecreationOfEpisodes": true,
+    "ignoreHttp202BlankAsUnknown": true,
+    "avoidWatermarksTitlesAndFakeImageEdits": true
+  },
+  "nextActions": [
+    "Receive user choices of candidate images in current gallery",
+    "Continue read-only per-episode matching for Mastu from existing reliable source data",
+    "Refresh live-artwork status for Squeezie/Amixem/Joyca/Mcfly only after public site resumes normal 200 responses",
+    "Find native actual video frames for blocked cases only by permitted access; do not evade HTTP blocks",
+    "Check account art-upload restriction lifted before any future write; one at a time with pre/post verification"
+  ]
+}
