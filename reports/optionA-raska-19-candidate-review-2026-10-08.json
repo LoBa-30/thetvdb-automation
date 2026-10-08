@@ -1,0 +1,590 @@
+{
+  "date": "2026-10-08",
+  "chain": "Raska",
+  "mode": "READ_ONLY_VIDEO_FRAME_PRECHECK",
+  "currentPublicArtworkSummary": {
+    "present": 130,
+    "missing": 20,
+    "unknown": 0
+  },
+  "withKnownYoutubeVideo": 19,
+  "notMappedToPublicYoutube": [
+    "S2023E19"
+  ],
+  "nativeFramesDownloaded": 57,
+  "plausiblePreselected": 4,
+  "blockedForDeeperSource": 15,
+  "rows": [
+    {
+      "chain": "Raska",
+      "code": "S2017E03",
+      "tvdbEpisodeId": "11960839",
+      "youtubeId": "YarMW4AXR54",
+      "title": null,
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_UNSUITABLE_AUTO_FRAMES",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/YarMW4AXR54/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "ac2fd4652147420aea8c8a7870e99d32b6dbf18b421f0dbf13c6e78d795799d3"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/YarMW4AXR54/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "1185a50b44db32f6e0640570c3f22e5005e3d4306f7853ef1279aa74057a71df"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/YarMW4AXR54/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "114b1516ccebd2079f15c9f5fedd4076061f7b6193f2b1812f7461b605b94d89"
+        }
+      ]
+    },
+    {
+      "chain": "Raska",
+      "code": "S2017E04",
+      "tvdbEpisodeId": "11960840",
+      "youtubeId": "hl_oMecxiFY",
+      "title": null,
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_UNSUITABLE_AUTO_FRAMES",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/hl_oMecxiFY/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "42638ce894531a2095736df155eee6e0f1cb1cb3cd57f705de35876ffa0d2513"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/hl_oMecxiFY/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "d890097d985c7ce1ed1b241b9c5fac4c45528f06f3936d79d9f66ec407d1bd27"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/hl_oMecxiFY/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "f3ca452da01073d45f7ca5875ab02434fd81800af744a4c3d83cf6fc0c70fe04"
+        }
+      ]
+    },
+    {
+      "chain": "Raska",
+      "code": "S2018E02",
+      "tvdbEpisodeId": "11979236",
+      "youtubeId": "qaxb0pVb6No",
+      "title": null,
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_UNSUITABLE_AUTO_FRAMES",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/qaxb0pVb6No/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "fabaafb6521902902cae155ef8d46b8e5a09ebb8c3843cb89a46aaff1e45a331"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/qaxb0pVb6No/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "2563611b4d9bdfde1e4fbf306a27c07e44d84e912940dd5bd09390e604e75388"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/qaxb0pVb6No/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "b227bbd51930b65aea8a3320b28df7f90d56aec2b8688f5c0a803a06e41d327e"
+        }
+      ]
+    },
+    {
+      "chain": "Raska",
+      "code": "S2018E03",
+      "tvdbEpisodeId": "11960842",
+      "youtubeId": "RIvlj2BlOro",
+      "title": null,
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_UNSUITABLE_AUTO_FRAMES",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/RIvlj2BlOro/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "5e11bc86e56dcb527fac5e53304bc8f5c76b74e8d97d1e1d86e265cd630685ce"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/RIvlj2BlOro/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "8d58bcae36a2cdc4e36ee2cf436cb54eef77c6aeec1b8bb7ab62c986e2f9d64d"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/RIvlj2BlOro/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "d5ffbf0fa4fe3b3129d2cc71528d93fdca3b31bbe101ea9d5ec87e15bbb3c3c1"
+        }
+      ]
+    },
+    {
+      "chain": "Raska",
+      "code": "S2018E05",
+      "tvdbEpisodeId": "11960844",
+      "youtubeId": "q_dSPAPZCz4",
+      "title": null,
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_UNSUITABLE_AUTO_FRAMES",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/q_dSPAPZCz4/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "ee95e19c01ec5fb13792eb2de59503f6f0f5d643baefed2c6c5aaab7dccdd5d9"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/q_dSPAPZCz4/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "0f6890982e60f6dfd48fae406d6962ce876c6c2fb522c33a54ddfd4bcaa554f0"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/q_dSPAPZCz4/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "4a9b12f04d8aca51617d694f93367cca4486a4a56b1fe8b37a5d2d64112666e4"
+        }
+      ]
+    },
+    {
+      "chain": "Raska",
+      "code": "S2018E07",
+      "tvdbEpisodeId": "11960846",
+      "youtubeId": "0YmW1gRTeA4",
+      "title": null,
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_UNSUITABLE_AUTO_FRAMES",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/0YmW1gRTeA4/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "058fec017c3020d4da9273fe51915f7d233f75c9f29f9030bdcd20dda2f5c3ca"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/0YmW1gRTeA4/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "e27fbb89fbe56d7b58b7211abebd88fb4843ed4b5a220b35d4d4997fd8eb5500"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/0YmW1gRTeA4/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "3738c11aed8d5144f3b5091a2cd35bcdc471482132950acdc935fe1db6200e88"
+        }
+      ]
+    },
+    {
+      "chain": "Raska",
+      "code": "S2019E01",
+      "tvdbEpisodeId": "11960853",
+      "youtubeId": "95dKYYdIyik",
+      "title": null,
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_UNSUITABLE_AUTO_FRAMES",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/95dKYYdIyik/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "ca845ab800bd9092b07cf03ed3e021779f31e897ea984227d77b2cc40270f8aa"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/95dKYYdIyik/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "241345d16f3216dc5c05a0d4e46f05055bfbedb502eeb75d921c27f66056542d"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/95dKYYdIyik/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "346423fb7c4ed86fbb3dc7eb240ee4862275067d1658700397ff73f507188dee"
+        }
+      ]
+    },
+    {
+      "chain": "Raska",
+      "code": "S2019E05",
+      "tvdbEpisodeId": "11960857",
+      "youtubeId": "YN8hYrxWA1g",
+      "title": null,
+      "preselectVariant": 2,
+      "visualStatus": "VISUAL_PRECHECK_PLAUSIBLE_NEEDS_FINAL_REVIEW",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/YN8hYrxWA1g/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "33051cb1043bc68ea30dfb93b4d598687517b8edb5c7162b27bd81192200ed0a"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/YN8hYrxWA1g/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "1e3db8bff0bb0308e95f3ec4045da76735c57385e749b78e7c777cb63ca1cf25"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/YN8hYrxWA1g/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "73b7bc74f7cb4748e0d20a189fe3790747ab3621cf406de6468ba4b91060b38e"
+        }
+      ]
+    },
+    {
+      "chain": "Raska",
+      "code": "S2020E09",
+      "tvdbEpisodeId": "11960870",
+      "youtubeId": "8cDLGzGgEBc",
+      "title": null,
+      "preselectVariant": 1,
+      "visualStatus": "VISUAL_PRECHECK_PLAUSIBLE_NEEDS_FINAL_REVIEW",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/8cDLGzGgEBc/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "ccf52077f6b15f124e01ef4c0e4ff628efa80902469d7e9c4e53819d850fdf1b"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/8cDLGzGgEBc/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "24a324a22a08272bff421ba0e26ae1d5529c59889246fe8d57fcea30ab7e62e5"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/8cDLGzGgEBc/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "aefc4ad99424069e715c20cce8a3a82bf208e44105496df93195b924e470496c"
+        }
+      ]
+    },
+    {
+      "chain": "Raska",
+      "code": "S2020E12",
+      "tvdbEpisodeId": "11960873",
+      "youtubeId": "XUFDQl_ZtI0",
+      "title": null,
+      "preselectVariant": 1,
+      "visualStatus": "VISUAL_PRECHECK_PLAUSIBLE_NEEDS_FINAL_REVIEW",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/XUFDQl_ZtI0/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "97ad4d6eeb435775e20facd4cebe9743717fa441d1d8735a6044e3e66d37baf3"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/XUFDQl_ZtI0/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "20f2e494416de33cfed231371e3e97f49ecd8d2e2e670499c2c846a576e46651"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/XUFDQl_ZtI0/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "caf7f92c39c2d0aed5f214293dd4062362c918b9145f630707f6391e02057485"
+        }
+      ]
+    },
+    {
+      "chain": "Raska",
+      "code": "S2020E17",
+      "tvdbEpisodeId": "11960878",
+      "youtubeId": "FvgKy9D2-GE",
+      "title": null,
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_UNSUITABLE_AUTO_FRAMES",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/FvgKy9D2-GE/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "83793ba5037b5defddaabece1c87a8a1522472059057e219def5e42703d60771"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/FvgKy9D2-GE/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "ce61d3c1214f2c5cc0bae65865fd81d3ebea151c6100807752ce22d19d61e557"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/FvgKy9D2-GE/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "dd096231a3f95255bb090e8a93d8f0fb145b09b34f2620560e5aaec9986202b1"
+        }
+      ]
+    },
+    {
+      "chain": "Raska",
+      "code": "S2020E18",
+      "tvdbEpisodeId": "11960879",
+      "youtubeId": "cLDCG7Au_BA",
+      "title": null,
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_UNSUITABLE_AUTO_FRAMES",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/cLDCG7Au_BA/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "1f79692315e450631ee98fa789cc6d24820a6dc01f36ca727c1f2b7416808db6"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/cLDCG7Au_BA/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "bd302ba4ba3a9e03fd31e2ee725124a19a6c8a5dcec0fadf2190cf897145b274"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/cLDCG7Au_BA/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "0c493d7f70be8e21ba0969a229045a178709856afe17dfc581de06307dabf2a3"
+        }
+      ]
+    },
+    {
+      "chain": "Raska",
+      "code": "S2021E02",
+      "tvdbEpisodeId": "11960890",
+      "youtubeId": "OyNisujbTN8",
+      "title": null,
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_UNSUITABLE_AUTO_FRAMES",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/OyNisujbTN8/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "54f65e0069b994ff17b33517e8045633cc3120bbc8e9439995ef67b9b4fea1a7"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/OyNisujbTN8/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "fb3d56d69b346663b9e7dae5124ec6b52249142764989f66325561790d0a9f47"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/OyNisujbTN8/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "828ca0c428901e4d6c4d7131c4615630d1329d47499452051d6ff85389ad0f77"
+        }
+      ]
+    },
+    {
+      "chain": "Raska",
+      "code": "S2021E03",
+      "tvdbEpisodeId": "11960891",
+      "youtubeId": "5-z4Vs7Ml54",
+      "title": null,
+      "preselectVariant": 3,
+      "visualStatus": "VISUAL_PRECHECK_PLAUSIBLE_NEEDS_FINAL_REVIEW",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/5-z4Vs7Ml54/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "3028979ac842f9199db9ee984b4791257651f27c82da252027dbf4a0d8e33488"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/5-z4Vs7Ml54/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "83e7568585147b9532484c9937fa96b3ddd430b12a196705fc8701a2cb4798d7"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/5-z4Vs7Ml54/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "2bb4e2cb53b7f95643af7b89a93a126ca56d0c5dc2b47308a33c4910320587bb"
+        }
+      ]
+    },
+    {
+      "chain": "Raska",
+      "code": "S2022E10",
+      "tvdbEpisodeId": "11960921",
+      "youtubeId": "-K0btHmC6Sg",
+      "title": null,
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_UNSUITABLE_AUTO_FRAMES",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/-K0btHmC6Sg/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "834c3e1acc08fb0718e199a8941391082aa26bfa294b08e04a4a99e8375fad62"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/-K0btHmC6Sg/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "ff2513ce1cf42c8af244568ef712c8f698600676612122dad68d9f158a4d2359"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/-K0btHmC6Sg/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "7cb3db890703f7586b86d4f27f1b370054489f2df92cae37b7f613f3c66c54f0"
+        }
+      ]
+    },
+    {
+      "chain": "Raska",
+      "code": "S2022E18",
+      "tvdbEpisodeId": "11960929",
+      "youtubeId": "DK1m3pckmOQ",
+      "title": null,
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_UNSUITABLE_AUTO_FRAMES",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/DK1m3pckmOQ/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "c2e246ac7b2131c19fd7727c291adc3db30c4f765be75e7fde04a4b873b19b32"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/DK1m3pckmOQ/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "0b61e051248d2a00dfd0689647eccc9d522253baf8d6b6603245a2a1f834b059"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/DK1m3pckmOQ/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "069bf08f23668d6fbff191b37164e0e9e7aa277aefee1110b235b91e9ebbc0bf"
+        }
+      ]
+    },
+    {
+      "chain": "Raska",
+      "code": "S2023E06",
+      "tvdbEpisodeId": "11960801",
+      "youtubeId": "RKpy_sqdZWM",
+      "title": null,
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_UNSUITABLE_AUTO_FRAMES",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/RKpy_sqdZWM/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "8997687a22bb085e12aa16e9d37be979012c926c17c51b267de7a16c38d9b9eb"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/RKpy_sqdZWM/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "5e8b80add93ff878f4c86740975b4d2c19b635fe54409ee17a6b5c0bbeb6e914"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/RKpy_sqdZWM/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "168749a4b58595b2c479a102ce10aa6d6a1a5604c066589b3590906be4f17f6f"
+        }
+      ]
+    },
+    {
+      "chain": "Raska",
+      "code": "S2023E08",
+      "tvdbEpisodeId": "11960803",
+      "youtubeId": "6MaE7zoeALw",
+      "title": null,
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_UNSUITABLE_AUTO_FRAMES",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/6MaE7zoeALw/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "f8628d8e47840d1674b7b7edee22ea99e03dce57f443bb1b018dde756ba015c6"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/6MaE7zoeALw/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "253617875282a3d09ba543b4d7acec3e298c4841780f41ace9fc41ef4145b04c"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/6MaE7zoeALw/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "0d0bade2c7f410a08e32689b9afa4c712d7d1ab36fb34e4bb0a9c8a37f4ea0cc"
+        }
+      ]
+    },
+    {
+      "chain": "Raska",
+      "code": "S2024E03",
+      "tvdbEpisodeId": "11860678",
+      "youtubeId": "tCg7PtYRnFc",
+      "title": null,
+      "preselectVariant": null,
+      "visualStatus": "BLOCKED_OVERLAY_OR_UNSUITABLE_AUTO_FRAMES",
+      "uploadApproved": false,
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/tCg7PtYRnFc/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "63880c97783f64a5001a7143dd7243fa8f92323c0dfe73b7dba379636180fb33"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/tCg7PtYRnFc/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "205bb355108c7f0614ddce8a6a711cf40b6ce1101155278a7f2eeddd9a1bc845"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/tCg7PtYRnFc/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "e5dc20db503e7923ff6dbd25b6892a4c3157c729dc3f990c1d1bc162c49d3fa7"
+        }
+      ]
+    }
+  ],
+  "notes": "No candidate uploaded or approved. Many have baked-in logos, text or broadcasts and cannot be erased for compliance."
+}
