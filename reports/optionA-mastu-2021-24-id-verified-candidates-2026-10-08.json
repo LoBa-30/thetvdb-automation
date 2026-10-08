@@ -1,0 +1,814 @@
+{
+  "generatedAt": "2026-10-08",
+  "scope": "Mastu S2021 24 missing episode artworks checked by exact TVDB episode ID, not guessed order",
+  "sourceArtifact": {
+    "workflowRunId": 37049576696,
+    "artifactId": 11245424693,
+    "name": "mastu-final-exhaustive-audit-v2",
+    "auditRowsMatched": 359,
+    "tvdbHistoricalNoPublicYoutube": 16
+  },
+  "summary": {
+    "episodes": 24,
+    "nativeVideoStillsDownloaded": 72,
+    "preselectedAfterVisualPrecheck": 24,
+    "exactDuplicatePairs": 0,
+    "dhashNearPairs8": [],
+    "noTheTVDBWrites": true
+  },
+  "important": "Original official season list had gaps: locally inferred S2021E* index was off by one or more. Keep archiveCode as provisional until fresh full metadata verification. Match by exact TVDB episode ID only. NO uploads and NO guessing for historically unmatched videos.",
+  "rows": [
+    {
+      "archiveCode": "S2021E51",
+      "tvdbEpisodeId": "9195500",
+      "youtubeId": "86leeVa9JYc",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 3,
+      "selectedSha256": "a87f0655b7d11ef7c2d08141bb4e894b43c04a3fcedf2a011be3f2e8b42e76bc",
+      "selectedDhash": "2b08a9898989d991",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/86leeVa9JYc/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "b29afd6ac97d1f68d834b805d5bc7a036c18ffae5d651dd342de34eba56bacda"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/86leeVa9JYc/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "d379887b7f679d0979dddb144fe78346d0a3313e152c1a3bfb80f7b0ed7069da"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/86leeVa9JYc/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "a87f0655b7d11ef7c2d08141bb4e894b43c04a3fcedf2a011be3f2e8b42e76bc"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E47",
+      "tvdbEpisodeId": "9194347",
+      "youtubeId": "DC2txnXYCFU",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 2,
+      "selectedSha256": "79cf28f207029dd093577c428522d7b39b151f35cb6e4dd1a59a3ac8dfed6f38",
+      "selectedDhash": "b62c6d8dde9696b6",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/DC2txnXYCFU/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "27349ea1603b9d795ab6f4b9833ce8feb7311c0d6416789d054821c9492a6590"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/DC2txnXYCFU/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "79cf28f207029dd093577c428522d7b39b151f35cb6e4dd1a59a3ac8dfed6f38"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/DC2txnXYCFU/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "e8a7ffa5fe60b54f6ce3304371f5285a5881d44319b1695c163a38ec3bc172cd"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E46",
+      "tvdbEpisodeId": "9195491",
+      "youtubeId": "aaIMT8gnj0Y",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 2,
+      "selectedSha256": "4eb0835bbd04f33dcf0d192f8aa282a3f6cb4a8874a02c9d95e84007c8dc3ac9",
+      "selectedDhash": "d8f4f4b8b8ecec94",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/aaIMT8gnj0Y/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "4f83fc46ce3efafe12fc66f64cc3788d9a7d421f125c4ef338be03e2191aef29"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/aaIMT8gnj0Y/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "4eb0835bbd04f33dcf0d192f8aa282a3f6cb4a8874a02c9d95e84007c8dc3ac9"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/aaIMT8gnj0Y/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "4719982a7182aef11641650a2f52c4f15cb3402a20eb4da7d814d80201066e79"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E45",
+      "tvdbEpisodeId": "9195490",
+      "youtubeId": "18RWhV7clW8",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 2,
+      "selectedSha256": "32abcd253dbf629fd048e300332e0e70d3fe4acd2d1bd937b62d31a95394e093",
+      "selectedDhash": "cc15195eb6d4b333",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/18RWhV7clW8/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "5e1a9523de54b6987e0e67c7e2dc89cbdb09585c733b0651a6affc36896d3ee1"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/18RWhV7clW8/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "32abcd253dbf629fd048e300332e0e70d3fe4acd2d1bd937b62d31a95394e093"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/18RWhV7clW8/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "0ac501f68109103ffe0d56c7d5052d42223c869b9021b0d7ff756a729c3effc5"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E44",
+      "tvdbEpisodeId": "9195489",
+      "youtubeId": "gVLOzBKxu7A",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 2,
+      "selectedSha256": "325c668f86aca32368ca222400501a47508bbc23aad78a80bfb0f86f80521415",
+      "selectedDhash": "9349dcdc5d99386d",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/gVLOzBKxu7A/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "bd20b3778bac8381cf0d886e765cb6128a5bff0799f3f1a079840917e824a49e"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/gVLOzBKxu7A/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "325c668f86aca32368ca222400501a47508bbc23aad78a80bfb0f86f80521415"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/gVLOzBKxu7A/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "f8086dc920c3a14720d66364326a9674021ea99b80f2d6503468b8fb6e6befb4"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E43",
+      "tvdbEpisodeId": "9195488",
+      "youtubeId": "N77mLlZMgFA",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 2,
+      "selectedSha256": "44e7d8c68992a11df55f53c7ae32b0ef2b62875571abf136055815a6151b347d",
+      "selectedDhash": "71a9b9d3515958d8",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/N77mLlZMgFA/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "eed805576d28fa97f52bc2b9101d688ad42f89c84e63b6d1b5c471febe3605a0"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/N77mLlZMgFA/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "44e7d8c68992a11df55f53c7ae32b0ef2b62875571abf136055815a6151b347d"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/N77mLlZMgFA/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "0023260441c2e84cc46b2de72980c8053cf9c6a88bb8552128bcb3d539cc871f"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E42",
+      "tvdbEpisodeId": "9195487",
+      "youtubeId": "oGpZbPrmrls",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 2,
+      "selectedSha256": "2e3514a18d0187f6567e7b6fb0c1e701d5a7369442520c1980d8e92fc0f99478",
+      "selectedDhash": "a0a4606079a9a9b9",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/oGpZbPrmrls/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "1c824cbc2d6ab91fb0d1998090289ddf38226f878a68150c0a3d331129365f5e"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/oGpZbPrmrls/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "2e3514a18d0187f6567e7b6fb0c1e701d5a7369442520c1980d8e92fc0f99478"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/oGpZbPrmrls/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "43d489f19297c6c42c464a43ae8059a7f59a44f0a50a52c82ec5bfae0401b834"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E41",
+      "tvdbEpisodeId": "9195486",
+      "youtubeId": "HqWvVke4oSg",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 1,
+      "selectedSha256": "939b0a40e347307c9484afd798083aba522c27a10670b73e960056a1ccbf83ee",
+      "selectedDhash": "366cac9d9d36d676",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/HqWvVke4oSg/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "939b0a40e347307c9484afd798083aba522c27a10670b73e960056a1ccbf83ee"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/HqWvVke4oSg/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "b6f73f965adf41052901e7f6f2c38ab37c13da0c21b5eba659a11f4b296c1949"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/HqWvVke4oSg/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "2aa09a0782e9d4fba9cffb1a0058456c44be3db7ddf16e75d1660cb744a38fc2"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E40",
+      "tvdbEpisodeId": "9195485",
+      "youtubeId": "I4F26ypLjgU",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 2,
+      "selectedSha256": "2e86099f867e454c5e16e56ff27bcaeeaadb83e7a2ad9c9cdff39f30dbc2b7ae",
+      "selectedDhash": "030bcbbb3b313170",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/I4F26ypLjgU/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "e9edc3bb5b9803d9e5d2acad65b8bb5233a8a2db75fc6456c365ac8e90db0d91"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/I4F26ypLjgU/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "2e86099f867e454c5e16e56ff27bcaeeaadb83e7a2ad9c9cdff39f30dbc2b7ae"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/I4F26ypLjgU/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "8297c6cefff5e9787ca0780149b9d5b3dd2c31d2db8ec52cbdf58ec8c3dcb405"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E38",
+      "tvdbEpisodeId": "9195483",
+      "youtubeId": "yUl1LPAbZGI",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 2,
+      "selectedSha256": "1c69ec6cb2f143d48cbbe3624791f1f69e4b8e10da64aa6ad20d270ceee12855",
+      "selectedDhash": "72cccc6c3caa83b3",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/yUl1LPAbZGI/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "ab973636e2405bf556276694de735daa6300740a7e02c7b51c2a736a7238eec6"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/yUl1LPAbZGI/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "1c69ec6cb2f143d48cbbe3624791f1f69e4b8e10da64aa6ad20d270ceee12855"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/yUl1LPAbZGI/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "de07d7a12011bdc2c3e35b7c70d88c731c13cfd83797b69638cab1a21736da46"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E37",
+      "tvdbEpisodeId": "9195482",
+      "youtubeId": "Sr4-pJDwsXs",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 2,
+      "selectedSha256": "0a9b77a9ea42dd83354c7cf9c6dc1d0c97a208db99514e3d0cb8184556e536b2",
+      "selectedDhash": "7149c9cbd696b696",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/Sr4-pJDwsXs/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "451dc01c4ece571a2494630427c5b3e07dea2569577a65afe2b5bd1400e32b91"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/Sr4-pJDwsXs/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "0a9b77a9ea42dd83354c7cf9c6dc1d0c97a208db99514e3d0cb8184556e536b2"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/Sr4-pJDwsXs/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "bbd830a5b0b321198a281b37f06d4b91e26dfb35e10c2a6fde94627acc900f37"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E36",
+      "tvdbEpisodeId": "9195481",
+      "youtubeId": "T6GGFyi22BY",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 3,
+      "selectedSha256": "c46f9e25bb614d33103ce07a19a2bed105cf6c58b9417b8e20915121238583af",
+      "selectedDhash": "8c3d73534796d0b2",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/T6GGFyi22BY/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "bd7b691bd627c2f8521c69886ce0df244998c5fdb29d22b0dc687c72353feb7f"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/T6GGFyi22BY/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "6058e9eadfd739dc4456e033fe7c3c257789e1fe5d30ac164d2f4a57778b59c0"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/T6GGFyi22BY/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "c46f9e25bb614d33103ce07a19a2bed105cf6c58b9417b8e20915121238583af"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E35",
+      "tvdbEpisodeId": "9195445",
+      "youtubeId": "Jlpwd2UVdGc",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 2,
+      "selectedSha256": "ada57e46f010c3f528867c8e6626e3d59dd468a0fc16fb5b62e12a3960e575f4",
+      "selectedDhash": "9d3656cbcb0bc9f9",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/Jlpwd2UVdGc/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "d337b72c8afdb36e61e503e9796b0f4635bacd869c5b8d1a8a0c474efb7af9fa"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/Jlpwd2UVdGc/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "ada57e46f010c3f528867c8e6626e3d59dd468a0fc16fb5b62e12a3960e575f4"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/Jlpwd2UVdGc/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "7d849d7b10e8f071a745694827d182d0d1fa7b350495b538ce768ef46e26617e"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E32",
+      "tvdbEpisodeId": "8762553",
+      "youtubeId": "i00sKzk-SUo",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 1,
+      "selectedSha256": "1044c56503da42d37dad05e022af73f150a5aa1040752b7eb24eaccc766df74a",
+      "selectedDhash": "ce4e4ecc8c8e86d3",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/i00sKzk-SUo/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "1044c56503da42d37dad05e022af73f150a5aa1040752b7eb24eaccc766df74a"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/i00sKzk-SUo/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "73d8ec0b98b916ad6b1bb34ae6a473e6a9e27998c213dc2c36c6fad14ea2a420"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/i00sKzk-SUo/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "c901d04871187262657d15459eb7a6e537e9be3d59ea5556f4cc2f0a936e63bb"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E31",
+      "tvdbEpisodeId": "8762552",
+      "youtubeId": "5Haioi0TXpA",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 2,
+      "selectedSha256": "fa46f109d356a50dd3cd2a792acd92ba8c28df585a7ca752c7b26fff7d43fc34",
+      "selectedDhash": "f3e91d1291d0f0a8",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/5Haioi0TXpA/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "a3cac4b7ddcef2a22ab18ba4805fbd02d5410d8b9475313ee04922e539a8f798"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/5Haioi0TXpA/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "fa46f109d356a50dd3cd2a792acd92ba8c28df585a7ca752c7b26fff7d43fc34"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/5Haioi0TXpA/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "f50375d2230894ff061e031f7dd475e4d516940809decddfef9a13d004c08870"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E30",
+      "tvdbEpisodeId": "8762551",
+      "youtubeId": "CWJBKhpRif0",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 1,
+      "selectedSha256": "80199d59950d93e9dc94a40fb493e40eece2bb56b34b0c82f9350951dfa09717",
+      "selectedDhash": "868f4fede7c6e6e2",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/CWJBKhpRif0/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "80199d59950d93e9dc94a40fb493e40eece2bb56b34b0c82f9350951dfa09717"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/CWJBKhpRif0/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "dfeab648c88dee0e2bafc050c203cba6bd4e7a13176ac469dac419ece58b76e9"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/CWJBKhpRif0/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "7b043c4ed536da92d5bd3e4c0e37d116734862e24891a1951b12827a36be464d"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E28",
+      "tvdbEpisodeId": "8762549",
+      "youtubeId": "AkQNqlI4JLE",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 1,
+      "selectedSha256": "002b4c8e10221c192f6226003d1696407c153ac4f093a7ecaf564e8b79e13fa1",
+      "selectedDhash": "1d12131333145444",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/AkQNqlI4JLE/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "002b4c8e10221c192f6226003d1696407c153ac4f093a7ecaf564e8b79e13fa1"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/AkQNqlI4JLE/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "a7a6ae11988f12a84d384e40a471392655cd6199afae55e92d46207c86d9e945"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/AkQNqlI4JLE/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "8c06f30c207faceb690404ff7e8c84acffe1727773c3703d2bd0a7d10ca4dd87"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E26",
+      "tvdbEpisodeId": "8762547",
+      "youtubeId": "Bq3ILqqrXpk",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 2,
+      "selectedSha256": "5efa2455241c368b8fa0f4f3f9310f76b6ccebd90261f451cabf7562ccfbd533",
+      "selectedDhash": "9e8e0c7cc7f3f2e0",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/Bq3ILqqrXpk/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "0c953c1c77686dc0de822762a560f2a58f0ea717fc9e926da405b641205b9b3a"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/Bq3ILqqrXpk/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "5efa2455241c368b8fa0f4f3f9310f76b6ccebd90261f451cabf7562ccfbd533"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/Bq3ILqqrXpk/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "41d4f1a56e85f0042bb43524c4bc893c3f55660f738eb3a22b921a0ec8340b61"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E25",
+      "tvdbEpisodeId": "8762546",
+      "youtubeId": "LbDhTkYMjDk",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 1,
+      "selectedSha256": "c76c560973ab29be3a4fe6ba77dce5ee73789e7ab4337fd160c3b026519f5cb0",
+      "selectedDhash": "1018323237373636",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/LbDhTkYMjDk/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "c76c560973ab29be3a4fe6ba77dce5ee73789e7ab4337fd160c3b026519f5cb0"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/LbDhTkYMjDk/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "0818870b58071937aed94022a022cc20dcdace3c05dd04f4eaa65238f65d3731"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/LbDhTkYMjDk/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "4b18b423a28103e784dd2be4f927ee173aa2dafbd810f5a464fe343e3a671831"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E24",
+      "tvdbEpisodeId": "8762545",
+      "youtubeId": "C9NGzWyJZRI",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 2,
+      "selectedSha256": "214e470556714f0e286ba9d665b23a90d74eb7e00f714d25d0de72dd8d556ac4",
+      "selectedDhash": "7b9bced6939bd9cb",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/C9NGzWyJZRI/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "bb597a4840715e6abec6261f36fe8111c4953d82c96fcfede39c1baf37e38c23"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/C9NGzWyJZRI/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "214e470556714f0e286ba9d665b23a90d74eb7e00f714d25d0de72dd8d556ac4"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/C9NGzWyJZRI/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "4d7efd220ed5eaba52aa3147d6a0f83434acd5e9621b8eac10f2e244033a232d"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E23",
+      "tvdbEpisodeId": "8762544",
+      "youtubeId": "Pac3YYZ-cmI",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 2,
+      "selectedSha256": "f4ba18811c32b503878b104caac83e9abae0637c664f17bb02233561ddccbac5",
+      "selectedDhash": "94141414149e5e9e",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/Pac3YYZ-cmI/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "301533d3f4ce5d0b08de0c3dc8c098e84995098843e1bed766425b6239a13033"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/Pac3YYZ-cmI/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "f4ba18811c32b503878b104caac83e9abae0637c664f17bb02233561ddccbac5"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/Pac3YYZ-cmI/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "8f5dc0f3d428910f2f1a2c1645bcab410223bbd16717f9e2cf58e29833fdf13d"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E22",
+      "tvdbEpisodeId": "8762543",
+      "youtubeId": "RWY0Pf9SEBQ",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 3,
+      "selectedSha256": "9e9f9146bbc24c5c8d7afd2a8bde780c63f2695647a3b2d736053f854df8fbf4",
+      "selectedDhash": "b0c4c0c0c5ccb633",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/RWY0Pf9SEBQ/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "b8fd868e49baa22b5e1fdb6e2e19a3af79d9208dd392ddd4d1c5297e4c44131b"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/RWY0Pf9SEBQ/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "a01d04c13621d44f9101b5072c633bd9cde84077c2ad91c81f687240c2e14c43"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/RWY0Pf9SEBQ/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "9e9f9146bbc24c5c8d7afd2a8bde780c63f2695647a3b2d736053f854df8fbf4"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E21",
+      "tvdbEpisodeId": "8762542",
+      "youtubeId": "B_D7bd_Xqww",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 1,
+      "selectedSha256": "0a9abe683a87ac37c483f5549f2008b62e66c9c14d0c78b94b1123f62bcff610",
+      "selectedDhash": "8c8c8484c68c8486",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/B_D7bd_Xqww/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "0a9abe683a87ac37c483f5549f2008b62e66c9c14d0c78b94b1123f62bcff610"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/B_D7bd_Xqww/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "10472e994aac2a8cca6d83bc68ee13a82704e28378d8277f5b55c5bcc4208c86"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/B_D7bd_Xqww/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "79d67e0733c8220c7e697be78749d29a639dacbe0e7e467963ee574f71b87b64"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    },
+    {
+      "archiveCode": "S2021E19",
+      "tvdbEpisodeId": "8571341",
+      "youtubeId": "TfnEY25lNf0",
+      "sourceEvidence": "Mastu 2026-10-02 final audit v2 (GitHub Actions artifact) titleExact/runtimeExact and verified latest public URL by exact TVDB ID",
+      "publicArtworkStateById": "MISSING_PUBLIC_SITE_2026_10_08",
+      "assistantPreferredVariant": 2,
+      "selectedSha256": "d5cf00a6957197773c2d350fcb5da9f9a19eedea6380821ff85f400a25903f34",
+      "selectedDhash": "c3cfcf4e21133313",
+      "frames": [
+        {
+          "variant": 1,
+          "url": "https://i.ytimg.com/vi/TfnEY25lNf0/maxres1.jpg",
+          "native1280x720": true,
+          "sha256": "9ae96f5351e1e01349bf7ab750a67a72859695edc566b4f66afb9d52b5dd6dc3"
+        },
+        {
+          "variant": 2,
+          "url": "https://i.ytimg.com/vi/TfnEY25lNf0/maxres2.jpg",
+          "native1280x720": true,
+          "sha256": "d5cf00a6957197773c2d350fcb5da9f9a19eedea6380821ff85f400a25903f34"
+        },
+        {
+          "variant": 3,
+          "url": "https://i.ytimg.com/vi/TfnEY25lNf0/maxres3.jpg",
+          "native1280x720": true,
+          "sha256": "c813d476885a80e3ec23b7be5123ce7aa717a6cdf9983208306871ab6b687073"
+        }
+      ],
+      "userApproved": false,
+      "uploadApproved": false,
+      "seasonOrdinalVerifiedFresh": false
+    }
+  ]
+}
