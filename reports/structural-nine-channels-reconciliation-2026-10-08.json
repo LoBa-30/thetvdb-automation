@@ -225,7 +225,7 @@
         "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
       }
     ],
-    "warning": "After strict immutable-ID reconciliation, 7/16 original identity doubts have exact official source IDs (4 prior + 3 newly indexed); 9 still lack exact original official video ID. Historical existence traces for additional episodes do not establish source ID. Original 240 artwork inventory remains an untouched snapshot.",
+    "warning": "The original 16 provenance cases divide into 7 independently verified official YouTube IDs, 7 original IDs recovered only in a historical third-party official-channel index (not verified live), and 2 still without original ID. These levels MUST remain separate; nine still lack fresh primary YouTube confirmation. Do not delete historical episodes or infer that an archive link is currently public.",
     "newExactOfficialYoutubeIds20261008": [
       {
         "tvdbEpisodeId": "12014527",
@@ -270,7 +270,84 @@
     "originallyClassifiedUnproven": 16,
     "previouslyKnownExactSources": 4,
     "newVerifiedExactSources": 3,
-    "latestVerifiedExactSourcesTotal": 7
+    "latestVerifiedExactSourcesTotal": 7,
+    "archivedChannelVideoLinkEvidence": {
+      "report": "reports/mastu-historical-channel-archive-7-links-two-untraced-2026-10-08.json",
+      "sourceChannelId": "UCAhaFPP6v3WCfK5Tjao0B7A",
+      "historicalVideoIdLinkMatches": 7,
+      "theseLinksVerifiedViaCurrentPrimaryYouTubeAPI": 0,
+      "sourceClass": "ARCHIVED_THIRD_PARTY_INDEX_LINKING_OFFICIAL_MASTU_CHANNEL_CONTENT",
+      "archiveDurationCandidatesNeedingPrimaryCheck": 4,
+      "archivedVideoIds": [
+        {
+          "tvdbEpisodeId": "9195821",
+          "episode": "S2017E36",
+          "youtubeId": "tsTuel-ziOg",
+          "level": "ARCHIVED_OFFICIAL_CHANNEL_INDEX_DIRECT_VIDEO_LINK_NOT_LIVE_PRIMARY"
+        },
+        {
+          "tvdbEpisodeId": "9195825",
+          "episode": "S2017E40",
+          "youtubeId": "s1eJCeCraOw",
+          "level": "ARCHIVED_OFFICIAL_CHANNEL_INDEX_DIRECT_VIDEO_LINK_NOT_LIVE_PRIMARY"
+        },
+        {
+          "tvdbEpisodeId": "6953923",
+          "episode": "S2018E08",
+          "youtubeId": "qC3EVM_bhoo",
+          "level": "ARCHIVED_OFFICIAL_CHANNEL_INDEX_DIRECT_VIDEO_LINK_NOT_LIVE_PRIMARY"
+        },
+        {
+          "tvdbEpisodeId": "6953922",
+          "episode": "S2018E09",
+          "youtubeId": "Pyl8mSyLh-g",
+          "level": "ARCHIVED_OFFICIAL_CHANNEL_INDEX_DIRECT_VIDEO_LINK_NOT_LIVE_PRIMARY"
+        },
+        {
+          "tvdbEpisodeId": "6645830",
+          "episode": "S2018E12",
+          "youtubeId": "L3tY9Z9y7yE",
+          "level": "ARCHIVED_OFFICIAL_CHANNEL_INDEX_DIRECT_VIDEO_LINK_NOT_LIVE_PRIMARY"
+        },
+        {
+          "tvdbEpisodeId": "6941542",
+          "episode": "S2018E29",
+          "youtubeId": "kDmn5RBFIS0",
+          "level": "ARCHIVED_OFFICIAL_CHANNEL_INDEX_DIRECT_VIDEO_LINK_NOT_LIVE_PRIMARY"
+        },
+        {
+          "tvdbEpisodeId": "6941565",
+          "episode": "S2018E32",
+          "youtubeId": "9Ky8gLHoFeY",
+          "level": "ARCHIVED_OFFICIAL_CHANNEL_INDEX_DIRECT_VIDEO_LINK_NOT_LIVE_PRIMARY"
+        }
+      ]
+    },
+    "remainingWithoutAnyCandidateOriginalYoutubeID": 2,
+    "casesStillWithoutAnyOriginalVideoID": [
+      {
+        "tvdbEpisodeId": "8762550",
+        "inventoryCode": "S2021E30",
+        "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+      },
+      {
+        "tvdbEpisodeId": "9195502",
+        "inventoryCode": "S2021E53",
+        "state": "HISTORICAL_PROVENANCE_RESEARCH_NOT_YET_CLOSED"
+      }
+    ],
+    "additionalRuntimeCandidateCheck": {
+      "report": "reports/mastu-historical-channel-archive-7-links-two-untraced-2026-10-08.json",
+      "fourArchiveDurationCandidates": "Mastu S2018E08/E09/E29/E32",
+      "confirmation": "NO TVDB WRITE—needs original accessible duration, archive index known to have malformed timestamps"
+    },
+    "metadataConflictCase": {
+      "episode": "S2018E05",
+      "tvdbEpisodeId": "6953926",
+      "archivedYouTubeId": "tiCNmB20GjE",
+      "otherOfficialIndexedId": "8jxLnq97Fe8",
+      "status": "UNRESOLVED_SOURCE_ID_CONFLICT_DO_NOT_REWRITE_TITLE"
+    }
   },
   "otherProtectedStatus": {
     "raska": {
@@ -327,8 +404,8 @@
     {
       "priority": 1,
       "target": "Mastu",
-      "type": "9 historic TVDB episode IDs without independently established original official YouTube source ID",
-      "action": "Investigate immutable IDs individually; retain all historical rows; some have separate reupload or contemporary press evidence."
+      "type": "2 unknown original YouTube IDs + 7 historically indexed links still lacking primary-source playback verification",
+      "action": "Investigate original Mastu YouTube provenance per immutable TVDB episode ID; 4 archive duration candidates are untrusted until confirmed by primary metadata; never delete/recreate solely from missing current videos."
     },
     {
       "priority": 2,
