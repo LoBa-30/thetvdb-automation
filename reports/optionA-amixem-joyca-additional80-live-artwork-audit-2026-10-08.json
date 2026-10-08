@@ -1,0 +1,819 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_FURTHER_AMIXEM_JOYCA_PUBLIC_ARTWORK_RESCAN",
+  "source": "Existing archive missing-image flags, excluding 108 already checked and 12 previously user-selected per chain",
+  "summary": {
+    "Amixem": {
+      "PRESENT": 40
+    },
+    "Joyca": {
+      "MISSING": 1,
+      "PRESENT": 39
+    }
+  },
+  "totalChecked": 80,
+  "rows": [
+    {
+      "chain": "Amixem",
+      "episode": "S2026E01",
+      "tvdbEpisodeId": "11539792",
+      "youtubeId": "49-XYtD3OD8",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11539792/screencap/695b09397b86e.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11539792"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E51",
+      "tvdbEpisodeId": "11519544",
+      "youtubeId": "kdyvIN4OYvE",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11519544/screencap/69499236cc7f9.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11519544"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E50",
+      "tvdbEpisodeId": "11508815",
+      "youtubeId": "FwXHwv6nKg0",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11508815/screencap/693ee7c6a01ec.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11508815"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E49",
+      "tvdbEpisodeId": "11498214",
+      "youtubeId": "kVytYhsFwiU",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11498214/screencap/693614b5b29d7.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11498214"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E48",
+      "tvdbEpisodeId": "11485806",
+      "youtubeId": "OEeLMA3c3Fw",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11485806/screencap/692c748a6d436.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11485806"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E47",
+      "tvdbEpisodeId": "11473642",
+      "youtubeId": "bVfFdo1YNqA",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11473642/screencap/69235875d93dd.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11473642"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E46",
+      "tvdbEpisodeId": "11459860",
+      "youtubeId": "i0JfYTAsyWA",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11459860/screencap/691a24529ef95.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11459860"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E45",
+      "tvdbEpisodeId": "11446361",
+      "youtubeId": "b92mFqE8afs",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11446361/screencap/6910c6a3d59a5.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11446361"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E44",
+      "tvdbEpisodeId": "11440461",
+      "youtubeId": "J0WDXogQCAI",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11440461/screencap/690cf084da459.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11440461"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E43",
+      "tvdbEpisodeId": "11434043",
+      "youtubeId": "yn7bDCKYqO0",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11434043/screencap/6907de88e859a.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11434043"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E42",
+      "tvdbEpisodeId": "11427981",
+      "youtubeId": "YaCLo70lmRo",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11427981/screencap/69025a8ec5476.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11427981"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E41",
+      "tvdbEpisodeId": "11423323",
+      "youtubeId": "YABSbz9S3K8",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11423323/screencap/68fea1a09d1ed.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11423323"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E40",
+      "tvdbEpisodeId": "11408428",
+      "youtubeId": "nlgFRLWHmGw",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11408428/screencap/68f52299a8553.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11408428"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E39",
+      "tvdbEpisodeId": "11392931",
+      "youtubeId": "1KhPXq3k45A",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11392931/screencap/68ebe2f9cb4e7.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11392931"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E38",
+      "tvdbEpisodeId": "11380251",
+      "youtubeId": "zw36YPoWVBs",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11380251/screencap/693ee93fc1bb3.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11380251"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E37",
+      "tvdbEpisodeId": "11366214",
+      "youtubeId": "3a7wTKhMkDA",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11366214/screencap/68d98c0d3e3ca.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11366214"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E36",
+      "tvdbEpisodeId": "11353552",
+      "youtubeId": "onkMdi2tPxc",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11353552/screencap/68d6f39fea61d.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11353552"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E35",
+      "tvdbEpisodeId": "11336731",
+      "youtubeId": "gSQ-91hw0-M",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11336731/screencap/68d6f53f2702b.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11336731"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E34",
+      "tvdbEpisodeId": "11314607",
+      "youtubeId": "ihYlyQFDM88",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11314607/screencap/68b9a3723ffb9.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11314607"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E33",
+      "tvdbEpisodeId": "11302363",
+      "youtubeId": "CHUp078rqAA",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11302363/screencap/68ab51c3e6d26.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11302363"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E32",
+      "tvdbEpisodeId": "11292970",
+      "youtubeId": "bjtV4HOoylg",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11292970/screencap/68d6f5fb1d468.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11292970"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E31",
+      "tvdbEpisodeId": "11283848",
+      "youtubeId": "hy-_-PxK-WY",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11283848/screencap/68d6f7478d239.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11283848"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E30",
+      "tvdbEpisodeId": "11270960",
+      "youtubeId": "IIkTSu2f-Os",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11270960/screencap/68d6f7ec76ef4.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11270960"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E29",
+      "tvdbEpisodeId": "11253758",
+      "youtubeId": "aM7AxPaApf0",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11253758/screencap/68ded34f288bf.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11253758"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E28",
+      "tvdbEpisodeId": "11247297",
+      "youtubeId": "labIcw5-FKU",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11247297/screencap/6967ad48c7c2e.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11247297"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E27",
+      "tvdbEpisodeId": "11236162",
+      "youtubeId": "QFIbThcui6E",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11236162/screencap/693ee9cdb66a4.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11236162"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E26",
+      "tvdbEpisodeId": "11220474",
+      "youtubeId": "gLwqb5R2HHM",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11220474/screencap/693eea4b7cb37.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11220474"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E25",
+      "tvdbEpisodeId": "11210269",
+      "youtubeId": "aAuqCggHEIs",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11210269/screencap/6967ad6c36e93.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11210269"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E24",
+      "tvdbEpisodeId": "11197612",
+      "youtubeId": "RH7Qj5wlOnY",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11197612/screencap/68a234ea069a9.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11197612"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E23",
+      "tvdbEpisodeId": "11193116",
+      "youtubeId": "48nn4j6q91M",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11193116/screencap/6967ae571f46a.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11193116"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E22",
+      "tvdbEpisodeId": "11172220",
+      "youtubeId": "lO5-7XPRuSE",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11172220/screencap/68ab520629561.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11172220"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E21",
+      "tvdbEpisodeId": "11165366",
+      "youtubeId": "O4p6l6fHIes",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11165366/screencap/6967ae771957b.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11165366"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E20",
+      "tvdbEpisodeId": "11150868",
+      "youtubeId": "vbiopIYgDMQ",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11150868/screencap/6967aea3e2f5a.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11150868"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E19",
+      "tvdbEpisodeId": "11145926",
+      "youtubeId": "6WB0UPs_Lgg",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11145926/screencap/6967ecdcef4ba.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11145926"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E18",
+      "tvdbEpisodeId": "11124120",
+      "youtubeId": "a1UWRoyrQlo",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11124120/screencap/6967ecf51364e.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11124120"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E17",
+      "tvdbEpisodeId": "11109480",
+      "youtubeId": "6WtyOY2ybBE",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11109480/screencap/6967ed1adac83.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11109480"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E16",
+      "tvdbEpisodeId": "11095657",
+      "youtubeId": "V-B-KN2tIq8",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11095657/screencap/6967ed355777a.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11095657"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E15",
+      "tvdbEpisodeId": "11084320",
+      "youtubeId": "Pq0XkHHlM54",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11084320/screencap/6967ed4c9130c.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11084320"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E14",
+      "tvdbEpisodeId": "11069542",
+      "youtubeId": "mJH9WHhm6ZQ",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11069542/screencap/6967ed846d77a.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11069542"
+    },
+    {
+      "chain": "Amixem",
+      "episode": "S2025E13",
+      "tvdbEpisodeId": "11060280",
+      "youtubeId": "4tgZDq4bsEg",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/11060280/screencap/68ab528928fdf.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/328213-show/episodes/11060280"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E26",
+      "tvdbEpisodeId": "10841571",
+      "youtubeId": "h4fwCvsFE8Y",
+      "publicArtworkState": "MISSING",
+      "artworkURL": null,
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10841571"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E25",
+      "tvdbEpisodeId": "10824309",
+      "youtubeId": "CUOKSTVM0Wg",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10824309/screencap/674729597ba83.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10824309"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E24",
+      "tvdbEpisodeId": "10824308",
+      "youtubeId": "-dleqUteur4",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10824308/screencap/674728feaaa94.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10824308"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E23",
+      "tvdbEpisodeId": "10770076",
+      "youtubeId": "dn2XZVJrpIY",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10770076/screencap/6720f0516f334.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10770076"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E22",
+      "tvdbEpisodeId": "10740638",
+      "youtubeId": "PTJ3TuvyCZw",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10740638/screencap/670979c44c6c1.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10740638"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E21",
+      "tvdbEpisodeId": "10740637",
+      "youtubeId": "4Ubpu1OZchc",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10740637/screencap/670979edcc113.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10740637"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E20",
+      "tvdbEpisodeId": "10684670",
+      "youtubeId": "4qiCWjOALF8",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10684670/screencap/66de0e226c8ae.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10684670"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E19",
+      "tvdbEpisodeId": "10669198",
+      "youtubeId": "lgAsWB647rY",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10669198/screencap/66d4510fa2c24.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10669198"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E18",
+      "tvdbEpisodeId": "10669197",
+      "youtubeId": "E4Y11Bm7Io8",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10669197/screencap/66d45175d5d3d.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10669197"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E17",
+      "tvdbEpisodeId": "10625275",
+      "youtubeId": "aLe36-7cngA",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10625275/screencap/66d45195f0e4d.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10625275"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E16",
+      "tvdbEpisodeId": "10625274",
+      "youtubeId": "VFCLyye0EuM",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10625274/screencap/66d451dee5c6a.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10625274"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E15",
+      "tvdbEpisodeId": "10625273",
+      "youtubeId": "LWmmW9oa1JA",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10625273/screencap/66d451fd460be.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10625273"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E14",
+      "tvdbEpisodeId": "10559514",
+      "youtubeId": "qKkd9O7u2EQ",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10559514/screencap/667adc26a7439.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10559514"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E13",
+      "tvdbEpisodeId": "10553255",
+      "youtubeId": "EDf_kl00qRM",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10553255/screencap/667ae9115626b.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10553255"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E12",
+      "tvdbEpisodeId": "10514152",
+      "youtubeId": "9J1iPw_N1Vo",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10514152/screencap/66d45289e7252.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10514152"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E11",
+      "tvdbEpisodeId": "10498728",
+      "youtubeId": "H5x0I0jT7so",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10498728/screencap/66d452baa68b9.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10498728"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E10",
+      "tvdbEpisodeId": "10474171",
+      "youtubeId": "7btKqhqQ4yc",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10474171/screencap/662fb42c4a250.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10474171"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E09",
+      "tvdbEpisodeId": "10456962",
+      "youtubeId": "NPHgDVgIWeQ",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10456962/screencap/662517b379fa9.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10456962"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E08",
+      "tvdbEpisodeId": "10445227",
+      "youtubeId": "QPqJF83lTCg",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10445227/screencap/6622949b78768.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10445227"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E07",
+      "tvdbEpisodeId": "10418734",
+      "youtubeId": "EXIdOATmVq8",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10418734/screencap/6622944719724.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10418734"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E06",
+      "tvdbEpisodeId": "10408768",
+      "youtubeId": "IbCIJf_Jkzk",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10408768/screencap/6622940208087.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10408768"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E05",
+      "tvdbEpisodeId": "10372617",
+      "youtubeId": "zOrawFeovxE",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10372617/screencap/65f072800ed74.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10372617"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E04",
+      "tvdbEpisodeId": "10372615",
+      "youtubeId": "4j92PHFnp3g",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10372615/screencap/65f072ae6d4a4.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10372615"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E03",
+      "tvdbEpisodeId": "10310500",
+      "youtubeId": "4NUPl6HdGUM",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10310500/screencap/65f0730f6426d.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10310500"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E02",
+      "tvdbEpisodeId": "10291864",
+      "youtubeId": "rIDJne9hiuY",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10291864/screencap/65bfd63425bbe.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10291864"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E01",
+      "tvdbEpisodeId": "10264758",
+      "youtubeId": "S4BvET9AV-E",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10264758/screencap/65b00004d8e00.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10264758"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2023E35",
+      "tvdbEpisodeId": "10220328",
+      "youtubeId": "4FLdYE6CrdI",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10220328/screencap/6592b0b178ad4.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10220328"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2023E33",
+      "tvdbEpisodeId": "10180694",
+      "youtubeId": "QXFuHrFzeiQ",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10180694/screencap/6571b265c3a35.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10180694"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2023E32",
+      "tvdbEpisodeId": "10164384",
+      "youtubeId": "qK7XYw7Rtx8",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10164384/screencap/6565d3d463a06.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10164384"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2023E31",
+      "tvdbEpisodeId": "10154307",
+      "youtubeId": "noJ4anUCKTU",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10154307/screencap/655b47bc58944.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10154307"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2023E30",
+      "tvdbEpisodeId": "10129752",
+      "youtubeId": "pTjNp5sR2Kc",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10129752/screencap/65479462025a7.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10129752"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2023E29",
+      "tvdbEpisodeId": "10116044",
+      "youtubeId": "sHRYBN9mspM",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10116044/screencap/653fa35cb071f.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10116044"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2023E28",
+      "tvdbEpisodeId": "10116043",
+      "youtubeId": "PwjeKhejg0o",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10116043/screencap/653fa2a5baf31.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10116043"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2023E27",
+      "tvdbEpisodeId": "10064353",
+      "youtubeId": "fEwdNGec3LQ",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10064353/screencap/651a97b33a179.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10064353"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2023E26",
+      "tvdbEpisodeId": "10049881",
+      "youtubeId": "KcgbgK8jtCQ",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10049881/screencap/65144ed556abc.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10049881"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2023E25",
+      "tvdbEpisodeId": "10038891",
+      "youtubeId": "HmLXmIuX5mM",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10038891/screencap/65144ebad431a.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10038891"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2023E24",
+      "tvdbEpisodeId": "10038890",
+      "youtubeId": "eW6wnyrLs_0",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10038890/screencap/65144e9a55727.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10038890"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2023E23",
+      "tvdbEpisodeId": "10038889",
+      "youtubeId": "MrE3zS0ecdE",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/10038889/screencap/65144e586c947.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10038889"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2023E22",
+      "tvdbEpisodeId": "9952716",
+      "youtubeId": "EwPGmtM-e08",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/9952716/screencap/65144e3812eb2.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/9952716"
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2023E21",
+      "tvdbEpisodeId": "9952715",
+      "youtubeId": "TrVCGhLfORs",
+      "publicArtworkState": "PRESENT",
+      "artworkURL": "https://artworks.thetvdb.com/banners/v4/episode/9952715/screencap/65144df37ebdb.jpg",
+      "httpStatus": 200,
+      "theTVDBEpisodeURL": "https://thetvdb.com/series/joyca/episodes/9952715"
+    }
+  ],
+  "noWrites": true,
+  "safety": "Do not overwrite present artworks; historic missing flags not equivalent to current absent."
+}
