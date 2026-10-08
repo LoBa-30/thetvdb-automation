@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_SHA256_DHASH_403_CANDIDATE_IMAGES_CROSS_CREATOR",
+  "totalDistinctFrameFilesCompared": 403,
+  "groups": {
+    "userChoicesOtherFive": 61,
+    "priorMaximeDjilsi51": 51,
+    "priorMaximeDjilsiElian20": 20,
+    "djilsiAdditionalProposals": 48,
+    "MastuPreviouslyUserSelected24": 24,
+    "MastuUserSelected2020_2021": 48,
+    "MastuUserSelected2019_2020": 48,
+    "MastuUserSelected2017_2018_2020": 48,
+    "MastuNewProposal2016_2017": 49,
+    "MastuNewProposal2024_2025": 6
+  },
+  "SHA256ExactDuplicatePairs": [],
+  "dhashNearPairsHamming8": [],
+  "all403DhashComputed": true,
+  "theTVDBWrites": 0,
+  "warnings": [
+    "No exact/near duplicates detected at SHA-256 / 64bit dHash Hamming<=8 among these 403 selected or provisionally selected 1280×720 genuine video frames.",
+    "Distinct hashes do not prove perceptual uniqueness to humans, artwork permission, proper metadata, or TheTVDB moderator approval.",
+    "Existing TVDB artwork is not included in this 403-source comparison, so fresh preflight is mandatory before any future upload.",
+    "S2016E01 is currently BLOCKED, and missing historical provenance is not to be guessed. Account upload restriction lifting unconfirmed."
+  ]
+}
