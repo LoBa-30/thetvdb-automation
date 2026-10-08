@@ -1,0 +1,1226 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_EXACT_ID_VIDEO_FRAME_PRESELECTION_MASTU_NEXT48",
+  "source": "Mastu GitHub Actions artifact mastu-final-exhaustive-audit-v2 2026-10-02, TVDB read-only public inventory 2026-10-08 and freshly downloaded authentic YouTube automatic 1280x720 stills",
+  "summary": {
+    "totalEpisodes": 48,
+    "year2020": 5,
+    "year2018": 29,
+    "year2017": 14,
+    "genuineFramesFetched": 144,
+    "manualContactSheetsReviewed": 12,
+    "userApprovalPending": 48,
+    "exactDuplicatePairsWithinLot": 0,
+    "dhashNearPairsHamming8WithinLot": 0,
+    "theTVDBWrites": 0
+  },
+  "rows": [
+    {
+      "episode": "S2020E13",
+      "tvdbEpisodeId": "7713042",
+      "youtubeId": "MKnJPWaD_rU",
+      "assistantPreferredVariant": 2,
+      "sha256": "6f5bfa1678ff63f8781d9bf8f7b78888488aaa91dabaeefa0847ac7b504f2a5b",
+      "dhash": "b29e8e8e4c4ccc68",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/MKnJPWaD_rU/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/MKnJPWaD_rU/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/MKnJPWaD_rU/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2020E14",
+      "tvdbEpisodeId": "8070749",
+      "youtubeId": "CckUDOcoXSI",
+      "assistantPreferredVariant": 2,
+      "sha256": "00171210e0fba9d6c3e8a29c00b3f8b594966cd259ebb189bbd9f53ab99fe3ad",
+      "dhash": "e28f1e160b193132",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/CckUDOcoXSI/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/CckUDOcoXSI/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/CckUDOcoXSI/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2020E15",
+      "tvdbEpisodeId": "7763149",
+      "youtubeId": "L6PVUkfBsFE",
+      "assistantPreferredVariant": 2,
+      "sha256": "3b034b894f4e446674ecaada862bb351023be477b6c1a9bb93cd5b3a9a896ce1",
+      "dhash": "4d4d4d4d61070f27",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/L6PVUkfBsFE/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/L6PVUkfBsFE/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/L6PVUkfBsFE/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2020E16",
+      "tvdbEpisodeId": "8070751",
+      "youtubeId": "tbO-36cNpQI",
+      "assistantPreferredVariant": 3,
+      "sha256": "762156434670d3c2af88f80ff0b47b0bdd500368ae8f13853cbd5962b5c57639",
+      "dhash": "ccc8c5c5c7c7474d",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/tbO-36cNpQI/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/tbO-36cNpQI/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/tbO-36cNpQI/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2020E17",
+      "tvdbEpisodeId": "8070752",
+      "youtubeId": "2ZVOB9JcYBQ",
+      "assistantPreferredVariant": 2,
+      "sha256": "1b463343a9691bb05a2c02b0c8266ab377e2acfbea1a2d38df81869d0db2b38e",
+      "dhash": "968e0e4dcc323333",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/2ZVOB9JcYBQ/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/2ZVOB9JcYBQ/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/2ZVOB9JcYBQ/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E01",
+      "tvdbEpisodeId": "11467001",
+      "youtubeId": "9fRO65E5zOI",
+      "assistantPreferredVariant": 2,
+      "sha256": "26171bc9d478224a7c736f9e2001cdd010b50f035e9f02192dd4e8e5d798ee3f",
+      "dhash": "0d0d4c0c1c161707",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/9fRO65E5zOI/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/9fRO65E5zOI/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/9fRO65E5zOI/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E02",
+      "tvdbEpisodeId": "11467002",
+      "youtubeId": "by5TM5kdm8Y",
+      "assistantPreferredVariant": 2,
+      "sha256": "0509b83aea3c71910c95ae8cddaeefe6825726243562637dbc4547f963d0e8aa",
+      "dhash": "d8189a3b1a5c76e6",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/by5TM5kdm8Y/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/by5TM5kdm8Y/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/by5TM5kdm8Y/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E03",
+      "tvdbEpisodeId": "11467003",
+      "youtubeId": "yNKXtT-eVZk",
+      "assistantPreferredVariant": 2,
+      "sha256": "cce69daf085d52f526e846fa36d97fca8cfc251eeddfb0f0375039925d98ce3c",
+      "dhash": "4c096da6ec691939",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/yNKXtT-eVZk/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/yNKXtT-eVZk/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/yNKXtT-eVZk/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E04",
+      "tvdbEpisodeId": "11467010",
+      "youtubeId": "xKsHCyUOTs0",
+      "assistantPreferredVariant": 2,
+      "sha256": "f74e38afcbb3dfd5da2da334cfe0a09dad45ec1f0ba1899edaa47c4bc1f4048a",
+      "dhash": "e1d3d0d8d9d94e4f",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/xKsHCyUOTs0/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/xKsHCyUOTs0/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/xKsHCyUOTs0/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E06",
+      "tvdbEpisodeId": "6953925",
+      "youtubeId": "2YWTXjunbLQ",
+      "assistantPreferredVariant": 3,
+      "sha256": "d9579b34803aceaf6ba616f794b3fda766921cfed72b1d58feb66b1ae0bf85af",
+      "dhash": "c8d4d199cddccac5",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/2YWTXjunbLQ/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/2YWTXjunbLQ/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/2YWTXjunbLQ/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E07",
+      "tvdbEpisodeId": "6953924",
+      "youtubeId": "Q-rCcDw7M0s",
+      "assistantPreferredVariant": 2,
+      "sha256": "bae46b36c3011443b27cb0f815acc5904ef1a49300765420e3168f0573a88758",
+      "dhash": "5c3c7c77666e4e4e",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/Q-rCcDw7M0s/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/Q-rCcDw7M0s/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/Q-rCcDw7M0s/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E10",
+      "tvdbEpisodeId": "6695459",
+      "youtubeId": "F9nCQft_ybM",
+      "assistantPreferredVariant": 3,
+      "sha256": "eb67618699a5756fe0409b143d11572788c75028d5eeb6440bca94a7b5987c43",
+      "dhash": "3a161c1c1c981c38",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/F9nCQft_ybM/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/F9nCQft_ybM/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/F9nCQft_ybM/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E11",
+      "tvdbEpisodeId": "6695458",
+      "youtubeId": "PPpymSyuEpg",
+      "assistantPreferredVariant": 2,
+      "sha256": "924ec535dfdbf0943aa28360246469e62aa60b9ccb8031e65dcbc11870214cc7",
+      "dhash": "0d4d4c1d5c18387c",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/PPpymSyuEpg/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/PPpymSyuEpg/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/PPpymSyuEpg/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E13",
+      "tvdbEpisodeId": "6695457",
+      "youtubeId": "KPMz9l2YrfI",
+      "assistantPreferredVariant": 2,
+      "sha256": "5343e1e0f1c12c83cd432ba050fbf5bb1a33c65e057c1f8c03d9d481d5967509",
+      "dhash": "130d0f2e2727050f",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/KPMz9l2YrfI/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/KPMz9l2YrfI/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/KPMz9l2YrfI/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E14",
+      "tvdbEpisodeId": "6695456",
+      "youtubeId": "jyTh8tiPW2Y",
+      "assistantPreferredVariant": 3,
+      "sha256": "5502a3aff4a990eddaa46f8496169bc1db2340d37ef630ad6b9ed91d5f71e297",
+      "dhash": "acc8c9c9b9392c34",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/jyTh8tiPW2Y/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/jyTh8tiPW2Y/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/jyTh8tiPW2Y/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E15",
+      "tvdbEpisodeId": "6837850",
+      "youtubeId": "9zZTPSx0pL0",
+      "assistantPreferredVariant": 3,
+      "sha256": "7a0eb2617fde2158fb7d6d00bd721e5e4b4c4a7a3b51568dc62caf7e8589b33b",
+      "dhash": "2c4d478d6b6d64f5",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/9zZTPSx0pL0/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/9zZTPSx0pL0/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/9zZTPSx0pL0/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E16",
+      "tvdbEpisodeId": "6837851",
+      "youtubeId": "USb1y5K0qaM",
+      "assistantPreferredVariant": 2,
+      "sha256": "5296aaaea3a56c9a1059561877af82c2e1aa11bd4cc463b70abc26901e1584b3",
+      "dhash": "76716de744863331",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/USb1y5K0qaM/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/USb1y5K0qaM/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/USb1y5K0qaM/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E17",
+      "tvdbEpisodeId": "6837852",
+      "youtubeId": "Dm5lDBr2SXg",
+      "assistantPreferredVariant": 3,
+      "sha256": "04a9ca7a8eb9e4bd01e2314018ba9d1efb0a2062ed719ae547ff007de2a6235d",
+      "dhash": "d8d8dae263626425",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/Dm5lDBr2SXg/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/Dm5lDBr2SXg/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/Dm5lDBr2SXg/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E18",
+      "tvdbEpisodeId": "6837853",
+      "youtubeId": "n4v8FtqT100",
+      "assistantPreferredVariant": 2,
+      "sha256": "c1933a7764ed03c38eb81b288541f3f3e09e189bf2d5772ee8afd02baea1a81d",
+      "dhash": "4ea6a6e6c6d5c5c5",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/n4v8FtqT100/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/n4v8FtqT100/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/n4v8FtqT100/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E19",
+      "tvdbEpisodeId": "11467018",
+      "youtubeId": "sGVZX1DQlMY",
+      "assistantPreferredVariant": 2,
+      "sha256": "f4218027c9ff53c822fbcb7cc0741c3cc9ef923934a484584efa155396c8771c",
+      "dhash": "262b260650d7c707",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/sGVZX1DQlMY/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/sGVZX1DQlMY/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/sGVZX1DQlMY/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E20",
+      "tvdbEpisodeId": "6837857",
+      "youtubeId": "59UolheBm8w",
+      "assistantPreferredVariant": 2,
+      "sha256": "53a9ee65529adf6ce9f008d6e74d0186349d67eabf6067ae0e39e1df168ab29c",
+      "dhash": "223032a6b7b12a6a",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/59UolheBm8w/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/59UolheBm8w/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/59UolheBm8w/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E21",
+      "tvdbEpisodeId": "6837924",
+      "youtubeId": "eK9STWVcREs",
+      "assistantPreferredVariant": 2,
+      "sha256": "5f4d16ac739e869aba4ee2d2db9dfa3d8389334870f692508ac9b41368bd99bb",
+      "dhash": "5c35cdcd8c949217",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/eK9STWVcREs/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/eK9STWVcREs/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/eK9STWVcREs/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E22",
+      "tvdbEpisodeId": "6837934",
+      "youtubeId": "zO8eLZ2k39Q",
+      "assistantPreferredVariant": 2,
+      "sha256": "68a0b2715cdad34b21441bb8e18eb5b9ac77fb6834caa419cb1d10054c4e9cca",
+      "dhash": "07848888a0a4a7b2",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/zO8eLZ2k39Q/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/zO8eLZ2k39Q/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/zO8eLZ2k39Q/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E23",
+      "tvdbEpisodeId": "6837937",
+      "youtubeId": "B-c-n1owBOg",
+      "assistantPreferredVariant": 3,
+      "sha256": "fd30b6ac848d0c8fdc68fa7f287ff31a5327db6cfb6a0a0bfffcb5accb79df8b",
+      "dhash": "0a0d0a921a0b0e5e",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/B-c-n1owBOg/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/B-c-n1owBOg/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/B-c-n1owBOg/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E24",
+      "tvdbEpisodeId": "6837939",
+      "youtubeId": "RJ8DcMQnJa4",
+      "assistantPreferredVariant": 2,
+      "sha256": "7ec97d8e49fc2cd63a60e89fe54e4334a9e8e33dd235422794d06278c9b3dc27",
+      "dhash": "e7e7c76e646d2987",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/RJ8DcMQnJa4/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/RJ8DcMQnJa4/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/RJ8DcMQnJa4/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E26",
+      "tvdbEpisodeId": "6837942",
+      "youtubeId": "iEP_8XvHXhk",
+      "assistantPreferredVariant": 2,
+      "sha256": "e631bb8f0962a841c5d98bbfeb9cf58b32c79c27d6d48917f9749c6a9eae002b",
+      "dhash": "f0cccccc0c686c4e",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/iEP_8XvHXhk/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/iEP_8XvHXhk/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/iEP_8XvHXhk/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E27",
+      "tvdbEpisodeId": "6856971",
+      "youtubeId": "vF220uxfigY",
+      "assistantPreferredVariant": 2,
+      "sha256": "2d6848499c94bcce8c0a9c5b3a95857d5c3cbb7a003c77029b5b88f3b1ddc59c",
+      "dhash": "557553391d157574",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/vF220uxfigY/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/vF220uxfigY/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/vF220uxfigY/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E28",
+      "tvdbEpisodeId": "6856976",
+      "youtubeId": "WK0LUPtKXkI",
+      "assistantPreferredVariant": 1,
+      "sha256": "4c3bbd4f0b25e243758e5ad1f4810171c74dc17d69c063e08c6c03562cac7677",
+      "dhash": "16d4551616862b69",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/WK0LUPtKXkI/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/WK0LUPtKXkI/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/WK0LUPtKXkI/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E30",
+      "tvdbEpisodeId": "6941546",
+      "youtubeId": "RO-wrEvQSjo",
+      "assistantPreferredVariant": 2,
+      "sha256": "4dcfe2acc797a573cd3b355635a7a85d33aba72f2f92e5fa2ee96dde2cc31701",
+      "dhash": "0e26a6a627a6a633",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/RO-wrEvQSjo/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/RO-wrEvQSjo/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/RO-wrEvQSjo/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E31",
+      "tvdbEpisodeId": "6941556",
+      "youtubeId": "ySeuAx4Ho08",
+      "assistantPreferredVariant": 2,
+      "sha256": "775b3fd6c47ad6ca5c97a00e806574ff558dd10632496094e9c005aacb8cbb2f",
+      "dhash": "61614f0f2bb21231",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/ySeuAx4Ho08/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/ySeuAx4Ho08/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/ySeuAx4Ho08/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E33",
+      "tvdbEpisodeId": "6941570",
+      "youtubeId": "xtzn0CRmjRM",
+      "assistantPreferredVariant": 1,
+      "sha256": "299e09dd5893dc0293dcd80f1364835e0180e0dd68cf5435800f2c11c06461d3",
+      "dhash": "dccf2dce4acecdef",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/xtzn0CRmjRM/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/xtzn0CRmjRM/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/xtzn0CRmjRM/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E34",
+      "tvdbEpisodeId": "6941571",
+      "youtubeId": "-WR-Ru27RIw",
+      "assistantPreferredVariant": 2,
+      "sha256": "72aa0a066b158d411ca80568af29b9e8ca78c572ef3f72a31396bdc491b9b9b1",
+      "dhash": "9ebdb59d998a2632",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/-WR-Ru27RIw/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/-WR-Ru27RIw/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/-WR-Ru27RIw/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E35",
+      "tvdbEpisodeId": "6941574",
+      "youtubeId": "RITZtm8aFuA",
+      "assistantPreferredVariant": 2,
+      "sha256": "28a8c9bd30a00baa29e231f4e2dee4d1c3abcc774b644f0aefb96eccaeca95ee",
+      "dhash": "b16a4e4ecc9e9233",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/RITZtm8aFuA/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/RITZtm8aFuA/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/RITZtm8aFuA/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2018E36",
+      "tvdbEpisodeId": "6941585",
+      "youtubeId": "GaCs2inZdjY",
+      "assistantPreferredVariant": 2,
+      "sha256": "68318c974a0b07e9ecdf9e4148623d860bca64a76d5aa666eb1b56a02ec9abd6",
+      "dhash": "80b38b8e8fc848c8",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/GaCs2inZdjY/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/GaCs2inZdjY/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/GaCs2inZdjY/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2017E02",
+      "tvdbEpisodeId": "9195700",
+      "youtubeId": "NlBZTB5n4y8",
+      "assistantPreferredVariant": 1,
+      "sha256": "8ddcea2c82b67b0e4a9499165251e9389d8fee8eec09c57a7075503cec50109d",
+      "dhash": "d084060c0d181899",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/NlBZTB5n4y8/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/NlBZTB5n4y8/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/NlBZTB5n4y8/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2017E03",
+      "tvdbEpisodeId": "9195701",
+      "youtubeId": "70berzJZkrw",
+      "assistantPreferredVariant": 2,
+      "sha256": "21c8d6e18d45b7f7d354fd2be773d730601d067a2b8eae3925a30ca6bf3546ee",
+      "dhash": "0c0c0c0c1d951f2d",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/70berzJZkrw/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/70berzJZkrw/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/70berzJZkrw/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2017E04",
+      "tvdbEpisodeId": "9195702",
+      "youtubeId": "zg1TbAinXUs",
+      "assistantPreferredVariant": 2,
+      "sha256": "2d8b8b8961b3175976949f06e647bbc577ca44461309295a258c54925a140f07",
+      "dhash": "20480c0f0bc88a29",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/zg1TbAinXUs/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/zg1TbAinXUs/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/zg1TbAinXUs/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2017E05",
+      "tvdbEpisodeId": "9195703",
+      "youtubeId": "uIFzZ68PDuA",
+      "assistantPreferredVariant": 1,
+      "sha256": "0ee09c1643f6032ea8c19306a4b522059191aeb4b5d8ad5fa8579367412d2ca3",
+      "dhash": "9b9b9b9993b33132",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/uIFzZ68PDuA/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/uIFzZ68PDuA/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/uIFzZ68PDuA/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2017E06",
+      "tvdbEpisodeId": "9195704",
+      "youtubeId": "BN-22oYqigU",
+      "assistantPreferredVariant": 1,
+      "sha256": "1db7c1c8b5f2aeb26d38077afab22916170144062684ffb5074d4255091706b4",
+      "dhash": "1090982d0e989810",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/BN-22oYqigU/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/BN-22oYqigU/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/BN-22oYqigU/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2017E07",
+      "tvdbEpisodeId": "9195728",
+      "youtubeId": "r0plVnZlTUM",
+      "assistantPreferredVariant": 1,
+      "sha256": "b63c90d729284bd826f4b6ace6ce272051b9b160e051813ac079bd0402b23e3c",
+      "dhash": "4c4c490b1b1a0c6c",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/r0plVnZlTUM/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/r0plVnZlTUM/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/r0plVnZlTUM/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2017E08",
+      "tvdbEpisodeId": "9195729",
+      "youtubeId": "HA5GSpPLbaM",
+      "assistantPreferredVariant": 1,
+      "sha256": "edf3fb0e76a194e5148dfdcfdf74121ff1bbef4f11f18f98ae20661da6bb8a03",
+      "dhash": "682c4a4878720251",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/HA5GSpPLbaM/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/HA5GSpPLbaM/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/HA5GSpPLbaM/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2017E09",
+      "tvdbEpisodeId": "9195730",
+      "youtubeId": "jYnLaVVJpG4",
+      "assistantPreferredVariant": 2,
+      "sha256": "4b69e8746220809af2ab035f0f7373cc534936ca809788cb4d41ffb7864e8c53",
+      "dhash": "20084b0b91b36369",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/jYnLaVVJpG4/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/jYnLaVVJpG4/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/jYnLaVVJpG4/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2017E10",
+      "tvdbEpisodeId": "9195731",
+      "youtubeId": "aud5lhX-jxk",
+      "assistantPreferredVariant": 2,
+      "sha256": "0dbcfc988e37e7b499ae089b279ec3e4f24e57862469f1b26a6d97b0eea36b71",
+      "dhash": "b4be336b6a6a6a6a",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/aud5lhX-jxk/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/aud5lhX-jxk/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/aud5lhX-jxk/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2017E11",
+      "tvdbEpisodeId": "9195732",
+      "youtubeId": "M8j0iZ2hP28",
+      "assistantPreferredVariant": 2,
+      "sha256": "fbf5c8b998960cb953021dfd3ba33d93e4dc9984bb1167868b9a128383d28297",
+      "dhash": "4c196d4d0d9db920",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/M8j0iZ2hP28/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/M8j0iZ2hP28/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/M8j0iZ2hP28/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2017E12",
+      "tvdbEpisodeId": "9195733",
+      "youtubeId": "8OL9_TczbQU",
+      "assistantPreferredVariant": 2,
+      "sha256": "2d5d37bc3a5594c1c060fece9c71d3b48aef61acabd35e28778db93aa8d23d86",
+      "dhash": "b307560f6f6f6b39",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/8OL9_TczbQU/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/8OL9_TczbQU/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/8OL9_TczbQU/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2017E13",
+      "tvdbEpisodeId": "9195734",
+      "youtubeId": "3uacZFR2gic",
+      "assistantPreferredVariant": 1,
+      "sha256": "28b5999f9f8b56dce675ff5cd5cd59a31c9f6f9e9c70bd61ec90f674f02df5d3",
+      "dhash": "0c0d67678d8b2260",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/3uacZFR2gic/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/3uacZFR2gic/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/3uacZFR2gic/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2017E15",
+      "tvdbEpisodeId": "9195796",
+      "youtubeId": "Ysibg4k5d84",
+      "assistantPreferredVariant": 1,
+      "sha256": "61e920593a8187a9372c577d42230a810aceb14a1cfb732d3d16e70a0605f7af",
+      "dhash": "0f676f258d4b4f2d",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/Ysibg4k5d84/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/Ysibg4k5d84/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/Ysibg4k5d84/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    },
+    {
+      "episode": "S2017E20",
+      "tvdbEpisodeId": "9195801",
+      "youtubeId": "SOqvtCVrt2o",
+      "assistantPreferredVariant": 2,
+      "sha256": "832ee29f5f1bb8b84ee5febf98a769d4ea39a542b7831390e5963522ff341bb4",
+      "dhash": "480647050d1b1b17",
+      "variants": [
+        {
+          "index": 1,
+          "url": "https://i.ytimg.com/vi/SOqvtCVrt2o/maxres1.jpg"
+        },
+        {
+          "index": 2,
+          "url": "https://i.ytimg.com/vi/SOqvtCVrt2o/maxres2.jpg"
+        },
+        {
+          "index": 3,
+          "url": "https://i.ytimg.com/vi/SOqvtCVrt2o/maxres3.jpg"
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false,
+      "sourceState": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK"
+    }
+  ],
+  "warnings": [
+    "No uploading while TheTVDB account restriction remains unconfirmed lifted. Recheck current artwork before any attempted write.",
+    "No edits or recreation of existing episodes.",
+    "All 48 are matched by immutable TVDB episode IDs rather than inferred position in list.",
+    "Seven 2018 TVDB-only historical rows remain excluded until public source video provenance is established.",
+    "Frame uniqueness dHash is limited; image quality, overlays and source ownership require final review."
+  ]
+}
