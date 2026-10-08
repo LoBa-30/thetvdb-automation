@@ -1,0 +1,407 @@
+{
+  "generatedOn": "2026-10-08",
+  "scope": "Mastu extra 48 exact-ID-linked episodes 2020-2021 excluding prior 24",
+  "mode": "READ_ONLY_PRESELECTION_144_REAL_YOUTUBE_VIDEO_STILLS",
+  "source": "GitHub Actions Mastu final audit-v2 2026-10-02 exact TVDB episode ID and YouTube ID pairs; public TheTVDB missing artwork report 2026-10-08",
+  "summary": {
+    "episodes": 48,
+    "years": {
+      "2020": 20,
+      "2021": 28
+    },
+    "framesFetched1280x720": 144,
+    "preselected": 48,
+    "previousMastuUserSelected24Preserved": true,
+    "checkedMastu72ExactDuplicatePairs": 0,
+    "checkedMastu72DhashNearPairsAtMost8": 0,
+    "userApproved": 0,
+    "TheTVDBUploads": 0
+  },
+  "warning": "Six of 48 titles have minor punctuation/emoji/cosmetic mismatches in archived title checks; reverify as metadata rather than silently editing. Number and title never inferred from public season list position; use TVDB episode IDs. No TheTVDB artwork writes while restriction not confirmed lifted.",
+  "rows": [
+    {
+      "code": "S2021E54",
+      "tvdbEpisodeId": "9195506",
+      "youtubeId": "neW2ruG2nBw",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E53",
+      "tvdbEpisodeId": "9195504",
+      "youtubeId": "u04neNP7BfA",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E50",
+      "tvdbEpisodeId": "9195498",
+      "youtubeId": "L3-HeWj-hf4",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E49",
+      "tvdbEpisodeId": "9194160",
+      "youtubeId": "-nMxXe4SXk0",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E48",
+      "tvdbEpisodeId": "9195444",
+      "youtubeId": "b2vWxsnuurk",
+      "preselectedVariant": 3,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E39",
+      "tvdbEpisodeId": "9194172",
+      "youtubeId": "P7yGjR505Gc",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E34",
+      "tvdbEpisodeId": "8762555",
+      "youtubeId": "GNBGXXSUALs",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E33",
+      "tvdbEpisodeId": "8762554",
+      "youtubeId": "ne0im-aMjN8",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E27",
+      "tvdbEpisodeId": "8762548",
+      "youtubeId": "t3enyIcnoE0",
+      "preselectedVariant": 1,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E20",
+      "tvdbEpisodeId": "8762541",
+      "youtubeId": "VIEhReiAYis",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E18",
+      "tvdbEpisodeId": "8571340",
+      "youtubeId": "bxskLwoNJ_k",
+      "preselectedVariant": 1,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E17",
+      "tvdbEpisodeId": "8571339",
+      "youtubeId": "m5FuEnR00jA",
+      "preselectedVariant": 3,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E16",
+      "tvdbEpisodeId": "8571338",
+      "youtubeId": "EXt6REz2RvY",
+      "preselectedVariant": 3,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E15",
+      "tvdbEpisodeId": "8571337",
+      "youtubeId": "xaSn_sUHP9I",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E14",
+      "tvdbEpisodeId": "8571336",
+      "youtubeId": "p3yDAhXyBRk",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E13",
+      "tvdbEpisodeId": "8571335",
+      "youtubeId": "nHV6rEqOl_M",
+      "preselectedVariant": 3,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E12",
+      "tvdbEpisodeId": "8417999",
+      "youtubeId": "hMyijagqt20",
+      "preselectedVariant": 1,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E11",
+      "tvdbEpisodeId": "8417998",
+      "youtubeId": "RXxza56koaQ",
+      "preselectedVariant": 3,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E10",
+      "tvdbEpisodeId": "8417997",
+      "youtubeId": "nSfiDQCceQA",
+      "preselectedVariant": 1,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E09",
+      "tvdbEpisodeId": "8355523",
+      "youtubeId": "KHBlMmXMc2c",
+      "preselectedVariant": 1,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E08",
+      "tvdbEpisodeId": "8296995",
+      "youtubeId": "RHJM0WIQpzM",
+      "preselectedVariant": 3,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E07",
+      "tvdbEpisodeId": "8296993",
+      "youtubeId": "TcUSeNjrzFU",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E06",
+      "tvdbEpisodeId": "8264097",
+      "youtubeId": "8pyFHrXUTck",
+      "preselectedVariant": 1,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E05",
+      "tvdbEpisodeId": "8204220",
+      "youtubeId": "GE_juCXAVOU",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E04",
+      "tvdbEpisodeId": "8169573",
+      "youtubeId": "DOTahNeIUos",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E03",
+      "tvdbEpisodeId": "8155926",
+      "youtubeId": "E9I2XYf9oYc",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E02",
+      "tvdbEpisodeId": "8155924",
+      "youtubeId": "43SjFA_YhAg",
+      "preselectedVariant": 1,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2021E01",
+      "tvdbEpisodeId": "8132448",
+      "youtubeId": "QvRW3IrFLTY",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E38",
+      "tvdbEpisodeId": "8107706",
+      "youtubeId": "ay4x5CzqddY",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E37",
+      "tvdbEpisodeId": "8107705",
+      "youtubeId": "wJBu6VS4tqQ",
+      "preselectedVariant": 1,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E36",
+      "tvdbEpisodeId": "8088276",
+      "youtubeId": "RxyyX-OEd-I",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E35",
+      "tvdbEpisodeId": "8082821",
+      "youtubeId": "u8GrmJ8-nJo",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E33",
+      "tvdbEpisodeId": "8070765",
+      "youtubeId": "aMGTF1NugdE",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E32",
+      "tvdbEpisodeId": "8070764",
+      "youtubeId": "M4Z_m1liaDI",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E31",
+      "tvdbEpisodeId": "8022476",
+      "youtubeId": "zeVHK0xUWVY",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E30",
+      "tvdbEpisodeId": "8070762",
+      "youtubeId": "d3wPN0Fk9mA",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E29",
+      "tvdbEpisodeId": "8070761",
+      "youtubeId": "ihoCvsNX5z0",
+      "preselectedVariant": 1,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E28",
+      "tvdbEpisodeId": "8070760",
+      "youtubeId": "jzFGduhh7fk",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E27",
+      "tvdbEpisodeId": "7918773",
+      "youtubeId": "zrq-izHjEqI",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E26",
+      "tvdbEpisodeId": "8070759",
+      "youtubeId": "UuJR8WW0Af4",
+      "preselectedVariant": 3,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E25",
+      "tvdbEpisodeId": "7915540",
+      "youtubeId": "CsVc9tY-EX0",
+      "preselectedVariant": 3,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E24",
+      "tvdbEpisodeId": "8070758",
+      "youtubeId": "3vrtlKur-zU",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E23",
+      "tvdbEpisodeId": "8070757",
+      "youtubeId": "mwWjBh_vypo",
+      "preselectedVariant": 1,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E22",
+      "tvdbEpisodeId": "7873610",
+      "youtubeId": "rQlcwhRfbcc",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E21",
+      "tvdbEpisodeId": "8070756",
+      "youtubeId": "0yId3LDgp8Y",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E20",
+      "tvdbEpisodeId": "8070755",
+      "youtubeId": "H7a2fo-SAn4",
+      "preselectedVariant": 3,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E19",
+      "tvdbEpisodeId": "8070754",
+      "youtubeId": "ALAntL-D66I",
+      "preselectedVariant": 2,
+      "userApproved": false,
+      "uploadApproved": false
+    },
+    {
+      "code": "S2020E18",
+      "tvdbEpisodeId": "8070753",
+      "youtubeId": "oYCVMxagyHI",
+      "preselectedVariant": 1,
+      "userApproved": false,
+      "uploadApproved": false
+    }
+  ]
+}
