@@ -1,0 +1,1911 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_NEW_52_VERIFIED_MISSING_ARTWORK_CANDIDATES",
+  "sourceReports": [
+    "reports/optionA-four-creators-108-live-artwork-rescan-2026-10-08.json",
+    "reports/optionA-amixem-joyca-additional80-live-artwork-audit-2026-10-08.json",
+    "reports/optionA-squeezie-joyca-mcfly-next51-candidate-frames-2026-10-08.json"
+  ],
+  "summary": {
+    "publicTVDBEpisodesChecked": 188,
+    "publicArtworksPresent": 135,
+    "publicArtworksMissing": 52,
+    "unknown": 1,
+    "totalEpisodesPrepared": 52,
+    "nativeAutoYouTubeStillsDownloaded": 156,
+    "assistantPreselected": 51,
+    "blocked": 1,
+    "byChain": {
+      "Squeezie": 26,
+      "Joyca": 2,
+      "Mcfly & Carlito": 24
+    },
+    "oneBlocked": "Mcfly & Carlito S2026E29",
+    "byteExactDuplicatePairsAmong51Chosen": 0,
+    "dhashNearPairsAt8Among51Chosen": 0,
+    "accountArtworkRestrictionLiftConfirmed": false,
+    "theTVDBWrites": 0
+  },
+  "rows": [
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E37",
+      "tvdbEpisodeId": "8571440",
+      "youtubeId": "JmFEFcA51jg",
+      "title": "La légende d'Okugai",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8571440",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 1,
+      "sha256": "68f9a9f39143d2745fc02639c99c22ccfa851a1a641929cb68e558da3e348f11",
+      "dhash": "302a2f0f0e0e0c2c",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/JmFEFcA51jg/maxres1.jpg",
+          "sha256": "68f9a9f39143d2745fc02639c99c22ccfa851a1a641929cb68e558da3e348f11",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/JmFEFcA51jg/maxres2.jpg",
+          "sha256": "cb9867df7a8701f30a54fdc74bc2d2b53fd37b5d1b1e4b804c027d7f489e2542",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/JmFEFcA51jg/maxres3.jpg",
+          "sha256": "4cbfdc2462511503a3d9ba0d7f676e462e1329118a0f1527f3334847f8b43164",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E36",
+      "tvdbEpisodeId": "8571439",
+      "youtubeId": "mLzf6VYyJc0",
+      "title": "n'essayez pas d'aller dans son pays",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8571439",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 1,
+      "sha256": "bcb7b3455fb412a7b804f3ec0fd1a034ae3e9cae758aaa763c483f88c34d0e25",
+      "dhash": "912424e4a4ccd213",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/mLzf6VYyJc0/maxres1.jpg",
+          "sha256": "bcb7b3455fb412a7b804f3ec0fd1a034ae3e9cae758aaa763c483f88c34d0e25",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/mLzf6VYyJc0/maxres2.jpg",
+          "sha256": "4fae4bb117596d070893ace455eeac2ce6af0df357da9b4287bbbc25cb7051a2",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/mLzf6VYyJc0/maxres3.jpg",
+          "sha256": "3ad4b6358537ed535bd29827dedc4af7e7fb57494acacef808a8bb63fa3e4260",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E35",
+      "tvdbEpisodeId": "8571438",
+      "youtubeId": "hplgnhtDa6k",
+      "title": "j'aimerais pas être à leur place",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8571438",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "fc1622595dc3c9891a03168241d835db6290ebc70098c6cbae1531fa2c0618b5",
+      "dhash": "8c8c8c94cc8c0a45",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/hplgnhtDa6k/maxres1.jpg",
+          "sha256": "38b986bbe612bf5133d2e5f6b6ea0563a5b39c3d0c575f6092a53f7d2ebfe411",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/hplgnhtDa6k/maxres2.jpg",
+          "sha256": "fc1622595dc3c9891a03168241d835db6290ebc70098c6cbae1531fa2c0618b5",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/hplgnhtDa6k/maxres3.jpg",
+          "sha256": "d64dc42826c4115e7582d6a4dab980453ec8ffb236145ffff653ff618aca36be",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E34",
+      "tvdbEpisodeId": "8571437",
+      "youtubeId": "0NuWaq3R0kI",
+      "title": "elle ne pouvait pas s'y attendre...",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8571437",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 3,
+      "sha256": "a111f2e0bd8bbb3491eb588e0afd353d489279631e72fb0c47e979c587152250",
+      "dhash": "edb98786a693c246",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/0NuWaq3R0kI/maxres1.jpg",
+          "sha256": "f4ed86b9e3168dd7cd56ceb113e8ed1cc88e550120e841bc613c4da46e2b20b7",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/0NuWaq3R0kI/maxres2.jpg",
+          "sha256": "13525020d128e0ba79077b2d35064c094daa3f7abd6cd52bcf88de96e4a31f7e",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/0NuWaq3R0kI/maxres3.jpg",
+          "sha256": "a111f2e0bd8bbb3491eb588e0afd353d489279631e72fb0c47e979c587152250",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E33",
+      "tvdbEpisodeId": "8571436",
+      "youtubeId": "UeU4rTdQASM",
+      "title": "L’ACADÉMIE DES CANCRES #3 (ft Léna, Luciole, HugoDécrypte, Freddy Gladieux)",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8571436",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 1,
+      "sha256": "e23661a64305af43cbcc00895749891a0bbbb42c21c1eb418aaf37ee24898f6f",
+      "dhash": "e4b2323abbb3b133",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/UeU4rTdQASM/maxres1.jpg",
+          "sha256": "e23661a64305af43cbcc00895749891a0bbbb42c21c1eb418aaf37ee24898f6f",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/UeU4rTdQASM/maxres2.jpg",
+          "sha256": "113518dfb76ebc6f2ed1ef372349ea6e5edc41bcd96564522a1484fac6c65a2a",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/UeU4rTdQASM/maxres3.jpg",
+          "sha256": "6dec505d659854f74f68081d6b0a11eb040f529e4f0cc6ea103256e0501dd6e9",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E32",
+      "tvdbEpisodeId": "8571435",
+      "youtubeId": "FueVLtmGefk",
+      "title": "l'affreuse histoire de John McAfee",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8571435",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "0a4c20da81a0bf67862c9d824021e38d8170aa4dee42e60392b211c83f821813",
+      "dhash": "534b5a48c8c84ccc",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/FueVLtmGefk/maxres1.jpg",
+          "sha256": "045bc10ee2ae5c2eb8a05be2007a04ef50f81b95bd1a4ff4afb3f61abff339b3",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/FueVLtmGefk/maxres2.jpg",
+          "sha256": "0a4c20da81a0bf67862c9d824021e38d8170aa4dee42e60392b211c83f821813",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/FueVLtmGefk/maxres3.jpg",
+          "sha256": "db7103ad47bda57380a9aa95e3aef1016a4fc141374ece31c6ce7a094f536505",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E30",
+      "tvdbEpisodeId": "8571433",
+      "youtubeId": "FiEjl6TgCsc",
+      "title": "ces musées existent vraiment",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8571433",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 3,
+      "sha256": "26d7ceba902ef79032c3d15ed10ba5ab4fbc76653bbf7eaa1fb1052952c2272a",
+      "dhash": "6646464dcdcd032f",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/FiEjl6TgCsc/maxres1.jpg",
+          "sha256": "7b8762712e37df204a117cbe9e5174ab7f06d1da362308eefef782e150aff3c1",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/FiEjl6TgCsc/maxres2.jpg",
+          "sha256": "56f546bee1ab30f52ec09d1c9bc789b74a5473888da130cda2b1265fd5412764",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/FiEjl6TgCsc/maxres3.jpg",
+          "sha256": "26d7ceba902ef79032c3d15ed10ba5ab4fbc76653bbf7eaa1fb1052952c2272a",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E29",
+      "tvdbEpisodeId": "8453291",
+      "youtubeId": "PjsYbGRQogQ",
+      "title": "cet individu s'apprête à m'agresser",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8453291",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 3,
+      "sha256": "6fa9c5b0c79671c94d205228e89bbe75d2356271e5d5414ba46cda5f47a46343",
+      "dhash": "73737b7373b33333",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/PjsYbGRQogQ/maxres1.jpg",
+          "sha256": "814498caacf4a97d9b62c4605b20a42df77019bb8974401aa2147785650f2b3a",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/PjsYbGRQogQ/maxres2.jpg",
+          "sha256": "7509dd77b8ac49f017c78aec340383caf7dfc077196e1623954f24af13a3e33b",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/PjsYbGRQogQ/maxres3.jpg",
+          "sha256": "6fa9c5b0c79671c94d205228e89bbe75d2356271e5d5414ba46cda5f47a46343",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E26",
+      "tvdbEpisodeId": "8418006",
+      "youtubeId": "39RSuteDgLo",
+      "title": "j'essaye des objets très dangereux",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8418006",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 1,
+      "sha256": "aeba80e01ad108df86400ba07dc478006fec76123972b3b4c220f8069b9ec476",
+      "dhash": "9018989a3232322c",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/39RSuteDgLo/maxres1.jpg",
+          "sha256": "aeba80e01ad108df86400ba07dc478006fec76123972b3b4c220f8069b9ec476",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/39RSuteDgLo/maxres2.jpg",
+          "sha256": "3e0dcef73978e579ba32711e9f69a8ee13a93669abb032b91366e510c57427ec",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/39RSuteDgLo/maxres3.jpg",
+          "sha256": "ef1c39daa44e0cf3788e5cb1e8298e917aa9321fd2acfcc896a0fb5b7b25edd1",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E25",
+      "tvdbEpisodeId": "8418005",
+      "youtubeId": "tWnO4kn5284",
+      "title": "dommage pour eux c'est arrivé en live",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8418005",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "6eb6a4b4c6d558dab2b97a2f03382b02de3079b6dac246eb49a4516e5293dc3f",
+      "dhash": "4a58dc4c4cecd293",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/tWnO4kn5284/maxres1.jpg",
+          "sha256": "d61f622968490f6983e22c7da3b9e6e881b13190e69497d9052429c06be70c3c",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/tWnO4kn5284/maxres2.jpg",
+          "sha256": "6eb6a4b4c6d558dab2b97a2f03382b02de3079b6dac246eb49a4516e5293dc3f",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/tWnO4kn5284/maxres3.jpg",
+          "sha256": "aae23e9cdbcd812685510dc0fb99a83bb9b64d32beea0a6ac137999409f72a48",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E24",
+      "tvdbEpisodeId": "8418004",
+      "youtubeId": "isThS_BftdM",
+      "title": "un truc en cache souvent un autre...",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8418004",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 3,
+      "sha256": "22b4296579f2e293726a90086898ff5196b2ea390c6323b01d1f983da7f6d4b2",
+      "dhash": "4ece4ec684cc8ec6",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/isThS_BftdM/maxres1.jpg",
+          "sha256": "309adbfda30cd1077a9623b5562aa2465399c50c445c6743e62efc076cb504ec",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/isThS_BftdM/maxres2.jpg",
+          "sha256": "d6e214f2cbbb7d387174f6435562b62c9a57f3099e2d0240e6baffb0fe9a4765",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/isThS_BftdM/maxres3.jpg",
+          "sha256": "22b4296579f2e293726a90086898ff5196b2ea390c6323b01d1f983da7f6d4b2",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E23",
+      "tvdbEpisodeId": "8418003",
+      "youtubeId": "wg0W80etRXY",
+      "title": "surveillez bien vos fenêtres",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8418003",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "23508809f6a77b12ce45da02e9cb9544867c45763dec7696962d4e2ecd916b6c",
+      "dhash": "11d08819b9ab5b51",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/wg0W80etRXY/maxres1.jpg",
+          "sha256": "586172062b54c2bdeea19ec000344640b8262629ff654f5c063c9979026bc2eb",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/wg0W80etRXY/maxres2.jpg",
+          "sha256": "23508809f6a77b12ce45da02e9cb9544867c45763dec7696962d4e2ecd916b6c",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/wg0W80etRXY/maxres3.jpg",
+          "sha256": "e8f1303a735612895292f88afbb2c41a8392391701cd86fd840a64dffa0f6403",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E22",
+      "tvdbEpisodeId": "8355527",
+      "youtubeId": "S7FKBkzaB4M",
+      "title": "lui c’est un génie ou un énorme imposteur",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8355527",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 3,
+      "sha256": "ec1a0f98defb3bb05513b22b6928ceb94f6de26434e4a5e2868c718d47c2a9a4",
+      "dhash": "206c6cececcccccc",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/S7FKBkzaB4M/maxres1.jpg",
+          "sha256": "43c2963e2ccc9932db13da2d9b492837a85f31751c29729d4be4a383e22eccfd",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/S7FKBkzaB4M/maxres2.jpg",
+          "sha256": "d336879caa5c4d15afb2285d62d0bd41e337f2a39d67041460641048969dd3f9",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/S7FKBkzaB4M/maxres3.jpg",
+          "sha256": "ec1a0f98defb3bb05513b22b6928ceb94f6de26434e4a5e2868c718d47c2a9a4",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E21",
+      "tvdbEpisodeId": "8355526",
+      "youtubeId": "Y7GOnbhTKaA",
+      "title": "1 seconde avant la catastrophe...",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8355526",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "9af9c86aba18b89afc99b6fb8fcd65ce61c6c3efdcd64dd79d72caa4d26501b3",
+      "dhash": "226cec8cbc74dc94",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/Y7GOnbhTKaA/maxres1.jpg",
+          "sha256": "45b1b607f2f4e3f4a84031e051140aac03c815932f28c9a56673f51ec7b4ab71",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/Y7GOnbhTKaA/maxres2.jpg",
+          "sha256": "9af9c86aba18b89afc99b6fb8fcd65ce61c6c3efdcd64dd79d72caa4d26501b3",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/Y7GOnbhTKaA/maxres3.jpg",
+          "sha256": "1c51f5a6dc4ec9c9c8144d6cf21ac6945108dd70ca8e1ddb585aabb7046fd308",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E20",
+      "tvdbEpisodeId": "8330653",
+      "youtubeId": "lyrgK96-bWk",
+      "title": "on a loué un camion et on fait des surprises",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8330653",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "719b33afff8a9e9de4ddd7755ce9569c3241eec3b313e445d0e4e175447d6c43",
+      "dhash": "ce8fafafa4adabcb",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/lyrgK96-bWk/maxres1.jpg",
+          "sha256": "05b275609514db70cc2a9714580fd2f8fdf30f2cc365bb9042f2db9e17be0eda",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/lyrgK96-bWk/maxres2.jpg",
+          "sha256": "719b33afff8a9e9de4ddd7755ce9569c3241eec3b313e445d0e4e175447d6c43",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/lyrgK96-bWk/maxres3.jpg",
+          "sha256": "e1feae2ca61aea7f5dea21b731cbf513c5d779dd6b32fe368188012ca1590a72",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E18",
+      "tvdbEpisodeId": "8317119",
+      "youtubeId": "cY8vIsyPqkE",
+      "title": "essayez de rester calme",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8317119",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 3,
+      "sha256": "83762a8630ac98e9993c71aaac7f504ff94e20eb037b0235af8934188e82c0fa",
+      "dhash": "333131313133f3e4",
+      "manualStatus": "GAME_SCORING_HUD_NEEDS_ADDITIONAL_CHECK",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/cY8vIsyPqkE/maxres1.jpg",
+          "sha256": "3667c2fabfb16be810905240d74f290de4d94ae155ab8f0bfc056d14d566a64c",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/cY8vIsyPqkE/maxres2.jpg",
+          "sha256": "50b8c64ced6542e11f76bb6028c2e376eaf3664db6202c8900ca11607e109360",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/cY8vIsyPqkE/maxres3.jpg",
+          "sha256": "83762a8630ac98e9993c71aaac7f504ff94e20eb037b0235af8934188e82c0fa",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E17",
+      "tvdbEpisodeId": "8297014",
+      "youtubeId": "9fzIrrL84Gk",
+      "title": "ne lui ouvrez pas la porte",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8297014",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 3,
+      "sha256": "b9e6d739031f765d3aee6b6f7b621c1318a85fc25ef7b9689aa6a18d5df1036d",
+      "dhash": "494948c8c8c8c9c1",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/9fzIrrL84Gk/maxres1.jpg",
+          "sha256": "e953b091a40d7cef47b4d18a902e19f269b3d065594c98b1ba2160ec47869a98",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/9fzIrrL84Gk/maxres2.jpg",
+          "sha256": "4c7e001459ae8279850190edda480bc4bf02f1839323761971a33f65917474f8",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/9fzIrrL84Gk/maxres3.jpg",
+          "sha256": "b9e6d739031f765d3aee6b6f7b621c1318a85fc25ef7b9689aa6a18d5df1036d",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E16",
+      "tvdbEpisodeId": "8277341",
+      "youtubeId": "MJYFgFbC3kg",
+      "title": "ces bêtises ont du leur coûter cher",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8277341",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 1,
+      "sha256": "87f9a189d8f8231998e3db11ed2d9945a43063cd641c20f0bbf21e0b29caf66b",
+      "dhash": "216d4c4c4c4cc898",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/MJYFgFbC3kg/maxres1.jpg",
+          "sha256": "87f9a189d8f8231998e3db11ed2d9945a43063cd641c20f0bbf21e0b29caf66b",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/MJYFgFbC3kg/maxres2.jpg",
+          "sha256": "512b6dd1d5be3fc239130088a1f99508b53481918dc54fef5d3762f714265cd7",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/MJYFgFbC3kg/maxres3.jpg",
+          "sha256": "8a7eea0aecb65b785eda99b06be6211d6fbb880fd578731b165dfac93416a20d",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E15",
+      "tvdbEpisodeId": "8264827",
+      "youtubeId": "QsBSHY8GhUc",
+      "title": "10 ans sur YouTube",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8264827",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 1,
+      "sha256": "18af55bb4287d99c3823382d80dc1badfa9123bbc4e2f7e33e0f11f337fff618",
+      "dhash": "65694949486cbc1c",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/QsBSHY8GhUc/maxres1.jpg",
+          "sha256": "18af55bb4287d99c3823382d80dc1badfa9123bbc4e2f7e33e0f11f337fff618",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/QsBSHY8GhUc/maxres2.jpg",
+          "sha256": "c15ecb5726e3fcd104603cea4ca11f05efe991feb58720c304b38579499e4ddb",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/QsBSHY8GhUc/maxres3.jpg",
+          "sha256": "4f83f65c873f1669ac4ca501d94d1f0e037aa39fcf79f80fc36bcf691056aa8c",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E14",
+      "tvdbEpisodeId": "8254968",
+      "youtubeId": "EvwiyKBzBZA",
+      "title": "tant que ça m'arrive pas c'est drôle",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8254968",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "6c632387e490065687152198a8c30dc9e8fdeef8f33c2dcc76e51832fdc9036b",
+      "dhash": "5662284848d41707",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/EvwiyKBzBZA/maxres1.jpg",
+          "sha256": "d5c15592523a6637a7b24cf1fcc91b46fa7583fef17c99ab881b458e4cc5b861",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/EvwiyKBzBZA/maxres2.jpg",
+          "sha256": "6c632387e490065687152198a8c30dc9e8fdeef8f33c2dcc76e51832fdc9036b",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/EvwiyKBzBZA/maxres3.jpg",
+          "sha256": "41534fc61d7bc9f872e9be44764ba07cf71f4348c89dde0e9ec0577646d6a3be",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E13",
+      "tvdbEpisodeId": "8234296",
+      "youtubeId": "qNZe5hUAfuU",
+      "title": "qui a créé cette merveille ?? (et aussi nouveau décor)",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8234296",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 3,
+      "sha256": "dbadbc3977a01f8ebbc9be34ca8e7fd1fc77ea044c3c0e4e16ab423484035bce",
+      "dhash": "98142424acc45233",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/qNZe5hUAfuU/maxres1.jpg",
+          "sha256": "1f66303912ed64e3369d25f24534cccb89deff8bea3e1c0ea7d1452418df47fb",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/qNZe5hUAfuU/maxres2.jpg",
+          "sha256": "f5e0b08acde8d0718ff73d06c8ecb680b195dad621e3dbd1bc9361f34de937ee",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/qNZe5hUAfuU/maxres3.jpg",
+          "sha256": "dbadbc3977a01f8ebbc9be34ca8e7fd1fc77ea044c3c0e4e16ab423484035bce",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E12",
+      "tvdbEpisodeId": "8234130",
+      "youtubeId": "MvxgQbmjnss",
+      "title": "Squeezie - Mario Kart (Clip Officiel)",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8234130",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 3,
+      "sha256": "8ba92287dc8486e0f3a916093c01a6935fe0cedbec3e5a334e10df6924fa9cfe",
+      "dhash": "698e1a9a9c98bc4c",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/MvxgQbmjnss/maxres1.jpg",
+          "sha256": "37ac2581adccfbf4534994a5c84ca5e01cb934d37ef94b7fd739fcd2a498c8d9",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/MvxgQbmjnss/maxres2.jpg",
+          "sha256": "d26b053b5fcf1c6737f0aa7618f1ad829b19c9a0ed145a4d3bc01a870df26a42",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/MvxgQbmjnss/maxres3.jpg",
+          "sha256": "8ba92287dc8486e0f3a916093c01a6935fe0cedbec3e5a334e10df6924fa9cfe",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E10",
+      "tvdbEpisodeId": "8204273",
+      "youtubeId": "qDCn6QNGYy4",
+      "title": "j'en ai marre de pleurer devant ça",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8204273",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 1,
+      "sha256": "e6ff958d4ef8dc6767f2b5b171f27300d08ceb1276b36eeb014b2ced6a1db570",
+      "dhash": "4f4d4c4c4d4f2f2d",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/qDCn6QNGYy4/maxres1.jpg",
+          "sha256": "e6ff958d4ef8dc6767f2b5b171f27300d08ceb1276b36eeb014b2ced6a1db570",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/qDCn6QNGYy4/maxres2.jpg",
+          "sha256": "89f531e769deaf23f3152fe2ce8a637167491f188fa8890e6a759bcb40d9b426",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/qDCn6QNGYy4/maxres3.jpg",
+          "sha256": "81452940e0b3dcf355571a2b27f3c542ac1591354381a638b4ac0b05cda58bce",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E09",
+      "tvdbEpisodeId": "8193281",
+      "youtubeId": "8xD7MY5fw1w",
+      "title": "ces trucs sont tellement énervants",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8193281",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "3cd5e2e147c1afe3de9facbd1d15014c05276fc0a22a2c4993702dfe795230e9",
+      "dhash": "71554f4f6f6a694f",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/8xD7MY5fw1w/maxres1.jpg",
+          "sha256": "8a8ac5b023a6aa9431bd352fbdfed989e25a46e60f5f32a47c76ce119519af61",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/8xD7MY5fw1w/maxres2.jpg",
+          "sha256": "3cd5e2e147c1afe3de9facbd1d15014c05276fc0a22a2c4993702dfe795230e9",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/8xD7MY5fw1w/maxres3.jpg",
+          "sha256": "31ebdaf2a9435fcb72d9838ad5d27d37084e2b17f904c5be32a216be137ef2e8",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E07",
+      "tvdbEpisodeId": "8169572",
+      "youtubeId": "_RYLkWhTxjU",
+      "title": "ces films pour enfants me font trop peur",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8169572",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "a79f7753682307c2014ffc77aaea2960d557ca98662beffb179eb0c2905faffc",
+      "dhash": "b6af8fcfce8ea717",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/_RYLkWhTxjU/maxres1.jpg",
+          "sha256": "a426e6beaa54cd3f1de31e09460b62c9c3060fa597bf360da9a0cc66a12508a8",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/_RYLkWhTxjU/maxres2.jpg",
+          "sha256": "a79f7753682307c2014ffc77aaea2960d557ca98662beffb179eb0c2905faffc",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/_RYLkWhTxjU/maxres3.jpg",
+          "sha256": "9a995728e616c8134e87247fe59efacbcc2cf641944de0ed02fdbdecb691fd4a",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Squeezie",
+      "episode": "S2021E06",
+      "tvdbEpisodeId": "8155922",
+      "youtubeId": "2Ila5jNA58g",
+      "title": "ils ont voulu faire quoi là ??",
+      "tvdbEpisodeURL": "https://www.thetvdb.com/series/279758-show/episodes/8155922",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "1a1e1f5b6e3f0608983af57e9610c12e058a46c9e38ce54dd6f6d7e0ac5fdebf",
+      "dhash": "736b4d4c4e0d0f09",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/2Ila5jNA58g/maxres1.jpg",
+          "sha256": "9385045edc5a14c738376b81a80eb9ba182599b36bb1f60fd26241153c97c86b",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/2Ila5jNA58g/maxres2.jpg",
+          "sha256": "1a1e1f5b6e3f0608983af57e9610c12e058a46c9e38ce54dd6f6d7e0ac5fdebf",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/2Ila5jNA58g/maxres3.jpg",
+          "sha256": "0d6da572093a424b7b14bc8235240b1d85f57fb382c2ad1713ddc5d37cd5923b",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2025E18",
+      "tvdbEpisodeId": "11423327",
+      "youtubeId": "xzlb9hbp9iI",
+      "title": "24H DANS LE NOIR TOTAL ! (Version horreur)",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/joyca/episodes/11423327",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "8d9362fce2de920e446c2202795f45ca7e42a8ece323e8d940bada258e32694e",
+      "dhash": "f2f2e4c464646c78",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/xzlb9hbp9iI/maxres1.jpg",
+          "sha256": "026641324f99242035c85ad57f6b8ed8505a777b2257d0e36ca2177aa45a9642",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/xzlb9hbp9iI/maxres2.jpg",
+          "sha256": "8d9362fce2de920e446c2202795f45ca7e42a8ece323e8d940bada258e32694e",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/xzlb9hbp9iI/maxres3.jpg",
+          "sha256": "782303b27ce687ac60bfe377e223e7ebc855c4603c0d2546b8b7bef8fe5d6991",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E47",
+      "tvdbEpisodeId": "11894670",
+      "youtubeId": "YUwayyNWy1c",
+      "title": "UNPOPUNIAR OPINIGNON 3 : Bigflo hait les siestes et les comédies musicales July 23, 2026 YouTube 55",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11894670",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "74534a03c8e01dca5511173d35224a065d9cf0f592877573b85e770d57c16cc9",
+      "dhash": "6d4d4c484c61583a",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/YUwayyNWy1c/maxres1.jpg",
+          "sha256": "a374ce3f952c0aa8c1c8b33185ff5e5ead116f291499876af573d048d79818ce",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/YUwayyNWy1c/maxres2.jpg",
+          "sha256": "74534a03c8e01dca5511173d35224a065d9cf0f592877573b85e770d57c16cc9",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/YUwayyNWy1c/maxres3.jpg",
+          "sha256": "e606f41c28d6d6696f2ef9042483bfd5812a264d95d9e5857d6ffbeae3bea319",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E46",
+      "tvdbEpisodeId": "11892780",
+      "youtubeId": "vAZ5SacViMM",
+      "title": "Les recos de Carl sont enfin là ! (Et Mcfly ne l'empêche pas) July 21, 2026 YouTube 28",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11892780",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 3,
+      "sha256": "b76e6ef2b0d9913230870068957100d157350dcadf993c6d433316159c991c1c",
+      "dhash": "4f4f4f4f1b832707",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/vAZ5SacViMM/maxres1.jpg",
+          "sha256": "7cd197da81b30b121170eccd4f31b894e2c020a2e080a409857d64b091a807fd",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/vAZ5SacViMM/maxres2.jpg",
+          "sha256": "a0cbc0711b2eeb43ad7d5ea095f671efe07a92a65ce49dcd945196aa7055bcc2",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/vAZ5SacViMM/maxres3.jpg",
+          "sha256": "b76e6ef2b0d9913230870068957100d157350dcadf993c6d433316159c991c1c",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E45",
+      "tvdbEpisodeId": "11886273",
+      "youtubeId": "38YzeyCBqes",
+      "title": "LA BATTLE DES PAYS : on déguste les spécialités Polonaises avec Natalka July 16, 2026 YouTube 42",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11886273",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "135c3934b6fad296f87d8789ba930ed7135d554767e9b136d2cd287878592e63",
+      "dhash": "191e1b1939b99dad",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/38YzeyCBqes/maxres1.jpg",
+          "sha256": "f2c7d6689f9224a5491b6a5bcf29f8c064f1e35cb3a38bccc17a452e68b20ee9",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/38YzeyCBqes/maxres2.jpg",
+          "sha256": "135c3934b6fad296f87d8789ba930ed7135d554767e9b136d2cd287878592e63",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/38YzeyCBqes/maxres3.jpg",
+          "sha256": "d97e7a90258dc078498620a1a48c60deef85eb7a42af4c49de02af13b1c343c0",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E44",
+      "tvdbEpisodeId": "11884137",
+      "youtubeId": "NQX8g3vEPzo",
+      "title": "On vous présente nos coups de cœur sur Insta July 14, 2026 YouTube 30",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11884137",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 3,
+      "sha256": "d7b04ff456e87e1cfdb4aef4c58daa198541707709ac153c8e0c34c70e028cde",
+      "dhash": "0787c6c3c1c1e0c3",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/NQX8g3vEPzo/maxres1.jpg",
+          "sha256": "1936b976cda921a18183b38380bb4a6c85449f335d7fa142ad1dca7f0cf495a8",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/NQX8g3vEPzo/maxres2.jpg",
+          "sha256": "0ba7ab01886b0ea454b5aa62108fc1bb82bba91af70cbe482e83f8ccc8c50a1b",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/NQX8g3vEPzo/maxres3.jpg",
+          "sha256": "d7b04ff456e87e1cfdb4aef4c58daa198541707709ac153c8e0c34c70e028cde",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E43",
+      "tvdbEpisodeId": "11879094",
+      "youtubeId": "Vr9kBC8rG3A",
+      "title": "On classe 32 friandises de cinéma avec Florent Bernard & Seb Vaniček (Mcfly n’aime pas le popcorn ????) July 9, 2026 YouTube 106",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11879094",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 1,
+      "sha256": "34b7977d19c8e01976ace2b40c4781de36eb39cf154f544d7e944bc941651284",
+      "dhash": "4d4d0e1c75660e4e",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/Vr9kBC8rG3A/maxres1.jpg",
+          "sha256": "34b7977d19c8e01976ace2b40c4781de36eb39cf154f544d7e944bc941651284",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/Vr9kBC8rG3A/maxres2.jpg",
+          "sha256": "ba3bd58145d2360b2cee04761ce0d707765202134f29b514791f957c1695f6c0",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/Vr9kBC8rG3A/maxres3.jpg",
+          "sha256": "d080bad479046d4849c87b5531f8583699b3a2b5f1d9ca71bf5e2c1482bb274b",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E42",
+      "tvdbEpisodeId": "11875853",
+      "youtubeId": "-ybot6ieI1w",
+      "title": "On parle, on peint, on joue à WARHAMMER avec Alphacast parfait en expert July 7, 2026 YouTube 40",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11875853",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "e9af87fa3fa9098a5f447e1e1dcf61ce4684380d8b3cd040431a030f3eb261e3",
+      "dhash": "4e4fceceea6c4ede",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/-ybot6ieI1w/maxres1.jpg",
+          "sha256": "f314e44d8bdc14cf35ea910d5df325fd770089924355ab62f408bee63ade3c85",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/-ybot6ieI1w/maxres2.jpg",
+          "sha256": "e9af87fa3fa9098a5f447e1e1dcf61ce4684380d8b3cd040431a030f3eb261e3",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/-ybot6ieI1w/maxres3.jpg",
+          "sha256": "3b3249bc40f08f649334e50729c6cb9f59135c74dfa62cd2020cf2e087091030",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E41",
+      "tvdbEpisodeId": "11870022",
+      "youtubeId": "k3x_skhZKHE",
+      "title": "On déguvine 32 bonbons avec Joyca et Matthieu et le plot twist de fin est magnifique July 2, 2026 YouTube 85",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11870022",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "4ff9550ef6dc2355db0130fe91d6f10954e7f8f5c9c61a8ab755d5560c466481",
+      "dhash": "9bb2323297f95b4c",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/k3x_skhZKHE/maxres1.jpg",
+          "sha256": "812876e7224657f59b5482849e2d2226cfbef9ddb3483e52e7b57df1731adb8e",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/k3x_skhZKHE/maxres2.jpg",
+          "sha256": "4ff9550ef6dc2355db0130fe91d6f10954e7f8f5c9c61a8ab755d5560c466481",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/k3x_skhZKHE/maxres3.jpg",
+          "sha256": "084d1cf1b5172dfc0c476105c7d6b8d9915c6aa17734971d2fa18cd9d24d95c5",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E40",
+      "tvdbEpisodeId": "11862322",
+      "youtubeId": "rDjBlHWBF_s",
+      "title": "Discussion autour du deuil, histoires, conseils et beaucoup d’amour June 26, 2026 YouTube 128",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11862322",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "120219ddfdf5df45ddf757eae3c6a285be0210a5daaef2fdbbf3df51976d1b1e",
+      "dhash": "0949090d2d0d159e",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/rDjBlHWBF_s/maxres1.jpg",
+          "sha256": "02ced9d0ee68647f8ff1f99fa4bd75457753dd684018464ff05a570a458793a2",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/rDjBlHWBF_s/maxres2.jpg",
+          "sha256": "120219ddfdf5df45ddf757eae3c6a285be0210a5daaef2fdbbf3df51976d1b1e",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/rDjBlHWBF_s/maxres3.jpg",
+          "sha256": "3249ba2da472dc40f24297dc631f73a337c9b304e77bca120017be931e86f681",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E39",
+      "tvdbEpisodeId": "11859637",
+      "youtubeId": "KozBZ5IuTTk",
+      "title": "On crée nos pizzas avec le légendaire Peppe et il doit mettre sa préférée à la carte de son resto ! June 24, 2026 YouTube 47",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11859637",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "c63ae095d4b91be5627bc52c1a1117b138ea5bd14aa5a5c9465371ff2042f1cb",
+      "dhash": "488f9f978f9cc498",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/KozBZ5IuTTk/maxres1.jpg",
+          "sha256": "b65be8ab9390500485fdd2203b27f223122145570a26620b4ccec893a60ffd27",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/KozBZ5IuTTk/maxres2.jpg",
+          "sha256": "c63ae095d4b91be5627bc52c1a1117b138ea5bd14aa5a5c9465371ff2042f1cb",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/KozBZ5IuTTk/maxres3.jpg",
+          "sha256": "a0ad66b47e6a280a9e3687f272e493cb69512a31a2d2ec9638ae04ff331cda30",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E38",
+      "tvdbEpisodeId": "11856843",
+      "youtubeId": "qTs0APDyucQ",
+      "title": "On revoit les pubs cultes des années 90 (Papa c’est quoi cette bouteille de lait ?) June 22, 2026 YouTube 27",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11856843",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 3,
+      "sha256": "adf635a1c87d2b0d8a64efd7a8c82ef11c708360a32a4f6b91cdebcfad141cb4",
+      "dhash": "9bab0f0d222f0f4f",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/qTs0APDyucQ/maxres1.jpg",
+          "sha256": "782591593b0b37bb26b702f50ad9238abf966c8601601dc8b8f4024f0e8a78c9",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/qTs0APDyucQ/maxres2.jpg",
+          "sha256": "af0ddeee415bd0146b95c8e8948504a2da04d189550fecda80746f534c4e244f",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/qTs0APDyucQ/maxres3.jpg",
+          "sha256": "adf635a1c87d2b0d8a64efd7a8c82ef11c708360a32a4f6b91cdebcfad141cb4",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E37",
+      "tvdbEpisodeId": "11850812",
+      "youtubeId": "9EoNehP9KY0",
+      "title": "Tierlist des 365 jours de l'année (Dramas, Polémiques autour de Juillet et Août) June 18, 2026 YouTube 121",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11850812",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "11224ec115d9dea5b85e74dcc570a522ada8fbf24e97c17739dfbceae83fdae7",
+      "dhash": "9b1b1d5d54d2e0a4",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/9EoNehP9KY0/maxres1.jpg",
+          "sha256": "258e0ef9497a68c5b1b3e90ca39856b3fee30d4db6253b7eda8bba2fa8ba95b7",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/9EoNehP9KY0/maxres2.jpg",
+          "sha256": "11224ec115d9dea5b85e74dcc570a522ada8fbf24e97c17739dfbceae83fdae7",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/9EoNehP9KY0/maxres3.jpg",
+          "sha256": "94cabcb53797c99b14c15b3133629a9b7dfdbef02876c147dfa446400c857500",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E36",
+      "tvdbEpisodeId": "11848190",
+      "youtubeId": "_nIMtE65UsI",
+      "title": "On devine 29 compotes avec Marine (c’est notre âme sœur) June 16, 2026 YouTube 57",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11848190",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 1,
+      "sha256": "0348336e5f6b60432017f230e55efe9660fc8948e47f3a88f7fc978010539757",
+      "dhash": "c6ce4d4f5e4e531b",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/_nIMtE65UsI/maxres1.jpg",
+          "sha256": "0348336e5f6b60432017f230e55efe9660fc8948e47f3a88f7fc978010539757",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/_nIMtE65UsI/maxres2.jpg",
+          "sha256": "60a0dec50937168b3972aded32406177a8f80af85fbdd93334c1ac484f8d754d",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/_nIMtE65UsI/maxres3.jpg",
+          "sha256": "4b17d3fb688871f5bf0a18d467cf85574b813bb02b491bd8094c6bd6549c3e0a",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E34",
+      "tvdbEpisodeId": "11836959",
+      "youtubeId": "U2K8UxxIX08",
+      "title": "C’est génial ce jeu (on en profite pour faire notre top 3 Disney) June 9, 2026 YouTube 21",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11836959",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 3,
+      "sha256": "243d226d7a6b52186b15643a712a4f01e90f4e4464414f4550c0f8aa0bfa67c6",
+      "dhash": "8c0e668687160697",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/U2K8UxxIX08/maxres1.jpg",
+          "sha256": "2eb112a018fec159fd36c51b4b2bffe795cc6c1e253388b95e4108f3e2338b01",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/U2K8UxxIX08/maxres2.jpg",
+          "sha256": "daada08014f0a3a3bb9eae6d6963ee3bd9f0b4b859b672ea9d82b50092022c32",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/U2K8UxxIX08/maxres3.jpg",
+          "sha256": "243d226d7a6b52186b15643a712a4f01e90f4e4464414f4550c0f8aa0bfa67c6",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E33",
+      "tvdbEpisodeId": "11821118",
+      "youtubeId": "gUkGUVIY-p4",
+      "title": "Nos chips sont dispos. On vous raconte tout. June 1, 2026 YouTube 70",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11821118",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 1,
+      "sha256": "d3296338188c8680f16a190b9945cba19243456673257fe2661e2b7377f24047",
+      "dhash": "8b8f8f8f8a83013b",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/gUkGUVIY-p4/maxres1.jpg",
+          "sha256": "d3296338188c8680f16a190b9945cba19243456673257fe2661e2b7377f24047",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/gUkGUVIY-p4/maxres2.jpg",
+          "sha256": "48e5d1861bdd849d85f11ee5b00a3af217cfb46dd6d1d97c2193602d1176b2c2",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/gUkGUVIY-p4/maxres3.jpg",
+          "sha256": "df0ce025e4d6fd9673398c40964918299c8e18573e69c7e391c383f6340a5dc7",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E32",
+      "tvdbEpisodeId": "11811742",
+      "youtubeId": "SzFdonz_CTY",
+      "title": "On apprend enfin à terminer un Rubik's cube grâce à Victor le goat May 26, 2026 YouTube 38",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11811742",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 1,
+      "sha256": "d4e65420404c0ac1d5e90746ae2dedd207e543e394900ff5f97364bc7cebed49",
+      "dhash": "6a2e25878c8b1b12",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/SzFdonz_CTY/maxres1.jpg",
+          "sha256": "d4e65420404c0ac1d5e90746ae2dedd207e543e394900ff5f97364bc7cebed49",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/SzFdonz_CTY/maxres2.jpg",
+          "sha256": "d6b9fc2662a0065000e22c06386121a83366fb15ae058f4767d26d63cb12c513",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/SzFdonz_CTY/maxres3.jpg",
+          "sha256": "61d551ea5677e989f6f8a42ebb5eb02e9a88f8f794da00eec6d2d0c75ed50495",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E31",
+      "tvdbEpisodeId": "11802833",
+      "youtubeId": "veUUS8pn9N4",
+      "title": "Mcfly VS 50 abonnés : Qui aura le meilleur palais ? May 21, 2026 YouTube 65",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11802833",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 3,
+      "sha256": "1ba722ddaa69aee9ea60e5c473e9a6187364520958f3bf3168a58308ea51b415",
+      "dhash": "aaa2eaca4b4b0b0a",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/veUUS8pn9N4/maxres1.jpg",
+          "sha256": "c5517ef52220dfbeb0bd8c25365880a79189c4cd5273d1726ebb88ed59ded264",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/veUUS8pn9N4/maxres2.jpg",
+          "sha256": "55f6684abcd941498e85d2afe27af78f0e758927636f20c38df43048ece423ee",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/veUUS8pn9N4/maxres3.jpg",
+          "sha256": "1ba722ddaa69aee9ea60e5c473e9a6187364520958f3bf3168a58308ea51b415",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E30",
+      "tvdbEpisodeId": "11792871",
+      "youtubeId": "vM52Carqn7U",
+      "title": "24h avec les marins-pompiers de Marseille (tournage le plus marquant de notre vie) May 14, 2026 YouTube 88",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11792871",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 3,
+      "sha256": "c506cbe30a61dc19499a5177ba49ec6c0496d1ca827e0221404d7e8456bf73ee",
+      "dhash": "717af969c9c1a5a8",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/vM52Carqn7U/maxres1.jpg",
+          "sha256": "9a7576af3ee269c78fa6c03cb0caba5c294b123540abcadf18bc3421f0d662da",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/vM52Carqn7U/maxres2.jpg",
+          "sha256": "f612c8f81b6b890e8f5cb95d7e08d626eb084f29706495ac43df5cafee96d80c",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/vM52Carqn7U/maxres3.jpg",
+          "sha256": "c506cbe30a61dc19499a5177ba49ec6c0496d1ca827e0221404d7e8456bf73ee",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E29",
+      "tvdbEpisodeId": "11790599",
+      "youtubeId": "gDPEIwqRokc",
+      "title": "10 conseils qu’on aurait adoré recevoir en tant que parents May 12, 2026 YouTube 35",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11790599",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": null,
+      "sha256": null,
+      "dhash": null,
+      "manualStatus": "BLOCKED_ALL_AUTOMATIC_STILLS_HAVE_TEXT_OR_SUBTITLES",
+      "blockReason": "All three automatic video frames from the episode have large graphic text or hardcoded captions.",
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/gDPEIwqRokc/maxres1.jpg",
+          "sha256": "155066778d576545698df10aa5be33a6b3ae72f638246acb64f9ccbd49dca70e",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/gDPEIwqRokc/maxres2.jpg",
+          "sha256": "7e9ef8a7e42bbb445f94d028e47d211b5fe970004a35d9e4fcc1fd9cabbe88bc",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/gDPEIwqRokc/maxres3.jpg",
+          "sha256": "91ea6781bc5b78623e7a676d2d939d29d6ee3ea4a3df5a0fb82c945a8f1825e5",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E28",
+      "tvdbEpisodeId": "11782086",
+      "youtubeId": "H3qHmXrPyYs",
+      "title": "On devine 41 fromages avec Max et Elian et Carlito n’a pas trouvé le camembert May 7, 2026 YouTube 75",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11782086",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 1,
+      "sha256": "343cf734f4e6d094ae5f12feff7765f853caf4f6c91fd55527ff159848c9f594",
+      "dhash": "a8b99b09051c7cc0",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/H3qHmXrPyYs/maxres1.jpg",
+          "sha256": "343cf734f4e6d094ae5f12feff7765f853caf4f6c91fd55527ff159848c9f594",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/H3qHmXrPyYs/maxres2.jpg",
+          "sha256": "568110fe31d78f4b12b02eee1c3aed03a696d97e12b8012537327e05b38c4b16",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/H3qHmXrPyYs/maxres3.jpg",
+          "sha256": "cff7d356a29fce16139be479a544801ba1ba23ecb5ace12e7fa04f47c84c5da7",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E27",
+      "tvdbEpisodeId": "11777799",
+      "youtubeId": "xFCGmjQlvZw",
+      "title": "On répond en vocal à des commentaires méchants et promis on insulte personne May 5, 2026 YouTube 21",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11777799",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 1,
+      "sha256": "f9ad2cdf759a7196b3b5271aa12b9008b9d2bd1e96a56cad485e8784bb86e9a5",
+      "dhash": "9387474387874b89",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/xFCGmjQlvZw/maxres1.jpg",
+          "sha256": "f9ad2cdf759a7196b3b5271aa12b9008b9d2bd1e96a56cad485e8784bb86e9a5",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/xFCGmjQlvZw/maxres2.jpg",
+          "sha256": "77ac62a90db08ec06a3e23d08d692f5d184ef16b7703330365072ba23888aacb",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/xFCGmjQlvZw/maxres3.jpg",
+          "sha256": "55b19c99fcdf83dea8e79b3123612e789a5a0abfb893ca9ead9581d04ebe7b6e",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E26",
+      "tvdbEpisodeId": "11752948",
+      "youtubeId": "j6V70tSzCxg",
+      "title": "On élit les meilleures chasses d’eau et @Djilsi refuse de faire la vidéo si on change pas de place April 21, 2026 YouTube 47",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11752948",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "80ba2e099aac76aeaf4a42a3651ef66b9dc1ff6d4de13a7934197e7790ca13db",
+      "dhash": "62632a6d6d6d1f17",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/j6V70tSzCxg/maxres1.jpg",
+          "sha256": "25254e7c9c8cfa8ed86d5df2830d02b968292adcd0ef8a067d19dcbce31e2566",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/j6V70tSzCxg/maxres2.jpg",
+          "sha256": "80ba2e099aac76aeaf4a42a3651ef66b9dc1ff6d4de13a7934197e7790ca13db",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/j6V70tSzCxg/maxres3.jpg",
+          "sha256": "03b7d8a05120807de5bceaa8c166c6765b93cc240b2020f09a3ec64f95eb0926",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E25",
+      "tvdbEpisodeId": "11743932",
+      "youtubeId": "IuyGIoaOkQI",
+      "title": "Sommes-nous TDAH ? (tests, discussions et résultats… surprenants) April 16, 2026 YouTube 40",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11743932",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 1,
+      "sha256": "4fb547aa1cda26d038ec5d963905bc7637b09c12e60c78fb2e2e9288b31ff833",
+      "dhash": "8d8d9dcdddcb48d8",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/IuyGIoaOkQI/maxres1.jpg",
+          "sha256": "4fb547aa1cda26d038ec5d963905bc7637b09c12e60c78fb2e2e9288b31ff833",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/IuyGIoaOkQI/maxres2.jpg",
+          "sha256": "45c2bb61c9febc202a6250b4fd7e886eb8ca98ea55573e56d247c2313390e153",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/IuyGIoaOkQI/maxres3.jpg",
+          "sha256": "fe94fb8ca9db992378982e4e7b46110d86b1b26250d99d1e7bb5859298a40e18",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E23",
+      "tvdbEpisodeId": "11729548",
+      "youtubeId": "gnertO1niK4",
+      "title": "Qui est le plus cultivé de l'équipe ? Avec un Émilien parfait en host April 9, 2026 49",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11729548",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 1,
+      "sha256": "9697c8f56f6501ad956c8f74f0a2b7b069508798039a388a9b8cc0d9a8f9a81b",
+      "dhash": "0e2f6cceccccce4d",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/gnertO1niK4/maxres1.jpg",
+          "sha256": "9697c8f56f6501ad956c8f74f0a2b7b069508798039a388a9b8cc0d9a8f9a81b",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/gnertO1niK4/maxres2.jpg",
+          "sha256": "7ca9e2bc7fe0474b2c429494f139da8de4b69e8946f70270bab95eb2acfa84ed",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/gnertO1niK4/maxres3.jpg",
+          "sha256": "96d1c6e39c5f60aa852c8b95d4d4c2cb04255b8471ae489e3a7ef62943602a1a",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Mcfly & Carlito",
+      "episode": "S2026E22",
+      "tvdbEpisodeId": "11714322",
+      "youtubeId": "3Fwsvsc4Y7c",
+      "title": "On ouvre des cartes One Piece et Mcfly ne peut plus s'arrêter April 2, 2026 40",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/mcfly-carlito/episodes/11714322",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "63aa8222a102849ae6bc2e166247cd5c84741fe99c11737638609c91db81fdd5",
+      "dhash": "060e0f0b0f16466c",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/3Fwsvsc4Y7c/maxres1.jpg",
+          "sha256": "45cbf79f97fb7a7a3fb0400516f1ca496fc6aba6b20177230adf868b196e37aa",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/3Fwsvsc4Y7c/maxres2.jpg",
+          "sha256": "63aa8222a102849ae6bc2e166247cd5c84741fe99c11737638609c91db81fdd5",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/3Fwsvsc4Y7c/maxres3.jpg",
+          "sha256": "8c7a5fc358dd93fe729d089bad242001ca1321cbade15d9cfdec4dcb982bca82",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    },
+    {
+      "chain": "Joyca",
+      "episode": "S2024E26",
+      "tvdbEpisodeId": "10841571",
+      "youtubeId": "h4fwCvsFE8Y",
+      "title": "On teste des lieux notés 1 étoile ! (En Pologne) ★☆☆☆☆",
+      "tvdbEpisodeURL": "https://thetvdb.com/series/joyca/episodes/10841571",
+      "liveArtworkState": "MISSING_AT_SCAN",
+      "assistantPreferredVariant": 2,
+      "sha256": "51d8fc602f467767faef51e9b22efd48e8e403500292c4343aac000315c9aebe",
+      "dhash": "3372f6d6962e6fe6",
+      "manualStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_REVIEW_ONLY",
+      "blockReason": null,
+      "variants": [
+        {
+          "index": 1,
+          "imageURL": "https://i.ytimg.com/vi/h4fwCvsFE8Y/maxres1.jpg",
+          "sha256": "cf53d6160d466760682e2d7c01e12d8466dd17a8c1a1f1efecda23ae186734b5",
+          "native1280x720": true
+        },
+        {
+          "index": 2,
+          "imageURL": "https://i.ytimg.com/vi/h4fwCvsFE8Y/maxres2.jpg",
+          "sha256": "51d8fc602f467767faef51e9b22efd48e8e403500292c4343aac000315c9aebe",
+          "native1280x720": true
+        },
+        {
+          "index": 3,
+          "imageURL": "https://i.ytimg.com/vi/h4fwCvsFE8Y/maxres3.jpg",
+          "sha256": "d2761d566af8181c96af152cfdd904e8cab4d4bc5f2f944fa7c452cffd71d763",
+          "native1280x720": true
+        }
+      ],
+      "userValidated": false,
+      "uploadApproved": false
+    }
+  ],
+  "safety": [
+    "Do not reupload already-present images",
+    "All old user-selected 291 decisions remain unchanged",
+    "New user review decisions are not permission to upload",
+    "Do not use a historical missing flag without a live check",
+    "At least one Squeezie episode image status UNKNOWN_MARKUP, leave unknown",
+    "Do not bypass TheTVDB moderation restrictions"
+  ]
+}
