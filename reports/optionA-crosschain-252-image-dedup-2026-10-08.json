@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-08",
+  "mode": "READ_ONLY_CROSS_CREATOR_SHAFILE_DHASH_DEDUP_CHECK",
+  "scope": "252 genuine YouTube video stills across nine target creators, including current user decisions for 67 episodes and Mastu 24 changed choices plus Mastu 48 new proposed frames",
+  "totalImagesCompared": 252,
+  "groups": {
+    "userSelectionsAcrossOtherFive": 61,
+    "previous51MaximeDjilsi": 51,
+    "new20MaximeDjilsiElian": 20,
+    "djilsiAdditional48Proposals": 48,
+    "userMastu24Confirmed": 24,
+    "newMastu48Proposals": 48
+  },
+  "SHA256ExactDuplicatePairs": [],
+  "dhashNearDuplicatePairsWithinHamming8": [],
+  "allDhashComputed": true,
+  "sourceCheckpoints": [
+    "reports/optionA-user-91-choices-checkpoint-2026-10-08.json",
+    "reports/optionA-mastu-next-48-video-frame-checkpoint-2026-10-08.json",
+    "reports/optionA-user67-decisions-and-compliance-review-2026-10-08.json"
+  ],
+  "method": "Full native image byte sha256 and 9x8 grayscale difference hash; compare every pair of 252 candidates for exact bytes or Hamming <=8 of 64-bit dHash. Includes the latest five user changes in Mastu.",
+  "limitations": [
+    "No dHash duplicate pair detected does not certify each frame is distinctive enough to a person or similar to any pre-existing TheTVDB artwork.",
+    "Images with written titles, subtitles, logos or credits remain blocked for any future upload regardless of distinct hashes.",
+    "TheTVDB site still had temporary upload restriction on last authenticated check; lifting unconfirmed. No TheTVDB writes."
+  ],
+  "theTVDBWrites": 0
+}
