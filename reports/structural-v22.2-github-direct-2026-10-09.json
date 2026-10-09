@@ -38,7 +38,19 @@
       ],
       "newWritesPersisted": 0,
       "block": "POST_WRITE_NOT_PERSISTENT_2026-06-06",
-      "instruction": "DO NOT RETRY WRITE UNTIL INVESTIGATING SITE FORM VALIDATION, PERMISSIONS OR RESTRICTION; read-only diagnosis permitted"
+      "instruction": "DO NOT RETRY WRITE UNTIL INVESTIGATING SITE FORM VALIDATION, PERMISSIONS OR RESTRICTION; read-only diagnosis permitted",
+      "readonlyPostcheck": {
+        "runId": 37940696591,
+        "conclusion": "success",
+        "report": "reports/mcfly-priorities-v22-readonly-postcheck/report.json",
+        "authenticated": true,
+        "verifiedDate": "2026-06-06",
+        "expectedDate": "2026-10-06",
+        "result": "OLD_DATE_STILL_PRESENT",
+        "formAction": "/series/338282-show/season/official/episodes/12022496/update",
+        "messages": [],
+        "notes": "No further write; confirmed that previous attempted submission did not persist."
+      }
     },
     "mastuUnassigned": {
       "runId": 37940268097,
@@ -66,7 +78,8 @@
   "statuses": {
     "VÉRIFIÉ": [
       "Mcfly YouTube primary RSS and immutable episode ID",
-      "Mastu authenticated 10 Unassigned entries"
+      "Mastu authenticated 10 Unassigned entries",
+      "Postcheck after prior write: PRIORITIES still has 2026-06-06"
     ],
     "ENREGISTRÉ_SUR_GITHUB": [
       "Guarded workflow and script plus current reports",
