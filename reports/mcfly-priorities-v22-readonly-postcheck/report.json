@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-10-09T13:58:44.327Z",
+  "mode": "READ_ONLY_POSTCHECK_NO_EDIT",
+  "authenticated": true,
+  "id": "12022496",
+  "url": "https://thetvdb.com/series/338282-show/episodes/12022496/0/edit",
+  "seasonRow": {
+    "id": "12022496",
+    "number": 60,
+    "title": "PRIORITIES : vous êtes plus d’accord avec David ou Raf ? (Moi avec Raf)"
+  },
+  "date": "2026-06-06",
+  "currentPage": {
+    "url": "https://thetvdb.com/series/338282-show/episodes/12022496",
+    "heading": "PRIORITIES : vous êtes plus d’accord avec David ou Raf ? (Moi avec Raf)"
+  },
+  "messages": [],
+  "blocked": [],
+  "result": "OLD_DATE_STILL_PRESENT",
+  "formAction": "/series/338282-show/season/official/episodes/12022496/update"
+}
