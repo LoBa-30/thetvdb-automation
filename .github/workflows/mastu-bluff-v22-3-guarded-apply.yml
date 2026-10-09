@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/mastu-bluff-v22-3-guarded-apply.yml'
+      - 'src/mastu-bluff-v22-3-guarded-apply.js'
   workflow_dispatch:
 permissions:
   contents: write
@@ -19,14 +20,10 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: '22'
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - run: python -m pip install --upgrade yt-dlp
       - run: npm install
       - run: npx playwright install --with-deps chromium
       - run: node --check src/mastu-bluff-v22-3-guarded-apply.js
-      - name: Strict primary YouTube preflight, live TVDB collision checks, one guarded write, postcheck
+      - name: Official RSS identity/date, corroborated public runtime, fresh collision checks, guarded write and postcheck
         env:
           TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
           TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
