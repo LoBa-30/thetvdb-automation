@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-10-09T13:54:34.445Z",
+  "action": "SINGLE_ID_DATE_ONLY",
+  "target": {
+    "id": "12022496",
+    "year": "2026",
+    "number": 60,
+    "videoId": "QG1WcEWOF4g",
+    "channelId": "UCDPK_MTu3uTUFJXRVcTJcEw",
+    "oldDate": "2026-06-06",
+    "newDate": "2026-10-06"
+  },
+  "authenticated": true,
+  "checks": [
+    {
+      "check": "PRIMARY_YOUTUBE_RSS",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCDPK_MTu3uTUFJXRVcTJcEw",
+      "videoId": "QG1WcEWOF4g",
+      "published": "2026-10-06T15:21:34+00:00",
+      "title": "PRIORITIES : vous êtes plus d’accord avec David ou Raf ? (Moi avec Raf)",
+      "verified": true
+    },
+    {
+      "check": "IMMUTABLE_ID_SEASON_ROW",
+      "row": {
+        "id": "12022496",
+        "number": 60,
+        "title": "PRIORITIES : vous êtes plus d’accord avec David ou Raf ? (Moi avec Raf)"
+      }
+    },
+    {
+      "check": "CURRENT_AIRDATE",
+      "id": "12022496",
+      "date": "2026-06-06"
+    }
+  ],
+  "blocked": [
+    {
+      "reason": "POST_WRITE_NOT_PERSISTENT_2026-06-06"
+    }
+  ],
+  "writes": [],
+  "verifications": [
+    {
+      "id": "12022496",
+      "date": "2026-06-06",
+      "ok": false
+    }
+  ],
+  "result": "BLOCKED_OR_REVIEW_REQUIRED"
+}

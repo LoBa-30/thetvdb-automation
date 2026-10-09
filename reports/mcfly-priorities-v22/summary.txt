@@ -1,0 +1,5 @@
+result=BLOCKED_OR_REVIEW_REQUIRED
+authenticated=true
+writes=0
+blocked=1
+reason=POST_WRITE_NOT_PERSISTENT_2026-06-06
