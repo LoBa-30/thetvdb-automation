@@ -1,0 +1,1762 @@
+{
+  "date": "2026-10-09",
+  "mode": "MAPPING_FROM_EXISTING_REPORTS_NO_LIVE_SOURCE_RECHECK",
+  "summary": {
+    "approvedMastu": 97,
+    "mappedToEarlierReports": 71,
+    "reportRefsCounts": {
+      "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json": 18,
+      "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json": 35,
+      "reports/optionA-mastu-2019-2020-next48-candidates-2026-10-08.json": 12,
+      "reports/optionA-mastu-2021-24-id-verified-candidates-2026-10-08.json": 0,
+      "reports/optionA-mastu-user56-choices-review-2026-10-08.json": 24,
+      "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json": 35
+    },
+    "noEarlierReport": [
+      {
+        "code": "S2020E21",
+        "id": "8070756",
+        "youtubeId": "0yId3LDgp8Y"
+      },
+      {
+        "code": "S2020E30",
+        "id": "8070762",
+        "youtubeId": "d3wPN0Fk9mA"
+      },
+      {
+        "code": "S2020E35",
+        "id": "8082821",
+        "youtubeId": "u8GrmJ8-nJo"
+      },
+      {
+        "code": "S2021E05",
+        "id": "8204220",
+        "youtubeId": "GE_juCXAVOU"
+      },
+      {
+        "code": "S2021E08",
+        "id": "8296995",
+        "youtubeId": "RHJM0WIQpzM"
+      },
+      {
+        "code": "S2021E07",
+        "id": "8296993",
+        "youtubeId": "TcUSeNjrzFU"
+      },
+      {
+        "code": "S2021E14",
+        "id": "8571336",
+        "youtubeId": "p3yDAhXyBRk"
+      },
+      {
+        "code": "S2021E16",
+        "id": "8571338",
+        "youtubeId": "EXt6REz2RvY"
+      },
+      {
+        "code": "S2021E17",
+        "id": "12014527",
+        "youtubeId": "qbR6r1voD5Q"
+      },
+      {
+        "code": "S2021E18",
+        "id": "8571339",
+        "youtubeId": "m5FuEnR00jA"
+      },
+      {
+        "code": "S2021E21",
+        "id": "8762541",
+        "youtubeId": "VIEhReiAYis"
+      },
+      {
+        "code": "S2021E19",
+        "id": "8571340",
+        "youtubeId": "bxskLwoNJ_k"
+      },
+      {
+        "code": "S2021E23",
+        "id": "8762543",
+        "youtubeId": "RWY0Pf9SEBQ"
+      },
+      {
+        "code": "S2021E24",
+        "id": "8762544",
+        "youtubeId": "Pac3YYZ-cmI"
+      },
+      {
+        "code": "S2021E29",
+        "id": "8762549",
+        "youtubeId": "AkQNqlI4JLE"
+      },
+      {
+        "code": "S2021E28",
+        "id": "8762548",
+        "youtubeId": "t3enyIcnoE0"
+      },
+      {
+        "code": "S2021E31",
+        "id": "8762551",
+        "youtubeId": "CWJBKhpRif0"
+      },
+      {
+        "code": "S2021E32",
+        "id": "8762552",
+        "youtubeId": "5Haioi0TXpA"
+      },
+      {
+        "code": "S2021E40",
+        "id": "9194172",
+        "youtubeId": "P7yGjR505Gc"
+      },
+      {
+        "code": "S2021E45",
+        "id": "9195489",
+        "youtubeId": "gVLOzBKxu7A"
+      },
+      {
+        "code": "S2021E47",
+        "id": "9195491",
+        "youtubeId": "aaIMT8gnj0Y"
+      },
+      {
+        "code": "S2021E50",
+        "id": "9194160",
+        "youtubeId": "-nMxXe4SXk0"
+      },
+      {
+        "code": "S2021E49",
+        "id": "9195444",
+        "youtubeId": "b2vWxsnuurk"
+      },
+      {
+        "code": "S2021E52",
+        "id": "9195500",
+        "youtubeId": "86leeVa9JYc"
+      },
+      {
+        "code": "S2021E54",
+        "id": "9195504",
+        "youtubeId": "u04neNP7BfA"
+      },
+      {
+        "code": "S2021E55",
+        "id": "9195506",
+        "youtubeId": "neW2ruG2nBw"
+      }
+    ],
+    "visualBlockedExamples": [
+      {
+        "code": "S2016E01",
+        "refs": [
+          {
+            "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+            "sourceStatus": "BLOCKED_ALL_AUTO_STILLS_CONTAIN_SUPERIMPOSED_TEXT",
+            "visuallyBlocked": true,
+            "frameHash": null
+          },
+          {
+            "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+            "sourceStatus": "BLOCKED_VISIBLE_HARDCODED_DATE_TIME_CAPTION",
+            "visuallyBlocked": true,
+            "frameHash": null
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "code": "S2016E04",
+      "tvdbEpisodeId": "9195561",
+      "youtubeId": "qHqbN42RtcE",
+      "selectedImageUrl": "https://i.ytimg.com/vi/qHqbN42RtcE/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": "46516c745748361227a9c62a5e872b5a9f0d9442e8b87ada2d3249aa0e8791ce"
+        },
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2016E01",
+      "tvdbEpisodeId": "9195558",
+      "youtubeId": "m6jee4vPG5c",
+      "selectedImageUrl": "https://i.ytimg.com/vi/m6jee4vPG5c/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+          "sourceStatus": "BLOCKED_ALL_AUTO_STILLS_CONTAIN_SUPERIMPOSED_TEXT",
+          "visuallyBlocked": true,
+          "frameHash": null
+        },
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "BLOCKED_VISIBLE_HARDCODED_DATE_TIME_CAPTION",
+          "visuallyBlocked": true,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2016E05",
+      "tvdbEpisodeId": "9195562",
+      "youtubeId": "vJdidqOEWZ8",
+      "selectedImageUrl": "https://i.ytimg.com/vi/vJdidqOEWZ8/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": "80dbea71de25326f9a48397f05579d837600c2b32b8862bc05bc57bbfd62f639"
+        },
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2016E08",
+      "tvdbEpisodeId": "9195565",
+      "youtubeId": "EH17Dn0B8Gg",
+      "selectedImageUrl": "https://i.ytimg.com/vi/EH17Dn0B8Gg/maxres1.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": "11e664c011780b62db649da1021b97fd4c57aabcbca288f24f44e38f03aeacea"
+        },
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2016E14",
+      "tvdbEpisodeId": "9195661",
+      "youtubeId": "SU0niYfsS3o",
+      "selectedImageUrl": "https://i.ytimg.com/vi/SU0niYfsS3o/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": "96da77830a2e151ea980ec2676fd748144ac4934cdfdeffe50f5382bbb58c0c2"
+        },
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2016E18",
+      "tvdbEpisodeId": "9195668",
+      "youtubeId": "gf27yptDY10",
+      "selectedImageUrl": "https://i.ytimg.com/vi/gf27yptDY10/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": "2ef3a73b5df35fa7e2399002998847a071163913130bce3089029e8748ae492c"
+        },
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E02",
+      "tvdbEpisodeId": "9195700",
+      "youtubeId": "NlBZTB5n4y8",
+      "selectedImageUrl": "https://i.ytimg.com/vi/NlBZTB5n4y8/maxres1.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "8ddcea2c82b67b0e4a9499165251e9389d8fee8eec09c57a7075503cec50109d"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E05",
+      "tvdbEpisodeId": "9195703",
+      "youtubeId": "uIFzZ68PDuA",
+      "selectedImageUrl": "https://i.ytimg.com/vi/uIFzZ68PDuA/maxres1.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "0ee09c1643f6032ea8c19306a4b522059191aeb4b5d8ad5fa8579367412d2ca3"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E04",
+      "tvdbEpisodeId": "9195702",
+      "youtubeId": "zg1TbAinXUs",
+      "selectedImageUrl": "https://i.ytimg.com/vi/zg1TbAinXUs/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "2d8b8b8961b3175976949f06e647bbc577ca44461309295a258c54925a140f07"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E03",
+      "tvdbEpisodeId": "9195701",
+      "youtubeId": "70berzJZkrw",
+      "selectedImageUrl": "https://i.ytimg.com/vi/70berzJZkrw/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "21c8d6e18d45b7f7d354fd2be773d730601d067a2b8eae3925a30ca6bf3546ee"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E07",
+      "tvdbEpisodeId": "9195728",
+      "youtubeId": "r0plVnZlTUM",
+      "selectedImageUrl": "https://i.ytimg.com/vi/r0plVnZlTUM/maxres1.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "b63c90d729284bd826f4b6ace6ce272051b9b160e051813ac079bd0402b23e3c"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E08",
+      "tvdbEpisodeId": "9195729",
+      "youtubeId": "HA5GSpPLbaM",
+      "selectedImageUrl": "https://i.ytimg.com/vi/HA5GSpPLbaM/maxres1.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "edf3fb0e76a194e5148dfdcfdf74121ff1bbef4f11f18f98ae20661da6bb8a03"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E11",
+      "tvdbEpisodeId": "9195732",
+      "youtubeId": "M8j0iZ2hP28",
+      "selectedImageUrl": "https://i.ytimg.com/vi/M8j0iZ2hP28/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "fbf5c8b998960cb953021dfd3ba33d93e4dc9984bb1167868b9a128383d28297"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E10",
+      "tvdbEpisodeId": "9195731",
+      "youtubeId": "aud5lhX-jxk",
+      "selectedImageUrl": "https://i.ytimg.com/vi/aud5lhX-jxk/maxres1.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "0dbcfc988e37e7b499ae089b279ec3e4f24e57862469f1b26a6d97b0eea36b71"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E09",
+      "tvdbEpisodeId": "9195730",
+      "youtubeId": "jYnLaVVJpG4",
+      "selectedImageUrl": "https://i.ytimg.com/vi/jYnLaVVJpG4/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "4b69e8746220809af2ab035f0f7373cc534936ca809788cb4d41ffb7864e8c53"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E12",
+      "tvdbEpisodeId": "9195733",
+      "youtubeId": "8OL9_TczbQU",
+      "selectedImageUrl": "https://i.ytimg.com/vi/8OL9_TczbQU/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "2d5d37bc3a5594c1c060fece9c71d3b48aef61acabd35e28778db93aa8d23d86"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E13",
+      "tvdbEpisodeId": "9195734",
+      "youtubeId": "3uacZFR2gic",
+      "selectedImageUrl": "https://i.ytimg.com/vi/3uacZFR2gic/maxres1.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "28b5999f9f8b56dce675ff5cd5cd59a31c9f6f9e9c70bd61ec90f674f02df5d3"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E15",
+      "tvdbEpisodeId": "9195796",
+      "youtubeId": "Ysibg4k5d84",
+      "selectedImageUrl": "https://i.ytimg.com/vi/Ysibg4k5d84/maxres1.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "61e920593a8187a9372c577d42230a810aceb14a1cfb732d3d16e70a0605f7af"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E22",
+      "tvdbEpisodeId": "9195806",
+      "youtubeId": "kd8gFHzhdLM",
+      "selectedImageUrl": "https://i.ytimg.com/vi/kd8gFHzhdLM/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": "1c3434f74eb68967313e69f4fffb12c69fdbc3d6a48aec9e94954b37eb94222c"
+        },
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E21",
+      "tvdbEpisodeId": "9195805",
+      "youtubeId": "tZGpKgU_ua8",
+      "selectedImageUrl": "https://i.ytimg.com/vi/tZGpKgU_ua8/maxres1.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": "6a2d87fe9950329cac552fb381f1141214913ce431e43c634bd7d887a02c0d95"
+        },
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E20",
+      "tvdbEpisodeId": "9195801",
+      "youtubeId": "SOqvtCVrt2o",
+      "selectedImageUrl": "https://i.ytimg.com/vi/SOqvtCVrt2o/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "832ee29f5f1bb8b84ee5febf98a769d4ea39a542b7831390e5963522ff341bb4"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E24",
+      "tvdbEpisodeId": "9195808",
+      "youtubeId": "rGxe3n57w-4",
+      "selectedImageUrl": "https://i.ytimg.com/vi/rGxe3n57w-4/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": "d6ab87c707163a7931be5be857c3b46853f4e77094023df7e46478b62e42ff87"
+        },
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E25",
+      "tvdbEpisodeId": "9195809",
+      "youtubeId": "yE2piF8l1Bk",
+      "selectedImageUrl": "https://i.ytimg.com/vi/yE2piF8l1Bk/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": "74fa222516a93d967e296f4a519e798e31422fa1923287a704dd9dd4ef3a148c"
+        },
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E26",
+      "tvdbEpisodeId": "9195811",
+      "youtubeId": "c2WWpL4nIvQ",
+      "selectedImageUrl": "https://i.ytimg.com/vi/c2WWpL4nIvQ/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": "518f0ae3ffd161427316d1c52858c0b33dc92d46c5b60499acd575f4a105b7fb"
+        },
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E38",
+      "tvdbEpisodeId": "9195823",
+      "youtubeId": "-rtjHyA2Z_Y",
+      "selectedImageUrl": "https://i.ytimg.com/vi/-rtjHyA2Z_Y/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": "88e32557b73bce0e2f2995f6ba566e2884769055bce9f0530318d2a4f3997263"
+        },
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E54",
+      "tvdbEpisodeId": "9195842",
+      "youtubeId": "7cYlaMsaBdA",
+      "selectedImageUrl": "https://i.ytimg.com/vi/7cYlaMsaBdA/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": "2e64fdcea3959404ba2087afdd5ce0a7a8dd946173c843e222d7052616f0700f"
+        },
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E53",
+      "tvdbEpisodeId": "9195841",
+      "youtubeId": "6AgeZbSqgv0",
+      "selectedImageUrl": "https://i.ytimg.com/vi/6AgeZbSqgv0/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": "721c1d255b225001547603223e8b8119eb1e38c459ae466be1d7774bccadbd10"
+        },
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E57",
+      "tvdbEpisodeId": "9195845",
+      "youtubeId": "9HycsWmSvjY",
+      "selectedImageUrl": "https://i.ytimg.com/vi/9HycsWmSvjY/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": "77969e64b313ec39f28fb2b82a308422db4f63b038be6a135609d6b7c2253d2e"
+        },
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E59",
+      "tvdbEpisodeId": "9195847",
+      "youtubeId": "lq1uPOQH1jA",
+      "selectedImageUrl": "https://i.ytimg.com/vi/lq1uPOQH1jA/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": "1a99937f6cb689dec885e17706c7d0ad73786785a43e9ecd6083583f6e752f9c"
+        },
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E64",
+      "tvdbEpisodeId": "9195852",
+      "youtubeId": "Eur2AWx1vKY",
+      "selectedImageUrl": "https://i.ytimg.com/vi/Eur2AWx1vKY/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": "8cedcd0935c5224d05579216cac4be4ee323377a8fe9fefd4456258f0f0efc85"
+        },
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2017E62",
+      "tvdbEpisodeId": "9195850",
+      "youtubeId": "PSkW62AaI08",
+      "selectedImageUrl": "https://i.ytimg.com/vi/PSkW62AaI08/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_GENUINE_VIDEO_STILL_PENDING_USER_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": "a085323952ec1fe564e9a0fadc47e33d6afe966c23870467281b9d90f3c9ff9a"
+        },
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E01",
+      "tvdbEpisodeId": "11467001",
+      "youtubeId": "9fRO65E5zOI",
+      "selectedImageUrl": "https://i.ytimg.com/vi/9fRO65E5zOI/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "26171bc9d478224a7c736f9e2001cdd010b50f035e9f02192dd4e8e5d798ee3f"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E02",
+      "tvdbEpisodeId": "11467002",
+      "youtubeId": "by5TM5kdm8Y",
+      "selectedImageUrl": "https://i.ytimg.com/vi/by5TM5kdm8Y/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "0509b83aea3c71910c95ae8cddaeefe6825726243562637dbc4547f963d0e8aa"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E03",
+      "tvdbEpisodeId": "11467003",
+      "youtubeId": "yNKXtT-eVZk",
+      "selectedImageUrl": "https://i.ytimg.com/vi/yNKXtT-eVZk/maxres1.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "cce69daf085d52f526e846fa36d97fca8cfc251eeddfb0f0375039925d98ce3c"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E06",
+      "tvdbEpisodeId": "6953925",
+      "youtubeId": "2YWTXjunbLQ",
+      "selectedImageUrl": "https://i.ytimg.com/vi/2YWTXjunbLQ/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "d9579b34803aceaf6ba616f794b3fda766921cfed72b1d58feb66b1ae0bf85af"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E11",
+      "tvdbEpisodeId": "6695458",
+      "youtubeId": "PPpymSyuEpg",
+      "selectedImageUrl": "https://i.ytimg.com/vi/PPpymSyuEpg/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "924ec535dfdbf0943aa28360246469e62aa60b9ccb8031e65dcbc11870214cc7"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E15",
+      "tvdbEpisodeId": "6837850",
+      "youtubeId": "9zZTPSx0pL0",
+      "selectedImageUrl": "https://i.ytimg.com/vi/9zZTPSx0pL0/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "7a0eb2617fde2158fb7d6d00bd721e5e4b4c4a7a3b51568dc62caf7e8589b33b"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E14",
+      "tvdbEpisodeId": "6695456",
+      "youtubeId": "jyTh8tiPW2Y",
+      "selectedImageUrl": "https://i.ytimg.com/vi/jyTh8tiPW2Y/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "5502a3aff4a990eddaa46f8496169bc1db2340d37ef630ad6b9ed91d5f71e297"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E13",
+      "tvdbEpisodeId": "6695457",
+      "youtubeId": "KPMz9l2YrfI",
+      "selectedImageUrl": "https://i.ytimg.com/vi/KPMz9l2YrfI/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "5343e1e0f1c12c83cd432ba050fbf5bb1a33c65e057c1f8c03d9d481d5967509"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E16",
+      "tvdbEpisodeId": "6837851",
+      "youtubeId": "USb1y5K0qaM",
+      "selectedImageUrl": "https://i.ytimg.com/vi/USb1y5K0qaM/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "5296aaaea3a56c9a1059561877af82c2e1aa11bd4cc463b70abc26901e1584b3"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E17",
+      "tvdbEpisodeId": "6837852",
+      "youtubeId": "Dm5lDBr2SXg",
+      "selectedImageUrl": "https://i.ytimg.com/vi/Dm5lDBr2SXg/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "04a9ca7a8eb9e4bd01e2314018ba9d1efb0a2062ed719ae547ff007de2a6235d"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E18",
+      "tvdbEpisodeId": "6837853",
+      "youtubeId": "n4v8FtqT100",
+      "selectedImageUrl": "https://i.ytimg.com/vi/n4v8FtqT100/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "c1933a7764ed03c38eb81b288541f3f3e09e189bf2d5772ee8afd02baea1a81d"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E19",
+      "tvdbEpisodeId": "11467018",
+      "youtubeId": "sGVZX1DQlMY",
+      "selectedImageUrl": "https://i.ytimg.com/vi/sGVZX1DQlMY/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "f4218027c9ff53c822fbcb7cc0741c3cc9ef923934a484584efa155396c8771c"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E20",
+      "tvdbEpisodeId": "6837857",
+      "youtubeId": "59UolheBm8w",
+      "selectedImageUrl": "https://i.ytimg.com/vi/59UolheBm8w/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "53a9ee65529adf6ce9f008d6e74d0186349d67eabf6067ae0e39e1df168ab29c"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E24",
+      "tvdbEpisodeId": "6837939",
+      "youtubeId": "RJ8DcMQnJa4",
+      "selectedImageUrl": "https://i.ytimg.com/vi/RJ8DcMQnJa4/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "7ec97d8e49fc2cd63a60e89fe54e4334a9e8e33dd235422794d06278c9b3dc27"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E23",
+      "tvdbEpisodeId": "6837937",
+      "youtubeId": "B-c-n1owBOg",
+      "selectedImageUrl": "https://i.ytimg.com/vi/B-c-n1owBOg/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "fd30b6ac848d0c8fdc68fa7f287ff31a5327db6cfb6a0a0bfffcb5accb79df8b"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E22",
+      "tvdbEpisodeId": "6837934",
+      "youtubeId": "zO8eLZ2k39Q",
+      "selectedImageUrl": "https://i.ytimg.com/vi/zO8eLZ2k39Q/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "68a0b2715cdad34b21441bb8e18eb5b9ac77fb6834caa419cb1d10054c4e9cca"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E26",
+      "tvdbEpisodeId": "6837942",
+      "youtubeId": "iEP_8XvHXhk",
+      "selectedImageUrl": "https://i.ytimg.com/vi/iEP_8XvHXhk/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "e631bb8f0962a841c5d98bbfeb9cf58b32c79c27d6d48917f9749c6a9eae002b"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E27",
+      "tvdbEpisodeId": "6856971",
+      "youtubeId": "vF220uxfigY",
+      "selectedImageUrl": "https://i.ytimg.com/vi/vF220uxfigY/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "2d6848499c94bcce8c0a9c5b3a95857d5c3cbb7a003c77029b5b88f3b1ddc59c"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E30",
+      "tvdbEpisodeId": "6941546",
+      "youtubeId": "RO-wrEvQSjo",
+      "selectedImageUrl": "https://i.ytimg.com/vi/RO-wrEvQSjo/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "4dcfe2acc797a573cd3b355635a7a85d33aba72f2f92e5fa2ee96dde2cc31701"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E28",
+      "tvdbEpisodeId": "6856976",
+      "youtubeId": "WK0LUPtKXkI",
+      "selectedImageUrl": "https://i.ytimg.com/vi/WK0LUPtKXkI/maxres1.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "4c3bbd4f0b25e243758e5ad1f4810171c74dc17d69c063e08c6c03562cac7677"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2018E31",
+      "tvdbEpisodeId": "6941556",
+      "youtubeId": "ySeuAx4Ho08",
+      "selectedImageUrl": "https://i.ytimg.com/vi/ySeuAx4Ho08/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "775b3fd6c47ad6ca5c97a00e806574ff558dd10632496094e9c005aacb8cbb2f"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2019E04",
+      "tvdbEpisodeId": "11467032",
+      "youtubeId": "MYQGYOLhBKU",
+      "selectedImageUrl": "https://i.ytimg.com/vi/MYQGYOLhBKU/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2019-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": null,
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2019E05",
+      "tvdbEpisodeId": "11467033",
+      "youtubeId": "6TpqvuT9Fno",
+      "selectedImageUrl": "https://i.ytimg.com/vi/6TpqvuT9Fno/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2019-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": null,
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2019E06",
+      "tvdbEpisodeId": "11467034",
+      "youtubeId": "sI8HvJnbKJ4",
+      "selectedImageUrl": "https://i.ytimg.com/vi/sI8HvJnbKJ4/maxres1.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2019-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": null,
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2019E08",
+      "tvdbEpisodeId": "11467036",
+      "youtubeId": "6PcxgrxJAn4",
+      "selectedImageUrl": "https://i.ytimg.com/vi/6PcxgrxJAn4/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2019-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": null,
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2019E11",
+      "tvdbEpisodeId": "11467058",
+      "youtubeId": "E0NprKMX05c",
+      "selectedImageUrl": "https://i.ytimg.com/vi/E0NprKMX05c/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2019-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": null,
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2019E15",
+      "tvdbEpisodeId": "11467062",
+      "youtubeId": "s6IUTPM9MqU",
+      "selectedImageUrl": "https://i.ytimg.com/vi/s6IUTPM9MqU/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2019-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": null,
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2019E18",
+      "tvdbEpisodeId": "11467832",
+      "youtubeId": "yrmI_Dbr_Dk",
+      "selectedImageUrl": "https://i.ytimg.com/vi/yrmI_Dbr_Dk/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2019-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": null,
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2019E19",
+      "tvdbEpisodeId": "11467833",
+      "youtubeId": "e5wqkZi2GmM",
+      "selectedImageUrl": "https://i.ytimg.com/vi/e5wqkZi2GmM/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2019-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": null,
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2019E20",
+      "tvdbEpisodeId": "11467834",
+      "youtubeId": "5qngUd588D4",
+      "selectedImageUrl": "https://i.ytimg.com/vi/5qngUd588D4/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2019-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": null,
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2019E21",
+      "tvdbEpisodeId": "11467835",
+      "youtubeId": "M65mTcFuJU0",
+      "selectedImageUrl": "https://i.ytimg.com/vi/M65mTcFuJU0/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2019-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": null,
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2019E24",
+      "tvdbEpisodeId": "11467838",
+      "youtubeId": "O233Jbuqo9A",
+      "selectedImageUrl": "https://i.ytimg.com/vi/O233Jbuqo9A/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2019-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": null,
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2019E30",
+      "tvdbEpisodeId": "11467843",
+      "youtubeId": "2PVUcJf9jcc",
+      "selectedImageUrl": "https://i.ytimg.com/vi/2PVUcJf9jcc/maxres1.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2019-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": null,
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2020E16",
+      "tvdbEpisodeId": "8070751",
+      "youtubeId": "tbO-36cNpQI",
+      "selectedImageUrl": "https://i.ytimg.com/vi/tbO-36cNpQI/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+          "sourceStatus": "MISSING_BY_EXACT_TVDB_ID_PREVIOUS_PUBLIC_CHECK",
+          "visuallyBlocked": false,
+          "frameHash": "762156434670d3c2af88f80ff0b47b0bdd500368ae8f13853cbd5962b5c57639"
+        },
+        {
+          "path": "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json",
+          "sourceStatus": "PLAUSIBLE_IMAGE_NEEDS_FINAL_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2020E21",
+      "tvdbEpisodeId": "8070756",
+      "youtubeId": "0yId3LDgp8Y",
+      "selectedImageUrl": "https://i.ytimg.com/vi/0yId3LDgp8Y/maxres2.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2020E30",
+      "tvdbEpisodeId": "8070762",
+      "youtubeId": "d3wPN0Fk9mA",
+      "selectedImageUrl": "https://i.ytimg.com/vi/d3wPN0Fk9mA/maxres2.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2020E35",
+      "tvdbEpisodeId": "8082821",
+      "youtubeId": "u8GrmJ8-nJo",
+      "selectedImageUrl": "https://i.ytimg.com/vi/u8GrmJ8-nJo/maxres3.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E05",
+      "tvdbEpisodeId": "8204220",
+      "youtubeId": "GE_juCXAVOU",
+      "selectedImageUrl": "https://i.ytimg.com/vi/GE_juCXAVOU/maxres1.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E08",
+      "tvdbEpisodeId": "8296995",
+      "youtubeId": "RHJM0WIQpzM",
+      "selectedImageUrl": "https://i.ytimg.com/vi/RHJM0WIQpzM/maxres2.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E07",
+      "tvdbEpisodeId": "8296993",
+      "youtubeId": "TcUSeNjrzFU",
+      "selectedImageUrl": "https://i.ytimg.com/vi/TcUSeNjrzFU/maxres2.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E14",
+      "tvdbEpisodeId": "8571336",
+      "youtubeId": "p3yDAhXyBRk",
+      "selectedImageUrl": "https://i.ytimg.com/vi/p3yDAhXyBRk/maxres3.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E16",
+      "tvdbEpisodeId": "8571338",
+      "youtubeId": "EXt6REz2RvY",
+      "selectedImageUrl": "https://i.ytimg.com/vi/EXt6REz2RvY/maxres3.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E17",
+      "tvdbEpisodeId": "12014527",
+      "youtubeId": "qbR6r1voD5Q",
+      "selectedImageUrl": "https://i.ytimg.com/vi/qbR6r1voD5Q/maxres2.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E18",
+      "tvdbEpisodeId": "8571339",
+      "youtubeId": "m5FuEnR00jA",
+      "selectedImageUrl": "https://i.ytimg.com/vi/m5FuEnR00jA/maxres3.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E21",
+      "tvdbEpisodeId": "8762541",
+      "youtubeId": "VIEhReiAYis",
+      "selectedImageUrl": "https://i.ytimg.com/vi/VIEhReiAYis/maxres2.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E19",
+      "tvdbEpisodeId": "8571340",
+      "youtubeId": "bxskLwoNJ_k",
+      "selectedImageUrl": "https://i.ytimg.com/vi/bxskLwoNJ_k/maxres3.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E23",
+      "tvdbEpisodeId": "8762543",
+      "youtubeId": "RWY0Pf9SEBQ",
+      "selectedImageUrl": "https://i.ytimg.com/vi/RWY0Pf9SEBQ/maxres2.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E24",
+      "tvdbEpisodeId": "8762544",
+      "youtubeId": "Pac3YYZ-cmI",
+      "selectedImageUrl": "https://i.ytimg.com/vi/Pac3YYZ-cmI/maxres1.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E29",
+      "tvdbEpisodeId": "8762549",
+      "youtubeId": "AkQNqlI4JLE",
+      "selectedImageUrl": "https://i.ytimg.com/vi/AkQNqlI4JLE/maxres2.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E28",
+      "tvdbEpisodeId": "8762548",
+      "youtubeId": "t3enyIcnoE0",
+      "selectedImageUrl": "https://i.ytimg.com/vi/t3enyIcnoE0/maxres2.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E31",
+      "tvdbEpisodeId": "8762551",
+      "youtubeId": "CWJBKhpRif0",
+      "selectedImageUrl": "https://i.ytimg.com/vi/CWJBKhpRif0/maxres3.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E32",
+      "tvdbEpisodeId": "8762552",
+      "youtubeId": "5Haioi0TXpA",
+      "selectedImageUrl": "https://i.ytimg.com/vi/5Haioi0TXpA/maxres2.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E40",
+      "tvdbEpisodeId": "9194172",
+      "youtubeId": "P7yGjR505Gc",
+      "selectedImageUrl": "https://i.ytimg.com/vi/P7yGjR505Gc/maxres2.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E45",
+      "tvdbEpisodeId": "9195489",
+      "youtubeId": "gVLOzBKxu7A",
+      "selectedImageUrl": "https://i.ytimg.com/vi/gVLOzBKxu7A/maxres2.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E47",
+      "tvdbEpisodeId": "9195491",
+      "youtubeId": "aaIMT8gnj0Y",
+      "selectedImageUrl": "https://i.ytimg.com/vi/aaIMT8gnj0Y/maxres2.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E50",
+      "tvdbEpisodeId": "9194160",
+      "youtubeId": "-nMxXe4SXk0",
+      "selectedImageUrl": "https://i.ytimg.com/vi/-nMxXe4SXk0/maxres3.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E49",
+      "tvdbEpisodeId": "9195444",
+      "youtubeId": "b2vWxsnuurk",
+      "selectedImageUrl": "https://i.ytimg.com/vi/b2vWxsnuurk/maxres2.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E52",
+      "tvdbEpisodeId": "9195500",
+      "youtubeId": "86leeVa9JYc",
+      "selectedImageUrl": "https://i.ytimg.com/vi/86leeVa9JYc/maxres3.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2021E54",
+      "tvdbEpisodeId": "9195504",
+      "youtubeId": "u04neNP7BfA",
+      "selectedImageUrl": "https://i.ytimg.com/vi/u04neNP7BfA/maxres3.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2024E08",
+      "tvdbEpisodeId": "10553257",
+      "youtubeId": "-eTFrHf6WJs",
+      "selectedImageUrl": "https://i.ytimg.com/vi/-eTFrHf6WJs/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2025E01",
+      "tvdbEpisodeId": "10928740",
+      "youtubeId": "Hvs9PVOW_HQ",
+      "selectedImageUrl": "https://i.ytimg.com/vi/Hvs9PVOW_HQ/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2021E55",
+      "tvdbEpisodeId": "9195506",
+      "youtubeId": "neW2ruG2nBw",
+      "selectedImageUrl": "https://i.ytimg.com/vi/neW2ruG2nBw/maxres2.jpg",
+      "priorRefs": [],
+      "status": "REQUIRES_PROVENANCE"
+    },
+    {
+      "code": "S2025E02",
+      "tvdbEpisodeId": "10942249",
+      "youtubeId": "DYe7k5oPv_M",
+      "selectedImageUrl": "https://i.ytimg.com/vi/DYe7k5oPv_M/maxres1.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_TITLE_PUNCTUATION_EMOJI_EXACTNESS_AND_FINAL_ARTWORK_REVIEW",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2025E03",
+      "tvdbEpisodeId": "10970002",
+      "youtubeId": "TtXVBCytTdU",
+      "selectedImageUrl": "https://i.ytimg.com/vi/TtXVBCytTdU/maxres3.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2025E06",
+      "tvdbEpisodeId": "11069529",
+      "youtubeId": "bqbPTr0RjuY",
+      "selectedImageUrl": "https://i.ytimg.com/vi/bqbPTr0RjuY/maxres1.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    },
+    {
+      "code": "S2025E07",
+      "tvdbEpisodeId": "11125391",
+      "youtubeId": "Bo7oTG21VhU",
+      "selectedImageUrl": "https://i.ytimg.com/vi/Bo7oTG21VhU/maxres2.jpg",
+      "priorRefs": [
+        {
+          "path": "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+          "sourceStatus": "PENDING_FINAL_VISUAL_AND_LIVE_PREFLIGHT",
+          "visuallyBlocked": false,
+          "frameHash": null
+        }
+      ],
+      "status": "HISTORICAL_MAPPING_CORROBORATED_NOT_FINAL_SOURCE_CERTIFIED"
+    }
+  ],
+  "restrictions": "Previous candidate reports do not prove new current TheTVDB artwork state or lifted upload restrictions.",
+  "siteWrites": 0
+}
