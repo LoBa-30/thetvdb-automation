@@ -1,0 +1,1437 @@
+{
+  "generatedAt": "2026-10-09T14:16:01.419Z",
+  "mode": "AUTHENTICATED_LOCAL_FORM_DIAGNOSTIC_NO_SUBMISSION",
+  "authenticated": true,
+  "targets": [
+    {
+      "series": "Mcfly & Carlito",
+      "episodeId": "12022496",
+      "expectedDate": "2026-10-06",
+      "formPresent": true,
+      "readonlyOnly": true,
+      "finalUrl": "https://thetvdb.com/series/338282-show/episodes/12022496/0/edit",
+      "title": "Edit Episode - - TheTVDB.com",
+      "action": "/series/338282-show/season/official/episodes/12022496/update",
+      "method": "POST",
+      "fields": [
+        {
+          "name": "_token",
+          "type": "hidden",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": false
+        },
+        {
+          "name": "series_pk",
+          "type": "hidden",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": false
+        },
+        {
+          "name": "season_pk",
+          "type": "hidden",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": false
+        },
+        {
+          "name": "airdate",
+          "type": "date",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": true
+        },
+        {
+          "name": "runtime",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": true
+        },
+        {
+          "name": "productioncode",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "is_movie",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": true
+        },
+        {
+          "name": "is_finale",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": true,
+          "visible": true
+        },
+        {
+          "name": "companytypes[]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": true,
+          "visible": true
+        },
+        {
+          "name": "companynames[]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": false
+        },
+        {
+          "name": "companyids[]",
+          "type": "hidden",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": false
+        },
+        {
+          "name": "companydetails[]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "companytypes[]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "companynames[]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "companyids[]",
+          "type": "hidden",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": false
+        },
+        {
+          "name": "companydetails[]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[arg]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[arm]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[aus]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[bra]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[khm]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[can]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[chl]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[col]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[hrv]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[dnk]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[ecu]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[slv]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[fin]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[fra]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[deu]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[grc]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[hkg]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[hun]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[isl]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[ind]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[idn]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[irl]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[isr]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[ita]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[ltu]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[mys]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[mex]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[mar]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[nld]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[nzl]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[nor]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[per]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[phl]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[pol]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[prt]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[rou]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[rus]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[sgp]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[svk]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[svn]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[zaf]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[kor]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[esp]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[twn]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[tha]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[tur]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[ukr]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[usa]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[ven]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[gbr]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[jpn]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[swe]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[egy]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "remotesite[13]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "remotesite[2]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "remotesite[4]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "remotesite[10]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "remotesite[23]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "remotesite[18]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "tagoptions[]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "tagoptions[]",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": true
+        },
+        {
+          "name": "tagoptions[]",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": true
+        },
+        {
+          "name": "tagoptions[]",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": true
+        },
+        {
+          "name": "tagoptions[]",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": true
+        }
+      ],
+      "currentDate": "2026-06-06",
+      "dateReadOnly": false,
+      "formSubmitButtons": [
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "disabled": false,
+          "text": "Add Another"
+        },
+        {
+          "tag": "BUTTON",
+          "type": null,
+          "name": null,
+          "disabled": false,
+          "text": "Save"
+        }
+      ],
+      "localValidation": {
+        "valid": true,
+        "invalid": []
+      },
+      "visibleFormMessages": []
+    },
+    {
+      "series": "Mastu (known successful older date edit, no changes)",
+      "episodeId": "9195816",
+      "expectedDate": "2017-05-27",
+      "formPresent": true,
+      "readonlyOnly": true,
+      "finalUrl": "https://thetvdb.com/series/346011-show/episodes/9195816/0/edit",
+      "title": "Edit Episode - - TheTVDB.com",
+      "action": "/series/346011-show/season/official/episodes/9195816/update",
+      "method": "POST",
+      "fields": [
+        {
+          "name": "_token",
+          "type": "hidden",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": false
+        },
+        {
+          "name": "series_pk",
+          "type": "hidden",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": false
+        },
+        {
+          "name": "season_pk",
+          "type": "hidden",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": false
+        },
+        {
+          "name": "airdate",
+          "type": "date",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": true
+        },
+        {
+          "name": "runtime",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": true
+        },
+        {
+          "name": "productioncode",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "is_movie",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": true
+        },
+        {
+          "name": "is_finale",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": true,
+          "visible": true
+        },
+        {
+          "name": "companytypes[]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": true,
+          "visible": true
+        },
+        {
+          "name": "companynames[]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": false
+        },
+        {
+          "name": "companyids[]",
+          "type": "hidden",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": false
+        },
+        {
+          "name": "companydetails[]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "companytypes[]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "companynames[]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "companyids[]",
+          "type": "hidden",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": false
+        },
+        {
+          "name": "companydetails[]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[arg]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[arm]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[aus]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[bra]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[khm]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[can]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[chl]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[col]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[hrv]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[dnk]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[ecu]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[slv]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[fin]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[fra]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[deu]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[grc]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[hkg]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[hun]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[isl]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[ind]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[idn]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[irl]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[isr]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[ita]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[ltu]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[mys]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[mex]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[mar]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[nld]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[nzl]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[nor]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[per]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[phl]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[pol]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[prt]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[rou]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[rus]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[sgp]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[svk]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[svn]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[zaf]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[kor]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[esp]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[twn]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[tha]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[tur]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[ukr]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[usa]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[ven]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[gbr]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[jpn]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[swe]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "contentratings[egy]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "remotesite[13]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "remotesite[2]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "remotesite[4]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "remotesite[10]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "remotesite[23]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "remotesite[18]",
+          "type": "text",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "tagoptions[]",
+          "type": "select",
+          "required": false,
+          "disabled": false,
+          "filled": false,
+          "visible": true
+        },
+        {
+          "name": "tagoptions[]",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": true
+        },
+        {
+          "name": "tagoptions[]",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": true
+        },
+        {
+          "name": "tagoptions[]",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": true
+        },
+        {
+          "name": "tagoptions[]",
+          "type": "checkbox",
+          "required": false,
+          "disabled": false,
+          "readOnly": false,
+          "filled": true,
+          "visible": true
+        }
+      ],
+      "currentDate": "2017-05-27",
+      "dateReadOnly": false,
+      "formSubmitButtons": [
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "disabled": false,
+          "text": "Add Another"
+        },
+        {
+          "tag": "BUTTON",
+          "type": null,
+          "name": null,
+          "disabled": false,
+          "text": "Save"
+        }
+      ],
+      "localValidation": {
+        "valid": true,
+        "invalid": []
+      },
+      "visibleFormMessages": []
+    }
+  ],
+  "blocked": [],
+  "errors": [],
+  "tvdbWrites": 0,
+  "result": "COMPARED_READ_ONLY"
+}
