@@ -31,7 +31,10 @@ jobs:
         run: npx playwright install --with-deps chromium
 
       - name: Static check exhaustive 9-channel audit
-        run: node --check src/audit-all.js && node --check src/plan.js
+        run: node --check src/matcher.js && node --check src/audit.js && node --check src/audit-all.js && node --check src/plan.js
+
+      - name: Test exact-first matcher regressions
+        run: npm test
 
       - name: Run exhaustive read-only audit for all 9 channels
         run: npm run audit:all
