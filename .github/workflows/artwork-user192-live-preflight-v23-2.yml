@@ -1,0 +1,47 @@
+name: Artwork user-192 authenticated live preflight V23.2 (read-only)
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/artwork-user192-live-preflight-v23-2.yml'
+      - 'src/artwork-user192-live-preflight-v23-2.js'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: tvdb-user192-live-readonly-v23-2
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - run: node --check src/artwork-user192-live-preflight-v23-2.js
+      - name: Inspect first proven image targets on authenticated TheTVDB without any upload
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: node src/artwork-user192-live-preflight-v23-2.js
+      - name: Save no-write verification report
+        if: always()
+        run: |
+          if [ -f reports/artwork-user192-live-preflight-v23-2/report.json ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add reports/artwork-user192-live-preflight-v23-2/
+            git commit -m "Record first user192 live preflight [skip ci]" || true
+            git pull --rebase
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: artwork-user192-live-preflight
+          path: reports/artwork-user192-live-preflight-v23-2/
+          retention-days: 30
