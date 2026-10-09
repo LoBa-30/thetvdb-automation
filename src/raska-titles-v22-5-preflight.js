@@ -9,6 +9,7 @@ const PLAN=[
  {id:'11960901',code:'S2021E13',youtubeId:'jICa9OCCv1g',from:'Making-Of de "CE RAPPEUR QUI..." avec @theodortytb',to:'Making-Of de "CE RAPPEUR QUI..." avec @THEODORT'},
  {id:'11960897',code:'S2021E09',youtubeId:'RFHVbWGh6xQ',from:'Tournage en slip avec @Mastu & @theodortytb (Making-of)',to:'Tournage en slip avec @Mastu & @THEODORT (Making-of)'}
 ];
+await fs.mkdir(OUT,{recursive:true});
 const rep={createdAt:new Date().toISOString(),mode:'AUTHENTICATED_READ_ONLY_RASKA_SIX_TITLE_PREFLIGHT',
  authenticated:false,results:[],errors:[],networkWritesToTheTVDB:0,safety:'NO_FORM_SUBMISSION'};
 const norm=s=>String(s??'').normalize('NFC').replace(/\s+/g,' ').trim();
