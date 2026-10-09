@@ -1,0 +1,11 @@
+{
+  "userApproved": 192,
+  "checked": 192,
+  "byStatus": {
+    "TECHNICALLY_VALID_AWAITING_VISUAL_AND_LIVE_TVDB_PREFLIGHT": 192
+  },
+  "exactDuplicateCandidateGroups": 0,
+  "nearDuplicateCandidatePairs": 0,
+  "historicalSourceProvenanceUnknown": 116,
+  "siteWrites": 0
+}
