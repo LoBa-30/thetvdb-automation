@@ -1,0 +1,26 @@
+name: Matcher official-title V22.5 unit tests
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/matcher-official-title-v22-5-tests.yml'
+      - 'src/matcher.js'
+      - 'src/official-youtube-title.js'
+      - 'tests/**'
+      - 'package.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: Static syntax checks
+        run: node --check src/matcher.js && node --check src/official-youtube-title.js && node --check src/audit.js
+      - name: All matcher and six Raska oEmbed regressions
+        run: npm test
