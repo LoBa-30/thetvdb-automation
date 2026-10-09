@@ -1,0 +1,64 @@
+{
+  "version": "V22.3",
+  "generatedAt": "2026-10-09",
+  "mode": "GITHUB_AUTHENTICATED_GUARDED_TVDB_WRITE_WITH_VERIFIED_READBACK",
+  "baseline": "reports/structural-v22.2-github-direct-2026-10-09.json",
+  "confirmedCorrections": [
+    {
+      "status": "CORRIGE_SUR_THETVDB",
+      "creator": "Mastu",
+      "youtubeId": "OUs0_f8wc_U",
+      "tvdbEpisodeId": "12025893",
+      "tvdbUrl": "https://thetvdb.com/series/346011-show/episodes/12025893",
+      "code": "S2026E16",
+      "title": "LE JEU DU BLUFF (Avec Théodort)",
+      "firstAired": "2026-10-03",
+      "tvdbRuntimeMinutes": 45,
+      "createdViaGitHubRun": 37942451794,
+      "runConclusion": "success",
+      "report": "reports/mastu-bluff-v22-3-apply/report.json",
+      "evidence": {
+        "identityAndDate": "Official YouTube channel RSS immutable video ID title and 2026-10-03T10:12:40Z",
+        "durationSecondsApprox": 2722,
+        "duration": "45:22 shown by two independent public video index sites, NOT authenticated YouTube exact runtime",
+        "durationLinks": [
+          "https://zolotube.com/channel?id=UCAhaFPP6v3WCfK5Tjao0B7A",
+          "https://www.hypetubes.com/u/hypestubes/top-youtuber-fr"
+        ],
+        "youtubeDirectDurationBlocked": "YouTube anti-bot challenge; not circumvented",
+        "preflight": "2026 season E01-E15; E15 ID 12014529 aired 2026-09-19; 0 assigned duplicates; 10 Unassigned, 0 collisions; authenticated session and exact bulkadd action validated",
+        "postflight": "new immutable TheTVDB ID 12025893, season 2026 episode 16, title and firstAired 2026-10-03 verified; POST returned HTTP 302"
+      },
+      "safeguards": [
+        "NEVER_RECREATE_THIS_EPISODE",
+        "NEVER_ASSUME_TVDB_RUNTIME_SECONDS",
+        "NEVER_RETRY_CREATE_FROM_OLD_UNMATCHED_REPORT"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "creator": "Mcfly & Carlito",
+      "tvdbEpisodeId": "12022496",
+      "code": "S2026E60",
+      "videoId": "QG1WcEWOF4g",
+      "expectedFirstAired": "2026-10-06",
+      "currentFirstAired": "2026-06-06",
+      "status": "BLOQUE_POST_WRITE_NOT_PERSISTENT",
+      "note": "Do not retry until read-only form diagnosis; authenticated postcheck 37940696591 confirmed unchanged",
+      "readOnlyDiagnosticRun": 37942831627
+    }
+  ],
+  "safety": {
+    "tvdbConfirmedNewEpisodeCreates": 1,
+    "tvdbConfirmedDateCorrections": 0,
+    "tvdbConfirmedDeletions": 0,
+    "tvdbArtworkUploads": 0
+  },
+  "operationalNotes": [
+    "Source-script and workflow committed in main; maintain immutable ID protection",
+    "Generic read-only audit workflow push paths filtered to avoid redundant exhaustive jobs on every checkpoint commit",
+    "Use future checkpoints to preserve existing episode without re-creation",
+    "Artwork account restrictions remain unproven lifted"
+  ]
+}
