@@ -1,10 +1,5 @@
 name: Mastu BLUFF V22.3 guarded add after primary verification
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/mastu-bluff-v22-3-guarded-apply.yml'
-      - 'src/mastu-bluff-v22-3-guarded-apply.js'
   workflow_dispatch:
 permissions:
   contents: write
