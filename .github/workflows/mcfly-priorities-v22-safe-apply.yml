@@ -1,0 +1,49 @@
+name: Mcfly PRIORITIES V22 guarded date repair
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/mcfly-priorities-v22-safe-apply.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: tvdb-single-date-mcfly-priorities-v22
+  cancel-in-progress: false
+jobs:
+  guarded-date:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Check source syntax
+        run: node --check src/mcfly-priorities-v22-safe-apply.js
+      - name: Verify official YouTube RSS, TheTVDB ID/date, apply only if safe, reverify
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+          TVDB_MCFLY_PRIORITIES_APPLY: 'yes'
+        run: node src/mcfly-priorities-v22-safe-apply.js
+      - name: Persist safe report
+        if: always()
+        run: |
+          if [ -f reports/mcfly-priorities-v22/report.json ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add reports/mcfly-priorities-v22
+            git commit -m "Record guarded Mcfly PRIORITIES V22 attempt [skip ci]" || true
+            git pull --rebase
+            git push
+          fi
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mcfly-priorities-v22-guarded
+          path: reports/mcfly-priorities-v22/
+          retention-days: 30
