@@ -19,7 +19,8 @@
     "batch:apply-all": "node --import ./src/css-shim.js src/batch-apply-all.js",
     "audit:plan": "npm run audit && npm run plan",
     "audit:plan:edit": "npm run audit && npm run plan && npm run edit",
-    "batch:prepare": "npm run audit:all && npm run batch:preflight"
+    "batch:prepare": "npm run audit:all && npm run batch:preflight",
+    "test": "node --test tests/matcher.test.js"
   },
   "dependencies": {
     "@playwright/test": "^1.55.0"
