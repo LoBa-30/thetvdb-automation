@@ -1,6 +1,7 @@
 import { chromium } from '@playwright/test';
 import fs from 'node:fs/promises';
 import { compareCatalogues, normalizeTitle } from './matcher.js';
+import { resolveOfficialTitlesForUnmatched } from './official-youtube-title.js';
 
 const TARGETS = [
   { name: 'Squeezie', youtubeUrl: 'https://www.youtube.com/@Squeezie/videos', tvdbUrl: 'https://thetvdb.com/series/279758-show/allseasons/official' },
@@ -149,7 +150,17 @@ for (const target of TARGETS) {
     item.tvdbDuplicateCodes = duplicates.duplicateCodes;
     item.tvdbDuplicateTitles = duplicates.duplicateTitles;
 
-    const comparison = compareCatalogues(yt.videos, tvdb.episodes);
+    // The Videos-tab may display rewritten creator mentions. Reconcile ONLY
+    // currently unmatched videos with YouTube's own oEmbed video title and
+    // verify the channel author before re-running the exact-first matcher.
+    // This verifies title identity, never original publication dates.
+    const initial = compareCatalogues(yt.videos, tvdb.episodes);
+    const officialTitles = await resolveOfficialTitlesForUnmatched(
+      yt.videos, initial.missingFromTvdb, target.name
+    );
+    item.officialYoutubeTitleChecks = officialTitles.checks;
+    item.officialYoutubeTitlesRecovered = officialTitles.substituted;
+    const comparison = compareCatalogues(officialTitles.videos, tvdb.episodes);
     item.summary = {
       matched: comparison.matches.length,
       youtubeWithoutConfidentTvdbMatch: comparison.missingFromTvdb.length,
