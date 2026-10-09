@@ -38,3 +38,4 @@ jobs:
         with:
           name: mastu-unassigned-auth-readonly
           path: reports/mastu-unassigned-auth/
+# V22.2 refreshed authenticated read-only Unassigned inventory on 2026-10-09.
