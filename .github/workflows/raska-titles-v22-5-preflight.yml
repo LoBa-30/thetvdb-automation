@@ -1,0 +1,44 @@
+name: Raska six title aliases V22.5 authenticated no-write preflight
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/raska-titles-v22-5-preflight.yml'
+      - 'src/raska-titles-v22-5-preflight.js'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - run: node --check src/raska-titles-v22-5-preflight.js
+      - name: Confirm official YouTube oEmbed and six immutable TheTVDB IDs without writes
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: node src/raska-titles-v22-5-preflight.js
+      - name: Persist checkpoint
+        if: always()
+        run: |
+          if [ -f reports/raska-titles-v22-5/report.json ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add reports/raska-titles-v22-5
+            git commit -m "Report read-only Raska V22.5 alias verification [skip ci]" || true
+            git pull --rebase
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: raska-titles-v22-5-preflight
+          path: reports/raska-titles-v22-5/
+          retention-days: 30
