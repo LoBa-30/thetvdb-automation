@@ -4,6 +4,15 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+    paths:
+      - '.github/workflows/audit.yml'
+      - 'src/audit.js'
+      - 'src/audit-all.js'
+      - 'src/matcher.js'
+      - 'src/plan.js'
+      - 'tests/**'
+      - 'config/**'
+      - 'package.json'
   schedule:
     - cron: '0 4 * * *'
 
