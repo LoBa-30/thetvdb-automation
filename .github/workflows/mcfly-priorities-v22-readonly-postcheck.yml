@@ -1,0 +1,41 @@
+name: Mcfly PRIORITIES V22 read-only persistence check
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/mcfly-priorities-v22-readonly-postcheck.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Read-only authenticated post-submission verification
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: node src/mcfly-priorities-v22-readonly-postcheck.js
+      - name: Persist postcheck report
+        if: always()
+        run: |
+          if [ -f reports/mcfly-priorities-v22-readonly-postcheck/report.json ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add reports/mcfly-priorities-v22-readonly-postcheck
+            git commit -m "Record read-only PRIORITIES persistence verification [skip ci]" || true
+            git pull --rebase
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mcfly-priorities-v22-readonly-postcheck
+          path: reports/mcfly-priorities-v22-readonly-postcheck/
