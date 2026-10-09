@@ -1,0 +1,188 @@
+{
+  "version": "V22",
+  "date": "2026-10-09",
+  "source": {
+    "runId": 37882502151,
+    "runArtifactId": 11595367489,
+    "sourceWorkbook": "Audit_complet_9_youtubeurs_TheTVDB_2026-10-09(2).xlsx",
+    "sourcePdf": "Rapport_audit_9_youtubeurs_TheTVDB_2026-10-09(1).pdf",
+    "baselineCommit": "ee8d1e9afc535ac1191fd82b428b241b4eb15f2c"
+  },
+  "mode": "MATCHER_CODE_FIX_AND_LOCAL_FULL_CATALOGUE_REGRESSION_NO_THETVDB_WRITES",
+  "newEngine": {
+    "file": "src/matcher.js",
+    "integration": "src/audit.js",
+    "runner": "src/audit-all.js",
+    "thresholdFuzzy": 0.8,
+    "exactFirst": true,
+    "isolatedNumericTokensPreserved": true,
+    "protectDuplicateExactTitles": true,
+    "fuzzyRequiresPrimaryYoutubeDate": true,
+    "dateToleranceDays": 31
+  },
+  "regression": {
+    "scope": "LOCAL_OFFLINE_SOURCE_WORKBOOK_9_OCT",
+    "youtubeVideos": 4321,
+    "tvdbEpisodes": 4524,
+    "originalSuspectPairs": 211,
+    "exactReferenceRecovered": 211,
+    "originalFalseOrphanVideos": 8,
+    "falseOrphansRecovered": 8,
+    "uniqueExactMatches": 4307,
+    "youtubeTitlesRequiringIndividualReview": 14,
+    "tvdbWithoutNewConfirmedMatch": 217,
+    "verifiedFuzzyMatches": 0,
+    "runnerOutput": "REGRESSION_SUCCEEDED",
+    "note": "Counts test title-based identity only. Does NOT certify source YouTube primary date, runtime, artwork or site edits."
+  },
+  "byChannel": [
+    {
+      "name": "Djilsi",
+      "exact": 215,
+      "needsReview": 0
+    },
+    {
+      "name": "Elian Ventre",
+      "exact": 29,
+      "needsReview": 0
+    },
+    {
+      "name": "Raska",
+      "exact": 143,
+      "needsReview": 6
+    },
+    {
+      "name": "Maxime Biaggi",
+      "exact": 64,
+      "needsReview": 0
+    },
+    {
+      "name": "Squeezie",
+      "exact": 1585,
+      "needsReview": 1
+    },
+    {
+      "name": "Mastu",
+      "exact": 355,
+      "needsReview": 6
+    },
+    {
+      "name": "Amixem",
+      "exact": 890,
+      "needsReview": 0
+    },
+    {
+      "name": "Joyca",
+      "exact": 449,
+      "needsReview": 0
+    },
+    {
+      "name": "Mcfly & Carlito",
+      "exact": 577,
+      "needsReview": 1
+    }
+  ],
+  "needsReview": [
+    {
+      "name": "Raska",
+      "title": "On vous a caché ça... avec @BEENDO Z"
+    },
+    {
+      "name": "Raska",
+      "title": "Seul contre 30.000 personnes à cause de @Lujipeka ! 🚍"
+    },
+    {
+      "name": "Raska",
+      "title": "Ce jeu va créer des problèmes ! (ft. @THEODORT, @Snaptrox &@Zuukou Mayzie le Bg 667)"
+    },
+    {
+      "name": "Raska",
+      "title": "Qui sera le pire élève ? 📚 (avec @Snaptrox, @THEODORT, @Ysos & @Vinceeh)"
+    },
+    {
+      "name": "Raska",
+      "title": "Making-Of de \"CE RAPPEUR QUI...\" avec @THEODORT"
+    },
+    {
+      "name": "Raska",
+      "title": "Tournage en slip avec @Mastu & @THEODORT (Making-of)"
+    },
+    {
+      "name": "Squeezie",
+      "title": "Japan Expo 2012 [Réupload]",
+      "note": "check original video mxuk-u8Cjuc, E56/E104 and PGW 2012"
+    },
+    {
+      "name": "Mastu",
+      "title": "LE JEU DU BLUFF (Avec Théodort)",
+      "note": "check Unassigned and RSS 2026-10-03 before S2026E16"
+    },
+    {
+      "name": "Mastu",
+      "title": "ON ACCOSTE DES GENS EN VOITURE 🚗 (Avec Théodort)"
+    },
+    {
+      "name": "Mastu",
+      "title": "ON ACCOSTE DES GENS EN VOITURE (Avec Théodort)"
+    },
+    {
+      "name": "Mastu",
+      "title": "ON ACCOSTE DES GENS EN VOITURE 🚗 (Avec Théodort)"
+    },
+    {
+      "name": "Mastu",
+      "title": "Je peux tout vous expliquer..."
+    },
+    {
+      "name": "Mastu",
+      "title": "JE PEUX TOUT VOUS EXPLIQUER..."
+    },
+    {
+      "name": "Mcfly & Carlito",
+      "title": "On découvre Wikimasters (faites monter Mcfly & Carlito en Légendaire svp)"
+    }
+  ],
+  "structuralCarryOver": [
+    {
+      "creator": "Mcfly & Carlito",
+      "tvdbEpisodeId": "12022496",
+      "episode": "S2026E60",
+      "action": "Verify primary RSS 2026-10-06 and authenticated current TVDB 2026-06-06 before updating",
+      "status": "A_REVOIR"
+    },
+    {
+      "creator": "Mastu",
+      "episode": "S2026E16",
+      "action": "Check existing Unassigned IDs and primary RSS before any create",
+      "status": "A_REVOIR"
+    },
+    {
+      "creator": "Mastu",
+      "artworksPublicMissing": 240,
+      "artworksPrepared": 224,
+      "artworksUnknownHttp202": 30,
+      "status": "BLOQUE_NO_ARTWORK_WRITES"
+    },
+    {
+      "creator": "Raska",
+      "unverifiedPrimaryDates": 148,
+      "status": "A_REVOIR"
+    }
+  ],
+  "safety": {
+    "tvdbWrites": 0,
+    "tvdbDeletes": 0,
+    "tvdbArtworkUploads": 0,
+    "neverDeleteOnPublicAbsence": true,
+    "stopOn401_403_202": true,
+    "doNotRegeneratePriorApprovedEpisode": true
+  },
+  "statuses": {
+    "VERIFIE": "Offline regression of 211 suspect mappings plus 8 falsely orphan videos",
+    "CANDIDAT": "14 remaining videos needing ID/date verification",
+    "A_REVOIR": "Unassigned, RSS primary chronology, historical videos, image preflight",
+    "BLOQUE": "TheTVDB account artwork restrictions and HTTP 202 cannot be bypassed",
+    "CORRIGE_SUR_THETVDB": "NONE",
+    "ENREGISTRE_SUR_GITHUB": "Matcher source, tests and this checkpoint committed to a dedicated branch; main only after review/merge"
+  }
+}
