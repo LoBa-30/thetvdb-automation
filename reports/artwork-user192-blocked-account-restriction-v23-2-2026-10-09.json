@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-09",
+  "mode": "VERIFIED_THE_TVDB_TEMPORARY_ARTWORK_UPLOAD_RESTRICTION",
+  "userAuthorization": {
+    "approvedSelections": 192,
+    "doNotUpload": 25,
+    "separateRaskaApprovedButVisualFlagged": 1,
+    "manifest": "reports/artwork-user-approvals-v23-2-2026-10-09.json"
+  },
+  "sourceChecks": {
+    "runId": 37961140372,
+    "report": "reports/artwork-user192-source-preflight-v23-2/report.json",
+    "candidatesDownloaded": 192,
+    "format1280x720": 192,
+    "exactOrNearDuplicatePairs": 0,
+    "note": "Does not certify absence of watermarks, logos, overlaid captions, suitability or historical video identity"
+  },
+  "historicalSource": {
+    "mastuApproved": 97,
+    "sourceMatchedInPriorMastuReports": 71,
+    "unresolvedMastuIdentity": 26,
+    "report": "reports/artwork-mastu-97-prior-source-crosscheck-v23-2-2026-10-09.json"
+  },
+  "liveReadOnly": {
+    "runId": 37961324464,
+    "report": "reports/artwork-user192-live-preflight-v23-2/report.json",
+    "authenticated": true,
+    "checked": 4,
+    "stillMissing": 4,
+    "wrongTitle": 0,
+    "siteWrites": 0
+  },
+  "uploadCanary": {
+    "runId": 37961843174,
+    "report": "reports/artwork-user192-canary-djilsi-s2018e02-v23-2/report.json",
+    "creator": "Djilsi",
+    "code": "S2018E02",
+    "episodeId": "9242991",
+    "authenticated": true,
+    "sourceHashVerified": true,
+    "uploadStage1Submitted": false,
+    "result": "BLOCKED_BEFORE_ANY_UPLOAD",
+    "reason": "UPLOAD_FORM_MISSING_OR_RESTRICTED"
+  },
+  "accountRestriction": {
+    "runId": 37962023102,
+    "report": "reports/artwork-user192-form-restriction-v23-2/report.json",
+    "authenticated": true,
+    "requestHttp": 200,
+    "uploadFormPresent": false,
+    "readOnly": true,
+    "officialMessage": "Due to a number of artwork removals within the past day or week, your account has been temporarily restricted from uploading. Please review your notifications for details and take this opportunity to review our artwork rules.",
+    "assessment": "CONFIRMED_SITE_ENFORCED_TEMPORARY_RESTRICTION",
+    "cannotKnowExpiryWithoutAccountOrTheTVDBConfirmation": true
+  },
+  "requiredNext": [
+    "User may review TheTVDB notifications for actual removal reasons",
+    "Respect site restriction; do not attempt further uploads while blocked",
+    "Perform title/logo/text/duplicate and provenance review on 192 candidates",
+    "Await explicit lifting of restriction, then fresh read-only preflight and limited permitted canary",
+    "Do not delete, overwrite, upload through alternate account or retry submissions blindly"
+  ],
+  "totals": {
+    "theTvdbWrites": 0,
+    "theTvdbArtworkUploads": 0,
+    "theTvdbDeletions": 0,
+    "userApprovedPending": 192,
+    "userRefusedPreserved": 25
+  }
+}
