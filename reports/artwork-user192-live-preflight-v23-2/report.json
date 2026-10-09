@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-10-09T16:45:19.732Z",
+  "mode": "SAMPLED_AUTHENTICATED_LIVE_PREFLIGHT_NO_WRITES",
+  "authenticated": true,
+  "checked": [
+    {
+      "creator": "Djilsi",
+      "code": "S2018E02",
+      "id": "9242991",
+      "youtubeId": "k1blyDB6xj4",
+      "imageUrl": "https://i.ytimg.com/vi/k1blyDB6xj4/maxres2.jpg",
+      "pageUrl": "https://thetvdb.com/series/djilsi/episodes/9242991",
+      "status": "STILL_MISSING_IDENTITY_VERIFIED",
+      "liveArtwork": [],
+      "heading": "DES B*TES PARTOUT ! #DécouvreTonPays 2",
+      "expectedTitle": "DES B*TES PARTOUT ! #DécouvreTonPays 2",
+      "titleMatched": true,
+      "availableUploadLinks": [
+        "https://thetvdb.com/artwork/upload?type=11&episode=9242991&series=414993"
+      ]
+    },
+    {
+      "creator": "Djilsi",
+      "code": "S2018E03",
+      "id": "9242992",
+      "youtubeId": "jPgVjTDD9x4",
+      "imageUrl": "https://i.ytimg.com/vi/jPgVjTDD9x4/maxres3.jpg",
+      "pageUrl": "https://thetvdb.com/series/djilsi/episodes/9242992",
+      "status": "STILL_MISSING_IDENTITY_VERIFIED",
+      "liveArtwork": [],
+      "heading": "SUR LA PLUS HAUTE DUNE D'EUROPE ! #DécouvreTonPays 3",
+      "expectedTitle": "SUR LA PLUS HAUTE DUNE D'EUROPE ! #DécouvreTonPays 3",
+      "titleMatched": true,
+      "availableUploadLinks": [
+        "https://thetvdb.com/artwork/upload?type=11&episode=9242992&series=414993"
+      ]
+    },
+    {
+      "creator": "Raska",
+      "code": "S2018E03",
+      "id": "11960842",
+      "youtubeId": "RIvlj2BlOro",
+      "imageUrl": "https://i.ytimg.com/vi/RIvlj2BlOro/maxres2.jpg",
+      "pageUrl": "https://thetvdb.com/series/raska/episodes/11960842",
+      "status": "STILL_MISSING_IDENTITY_VERIFIED",
+      "liveArtwork": [],
+      "heading": "3 RAPPEURS À SURVEILLER ! (Téma - Épisode #1)",
+      "expectedTitle": "3 RAPPEURS À SURVEILLER ! (Téma - Épisode #1)",
+      "titleMatched": true,
+      "availableUploadLinks": [
+        "https://thetvdb.com/artwork/upload?type=11&episode=11960842&series=479597"
+      ]
+    },
+    {
+      "creator": "Raska",
+      "code": "S2020E09",
+      "id": "11960870",
+      "youtubeId": "8cDLGzGgEBc",
+      "imageUrl": "https://i.ytimg.com/vi/8cDLGzGgEBc/maxres1.jpg",
+      "pageUrl": "https://thetvdb.com/series/raska/episodes/11960870",
+      "status": "STILL_MISSING_IDENTITY_VERIFIED",
+      "liveArtwork": [],
+      "heading": "4 PUNCHLINES DE VALD ! (Analyse)",
+      "expectedTitle": "4 PUNCHLINES DE VALD ! (Analyse)",
+      "titleMatched": true,
+      "availableUploadLinks": [
+        "https://thetvdb.com/artwork/upload?type=11&episode=11960870&series=479597"
+      ]
+    }
+  ],
+  "blocked": [],
+  "siteWrites": 0,
+  "siteDeletes": 0,
+  "policy": "Stop immediately on HTTP 202/401/403/429, human verification, login denied or account restriction",
+  "result": "READ_ONLY_COMPLETED",
+  "summary": {
+    "selected": 4,
+    "checked": 4,
+    "alreadyPresent": 0,
+    "stillMissingVerified": 4,
+    "titleDrift": 0,
+    "blocked": 0
+  }
+}
