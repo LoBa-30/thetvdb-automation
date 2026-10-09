@@ -1,0 +1,200 @@
+{
+  "version": "V22.1",
+  "date": "2026-10-09",
+  "repository": "LoBa-30/thetvdb-automation",
+  "baseline": "reports/matcher-exact-first-v22-2026-10-09.json",
+  "scope": "14 unmatched after global exact-first regression",
+  "mode": "READ_ONLY_EVIDENCE_RECONCILIATION_NO_THETVDB_WRITES",
+  "reviewedCount": 14,
+  "statusCount": {
+    "VERIFIE": 4,
+    "CANDIDAT": 8,
+    "A_REVOIR": 2,
+    "BLOQUE": 0
+  },
+  "observations": [
+    "Previous greedy matching demonstrably swapped Mastu YouTube ID mappings across 2020/2022 and 2023/2026; TheTVDB episodes themselves are not thereby proven incorrect.",
+    "Same normalized titles can refer to multiple DIFFERENT official YouTube IDs in different years; preserve chronology and avoid forcing exact matches for repeated titles.",
+    "Raska handle renaming/emoji changes suggest candidates but source primary YouTube publication dates still unverified.",
+    "Squeezie 2012 Japan Expo re-upload has a separate YouTube publication on 2012-12-19; current TVDB page and third-party mirror show conflicting E104 allocations.",
+    "Mastu October 2026 LE JEU DU BLUFF must never be associated with 2022 FRAUDE 2 or July 2026 BLUFF Anyme; authenticated Unassigned check is prerequisite before a new episode."
+  ],
+  "githubActionsFollowUp": {
+    "matcherTestRun": 37934555161,
+    "matcherTestRunStatus": "success",
+    "nineChannelRun": 37934555386,
+    "nineChannelRunStatus": "success"
+  },
+  "youtubeDateCaveat": "Dates marked youtubePublished without explicit source-link are not independently certified; see row-level notes",
+  "rows": [
+    {
+      "creator": "Raska",
+      "youtubeId": "sa2rwKmeUJw",
+      "previousCode": "S2023E02",
+      "candidateCode": "S2023E02",
+      "status": "CANDIDAT",
+      "note": "BEENDO Z versus @BEENDOZ; handle spacing; YouTube primary publication date not independently authenticated",
+      "tvdbDate": "2023-02-08"
+    },
+    {
+      "creator": "Raska",
+      "youtubeId": "YCOZZz-mWYA",
+      "previousCode": "S2022E15",
+      "candidateCode": "S2022E15",
+      "status": "CANDIDAT",
+      "note": "@Lujipeka versus @lujipeka357; title/handle change; primary date to verify",
+      "tvdbDate": "2022-08-06"
+    },
+    {
+      "creator": "Raska",
+      "youtubeId": "-K0btHmC6Sg",
+      "previousCode": "S2022E10",
+      "candidateCode": "S2022E10",
+      "status": "CANDIDAT",
+      "note": "@THEODORT versus @theodortytb; @Zuukou alias; token score 0.651 below 0.80; no automatic fuzzy match",
+      "tvdbDate": "2022-05-08"
+    },
+    {
+      "creator": "Raska",
+      "youtubeId": "S1ligBirCWo",
+      "previousCode": "S2022E04",
+      "candidateCode": "S2022E04",
+      "status": "CANDIDAT",
+      "note": "emoji and creator handle difference; primary YouTube date to verify",
+      "tvdbDate": "2022-02-27"
+    },
+    {
+      "creator": "Raska",
+      "youtubeId": "jICa9OCCv1g",
+      "previousCode": "S2021E13",
+      "candidateCode": "S2021E13",
+      "status": "CANDIDAT",
+      "note": "THEODORT versus @theodortytb; primary YouTube date to verify",
+      "tvdbDate": "2021-09-27"
+    },
+    {
+      "creator": "Raska",
+      "youtubeId": "RFHVbWGh6xQ",
+      "previousCode": "S2021E09",
+      "candidateCode": "S2021E09",
+      "status": "CANDIDAT",
+      "note": "THEODORT versus @theodortytb; primary YouTube date to verify",
+      "tvdbDate": "2021-07-05"
+    },
+    {
+      "creator": "Squeezie",
+      "youtubeId": "mxuk-u8Cjuc",
+      "previousCode": "S2012E56",
+      "candidateCode": "S2012E104",
+      "status": "A_REVOIR",
+      "note": "Official YouTube description explicitly says re-upload of original 2012 Japan Expo video after copyright removal; youtube publication 2012-12-19 versus original YouTube aN0c6v10PDo 2012-07-10. Current www.thetvdb.com season page lists E104 as PGW 2012 and E56 as original Japan Expo; alternate TVDB mirror shows E104 as reupload. Conflicting site snapshots, DO NOT overwrite, create, delete or borrow E56.",
+      "youtubePublished": "2012-12-19",
+      "sources": [
+        "https://www.youtube.com/watch?v=mxuk-u8Cjuc",
+        "https://www.youtube.com/watch?v=aN0c6v10PDo",
+        "https://www.thetvdb.com/series/279758-show/seasons/official/2012",
+        "https://thetvdb.plex.tv/series/279758-show/seasons/official/2012"
+      ]
+    },
+    {
+      "creator": "Mastu",
+      "youtubeId": "OUs0_f8wc_U",
+      "previousCode": "S2022E41",
+      "candidateCode": "S2026E16",
+      "status": "A_REVOIR",
+      "note": "LE JEU DU BLUFF avec Théodort published 2026-10-03 per prior primary RSS claim and independently corroborated by public channel index; different from existing S2026E12 with Anyme, no episode S2026E16 in public official list as checked; authenticated Unassigned required before any creation; S2022E41 is different 2022 FRAUDE 2.",
+      "youtubePublished": "2026-10-03",
+      "sources": [
+        "https://www.youtube.com/watch?v=OUs0_f8wc_U",
+        "https://thetvdb.com/series/346011-show/allseasons/official",
+        "https://www.montremoitachaine.fr/youtubeur/mastu"
+      ]
+    },
+    {
+      "creator": "Mastu",
+      "youtubeId": "Ks16HI-cLiw",
+      "previousCode": "S2023E07",
+      "candidateCode": "S2026E13",
+      "status": "CANDIDAT",
+      "note": "A distinct official YouTube video titled ON ACCOSTE DES GENS EN VOITURE with Théodort, different sponsor description (happn) than 2023 NordVPN and 2024 Odoo; candidate July 18 2026 S2026E13, but video publication date not independently extracted from primary YouTube metadata.",
+      "tvdbDate": "2026-07-18",
+      "sources": [
+        "https://www.youtube.com/watch?v=Ks16HI-cLiw",
+        "https://thetvdb.com/series/346011-show/allseasons/official"
+      ]
+    },
+    {
+      "creator": "Mastu",
+      "youtubeId": "bUAtsbgZrYM",
+      "previousCode": "S2024E11",
+      "candidateCode": "S2024E11",
+      "status": "VERIFIE",
+      "note": "YouTube published 2024-08-04; Odoo collaboration source description matches 2024 TVDB episode. Existing old mapping is correct, do not change.",
+      "youtubePublished": "2024-08-04",
+      "sources": [
+        "https://www.youtube.com/watch?v=bUAtsbgZrYM",
+        "https://thetvdb.com/series/346011-show/allseasons/official"
+      ]
+    },
+    {
+      "creator": "Mastu",
+      "youtubeId": "O4ZEKE5p7so",
+      "previousCode": "S2026E13",
+      "candidateCode": "S2023E07",
+      "status": "VERIFIE",
+      "note": "YouTube published 2023-05-06; NordVPN sponsor description and TVDB S2023E07 9772112 same description/date, old automatic mapping WRONG.",
+      "youtubePublished": "2023-05-06",
+      "sources": [
+        "https://www.youtube.com/watch?v=O4ZEKE5p7so",
+        "https://thetvdb.com/series/346011-show/episodes/9772112"
+      ]
+    },
+    {
+      "creator": "Mastu",
+      "youtubeId": "aLN3UukAkxU",
+      "previousCode": "S2020E27",
+      "candidateCode": "S2022E13",
+      "status": "VERIFIE",
+      "note": "YouTube published 2022-03-02; old matcher swapped two distinct videos with identical titles.",
+      "youtubePublished": "2022-03-02",
+      "sources": [
+        "https://www.youtube.com/watch?v=aLN3UukAkxU",
+        "https://thetvdb.com/series/346011-show/allseasons/official"
+      ]
+    },
+    {
+      "creator": "Mastu",
+      "youtubeId": "zrq-izHjEqI",
+      "previousCode": "S2022E13",
+      "candidateCode": "S2020E27",
+      "status": "VERIFIE",
+      "note": "YouTube published 2020-09-05; old matcher swapped two distinct videos with identical titles.",
+      "youtubePublished": "2020-09-05",
+      "sources": [
+        "https://www.youtube.com/watch?v=zrq-izHjEqI",
+        "https://thetvdb.com/series/346011-show/allseasons/official"
+      ]
+    },
+    {
+      "creator": "Mcfly & Carlito",
+      "youtubeId": "ndo5rHMsBNk",
+      "previousCode": "S2026E61",
+      "candidateCode": "S2026E61",
+      "status": "CANDIDAT",
+      "note": "One-letter typo fait/faite in TVDB title, current YouTube title confirmed; TVDB date 2026-10-08 is supported by independent catalogue, direct primary publication date still to verify. Cosmetic typo is not grounds for rewriting.",
+      "tvdbDate": "2026-10-08",
+      "sources": [
+        "https://www.youtube.com/watch?v=ndo5rHMsBNk",
+        "https://www.betaseries.com/pt-br/episode/mcfly-et-carlito/s01e545"
+      ]
+    }
+  ],
+  "safety": {
+    "tvdbWrites": 0,
+    "tvdbDeletes": 0,
+    "artworkUploads": 0,
+    "githubOnly": true,
+    "preservePastCheckpoints": true,
+    "stopOn401_403_202": true
+  }
+}
