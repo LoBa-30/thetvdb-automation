@@ -1,5 +1,6 @@
 import { chromium } from '@playwright/test';
 import fs from 'node:fs/promises';
+import { compareCatalogues, normalizeTitle } from './matcher.js';
 
 const TARGETS = [
   { name: 'Squeezie', youtubeUrl: 'https://www.youtube.com/@Squeezie/videos', tvdbUrl: 'https://thetvdb.com/series/279758-show/allseasons/official' },
@@ -7,50 +8,6 @@ const TARGETS = [
   { name: 'Maxime Biaggi', youtubeUrl: 'https://www.youtube.com/c/MaximeBiaggi/videos', tvdbUrl: 'https://thetvdb.com/series/maxime-biaggi/allseasons/official' },
   { name: 'Raska', youtubeUrl: 'https://www.youtube.com/@R4SK4/videos', tvdbUrl: 'https://thetvdb.com/series/raska/allseasons/official' }
 ];
-
-const normalizeBase = (value = '') => value
-  .normalize('NFD')
-  .replace(/[\u0300-\u036f]/g, '')
-  .toLowerCase()
-  .replace(/https?:\/\/\S+/g, ' ')
-  .replace(/[^a-z0-9@_.-]+/g, ' ')
-  .replace(/\b(ft|feat|avec|youtube|officiel|official|ytb|le|la|les|un|une|des|de|du|et)\b/g, ' ')
-  .replace(/\s+/g, ' ')
-  .trim();
-
-// Strict normalization keeps guest handles and explicit episode numbers.
-// This prevents repeated formats such as "TROUVE LE GÂTEAU" or travel series
-// from being cross-matched solely because their shared base title is identical.
-const normalizeStrict = (value = '') => normalizeBase(value)
-  .replace(/@([a-z0-9_.-]+)/gi, '$1')
-  .replace(/\bepisode\s*(\d+)\b/gi, 'ep $1')
-  .replace(/\s+/g, ' ')
-  .trim();
-
-// Relaxed normalization remains available as a small fallback signal for
-// harmless title variants, but it can no longer dominate an exact guest/part match.
-const normalizeRelaxed = (value = '') => normalizeBase(value)
-  .replace(/@[a-z0-9_.-]+/gi, ' ')
-  .replace(/\b(?:ep|episode)\s*\d+\b/gi, ' ')
-  .replace(/\s+/g, ' ')
-  .trim();
-
-function tokenSimilarity(a, b, normalizer) {
-  const A = new Set(normalizer(a).split(' ').filter(w => w.length > 1));
-  const B = new Set(normalizer(b).split(' ').filter(w => w.length > 1));
-  if (!A.size || !B.size) return 0;
-  let intersection = 0;
-  for (const word of A) if (B.has(word)) intersection += 1;
-  const overlap = intersection / Math.max(A.size, B.size);
-  const containment = intersection / Math.min(A.size, B.size);
-  return (overlap * 0.65) + (containment * 0.35);
-}
-
-function similarity(a, b) {
-  const strict = tokenSimilarity(a, b, normalizeStrict);
-  const relaxed = tokenSimilarity(a, b, normalizeRelaxed);
-  return (strict * 0.8) + (relaxed * 0.2);
-}
 
 function parseTvdbDate(value) {
   if (!value) return null;
@@ -140,7 +97,7 @@ function detectTvdbDuplicates(episodes) {
   for (const episode of episodes) {
     if (!byCode.has(episode.code)) byCode.set(episode.code, []);
     byCode.get(episode.code).push(episode);
-    const key = normalizeStrict(episode.title);
+    const key = normalizeTitle(episode.title);
     if (key) {
       if (!byTitle.has(key)) byTitle.set(key, []);
       byTitle.get(key).push(episode);
@@ -150,48 +107,6 @@ function detectTvdbDuplicates(episodes) {
     duplicateCodes: [...byCode.entries()].filter(([, list]) => list.length > 1).map(([code, list]) => ({ code, episodes: list })),
     duplicateTitles: [...byTitle.entries()].filter(([, list]) => list.length > 1).map(([normalizedTitle, list]) => ({ normalizedTitle, episodes: list }))
   };
-}
-
-function compareCatalogues(videos, episodes) {
-  const usedEpisodeIndexes = new Set();
-  const matches = [];
-  const missingFromTvdb = [];
-
-  for (const video of videos) {
-    let bestIndex = -1;
-    let bestScore = 0;
-    for (let i = 0; i < episodes.length; i += 1) {
-      if (usedEpisodeIndexes.has(i)) continue;
-      const score = similarity(video.title, episodes[i].title);
-      if (score > bestScore) {
-        bestScore = score;
-        bestIndex = i;
-      }
-    }
-
-    if (bestIndex >= 0 && bestScore >= 0.64) {
-      usedEpisodeIndexes.add(bestIndex);
-      matches.push({ youtube: video, tvdb: episodes[bestIndex], similarity: Number(bestScore.toFixed(3)) });
-    } else {
-      const bestEpisode = bestIndex >= 0 ? episodes[bestIndex] : null;
-      missingFromTvdb.push({
-        ...video,
-        bestSimilarity: Number(bestScore.toFixed(3)),
-        bestCandidate: bestEpisode ? { code: bestEpisode.code, title: bestEpisode.title, firstAired: bestEpisode.firstAired } : null,
-        classification: bestScore >= 0.42 ? 'POSSIBLE_TITLE_VARIANT' : 'LIKELY_MISSING_FROM_TVDB_OR_NON_EPISODE'
-      });
-    }
-  }
-
-  const missingFromYoutube = episodes
-    .map((episode, index) => ({ episode, index }))
-    .filter(({ index }) => !usedEpisodeIndexes.has(index))
-    .map(({ episode }) => ({
-      ...episode,
-      classification: 'TVDB_ENTRY_WITHOUT_CURRENT_PUBLIC_YOUTUBE_MATCH'
-    }));
-
-  return { matches, missingFromTvdb, missingFromYoutube };
 }
 
 await fs.mkdir('reports', { recursive: true });
@@ -204,7 +119,7 @@ const context = await browser.newContext({
 const report = {
   generatedAt: new Date().toISOString(),
   mode: 'READ_ONLY_AUDIT',
-  methodology: 'Public YouTube Videos tabs are compared to public TheTVDB All Seasons pages. Matching now preserves guest handles and explicit episode numbers as the dominant signal, with a small relaxed fallback for harmless variants. Duplicate-title detection also preserves those distinguishing tokens. No login or edit action is performed.',
+  methodology: 'Public YouTube Videos tabs are compared to public TheTVDB All Seasons pages. All unique exact normalized titles are reserved globally before any fuzzy comparison; isolated numeric tokens are preserved. Fuzzy threshold is 0.80 and requires a verified compatible primary YouTube publication date; ambiguous titles remain review-only. No login or edit action is performed.',
   targets: [],
   warnings: [
     'A TheTVDB entry without a current public YouTube match may be a deleted/private/unlisted historical video and is NOT automatically an error.',
@@ -240,9 +155,13 @@ for (const target of TARGETS) {
       youtubeWithoutConfidentTvdbMatch: comparison.missingFromTvdb.length,
       tvdbWithoutCurrentPublicYoutubeMatch: comparison.missingFromYoutube.length,
       tvdbDuplicateCodeGroups: duplicates.duplicateCodes.length,
-      tvdbDuplicateTitleGroups: duplicates.duplicateTitles.length
+      tvdbDuplicateTitleGroups: duplicates.duplicateTitles.length,
+      exactUniqueMatches: comparison.summary.exactUnique,
+      fuzzyChronologyVerifiedMatches: comparison.summary.fuzzyVerified,
+      fuzzyCandidatesRequiringReview: comparison.summary.candidatesForReview
     };
     item.matches = comparison.matches;
+    item.fuzzyCandidatesRequiringReview = comparison.fuzzyCandidates;
     item.youtubeWithoutConfidentTvdbMatch = comparison.missingFromTvdb;
     item.tvdbWithoutCurrentPublicYoutubeMatch = comparison.missingFromYoutube;
   } catch (error) {
