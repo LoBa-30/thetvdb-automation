@@ -1,0 +1,12 @@
+inventoryEpisodes=805
+withArtworkUrl=387
+downloadedAndDecoded=387
+downloadFailed=0
+missingStatus=388
+unknownStatus=30
+sameUrlGroups=0
+exactSameFileGroups=0
+exactSamePixelGroups=0
+uniqueExactGroupCount=0
+perceptualCandidatePairs=0
+verySimilarCandidatePairs=0

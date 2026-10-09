@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-10-09T15:33:34.512013+00:00",
+  "mode": "READ_ONLY_ARTWORK_IMAGE_CONTENT_COMPARISON",
+  "scope": "4 creators with complete, dated artwork-URL inventories",
+  "files": {
+    "Djilsi": "reports/djilsi-live-215-artwork-rescan-2026-10-08.json",
+    "Raska": "reports/optionA-raska-150-live-audit-2026-10-08.json",
+    "Maxime Biaggi": "reports/maxime-biaggi-live-artwork-rescan-2026-10-08.json",
+    "Mastu": "reports/optionA-mastu-376-inventory-2026-10-08.json"
+  },
+  "summary": {
+    "inventoryEpisodes": 805,
+    "withArtworkUrl": 387,
+    "downloadedAndDecoded": 387,
+    "downloadFailed": 0,
+    "missingStatus": 388,
+    "unknownStatus": 30,
+    "sameUrlGroups": 0,
+    "exactSameFileGroups": 0,
+    "exactSamePixelGroups": 0,
+    "uniqueExactGroupCount": 0,
+    "perceptualCandidatePairs": 0,
+    "verySimilarCandidatePairs": 0
+  },
+  "exactGroups": [],
+  "nearCandidates": [],
+  "failures": [],
+  "safety": {
+    "siteWrites": 0,
+    "similarityIsNotCertainty": true,
+    "didNotBypassAccessControls": true,
+    "neverDeleteAutomatically": true,
+    "missingOrUnknownStillRequiresLiveRecheckBeforeUpload": true,
+    "notAllNineCreatorsHaveCompleteArtworkUrlInventories": true,
+    "urlEqualityAloneInsufficient": true
+  }
+}
