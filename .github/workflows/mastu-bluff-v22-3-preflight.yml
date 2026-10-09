@@ -1,0 +1,46 @@
+name: Mastu BLUFF V22.3 authenticated read-only preflight
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/mastu-bluff-v22-3-preflight.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: mastu-bluff-v22-3-readonly
+  cancel-in-progress: false
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - run: node --check src/mastu-bluff-v22-3-preflight.js
+      - name: Primary YouTube provenance and authenticated TheTVDB zero-write preflight
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: node src/mastu-bluff-v22-3-preflight.js
+      - name: Commit checkpoint
+        if: always()
+        run: |
+          if [ -f reports/mastu-bluff-v22-3/report.json ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add reports/mastu-bluff-v22-3
+            git commit -m "Report Mastu BLUFF V22.3 guarded preflight [skip ci]" || true
+            git pull --rebase
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mastu-bluff-v22-3-preflight
+          path: reports/mastu-bluff-v22-3/
+          retention-days: 30
