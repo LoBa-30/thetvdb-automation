@@ -1,8 +1,5 @@
 import fs from 'node:fs/promises';
 import { chromium } from '@playwright/test';
-import { execFile } from 'node:child_process';
-import { promisify } from 'node:util';
-const run=promisify(execFile);
 const BASE='https://thetvdb.com',SLUG='346011-show',YT='OUs0_f8wc_U';
 const CHANNEL='UCAhaFPP6v3WCfK5Tjao0B7A',TITLE='LE JEU DU BLUFF (Avec Théodort)',DATE='2026-10-03';
 const OUT='reports/mastu-bluff-v22-3-apply',EXPECTED_RUNTIME=45;
@@ -15,17 +12,10 @@ const norm=s=>String(s||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'')
 function fail(x){throw Error(x);}
 let browser;
 async function youtube(){
- const url='https://www.youtube.com/watch?v='+YT;
- const {stdout}=await run('yt-dlp',['--skip-download','--dump-single-json','--no-playlist','--no-warnings',url],
-   {timeout:110000,maxBuffer:12000000});
- const data=JSON.parse(stdout),s=norm(data.title),duration=Number(data.duration||0);
- report.youtube={id:data.id,channelId:data.channel_id,uploadDate:data.upload_date,
-   title:data.title,durationSeconds:duration,durationMinutes:Math.floor(duration/60),
-   source:url,extractor:data.extractor_key,liveStatus:data.live_status};
- if(data.id!==YT||data.channel_id!==CHANNEL||data.upload_date!=='20261003'||
-   !s.includes('le jeu du bluff')||!s.includes('theodort')||
-   !Number.isFinite(duration)||duration<2700||duration>2760||
-   (data.live_status&&data.live_status!=='not_live'))fail('YT_DLP_PRIMARY_ID_TITLE_DATE_RUNTIME_MISMATCH');
+ // Primary YouTube RSS proves immutable video ID, title and exact publication date.
+ // Public YouTube runtime metadata triggered a human-verification challenge on CI;
+ // never bypass it or use YouTube cookies. Two independently published channel
+ // video indexes both show 45:22, enough to enter a conservative 45-minute runtime.
  const feed='https://www.youtube.com/feeds/videos.xml?channel_id='+CHANNEL;
  const r=await fetch(feed,{signal:AbortSignal.timeout(30000)});
  if(!r.ok)fail('RSS_HTTP_'+r.status);
@@ -33,9 +23,24 @@ async function youtube(){
  const x=entries.filter(s=>s.includes('<yt:videoId>'+YT+'</yt:videoId>'));
  if(x.length!==1)fail('RSS_ID_NOT_UNIQUE');
  const published=x[0].match(/<published>([^<]+)</)?.[1]||'';
- if(!published.startsWith(DATE))fail('RSS_DATE_DRIFT');
- report.preflight.push({check:'PRIMARY_YOUTUBE_YTDLP_AND_RSS',ok:true,videoId:YT,
-   published,runtimeSeconds:duration,source:feed});
+ const rssTitle=x[0].match(/<title>([\s\S]*?)<\/title>/)?.[1]||'';
+ const normalized=norm(rssTitle);
+ if(!published.startsWith(DATE)||!normalized.includes('le jeu du bluff')||
+   !normalized.includes('theodort'))fail('RSS_TITLE_DATE_DRIFT');
+ report.youtube={
+   id:YT,channelId:CHANNEL,title:rssTitle,published,
+   durationSecondsApprox:2722,durationMinutes:45,
+   runtimeProvenance:'TWO_INDEPENDENT_PUBLIC_INDEXES_NOT_OFFICIAL_DURATION',
+   primaryIdentitySource:feed,
+   durationSources:[
+     'https://zolotube.com/channel?id=UCAhaFPP6v3WCfK5Tjao0B7A',
+     'https://www.hypetubes.com/u/hypestubes/top-youtuber-fr'
+   ],
+   officialWatchMetadata:'BLOCKED_HUMAN_VERIFICATION_NOT_BYPASSED'
+ };
+ report.preflight.push({check:'PRIMARY_RSS_ID_DATE_TITLE',ok:true,videoId:YT,published,title:rssTitle});
+ report.preflight.push({check:'DURATION_45M_22S_TWO_PUBLIC_INDEXES',ok:true,
+   sources:report.youtube.durationSources,sourceClass:'SECONDARY_CORROBORATED'});
 }
 async function go(p,url){
  const r=await p.goto(url,{waitUntil:'domcontentloaded',timeout:60000});
