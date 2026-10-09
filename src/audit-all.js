@@ -61,7 +61,7 @@ await fs.mkdir('reports', { recursive: true });
 const merged = {
   generatedAt: new Date().toISOString(),
   mode: 'READ_ONLY_AUDIT_9_CHANNELS_ISOLATED_STRICT_MINIMUMS',
-  methodology: 'Each channel is audited in an isolated browser process and must meet known lower-bound counts before its result is accepted. Every accepted result still contains the per-video matching produced by audit.js; equal catalogue counts alone never mark a channel complete.',
+  methodology: 'Each channel is audited in an isolated browser process and must meet known lower-bound counts before its result is accepted. Every accepted result includes an exact-first, globally reserved title match; fuzzy suggestions require primary chronology verification. Equal catalogue counts alone never mark a channel complete.',
   minimums: MINIMUMS,
   targets: [],
   warnings: []
