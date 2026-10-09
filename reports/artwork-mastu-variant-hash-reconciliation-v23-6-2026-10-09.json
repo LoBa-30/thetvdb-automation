@@ -1,0 +1,655 @@
+{
+  "version": "V23.6",
+  "date": "2026-10-09",
+  "mode": "READ_ONLY_HISTORICAL_HASH_AND_VARIANT_RECONCILIATION",
+  "sourceFiles": [
+    "reports/artwork-user-approvals-v23-2-2026-10-09.json",
+    "reports/artwork-user192-source-preflight-v23-2/report.json",
+    "reports/artwork-mastu-97-prior-source-crosscheck-v23-2-2026-10-09.json",
+    "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json",
+    "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json",
+    "reports/optionA-mastu-2019-2020-next48-candidates-2026-10-08.json",
+    "reports/optionA-mastu-user56-choices-review-2026-10-08.json",
+    "reports/optionA-mastu-user2017-2018-2020-48-decisions-2026-10-08.json"
+  ],
+  "summary": {
+    "approvedImagesTotal": 192,
+    "userRefusedTotal": 25,
+    "separatelyBlockedRaska": "11960844",
+    "mastuApprovedTotal": 97,
+    "historicalHashAvailable": 52,
+    "matchingHistoricalAndCurrentFileSha256": 37,
+    "differentFileSha256ExplainedByDifferentSelectedVariant": 15,
+    "differentFileSha256WithSameSelectedVariant": 0,
+    "noHistoricalHashAvailable": 45,
+    "noHistoricalReportForMastu": 26,
+    "withHistoricalReportButNoHash": 19,
+    "tvdbWrites": 0
+  },
+  "interpretation": "All 15 differing hashes compare different YouTube maxresN variants. They are not evidence of changed source, wrong episode or corruption. User-selected variants remain authoritative. Historical preferred variants were never final user approval. Matching SHA-256 validates byte identity only for the 37 matching historical/current files, not editorial suitability or TheTVDB current state.",
+  "caveats": [
+    "No fresh live TheTVDB authentication or artwork upload attempted.",
+    "Account upload restriction last proven in run 37962023102; no evidence of legitimate lifting.",
+    "Mastu S2016E01 9195558 remains blocked due superimposed date/time captions in historical visual checks.",
+    "The 26 entries without historical report still require provenance checks; 19 more have no historical file hash.",
+    "No automatic uploads, deletions, replacements, or changes to approved user selections."
+  ],
+  "variantDifferenceCases": [
+    {
+      "code": "S2016E08",
+      "tvdbEpisodeId": "9195565",
+      "youtubeId": "EH17Dn0B8Gg",
+      "userSelectedVariant": 1,
+      "historicalAssistantPreferredVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/EH17Dn0B8Gg/maxres1.jpg",
+      "historicalSha256": "11e664c011780b62db649da1021b97fd4c57aabcbca288f24f44e38f03aeacea",
+      "selectedSha256": "afbca65c9ba6030c80b6a15520c4e21aafafcf95f15d8f5d6fd35b56b601344e",
+      "historicalSource": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json"
+    },
+    {
+      "code": "S2016E18",
+      "tvdbEpisodeId": "9195668",
+      "youtubeId": "gf27yptDY10",
+      "userSelectedVariant": 3,
+      "historicalAssistantPreferredVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/gf27yptDY10/maxres3.jpg",
+      "historicalSha256": "2ef3a73b5df35fa7e2399002998847a071163913130bce3089029e8748ae492c",
+      "selectedSha256": "f506a4fbe5876c6e51ed959845bc96a223eae0a6d5998f66a25b28d5dd0f9b39",
+      "historicalSource": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json"
+    },
+    {
+      "code": "S2017E10",
+      "tvdbEpisodeId": "9195731",
+      "youtubeId": "aud5lhX-jxk",
+      "userSelectedVariant": 1,
+      "historicalAssistantPreferredVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/aud5lhX-jxk/maxres1.jpg",
+      "historicalSha256": "0dbcfc988e37e7b499ae089b279ec3e4f24e57862469f1b26a6d97b0eea36b71",
+      "selectedSha256": "7c9dccc9da32df07c501b7eb5dad45419f03b1591ac6040cb575aa9111c41887",
+      "historicalSource": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json"
+    },
+    {
+      "code": "S2017E12",
+      "tvdbEpisodeId": "9195733",
+      "youtubeId": "8OL9_TczbQU",
+      "userSelectedVariant": 3,
+      "historicalAssistantPreferredVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/8OL9_TczbQU/maxres3.jpg",
+      "historicalSha256": "2d5d37bc3a5594c1c060fece9c71d3b48aef61acabd35e28778db93aa8d23d86",
+      "selectedSha256": "5b672b63cbbd15fb7e38672bdb4a1768b340bfe211c515b942b781f907cc5e3e",
+      "historicalSource": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json"
+    },
+    {
+      "code": "S2017E22",
+      "tvdbEpisodeId": "9195806",
+      "youtubeId": "kd8gFHzhdLM",
+      "userSelectedVariant": 2,
+      "historicalAssistantPreferredVariant": 1,
+      "selectedImageUrl": "https://i.ytimg.com/vi/kd8gFHzhdLM/maxres2.jpg",
+      "historicalSha256": "1c3434f74eb68967313e69f4fffb12c69fdbc3d6a48aec9e94954b37eb94222c",
+      "selectedSha256": "886c0f0a258b13b3ae7c15e1fac6c22de0f9958bfb1242a5445d22345c90cd5e",
+      "historicalSource": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json"
+    },
+    {
+      "code": "S2017E21",
+      "tvdbEpisodeId": "9195805",
+      "youtubeId": "tZGpKgU_ua8",
+      "userSelectedVariant": 1,
+      "historicalAssistantPreferredVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/tZGpKgU_ua8/maxres1.jpg",
+      "historicalSha256": "6a2d87fe9950329cac552fb381f1141214913ce431e43c634bd7d887a02c0d95",
+      "selectedSha256": "962e1b2a106c24a1f5ad2ad55158bdd372a8b840c796133b8f8bd905cb967a6c",
+      "historicalSource": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json"
+    },
+    {
+      "code": "S2017E25",
+      "tvdbEpisodeId": "9195809",
+      "youtubeId": "yE2piF8l1Bk",
+      "userSelectedVariant": 3,
+      "historicalAssistantPreferredVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/yE2piF8l1Bk/maxres3.jpg",
+      "historicalSha256": "74fa222516a93d967e296f4a519e798e31422fa1923287a704dd9dd4ef3a148c",
+      "selectedSha256": "3f92e9614eb3e861c1c8a0792b87649b08e289007a6f59e390af1aa9c4ee4c7a",
+      "historicalSource": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json"
+    },
+    {
+      "code": "S2017E54",
+      "tvdbEpisodeId": "9195842",
+      "youtubeId": "7cYlaMsaBdA",
+      "userSelectedVariant": 3,
+      "historicalAssistantPreferredVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/7cYlaMsaBdA/maxres3.jpg",
+      "historicalSha256": "2e64fdcea3959404ba2087afdd5ce0a7a8dd946173c843e222d7052616f0700f",
+      "selectedSha256": "a644c5f119aadc5a76c2106ff58c3937c690cd8e24022db3ea15b7562140478e",
+      "historicalSource": "reports/optionA-mastu-2016-2017-next50-candidate-frames-2026-10-08.json"
+    },
+    {
+      "code": "S2018E02",
+      "tvdbEpisodeId": "11467002",
+      "youtubeId": "by5TM5kdm8Y",
+      "userSelectedVariant": 3,
+      "historicalAssistantPreferredVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/by5TM5kdm8Y/maxres3.jpg",
+      "historicalSha256": "0509b83aea3c71910c95ae8cddaeefe6825726243562637dbc4547f963d0e8aa",
+      "selectedSha256": "9b8adeb8e487b5da44df6e5a73bf4476ae35389262f3ae6b3ec17274c6172fab",
+      "historicalSource": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json"
+    },
+    {
+      "code": "S2018E03",
+      "tvdbEpisodeId": "11467003",
+      "youtubeId": "yNKXtT-eVZk",
+      "userSelectedVariant": 1,
+      "historicalAssistantPreferredVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/yNKXtT-eVZk/maxres1.jpg",
+      "historicalSha256": "cce69daf085d52f526e846fa36d97fca8cfc251eeddfb0f0375039925d98ce3c",
+      "selectedSha256": "9509fd999bfb46b75665b0c3e791c9974956f44ab7f262dee6415fa43f8af48a",
+      "historicalSource": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json"
+    },
+    {
+      "code": "S2018E13",
+      "tvdbEpisodeId": "6695457",
+      "youtubeId": "KPMz9l2YrfI",
+      "userSelectedVariant": 3,
+      "historicalAssistantPreferredVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/KPMz9l2YrfI/maxres3.jpg",
+      "historicalSha256": "5343e1e0f1c12c83cd432ba050fbf5bb1a33c65e057c1f8c03d9d481d5967509",
+      "selectedSha256": "0531e128dfbf31024da2d0edfec9b4c4f2b94d757de85440ee0b45e951428af0",
+      "historicalSource": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json"
+    },
+    {
+      "code": "S2018E16",
+      "tvdbEpisodeId": "6837851",
+      "youtubeId": "USb1y5K0qaM",
+      "userSelectedVariant": 3,
+      "historicalAssistantPreferredVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/USb1y5K0qaM/maxres3.jpg",
+      "historicalSha256": "5296aaaea3a56c9a1059561877af82c2e1aa11bd4cc463b70abc26901e1584b3",
+      "selectedSha256": "7028ca7d45239893ade0a5d72ef10cf0a91aea6634da36b3acdb0a40bdcc6278",
+      "historicalSource": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json"
+    },
+    {
+      "code": "S2018E17",
+      "tvdbEpisodeId": "6837852",
+      "youtubeId": "Dm5lDBr2SXg",
+      "userSelectedVariant": 2,
+      "historicalAssistantPreferredVariant": 3,
+      "selectedImageUrl": "https://i.ytimg.com/vi/Dm5lDBr2SXg/maxres2.jpg",
+      "historicalSha256": "04a9ca7a8eb9e4bd01e2314018ba9d1efb0a2062ed719ae547ff007de2a6235d",
+      "selectedSha256": "6b39c08527574699e3405dbd9ca943c8bbbf4c2ee865d781e598373acbc53073",
+      "historicalSource": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json"
+    },
+    {
+      "code": "S2018E23",
+      "tvdbEpisodeId": "6837937",
+      "youtubeId": "B-c-n1owBOg",
+      "userSelectedVariant": 2,
+      "historicalAssistantPreferredVariant": 3,
+      "selectedImageUrl": "https://i.ytimg.com/vi/B-c-n1owBOg/maxres2.jpg",
+      "historicalSha256": "fd30b6ac848d0c8fdc68fa7f287ff31a5327db6cfb6a0a0bfffcb5accb79df8b",
+      "selectedSha256": "69354a8068efa68d8de4ca4050b400ee3aff5f34d8e047695b4c3954880e4098",
+      "historicalSource": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json"
+    },
+    {
+      "code": "S2018E22",
+      "tvdbEpisodeId": "6837934",
+      "youtubeId": "zO8eLZ2k39Q",
+      "userSelectedVariant": 3,
+      "historicalAssistantPreferredVariant": 2,
+      "selectedImageUrl": "https://i.ytimg.com/vi/zO8eLZ2k39Q/maxres3.jpg",
+      "historicalSha256": "68a0b2715cdad34b21441bb8e18eb5b9ac77fb6834caa419cb1d10054c4e9cca",
+      "selectedSha256": "7ca0e865b8aa31020bd376ec41f7560a9ba8643963a09dd9027bea753da57c97",
+      "historicalSource": "reports/optionA-mastu-2017-2018-2020-next48-candidates-2026-10-08.json"
+    }
+  ],
+  "historicalHashMatchedCases": [
+    {
+      "code": "S2016E04",
+      "tvdbEpisodeId": "9195561",
+      "userSelectedVariant": 2,
+      "sha256": "46516c745748361227a9c62a5e872b5a9f0d9442e8b87ada2d3249aa0e8791ce"
+    },
+    {
+      "code": "S2016E05",
+      "tvdbEpisodeId": "9195562",
+      "userSelectedVariant": 2,
+      "sha256": "80dbea71de25326f9a48397f05579d837600c2b32b8862bc05bc57bbfd62f639"
+    },
+    {
+      "code": "S2016E14",
+      "tvdbEpisodeId": "9195661",
+      "userSelectedVariant": 2,
+      "sha256": "96da77830a2e151ea980ec2676fd748144ac4934cdfdeffe50f5382bbb58c0c2"
+    },
+    {
+      "code": "S2017E02",
+      "tvdbEpisodeId": "9195700",
+      "userSelectedVariant": 1,
+      "sha256": "8ddcea2c82b67b0e4a9499165251e9389d8fee8eec09c57a7075503cec50109d"
+    },
+    {
+      "code": "S2017E05",
+      "tvdbEpisodeId": "9195703",
+      "userSelectedVariant": 1,
+      "sha256": "0ee09c1643f6032ea8c19306a4b522059191aeb4b5d8ad5fa8579367412d2ca3"
+    },
+    {
+      "code": "S2017E04",
+      "tvdbEpisodeId": "9195702",
+      "userSelectedVariant": 2,
+      "sha256": "2d8b8b8961b3175976949f06e647bbc577ca44461309295a258c54925a140f07"
+    },
+    {
+      "code": "S2017E03",
+      "tvdbEpisodeId": "9195701",
+      "userSelectedVariant": 2,
+      "sha256": "21c8d6e18d45b7f7d354fd2be773d730601d067a2b8eae3925a30ca6bf3546ee"
+    },
+    {
+      "code": "S2017E07",
+      "tvdbEpisodeId": "9195728",
+      "userSelectedVariant": 1,
+      "sha256": "b63c90d729284bd826f4b6ace6ce272051b9b160e051813ac079bd0402b23e3c"
+    },
+    {
+      "code": "S2017E08",
+      "tvdbEpisodeId": "9195729",
+      "userSelectedVariant": 1,
+      "sha256": "edf3fb0e76a194e5148dfdcfdf74121ff1bbef4f11f18f98ae20661da6bb8a03"
+    },
+    {
+      "code": "S2017E11",
+      "tvdbEpisodeId": "9195732",
+      "userSelectedVariant": 2,
+      "sha256": "fbf5c8b998960cb953021dfd3ba33d93e4dc9984bb1167868b9a128383d28297"
+    },
+    {
+      "code": "S2017E09",
+      "tvdbEpisodeId": "9195730",
+      "userSelectedVariant": 2,
+      "sha256": "4b69e8746220809af2ab035f0f7373cc534936ca809788cb4d41ffb7864e8c53"
+    },
+    {
+      "code": "S2017E13",
+      "tvdbEpisodeId": "9195734",
+      "userSelectedVariant": 1,
+      "sha256": "28b5999f9f8b56dce675ff5cd5cd59a31c9f6f9e9c70bd61ec90f674f02df5d3"
+    },
+    {
+      "code": "S2017E15",
+      "tvdbEpisodeId": "9195796",
+      "userSelectedVariant": 1,
+      "sha256": "61e920593a8187a9372c577d42230a810aceb14a1cfb732d3d16e70a0605f7af"
+    },
+    {
+      "code": "S2017E20",
+      "tvdbEpisodeId": "9195801",
+      "userSelectedVariant": 2,
+      "sha256": "832ee29f5f1bb8b84ee5febf98a769d4ea39a542b7831390e5963522ff341bb4"
+    },
+    {
+      "code": "S2017E24",
+      "tvdbEpisodeId": "9195808",
+      "userSelectedVariant": 2,
+      "sha256": "d6ab87c707163a7931be5be857c3b46853f4e77094023df7e46478b62e42ff87"
+    },
+    {
+      "code": "S2017E26",
+      "tvdbEpisodeId": "9195811",
+      "userSelectedVariant": 2,
+      "sha256": "518f0ae3ffd161427316d1c52858c0b33dc92d46c5b60499acd575f4a105b7fb"
+    },
+    {
+      "code": "S2017E38",
+      "tvdbEpisodeId": "9195823",
+      "userSelectedVariant": 2,
+      "sha256": "88e32557b73bce0e2f2995f6ba566e2884769055bce9f0530318d2a4f3997263"
+    },
+    {
+      "code": "S2017E53",
+      "tvdbEpisodeId": "9195841",
+      "userSelectedVariant": 2,
+      "sha256": "721c1d255b225001547603223e8b8119eb1e38c459ae466be1d7774bccadbd10"
+    },
+    {
+      "code": "S2017E57",
+      "tvdbEpisodeId": "9195845",
+      "userSelectedVariant": 2,
+      "sha256": "77969e64b313ec39f28fb2b82a308422db4f63b038be6a135609d6b7c2253d2e"
+    },
+    {
+      "code": "S2017E59",
+      "tvdbEpisodeId": "9195847",
+      "userSelectedVariant": 2,
+      "sha256": "1a99937f6cb689dec885e17706c7d0ad73786785a43e9ecd6083583f6e752f9c"
+    },
+    {
+      "code": "S2017E64",
+      "tvdbEpisodeId": "9195852",
+      "userSelectedVariant": 2,
+      "sha256": "8cedcd0935c5224d05579216cac4be4ee323377a8fe9fefd4456258f0f0efc85"
+    },
+    {
+      "code": "S2017E62",
+      "tvdbEpisodeId": "9195850",
+      "userSelectedVariant": 2,
+      "sha256": "a085323952ec1fe564e9a0fadc47e33d6afe966c23870467281b9d90f3c9ff9a"
+    },
+    {
+      "code": "S2018E01",
+      "tvdbEpisodeId": "11467001",
+      "userSelectedVariant": 2,
+      "sha256": "26171bc9d478224a7c736f9e2001cdd010b50f035e9f02192dd4e8e5d798ee3f"
+    },
+    {
+      "code": "S2018E06",
+      "tvdbEpisodeId": "6953925",
+      "userSelectedVariant": 3,
+      "sha256": "d9579b34803aceaf6ba616f794b3fda766921cfed72b1d58feb66b1ae0bf85af"
+    },
+    {
+      "code": "S2018E11",
+      "tvdbEpisodeId": "6695458",
+      "userSelectedVariant": 2,
+      "sha256": "924ec535dfdbf0943aa28360246469e62aa60b9ccb8031e65dcbc11870214cc7"
+    },
+    {
+      "code": "S2018E15",
+      "tvdbEpisodeId": "6837850",
+      "userSelectedVariant": 3,
+      "sha256": "7a0eb2617fde2158fb7d6d00bd721e5e4b4c4a7a3b51568dc62caf7e8589b33b"
+    },
+    {
+      "code": "S2018E14",
+      "tvdbEpisodeId": "6695456",
+      "userSelectedVariant": 3,
+      "sha256": "5502a3aff4a990eddaa46f8496169bc1db2340d37ef630ad6b9ed91d5f71e297"
+    },
+    {
+      "code": "S2018E18",
+      "tvdbEpisodeId": "6837853",
+      "userSelectedVariant": 2,
+      "sha256": "c1933a7764ed03c38eb81b288541f3f3e09e189bf2d5772ee8afd02baea1a81d"
+    },
+    {
+      "code": "S2018E19",
+      "tvdbEpisodeId": "11467018",
+      "userSelectedVariant": 2,
+      "sha256": "f4218027c9ff53c822fbcb7cc0741c3cc9ef923934a484584efa155396c8771c"
+    },
+    {
+      "code": "S2018E20",
+      "tvdbEpisodeId": "6837857",
+      "userSelectedVariant": 2,
+      "sha256": "53a9ee65529adf6ce9f008d6e74d0186349d67eabf6067ae0e39e1df168ab29c"
+    },
+    {
+      "code": "S2018E24",
+      "tvdbEpisodeId": "6837939",
+      "userSelectedVariant": 2,
+      "sha256": "7ec97d8e49fc2cd63a60e89fe54e4334a9e8e33dd235422794d06278c9b3dc27"
+    },
+    {
+      "code": "S2018E26",
+      "tvdbEpisodeId": "6837942",
+      "userSelectedVariant": 2,
+      "sha256": "e631bb8f0962a841c5d98bbfeb9cf58b32c79c27d6d48917f9749c6a9eae002b"
+    },
+    {
+      "code": "S2018E27",
+      "tvdbEpisodeId": "6856971",
+      "userSelectedVariant": 2,
+      "sha256": "2d6848499c94bcce8c0a9c5b3a95857d5c3cbb7a003c77029b5b88f3b1ddc59c"
+    },
+    {
+      "code": "S2018E30",
+      "tvdbEpisodeId": "6941546",
+      "userSelectedVariant": 2,
+      "sha256": "4dcfe2acc797a573cd3b355635a7a85d33aba72f2f92e5fa2ee96dde2cc31701"
+    },
+    {
+      "code": "S2018E28",
+      "tvdbEpisodeId": "6856976",
+      "userSelectedVariant": 1,
+      "sha256": "4c3bbd4f0b25e243758e5ad1f4810171c74dc17d69c063e08c6c03562cac7677"
+    },
+    {
+      "code": "S2018E31",
+      "tvdbEpisodeId": "6941556",
+      "userSelectedVariant": 2,
+      "sha256": "775b3fd6c47ad6ca5c97a00e806574ff558dd10632496094e9c005aacb8cbb2f"
+    },
+    {
+      "code": "S2020E16",
+      "tvdbEpisodeId": "8070751",
+      "userSelectedVariant": 3,
+      "sha256": "762156434670d3c2af88f80ff0b47b0bdd500368ae8f13853cbd5962b5c57639"
+    }
+  ],
+  "missingHistoricalHashCases": [
+    {
+      "code": "S2016E01",
+      "tvdbEpisodeId": "9195558",
+      "historicalReportPresent": true
+    },
+    {
+      "code": "S2019E04",
+      "tvdbEpisodeId": "11467032",
+      "historicalReportPresent": true
+    },
+    {
+      "code": "S2019E05",
+      "tvdbEpisodeId": "11467033",
+      "historicalReportPresent": true
+    },
+    {
+      "code": "S2019E06",
+      "tvdbEpisodeId": "11467034",
+      "historicalReportPresent": true
+    },
+    {
+      "code": "S2019E08",
+      "tvdbEpisodeId": "11467036",
+      "historicalReportPresent": true
+    },
+    {
+      "code": "S2019E11",
+      "tvdbEpisodeId": "11467058",
+      "historicalReportPresent": true
+    },
+    {
+      "code": "S2019E15",
+      "tvdbEpisodeId": "11467062",
+      "historicalReportPresent": true
+    },
+    {
+      "code": "S2019E18",
+      "tvdbEpisodeId": "11467832",
+      "historicalReportPresent": true
+    },
+    {
+      "code": "S2019E19",
+      "tvdbEpisodeId": "11467833",
+      "historicalReportPresent": true
+    },
+    {
+      "code": "S2019E20",
+      "tvdbEpisodeId": "11467834",
+      "historicalReportPresent": true
+    },
+    {
+      "code": "S2019E21",
+      "tvdbEpisodeId": "11467835",
+      "historicalReportPresent": true
+    },
+    {
+      "code": "S2019E24",
+      "tvdbEpisodeId": "11467838",
+      "historicalReportPresent": true
+    },
+    {
+      "code": "S2019E30",
+      "tvdbEpisodeId": "11467843",
+      "historicalReportPresent": true
+    },
+    {
+      "code": "S2020E21",
+      "tvdbEpisodeId": "8070756",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2020E30",
+      "tvdbEpisodeId": "8070762",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2020E35",
+      "tvdbEpisodeId": "8082821",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E05",
+      "tvdbEpisodeId": "8204220",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E08",
+      "tvdbEpisodeId": "8296995",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E07",
+      "tvdbEpisodeId": "8296993",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E14",
+      "tvdbEpisodeId": "8571336",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E16",
+      "tvdbEpisodeId": "8571338",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E17",
+      "tvdbEpisodeId": "12014527",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E18",
+      "tvdbEpisodeId": "8571339",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E21",
+      "tvdbEpisodeId": "8762541",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E19",
+      "tvdbEpisodeId": "8571340",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E23",
+      "tvdbEpisodeId": "8762543",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E24",
+      "tvdbEpisodeId": "8762544",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E29",
+      "tvdbEpisodeId": "8762549",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E28",
+      "tvdbEpisodeId": "8762548",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E31",
+      "tvdbEpisodeId": "8762551",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E32",
+      "tvdbEpisodeId": "8762552",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E40",
+      "tvdbEpisodeId": "9194172",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E45",
+      "tvdbEpisodeId": "9195489",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E47",
+      "tvdbEpisodeId": "9195491",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E50",
+      "tvdbEpisodeId": "9194160",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E49",
+      "tvdbEpisodeId": "9195444",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E52",
+      "tvdbEpisodeId": "9195500",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2021E54",
+      "tvdbEpisodeId": "9195504",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2024E08",
+      "tvdbEpisodeId": "10553257",
+      "historicalReportPresent": true
+    },
+    {
+      "code": "S2025E01",
+      "tvdbEpisodeId": "10928740",
+      "historicalReportPresent": true
+    },
+    {
+      "code": "S2021E55",
+      "tvdbEpisodeId": "9195506",
+      "historicalReportPresent": false
+    },
+    {
+      "code": "S2025E02",
+      "tvdbEpisodeId": "10942249",
+      "historicalReportPresent": true
+    },
+    {
+      "code": "S2025E03",
+      "tvdbEpisodeId": "10970002",
+      "historicalReportPresent": true
+    },
+    {
+      "code": "S2025E06",
+      "tvdbEpisodeId": "11069529",
+      "historicalReportPresent": true
+    },
+    {
+      "code": "S2025E07",
+      "tvdbEpisodeId": "11125391",
+      "historicalReportPresent": true
+    }
+  ]
+}
