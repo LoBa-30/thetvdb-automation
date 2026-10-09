@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-10-09T14:10:53.095Z",
+  "mode": "SINGLE_GUARDED_BULKADD_2026E16",
+  "youtube": {
+    "id": "OUs0_f8wc_U"
+  },
+  "authenticated": false,
+  "preflight": [],
+  "writes": [],
+  "verifications": [],
+  "errors": [
+    {
+      "reason": "Command failed: yt-dlp --skip-download --dump-single-json --no-playlist --no-warnings https://www.youtube.com/watch?v=OUs0_f8wc_U\nERROR: [youtube] OUs0_f8wc_U: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+    }
+  ],
+  "result": "BLOCKED_OR_UNCONFIRMED_NO_RETRY",
+  "deletes": 0,
+  "artworkUploads": 0
+}
