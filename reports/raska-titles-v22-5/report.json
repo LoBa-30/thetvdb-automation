@@ -1,0 +1,161 @@
+{
+  "createdAt": "2026-10-09T14:24:50.949Z",
+  "mode": "AUTHENTICATED_READ_ONLY_RASKA_SIX_TITLE_PREFLIGHT",
+  "authenticated": true,
+  "results": [
+    {
+      "id": "11960797",
+      "code": "S2023E02",
+      "youtubeId": "sa2rwKmeUJw",
+      "previousTitle": "On vous a caché ça... avec @BEENDOZ",
+      "expectedTitle": "On vous a caché ça... avec @BEENDO Z",
+      "primary": {
+        "source": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dsa2rwKmeUJw&format=json",
+        "status": 200,
+        "title": "On vous a caché ça... avec @BEENDOZ",
+        "author": "RASKA",
+        "verified": false
+      },
+      "tvdb": {
+        "row": {
+          "id": "11960797",
+          "number": 2,
+          "title": "On vous a caché ça... avec @BEENDOZ"
+        },
+        "publicTitle": "On vous a caché ça... avec @BEENDOZ",
+        "translation": null
+      },
+      "classification": "BLOCKED_PRIMARY_TITLE_NOT_VERIFIED"
+    },
+    {
+      "id": "11960926",
+      "code": "S2022E15",
+      "youtubeId": "YCOZZz-mWYA",
+      "previousTitle": "Seul contre 30.000 personnes à cause de @lujipeka357 !",
+      "expectedTitle": "Seul contre 30.000 personnes à cause de @Lujipeka ! 🚍",
+      "primary": {
+        "source": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DYCOZZz-mWYA&format=json",
+        "status": 200,
+        "title": "Seul contre 30.000 personnes à cause de @lujipeka357 ! 🚍",
+        "author": "RASKA",
+        "verified": false
+      },
+      "tvdb": {
+        "row": {
+          "id": "11960926",
+          "number": 15,
+          "title": "Seul contre 30.000 personnes à cause de @lujipeka357 !"
+        },
+        "publicTitle": "Seul contre 30.000 personnes à cause de @lujipeka357 !",
+        "translation": null
+      },
+      "classification": "BLOCKED_PRIMARY_TITLE_NOT_VERIFIED"
+    },
+    {
+      "id": "11960921",
+      "code": "S2022E10",
+      "youtubeId": "-K0btHmC6Sg",
+      "previousTitle": "Ce jeu va créer des problèmes ! (ft. @theodortytb, @Snaptrox &@Zuukou667)",
+      "expectedTitle": "Ce jeu va créer des problèmes ! (ft. @THEODORT, @Snaptrox &@Zuukou Mayzie le Bg 667)",
+      "primary": {
+        "source": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-K0btHmC6Sg&format=json",
+        "status": 200,
+        "title": "Ce jeu va créer des problèmes ! (ft. @theodortytb, @Snaptrox &@Zuukou667)",
+        "author": "RASKA",
+        "verified": false
+      },
+      "tvdb": {
+        "row": {
+          "id": "11960921",
+          "number": 10,
+          "title": "Ce jeu va créer des problèmes ! (ft. @theodortytb, @Snaptrox &@Zuukou667)"
+        },
+        "publicTitle": "Ce jeu va créer des problèmes ! (ft. @theodortytb, @Snaptrox &@Zuukou667)",
+        "translation": null
+      },
+      "classification": "BLOCKED_PRIMARY_TITLE_NOT_VERIFIED"
+    },
+    {
+      "id": "11960915",
+      "code": "S2022E04",
+      "youtubeId": "S1ligBirCWo",
+      "previousTitle": "Qui sera le pire élève ? (avec @Snaptrox, @theodortytb, @Ysos & @Vinceeh)",
+      "expectedTitle": "Qui sera le pire élève ? 📚 (avec @Snaptrox, @THEODORT, @Ysos & @Vinceeh)",
+      "primary": {
+        "source": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DS1ligBirCWo&format=json",
+        "status": 200,
+        "title": "Qui sera le pire élève ? 📚 (avec @Snaptrox, @theodortytb, @Ysos & @Vinceeh)",
+        "author": "RASKA",
+        "verified": false
+      },
+      "tvdb": {
+        "row": {
+          "id": "11960915",
+          "number": 4,
+          "title": "Qui sera le pire élève ? (avec @Snaptrox, @theodortytb, @Ysos & @Vinceeh)"
+        },
+        "publicTitle": "Qui sera le pire élève ? (avec @Snaptrox, @theodortytb, @Ysos & @Vinceeh)",
+        "translation": null
+      },
+      "classification": "BLOCKED_PRIMARY_TITLE_NOT_VERIFIED"
+    },
+    {
+      "id": "11960901",
+      "code": "S2021E13",
+      "youtubeId": "jICa9OCCv1g",
+      "previousTitle": "Making-Of de \"CE RAPPEUR QUI...\" avec @theodortytb",
+      "expectedTitle": "Making-Of de \"CE RAPPEUR QUI...\" avec @THEODORT",
+      "primary": {
+        "source": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DjICa9OCCv1g&format=json",
+        "status": 200,
+        "title": "Making-Of de \"CE RAPPEUR QUI...\" avec @theodortytb",
+        "author": "RASKA",
+        "verified": false
+      },
+      "tvdb": {
+        "row": {
+          "id": "11960901",
+          "number": 13,
+          "title": "Making-Of de \"CE RAPPEUR QUI...\" avec @theodortytb"
+        },
+        "publicTitle": "Making-Of de \"CE RAPPEUR QUI...\" avec @theodortytb",
+        "translation": null
+      },
+      "classification": "BLOCKED_PRIMARY_TITLE_NOT_VERIFIED"
+    },
+    {
+      "id": "11960897",
+      "code": "S2021E09",
+      "youtubeId": "RFHVbWGh6xQ",
+      "previousTitle": "Tournage en slip avec @Mastu & @theodortytb (Making-of)",
+      "expectedTitle": "Tournage en slip avec @Mastu & @THEODORT (Making-of)",
+      "primary": {
+        "source": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRFHVbWGh6xQ&format=json",
+        "status": 200,
+        "title": "Tournage en slip avec @Mastu & @theodortytb (Making-of)",
+        "author": "RASKA",
+        "verified": false
+      },
+      "tvdb": {
+        "row": {
+          "id": "11960897",
+          "number": 9,
+          "title": "Tournage en slip avec @Mastu & @theodortytb (Making-of)"
+        },
+        "publicTitle": "Tournage en slip avec @Mastu & @theodortytb (Making-of)",
+        "translation": null
+      },
+      "classification": "BLOCKED_PRIMARY_TITLE_NOT_VERIFIED"
+    }
+  ],
+  "errors": [],
+  "networkWritesToTheTVDB": 0,
+  "safety": "NO_FORM_SUBMISSION",
+  "summary": {
+    "checked": 6,
+    "primaryVerified": 0,
+    "editCandidates": 0,
+    "alreadyCorrect": 0,
+    "blocked": 6
+  }
+}
