@@ -1,0 +1,32 @@
+{
+  "createdAt": "2026-10-09T16:51:11.180Z",
+  "mode": "AUTHENTICATED_ARTWORK_FORM_READ_ONLY_DIAGNOSTIC",
+  "authenticated": true,
+  "episodeId": "9242991",
+  "formPage": {
+    "requestedUrl": "https://thetvdb.com/artwork/upload?type=11&episode=9242991&series=414993",
+    "pageUrl": "https://thetvdb.com/artwork/upload?type=11&episode=9242991&series=414993",
+    "http": 200,
+    "title": "Artwork Upload - TheTVDB.com",
+    "formCount": 1,
+    "forms": [
+      {
+        "action": "/search",
+        "method": "get",
+        "inputNames": [
+          "query"
+        ],
+        "relevantButtons": []
+      }
+    ],
+    "warnings": [
+      "Instructions\n                Select a file to upload or provide a URL to an image.\n                                            Once uploaded, you'll be able to crop and resize images to fit our exact requirements (640x360 JPG). Artwork must:\n                                    \n                \n                    Not contain spoilers.\n                    Not include nudity, vulgarity, or gore.\n                    Not include watermarks or unrelated logos.\n                    Not be visibly stretched.\n                    Be of high quality  (original upload must be at least 640x360).  \n                    Initial upload must be less than 10M.\n                \n                                    Additionally, for this artwork type:\n                    \nEpisode images should be uploaded in their original aired aspect ratio. If this series has been incorrectly flagged do not adjust the images to match. Please create a support ticket and a moderator will adjust the series for you.\nUse an official episode image when available. The image should be indicative of the content of the episode without revealing any spoilers. Official images must still follow the text and logo rules above.\nWherever possible, especially for newer series, the image should not contain the network watermark/logo.\nThe image should not be a title card and ideally will have no writing on it whatsoever. This allows episode images are supposed to be language-agnostic, and applicable for all translations.\nImages shouldn't just be a title shot from the episode. We already know the episode's name, we don't need to see it again.\nDo not just use the same image for every episode. Once again the image should reflect the content of that specific episode.\n\nFor examples, plus details specific to web series and podcasts, please review our knowledgebase.",
+      "Due to a number of artwork removals within the past day or week, your account has been temporarily restricted from uploading.  Please review your notifications for details and take this opportunity to review our artwork rules."
+    ],
+    "text": "Discover Earn Points Support Home / Artwork / Upload Episode 16:9 Screencap EPISODE DES B*TES PARTOUT ! #DécouvreTonPays 2 SERIES Djilsi Instructions Select a file to upload or provide a URL to an image. Once uploaded, you'll be able to crop and resize images to fit our exact requirements (640x360 JPG). Artwork must: Not contain spoilers. Not include nudity, vulgarity, or gore. Not include watermarks or unrelated logos. Not be visibly stretched. Be of high quality (original upload must be at least 640x360). Initial upload must be less than 10M. Additionally, for this artwork type: Episode images should be uploaded in their original aired aspect ratio. If this series has been incorrectly flagged do not adjust the images to match. Please create a support ticket and a moderator will adjust the series for you. Use an official episode image when available. The image should be indicative of the content of the episode without revealing any spoilers. Official images must still follow the text and logo rules above. Wherever possible, especially for newer series, the image should not contain the network watermark/logo. The image should not be a title card and ideally will have no writing on it whatsoever. This allows episode images are supposed to be language-agnostic, and applicable for all translations. Images shouldn't just be a title shot from the episode. We already know the episode's name, we don't need to see it again. Do not just use the same image for every episode. Once again the image should reflect the content of that specific episode. For examples, plus details specific to web series and podcasts, please review our knowledgebase. Due to a number of artwork removals within the past day or week, your account has been temporarily restricted from uploading. Please review your notifications for details and take this opportunity to review our artwork rules. ABOUT About TheTVDB Earn Points Subscribe API Feature Suggestions Knowledgebase Support DISCOVER On Today Awards Companies Lists People Taxonomy LEGAL Terms of Service Privacy Policy DMCA Do Not Sell My Data FOLLOW US © 2026 TheTVDB.com ®, A Whip Media Company. ALL RIGHTS RESERVED.",
+    "actionPresent": false
+  },
+  "blocks": [],
+  "networkWritesAfterAuth": 0,
+  "result": "FORM_NOT_AVAILABLE_READ_ONLY"
+}
