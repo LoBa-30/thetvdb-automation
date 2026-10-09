@@ -1,0 +1,41 @@
+{
+  "createdAt": "2026-10-09T16:49:38.000Z",
+  "mode": "GUARDED_USER_APPROVED_TWO_STAGE_SINGLE_ARTWORK_CANARY",
+  "target": {
+    "creator": "Djilsi",
+    "code": "S2018E02",
+    "id": "9242991",
+    "slug": "djilsi",
+    "series": "414993",
+    "youtubeId": "k1blyDB6xj4",
+    "url": "https://i.ytimg.com/vi/k1blyDB6xj4/maxres2.jpg",
+    "title": "DES B*TES PARTOUT ! #DécouvreTonPays 2"
+  },
+  "armed": true,
+  "authenticated": true,
+  "checks": [
+    {
+      "name": "USER_APPROVED_URL_MATCHES_SOURCE_AND_PRIOR_LIVE_PROOF",
+      "ok": true,
+      "fileSha256": "02eb56939b35251782043101472671a0cd2826bd5aebc09edb359e6fb56ef059"
+    },
+    {
+      "name": "LIVE_SOURCE_BYTES_MATCH_CERTIFIED_SHA256",
+      "ok": true,
+      "size": 88123,
+      "sha256": "02eb56939b35251782043101472671a0cd2826bd5aebc09edb359e6fb56ef059",
+      "editorialReview": "VISUALLY_CLEAN_FRAME_INSPECTED"
+    }
+  ],
+  "stage1": null,
+  "stage2": null,
+  "verification": null,
+  "blocked": [
+    {
+      "reason": "UPLOAD_FORM_MISSING_OR_RESTRICTED"
+    }
+  ],
+  "outcome": "BLOCKED_BEFORE_ANY_UPLOAD",
+  "siteDeleteCount": 0,
+  "retries": 0
+}
