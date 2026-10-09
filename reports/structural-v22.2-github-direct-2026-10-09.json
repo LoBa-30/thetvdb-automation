@@ -1,0 +1,84 @@
+{
+  "version": "V22.2",
+  "generatedAt": "2026-10-09",
+  "scope": "GitHub Actions direct authenticated operations",
+  "sourceBaseline": "reports/matcher-14-individual-review-v22.1-2026-10-09.json",
+  "githubActions": {
+    "mcflyPriorities": {
+      "runId": 37940182009,
+      "headSha": "dbf559071f03806fda0c9a42012eb994ee5bbe7b",
+      "workflow": ".github/workflows/mcfly-priorities-v22-safe-apply.yml",
+      "report": "reports/mcfly-priorities-v22/report.json",
+      "conclusion": "failure",
+      "githubStatus": "WORKFLOW_EXECUTED",
+      "result": "BLOCKED_OR_REVIEW_REQUIRED",
+      "authenticated": true,
+      "youtubeRSS": {
+        "videoId": "QG1WcEWOF4g",
+        "published": "2026-10-06T15:21:34+00:00",
+        "title": "PRIORITIES : vous êtes plus d’accord avec David ou Raf ? (Moi avec Raf)",
+        "verified": true
+      },
+      "tvdb": {
+        "episodeId": "12022496",
+        "seriesSlug": "338282-show",
+        "seasonCode": "S2026E60",
+        "previousDate": "2026-06-06",
+        "correctDate": "2026-10-06",
+        "postSubmitDate": "2026-06-06",
+        "persistentCorrection": false
+      },
+      "checks": [
+        "immutable TVDB ID confirmed",
+        "season number 60 and title confirmed",
+        "YouTube channel RSS primary date confirmed",
+        "authenticated session confirmed",
+        "write attempted once",
+        "read-back failed"
+      ],
+      "newWritesPersisted": 0,
+      "block": "POST_WRITE_NOT_PERSISTENT_2026-06-06",
+      "instruction": "DO NOT RETRY WRITE UNTIL INVESTIGATING SITE FORM VALIDATION, PERMISSIONS OR RESTRICTION; read-only diagnosis permitted"
+    },
+    "mastuUnassigned": {
+      "runId": 37940268097,
+      "headSha": "a4831da3697b53dba32ae7da74bf45be02d622a1",
+      "workflow": ".github/workflows/mastu-unassigned-auth-readonly.yml",
+      "report": "reports/mastu-unassigned-auth/report.json",
+      "conclusion": "success",
+      "result": "AUTHENTICATED_READ_ONLY",
+      "authenticated": true,
+      "rows": 10,
+      "errors": 0,
+      "containsLeJeuDuBluff": false,
+      "classification": "[VÉRIFIÉ] no LE JEU DU BLUFF in current authenticated Unassigned; NO episode creation yet",
+      "next": "fresh assigned 2026 E16 check, primary RSS, runtime and account write-permission verification before any creation"
+    }
+  },
+  "safety": {
+    "tvdbConfirmedWrites": 0,
+    "tvdbDeletes": 0,
+    "artworkUploads": 0,
+    "avoid401_403_202": true,
+    "avoidDuplicateCreations": true,
+    "neverDeleteOnYoutubeAbsence": true
+  },
+  "statuses": {
+    "VÉRIFIÉ": [
+      "Mcfly YouTube primary RSS and immutable episode ID",
+      "Mastu authenticated 10 Unassigned entries"
+    ],
+    "ENREGISTRÉ_SUR_GITHUB": [
+      "Guarded workflow and script plus current reports",
+      "V22.2 checkpoint"
+    ],
+    "BLOQUÉ": [
+      "Mcfly PRIORITIES airdate submission did not persist"
+    ],
+    "À_REVOIR": [
+      "TheTVDB edit form validation and account authorization",
+      "Mastu new episode after current assigned/Unassigned double-check"
+    ],
+    "CORRIGÉ_SUR_THETVDB": []
+  }
+}
