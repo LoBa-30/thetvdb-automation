@@ -1,9 +1,5 @@
 name: Mcfly PRIORITIES V22 guarded date repair
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/mcfly-priorities-v22-safe-apply.yml'
   workflow_dispatch:
 permissions:
   contents: write
