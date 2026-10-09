@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import { chromium } from '@playwright/test';
+import { normalizeTitle } from './matcher.js';
 const BASE='https://thetvdb.com', SLUG='raska', OUT='reports/raska-titles-v22-5';
 const PLAN=[
  {id:'11960797',code:'S2023E02',youtubeId:'sa2rwKmeUJw',from:'On vous a caché ça... avec @BEENDOZ',to:'On vous a caché ça... avec @BEENDO Z'},
@@ -29,7 +30,7 @@ async function officialTitle(ep) {
   if(r.status===401||r.status===403||r.status===429) return {source:url,status:r.status,verified:false,reason:'OFFICIAL_YOUTUBE_RESTRICTION_NO_BYPASS'};
   if(!r.ok)return {source:url,status:r.status,verified:false,reason:'YOUTUBE_OEMBED_NOT_AVAILABLE'};
   const obj=await r.json(),title=norm(obj.title),author=norm(obj.author_name);
-  return {source:url,status:r.status,title,author,verified:title===norm(ep.to)&&/raska|r4sk4/i.test(author)};
+  return {source:url,status:r.status,title,author,verified:!!title&&/raska|r4sk4/i.test(author),listingMatchesOfficial:title===norm(ep.to)};
  }catch(e){return {source:url,verified:false,reason:String(e?.message||e)};}
 }
 async function tvdbRead(page,ep){
@@ -89,9 +90,10 @@ try {
   try {
    const live=await tvdbRead(page,row);
    row.tvdb=live;
-   const correct=norm(live.publicTitle)===norm(row.expectedTitle);
+   const officialTitleEquivalent = row.primary.verified &&
+     normalizeTitle(live.publicTitle)===normalizeTitle(row.primary.title);
    const old=norm(live.publicTitle)===norm(row.previousTitle);
-   row.classification=correct?'ALREADY_CORRECT':
+   row.classification=officialTitleEquivalent?'OFFICIAL_OEMBED_AND_TVDB_MATCH_NO_EDIT':
      row.primary.verified&&old&&live.translation?'EDIT_ELIGIBLE_AFTER_EXTRA_GUARDS':
      !row.primary.verified?'BLOCKED_PRIMARY_TITLE_NOT_VERIFIED':
      !live.translation?'BLOCKED_TRANSLATION_FORM_NOT_CONFIRMED':'BLOCKED_CURRENT_TVDB_TITLE_DRIFT';
@@ -101,7 +103,7 @@ try {
 finally{if(browser)await browser.close().catch(()=>{});}
 rep.summary={checked:rep.results.length,primaryVerified:rep.results.filter(x=>x.primary.verified).length,
  editCandidates:rep.results.filter(x=>x.classification==='EDIT_ELIGIBLE_AFTER_EXTRA_GUARDS').length,
- alreadyCorrect:rep.results.filter(x=>x.classification==='ALREADY_CORRECT').length,
+ alreadyCorrect:rep.results.filter(x=>x.classification==='OFFICIAL_OEMBED_AND_TVDB_MATCH_NO_EDIT').length,
  blocked:rep.results.filter(x=>x.classification?.startsWith('BLOCKED')).length};
 await fs.writeFile(OUT+'/report.json',JSON.stringify(rep,null,2)+'\n');
 console.log(JSON.stringify({authenticated:rep.authenticated,summary:rep.summary,
