@@ -4,4 +4,4 @@ Found: 10
 Read: 10
 Errors: 0
 Read-only network lock: true
-Blocked non-read requests: 30
+Blocked non-read requests: 28
