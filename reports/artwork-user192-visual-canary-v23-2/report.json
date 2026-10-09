@@ -1,0 +1,48 @@
+{
+  "status": "VISUAL_INSPECTION_REQUIRED",
+  "imageCount": 4,
+  "entries": [
+    {
+      "creator": "Djilsi",
+      "code": "S2018E02",
+      "tvdbEpisodeId": "9242991",
+      "selectedImageUrl": "https://i.ytimg.com/vi/k1blyDB6xj4/maxres2.jpg",
+      "imageSize": [
+        1280,
+        720
+      ]
+    },
+    {
+      "creator": "Djilsi",
+      "code": "S2018E03",
+      "tvdbEpisodeId": "9242992",
+      "selectedImageUrl": "https://i.ytimg.com/vi/jPgVjTDD9x4/maxres3.jpg",
+      "imageSize": [
+        1280,
+        720
+      ]
+    },
+    {
+      "creator": "Raska",
+      "code": "S2018E03",
+      "tvdbEpisodeId": "11960842",
+      "selectedImageUrl": "https://i.ytimg.com/vi/RIvlj2BlOro/maxres2.jpg",
+      "imageSize": [
+        1280,
+        720
+      ]
+    },
+    {
+      "creator": "Raska",
+      "code": "S2020E09",
+      "tvdbEpisodeId": "11960870",
+      "selectedImageUrl": "https://i.ytimg.com/vi/8cDLGzGgEBc/maxres1.jpg",
+      "imageSize": [
+        1280,
+        720
+      ]
+    }
+  ],
+  "siteWrites": 0,
+  "contactSheetBytes": 145065
+}
