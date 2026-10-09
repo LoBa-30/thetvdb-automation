@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-09",
+  "repo": "LoBa-30/thetvdb-automation",
+  "main_commit": "ee8d1e9afc535ac1191fd82b428b241b4eb15f2c",
+  "last_verified_run": 37882502151,
+  "artifact_id": 11595367489,
+  "findings": [
+    {
+      "path": "src/audit.js",
+      "severity": "high",
+      "status": "A_VERIFIER",
+      "observation": "TARGETS declares only Squeezie, Djilsi, Maxime Biaggi, Raska. Verify other 5 channels handled by separate workflow/script before any claim of exhaustive coverage."
+    },
+    {
+      "path": "src/audit.js",
+      "severity": "high",
+      "status": "A_VERIFIER",
+      "observation": "tokenSimilarity removes single-character numeric tokens, compareCatalogues greedily assigns fuzzy candidates before globally reserving unique exact matches."
+    }
+  ],
+  "safety": "No TheTVDB writes; no deletions, no duplicate episode creations; verify dates, durations, Unassigned and historical provenance before editing.",
+  "next": "Inspect nine-channel workflow and its report; test exact-first matcher with known 211 historical suspect associations before deployment."
+}
