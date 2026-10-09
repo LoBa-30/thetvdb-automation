@@ -1,19 +1,93 @@
 {
-  "generatedAt": "2026-10-09T14:10:53.095Z",
+  "generatedAt": "2026-10-09T14:12:51.966Z",
   "mode": "SINGLE_GUARDED_BULKADD_2026E16",
   "youtube": {
-    "id": "OUs0_f8wc_U"
+    "id": "OUs0_f8wc_U",
+    "channelId": "UCAhaFPP6v3WCfK5Tjao0B7A",
+    "title": "LE JEU DU BLUFF (Avec Théodort)",
+    "published": "2026-10-03T10:12:40+00:00",
+    "durationSecondsApprox": 2722,
+    "durationMinutes": 45,
+    "runtimeProvenance": "TWO_INDEPENDENT_PUBLIC_INDEXES_NOT_OFFICIAL_DURATION",
+    "primaryIdentitySource": "https://www.youtube.com/feeds/videos.xml?channel_id=UCAhaFPP6v3WCfK5Tjao0B7A",
+    "durationSources": [
+      "https://zolotube.com/channel?id=UCAhaFPP6v3WCfK5Tjao0B7A",
+      "https://www.hypetubes.com/u/hypestubes/top-youtuber-fr"
+    ],
+    "officialWatchMetadata": "BLOCKED_HUMAN_VERIFICATION_NOT_BYPASSED"
   },
-  "authenticated": false,
-  "preflight": [],
-  "writes": [],
-  "verifications": [],
-  "errors": [
+  "authenticated": true,
+  "preflight": [
     {
-      "reason": "Command failed: yt-dlp --skip-download --dump-single-json --no-playlist --no-warnings https://www.youtube.com/watch?v=OUs0_f8wc_U\nERROR: [youtube] OUs0_f8wc_U: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      "check": "PRIMARY_RSS_ID_DATE_TITLE",
+      "ok": true,
+      "videoId": "OUs0_f8wc_U",
+      "published": "2026-10-03T10:12:40+00:00",
+      "title": "LE JEU DU BLUFF (Avec Théodort)"
+    },
+    {
+      "check": "DURATION_45M_22S_TWO_PUBLIC_INDEXES",
+      "ok": true,
+      "sources": [
+        "https://zolotube.com/channel?id=UCAhaFPP6v3WCfK5Tjao0B7A",
+        "https://www.hypetubes.com/u/hypestubes/top-youtuber-fr"
+      ],
+      "sourceClass": "SECONDARY_CORROBORATED"
+    },
+    {
+      "check": "2026_SEASON_ORDER",
+      "ok": true,
+      "count": 15,
+      "latest": {
+        "id": "12014529",
+        "number": 15,
+        "title": "LA TABLE INFERNALE 2 (Avec Byilhan, Flamby et Elian)"
+      }
+    },
+    {
+      "check": "ASSIGNED_AND_UNASSIGNED_COLLISIONS",
+      "ok": true,
+      "assignedExactHits": 0,
+      "unassignedCount": 10,
+      "unassignedCollisions": 0
+    },
+    {
+      "check": "BULKADD_FORM_FIELDS",
+      "ok": true,
+      "expected": {
+        "number": "16",
+        "name": "LE JEU DU BLUFF (Avec Théodort)",
+        "date": "2026-10-03",
+        "runtime": "45"
+      }
+    },
+    {
+      "check": "ONE_SUBMISSION_STATUS",
+      "httpStatus": 302
     }
   ],
-  "result": "BLOCKED_OR_UNCONFIRMED_NO_RETRY",
+  "writes": [
+    {
+      "type": "EPISODE_CREATED",
+      "id": "12025893",
+      "code": "S2026E16",
+      "title": "LE JEU DU BLUFF (Avec Théodort)",
+      "firstAired": "2026-10-03",
+      "runtimeMinutes": 45,
+      "youtubeId": "OUs0_f8wc_U"
+    }
+  ],
+  "verifications": [
+    {
+      "id": "12025893",
+      "code": "S2026E16",
+      "title": "LE JEU DU BLUFF (Avec Théodort)",
+      "airdate": "2026-10-03",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "result": "APPLIED_AND_VERIFIED",
   "deletes": 0,
   "artworkUploads": 0
 }
