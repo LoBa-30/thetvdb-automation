@@ -1,7 +1,7 @@
 {
-  "createdAt": "2026-10-09T14:24:50.949Z",
+  "createdAt": "2026-10-09T14:30:34.923Z",
   "mode": "AUTHENTICATED_READ_ONLY_RASKA_SIX_TITLE_PREFLIGHT",
-  "authenticated": true,
+  "authenticated": false,
   "results": [
     {
       "id": "11960797",
@@ -14,18 +14,9 @@
         "status": 200,
         "title": "On vous a caché ça... avec @BEENDOZ",
         "author": "RASKA",
-        "verified": false
-      },
-      "tvdb": {
-        "row": {
-          "id": "11960797",
-          "number": 2,
-          "title": "On vous a caché ça... avec @BEENDOZ"
-        },
-        "publicTitle": "On vous a caché ça... avec @BEENDOZ",
-        "translation": null
-      },
-      "classification": "BLOCKED_PRIMARY_TITLE_NOT_VERIFIED"
+        "verified": true,
+        "listingMatchesOfficial": false
+      }
     },
     {
       "id": "11960926",
@@ -38,18 +29,9 @@
         "status": 200,
         "title": "Seul contre 30.000 personnes à cause de @lujipeka357 ! 🚍",
         "author": "RASKA",
-        "verified": false
-      },
-      "tvdb": {
-        "row": {
-          "id": "11960926",
-          "number": 15,
-          "title": "Seul contre 30.000 personnes à cause de @lujipeka357 !"
-        },
-        "publicTitle": "Seul contre 30.000 personnes à cause de @lujipeka357 !",
-        "translation": null
-      },
-      "classification": "BLOCKED_PRIMARY_TITLE_NOT_VERIFIED"
+        "verified": true,
+        "listingMatchesOfficial": false
+      }
     },
     {
       "id": "11960921",
@@ -62,18 +44,9 @@
         "status": 200,
         "title": "Ce jeu va créer des problèmes ! (ft. @theodortytb, @Snaptrox &@Zuukou667)",
         "author": "RASKA",
-        "verified": false
-      },
-      "tvdb": {
-        "row": {
-          "id": "11960921",
-          "number": 10,
-          "title": "Ce jeu va créer des problèmes ! (ft. @theodortytb, @Snaptrox &@Zuukou667)"
-        },
-        "publicTitle": "Ce jeu va créer des problèmes ! (ft. @theodortytb, @Snaptrox &@Zuukou667)",
-        "translation": null
-      },
-      "classification": "BLOCKED_PRIMARY_TITLE_NOT_VERIFIED"
+        "verified": true,
+        "listingMatchesOfficial": false
+      }
     },
     {
       "id": "11960915",
@@ -86,18 +59,9 @@
         "status": 200,
         "title": "Qui sera le pire élève ? 📚 (avec @Snaptrox, @theodortytb, @Ysos & @Vinceeh)",
         "author": "RASKA",
-        "verified": false
-      },
-      "tvdb": {
-        "row": {
-          "id": "11960915",
-          "number": 4,
-          "title": "Qui sera le pire élève ? (avec @Snaptrox, @theodortytb, @Ysos & @Vinceeh)"
-        },
-        "publicTitle": "Qui sera le pire élève ? (avec @Snaptrox, @theodortytb, @Ysos & @Vinceeh)",
-        "translation": null
-      },
-      "classification": "BLOCKED_PRIMARY_TITLE_NOT_VERIFIED"
+        "verified": true,
+        "listingMatchesOfficial": false
+      }
     },
     {
       "id": "11960901",
@@ -110,18 +74,9 @@
         "status": 200,
         "title": "Making-Of de \"CE RAPPEUR QUI...\" avec @theodortytb",
         "author": "RASKA",
-        "verified": false
-      },
-      "tvdb": {
-        "row": {
-          "id": "11960901",
-          "number": 13,
-          "title": "Making-Of de \"CE RAPPEUR QUI...\" avec @theodortytb"
-        },
-        "publicTitle": "Making-Of de \"CE RAPPEUR QUI...\" avec @theodortytb",
-        "translation": null
-      },
-      "classification": "BLOCKED_PRIMARY_TITLE_NOT_VERIFIED"
+        "verified": true,
+        "listingMatchesOfficial": false
+      }
     },
     {
       "id": "11960897",
@@ -134,28 +89,21 @@
         "status": 200,
         "title": "Tournage en slip avec @Mastu & @theodortytb (Making-of)",
         "author": "RASKA",
-        "verified": false
-      },
-      "tvdb": {
-        "row": {
-          "id": "11960897",
-          "number": 9,
-          "title": "Tournage en slip avec @Mastu & @theodortytb (Making-of)"
-        },
-        "publicTitle": "Tournage en slip avec @Mastu & @theodortytb (Making-of)",
-        "translation": null
-      },
-      "classification": "BLOCKED_PRIMARY_TITLE_NOT_VERIFIED"
+        "verified": true,
+        "listingMatchesOfficial": false
+      }
     }
   ],
-  "errors": [],
+  "errors": [
+    "AUTH_NOT_PROVEN"
+  ],
   "networkWritesToTheTVDB": 0,
   "safety": "NO_FORM_SUBMISSION",
   "summary": {
     "checked": 6,
-    "primaryVerified": 0,
+    "primaryVerified": 6,
     "editCandidates": 0,
     "alreadyCorrect": 0,
-    "blocked": 6
+    "blocked": 0
   }
 }
