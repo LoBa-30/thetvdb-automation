@@ -1,0 +1,38 @@
+name: Artwork V23.2 four source frames visual review (no upload)
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/artwork-user192-visual-canary-v23-2.yml'
+      - 'src/artwork-user192-visual-canary-v23-2.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  contact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install Pillow
+      - name: Render exact four approved candidate frames for visual review without upload
+        run: python src/artwork-user192-visual-canary-v23-2.py
+      - name: Commit user-approved sample evidence
+        if: always()
+        run: |
+          if [ -f reports/artwork-user192-visual-canary-v23-2/report.json ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add reports/artwork-user192-visual-canary-v23-2/
+            git commit -m "Record V23.2 four-image visual check [skip ci]" || true
+            git pull --rebase
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: user192-visual-canary
+          path: reports/artwork-user192-visual-canary-v23-2/
