@@ -1,0 +1,43 @@
+name: Mcfly PRIORITIES V22.4 read-only form diagnostic
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/mcfly-priorities-v22-4-form-diagnostic.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  compare-forms:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - run: node --check src/mcfly-priorities-v22-4-form-diagnostic.js
+      - name: Read-only authenticated form and local validity comparison, no POST
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: node src/mcfly-priorities-v22-4-form-diagnostic.js
+      - name: Save diagnostic result
+        if: always()
+        run: |
+          if [ -f reports/mcfly-priorities-v22-4-form-diagnostic/report.json ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add reports/mcfly-priorities-v22-4-form-diagnostic
+            git commit -m "Report Mcfly date form diagnostic no submissions [skip ci]" || true
+            git pull --rebase
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mcfly-priorities-v22-4-form-diagnostic
+          path: reports/mcfly-priorities-v22-4-form-diagnostic/
+          retention-days: 30
