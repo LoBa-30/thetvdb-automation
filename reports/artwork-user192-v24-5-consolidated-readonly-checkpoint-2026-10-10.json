@@ -1,0 +1,184 @@
+{
+  "version": "V24.5",
+  "date": "2026-10-10",
+  "mode": "READ_ONLY_CHECKPOINT_AFTER_ALL_192_CONTACT_SHEET_REVIEWS",
+  "source": {
+    "userApprovals": "reports/artwork-user-approvals-v23-2-2026-10-09.json",
+    "manualFlags": "reports/artwork-user192-manual-visual-flags-v24-1-2026-10-10.json",
+    "alternatives": "reports/artwork-user192-proposed-clean-alternatives-v24-3-2026-10-10.json",
+    "fullResolutionDecision": "reports/artwork-user192-fullres-alternatives-review-v24-4-2026-10-10.json"
+  },
+  "counts": {
+    "approvedFrom9Oct": 192,
+    "neverUploadExcluded": 25,
+    "separateHeldRaska": 1,
+    "sourcePreflight1280x720Valid": 192,
+    "sourcePreflightNearDupes": 0,
+    "visuallyFlaggedBlocked": 25,
+    "visuallyFlaggedCloserReview": 10,
+    "noObviousOverlayOnContactSheet": 157,
+    "technicalAltVariantChecks": 105,
+    "promisingCorrectedAlternates": 10,
+    "rejectedAltFullres": 2,
+    "requiresNewVideoFrame": 25,
+    "mastuMissingEarlierReport": 26,
+    "artworkCurrentlyVerifiedOnTvdb": 0,
+    "uploads": 0,
+    "tvdbDeletions": 0
+  },
+  "promisingExactSameYouTubeVideoVariants": [
+    {
+      "creator": "Djilsi",
+      "code": "S2019E21",
+      "tvdbEpisodeId": "9243048",
+      "originalVariant": "maxres2",
+      "candidateVariant": "maxres1",
+      "candidateUrl": "https://i.ytimg.com/vi/GpygQnM2aqw/maxres1.jpg",
+      "sourceVideoId": "GpygQnM2aqw",
+      "provenanceAndLiveTvdbState": "PENDING",
+      "uploadReady": false
+    },
+    {
+      "creator": "Djilsi",
+      "code": "S2019E26",
+      "tvdbEpisodeId": "9243053",
+      "originalVariant": "maxres1",
+      "candidateVariant": "maxres2",
+      "candidateUrl": "https://i.ytimg.com/vi/ptXUL64YoE0/maxres2.jpg",
+      "sourceVideoId": "ptXUL64YoE0",
+      "provenanceAndLiveTvdbState": "PENDING",
+      "uploadReady": false
+    },
+    {
+      "creator": "Maxime Biaggi",
+      "code": "S2019E01",
+      "tvdbEpisodeId": "11696580",
+      "originalVariant": "maxres2",
+      "candidateVariant": "maxres3",
+      "candidateUrl": "https://i.ytimg.com/vi/3X0piITkOTE/maxres3.jpg",
+      "sourceVideoId": "3X0piITkOTE",
+      "provenanceAndLiveTvdbState": "PENDING",
+      "uploadReady": false
+    },
+    {
+      "creator": "Maxime Biaggi",
+      "code": "S2024E02",
+      "tvdbEpisodeId": "11696621",
+      "originalVariant": "maxres1",
+      "candidateVariant": "maxres2",
+      "candidateUrl": "https://i.ytimg.com/vi/6csK8iek7PU/maxres2.jpg",
+      "sourceVideoId": "6csK8iek7PU",
+      "provenanceAndLiveTvdbState": "PENDING",
+      "uploadReady": false
+    },
+    {
+      "creator": "Maxime Biaggi",
+      "code": "S2025E10",
+      "tvdbEpisodeId": "11696646",
+      "originalVariant": "maxres2",
+      "candidateVariant": "maxres3",
+      "candidateUrl": "https://i.ytimg.com/vi/spDicfn4k-E/maxres3.jpg",
+      "sourceVideoId": "spDicfn4k-E",
+      "provenanceAndLiveTvdbState": "PENDING",
+      "uploadReady": false
+    },
+    {
+      "creator": "Mastu",
+      "code": "S2017E26",
+      "tvdbEpisodeId": "9195811",
+      "originalVariant": "maxres2",
+      "candidateVariant": "maxres1",
+      "candidateUrl": "https://i.ytimg.com/vi/c2WWpL4nIvQ/maxres1.jpg",
+      "sourceVideoId": "c2WWpL4nIvQ",
+      "provenanceAndLiveTvdbState": "PENDING",
+      "uploadReady": false
+    },
+    {
+      "creator": "Mastu",
+      "code": "S2019E30",
+      "tvdbEpisodeId": "11467843",
+      "originalVariant": "maxres1",
+      "candidateVariant": "maxres2",
+      "candidateUrl": "https://i.ytimg.com/vi/2PVUcJf9jcc/maxres2.jpg",
+      "sourceVideoId": "2PVUcJf9jcc",
+      "provenanceAndLiveTvdbState": "PENDING",
+      "uploadReady": false
+    },
+    {
+      "creator": "Mastu",
+      "code": "S2020E35",
+      "tvdbEpisodeId": "8082821",
+      "originalVariant": "maxres3",
+      "candidateVariant": "maxres1",
+      "candidateUrl": "https://i.ytimg.com/vi/u8GrmJ8-nJo/maxres1.jpg",
+      "sourceVideoId": "u8GrmJ8-nJo",
+      "provenanceAndLiveTvdbState": "PENDING",
+      "uploadReady": false
+    },
+    {
+      "creator": "Mastu",
+      "code": "S2025E03",
+      "tvdbEpisodeId": "10970002",
+      "originalVariant": "maxres3",
+      "candidateVariant": "maxres1",
+      "candidateUrl": "https://i.ytimg.com/vi/TtXVBCytTdU/maxres1.jpg",
+      "sourceVideoId": "TtXVBCytTdU",
+      "provenanceAndLiveTvdbState": "PENDING",
+      "uploadReady": false
+    },
+    {
+      "creator": "Mastu",
+      "code": "S2025E06",
+      "tvdbEpisodeId": "11069529",
+      "originalVariant": "maxres1",
+      "candidateVariant": "maxres3",
+      "candidateUrl": "https://i.ytimg.com/vi/bqbPTr0RjuY/maxres3.jpg",
+      "sourceVideoId": "bqbPTr0RjuY",
+      "provenanceAndLiveTvdbState": "PENDING",
+      "uploadReady": false
+    }
+  ],
+  "rejectedAlternativeIds": [
+    {
+      "creator": "Djilsi",
+      "code": "S2019E11",
+      "episodeId": "9243038",
+      "candidateVariant": "maxres1",
+      "reason": "Logo Twitter/Instagram et @djilsi encore visibles en bas à gauche en pleine définition."
+    },
+    {
+      "creator": "Raska",
+      "code": "S2020E18",
+      "episodeId": "11960879",
+      "candidateVariant": "maxres1",
+      "reason": "Image dégradée par un effet de transition/fantômes superposés, non représentative d'une image propre."
+    }
+  ],
+  "sourceVideoRecapture": {
+    "attemptedPublicMetadataOnly": 3,
+    "blockedAntiBot": 3,
+    "retries": 0,
+    "bypass": false,
+    "result": "SOURCE_VIDEO_EXTRACTION_NOT_CURRENTLY_AVAILABLE_IN_GITHUB_ACTIONS"
+  },
+  "accountRestriction": {
+    "lastAuthenticatedDiagnosticRun": 37962023102,
+    "lastConfirmedRestrictionText": "Due to a number of artwork removals within the past day or week, your account has been temporarily restricted from uploading.",
+    "currentlyLifted": "NOT_VERIFIED",
+    "siteWriteAllowed": false
+  },
+  "workflowRuns": [
+    38048690729,
+    38048991182,
+    38049331413,
+    38049440172
+  ],
+  "safety": {
+    "original192SelectionUnchanged": true,
+    "neverUpload25Unchanged": true,
+    "separateRaskaHoldUnchanged": true,
+    "noTheTvdbSiteWrites": true,
+    "noUnverifiedApproval": true,
+    "noNewAccountOrBotChallengeCircumvention": true
+  }
+}
