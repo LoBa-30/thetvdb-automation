@@ -1,0 +1,27 @@
+name: TheTVDB V24.3 proposed clean stills full-resolution review (read-only)
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/artwork-user192-alternative-fullres-v24-3.yml'
+      - 'src/artwork-user192-alternative-fullres-v24-3.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-visual:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install Pillow
+      - run: python src/artwork-user192-alternative-fullres-v24-3.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: artwork-user192-alternative-fullres-v24-3
+          path: reports/artwork-user192-alternative-fullres-v24-3/
+          retention-days: 30
