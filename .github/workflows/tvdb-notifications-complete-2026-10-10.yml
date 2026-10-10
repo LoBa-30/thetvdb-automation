@@ -95,7 +95,7 @@ jobs:
               if(prior&&p>1){report.stopReason='REPEATED_PAGE';break;}
               seenPageHashes.add(hashes);
               for(const item of items)if(!seenItems.has(item.key)){seenItems.add(item.key);report.notifications.push(item);}
-              const pagination=await page.locator('a[href*="/dashboard/notifications?page="]').evaluateAll(as=>as.map(a=>a.href));
+              const pagination=await page.locator('a').evaluateAll(as=>as.map(a=>a.href).filter(h=>h.includes('/dashboard/notifications?page=')));
               const hasNext=pagination.some(h=>{try{return new URL(h).searchParams.get('page')===String(p+1)}catch{return false}});
               report.pages.push({page:p,items:items.length,newUnique:items.filter(x=>seenItems.has(x.key)).length,url:page.url(),hasNext});
               if(!hasNext){report.complete=true;report.stopReason='NO_NEXT_PAGE_LINK';break;}
