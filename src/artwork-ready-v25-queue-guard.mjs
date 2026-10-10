@@ -30,7 +30,7 @@ assert(q.staging?.length===192,'192 originals required');
 assert(q.permanentExclusions?.length===25,'25 permanent refusals required');
 assert(recapture.total===25 && recapture.items?.length===25,'25 recapture episodes not isolated');
 assert(reviewHtml.includes('doesNotAuthorizeAutomaticUpload:true'),'review HTML must not imply automatic upload');
-try{const code=(reviewHtml.match(/<script>([\\s\\S]*?)<\\/script>/)||[])[1]; if(!code)throw Error('NO_SCRIPT');new Script(code,{filename:'review.html'});}catch(e){assert(false,'review page JavaScript syntax invalid: '+e.message);}
+try{const a=reviewHtml.indexOf('<script>'),b=reviewHtml.lastIndexOf('</script>'); if(a<0||b<=a)throw Error('NO_SCRIPT');new Script(reviewHtml.slice(a+8,b),{filename:'review.html'});}catch(e){assert(false,'review page JavaScript syntax invalid: '+e.message);}
 assert(q.separateHold?.tvdbEpisodeId==='11960844','Raska S2018E05 hold missing');
 assert(manifest.targets?.length===192,'baseline approval count mismatch');
 assert(manifest.permanentlyExcluded?.length===25,'baseline exclusion count mismatch');
