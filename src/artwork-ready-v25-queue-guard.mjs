@@ -22,7 +22,7 @@ const numericId=(x)=>/^\d+$/.test(String(x));
 const validSha=(x)=>/^[0-9a-f]{64}$/.test(String(x));
 const validVideoId=(x)=>/^[A-Za-z0-9_-]{11}$/.test(String(x));
 const validUrl=(yt,variant,url)=>url==='https://i.ytimg.com/vi/'+yt+'/'+variant+'.jpg';
-assert(q.version==='V25.1','unexpected queue version');
+assert(q.version==='V25.2','unexpected queue version');
 assert(q.staging?.length===192,'192 originals required');
 assert(q.permanentExclusions?.length===25,'25 permanent refusals required');
 assert(q.separateHold?.tvdbEpisodeId==='11960844','Raska S2018E05 hold missing');
@@ -91,6 +91,7 @@ assert(extraById.get('11960801')?.status==='REJECTED_VISIBLE_DIGITAL_TEXT_LOGO',
 assert(extraById.get('10970002')?.status?.startsWith('VISUALLY_PROMISING'),'Mastu extra proposal state drift');
 assert(extraById.get('11696621')?.status?.startsWith('VISUALLY_PROMISING'),'Maxime extra proposal state drift');
 assert(q.policy?.uploadEnabled===false && q.policy?.automaticBatchUploadsEnabled===false,'upload controls accidentally enabled');
+assert(q.policy?.noOverwriting===true,'non-overwrite lock accidentally disabled');
 assert(q.siteRestriction?.liftDemonstrated===false,'restriction not proven lifted');
 assert(mastu.summary.historicalIdAndYoutubeMatches===25 && mastu.summary.unmatched===1,'Mastu crosswalk count drift');
 const verdict={generatedAt:new Date().toISOString(),mode:'OFFLINE_STAGING_INTEGRITY_NO_AUTHENTICATION_NO_SITE_REQUESTS',
