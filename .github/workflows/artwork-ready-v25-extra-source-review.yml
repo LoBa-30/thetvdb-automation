@@ -1,0 +1,27 @@
+name: TheTVDB V25 three additional alternative image sources (read-only)
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/artwork-ready-v25-extra-source-review.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install Pillow
+      - name: Collect exact YouTube stills without changing TheTVDB
+        run: python src/artwork-ready-v25-extra-source-review.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: artwork-ready-v25-extra-source-review
+          path: reports/artwork-ready-v25-extra-source-review/
+          retention-days: 30
