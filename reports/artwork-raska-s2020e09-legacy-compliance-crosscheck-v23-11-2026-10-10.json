@@ -1,0 +1,36 @@
+{
+  "version": "V23.11",
+  "date": "2026-10-10",
+  "mode": "READ_ONLY_HISTORICAL_VISUAL_REVIEW_CROSSCHECK",
+  "baselineCommit": "a1b5bc9afe009c01623c14979a5a2cc76e56510e",
+  "sourceFiles": [
+    "reports/artwork-user-approvals-v23-2-2026-10-09.json",
+    "reports/optionA-user67-decisions-and-compliance-review-2026-10-08.json"
+  ],
+  "newFinding": {
+    "creator": "Raska",
+    "code": "S2020E09",
+    "tvdbEpisodeId": "11960870",
+    "youtubeId": "8cDLGzGgEBc",
+    "selectedImageUrl": "https://i.ytimg.com/vi/8cDLGzGgEBc/maxres1.jpg",
+    "selectedImageVariant": "maxres1",
+    "sameUrlAsHistoricalReview": true,
+    "legacyStatus": "ADDITIONAL_MANUAL_COMPLIANCE_REVIEW",
+    "legacyReason": "Présence d'un titre d'émission sur un écran dans le décor; contrôle de conformité nécessaire",
+    "classification": "A_REVOIR_NOT_AUTOMATICALLY_BLOCKED",
+    "visualReinspectionDone": false,
+    "uploadApprovedByUser": true,
+    "editoriallyCleared": false
+  },
+  "safety": {
+    "userApprovedSelectionsPreserved": 192,
+    "explicitNoImageExcluded": 25,
+    "separateRaskaS2018E05Blocked": true,
+    "theTVDBRestrictionLastConfirmedRun": 37962023102,
+    "liftProven": false,
+    "theTVDBWrites": 0,
+    "uploads": 0,
+    "deleted": 0
+  },
+  "note": "Historical warning refers to a title on a screen within the scene, not necessarily a digitally added overlay. Requires human editorial inspection; do not treat as automatically forbidden or automatically approved."
+}
