@@ -1,0 +1,132 @@
+name: TheTVDB all notifications inventory (read-only)
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tvdb-notifications-complete-2026-10-10.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Read all notification pages without writes
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: |
+          node --input-type=module <<'NOTIFICATION_JS'
+          import { chromium } from '@playwright/test';
+          import fs from 'node:fs/promises';
+          import crypto from 'node:crypto';
+          
+          const OUT='reports/thetvdb-notifications-complete-2026-10-10';
+          await fs.mkdir(OUT,{recursive:true});
+          const report={
+            createdAt:new Date().toISOString(), mode:'AUTHENTICATED_NOTIFICATIONS_READ_ONLY',
+            authenticated:false, pages:[], notifications:[], total:0, unique:0,
+            complete:false, stopReason:null, result:'NOT_STARTED', blockedSiteWrites:0
+          };
+          let browser=null;
+          const BASE='https://thetvdb.com';
+          const normalize=s=>(s||'').replace(/\s+/g,' ').trim();
+          function extract(body,page){
+            const start=body.search(/If you need support for any of these notifications/i);
+            const section=start<0?body:body.slice(start);
+            const pieces=section.split(/\bMark As Read\b/i).slice(1);
+            return pieces.map((p,index)=>{
+              let t=normalize(p);
+              t=t.replace(/\s*«\s*(?:\d+\s*){1,30}(?:»)?\s*$/,'').trim();
+              if(!t||t.length<8)return null;
+              const dateMatch=t.match(/\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}\s+\d{1,2}:\d{2}\s*[AP]M UTC\b/i);
+              const refs=[...t.matchAll(/\bREF-\d+\b/g)].map(x=>x[0]);
+              const reason=(t.match(/(?:violate a site rule:)\s*([^\.]+)\./i)||[])[1]||null;
+              const moderator=dateMatch?normalize(t.slice(0,dateMatch.index)):null;
+              const message=dateMatch?normalize(t.slice(dateMatch.index+dateMatch[0].length)):t;
+              const key=crypto.createHash('sha256').update(t).digest('hex').slice(0,20);
+              return {page, position:index+1, key, date:dateMatch?.[0]||null,
+                sender:moderator, refs, reason, message:message.slice(0,6000), raw:t.slice(0,6500)};
+            }).filter(Boolean);
+          }
+          try {
+            if(!process.env.TVDB_USERNAME||!process.env.TVDB_PASSWORD)throw Error('AUTH_SECRETS_MISSING');
+            browser=await chromium.launch({headless:true});
+            const context=await browser.newContext({locale:'en-US'});
+            const page=await context.newPage();
+            const login=await page.goto(BASE+'/auth/login',{waitUntil:'domcontentloaded',timeout:60000});
+            if(login?.status()!==200)throw Error('LOGIN_HTTP_'+login?.status());
+            const form=page.locator('form').filter({has:page.locator('input[name="password"]')}).first();
+            if(await form.count()!==1)throw Error('LOGIN_FORM_MISSING');
+            await form.locator('input[name="email"]').fill(process.env.TVDB_USERNAME);
+            await form.locator('input[name="password"]').fill(process.env.TVDB_PASSWORD);
+            await form.locator('button[type="submit"],input[type="submit"]').first().click();
+            await page.waitForLoadState('domcontentloaded').catch(()=>{});
+            const proof=await context.request.get(BASE+'/auth/getuser',{timeout:25000}).catch(()=>null);
+            const identity=await proof?.json().catch(()=>null);
+            if(!proof?.ok()||!identity||!Object.keys(identity).length)throw Error('AUTH_NOT_PROVEN');
+            report.authenticated=true;
+            await context.route('**/*',async route=>{
+              const req=route.request(), method=req.method().toUpperCase();
+              let host='';try{host=new URL(req.url()).hostname}catch{}
+              if(host.endsWith('thetvdb.com')&&!['GET','HEAD','OPTIONS'].includes(method)){
+                report.blockedSiteWrites++;return route.abort('blockedbyclient');
+              }
+              return route.continue();
+            });
+            const seenPageHashes=new Set();
+            const seenItems=new Set();
+            for(let p=1;p<=150;p++){
+              const url=BASE+'/dashboard/notifications'+(p===1?'':'?page='+p);
+              const response=await page.goto(url,{waitUntil:'domcontentloaded',timeout:60000});
+              if(!response||response.status()!==200)throw Error('NOTIFICATION_PAGE_'+p+'_HTTP_'+response?.status());
+              const body=await page.locator('body').innerText({timeout:20000});
+              if(page.url().includes('/auth/login'))throw Error('SESSION_REDIRECTED_ON_PAGE_'+p);
+              const items=extract(body,p);
+              const hashes=items.map(x=>x.key).join(',');
+              const prior=seenPageHashes.has(hashes);
+              if(prior&&p>1){report.stopReason='REPEATED_PAGE';break;}
+              seenPageHashes.add(hashes);
+              for(const item of items)if(!seenItems.has(item.key)){seenItems.add(item.key);report.notifications.push(item);}
+              const pagination=await page.locator('a[href*="/dashboard/notifications?page="]').evaluateAll(as=>as.map(a=>a.href));
+              const hasNext=pagination.some(h=>{try{return new URL(h).searchParams.get('page')===String(p+1)}catch{return false}});
+              report.pages.push({page:p,items:items.length,newUnique:items.filter(x=>seenItems.has(x.key)).length,url:page.url(),hasNext});
+              if(!hasNext){report.complete=true;report.stopReason='NO_NEXT_PAGE_LINK';break;}
+            }
+            if(!report.stopReason)report.stopReason='MAX_150_PAGES';
+            report.total=report.pages.reduce((s,x)=>s+x.items,0);
+            report.unique=report.notifications.length;
+            const reasons={};const types={};
+            for(const n of report.notifications){
+              const reason=n.reason||'Other / no moderation reason';
+              reasons[reason]=(reasons[reason]||0)+1;
+              const type=/removed by a moderator/i.test(n.message)?'Artwork removed':/restricted/i.test(n.message)?'Restriction warning':'Other';
+              types[type]=(types[type]||0)+1;
+            }
+            report.reasonCounts=reasons;report.typeCounts=types;
+            report.result=report.complete?'COMPLETE_READ_ONLY':'PARTIAL_READ_ONLY';
+          }catch(e){report.error=String(e?.message||e);report.result='FAILED_OR_PARTIAL_READ_ONLY';}
+          finally{await browser?.close().catch(()=>{});}
+          await fs.writeFile(OUT+'/notifications.json',JSON.stringify(report,null,2)+'\n');
+          const safe={createdAt:report.createdAt,result:report.result,authenticated:report.authenticated,pages:report.pages.length,
+            total:report.total,unique:report.unique,reasonCounts:report.reasonCounts||{},typeCounts:report.typeCounts||{},
+            complete:report.complete,stopReason:report.stopReason,blockedSiteWrites:report.blockedSiteWrites,error:report.error||null};
+          await fs.writeFile(OUT+'/summary.json',JSON.stringify(safe,null,2)+'\n');
+          console.log('NOTIFICATION_AUDIT_SUMMARY='+JSON.stringify(safe));
+          if(report.result!=='COMPLETE_READ_ONLY')process.exitCode=2;
+          
+          NOTIFICATION_JS
+      - name: Upload read-only inventory (not committed to public repo)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tvdb-notifications-complete-2026-10-10
+          path: reports/thetvdb-notifications-complete-2026-10-10/
+          retention-days: 7
