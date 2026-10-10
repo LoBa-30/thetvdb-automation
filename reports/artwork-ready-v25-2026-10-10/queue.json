@@ -1,5 +1,5 @@
 {
-  "version": "V25.1",
+  "version": "V25.2",
   "createdDate": "2026-10-10",
   "mode": "READ_ONLY_UPLOAD_PREPARATION_QUEUE_NO_SITE_OPERATIONS",
   "sources": [
@@ -38,7 +38,7 @@
     "alternativeVariantsRequireUserDecision": true,
     "noImageEditingOrLogoRemoval": true,
     "noDupes": true,
-    "noOverwriting": false,
+    "noOverwriting": true,
     "requireCurrentTvdbIdentityAndMissingArtwork": true,
     "noCaptchaOrRateLimitBypass": true,
     "oneCanaryFirst": true
@@ -6963,6 +6963,7 @@
   },
   "changeLog": [
     "V25.1: extra full-resolution check for 3 variants, Raska S2023E06 maxres2 rejected, Mastu and Maxime second choices remain unapproved.",
-    "No modification to 192 original user-approved choices, 25 refusals, or Raska separate hold."
+    "No modification to 192 original user-approved choices, 25 refusals, or Raska separate hold.",
+    "V25.2: lock no-overwrite policy to true, requiring no write when artwork already exists."
   ]
 }
