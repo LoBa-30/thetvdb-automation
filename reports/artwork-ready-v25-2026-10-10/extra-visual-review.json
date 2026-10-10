@@ -1,0 +1,61 @@
+{
+  "version": "V25.1",
+  "date": "2026-10-10",
+  "mode": "SOURCE_EXACT_BYTES_AND_MANUAL_FULL_RES_VISUAL_SCREEN",
+  "sourceRunId": 38054841671,
+  "sourceArtifactId": 11670494248,
+  "checked": 3,
+  "visuallyPromising": 2,
+  "rejected": 1,
+  "moreDistinctEpisodesWithPromisingAlternatives": 0,
+  "original192Unchanged": true,
+  "restrictionLift": false,
+  "rows": [
+    {
+      "creator": "Raska",
+      "code": "S2023E06",
+      "id": "11960801",
+      "variant": "maxres2",
+      "sha256": "5e8b80add93ff878f4c86740975b4d2c19b635fe54409ee17a6b5c0bbeb6e914",
+      "status": "REJECTED_VISIBLE_DIGITAL_TEXT_LOGO",
+      "finding": "Le texte et pictogramme +10 € restent très visibles en bas à droite à 1280×720.",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fileBytesVerified": true,
+      "readyToUpload": false
+    },
+    {
+      "creator": "Mastu",
+      "code": "S2025E03",
+      "id": "10970002",
+      "variant": "maxres2",
+      "sha256": "d4853d53b7e5986ac491e35e328850b63d142fca686d6ef8dc2803e3108b2c80",
+      "status": "VISUALLY_PROMISING_NEEDS_EPISODE_AND_USER_APPROVAL",
+      "finding": "Portrait de l'invitée sans sous-titre ajouté apparent, source YouTube du même ID.",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fileBytesVerified": true,
+      "readyToUpload": false
+    },
+    {
+      "creator": "Maxime Biaggi",
+      "code": "S2024E02",
+      "id": "11696621",
+      "variant": "maxres3",
+      "sha256": "8018af496adcf6050db378030c30ccfdd70f83d7d5216750714f79c44e042e63",
+      "status": "VISUALLY_PROMISING_NEEDS_EPISODE_AND_USER_APPROVAL",
+      "finding": "Scène naturelle avec deux personnes, sans overlay décoratif floral.",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fileBytesVerified": true,
+      "readyToUpload": false
+    }
+  ],
+  "thetvdbWrites": 0
+}
