@@ -1,5 +1,5 @@
 {
-  "version": "V24.3",
+  "version": "V24.3.1",
   "createdOn": "2026-10-10",
   "mode": "READ_ONLY_PROPOSED_ALTERNATIVES",
   "basedOn": "GitHub run 38048991182 (105 exact same-video maxres variants reviewed in 9 sheets)",
@@ -135,9 +135,9 @@
       "youtubeId": "u8GrmJ8-nJo",
       "userSelectedVariant": "maxres3",
       "userSelectedUrl": "https://i.ytimg.com/vi/u8GrmJ8-nJo/maxres3.jpg",
-      "suggestedVariant": "maxres2",
-      "suggestedUrl": "https://i.ytimg.com/vi/u8GrmJ8-nJo/maxres2.jpg",
-      "why": "Plan net du créateur sans watermark TikTok.",
+      "suggestedVariant": "maxres1",
+      "suggestedUrl": "https://i.ytimg.com/vi/u8GrmJ8-nJo/maxres1.jpg",
+      "why": "La variante maxres2 présente des artefacts de compression/transition visibles en 1280×720 ; recontrôler maxres1 en pleine définition.",
       "status": "CANDIDATE_PENDING_FULL_RES_VISUAL_PROVENANCE_AND_LIVE_TVDB_PREFLIGHT",
       "readyToUpload": false
     },
@@ -174,5 +174,6 @@
     "accountRestrictionStillNotCleared": true,
     "noAutoUpload": true,
     "manualFullResolutionReviewStillNeeded": true
-  }
+  },
+  "note": "Mastu S2020E35 maxres2 rejected at full resolution due conspicuous image artifacts; switched *proposal only* to maxres1 pending high-res verification. Original maxres3 untouched."
 }
