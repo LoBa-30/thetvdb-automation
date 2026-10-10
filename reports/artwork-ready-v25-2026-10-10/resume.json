@@ -1,0 +1,110 @@
+{
+  "schema": "artwork-release-resume/v25",
+  "date": "2026-10-10",
+  "repo": "LoBa-30/thetvdb-automation",
+  "entrypoint": "reports/artwork-ready-v25-2026-10-10/README.md",
+  "immutableSources": {
+    "userApprovals": "reports/artwork-user-approvals-v23-2-2026-10-09.json",
+    "sourcePreflight": "reports/artwork-user192-source-preflight-v23-2/report.json",
+    "queue": "reports/artwork-ready-v25-2026-10-10/queue.json",
+    "recaptureBacklog": "reports/artwork-ready-v25-2026-10-10/needs-new-still-25.json",
+    "historyCrosswalk": "reports/artwork-mastu-26-historical-id-reconciliation-v25-2026-10-10.json",
+    "visualFlags": "reports/artwork-user192-manual-visual-flags-v24-1-2026-10-10.json",
+    "newAlternativeEvidence": "reports/artwork-ready-v25-2026-10-10/extra-visual-review.json"
+  },
+  "baselineCounts": {
+    "approvedOriginals": 192,
+    "lockedRefusals": 25,
+    "heldRaska": 1,
+    "unflaggedNeedFullVisual": 157,
+    "provisionalAltEpisodes": 10,
+    "stillNeedNewFrame": 25,
+    "matchedMastuHistorical": 25,
+    "unmatchedMastuHistorical": 1
+  },
+  "status": "UPLOADS_STRICTLY_DISABLED",
+  "siteRestrictionLastAuthenticEvidence": {
+    "run": 37962023102,
+    "observed": "2026-10-09",
+    "restrictionActive": true,
+    "revocationProven": false
+  },
+  "manualGateSequence": [
+    {
+      "sequence": 1,
+      "name": "read_only_account_restriction_check",
+      "workflow": ".github/workflows/artwork-user192-form-restriction-diagnostic-v23-2.yml",
+      "condition": "Run only on explicit request or when user observes restriction disappearing",
+      "requirement": "Authenticated read-only form actually visible, no warning, 202/401/403/429 or challenge",
+      "onFailure": "STOP_NO_UPLOAD_NO_RETRY"
+    },
+    {
+      "sequence": 2,
+      "name": "new_notifications_review",
+      "requirement": "Check recent TheTVDB moderation notices, confirm no new blocking messages",
+      "onFailure": "STOP"
+    },
+    {
+      "sequence": 3,
+      "name": "offline_integrity_check",
+      "workflow": ".github/workflows/artwork-ready-v25-guard.yml",
+      "requirement": "Exactly 192 originals, 25 locked refusals, 1 Raska held, source hashes intact",
+      "onFailure": "STOP"
+    },
+    {
+      "sequence": 4,
+      "name": "single_canary_source_and_episode_check",
+      "target": {
+        "creator": "Djilsi",
+        "code": "S2018E02",
+        "tvdbEpisodeId": "9242991",
+        "youtubeId": "k1blyDB6xj4",
+        "variant": "maxres2"
+      },
+      "requirement": "Visual/editorial review at full size, present-day episode ID/title/channel link and missing artwork proof, selected file hash unchanged",
+      "onFailure": "STOP"
+    },
+    {
+      "sequence": 5,
+      "name": "single_canary_upload_with_explicit_new_approval",
+      "workflow": ".github/workflows/artwork-user192-canary-djilsi-s2018e02-v23-2.yml",
+      "enabled": false,
+      "requirement": "Separate reviewed unlocking commit and explicit fresh user go-ahead ONLY after all checks; one episode",
+      "onFailure": "STOP_DO_NOT_RETRY"
+    },
+    {
+      "sequence": 6,
+      "name": "site_persistence_and_duplicate_postcheck",
+      "requirement": "Positive acceptance on TheTVDB with visible proper episode image, no duplicate, no moderator warning",
+      "onFailure": "STOP"
+    },
+    {
+      "sequence": 7,
+      "name": "gradual_further_uploads",
+      "enabled": false,
+      "requirement": "New user instruction and full individual controls for every image; never auto-launch 192-image wave",
+      "onFailure": "STOP"
+    }
+  ],
+  "hazardList": [
+    "Any account upload restriction message or absent form",
+    "HTTP 202/401/403/429, captcha or security challenge",
+    "Selected original variant replaced without user's explicit choice",
+    "Any of the 25 AUCUNE_IMAGE_ADAPTEE entered pipeline",
+    "Raska 11960844 entered pipeline",
+    "Wrong episode identity/title, thumbnail derived from wrong video",
+    "Watermark, subtitle, title card, unrelated brand or timer",
+    "Duplicate already present on TheTVDB",
+    "File hash changed from pinned original SHA256",
+    "Any unexpected POST, crop or upload confirmation mismatch"
+  ],
+  "nonNegotiable": {
+    "noAccountBypass": true,
+    "noBulkUntilCanaryAndClearance": true,
+    "noAutomaticChangeOfSelectedVariant": true,
+    "noDeletion": true,
+    "noOverwriting": true,
+    "noSiteWritesWhileRestricted": true,
+    "noBackgroundActionUnlessScheduled": true
+  }
+}
