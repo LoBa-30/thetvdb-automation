@@ -1,46 +1,15 @@
-name: User-approved artwork V23.2 — Djilsi S2018E02 one-shot canary
+# SAFETY LOCK: disabled by default until TheTVDB account restriction is verified lifted.
+# V23 canary implementation preserved in src/artwork-user192-canary-djilsi-s2018e02-v23-2.js.
+# To enable later, require a new reviewed PR, a fresh read-only authentication/preflight,
+# editorial approval of the exact image, and explicit permission for ONE POST sequence.
+name: LOCKED — TheTVDB V23 Djilsi artwork upload canary
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/artwork-user192-canary-djilsi-s2018e02-v23-2.yml'
+  workflow_dispatch:
 permissions:
-  contents: write
-concurrency:
-  group: tvdb-user192-ONE-SHOT-djilsi-s2018e02
-  cancel-in-progress: false
+  contents: read
 jobs:
-  guarded-one-write:
+  blocked-until-safe-reapproval:
+    if: ${{ false }}
     runs-on: ubuntu-latest
-    timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v5
-        with:
-          node-version: '22'
-      - run: npm install
-      - run: npx playwright install --with-deps chromium
-      - run: node --check src/artwork-user192-canary-djilsi-s2018e02-v23-2.js
-      - name: Single exact user-approved artwork, two-stage upload and persistence verification
-        env:
-          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
-          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
-          TVDB_USER192_CANARY_APPLY: 'yes'
-        run: node src/artwork-user192-canary-djilsi-s2018e02-v23-2.js
-      - name: Preserve full result, successful or blocked, without an automatic retry
-        if: always()
-        run: |
-          if [ -f reports/artwork-user192-canary-djilsi-s2018e02-v23-2/report.json ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add reports/artwork-user192-canary-djilsi-s2018e02-v23-2/
-            git commit -m "Record one-shot artwork V23.2 canary [skip ci]" || true
-            git pull --rebase
-            git push
-          fi
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: artwork-user192-djilsi-s2018e02-one-shot
-          path: reports/artwork-user192-canary-djilsi-s2018e02-v23-2/
-          retention-days: 30
+      - run: echo 'Upload intentionally disabled until restriction and editorial gates are cleared.'
