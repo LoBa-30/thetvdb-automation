@@ -1,5 +1,5 @@
 {
-  "version": "V25.0",
+  "version": "V25.1",
   "createdDate": "2026-10-10",
   "mode": "READ_ONLY_UPLOAD_PREPARATION_QUEUE_NO_SITE_OPERATIONS",
   "sources": [
@@ -2589,11 +2589,12 @@
         {
           "variant": "maxres2",
           "url": "https://i.ytimg.com/vi/RKpy_sqdZWM/maxres2.jpg",
-          "origin": "V25_FURTHER_CANDIDATE_SOURCE_CHECK_PENDING",
+          "origin": "V25.1_FULL_RES_REJECTED",
           "userApproved": false,
           "finalEditorialApproved": false,
           "provenanceConfirmed": false,
-          "readyForUpload": false
+          "readyForUpload": false,
+          "fullResolutionVisualStatus": "REJECTED_DIGITAL_PLUS_10_EUR_OVERLAY"
         }
       ],
       "stagingStatus": "ORIGINAL_FLAGGED_NEEDS_NEW_GENUINE_FRAME",
@@ -3095,11 +3096,13 @@
         {
           "variant": "maxres3",
           "url": "https://i.ytimg.com/vi/6csK8iek7PU/maxres3.jpg",
-          "origin": "V25_ALTERNATIVE_SECOND_CHOICE_SOURCE_CHECK_PENDING",
+          "origin": "V25.1_FULL_RES_VISUALLY_PROMISING_OPTION",
           "userApproved": false,
           "finalEditorialApproved": false,
           "provenanceConfirmed": false,
-          "readyForUpload": false
+          "readyForUpload": false,
+          "sha256": "8018af496adcf6050db378030c30ccfdd70f83d7d5216750714f79c44e042e63",
+          "fullResolutionVisualStatus": "VISUALLY_PROMISING_NOT_CERTIFIED"
         }
       ],
       "stagingStatus": "ALTERNATIVE_NEEDS_EXPLICIT_USER_CHOICE_AND_FINAL_REVIEW",
@@ -6696,11 +6699,13 @@
         {
           "variant": "maxres2",
           "url": "https://i.ytimg.com/vi/TtXVBCytTdU/maxres2.jpg",
-          "origin": "V25_ALTERNATIVE_SECOND_CHOICE_SOURCE_CHECK_PENDING",
+          "origin": "V25.1_FULL_RES_VISUALLY_PROMISING_OPTION",
           "userApproved": false,
           "finalEditorialApproved": false,
           "provenanceConfirmed": false,
-          "readyForUpload": false
+          "readyForUpload": false,
+          "sha256": "d4853d53b7e5986ac491e35e328850b63d142fca686d6ef8dc2803e3108b2c80",
+          "fullResolutionVisualStatus": "VISUALLY_PROMISING_NOT_CERTIFIED"
         }
       ],
       "stagingStatus": "ALTERNATIVE_NEEDS_EXPLICIT_USER_CHOICE_AND_FINAL_REVIEW",
@@ -6955,5 +6960,9 @@
     "youtubeId": "q_dSPAPZCz4",
     "selectedImageVariant": "maxres3",
     "reason": "Prior review BLOCKED_OVERLAY_OR_UNSUITABLE_AUTO_FRAMES, uploadApproved:false, despite user selection"
-  }
+  },
+  "changeLog": [
+    "V25.1: extra full-resolution check for 3 variants, Raska S2023E06 maxres2 rejected, Mastu and Maxime second choices remain unapproved.",
+    "No modification to 192 original user-approved choices, 25 refusals, or Raska separate hold."
+  ]
 }
