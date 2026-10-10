@@ -6,6 +6,7 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import { Script } from 'node:vm';
 const ROOT=process.cwd();
 const REL='reports/artwork-ready-v25-2026-10-10';
 const read=(p)=>JSON.parse(fs.readFileSync(path.join(ROOT,p),'utf8'));
@@ -16,6 +17,8 @@ const flags=read('reports/artwork-user192-manual-visual-flags-v24-1-2026-10-10.j
 const alt=read('reports/artwork-user192-fullres-alternatives-review-v24-4-2026-10-10.json');
 const mastu=read('reports/artwork-mastu-26-historical-id-reconciliation-v25-2026-10-10.json');
 const more=read(REL+'/extra-visual-review.json');
+const recapture=read(REL+'/needs-new-still-25.json');
+const reviewHtml=fs.readFileSync(path.join(ROOT,REL,'review.html'),'utf8');
 const errors=[],warn=[];
 const assert=(ok,msg)=>{if(!ok)errors.push(msg)};
 const numericId=(x)=>/^\d+$/.test(String(x));
@@ -25,6 +28,9 @@ const validUrl=(yt,variant,url)=>url==='https://i.ytimg.com/vi/'+yt+'/'+variant+
 assert(q.version==='V25.2','unexpected queue version');
 assert(q.staging?.length===192,'192 originals required');
 assert(q.permanentExclusions?.length===25,'25 permanent refusals required');
+assert(recapture.total===25 && recapture.items?.length===25,'25 recapture episodes not isolated');
+assert(reviewHtml.includes('doesNotAuthorizeAutomaticUpload:true'),'review HTML must not imply automatic upload');
+try{const code=(reviewHtml.match(/<script>([\\s\\S]*?)<\\/script>/)||[])[1]; if(!code)throw Error('NO_SCRIPT');new Script(code,{filename:'review.html'});}catch(e){assert(false,'review page JavaScript syntax invalid: '+e.message);}
 assert(q.separateHold?.tvdbEpisodeId==='11960844','Raska S2018E05 hold missing');
 assert(manifest.targets?.length===192,'baseline approval count mismatch');
 assert(manifest.permanentlyExcluded?.length===25,'baseline exclusion count mismatch');
@@ -81,6 +87,9 @@ for(const r of q.staging){
  }
 }
 assert(seenIds.size===192,'less than 192 unique targets');
+const recaptureIds=new Set(recapture.items.map(x=>String(x.tvdbEpisodeId)));
+assert(recaptureIds.size===25,'recapture backlog contains duplicate IDs');
+for(const r of q.staging.filter(x=>x.stagingStatus==='ORIGINAL_FLAGGED_NEEDS_NEW_GENUINE_FRAME'))assert(recaptureIds.has(String(r.tvdbEpisodeId)),'recapture backlog missing '+r.tvdbEpisodeId);
 assert(allExclusions.size===25,'not 25 unique permanent refusals');
 assert(approvedAlt.size===10,'unexpected V24 promising count');
 assert(statuses.NO_OBVIOUS_OVERLAY_AWAITING_FINAL_EDITORIAL_INSPECTION===157,'157 unflagged missing');
