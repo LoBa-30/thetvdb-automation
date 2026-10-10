@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/artwork-user192-alternative-fullres-v24-3.yml'
       - 'src/artwork-user192-alternative-fullres-v24-3.py'
+      - 'reports/artwork-user192-proposed-clean-alternatives-v24-3-2026-10-10.json'
   workflow_dispatch:
 permissions:
   contents: read
