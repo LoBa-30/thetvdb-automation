@@ -1,0 +1,32 @@
+name: TheTVDB V25 staging safety checks (NO TVDB access)
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/artwork-ready-v25-guard.yml'
+      - 'src/artwork-ready-v25-queue-guard.mjs'
+      - 'reports/artwork-ready-v25-2026-10-10/**'
+      - 'reports/artwork-mastu-26-historical-id-reconciliation-v25-2026-10-10.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: tvdb-artwork-192-v25-offline-staging-guard
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: Verify immutable IDs, all user choices and every refusal; no TheTVDB network access
+        run: node src/artwork-ready-v25-queue-guard.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: tvdb-artwork-192-v25-offline-integrity
+          path: reports/artwork-ready-v25-2026-10-10/artifacts/
+          retention-days: 30
