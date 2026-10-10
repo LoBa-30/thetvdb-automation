@@ -1,0 +1,33 @@
+name: TheTVDB artwork 192 editorial triage V24 (read-only)
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/artwork-user192-editorial-triage-v24.yml'
+      - 'src/artwork-user192-editorial-triage-v24-2026-10-10.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: artwork-user192-readonly-triage-v24
+  cancel-in-progress: true
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install image decoder only
+        run: python -m pip install Pillow
+      - name: Validate source manifest and create visual contact sheets, without TheTVDB login or writes
+        run: python src/artwork-user192-editorial-triage-v24-2026-10-10.py
+      - name: Upload review reports and sheets as private run artifacts (no push)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: artwork-user192-readonly-editorial-triage-v24
+          path: reports/artwork-user192-editorial-triage-v24-2026-10-10/
+          retention-days: 30
