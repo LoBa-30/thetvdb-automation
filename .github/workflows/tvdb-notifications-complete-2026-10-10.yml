@@ -92,7 +92,7 @@ jobs:
               const items=extract(body,p);
               const hashes=items.map(x=>x.key).join(',');
               const prior=seenPageHashes.has(hashes);
-              if(prior&&p>1){report.stopReason='REPEATED_PAGE';break;}
+              if(prior&&p>1){report.stopReason='REPEATED_LAST_PAGE';report.complete=(report.pages.at(-1)?.items??20)<20;break;}
               seenPageHashes.add(hashes);
               for(const item of items)if(!seenItems.has(item.key)){seenItems.add(item.key);report.notifications.push(item);}
               const pagination=await page.locator('a').evaluateAll(as=>as.map(a=>a.href).filter(h=>h.includes('/dashboard/notifications?page=')));
