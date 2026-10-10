@@ -1,0 +1,31 @@
+name: TheTVDB user192 alternative stills V24.2 (read-only)
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/artwork-user192-alt-stills-v24-2.yml'
+      - 'src/artwork-user192-alt-stills-v24-2-2026-10-10.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: artwork-user192-alt-stills-readonly-v24-2
+  cancel-in-progress: true
+jobs:
+  alternatives:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install Pillow
+      - name: Make contact sheets from same-video alternatives only (no site writes)
+        run: python src/artwork-user192-alt-stills-v24-2-2026-10-10.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: artwork-user192-alt-stills-readonly-v24-2
+          path: reports/artwork-user192-alt-stills-v24-2-2026-10-10/
+          retention-days: 30
