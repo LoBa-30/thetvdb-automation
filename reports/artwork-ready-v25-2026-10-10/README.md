@@ -61,3 +61,7 @@ Le workflow [V25 staging safety checks](https://github.com/LoBa-30/thetvdb-autom
 ## État final de cette préparation
 
 **192 conservées · 25 refus préservés · 1 cas Raska bloqué · 10 propositions conditionnelles · 25 captures à refaire · 0 upload · 0 suppression · 0 re-test agressif de la restriction.**
+
+## Addendum documentaire du 12 octobre 2026 (V25.3, lecture seule)
+
+Le rapport [`artwork-public-identity-recheck-v25-3-2026-10-12.json`](../artwork-public-identity-recheck-v25-3-2026-10-12.json) confirme sur les fiches publiques TheTVDB l'identité et l'absence d'illustration d'épisode de **Djilsi S2018E02 / ID 9242991** et **Mastu S2021E17 / ID 12014527**. Le titre et la date de la vidéo officielle Mastu `qbR6r1voD5Q` concordent également avec la fiche publique. **Ne pas convertir cette confirmation publique en appariement d'archive historique : Mastu reste à 25/26 dans le rapprochement documentaire V25.** Ni les images en pleine résolution ni les SHA-256 n'ont été revalidés à cette occasion. Le lien public d'ajout n'est pas une preuve de levée de restriction : **0 upload, 0 autorisation supplémentaire et aucun changement de la file V25.2**.
