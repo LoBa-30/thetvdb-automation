@@ -1,0 +1,66 @@
+{
+  "version": "V25.3-documentary-only",
+  "checkedOn": "2026-10-12",
+  "mode": "READ_ONLY_PUBLIC_PAGE_RECHECK_NO_UPLOAD_OR_APPROVAL_CHANGE",
+  "parentCheckpoint": "reports/artwork-ready-v25-2026-10-10/queue.json",
+  "readOnlyEvidence": [
+    {
+      "creator": "Djilsi",
+      "tvdbEpisodeId": "9242991",
+      "episodeCode": "S2018E02",
+      "tvdbTitle": "DES B*TES PARTOUT ! #DécouvreTonPays 2",
+      "tvdbDate": "2018-08-16",
+      "tvdbPage": "https://www.thetvdb.com/series/djilsi/episodes/9242991",
+      "currentEpisodeArtwork": "MISSING_PLACEHOLDER_ON_PUBLIC_PAGE",
+      "placeholderUrl": "https://www.thetvdb.com/images/missing/episode.jpg",
+      "selectedSourceYoutubeId": "k1blyDB6xj4",
+      "provenanceEvidence": "The public description of official Djilsi S2018E03 links to the S2018E02 video ID k1blyDB6xj4; direct video metadata and image bytes have NOT been revalidated in this pass.",
+      "provenanceCorroboration": "https://www.thetvdb.com/series/djilsi/allseasons/official",
+      "originalVariant": "maxres2",
+      "stillFullResolutionVisualCertified": false,
+      "sourceHashRefetchedAndCompared": false,
+      "submissionAllowed": false
+    },
+    {
+      "creator": "Mastu",
+      "tvdbEpisodeId": "12014527",
+      "episodeCode": "S2021E17",
+      "tvdbTitle": "JE REGARDE UN EPISODE DE NEXT (10 ans après) #8",
+      "tvdbDate": "2021-06-26",
+      "tvdbPage": "https://thetvdb.com/series/346011-show/episodes/12014527",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qbR6r1voD5Q",
+      "youtubeId": "qbR6r1voD5Q",
+      "youtubeTitle": "JE REGARDE UN EPISODE DE NEXT (10 ans après) #8",
+      "youtubeChannel": "Mastu (verified)",
+      "youtubeDate": "2021-06-26",
+      "currentEpisodeArtwork": "MISSING_PLACEHOLDER_ON_PUBLIC_PAGE",
+      "placeholderUrl": "https://thetvdb.com/images/missing/episode.jpg",
+      "currentPublicEpisodeIdentityMatched": true,
+      "historicalArchiveSourceMatchConfirmed": false,
+      "historicalReconciliationNote": "The V25 25-of-26 historical archive crosswalk is NOT promoted to 26-of-26. Current public identity agreement is distinct from historical archive reconciliation.",
+      "sourceImageFullResolutionVisualCertified": false,
+      "sourceHashRefetchedAndCompared": false,
+      "submissionAllowed": false
+    }
+  ],
+  "safety": {
+    "accountRestrictionLastAuthenticatedConfirmation": "2026-10-09",
+    "accountRestrictionLiftVerified": false,
+    "publicAddArtworkLinkDoesNotProveWritePermissions": true,
+    "noAuthenticatedFormTestThisPass": true,
+    "uploadCountThisPass": 0,
+    "deletionCountThisPass": 0,
+    "original192ApprovalsUnchanged": true,
+    "excluded25Unchanged": true,
+    "raskaS2018E05StillBlocked": true,
+    "noAlternativeVariantApproved": true,
+    "artworkQueueNotModified": true
+  },
+  "nextSteps": [
+    "Confirm account restriction lift once, read-only, through authorized authenticated check; stop if uncertain.",
+    "Reinspect the exact selected source at full resolution and compare image SHA-256 to V25 queue.",
+    "Verify current episode image remains missing immediately before any future canary.",
+    "Keep historic Mastu archive match unresolved pending historical evidence.",
+    "Require fresh, explicit approval before any change of selected image variant or upload canary."
+  ]
+}
