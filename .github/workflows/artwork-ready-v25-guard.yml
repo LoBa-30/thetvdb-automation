@@ -7,6 +7,22 @@ on:
       - 'src/artwork-ready-v25-queue-guard.mjs'
       - 'reports/artwork-ready-v25-2026-10-10/**'
       - 'reports/artwork-mastu-26-historical-id-reconciliation-v25-2026-10-10.json'
+      - 'reports/artwork-user-approvals-v23-2-2026-10-09.json'
+      - 'reports/artwork-user192-source-preflight-v23-2/**'
+      - 'reports/artwork-user192-manual-visual-flags-v24-1-2026-10-10.json'
+      - 'reports/artwork-user192-fullres-alternatives-review-v24-4-2026-10-10.json'
+      - 'reports/artwork-public-identity-recheck-v25-3-2026-10-12.json'
+  pull_request:
+    paths:
+      - '.github/workflows/artwork-ready-v25-guard.yml'
+      - 'src/artwork-ready-v25-queue-guard.mjs'
+      - 'reports/artwork-ready-v25-2026-10-10/**'
+      - 'reports/artwork-mastu-26-historical-id-reconciliation-v25-2026-10-10.json'
+      - 'reports/artwork-user-approvals-v23-2-2026-10-09.json'
+      - 'reports/artwork-user192-source-preflight-v23-2/**'
+      - 'reports/artwork-user192-manual-visual-flags-v24-1-2026-10-10.json'
+      - 'reports/artwork-user192-fullres-alternatives-review-v24-4-2026-10-10.json'
+      - 'reports/artwork-public-identity-recheck-v25-3-2026-10-12.json'
   workflow_dispatch:
 permissions:
   contents: read
@@ -22,6 +38,8 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: '22'
+      - name: Check offline safety guard JavaScript syntax
+        run: node --check src/artwork-ready-v25-queue-guard.mjs
       - name: Verify immutable IDs, all user choices and every refusal; no TheTVDB network access
         run: node src/artwork-ready-v25-queue-guard.mjs
       - uses: actions/upload-artifact@v4
