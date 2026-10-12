@@ -123,7 +123,7 @@ for(const x of recapture.items){
  if(!queueEntry||!flag)continue;
  assert(queueEntry.stagingStatus==='ORIGINAL_FLAGGED_NEEDS_NEW_GENUINE_FRAME','recapture item is no longer blocked '+x.tvdbEpisodeId);
  assert(x.creator===queueEntry.creator && x.code===queueEntry.code && x.youtubeId===queueEntry.youtubeId,'recapture identity drift '+x.tvdbEpisodeId);
- assert(x.originalSelectedVariant===queueEntry.originalVariant && x.originalSelectedImageUrl===queueEntry.originalUrl,'recapture changes user's chosen source '+x.tvdbEpisodeId);
+ assert(x.originalSelectedVariant===queueEntry.originalVariant && x.originalSelectedImageUrl===queueEntry.originalUrl,'recapture changes selected source '+x.tvdbEpisodeId);
  assert(x.reason===flag.visualObservation,'recapture editorial finding changed '+x.tvdbEpisodeId);
  assert(x.currentAlternative==='NONE_VISUALLY_CLEARED' && x.uploadReady===false,'recapture accidentally marked ready '+x.tvdbEpisodeId);
 }
