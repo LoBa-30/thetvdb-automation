@@ -1,0 +1,78 @@
+{
+  "version": "V25.4-offline-structure",
+  "checkedOn": "2026-10-12",
+  "scope": "github_repository_structural_guard_only",
+  "mode": "NO_TVDB_REQUESTS_NO_ARTWORK_UPLOADS",
+  "baseline": {
+    "queue": "reports/artwork-ready-v25-2026-10-10/queue.json",
+    "unchangedQueueVersion": "V25.2",
+    "approvals": 192,
+    "explicitExclusions": 25,
+    "additionalHeldRaskaId": "11960844",
+    "visualReviewPending": 157,
+    "alternativesPendingUserApproval": 10,
+    "genuineRecapturesNeeded": 25,
+    "mastuHistoricalMatches": 25,
+    "mastuHistoricalUnresolved": 1,
+    "finalUploadReady": 0
+  },
+  "implementedChanges": [
+    {
+      "component": "src/artwork-ready-v25-queue-guard.mjs",
+      "checks": [
+        "All required sets have unique, exactly matching TVDB numeric episode IDs; counts alone cannot hide swaps",
+        "25 user exclusions and the independent Raska hold must match the original manifest exactly",
+        "Source file and pixel SHA-256, YouTube ID, episode, creator, season code and URL must match the original provenance",
+        "25 recapture records must correspond one-to-one to visually blocked entries, with original selected variants and block reasons unchanged",
+        "Mastu historical mapping references must match immutable TVDB episode IDs and selected sources without promoting 25/26 to 26/26",
+        "V25.3 public checks are documentary only and may not change upload permissions or claimed restriction status"
+      ]
+    },
+    {
+      "component": ".github/workflows/artwork-ready-v25-guard.yml",
+      "checks": [
+        "Additional dependency files (approval manifest, source preflight, flags, alternatives, V25.3 report) now trigger offline guard",
+        "Pull requests touching guarded inputs also trigger guard",
+        "Node syntax check runs before data validations",
+        "Regression tests execute with no site authentication or credentials"
+      ]
+    },
+    {
+      "component": "tests/artwork-ready-v25-queue-guard.test.js",
+      "tests": [
+        "Unmodified queue succeeds",
+        "25-count exclusion swap is refused",
+        "Changed original pixel SHA-256 is refused",
+        "Changed recapture YouTube ID is refused",
+        "Changed Mastu historical source is refused",
+        "Public evidence cannot unilaterally enable upload or claim restriction lift"
+      ]
+    }
+  ],
+  "verification": {
+    "githubActionsRun": 38298601506,
+    "runUrl": "https://github.com/LoBa-30/thetvdb-automation/actions/runs/38298601506",
+    "conclusion": "success",
+    "syntaxCheck": "success",
+    "regressionTests": "success",
+    "offlineIntegrityGuard": "success"
+  },
+  "preserved": {
+    "uploadEnabled": false,
+    "automaticBatchUploadEnabled": false,
+    "tvdbSiteWrites": 0,
+    "artworkQueueChanged": false,
+    "userApprovalsChanged": false,
+    "permanentRefusalsChanged": false,
+    "selectedVariantsChanged": false,
+    "releasePermissionsGranted": false,
+    "restrictionLiftConfirmed": false
+  },
+  "unresolved": [
+    "Account upload restriction still has no affirmative read-only evidence of legitimate lift",
+    "157 original stills require final full-resolution visual/editorial verification",
+    "10 provisional alternative variants require final review and explicit user selection",
+    "25 episodes require actual clean non-fabricated video frames or permitted promotional stills",
+    "Mastu TVDB episode 12014527 has current public identity corroboration but no historical archive source match"
+  ]
+}
