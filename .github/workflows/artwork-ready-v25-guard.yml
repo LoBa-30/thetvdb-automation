@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/artwork-ready-v25-guard.yml'
       - 'src/artwork-ready-v25-queue-guard.mjs'
+      - 'tests/artwork-ready-v25-queue-guard.test.js'
       - 'reports/artwork-ready-v25-2026-10-10/**'
       - 'reports/artwork-mastu-26-historical-id-reconciliation-v25-2026-10-10.json'
       - 'reports/artwork-user-approvals-v23-2-2026-10-09.json'
@@ -16,6 +17,7 @@ on:
     paths:
       - '.github/workflows/artwork-ready-v25-guard.yml'
       - 'src/artwork-ready-v25-queue-guard.mjs'
+      - 'tests/artwork-ready-v25-queue-guard.test.js'
       - 'reports/artwork-ready-v25-2026-10-10/**'
       - 'reports/artwork-mastu-26-historical-id-reconciliation-v25-2026-10-10.json'
       - 'reports/artwork-user-approvals-v23-2-2026-10-09.json'
@@ -40,6 +42,8 @@ jobs:
           node-version: '22'
       - name: Check offline safety guard JavaScript syntax
         run: node --check src/artwork-ready-v25-queue-guard.mjs
+      - name: Regression tests for offline identity and restriction safeguards
+        run: node --test tests/artwork-ready-v25-queue-guard.test.js
       - name: Verify immutable IDs, all user choices and every refusal; no TheTVDB network access
         run: node src/artwork-ready-v25-queue-guard.mjs
       - uses: actions/upload-artifact@v4
