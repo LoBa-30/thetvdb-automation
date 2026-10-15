@@ -1,0 +1,22 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { findResolvedDuplicateTitle } from '../src/planner-duplicate-resolution.js';
+const ticket=(target,normalizedTitle,codes,decision='RESOLVED_LEGITIMATE_REPEATED_TITLE_KEEP_BOTH')=>({target,ticket:'TVDB_DUPLICATE_TITLE',normalizedTitle,episodes:codes.map(c=>c+' — date'),decision});
+const group=(normalizedTitle,codes)=>({normalizedTitle,episodes:codes.map(code=>({code}))});
+const sq=ticket('Squeezie','j ai completement craque...',['S2017E170','S2018E36']);
+const mast=ticket('Mastu','je peux tout vous expliquer...',['S2020E27','S2022E13']);
+const theodort=ticket('Mastu','on accoste gens en voiture theodort',['S2023E07','S2024E11','S2026E13'],'RESOLVED_RECURRING_CONCEPT_KEEP_ALL');
+test('Squeezie historical legitimate repeat',()=>assert.equal(findResolvedDuplicateTitle('Squeezie',group('j ai completement craque',['S2017E170','S2018E36']),[sq]),sq));
+test('Mastu historical legitimate repeat',()=>assert.equal(findResolvedDuplicateTitle('Mastu',group('je peux tout vous expliquer',['S2020E27','S2022E13']),[mast]),mast));
+test('Mastu Theodort recurring concept',()=>assert.equal(findResolvedDuplicateTitle('Mastu',group('on accoste des gens en voiture avec theodort',['S2023E07','S2024E11','S2026E13']),[theodort]),theodort));
+test('reject changed code set',()=>assert.equal(findResolvedDuplicateTitle('Mastu',group('je peux tout vous expliquer',['S2020E27','S2022E14']),[mast]),null));
+test('reject wrong creator',()=>assert.equal(findResolvedDuplicateTitle('Joyca',group('je peux tout vous expliquer',['S2020E27','S2022E13']),[mast]),null));
+test('reject contradictory checkpoints',()=>assert.equal(findResolvedDuplicateTitle('Mastu',group('je peux tout vous expliquer',['S2020E27','S2022E13']),[mast,{...mast}]),null));
+test('reject repeated codes',()=>assert.equal(findResolvedDuplicateTitle('Mastu',group('je peux tout vous expliquer',['S2020E27','S2020E27']),[mast]),null));
+test('reject unresolved decisions',()=>assert.equal(findResolvedDuplicateTitle('Mastu',group('je peux tout vous expliquer',['S2020E27','S2022E13']),[{...mast,decision:'PENDING'}]),null));
+test('reject materially different title',()=>assert.equal(findResolvedDuplicateTitle('Mastu',group('un concept completement different',['S2020E27','S2022E13']),[mast]),null));
+test('reject changed numeric sequel marker even with high token overlap',()=>{
+  const old=ticket('Mastu','on accoste des gens en voiture avec theodort episode 1',['S2023E07','S2024E11']);
+  const now=group('on accoste des gens en voiture avec theodort episode 2',['S2023E07','S2024E11']);
+  assert.equal(findResolvedDuplicateTitle('Mastu',now,[old]),null);
+});

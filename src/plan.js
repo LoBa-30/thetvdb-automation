@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import { findResolvedDuplicateTitle } from './planner-duplicate-resolution.js';
 
 const audit = JSON.parse(await fs.readFile('reports/audit.json', 'utf8'));
 
@@ -21,7 +22,6 @@ try {
 }
 
 const resolvedYoutubeIds = new Map();
-const resolvedDuplicateTitles = new Map();
 for (const item of [
   ...(resolutionCheckpoint?.resolvedTickets || []),
   ...(supplementalStructuralCheckpoint?.resolvedTickets || [])
@@ -29,39 +29,10 @@ for (const item of [
   if (item.target && item.youtubeId) {
     resolvedYoutubeIds.set(`${item.target}\u0000${item.youtubeId}`, item);
   }
-  if (item.target && item.normalizedTitle) {
-    resolvedDuplicateTitles.set(
-      `${item.target}\u0000${String(item.normalizedTitle).normalize('NFC').trim().toLowerCase()}`,
-      item
-    );
-  }
 }
 
 function checkpointResolutionForYoutube(targetName, video) {
   return resolvedYoutubeIds.get(`${targetName}\u0000${video?.id || ''}`) || null;
-}
-
-function checkpointResolutionForDuplicateTitle(targetName, duplicateTitle) {
-  const key = `${targetName}\u0000${String(duplicateTitle?.normalizedTitle || '').normalize('NFC').trim().toLowerCase()}`;
-  const resolved = resolvedDuplicateTitles.get(key) || null;
-  if (!resolved) return null;
-
-  // A repeated title can legitimately gain another episode later. Never let an
-  // old resolution hide a changed duplicate group: suppress only when the
-  // exact SxxxxExx code set is unchanged.
-  const currentCodes = (duplicateTitle?.episodes || [])
-    .map(e => String(e?.code || '').trim())
-    .filter(Boolean)
-    .sort();
-  const resolvedCodes = (resolved.episodes || [])
-    .map(e => String(e).match(/S\d+E\d+/i)?.[0]?.toUpperCase() || '')
-    .filter(Boolean)
-    .sort();
-
-  if (!currentCodes.length || !resolvedCodes.length) return null;
-  if (currentCodes.length !== resolvedCodes.length) return null;
-  if (currentCodes.some((code, index) => code.toUpperCase() !== resolvedCodes[index])) return null;
-  return resolved;
 }
 
 const USER_APPROVED_ADDITIONS = [
@@ -188,7 +159,10 @@ for (const target of audit.targets || []) {
   }
 
   for (const duplicateTitle of target.tvdbDuplicateTitles || []) {
-    const resolved = checkpointResolutionForDuplicateTitle(target.name, duplicateTitle);
+    const resolved = findResolvedDuplicateTitle(target.name, duplicateTitle, [
+      ...(resolutionCheckpoint?.resolvedTickets || []),
+      ...(supplementalStructuralCheckpoint?.resolvedTickets || [])
+    ]);
     if (resolved) {
       targetPlan.resolvedByCheckpoint.push({
         type: 'RESOLVED_CHECKPOINT_SUPPRESSED',

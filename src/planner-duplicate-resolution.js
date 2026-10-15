@@ -14,7 +14,12 @@ function codeSet(episodes, checkpoint=false) {
   if (codes.some(x=>!x) || new Set(codes).size!==codes.length) return null;
   return codes.sort();
 }
+function numericTokens(title) {
+  return [...new Set(normalizeTitle(title).split(' ').filter(token => /^\d+$/.test(token)))].sort();
+}
 function titleSimilarity(left,right) {
+  // A changed part/sequel number is an identity change, even for a similar title.
+  if (numericTokens(left).join('|') !== numericTokens(right).join('|')) return 0;
   const a=new Set(normalizeTitle(left).split(' ').filter(Boolean));
   const b=new Set(normalizeTitle(right).split(' ').filter(Boolean));
   if (!a.size || !b.size) return 0;
