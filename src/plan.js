@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import { findResolvedDuplicateTitle } from './planner-duplicate-resolution.js';
 import { findVerifiedExistingEpisode } from './planner-verified-video-id.js';
+import { findVerifiedOfficialWebsiteEpisode } from './planner-official-website-resolution.js';
 
 const audit = JSON.parse(await fs.readFile('reports/audit.json', 'utf8'));
 
@@ -30,6 +31,16 @@ try {
   );
 } catch {
   // Legacy audits and planner runs continue without this optional read-only checkpoint.
+}
+
+// Independent V27 evidence from TheTVDB's episode-specific Official Website links.
+let officialWebsiteCheckpoint = null;
+try {
+  officialWebsiteCheckpoint = JSON.parse(
+    await fs.readFile('reports/structural-mastu-official-links-v27-2026-10-15.json','utf8')
+  );
+} catch {
+  // No suppression without the exact-source checkpoint.
 }
 
 const resolvedYoutubeIds = new Map();
@@ -87,6 +98,12 @@ const plan = {
     sourceRun: resolutionCheckpoint.sourceRun || null,
     resolvedTickets: resolutionCheckpoint.resolvedTickets?.length || 0,
     remainingTickets: resolutionCheckpoint.remainingTickets?.length || 0
+  } : null,
+  officialWebsiteCheckpoint: officialWebsiteCheckpoint ? {
+    version: officialWebsiteCheckpoint.version,
+    sourceAuditRun: officialWebsiteCheckpoint.baselineAuditRun,
+    checkedLinks: officialWebsiteCheckpoint.verified?.length || 0,
+    note: 'Only direct episode-specific TheTVDB Official Website video IDs with current code/title/date concordance.'
   } : null,
   verifiedVideoCheckpoint: verifiedVideoCheckpoint ? {
     version: verifiedVideoCheckpoint.version,
@@ -150,6 +167,18 @@ for (const target of audit.targets || []) {
         youtube:video,
         resolution: existingVerified,
         note:'V26 independent exact ID/date/title evidence confirms an existing distinct episode. No duplicate creation or site write.'
+      });
+      continue;
+    }
+
+    const linkedEpisode = findVerifiedOfficialWebsiteEpisode(target, video, officialWebsiteCheckpoint);
+    if (linkedEpisode) {
+      targetPlan.resolvedByCheckpoint.push({
+        type:'RESOLVED_CHECKPOINT_SUPPRESSED',
+        sourceType:video.classification || 'AMBIGUOUS_EXACT_TITLE_REVIEW',
+        youtube:video,
+        resolution:linkedEpisode,
+        note:'V27: exact TheTVDB episode Official Website source link matches distinct YouTube ID; no site writes.'
       });
       continue;
     }
