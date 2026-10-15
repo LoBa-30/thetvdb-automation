@@ -1,0 +1,40 @@
+name: Joyca 2026 E18 Unassigned preflight (READ ONLY, NO ARTWORK)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/joyca-2026-e18-readonly-preflight.yml'
+permissions:
+  contents: read
+concurrency:
+  group: joyca-2026-october-once-readonly
+  cancel-in-progress: true
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: Check source
+        run: node --check src/joyca-2026-e18-readonly-preflight.js
+      - name: Install browser dependencies
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+      - name: Authenticated read-only identity and Unassigned verification
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: node src/joyca-2026-e18-readonly-preflight.js
+      - name: Keep targeted preflight report, never upload changes to TVDB
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: joyca-2026-e18-readonly-preflight
+          path: reports/joyca-2026-e18-readonly-preflight/
+          if-no-files-found: warn
+          retention-days: 30
