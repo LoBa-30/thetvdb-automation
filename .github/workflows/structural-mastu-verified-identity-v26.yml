@@ -1,0 +1,46 @@
+name: TheTVDB Mastu V26 identity reconciliation (OFFLINE, NO ARTWORK)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/structural-mastu-verified-identity-v26.yml'
+      - 'src/structural-mastu-verified-identity-v26.js'
+      - 'structural-tests/mastu-verified-identity-v26.test.js'
+      - 'reports/structural-mastu-verified-identity-v26.json'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: thetvdb-mastu-v26-identity-only
+  cancel-in-progress: true
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: Verify offline source syntax and fail-closed regression tests
+        run: |
+          node --check src/structural-mastu-verified-identity-v26.js
+          node --test structural-tests/mastu-verified-identity-v26.test.js
+      - name: Reuse already-completed audit artifact; NEVER rerun full audit
+        uses: actions/download-artifact@v4
+        with:
+          name: thetvdb-audit-report
+          run-id: 38731878113
+          github-token: ${{ github.token }}
+          path: reports/
+      - name: Reconcile exact identities in memory; no TheTVDB requests
+        run: node src/structural-mastu-verified-identity-v26.js
+      - name: Retain verification and remaining tickets
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: thetvdb-structural-mastu-v26-offline-reconciliation
+          path: reports/structural-mastu-verified-identity-v26/
+          if-no-files-found: warn
+          retention-days: 30
