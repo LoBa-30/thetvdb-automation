@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-10-15T12:18:48.571Z",
+  "mode": "GUARDED_TWO_FRENCH_TITLES_ONLY_NO_ARTWORK_OPERATIONS",
+  "evidence": "Live public TheTVDB episode pages and official YouTube watch titles verified 2026-10-15",
+  "targets": [
+    {
+      "id": "12024665",
+      "code": "S2026E61",
+      "date": "2026-10-08",
+      "youtubeId": "ndo5rHMsBNk",
+      "from": "On découvre Wikimasters (faite monter Mcfly & Carlito en Légendaire svp)",
+      "to": "On découvre Wikimasters (faites monter Mcfly & Carlito en Légendaire svp)"
+    },
+    {
+      "id": "12031978",
+      "code": "S2026E62",
+      "date": "2026-10-12",
+      "youtubeId": "dcSfEaDVMOM",
+      "from": "LA BATTLE DES PAYS :on déguste les spécialitées béninoises avec Theodort SHEEEEESH",
+      "to": "LA BATTLE DES PAYS : on déguste les spécialités béninoises avec Theodort SHEEEEESH"
+    }
+  ],
+  "authenticated": true,
+  "preflight": [
+    {
+      "id": "12024665",
+      "code": "S2026E61",
+      "currentTitle": "On découvre Wikimasters (faite monter Mcfly & Carlito en Légendaire svp)",
+      "sourceYoutubeId": "ndo5rHMsBNk",
+      "knownOriginalTitle": "On découvre Wikimasters (faite monter Mcfly & Carlito en Légendaire svp)",
+      "knownOfficialTitle": "On découvre Wikimasters (faites monter Mcfly & Carlito en Légendaire svp)"
+    },
+    {
+      "id": "12031978",
+      "code": "S2026E62",
+      "currentTitle": "LA BATTLE DES PAYS :on déguste les spécialitées béninoises avec Theodort SHEEEEESH",
+      "sourceYoutubeId": "dcSfEaDVMOM",
+      "knownOriginalTitle": "LA BATTLE DES PAYS :on déguste les spécialitées béninoises avec Theodort SHEEEEESH",
+      "knownOfficialTitle": "LA BATTLE DES PAYS : on déguste les spécialités béninoises avec Theodort SHEEEEESH"
+    }
+  ],
+  "attempts": [],
+  "verified": [],
+  "skipped": [],
+  "blocked": [
+    {
+      "reason": "TRANSLATION_FORM_ACTION_UNEXPECTED_12024665"
+    }
+  ],
+  "siteWritesAttempted": 0,
+  "siteWritesVerified": 0,
+  "artworkWrites": 0,
+  "destructiveActions": 0,
+  "result": "BLOCKED_NO_FURTHER_WRITES"
+}
