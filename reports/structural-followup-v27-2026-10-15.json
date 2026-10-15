@@ -1,0 +1,89 @@
+{
+  "version": "V27-STRUCTURAL-HOURLY-CHECKPOINT",
+  "date": "2026-10-15",
+  "mode": "DOCUMENTED_EXACT_RECONCILIATION_NO_TVDB_SITE_WRITES",
+  "parentCheckpoint": "reports/structural-hourly-checkpoint-2026-10-15-1425-paris.json",
+  "authoritativeAuditRun": 38731878113,
+  "checks": [
+    {
+      "name": "Mastu V26 two distinct official video dates",
+      "run": 38746661701,
+      "conclusion": "success",
+      "resolvedVideoIds": [
+        "zrq-izHjEqI",
+        "aLN3UukAkxU"
+      ]
+    },
+    {
+      "name": "Mastu V27 two exact TheTVDB Official Website links",
+      "run": 38749025925,
+      "conclusion": "success",
+      "resolvedVideoIds": [
+        "O4ZEKE5p7so",
+        "bUAtsbgZrYM"
+      ]
+    },
+    {
+      "name": "Joyca current 2026 season and Unassigned authenticated read-only",
+      "run": 38748213612,
+      "conclusion": "failure_due_to_SIX_TRACKER_BEACONS_FALSE_POSITIVE_NOT_A_TVDB_WRITE",
+      "authenticated": true,
+      "assignedCount": 17,
+      "unassignedCount": 1,
+      "unassignedEpisode": {
+        "tvdbId": "7707376",
+        "title": "CETTE VIDÉO TE RENDRA VIEUX !",
+        "date": "2018-07-27"
+      },
+      "matchingAssigned": 0,
+      "matchingUnassigned": 0,
+      "actualTvdbAccountPOSTs": 0,
+      "trackerBeaconPOSTsBlocked": 6,
+      "scriptHostnameClassificationFixed": true,
+      "notRetested": true
+    }
+  ],
+  "planAfter": {
+    "autoEligible": 0,
+    "reviewRequired": 5,
+    "informational": 212,
+    "resolvedByCheckpoint": 7
+  },
+  "remainingReview": [
+    {
+      "creator": "Mastu",
+      "youtubeId": "Ks16HI-cLiw",
+      "reason": "2026 entry S2026E13 has matching date/title and public channel indexed thumbnail, but no direct TheTVDB official URL and no independently extracted primary YouTube release date; do not auto-suppress"
+    },
+    {
+      "creator": "Squeezie",
+      "youtubeId": "mxuk-u8Cjuc",
+      "reason": "Japan Expo 2012 [Réupload]; avoid creating a duplicate of older source"
+    },
+    {
+      "creator": "Joyca",
+      "youtubeId": "H-yZMZ9AA_k",
+      "reason": "Official main-channel 2026-10-11 Moonshine promotion (about 4m30); assigned 2026 ends E17, one unrelated 2018 Unassigned; E18 potential, do not create until episode-policy eligibility and form/write persistence checked"
+    },
+    {
+      "creator": "Mcfly & Carlito",
+      "youtubeId": "dcSfEaDVMOM",
+      "reason": "Already existing S2026E62 (ID 12031978), verified original title typo; site writer locked after nonpersistent E61 attempt"
+    },
+    {
+      "creator": "Mcfly & Carlito",
+      "youtubeId": "ndo5rHMsBNk",
+      "reason": "Already existing S2026E61 (ID 12024665), verified original title typo; site writer locked after nonpersistent attempt"
+    }
+  ],
+  "artifact": "https://github.com/LoBa-30/thetvdb-automation/actions/runs/38749025925",
+  "safeguards": {
+    "artworkActions": 0,
+    "siteEpisodeCreates": 0,
+    "siteTitleWrites": 0,
+    "siteDeletes": 0,
+    "noAdditionalFullAudit": true,
+    "noBlindWriterRetry": true,
+    "originalArtworksQueueUntouched": true
+  }
+}
