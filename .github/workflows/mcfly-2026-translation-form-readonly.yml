@@ -1,4 +1,6 @@
 name: Mcfly 2026 French translation form diagnosis (read-only)
+# Single post-attempt GET-only check after guarded run 38734103925.
+# That run reported one unconfirmed POST to E61 and no E62 POST.
 on:
   push:
     branches: [main]
