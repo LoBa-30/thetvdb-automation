@@ -1,0 +1,43 @@
+name: Mcfly 2026 French translation form diagnosis (read-only)
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/mcfly-2026-translation-form-readonly.yml'
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: node --check src/mcfly-2026-translation-form-readonly.js
+      - run: |
+          npm install
+          npx playwright install --with-deps chromium
+      - name: Authenticate then inspect two French translation forms without submitting
+        env:
+          TVDB_USERNAME: ${{ secrets.TVDB_USERNAME }}
+          TVDB_PASSWORD: ${{ secrets.TVDB_PASSWORD }}
+        run: node src/mcfly-2026-translation-form-readonly.js
+      - name: Persist read-only diagnostic
+        if: always()
+        run: |
+          if [ -f reports/mcfly-2026-translation-form-readonly/report.json ]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add reports/mcfly-2026-translation-form-readonly/report.json
+            git commit -m 'Record Mcfly two form diagnostic (no site writes) [skip ci]' || true
+            git pull --rebase
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mcfly-2026-translation-form-readonly
+          path: reports/mcfly-2026-translation-form-readonly/
+          retention-days: 30
