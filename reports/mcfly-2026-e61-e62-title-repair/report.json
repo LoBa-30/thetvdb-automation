@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T12:18:48.571Z",
+  "generatedAt": "2026-10-15T12:22:42.439Z",
   "mode": "GUARDED_TWO_FRENCH_TITLES_ONLY_NO_ARTWORK_OPERATIONS",
   "evidence": "Live public TheTVDB episode pages and official YouTube watch titles verified 2026-10-15",
   "targets": [
@@ -39,17 +39,25 @@
       "knownOfficialTitle": "LA BATTLE DES PAYS : on déguste les spécialités béninoises avec Theodort SHEEEEESH"
     }
   ],
-  "attempts": [],
+  "attempts": [
+    {
+      "id": "12024665",
+      "code": "S2026E61",
+      "action": "/episodes/translatestore",
+      "from": "On découvre Wikimasters (faite monter Mcfly & Carlito en Légendaire svp)",
+      "to": "On découvre Wikimasters (faites monter Mcfly & Carlito en Légendaire svp)"
+    }
+  ],
   "verified": [],
   "skipped": [],
   "blocked": [
     {
-      "reason": "TRANSLATION_FORM_ACTION_UNEXPECTED_12024665"
+      "reason": "page.goto: net::ERR_ABORTED at https://thetvdb.com/series/338282-show/episodes/12024665\nCall log:\n  - navigating to \"https://thetvdb.com/series/338282-show/episodes/12024665\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "siteWritesAttempted": 0,
+  "siteWritesAttempted": 1,
   "siteWritesVerified": 0,
   "artworkWrites": 0,
   "destructiveActions": 0,
-  "result": "BLOCKED_NO_FURTHER_WRITES"
+  "result": "ATTEMPT_UNCONFIRMED_STOP_NO_RETRY"
 }
