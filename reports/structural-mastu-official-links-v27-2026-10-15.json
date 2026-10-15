@@ -1,0 +1,52 @@
+{
+  "version": "V27-MASTU-EXACT_OFFICIAL_WEBSITE_LINKS",
+  "createdAt": "2026-10-15",
+  "mode": "READ_ONLY_TVDB_EPISODE_OFFICIAL_WEBSITE_CROSSCHECK",
+  "previousV26": "reports/structural-mastu-verified-identity-v26.json",
+  "baselineAuditRun": 38731878113,
+  "verified": [
+    {
+      "creator": "Mastu",
+      "youtubeId": "O4ZEKE5p7so",
+      "tvdbEpisodeId": "9772112",
+      "tvdbCode": "S2023E07",
+      "tvdbDate": "2023-05-06",
+      "canonicalTitle": "ON ACCOSTE DES GENS EN VOITURE (Avec Théodort)",
+      "tvdbUrl": "https://thetvdb.com/series/346011-show/episodes/9772112",
+      "officialWebsiteUrl": "https://www.youtube.com/watch?v=O4ZEKE5p7so",
+      "evidence": "TheTVDB episode official external YouTube link points to the exact 11-character source ID, episode date and title checked on episode page.",
+      "sourceStatus": "DIRECT_EPISODE_OFFICIAL_WEBSITE_LINK_VERIFIED"
+    },
+    {
+      "creator": "Mastu",
+      "youtubeId": "bUAtsbgZrYM",
+      "tvdbEpisodeId": "10632229",
+      "tvdbCode": "S2024E11",
+      "tvdbDate": "2024-08-04",
+      "canonicalTitle": "ON ACCOSTE DES GENS EN VOITURE (Avec Théodort)",
+      "tvdbUrl": "https://thetvdb.com/series/346011-show/episodes/10632229",
+      "officialWebsiteUrl": "https://www.youtube.com/watch?v=bUAtsbgZrYM",
+      "evidence": "TheTVDB official external link reaches exact video ID; Odoo sponsor description also matches episode content.",
+      "sourceStatus": "DIRECT_EPISODE_OFFICIAL_WEBSITE_LINK_VERIFIED"
+    }
+  ],
+  "unresolved": [
+    {
+      "creator": "Mastu",
+      "youtubeId": "Ks16HI-cLiw",
+      "possibleEpisodeId": "11962153",
+      "possibleEpisodeCode": "S2026E13",
+      "tvdbDate": "2026-07-18",
+      "evidence": "Same creator, uniquely matching 2026 title/date on public official-channel index thumbnail; TheTVDB episode has no direct official video link and primary upload date not independently extracted.",
+      "status": "PROVISIONAL_DO_NOT_SUPPRESS_WITHOUT_ADDITIONAL_PRIMARY_PROOF"
+    }
+  ],
+  "safety": {
+    "siteWrites": 0,
+    "artworkActions": 0,
+    "deletions": 0,
+    "doNotSuppressUnverified": true,
+    "doNotCreateDuplicates": true,
+    "doNotModifyExistingEpisodes": true
+  }
+}
