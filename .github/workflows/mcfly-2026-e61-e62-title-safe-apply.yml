@@ -1,4 +1,7 @@
 name: Mcfly 2026 E61 E62 guarded French title repair (NO ARTWORK)
+# Reviewed single retry: authenticated read-only run 38733886755 confirmed
+# both /translate/fra/0/single forms POST to /episodes/translatestore.
+# The script restricts each POST to the exact TVDB ID, French page and CSRF.
 on:
   push:
     branches: [main]
