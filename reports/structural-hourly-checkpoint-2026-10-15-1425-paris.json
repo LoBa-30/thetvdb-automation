@@ -152,7 +152,10 @@
     "reasonForStop": "Single E61 POST was followed by browser page.goto ERR_ABORTED before app-level confirmation; independent authenticated read-only form subsequently still shows original title. No retry allowed without investigating request lifecycle/persistence.",
     "extraWritesAttempted": 0,
     "noBlindRetry": true,
-    "doNotAutomaticallyRerunTargetedWriter": true
+    "doNotAutomaticallyRerunTargetedWriter": true,
+    "writerDisabledGitHubCommit": "6e5a5ba5735c9fed7ac9afd875d93bea31cf3dba",
+    "writerDisabledVerificationRun": 38734634275,
+    "writerDisabledVerification": "GitHub Actions apply job completed with conclusion skipped (if: false); no site POST"
   },
   "actualSiteChanges": {
     "titleCorrectionsPersistentlyVerified": 0,
@@ -168,7 +171,8 @@
     "src/mcfly-2026-translation-form-readonly.js",
     ".github/workflows/mcfly-2026-translation-form-readonly.yml",
     "reports/mcfly-2026-e61-e62-title-repair/report.json",
-    "reports/mcfly-2026-translation-form-readonly/report.json"
+    "reports/mcfly-2026-translation-form-readonly/report.json",
+    ".github/workflows/mcfly-2026-e61-e62-title-safe-apply.yml (final fail-closed disabled job)"
   ],
   "safety": {
     "neverDeleteDueToMissingPublicYoutube": true,
