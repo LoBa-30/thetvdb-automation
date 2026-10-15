@@ -109,8 +109,16 @@ async function frenchForm(target,href){
       const raw=await form.getAttribute('action');
       const action=new URL(raw||'',BASE);
       const method=(await form.getAttribute('method')||'GET').toUpperCase();
-      if(action.origin!==BASE||method!=='POST'||!action.pathname.includes('/episodes/'+target.id+'/') ||
-         !/translate|update|save/.test(action.pathname))await stop('TRANSLATION_FORM_ACTION_UNEXPECTED_'+target.id);
+      // TheTVDB's authenticated French translation form uses one shared route.
+      // Accept it ONLY from the exact immutable-ID French form page, never from
+      // another language, another episode or an unknown POST destination.
+      const expectedPage='/series/'+SLUG+'/episodes/'+target.id+'/translate/fra/0/single';
+      const exactFrenchPage=new URL(page.url()).pathname===expectedPage;
+      const exactStore=action.pathname==='/episodes/translatestore';
+      if(action.origin!==BASE||method!=='POST'||language!=='fra'||!exactFrenchPage||!exactStore)
+        await stop('TRANSLATION_FORM_ACTION_UNEXPECTED_'+target.id);
+      if(await form.locator('input[name="_token"]').count()!==1)
+        await stop('MISSING_UNIQUE_CSRF_TOKEN_'+target.id);
       candidates.push({form,field,title,action:action.pathname,language});
     }
   }
