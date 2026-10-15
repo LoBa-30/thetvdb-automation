@@ -46,8 +46,9 @@ jobs:
             const p=JSON.parse(fs.readFileSync('reports/correction-plan.json'));
             const mastu=p.targets.find(t=>t.name==='Mastu');
             const resolved=(mastu?.resolvedByCheckpoint||[]).filter(x=>x.resolution?.decision==='RESOLVED_EXISTING_DISTINCT_EPISODE_NO_WRITE');
-            if(p.summary.reviewRequired!==7 || p.summary.informational!==212 || p.summary.resolvedByCheckpoint!==5 ||
-               p.summary.autoEligible!==0 || resolved.length!==2 || p.mode!=='PLAN_ONLY_NO_TVDB_WRITES_RESOLUTION_AWARE')
+            const official=(mastu?.resolvedByCheckpoint||[]).filter(x=>x.resolution?.decision==='RESOLVED_TVDB_OFFICIAL_WEBSITE_LINK_MATCH_NO_WRITE');
+            if(p.summary.reviewRequired!==5 || p.summary.informational!==212 || p.summary.resolvedByCheckpoint!==7 ||
+               p.summary.autoEligible!==0 || resolved.length!==2 || official.length!==2 || p.mode!=='PLAN_ONLY_NO_TVDB_WRITES_RESOLUTION_AWARE')
               throw Error('V26 planner reconciliation drift: '+JSON.stringify(p.summary));
             console.log('STRUCTURAL_V26_OFFLINE_PLAN_PASS '+JSON.stringify(p.summary));
           "
