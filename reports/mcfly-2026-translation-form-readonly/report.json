@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-10-15T12:20:59.171Z",
+  "mode": "AUTHENTICATED_TRANSLATION_FORM_READONLY_NO_SITE_POST_AFTER_LOGIN",
+  "authenticated": true,
+  "formRecords": [
+    {
+      "tvdbEpisodeId": "12024665",
+      "publicTitle": "On découvre Wikimasters (faite monter Mcfly & Carlito en Légendaire svp)",
+      "pageUrl": "https://thetvdb.com/series/338282-show/episodes/12024665/translate/fra/0/single",
+      "forms": [
+        {
+          "method": "POST",
+          "actionOrigin": "https://thetvdb.com",
+          "actionPath": "/episodes/translatestore",
+          "language": "fra",
+          "formTitle": "On découvre Wikimasters (faite monter Mcfly & Carlito en Légendaire svp) ",
+          "hasCsrfToken": true,
+          "hasEpisodeName": true
+        }
+      ]
+    },
+    {
+      "tvdbEpisodeId": "12031978",
+      "publicTitle": "LA BATTLE DES PAYS :on déguste les spécialitées béninoises avec Theodort SHEEEEESH",
+      "pageUrl": "https://thetvdb.com/series/338282-show/episodes/12031978/translate/fra/0/single",
+      "forms": [
+        {
+          "method": "POST",
+          "actionOrigin": "https://thetvdb.com",
+          "actionPath": "/episodes/translatestore",
+          "language": "fra",
+          "formTitle": "LA BATTLE DES PAYS :on déguste les spécialitées béninoises avec Theodort SHEEEEESH",
+          "hasCsrfToken": true,
+          "hasEpisodeName": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "nonReadRequestsBlocked": 0,
+  "tvdbWrites": 0,
+  "artworkWrites": 0,
+  "result": "READ_ONLY_INSPECTED"
+}
