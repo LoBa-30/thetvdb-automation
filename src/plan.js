@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import { findResolvedDuplicateTitle } from './planner-duplicate-resolution.js';
+import { findVerifiedExistingEpisode } from './planner-verified-video-id.js';
 
 const audit = JSON.parse(await fs.readFile('reports/audit.json', 'utf8'));
 
@@ -19,6 +20,16 @@ try {
   );
 } catch {
   // Existing standalone planning workflows remain usable without this checkpoint.
+}
+
+// Separately validated Mastu ID/date checkpoint; missing or drifted evidence never authorizes writes.
+let verifiedVideoCheckpoint = null;
+try {
+  verifiedVideoCheckpoint = JSON.parse(
+    await fs.readFile('reports/structural-mastu-verified-identity-v26.json','utf8')
+  );
+} catch {
+  // Legacy audits and planner runs continue without this optional read-only checkpoint.
 }
 
 const resolvedYoutubeIds = new Map();
@@ -77,6 +88,12 @@ const plan = {
     resolvedTickets: resolutionCheckpoint.resolvedTickets?.length || 0,
     remainingTickets: resolutionCheckpoint.remainingTickets?.length || 0
   } : null,
+  verifiedVideoCheckpoint: verifiedVideoCheckpoint ? {
+    version: verifiedVideoCheckpoint.version,
+    sourceAuditRun: verifiedVideoCheckpoint.sourceAuditRun,
+    evidenceCount: verifiedVideoCheckpoint.resolutions?.length || 0,
+    note: 'Read-only cross-check: creator, YouTube ID, season code, exact current TVDB title and official date must agree.'
+  } : null,
   supplementalStructuralCheckpoint: supplementalStructuralCheckpoint ? {
     generatedAt: supplementalStructuralCheckpoint.generatedAt || null,
     sourceRun: supplementalStructuralCheckpoint.authoritativeAudit?.workflowRunId || null,
@@ -121,6 +138,18 @@ for (const target of audit.targets || []) {
           applyResult: resolved.applyResult || null
         },
         note: 'Suppressed from reviewRequired because a persisted, explicit resolution checkpoint already closed this exact YouTube ID. This protects against public TheTVDB cache lag and matcher false positives.'
+      });
+      continue;
+    }
+
+    const existingVerified = findVerifiedExistingEpisode(target, video, verifiedVideoCheckpoint);
+    if (existingVerified) {
+      targetPlan.resolvedByCheckpoint.push({
+        type:'RESOLVED_CHECKPOINT_SUPPRESSED',
+        sourceType:video.classification || 'AMBIGUOUS_EXACT_TITLE_REVIEW',
+        youtube:video,
+        resolution: existingVerified,
+        note:'V26 independent exact ID/date/title evidence confirms an existing distinct episode. No duplicate creation or site write.'
       });
       continue;
     }
