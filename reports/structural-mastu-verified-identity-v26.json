@@ -1,0 +1,54 @@
+{
+  "version": "V26-MASTU-TWO-OFFICIAL-DATE-IDENTITIES",
+  "generatedAt": "2026-10-15",
+  "mode": "VERIFIED_OFFICIAL_YOUTUBE_DATES_READ_ONLY",
+  "sourceAuditRun": 38731878113,
+  "previousCheckpoint": "reports/structural-hourly-checkpoint-2026-10-15-1425-paris.json",
+  "scope": "Two distinct Mastu public videos with repeatedly used titles and distinct verified TVDB season codes, no episode creation",
+  "resolutions": [
+    {
+      "creator": "Mastu",
+      "youtubeId": "zrq-izHjEqI",
+      "tvdbCode": "S2020E27",
+      "tvdbEpisodeId": "7918773",
+      "officialPublishDate": "2020-09-05",
+      "verifiedTitle": "JE PEUX TOUT VOUS EXPLIQUER...",
+      "evidence": {
+        "sourceType": "OFFICIAL_YOUTUBE_VIDEO_PUBLISHED_DATE",
+        "officialYoutubeUrl": "https://www.youtube.com/watch?v=zrq-izHjEqI",
+        "tvdbCatalogueUrl": "https://thetvdb.com/series/346011-show/episodes/7918773",
+        "verification": "Official Mastu YouTube release date and uniquely matching existing TVDB title, date and episode code"
+      }
+    },
+    {
+      "creator": "Mastu",
+      "youtubeId": "aLN3UukAkxU",
+      "tvdbCode": "S2022E13",
+      "tvdbEpisodeId": null,
+      "officialPublishDate": "2022-03-02",
+      "verifiedTitle": "Je peux tout vous expliquer...",
+      "evidence": {
+        "sourceType": "OFFICIAL_YOUTUBE_VIDEO_PUBLISHED_DATE",
+        "officialYoutubeUrl": "https://www.youtube.com/watch?v=aLN3UukAkxU",
+        "tvdbCatalogueUrl": "https://thetvdb.com/series/346011-show/allseasons/official",
+        "verification": "Official Mastu YouTube release date matches unique existing S2022E13 title/date; numeric TVDB ID remains unconfirmed"
+      }
+    }
+  ],
+  "safety": {
+    "theTVDBWrites": 0,
+    "artworkActions": 0,
+    "deletions": 0,
+    "noBlindWriterRetry": true,
+    "noReaudit": true
+  },
+  "pendingCasesNotSuppressed": [
+    "Mastu Ks16HI-cLiw",
+    "Mastu bUAtsbgZrYM",
+    "Mastu O4ZEKE5p7so",
+    "Squeezie mxuk-u8Cjuc",
+    "Joyca H-yZMZ9AA_k",
+    "Mcfly dcSfEaDVMOM",
+    "Mcfly ndo5rHMsBNk"
+  ]
+}
