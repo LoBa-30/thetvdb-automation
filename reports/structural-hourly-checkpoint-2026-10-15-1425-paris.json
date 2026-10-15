@@ -1,0 +1,187 @@
+{
+  "version": "structural-hourly-2026-10-15",
+  "generatedAt": "2026-10-15T12:25:00Z",
+  "timezone": "Europe/Paris",
+  "scope": "NINE_CHANNELS_STRUCTURAL_ONLY_NO_ARTWORK",
+  "startingPoint": {
+    "latestPlannerCommit": "328a8708cfae8c29bce36c37d6a30ad913500a5a",
+    "auditRun": 38731878113,
+    "baselineAuditRun": 38680947257
+  },
+  "audit": {
+    "run": 38731878113,
+    "status": "success",
+    "channels": 9,
+    "duplicateNumberGroups": 0,
+    "autoEligible": 0,
+    "reviewRequired": 9,
+    "informationalDoNotDelete": 212,
+    "resolvedByCheckpoint": 3,
+    "note": "The 13-to-9 decline reflects three accepted historical repeated-title-group resolutions plus new already-existing Marine episode identity; not 4 TVDB writes."
+  },
+  "currentQueue": [
+    {
+      "creator": "Squeezie",
+      "ticket": "LIKELY_MISSING_FROM_TVDB_OR_NON_EPISODE",
+      "youtubeId": "mxuk-u8Cjuc",
+      "title": "Japan Expo 2012 [Réupload]",
+      "decision": "REVIEW_HISTORICAL_REUPLOAD_NO_AUTO_CREATE"
+    },
+    {
+      "creator": "Mastu",
+      "ticket": "AMBIGUOUS_EXACT_TITLE_REVIEW",
+      "youtubeId": "Ks16HI-cLiw",
+      "title": "ON ACCOSTE DES GENS EN VOITURE 🚗 (Avec Théodort)",
+      "decision": "MATCH_BY_IMMUTABLE_TVDB_ID_AND_DATE_FIRST"
+    },
+    {
+      "creator": "Mastu",
+      "ticket": "AMBIGUOUS_EXACT_TITLE_REVIEW",
+      "youtubeId": "bUAtsbgZrYM",
+      "title": "ON ACCOSTE DES GENS EN VOITURE (Avec Théodort)",
+      "decision": "MATCH_BY_IMMUTABLE_TVDB_ID_AND_DATE_FIRST"
+    },
+    {
+      "creator": "Mastu",
+      "ticket": "AMBIGUOUS_EXACT_TITLE_REVIEW",
+      "youtubeId": "O4ZEKE5p7so",
+      "title": "ON ACCOSTE DES GENS EN VOITURE 🚗 (Avec Théodort)",
+      "decision": "MATCH_BY_IMMUTABLE_TVDB_ID_AND_DATE_FIRST"
+    },
+    {
+      "creator": "Mastu",
+      "ticket": "AMBIGUOUS_EXACT_TITLE_REVIEW",
+      "youtubeId": "aLN3UukAkxU",
+      "title": "Je peux tout vous expliquer...",
+      "decision": "KEEP_DISTINCT_EPISODES_VERIFY_NUMERIC_IDS"
+    },
+    {
+      "creator": "Mastu",
+      "ticket": "AMBIGUOUS_EXACT_TITLE_REVIEW",
+      "youtubeId": "zrq-izHjEqI",
+      "title": "JE PEUX TOUT VOUS EXPLIQUER...",
+      "decision": "KEEP_DISTINCT_EPISODES_VERIFY_NUMERIC_IDS"
+    },
+    {
+      "creator": "Joyca",
+      "ticket": "LIKELY_MISSING_FROM_TVDB_OR_NON_EPISODE",
+      "youtubeId": "H-yZMZ9AA_k",
+      "title": "Voici 3 mondes, lequel tu choisis ?",
+      "decision": "CHECK_PROMOTION_FORMAT_AND_FRESH_ASSIGNED_UNASSIGNED_BEFORE_CREATION"
+    },
+    {
+      "creator": "Mcfly & Carlito",
+      "ticket": "FUZZY_REQUIRES_CHRONOLOGY_REVIEW",
+      "youtubeId": "dcSfEaDVMOM",
+      "tvdbEpisodeId": "12031978",
+      "code": "S2026E62",
+      "date": "2026-10-12",
+      "verifiedPublicTitle": "LA BATTLE DES PAYS :on déguste les spécialitées béninoises avec Theodort SHEEEEESH",
+      "officialYoutubeTitle": "LA BATTLE DES PAYS : on déguste les spécialités béninoises avec Theodort SHEEEEESH",
+      "decision": "EXISTING_EPISODE_TITLE_TYPO_NEEDS_EDIT_PENDING"
+    },
+    {
+      "creator": "Mcfly & Carlito",
+      "ticket": "FUZZY_REQUIRES_CHRONOLOGY_REVIEW",
+      "youtubeId": "ndo5rHMsBNk",
+      "tvdbEpisodeId": "12024665",
+      "code": "S2026E61",
+      "date": "2026-10-08",
+      "verifiedPublicTitle": "On découvre Wikimasters (faite monter Mcfly & Carlito en Légendaire svp)",
+      "officialYoutubeTitle": "On découvre Wikimasters (faites monter Mcfly & Carlito en Légendaire svp)",
+      "decision": "EXISTING_EPISODE_TITLE_TYPO_NEEDS_EDIT_PENDING"
+    }
+  ],
+  "protectedExisting": [
+    {
+      "creator": "Mcfly & Carlito",
+      "code": "S2026E63",
+      "tvdbEpisodeId": "12035013",
+      "youtubeId": "7llQiNyMEbs",
+      "date": "2026-10-14",
+      "reason": "Same episode publicly present; never recreate"
+    },
+    {
+      "creator": "Mcfly & Carlito",
+      "code": "S2026E60",
+      "tvdbEpisodeId": "12022496",
+      "officialYoutubeDate": "2026-10-06",
+      "publicTvdbDate": "2026-06-06",
+      "reason": "Prior date write was documented as not persistent; do not blindly repeat"
+    },
+    {
+      "creator": "Squeezie",
+      "repeatedTitle": "j ai completement craque",
+      "decision": "HISTORICALLY_RESOLVED_KEEP_BOTH"
+    },
+    {
+      "creator": "Mastu",
+      "repeatedTitle": "je peux tout vous expliquer",
+      "decision": "HISTORICALLY_RESOLVED_KEEP_BOTH"
+    },
+    {
+      "creator": "Mastu",
+      "repeatedTitle": "on accoste des gens en voiture avec theodort",
+      "decision": "HISTORICALLY_RESOLVED_KEEP_ALL"
+    }
+  ],
+  "targetedTitleOperation": {
+    "scripts": [
+      "src/mcfly-2026-e61-e62-title-safe-apply.js",
+      "src/mcfly-2026-translation-form-readonly.js"
+    ],
+    "safeFormDiagnosticRun": 38733886755,
+    "attemptedCorrectionRun": 38734103925,
+    "finalReadOnlyPostcheckRun": 38734297671,
+    "attemptsTotal": 1,
+    "attemptsByEpisode": {
+      "12024665": 1,
+      "12031978": 0
+    },
+    "verifiedPersistedChanges": 0,
+    "sourceFormPath": "/series/338282-show/episodes/{tvdbEpisodeId}/translate/fra/0/single",
+    "exactObservedFormAction": "/episodes/translatestore",
+    "exactReadOnlyPostcheck": {
+      "authenticated": true,
+      "E61FrenchTitleStillOld": true,
+      "E62FrenchTitleStillOld": true,
+      "E61OldTitle": "On découvre Wikimasters (faite monter Mcfly & Carlito en Légendaire svp)",
+      "E62OldTitle": "LA BATTLE DES PAYS :on déguste les spécialitées béninoises avec Theodort SHEEEEESH"
+    },
+    "preflight": "Both numeric episode IDs, season codes, public titles and source video IDs matched; no duplicate creation.",
+    "reasonForStop": "Single E61 POST was followed by browser page.goto ERR_ABORTED before app-level confirmation; independent authenticated read-only form subsequently still shows original title. No retry allowed without investigating request lifecycle/persistence.",
+    "extraWritesAttempted": 0,
+    "noBlindRetry": true,
+    "doNotAutomaticallyRerunTargetedWriter": true
+  },
+  "actualSiteChanges": {
+    "titleCorrectionsPersistentlyVerified": 0,
+    "episodesCreated": 0,
+    "renumberings": 0,
+    "datesCorrected": 0,
+    "episodeDeletions": 0,
+    "artworkActions": 0
+  },
+  "githubChangesThisPass": [
+    "src/mcfly-2026-e61-e62-title-safe-apply.js",
+    ".github/workflows/mcfly-2026-e61-e62-title-safe-apply.yml",
+    "src/mcfly-2026-translation-form-readonly.js",
+    ".github/workflows/mcfly-2026-translation-form-readonly.yml",
+    "reports/mcfly-2026-e61-e62-title-repair/report.json",
+    "reports/mcfly-2026-translation-form-readonly/report.json"
+  ],
+  "safety": {
+    "neverDeleteDueToMissingPublicYoutube": true,
+    "doNotUseArtworks": true,
+    "doNotRetryUncertainSiteSubmissions": true,
+    "noUnverifiedSuccessClaims": true,
+    "keepHistoricalCreatorMappings": true,
+    "stopForNonPersistentWrites": true
+  },
+  "references": {
+    "audit": "https://github.com/LoBa-30/thetvdb-automation/actions/runs/38731878113",
+    "firstFormDiagnostic": "https://github.com/LoBa-30/thetvdb-automation/actions/runs/38733886755",
+    "titleWriteAttempt": "https://github.com/LoBa-30/thetvdb-automation/actions/runs/38734103925",
+    "independentReadOnlyPostcheck": "https://github.com/LoBa-30/thetvdb-automation/actions/runs/38734297671"
+  }
+}
