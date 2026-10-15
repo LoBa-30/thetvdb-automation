@@ -11,15 +11,19 @@ const browser=await chromium.launch({headless:true});
 const context=await browser.newContext({locale:'fr-FR'});
 const page=await context.newPage();
 let locked=false;
-const blocked=[], report={createdAt:new Date().toISOString(),mode:'AUTHENTICATED_READ_ONLY_STRUCTURAL_NO_SITE_WRITES',
+const blocked=[], blockedThirdParty=[], report={createdAt:new Date().toISOString(),mode:'AUTHENTICATED_READ_ONLY_STRUCTURAL_NO_SITE_WRITES',
   creator:'Joyca',videoId:VIDEO,officialVideoUrl:'https://www.youtube.com/watch?v='+VIDEO,
   claimedOfficialDate:DATE,claimedTitle:TITLE,authenticated:false,blockNonReadRequests:true,
   episodeCount2026:null,unassigned:[],existingAssignedMatches:[],unassignedMatches:[],
   safeToCreate:false,siteWrites:0,errors:[]};
 await context.route('**/*',async route=>{
  const req=route.request(), method=req.method().toUpperCase();
- if(locked && /thetvdb\.com/i.test(req.url()) && !['GET','HEAD','OPTIONS'].includes(method)){
-   blocked.push({method,url:req.url()});
+ if(locked && !['GET','HEAD','OPTIONS'].includes(method)){
+   // Only the hostname identifies a TheTVDB write. Ad-tracker URLs may mention
+   // thetvdb.com in query parameters but are NOT operations on the user's account.
+   const host=new URL(req.url()).hostname.toLowerCase();
+   const siteHost=host==='thetvdb.com'||host.endsWith('.thetvdb.com');
+   (siteHost?blocked:blockedThirdParty).push({method,url:req.url()});
    return route.abort('blockedbyclient');
  }
  return route.continue();
@@ -81,11 +85,13 @@ try{
 }catch(e){report.errors.push(String(e?.message||e));}
 finally{
  report.blockedRequests=blocked;
+ report.blockedThirdPartyRequests=blockedThirdParty;
  await browser.close();
  await fs.writeFile(DEST+'/report.json',JSON.stringify(report,null,2)+'\n');
  console.log(JSON.stringify({creator:report.creator,authenticated:report.authenticated,
   season2026Episodes:report.episodeCount2026,unassignedCount:report.unassigned.length,
   assignedMatches:report.existingAssignedMatches.length,unassignedMatches:report.unassignedMatches.length,
-  errors:report.errors,siteWrites:0,blockedRequests:blocked.length,safeToCreate:false}));
+  errors:report.errors,siteWrites:0,blockedRequests:blocked.length,
+  blockedThirdPartyRequests:blockedThirdParty.length,safeToCreate:false}));
  if(report.errors.length || blocked.length)process.exitCode=2;
 }
