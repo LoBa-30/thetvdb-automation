@@ -104,8 +104,21 @@ async function submit(context, page, form, path) {
   };
   await context.route('**/*', guard);
   try {
-    await form.evaluate(f => f.requestSubmit());
-    await page.waitForLoadState('domcontentloaded').catch(() => {});
+    // Use the site's visible Save control and await the exact authorised POST.
+    // Missing / rejected responses are treated as a block; never blindly retry.
+    const save = form.locator('button').filter({hasText: /^Save$/});
+    if (await save.count() !== 1) stop('UNIQUE_SAVE_BUTTON_NOT_FOUND');
+    const post = page.waitForResponse(response => {
+      const u = new URL(response.url());
+      return u.origin === BASE && u.pathname === path && response.request().method() === 'POST';
+    }, {timeout: 30000}).catch(() => null);
+    await save.click();
+    const response = await post;
+    if (!response) stop('NO_CONFIRMED_DATE_POST_RESPONSE');
+    report.checks.push({check: 'DATE_POST_HTTP_RESPONSE', status: response.status(), url: response.url()});
+    if (!response.ok() && ![301, 302, 303].includes(response.status()))
+      stop('DATE_POST_REJECTED_HTTP_' + response.status());
+    await page.waitForLoadState('domcontentloaded', {timeout: 10000}).catch(() => {});
   } finally { await context.unroute('**/*', guard); }
   if (blockedRequest) stop('UNEXPECTED_TVDB_WRITE_' + blockedRequest);
 }
