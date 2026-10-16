@@ -17,7 +17,7 @@ jobs:
     # One user-authorised attempt after fixing the POST/postcheck navigation race.
     # Push trigger is scoped to this workflow file; independent public postchecks
     # and exact-episode guards are still mandatory, no repeat on uncertain write.
-    if: github.event_name == 'push'
+    if: false # Completed and verified 2026-10-16; fail-closed against future accidental reruns
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
