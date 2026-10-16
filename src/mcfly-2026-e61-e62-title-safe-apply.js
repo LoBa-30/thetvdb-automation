@@ -139,12 +139,25 @@ async function submitOne(target,form){
   report.siteWritesAttempted++;
   report.attempts.push({id:target.id,code:target.code,action:form.action,from:form.title,to:target.to});
   try{
+    // Await the actual single authorised POST before attempting any fresh GET.
+    // Earlier report recorded net::ERR_ABORTED because the postcheck navigated
+    // while the French translation submission was still in progress.
+    const received=page.waitForResponse(response=>{
+      const url=new URL(response.url());
+      return url.hostname==='thetvdb.com'&&url.pathname===form.action&&response.request().method()==='POST';
+    },{timeout:30000}).catch(()=>null);
     await form.form.evaluate(f=>f.requestSubmit());
-    await page.waitForLoadState('domcontentloaded').catch(()=>{});
+    const response=await received;
+    if(!response)await stop('NO_CONFIRMED_TRANSLATION_POST_RESPONSE_'+target.id);
+    report.attempts.at(-1).httpStatus=response.status();
+    if(!response.ok()&&!([301,302,303].includes(response.status())))
+      await stop('TRANSLATION_POST_REJECTED_HTTP_'+response.status());
+    await page.waitForLoadState('domcontentloaded',{timeout:10000}).catch(()=>{});
   }finally{
     armedPath=null;
   }
   if(refusedRequest)await stop('UNEXPECTED_NON_READ_REQUEST_'+refusedRequest);
+  // Independent fresh page read, never retry an uncertain write.
   const after=await verifyPublic(target);
   report.verified.push({id:target.id,code:target.code,publicTitle:after.title,correct:after.correct});
   if(!after.correct)await stop('TITLE_POST_NOT_VERIFIED_'+target.id);
