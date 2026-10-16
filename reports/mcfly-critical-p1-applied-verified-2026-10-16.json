@@ -1,0 +1,92 @@
+{
+  "schema": "THETVDB_CRITICAL_FIXES_VERIFIED_V1",
+  "generatedDate": "2026-10-16",
+  "auditBaseline": {
+    "runId": 38850125316,
+    "commit": "19dbc97d60fdcaca803d05e2d16f23aecc5f44e7",
+    "scope": "Nine channels read-only audit"
+  },
+  "scope": "Only three pre-approved P1 Mcfly & Carlito metadata anomalies; no artworks or destructive operations",
+  "appliedAndVerified": [
+    {
+      "episodeId": "12024665",
+      "code": "S2026E61",
+      "youtubeId": "ndo5rHMsBNk",
+      "field": "French episode title",
+      "oldValue": "On découvre Wikimasters (faite monter Mcfly & Carlito en Légendaire svp)",
+      "newValue": "On découvre Wikimasters (faites monter Mcfly & Carlito en Légendaire svp)",
+      "workflowRun": 38879271515,
+      "postStatus": 302,
+      "verifiedPublicTitle": true
+    },
+    {
+      "episodeId": "12031978",
+      "code": "S2026E62",
+      "youtubeId": "dcSfEaDVMOM",
+      "field": "French episode title",
+      "oldValue": "LA BATTLE DES PAYS :on déguste les spécialitées béninoises avec Theodort SHEEEEESH",
+      "newValue": "LA BATTLE DES PAYS : on déguste les spécialités béninoises avec Theodort SHEEEEESH",
+      "workflowRun": 38879271515,
+      "postStatus": 302,
+      "verifiedPublicTitle": true
+    },
+    {
+      "episodeId": "12022496",
+      "code": "S2026E60",
+      "youtubeId": "QG1WcEWOF4g",
+      "field": "airdate",
+      "oldValue": "2026-06-06",
+      "newValue": "2026-10-06",
+      "primaryYoutubePublished": "2026-10-06T15:21:34+00:00",
+      "workflowRun": 38879384897,
+      "postStatus": 302,
+      "verifiedAuthenticatedEditField": true
+    }
+  ],
+  "verificationSourceFiles": [
+    "reports/mcfly-2026-e61-e62-title-repair/report.json",
+    "reports/mcfly-priorities-v22/report.json"
+  ],
+  "workflowOutcome": [
+    {
+      "run": 38879271515,
+      "conclusion": "success"
+    },
+    {
+      "run": 38879384897,
+      "conclusion": "success"
+    }
+  ],
+  "guardrails": {
+    "newEpisodes": 0,
+    "deletedEpisodes": 0,
+    "artworkChanges": 0,
+    "unsafeRetriedWrites": 0,
+    "oneShotTitleWorkflowDisarmed": true,
+    "oneShotDatePushTriggerRemoved": true
+  },
+  "pendingP2": [
+    {
+      "creator": "Mcfly & Carlito",
+      "case": "S2020E07–E10 chronology",
+      "reason": "Live/episode classification and precise chronology require original independent source and non-destructive reorder plan",
+      "action": "HOLD"
+    },
+    {
+      "creator": "Mastu",
+      "case": "S2026E13 provisional YouTube match",
+      "action": "HOLD_NO_PRIMARY_ID"
+    },
+    {
+      "creator": "Joyca",
+      "case": "Potential S2026E18 2026-10-11 promo",
+      "action": "HOLD_ELIGIBILITY"
+    },
+    {
+      "creator": "Squeezie",
+      "case": "Japan Expo 2012 reupload",
+      "action": "HOLD_DUPLICATE_RISK"
+    }
+  ],
+  "policy": "All pre-existing historical/Unassigned records protected; no public video absence alone authorizes deletion"
+}
