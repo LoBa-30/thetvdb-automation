@@ -3,10 +3,6 @@ name: Mcfly PRIORITIES V22 guarded date repair
 # All source proof, immutable-ID, exact date and postcheck guards remain mandatory.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/mcfly-priorities-v22-safe-apply.yml'
 permissions:
   contents: write
 concurrency:
