@@ -14,9 +14,10 @@ concurrency:
   cancel-in-progress: false
 jobs:
   apply:
-    # Fail-closed hold after one unconfirmed E61 POST: authenticated GET-only postcheck
-    # still shows the old title. Never retry automatically (run 38734103925).
-    if: false
+    # One user-authorised attempt after fixing the POST/postcheck navigation race.
+    # Push trigger is scoped to this workflow file; independent public postchecks
+    # and exact-episode guards are still mandatory, no repeat on uncertain write.
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
