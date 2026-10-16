@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:54:34.445Z",
+  "generatedAt": "2026-10-16T09:17:30.172Z",
   "action": "SINGLE_ID_DATE_ONLY",
   "target": {
     "id": "12022496",
@@ -32,20 +32,28 @@
       "check": "CURRENT_AIRDATE",
       "id": "12022496",
       "date": "2026-06-06"
-    }
-  ],
-  "blocked": [
+    },
     {
-      "reason": "POST_WRITE_NOT_PERSISTENT_2026-06-06"
+      "check": "DATE_POST_HTTP_RESPONSE",
+      "status": 302,
+      "url": "https://thetvdb.com/series/338282-show/season/official/episodes/12022496/update"
     }
   ],
-  "writes": [],
+  "blocked": [],
+  "writes": [
+    {
+      "type": "AIRDATE_ONLY",
+      "id": "12022496",
+      "from": "2026-06-06",
+      "to": "2026-10-06"
+    }
+  ],
   "verifications": [
     {
       "id": "12022496",
-      "date": "2026-06-06",
-      "ok": false
+      "date": "2026-10-06",
+      "ok": true
     }
   ],
-  "result": "BLOCKED_OR_REVIEW_REQUIRED"
+  "result": "APPLIED_AND_VERIFIED"
 }

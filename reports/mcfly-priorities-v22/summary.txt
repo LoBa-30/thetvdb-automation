@@ -1,5 +1,4 @@
-result=BLOCKED_OR_REVIEW_REQUIRED
+result=APPLIED_AND_VERIFIED
 authenticated=true
-writes=0
-blocked=1
-reason=POST_WRITE_NOT_PERSISTENT_2026-06-06
+writes=1
+blocked=0
