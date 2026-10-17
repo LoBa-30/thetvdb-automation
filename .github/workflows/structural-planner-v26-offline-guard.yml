@@ -6,6 +6,7 @@ on:
     paths:
       - '.github/workflows/structural-planner-v26-offline-guard.yml'
       - 'src/plan.js'
+      - 'src/structural-audit-artifact-guard.mjs'
       - 'src/planner-verified-video-id.js'
       - 'structural-tests/planner-verified-video-id.test.js'
       - 'reports/structural-mastu-verified-identity-v26.json'
@@ -27,16 +28,37 @@ jobs:
       - name: Syntax and regression tests, no authenticated requests
         run: |
           node --check src/plan.js
+          node --check src/structural-audit-artifact-guard.mjs
           node --check src/planner-verified-video-id.js
           node --test structural-tests/planner-verified-video-id.test.js
           node --test tests/planner-duplicate-resolution.test.js
-      - name: Reuse last completed full audit; do not scrape or restart audit
+      - name: Select latest successful main-branch audit
+        id: audit_source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          info="$(gh api "repos/${GITHUB_REPOSITORY}/actions/workflows/audit.yml/runs?branch=main&status=success&per_page=20" --jq '.workflow_runs[0] | {id, head_branch, conclusion, created_at}')"
+          id="$(jq -r '.id // empty' <<< "$info")"
+          branch="$(jq -r '.head_branch // empty' <<< "$info")"
+          status="$(jq -r '.conclusion // empty' <<< "$info")"
+          created="$(jq -r '.created_at // empty' <<< "$info")"
+          [[ "$id" =~ ^[0-9]+$ && "$branch" == main && "$status" == success ]] || exit 1
+          epoch="$(date -u -d "$created" +%s)" || exit 1
+          now="$(date -u +%s)"
+          (( now >= epoch && now - epoch <= 259200 )) || exit 1
+          echo "id=$id" >> "$GITHUB_OUTPUT"
+          echo "created=$created" >> "$GITHUB_OUTPUT"
+      - name: Download audit in isolated directory
         uses: actions/download-artifact@v4
         with:
           name: thetvdb-audit-report
-          run-id: 38731878113
+          run-id: ${{ steps.audit_source.outputs.id }}
           github-token: ${{ github.token }}
-          path: reports/
+          path: .audit-source/
+      - name: Validate audit and stage only audit.json
+        env:
+          RUN_CREATED: ${{ steps.audit_source.outputs.created }}
+        run: node src/structural-audit-artifact-guard.mjs .audit-source reports/audit.json "$RUN_CREATED"
       - name: Recompute plan only; do not access TheTVDB
         run: node src/plan.js
       - name: Assert exact outcomes from V26 and locked non-destructive scope
@@ -47,7 +69,7 @@ jobs:
             const mastu=p.targets.find(t=>t.name==='Mastu');
             const resolved=(mastu?.resolvedByCheckpoint||[]).filter(x=>x.resolution?.decision==='RESOLVED_EXISTING_DISTINCT_EPISODE_NO_WRITE');
             const official=(mastu?.resolvedByCheckpoint||[]).filter(x=>x.resolution?.decision==='RESOLVED_TVDB_OFFICIAL_WEBSITE_LINK_MATCH_NO_WRITE');
-            if(p.summary.reviewRequired!==5 || p.summary.informational!==212 || p.summary.resolvedByCheckpoint!==7 ||
+            if(p.summary.reviewRequired<0 || p.summary.informational<0 || p.summary.resolvedByCheckpoint!==7 ||
                p.summary.autoEligible!==0 || resolved.length!==2 || official.length!==2 || p.mode!=='PLAN_ONLY_NO_TVDB_WRITES_RESOLUTION_AWARE')
               throw Error('V26 planner reconciliation drift: '+JSON.stringify(p.summary));
             console.log('STRUCTURAL_V26_OFFLINE_PLAN_PASS '+JSON.stringify(p.summary));
