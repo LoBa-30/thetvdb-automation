@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-10-17",
+  "scope": "STRUCTURAL_ONLY_NO_ARTWORK",
+  "mode": "OFFICIAL_YOUTUBE_AND_TVDB_PUBLIC_CROSSCHECK_NO_WRITE",
+  "sourceAuditRun": 39002036440,
+  "sourceAuditGeneratedAt": "2026-10-17T04:18:27.346Z",
+  "resolvedTickets": [
+    {
+      "target": "Mcfly & Carlito",
+      "ticket": "LIKELY_MISSING_FROM_TVDB_OR_NON_EPISODE",
+      "youtubeId": "VJ9KvKcCzIw",
+      "title": "On devine 24 macarons avec Adèle Castillon (qui est forte et géniale)",
+      "decision": "RESOLVED_EXISTING_TVDB_S2026E64_NO_CREATE",
+      "tvdb": "S2026E64",
+      "date": "2026-10-16",
+      "runtimeMinutes": 61,
+      "reason": "Official Mcfly et Carlito YouTube video dated 2026-10-16 matches official TheTVDB season 2026 S2026E64 title and air date; TheTVDB lists 61 min. Existing episode; do not create a duplicate.",
+      "evidence": [
+        {
+          "source": "OFFICIAL_TVDB_SEASON",
+          "url": "https://thetvdb.com/series/338282-show/seasons/official/2026",
+          "observed": "S2026E64, exact title, October 16 2026, 61 min"
+        },
+        {
+          "source": "OFFICIAL_YOUTUBE_VIDEO",
+          "url": "https://www.youtube.com/watch?v=VJ9KvKcCzIw",
+          "observed": "Mcfly et Carlito, exact title, October 16 2026"
+        }
+      ],
+      "writeActions": 0
+    }
+  ],
+  "destructiveActions": 0,
+  "artworksTouched": false
+}
